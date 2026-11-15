@@ -7,10 +7,10 @@ jobs:
   checks:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with: { python-version: '3.12' }
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with: { node-version: '20' }
       - run: python -m py_compile server/app/*.py worker/*.py worker/windows/manager.py tools/*.py
       - run: for f in server/app/static/*.js; do node -e "new Function(require('fs').readFileSync('$f','utf8'))"; done
