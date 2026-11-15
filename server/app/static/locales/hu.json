@@ -1,0 +1,2060 @@
+{
+ "name": "Magyar",
+ "s": {
+  "Re-encode from original": "Újrakódolás az eredetiből",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Újrakódolod a jelenlegi szabályokkal? Az eredeti visszaáll, és a film elsőbbséget kap.",
+  "Back in the queue": "Vissza a sorba",
+  "Restore originals": "Eredetik visszaállítása",
+  "Minimum bitrate (1080p)": "Minimális bitráta (1080p)",
+  "Extra floor (share of the source)": "Extra alsó határ (a forrás arányában)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Opcionális: emellett az eredeti videobitráta legalább ekkora része is megmarad. Csak nagyon nagy bitrátájú forrásoknál hasznos. 0 = ki.",
+  "with the minimum bitrate at most": "a minimális bitrátával legfeljebb",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Az új fájl soha nem megy ez alá, akkor sem, ha a VMAF szerint jó. Más felbontások arányosan: 4K ×2,5 · 720p ×0,55 · SD ×0,3 · HDR +15% · animáció ×0,6.",
+  "bitrate already near the minimum": "a bitráta már az alsó határ közelében",
+  "MFA reset from settings - set it up again": "MFA visszaállítva a beállításokból - állítsd be újra",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA visszaállítva MFA_RESET által - távolítsd el a MFA_RESET-et a konténer beállításaiból",
+  "MFA enabled": "MFA bekapcsolva",
+  "MediaScan started": "MediaScan elindult",
+  "New recovery codes created": "Új helyreállítási kódok létrehozva",
+  "Password changed; other sessions signed out": "Jelszó módosítva; a többi munkamenet kijelentkeztetve",
+  "Password set (first time)": "Jelszó beállítva (első alkalommal)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Figyelem: az ADMIN_PASSWORD 10 karakternél rövidebb - válassz erősebb jelszót a Beállításokban",
+  "part of a DVD/Blu-ray folder": "DVD/Blu-ray mappa része",
+  "folder is in Skip folders": "a mappa a Kihagyott mappák között van",
+  "file disappeared": "a fájl eltűnt",
+  "worker restarted - rescheduled": "worker újraindult - újraütemezve",
+  "worker offline - rescheduled": "worker offline - újraütemezve",
+  "retry after worker update": "újra worker-frissítés után",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray átalakítva mkv-vá",
+  "skipped by you": "általad kihagyva",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "A csere vár, amíg egy filmet éppen néznek, és a Plex minden módosítás után frissül.",
+  "Confirm with your password and a code from your app.": "Erősítsd meg a jelszavaddal és egy kóddal az alkalmazásodból.",
+  "Your old recovery codes will stop working.": "A régi helyreállítási kódjaid érvényüket vesztik.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "A jelenlegi hitelesítő-összekapcsolás és a helyreállítási kódok érvényüket vesztik. Utána azonnal újra beállítod az MFA-t.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Válassz jelszót az irányítópulthoz. A beállítókód a konténer naplójában található (Container Manager › mediascan › Napló, vagy",
+  "- click to remove": "- kattints az eltávolításhoz",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Érvénytelen cím, pl. http://192.168.1.10:32400",
+  "Enter a Plex token": "Adj meg egy Plex tokent",
+  "A password has already been set": "Már van beállított jelszó",
+  "The key is fixed in WORKER_TOKEN (container environment)": "A kulcs rögzítve van a WORKER_TOKEN-ben (a konténer környezete)",
+  "selection still running - pause or wait until it is done": "a kijelölés még fut - szüneteltesd, vagy várd meg, amíg befejeződik",
+  "Now running": "Folyamatban",
+  "Finding the film on the disc": "A film keresése a lemezen",
+  "Converting to one .mkv": "Átalakítás egyetlen .mkv-vá",
+  "Checking (duration, tracks)": "Ellenőrzés (hossz, sávok)",
+  "Copying to the NAS": "Másolás a NAS-ra",
+  "Old folder to quarantine": "Régi mappa a karanténba",
+  "worker has not reported for a while": "a worker egy ideje nem jelentkezett",
+  "waiting for the worker": "várakozás a workerre",
+  "Welcome to MediaScan": "Üdv a MediaScanben",
+  "Setup code": "Beállítókód",
+  "New password (at least 10 characters)": "Új jelszó (legalább 10 karakter)",
+  "Repeat password": "Jelszó ismét",
+  "Set password": "Jelszó beállítása",
+  "The passwords do not match": "A jelszavak nem egyeznek",
+  "Setup code is wrong - check the container log": "Hibás beállítókód - nézd meg a konténer naplóját",
+  "Choose a password of at least 10 characters": "Válassz legalább 10 karakteres jelszót",
+  "Animation folders": "Animációs mappák",
+  "Top-level folders with animation: these may use a lower bitrate.": "Animációt tartalmazó főmappák: ezek alacsonyabb bitrátát kaphatnak.",
+  "Where do I find the token?": "Hol találom a tokent?",
+  "Connect": "Összekapcsolás",
+  "Disconnect": "Leválasztás",
+  "Connected": "Összekapcsolva",
+  "Not connected": "Nincs összekapcsolva",
+  "+ Add language": "+ Nyelv hozzáadása",
+  "Renew": "Megújítás",
+  "Worker version": "Worker-verzió",
+  "Password": "Jelszó",
+  "Other sessions are signed out after a change.": "Módosítás után a többi munkamenet kijelentkezik.",
+  "Change password": "Jelszó módosítása",
+  "Other sessions will be signed out.": "A többi munkamenet kijelentkezik.",
+  "Change": "Módosítás",
+  "New worker key": "Új worker-kulcs",
+  "Create new key": "Új kulcs létrehozása",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Minden worker leáll, amíg meg nem adod az új kulcsot (futtasd újra a telepítőt, vagy módosítsd a worker.ini-t).",
+  "Repeat new password": "Új jelszó ismét",
+  "Password changed": "Jelszó módosítva",
+  "New worker key created": "Új worker-kulcs létrehozva",
+  "Disconnect Plex?": "Leválasztod a Plexet?",
+  "Plex disconnected": "Plex leválasztva",
+  "Plex connected": "Plex összekapcsolva",
+  "Incorrect password": "Helytelen jelszó",
+  "Incorrect code": "Helytelen kód",
+  "Incorrect code from your authenticator app": "Helytelen kód a hitelesítő alkalmazásból",
+  "Too many attempts - try again in 15 minutes": "Túl sok próbálkozás - próbáld újra 15 perc múlva",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "VIDEO_TS vagy BDMV mappák. Az átalakítás egyetlen .mkv-t készít belőlük az összes képpel, hanggal, felirattal és fejezettel.",
+  "Convert to MKV": "Átalakítás MKV-vá",
+  "Folder": "Mappa",
+  "Type": "Típus",
+  "found": "megtalálva",
+  "queued": "sorban",
+  "converting…": "átalakítás…",
+  "converted": "átalakítva",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Az átalakítás mindent 1:1-ben egyetlen .mkv-ba másol: kép (HDR is), minden hangsáv, felirat és fejezet. DVD esetén a leghosszabb címet választja (a filmet). A régi mappa a karanténba kerül, így visszaállítható. Ezután az .mkv a szokásos kódoláson és feliratozáson megy át. A Dolby Vision Blu-rayekből Dolby Vision 8.1-es profil lesz (alapréteg 1:1, DV-metaadatokkal): a Plex és a tévéd Dolby Visionként játssza le, más lejátszók HDR10-ként. Az ilyen filmet utána nem kódolja újra, mert akkor elveszne a Dolby Vision.",
+  "Compare": "Összehasonlítás",
+  "Delete comparison": "Összehasonlítás törlése",
+  "Comparison deleted": "Összehasonlítás törölve",
+  "comparison": "összehasonlítás",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Az eredeti az új verzió mellett: méret, minőség, kép és feliratok. Te választod ki, mely filmeket.",
+  "Original → new": "Eredeti → új",
+  "Quality (VMAF)": "Minőség (VMAF)",
+  "Comparison": "Összehasonlítás",
+  "View": "Megtekintés",
+  "Make comparison": "Összehasonlítás készítése",
+  "previous attempt failed": "az előző próbálkozás sikertelen",
+  "Back": "Vissza",
+  "Make again": "Újrakészítés",
+  "New": "Új",
+  "VMAF whole film": "VMAF teljes film",
+  "Making the frames… this usually takes less than a minute.": "A képkockák készülnek… ez általában kevesebb mint egy perc.",
+  "There is no picture comparison for this film yet.": "Ehhez a filmhez még nincs képösszehasonlítás.",
+  "Picture · drag across the image": "Kép · húzd végig a képen",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "A HDR ehhez a nézethez SDR-re lett alakítva; a tévéden HDR-ben látod.",
+  "How the setting was chosen": "Hogyan lett kiválasztva a beállítás",
+  "Step": "Lépés",
+  "Weakest 5%": "Leggyengébb 5%",
+  "Bitrate": "Bitráta",
+  "chosen": "kiválasztva",
+  "No data.": "Nincs adat.",
+  "Nothing needed, all languages were present.": "Nem kellett semmi, minden nyelv megvolt.",
+  "Not processed yet.": "Még nincs feldolgozva.",
+  "Comparison requested · ready within a minute": "Összehasonlítás kérve · egy percen belül kész",
+  "Delete this comparison? The film itself stays as it is.": "Törlöd ezt az összehasonlítást? Maga a film változatlan marad.",
+  "Not possible": "Nem lehetséges",
+  "Slide between original and new": "Csúsztass az eredeti és az új között",
+  "Overview": "Áttekintés",
+  "Queue": "Sor",
+  "In progress": "Folyamatban",
+  "No gain": "Nincs nyereség",
+  "Failed": "Sikertelen",
+  "Subtitles": "Feliratok",
+  "Recently added": "Nemrég hozzáadva",
+  "Library": "Könyvtár",
+  "Quarantine": "Karantén",
+  "Workers": "Workerek",
+  "Activity": "Tevékenység",
+  "Settings": "Beállítások",
+  "Encoding": "Kódolás",
+  "System": "Rendszer",
+  "Status of the entire library.": "A teljes könyvtár állapota.",
+  "Selection": "Kijelölés",
+  "waiting for worker": "várakozás workerre",
+  "In the selection": "A kijelölésben",
+  "selection": "kijelölés",
+  "Selection · encoding": "Kijelölés · kódolás",
+  "Selection · subtitles": "Kijelölés · feliratok",
+  "Close list": "Lista bezárása",
+  "waiting": "várakozik",
+  "nothing needed": "nem kell semmi",
+  "original kept": "eredeti megtartva",
+  "Find, sync or generate missing subtitles.": "Hiányzó feliratok keresése, szinkronizálása vagy készítése.",
+  "All videos with their current plan. You can also queue items manually here.": "Az összes videó a jelenlegi tervével. Itt kézzel is sorba állíthatsz elemeket.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "A munkát végző gépek. Workerenként válaszd ki, mit csinálhat.",
+  "Log of everything that happens.": "Napló mindenről, ami történik.",
+  "Scan now": "Átvizsgálás most",
+  "Saved": "Megtakarítva",
+  "Free on NAS": "Szabad a NAS-on",
+  "Progress": "Haladás",
+  "Saved per day": "Napi megtakarítás",
+  "last 14 days": "utolsó 14 nap",
+  "Per folder": "Mappánként",
+  "all": "összes",
+  "nothing processed yet": "még nincs feldolgozva semmi",
+  "no measurement yet": "még nincs mérés",
+  "No processed files yet": "Még nincsenek feldolgozott fájlok",
+  "No worker connected yet": "Még nincs csatlakoztatott worker",
+  "no worker": "nincs worker",
+  "worker offline": "worker offline",
+  "online": "online",
+  "disabled": "kikapcsolva",
+  "encoding": "kódolás",
+  "subtitles": "feliratok",
+  "Search by name or folder…": "Keresés név vagy mappa szerint…",
+  "Several titles at once: separate them with |": "Több cím egyszerre: válaszd el őket | jellel",
+  "Nothing to show": "Nincs mit megjeleníteni",
+  "File": "Fájl",
+  "Source": "Forrás",
+  "Status": "Állapot",
+  "Result": "Eredmény",
+  "Languages": "Nyelvek",
+  "Error": "Hiba",
+  "When": "Mikor",
+  "Plan": "Terv",
+  "Added": "Hozzáadva",
+  "Original": "Eredeti",
+  "Size": "Méret",
+  "Replaced": "Lecserélve",
+  "estimate": "becslés",
+  "Name": "Név",
+  "Done": "Kész",
+  "Nothing found": "Nem található semmi",
+  "Process only these": "Csak ezek feldolgozása",
+  "Prioritise": "Elsőbbség",
+  "Skip": "Kihagyás",
+  "Retry": "Újra",
+  "Clear": "Törlés",
+  "Both": "Mindkettő",
+  "Restore original": "Eredeti visszaállítása",
+  "Find subtitles": "Feliratok keresése",
+  "running": "fut",
+  "done": "kész",
+  "failed": "sikertelen",
+  "replacing": "csere",
+  "no gain": "nincs nyereség",
+  "skipped": "kihagyva",
+  "restored": "visszaállítva",
+  "cancelled": "megszakítva",
+  "nothing found": "nem található",
+  "encode": "kódolás",
+  "already efficient": "már hatékony",
+  "small gain": "kis nyereség",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "hiba",
+  "unknown": "ismeretlen",
+  "All": "Összes",
+  "Already efficient": "Már hatékony",
+  "Small gain": "Kis nyereség",
+  "Restored": "Visszaállítva",
+  "Video": "Videó",
+  "Duration": "Időtartam",
+  "Audio": "Hang",
+  "Encode": "Kódolás",
+  "Quality": "Minőség",
+  "Encode time": "Kódolási idő",
+  "Message": "Üzenet",
+  "Started": "Elindítva",
+  "Search": "Keresés",
+  "weakest 5%": "leggyengébb 5%",
+  "video": "videó",
+  "Worker": "Worker",
+  "Hardware": "Hardver",
+  "Resolution": "Felbontás",
+  "Working on": "Ezen dolgozik",
+  "nothing": "semmi",
+  "up to 4K": "4K-ig",
+  "up to 1080p": "1080p-ig",
+  "up to 720p": "720p-ig",
+  "up to SD": "SD-ig",
+  "Remove": "Eltávolítás",
+  "Add worker": "Worker hozzáadása",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Minden worker maga jelenti, mire képes (kódoló megtalálva, Whisper telepítve). Itt döntöd el, mit csinálhat. A módosítások a következő feladattól érvényesek; a futó feladatot előbb befejezi.",
+  "This machine lacks the hardware or software for this": "Ennek a gépnek nincs meg ehhez a hardvere vagy szoftvere",
+  "Quality level": "Minőségi szint",
+  "Standard": "Normál",
+  "High": "Magas",
+  "Maximum": "Maximális",
+  "Custom": "Egyéni",
+  "Custom target": "Egyéni cél",
+  "Average VMAF and the weakest 5% of frames.": "Átlagos VMAF és a képkockák leggyengébb 5%-a.",
+  "avg.": "átl.",
+  "Minimum saving": "Minimális megtakarítás",
+  "If a file saves less, the original is kept.": "Ha egy fájl kevesebbet spórol, az eredeti megmarad.",
+  "Processing": "Feldolgozás",
+  "Storage & safety": "Tárhely és biztonság",
+  "How long replaced originals can be restored.": "Meddig állíthatók vissza a lecserélt eredetik.",
+  "days": "nap",
+  "Above this, the oldest originals are deleted permanently.": "E fölött a legrégebbi eredetik véglegesen törlődnek.",
+  "Safety brake": "Biztonsági fék",
+  "Encoding pauses when the NAS has less free space than this.": "A kódolás szünetel, ha a NAS-on ennél kevesebb a szabad hely.",
+  "Scanning": "Átvizsgálás",
+  "Automatic scan": "Automatikus átvizsgálás",
+  "New files are queued automatically.": "Az új fájlok automatikusan sorba kerülnek.",
+  "Off": "Ki",
+  "Every hour": "Óránként",
+  "Every 6 hours": "6 óránként",
+  "Every 12 hours": "12 óránként",
+  "Daily": "Naponta",
+  "Skip folders": "Kihagyott mappák",
+  "Comma-separated folder names.": "Vesszővel elválasztott mappanevek.",
+  "Plex": "Plex",
+  "Dashboard address": "Irányítópult címe",
+  "Use the IP address of the NAS, not localhost.": "A NAS IP-címét használd, ne a localhostot.",
+  "Worker key": "Worker-kulcs",
+  "Keep secret: with this key a worker can fetch jobs.": "Tartsd titokban: ezzel a kulccsal egy worker feladatokat kérhet le.",
+  "Show": "Mutat",
+  "Copy": "Másolás",
+  "Minimum requirements": "Minimális követelmények",
+  "Account & security": "Fiók és biztonság",
+  "Two-factor authentication": "Kétlépcsős azonosítás",
+  "Not active": "Nem aktív",
+  "New recovery codes": "Új helyreállítási kódok",
+  "Reset MFA": "MFA újbóli beállítása",
+  "Sessions": "Munkamenetek",
+  "Sign out everywhere else": "Kijelentkezés mindenhol máshol",
+  "Sign out": "Kijelentkezés",
+  "You have unsaved changes.": "Nem mentett módosításaid vannak.",
+  "Cancel": "Mégse",
+  "Save": "Mentés",
+  "Language": "Nyelv",
+  "Theme": "Téma",
+  "Light": "Világos",
+  "Dark": "Sötét",
+  "Auto": "Auto",
+  "Dashboard language.": "Az irányítópult nyelve.",
+  "Auto follows your system setting.": "Az Auto a rendszerbeállítást követi.",
+  "Reset": "Újrabeállítás",
+  "Create new codes": "Új kódok létrehozása",
+  "Close": "Bezárás",
+  "Code from your authenticator app": "Kód a hitelesítő alkalmazásból",
+  "Sign in": "Bejelentkezés",
+  "Activate": "Aktiválás",
+  "Set up two-factor authentication": "Kétlépcsős azonosítás beállítása",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Olvasd be a QR-kódot a hitelesítő alkalmazással, és add meg a 6 jegyű kódot.",
+  "Manual:": "Kézzel:",
+  "6-digit code": "6 jegyű kód",
+  "123456 or recovery code": "123456 vagy helyreállítási kód",
+  "Save your recovery codes": "Mentsd el a helyreállítási kódokat",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Elveszett a telefonod? Mindegyik kóddal egyszer jelentkezhetsz be. Csak egyszer jelennek meg.",
+  "I have saved them": "Elmentettem őket",
+  "Save them now, they are shown only once.": "Mentsd el most, csak egyszer jelennek meg.",
+  "Server not responding": "A szerver nem válaszol",
+  "Sign-in failed": "Sikertelen bejelentkezés",
+  "Code is incorrect": "Hibás kód",
+  "Code is incorrect - check the time on your phone": "Hibás kód - ellenőrizd az időt a telefonodon",
+  "Scan started": "Átvizsgálás elindítva",
+  "scan already running": "az átvizsgálás már fut",
+  "Copied": "Másolva",
+  "Resumed": "Folytatva",
+  "Paused: a running job will finish first": "Szüneteltetve: a futó feladat előbb befejeződik",
+  "Added to the queue": "Sorba állítva",
+  "Not applicable": "Nem alkalmazható",
+  "At least one language": "Legalább egy nyelv",
+  "Skip this job?": "Kihagyod ezt a feladatot?",
+  "Restore the original? The new version will be deleted.": "Visszaállítod az eredetit? Az új verzió törlődik.",
+  "on": "be",
+  "off": "ki",
+  "Quarantine cleanup": "Karantén takarítása",
+  "Background task": "Háttérfeladat",
+  "Planning at startup": "Tervezés indításkor",
+  "Welcome": "Üdvözlünk",
+  "Next": "Tovább",
+  "Previous": "Vissza",
+  "Next (or skip)": "Tovább (vagy kihagyás)",
+  "Done, go to the overview": "Kész, irány az áttekintés",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "A MediaScan látható különbség nélkül kisebbé teszi a filmjeidet és sorozataidat, és pótolja a hiányzó feliratokat. Az eredetik csak minőségellenőrzés után cserélődnek, és előbb egy ideig a karanténban maradnak.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Hat rövid lépésben mindent beállítasz. Később mindent módosíthatsz a Beállításokban.",
+  "Your library": "A könyvtárad",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "A MediaScan most videókat keres a médiamappádban. Nagy könyvtárnál az első átvizsgálás eltart egy ideig; nyugodtan folytathatod.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Mappák, amelyekhez a MediaScan sosem nyúl, vesszővel elválasztva (pl. Music, Downloads).",
+  "Scan again": "Átvizsgálás újra",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Válaszd ki, milyen nyelvek legyenek meg minden fájlnál. A hiányzókat a MediaScan az OpenSubtitlesen keresi. Ha ez nem sikerül, a worker maga készíti el a feliratot (beszédfelismerés és fordítás a saját gépeden).",
+  "Click a language to remove it.": "Kattints egy nyelvre az eltávolításához.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Minden filmet VMAF-fel mérünk, ami azt mutatja, milyennek látja a képet az emberi szem. A „Magas” szint szinte mindenki számára megkülönböztethetetlen az eredetitől.",
+  "Higher = better picture, less space saved.": "Magasabb = jobb kép, kevesebb helymegtakarítás.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Biztonsági háló a filmszemcséhez és a sötét jelenetekhez. Az 5 Mbps jó alapérték; a 4K és más felbontások arányosan követik.",
+  "Plex (optional)": "Plex (opcionális)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Összekapcsolt Plex esetén a MediaScan vár a cserével, amíg valaki éppen nézi a filmet, és minden módosítás után frissíti a Plexet. Nincs Plexed? Egyszerűen hagyd ki ezt a lépést.",
+  "Plex address and token": "Plex-cím és token",
+  "Plex token": "Plex-token",
+  "token (unchanged)": "token (változatlan)",
+  "Add a worker": "Worker hozzáadása",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "A nehéz munkát egy jó videokártyás PC vagy Mac végzi: a worker. Telepítsd most, vagy később a Workerek oldalon. Amíg nincs worker, semmi sem történik a fájljaiddal.",
+  "✓ A worker is connected.": "✓ Egy worker csatlakozott.",
+  "Done! MediaScan is set up.": "Kész! A MediaScan be van állítva.",
+  "Connect the media share on the new machine.": "Csatlakoztasd a médiamegosztást az új gépen.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: meghajtóbetűjel vagy \\\\NAS\\Media · Mac: Finder › Kapcsolódás szerverhez · Linux: lásd a csomagban lévő útmutatót.",
+  "Download the package for that system and unpack it.": "Töltsd le az adott rendszerhez való csomagot, és csomagold ki.",
+  "Run the installer.": "Indítsd el a telepítőt.",
+  "The installer asks for the details below and tests the connection.": "A telepítő bekéri az alábbi adatokat, és teszteli a kapcsolatot.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 vagy újabb, Intel Arc vagy 11. gen.+ iGPU, AMD RX 6000+ · 4 mag · 8 GB · 100 GB szabad · vezetékes hálózat. Feliratok: NVIDIA 8 GB+-tal.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (feliratok: 24 GB+) · 150 GB szabad · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "A workerek maguktól frissülnek, ha ennek az irányítópultnak új verziója van.",
+  "What the workers are doing now and what is planned next.": "Mit csinálnak most a workerek, és mi következik.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Fájlok kicsinyítése látható minőségromlás nélkül. A worker fentről lefelé dolgozza fel a sort.",
+  "select page": "oldal kijelölése",
+  "select": "kijelölés",
+  "to encode": "kódolandó",
+  "Movie": "Film",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Lecserélt eredetik, ideiglenesen megőrizve, hogy visszaállíthasd vagy újrakódoltathasd őket.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Hogyan működik a MediaScan: minőség, feliratok, tárhely és biztonság.",
+  "General": "Általános",
+  "Advanced": "Speciális",
+  "Connection": "Kapcsolat",
+  "Hand out new encode jobs to the workers.": "Új kódolási feladatok kiosztása a workereknek.",
+  "Hand out new subtitle jobs to the workers.": "Új feliratfeladatok kiosztása a workereknek.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Mennyire szigorú a VMAF-mérés. Magasabb = jobb kép, kevesebb helymegtakarítás.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Milyen feliratokat kapjon minden fájl. A hiányzókat megkeresi, vagy elkészíti.",
+  "Go to Workers": "Ugrás a Workerekhez",
+  "new": "új",
+  "start": "indul",
+  "Minimum bitrate (4K)": "Minimális bitráta (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Saját alsó határ 4K-hoz az 1080p-érték 2,5-szerese helyett. 0 = automatikus. A HDR +15% és az animáció ×0,6 itt is érvényes.",
+  "Ready to use in a few steps.": "Néhány lépésben használatra kész.",
+  "next": "tovább",
+  "read error": "olvasási hiba",
+  "MFA is already enabled": "Az MFA már be van kapcsolva",
+  "a .mkv with that name already exists": "már létezik ilyen nevű .mkv",
+  "a file already exists at the original location": "az eredeti helyen már van fájl",
+  "action not possible in this status": "a művelet ebben az állapotban nem lehetséges",
+  "walking folders": "mappák bejárása",
+  "planning jobs": "feladatok tervezése",
+  "check on the NAS rejected (duration/tracks)": "az NAS-ellenőrzés elutasítva (hossz/sávok)",
+  "expected a JSON object": "JSON-objektum várt",
+  "ffprobe error": "ffprobe hiba",
+  "invalid resolution": "érvénytelen felbontás",
+  "invalid worker token": "érvénytelen worker-token",
+  "job belongs to another worker": "a feladat másik workerhez tartozik",
+  "job is no longer active": "a feladat már nem aktív",
+  "no video track": "nincs videosáv",
+  "not JSON": "nem JSON",
+  "not signed in": "nincs bejelentkezve",
+  "original disappeared": "az eredeti eltűnt",
+  "original has changed in the meantime": "az eredeti közben megváltozott",
+  "original is no longer in quarantine": "az eredeti már nincs karanténban",
+  "original no longer available": "az eredeti már nem érhető el",
+  "request refused": "kérés elutasítva",
+  "target file already exists": "a célfájl már létezik",
+  "the original has already been removed from quarantine - comparing is no longer possible": "az eredetit már eltávolították a karanténból - az összehasonlítás már nem lehetséges",
+  "this film has not been replaced yet": "ezt a filmet még nem cserélték le",
+  "unknown action": "ismeretlen művelet",
+  "worker is still online": "a worker még online van",
+  "In use now:": "Jelenleg használatban:",
+  "longest": "leghosszabb",
+  "8.1 (from profile 7)": "8.1 (a 7-es profilból)",
+  "Whisper (transcription)": "Whisper (átírás)",
+  "1 day ago": "1 napja",
+  "1 video": "1 videó",
+  "Enter your password to open the dashboard.": "Add meg a jelszavad a vezérlőpult megnyitásához.",
+  "No connection to the server - retrying…": "Nincs kapcsolat a szerverrel - újrapróbálkozás…",
+  "Are you sure?": "Biztos vagy benne?",
+  "Restore": "Visszaállítás",
+  "Re-encode": "Újrakódolás",
+  "Delete": "Törlés",
+  "Next up": "Következik",
+  "in the queue": "a sorban",
+  "Load older entries": "Régebbi bejegyzések betöltése",
+  "Folder: all": "Mappa: mind",
+  "Resolution: all": "Felbontás: mind",
+  "Codec: all": "Kodek: mind",
+  "More": "Több",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "film vár a CPU-kódolóra, de egyik workernél sincs bekapcsolva a CPU-kódolás (Workers oldal).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "A hardvered, mennyire felel meg a munkának, a használt eszközök és a beállítások működése.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Memória",
+  "Software": "Szoftver",
+  "GPU encoding": "GPU-kódolás",
+  "CPU encoding (x265)": "CPU-kódolás (x265)",
+  "Subtitles (Whisper)": "Feliratok (Whisper)",
+  "Translation (Ollama)": "Fordítás (Ollama)",
+  "Server": "Szerver",
+  "Database": "Adatbázis",
+  "Tools in use": "Használt eszközök",
+  "Knowledge base": "Tudásbázis",
+  "Low": "Alacsony",
+  "Medium": "Közepes",
+  "Ultra": "Ultra",
+  "files": "fájl",
+  "up": "fut",
+  "of": "/",
+  "uses": "használ",
+  "free": "szabad",
+  "Media share": "Médiamegosztás",
+  "Rating": "Értékelés",
+  "Hardware details appear after this worker has updated itself.": "A hardveradatok azután jelennek meg, hogy ez a worker frissítette magát.",
+  "no Whisper": "nincs Whisper",
+  "unified memory": "egyesített memória",
+  "cores": "mag",
+  "threads": "szál",
+  "driver": "illesztőprogram",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Ismeretlen",
+  "Settings saved": "Beállítások mentve",
+  "Time left": "Hátralévő idő",
+  "Queued": "Sorban",
+  "Keep originals for": "Eredetik megőrzése",
+  "Quarantine size limit": "Karantén méretkorlátja",
+  "Hide finished items": "Befejezettek elrejtése",
+  "Undo skip": "Kihagyás visszavonása",
+  "not supported here": "itt nem támogatott",
+  "CPU encoding": "CPU-kódolás",
+  "Retry on CPU (x265)": "Újra CPU-n (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "CPU-n kódolva x265-tel (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 szemcsézettségre hangolva a worker CPU-ján: sokkal hatékonyabban őrzi meg a filmszemcsét, de filmenként órákat vesz igénybe",
+  "CPU fallback for grainy films": "CPU-tartalék szemcsés filmekhez",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Ha a GPU nem tudja megtartani a minőséget a forrás bitrátájának túllépése nélkül (filmszemcse), a film még egyszer kódolódik egy worker CPU-ján x265-tel, amely sokkal hatékonyabban őrzi meg a szemcsét. Filmenként órákat vesz igénybe; kapcsold be a CPU-kódolást egy workernél a Workers oldalon.",
+  "CPU preset": "CPU-előbeállítás",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: körülbelül 2 óra egy 2 órás 1080p filmhez 8 magon. Slow: 2-3-szor hosszabb, körülbelül 5-10%-kal kisebb fájlokért.",
+  "Medium (faster)": "Medium (gyorsabb)",
+  "Slow (smaller)": "Slow (kisebb)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Az oldal nem tölthető be.",
+  "up to 1440p": "1440p-ig",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "fájlok elemzése",
+  "No worker has CPU encodes switched on (Workers page)": "Egyik workernél sincs bekapcsolva a CPU-kódolás (Workers oldal)",
+  "the job changed in the meantime": "a feladat időközben megváltozott",
+  "Main": "Főnavigáció",
+  "Clear search and filters": "Keresés és szűrők törlése",
+  "Compact rows": "Kompakt sorok",
+  "Encoding and subtitles are paused.": "A kódolás és a feliratok szüneteltetve.",
+  "Encoding is paused: no new encode jobs are handed out.": "A kódolás szüneteltetve: nincsenek új kódolási feladatok kiosztva.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "A feliratok szüneteltetve: nincsenek új feliratfeladatok kiosztva.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Add meg a Plex-címet és a tokent is, vagy hagyd mindkettőt üresen a kihagyáshoz.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "A NAS szabad helye a biztonsági fék alatt van. A kódolás automatikusan szünetel.",
+  "Loading…": "Betöltés…",
+  "Next film": "Következő film",
+  "Previous film": "Előző film",
+  "Next page": "Következő oldal",
+  "Previous page": "Előző oldal",
+  "Rows per page": "Sorok oldalanként",
+  "Resume": "Folytatás",
+  "Resume encoding": "Kódolás folytatása",
+  "Resume subtitles": "Feliratok folytatása",
+  "Open settings": "Beállítások megnyitása",
+  "Open the library": "Könyvtár megnyitása",
+  "Subtitle languages": "Feliratnyelvek",
+  "Update": "Frissítés",
+  "No results for this search or filter.": "Nincs találat erre a keresésre vagy szűrőre.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Semmi nem vár kódolásra. Az új fájlok egy átvizsgálás után kerülnek a sorba.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Még egy fájl sem lett lecserélve. A kész kódolások a minőségellenőrzés után jelennek meg itt.",
+  "No files were kept as they are. Films that would save too little end up here.": "Egy fájl sem maradt változatlan. Azok a filmek kerülnek ide, amelyekkel túl kevés hely spórolható meg.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Nincs várakozó felirat. A hiányzó nyelvű fájlok egy átvizsgálás után kerülnek a sorba.",
+  "No subtitle job is running right now.": "Jelenleg nem fut feliratfeladat.",
+  "No subtitles have been made yet.": "Még nem készült felirat.",
+  "Nothing missing: every file got its subtitles so far.": "Semmi nem hiányzik: eddig minden fájl megkapta a feliratait.",
+  "No failed encodes.": "Nincs sikertelen kódolás.",
+  "No failed subtitle jobs.": "Nincs sikertelen feliratfeladat.",
+  "Nothing was added in the last 14 days.": "Az utolsó 14 napban semmi nem került hozzáadásra.",
+  "No videos with this plan.": "Nincs videó ezzel a tervvel.",
+  "The library is being scanned; videos appear as they are found.": "A könyvtár átvizsgálása folyik; a videók megjelennek, ahogy megtalálja őket.",
+  "No videos found yet. Check the media folder and run a scan.": "Még nem található videó. Ellenőrizd a médiamappát, és indíts egy átvizsgálást.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Semmi nincs karanténban. A lecserélt eredetik itt maradnak, amíg a megőrzési idő le nem jár.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Nem található DVD- vagy Blu-ray-mappa (VIDEO_TS, BDMV) a könyvtárban.",
+  "1 worker online": "1 worker online",
+  "A worker is busy with this file": "Egy worker ezzel a fájllal dolgozik",
+  "A worker is grabbing the frames": "Egy worker kiveszi a képkockákat",
+  "A worker is searching or making subtitles": "Egy worker feliratot keres vagy készít",
+  "A worker picks up the next job within a few seconds.": "Egy worker néhány másodpercen belül felveszi a következő feladatot.",
+  "Above this, the oldest comparisons are deleted automatically.": "Ezen felül a legrégebbi összehasonlítások automatikusan törlődnek.",
+  "All replaced films": "Minden lecserélt film",
+  "Already efficient: encoding would hardly save anything": "Már hatékony: a kódolás alig spórolna",
+  "Automatic comparisons": "Automatikus összehasonlítások",
+  "Being made…": "Készül…",
+  "Can be made": "Elkészíthető",
+  "Can encode on the CPU with x265": "Tud CPU-n kódolni x265-tel",
+  "Comparison storage limit": "Összehasonlítások tárhelykorlátja",
+  "Comparisons": "Összehasonlítások",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: nincs újrakódolva, a DV réteg elveszne",
+  "Encoding is paused.": "A kódolás szünetel.",
+  "Enlarge": "Nagyítás",
+  "Errors": "Hibák",
+  "Flip": "Váltás",
+  "Four frames of the original and the new version are stored": "Az eredeti és az új verzió négy képkockája el van mentve",
+  "Full width": "Teljes szélesség",
+  "GPU encoder found": "GPU kódoló található",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Minden lecserélt filmből négy képkocka mentése az eredetiből és az új verzióból, hogy a képet bármikor ellenőrizhesd az Összehasonlítás oldalon. Körülbelül 1–2 MB filmenként.",
+  "Keyboard shortcuts": "Billentyűparancsok",
+  "Leave without saving? Your changes to the settings will be lost.": "Kilépsz mentés nélkül? A beállítások módosításai elvesznek.",
+  "Moved to the front": "Előre sorolva",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Még nincs összehasonlítás. Készíts egyet, amíg az eredeti még karanténban van, vagy kapcsold be az automatikus összehasonlításokat a Beállításokban.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Most egyik film sem hasonlítható össze: az eredetik kikerültek a karanténból, vagy még semmi nem lett lecserélve.",
+  "No longer possible": "Már nem lehetséges",
+  "No subtitles found online and none could be made": "Nem található felirat online, és nem is sikerült készíteni",
+  "Ollama found: can translate subtitles": "Ollama található: tud feliratot fordítani",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Egy DVD- vagy Blu-ray-mappa része; alakítsd át a DVD & Blu-ray oldalon",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Automatikusan szüneteltetve: a NAS szabad helye a biztonsági fék alatt van.",
+  "Planned for encoding": "Kódolásra tervezve",
+  "Queued for the CPU encoder": "Sorban a CPU kódolóhoz",
+  "Replaced after the quality check; the original is in quarantine for a while": "Lecserélve a minőségellenőrzés után; az eredeti egy ideig karanténban marad",
+  "Replaced films appear here after their first encode.": "A lecserélt filmek az első kódolás után jelennek meg itt.",
+  "Search the log…": "Keresés a naplóban…",
+  "Show films that can be compared": "Összehasonlítható filmek megjelenítése",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Az eredeti és az új verzió felváltva: a legjobb módja a szemcsézettség és a részletek észlelésének",
+  "Skipped": "Kihagyva",
+  "Skipped by you; Retry puts it back in the queue": "Általad kihagyva; az „Újra” visszateszi a sorba",
+  "Slider back to the middle": "Csúszka vissza középre",
+  "Smaller": "Kisebb",
+  "Stopped because the file changed or disappeared": "Leállt, mert a fájl megváltozott vagy eltűnt",
+  "Stopped with an error; see the message and try again": "Hibával leállt; nézd meg az üzenetet és próbáld újra",
+  "Subtitles are paused.": "A feliratok szünetelnek.",
+  "The file could not be read; see the drawer": "A fájl nem olvasható; lásd az oldalsó panelt",
+  "The new file would save less than the minimum saving, so the original was kept": "Az új fájl kevesebbet spórolna a minimális megtakarításnál, így az eredeti maradt",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Az új verzió a NAS-on van, és akkor kerül a helyére, amikor senki nem nézi",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Az eredeti kikerült a karanténból, így a képkockák már nem menthetők",
+  "The original is still in quarantine, so the frames can still be grabbed": "Az eredeti még karanténban van, így a képkockák még menthetők",
+  "The original was put back from quarantine": "Az eredeti visszaállítva a karanténból",
+  "The queue is empty. New files are queued after a scan.": "A sor üres. Az új fájlok egy keresés után kerülnek a sorba.",
+  "The server hands out newer worker files; the worker installs them after its current job": "A szerver újabb worker-fájlokat oszt ki; a worker az aktuális feladat után telepíti őket",
+  "Undo": "Visszavonás",
+  "Waiting for Plex: someone is watching this film": "Várakozás a Plexre: valaki nézi ezt a filmet",
+  "Waiting for a worker; the queue runs from top to bottom": "Várakozás workerre; a sor fentről lefelé halad",
+  "Warnings": "Figyelmeztetések",
+  "Whisper installed: can make subtitles": "Whisper telepítve: tud feliratot készíteni",
+  "Would save less than the minimum saving": "Kevesebbet spórolna a minimális megtakarításnál",
+  "expires today": "ma lejár",
+  "expires within a day": "egy napon belül lejár",
+  "less than a day left": "kevesebb mint egy nap van hátra",
+  "waiting for Plex": "várakozás a Plexre",
+  "update pending": "frissítés függőben",
+  "Tap to switch between original and new": "Koppints az eredeti és az új közti váltáshoz",
+  "Repeated": "Ismétlődött",
+  "Search in the current list": "Keresés az aktuális listában",
+  "Clear the search, close a drawer or dialog": "Keresés törlése, panel vagy párbeszédablak bezárása",
+  "Previous or next film on a comparison": "Előző vagy következő film egy összehasonlításban",
+  "Open or switch the focused row, switch or header": "A fókuszált sor, kapcsoló vagy fejléc megnyitása vagy átváltása",
+  "This list": "Ez a lista",
+  "Nothing in the log matches this.": "Semmi nem illik erre a naplóban.",
+  "Nothing has happened yet.": "Még nem történt semmi.",
+  "No worker is online, so nothing can run.": "Egy worker sincs online, így semmi nem futhat.",
+  "There is no worker yet. Add one to get started.": "Még nincs worker. Adj hozzá egyet a kezdéshez.",
+  "Open Workers": "Workerek megnyitása",
+  "Some values are out of range.": "Néhány érték a tartományon kívül esik.",
+  "no capabilities reported": "nincs jelentett képesség",
+  "Replaced · expires": "Lecserélve · lejár",
+  "Made": "Elkészült",
+  "Make": "Készítés",
+  "lots of motion": "sok mozgás",
+  "dark scene": "sötét jelenet",
+  "a quarter in": "negyedénél",
+  "three quarters in": "háromnegyedénél",
+  "Encoded": "Kódolva",
+  "Finished": "Befejezve",
+  "later": "később",
+  "Leave": "Kilépés",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Az összehasonlítás 4 képkockát vesz az eredetiből és az új változatból (összesen kb. 1–2 MB). Addig készíthető, amíg az eredeti még karanténban van, és megmarad, amíg nem törlöd – akkor is, ha az eredeti már eltűnt.",
+  "Retry on CPU": "Újra CPU-n",
+  "Scan": "Átvizsgálás"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1indul$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Most: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "A MediaScan $1 videót talált ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · leggyengébb 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "leggyengébb 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Új ($1 nap)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Terv: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "A csere sikertelen ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} sikertelen{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Átvizsgálás kész: $1 videó, $2 új, $3 módosult, $4 eltűnt; $5 kódolási és $6 feliratfeladat hozzáadva"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Átvizsgálás kész: $1 videó, $2 új, $3 módosult, $4 eltűnt, $5 kihagyott mappákban; $6 kódolási és $7 feliratfeladat hozzáadva"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Újrakódolsz $1 filmet a jelenlegi szabályokkal? Az eredetik visszaállnak, és a filmek elsőbbséget kapnak a sorban."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 film vissza a sorba{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 eredeti visszaállítva és újra sorba állítva (jelenlegi szabályok)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Új: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Lecserélve: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray átalakítva: $1 ($2 GB); a lemezmappa a karanténban van"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Eredeti visszaállítva: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 elkezdte: {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 feladat (mind a $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Kijelölés kiosztva - a kódolás automatikusan szünetel"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Kijelölés kiosztva - a feliratozás automatikusan szünetel"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Beállítások módosítva: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Feladat $1, hiba: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Feladat $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "$1 worker offline: $2 feladat vissza a sorba"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 újraindult: $2 megszakított feladat vissza a sorba"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 frissítve erre: $2; $3 sikertelen feladat vissza a sorba"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "$1 worker eltávolítva"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "$1 worker: kódolás {t:$2}, feliratok {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Tervezés frissítve: $1 kódolási és $2 feliratfeladat hozzáadva"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 feladat kézzel sorba állítva"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 feladat: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 összehasonlítás törölve"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Kijelentkezés $1 másik munkamenetből"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Bejelentkezés helyreállítási kóddal ($1 maradt)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Az eredetik legfeljebb $1 napig maradnak meg, és összesen soha nem többet, mint $2. A legrégebbiek mennek először. A visszaállítás törli az új verziót."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - kattints az eltávolításhoz"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 mappa lesz átalakítva · a worker fél percen belül kezd"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 hang · $2 felirat"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Törölsz $1 összehasonlítást? Maguk a filmek változatlanok maradnak."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Képkocka $1 · időpont: $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Képkocka $1 · időpont: $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB jpg-ként"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Kódolási idő $1 perc · 8 részleten mérve, majd a teljes filmen ellenőrizve."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Most megvan: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "leggyengébb 5% $1 · cél $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "időzítés $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "A képkockák készítése sikertelen: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "kijelölés · következő"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "kijelölés · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Most:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· utána még $1 a kijelölésből"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "becslés · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 korábban befejezve · mutat"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 hozzáadva a kijelöléshez · a worker néhány másodpercen belül kezd"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Kijelölés {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "készült: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3%-kal kisebb$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "az imént"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 perce"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 órája"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 napja"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "látva: {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 n $2 ó"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 ó $2 p"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 videó"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "karantén $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 / 24 óra"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 nyereség"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB nyereség"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1%-kal kisebb a feldolgozott fájloknál"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "$1 worker online"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "még $1 indul, aztán szünet"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 elem · $2. oldal / $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 kijelölve"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Mind a $1 találat kijelölése"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Átvizsgálás: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× próbálva"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 perc"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Aktív · $1 helyreállítási kód maradt"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 aktív munkamenet, ezzel együtt."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 frissítve{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 másik munkamenet kijelentkeztetve"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Csak ezt a $1 elemet dolgozod fel? Elsőbbséget kapnak, a feldolgozás folytatódik, majd utána automatikusan újra szünetel."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Kihagysz $1 feladatot?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Visszaállítasz $1 eredetit? Az új verziók törlődnek."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Eltávolítod a(z) $1 workert a listáról? Ha újra online lesz, automatikusan visszakerül."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "$1 óta fut"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 van hátra"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "$1p-ig"
+  ],
+  [
+   "^working on$",
+   "",
+   "ezen dolgozik"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex csatlakoztatva ($1 verzió)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "A Plex nem válaszol megfelelően: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "hiba: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "a csere sikertelen: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "érvénytelen érték ehhez: $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 értéke $2 és $3 között kell legyen"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · legrosszabb 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 ó"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: a GPU nem tudta megtartani a minőséget - sorban a CPU-kódolóra (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Staging-takarítás: maradvány eltávolítva $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 oldalanként"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 worker online"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · a worker hozzáadása, a worker-kulcs és a letöltések a Workerek oldalon vannak."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · ~{t:$2} múlva indul · becslés"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · becslés"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 nap van hátra"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "$1 nap múlva lejár"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Elkészült · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Elkészíthető · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · $1/$2. lépés · ~{t:$3} van hátra"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · $1/$2. lépés"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · ~{t:$1} van hátra"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 összehasonlítás kérve · néhány percen belül kész"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Készítesz $1 összehasonlítást? Körülbelül 1–2 MB mindegyik."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "$1-szer ismétlődött"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "$1 és $2 között"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 feladat"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Hiba a(z) $1 fájlban: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 összehasonlítás kérve"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Összehasonlítások kitakarítva: $1 eltávolítva ($2 MB felett)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "A karanténmappa átnevezve quarantine névre ($1 rekord frissítve)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "$1 worker eltávolítva: $2 feladat vissza a sorba"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Karantén: $1 már létezik, $2 a helyén maradt"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "A karanténmappa átnevezve quarantine névre; $1 rekord frissítve, de $2 még nem üres"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "A karanténmappa átnevezése sikertelen (csatolva van a médiamegosztás?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "az új verzió hiányzik a stagingből"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "az új .mkv hiányzik a stagingből"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "az eredeti eltűnt"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "az eredeti időközben megváltozott"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "az eredeti már nem érhető el"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "a NAS-on végzett ellenőrzés elutasítva (hossz/sávok)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray átalakítva mkv-vá"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "újrapróbálás a worker frissítése után"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "általad kihagyva"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "a célfájl már létezik"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker offline - újraütemezve"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker eltávolítva - újraütemezve"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker újraindítva - újraütemezve"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "a csere sikertelen: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "a Dolby Vision hiányzik az új mkv-ból"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: nincs újrakódolva (a DV-réteg elveszne)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "egy stream nem másolható .mkv-ba: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "az ffmpeg $1 percig nem haladt (megosztás nem érhető el?) - leállítva"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 fájl hiányzik a(z) $2 közül egyszerre - a megosztás nem érhető el? Semmi nem lett eltűntként megjelölve"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "a fordítás sikertelen: nincs használható válasz $1 sorra az újrapróbálások után"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: szerverhiba"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - töltsd le a modellt (ollama pull <model>), vagy javítsd az ollama_model értékét a worker.ini-ben"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "az Ollama nem érhető el itt: $1 ($2) - indítsd el az Ollamát, vagy ellenőrizd az ollama_url értékét"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "az Ollama nem érhető el: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - az Ollama $2 percen át folyamatosan hibázott"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 több mint egy órát tartott - elérhető még a médiamegosztás?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 hiányzik; telepítsd $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "a teljes film VMAF-je ($1) egyik párosítási módszerrel sem hiteles (minták: $2); alacsony itt: $3. Az eredeti megtartva; ellenőrizd ott a forrást"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: a fájl nem olvasható"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: sikertelen"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "nincs elég szabad hely a PC-n ehhez a filmhez ($1 GB szükséges itt: $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "nincs elég hely a munkamappában: $1 GB szabad, ~$2 GB kell"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "a minimális bitrátával legfeljebb $1%-kal kisebb"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "metaadatok kinyerése a bővítő rétegből"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "a letöltés nem egyezik (sha256) - nincs használva"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "ellenőrzés: a hossz vagy a streamek száma eltér"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "az új mkv túl rövid ($1 / $2 perc)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 / $2 kész, várakozás workerre"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "Dolby Vision átalakítása 8.1-es profilra"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "metaadatok beágyazása az alaprétegbe"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "VMAF ellenőrzése (második mérés)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "egyik beállítás sem éri el a minőségi célt"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "letöltési korlát elérve - a többi később"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "OpenSubtitles napi limit elérve"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "részben; a többi a letöltési limit után"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 nem található letöltés után"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: beszélt nyelv felismerve"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (fordítva innen: $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "várakozás szabad helyre a PC-n"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "a feliratfájl szokatlanul nagy"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "az önteszt mérése megbízhatatlan"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "a(z) $1. fordítási kísérlet sikertelen"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "vár: épp nézik a Plexben"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "várhatóan csak $1%-kal kisebb"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "$1 letöltése (egyszeri)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "a teljes filmes ellenőrzés a cél alatt"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "nem lehet képkockát venni itt: $1 mp"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "a teljes film épp a cél alatt"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "a film keresése a lemezen"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "a minőségi cél nem érhető el"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "az ellenőrző mérés megbízhatatlan"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "érvénytelen útvonal a szervertől"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "újra: a minimális nyereség most 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "a Whisper a GPU-n fut"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "nem találhatók címek a DVD-n"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "gyanús útvonal az archívumban"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "vár: a Plex nem érhető el"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "folyamatban: $1 / $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "az OpenSubtitles nem érhető el"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (átírás)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "VMAF ellenőrzése a teljes filmen"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "kész, várakozás a cserére"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "régi mappa a karanténba"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "VMAF-ellenőrzés: $1 túl alacsony"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "lemez beolvasása (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "angolból fordítva"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "kész ($1 / $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "a hang kinyerése sikertelen"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "visszaváltás CPU-ra"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "bejelentkezve az OpenSubtitlesba"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (a 7-es profilból)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "várakozás a workerre"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "gyanús útvonal a zipben"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "a beágyazott EN nem olvasható"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "eddigi leghosszabb: cím"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "az időzítés nem egyezik"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "csak $1%-kal kisebb"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "részlet $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "az eredeti megtartása"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "mai megmaradt letöltések"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "cím $1 ellenőrizve"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "várakozás a cserére"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "másolás a NAS-ra"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "megtartja az eredetit"
+  ],
+  [
+   "translation failed",
+   "g",
+   "a fordítás sikertelen"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "a szerver nem érhető el"
+  ],
+  [
+   "searching quality",
+   "g",
+   "minőség keresése"
+  ],
+  [
+   "making references",
+   "g",
+   "referenciák készítése"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "átalakítás mkv-vá"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "feliratozás leállítva"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "másolás NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "másolás PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "a film keresése"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "egyesítés mkv-vá"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "leghosszabb lejátszási lista"
+  ],
+  [
+   "timing reference",
+   "g",
+   "időzítési referencia"
+  ],
+  [
+   "speech segments",
+   "g",
+   "beszédrészletek"
+  ],
+  [
+   "too little gain",
+   "g",
+   "túl kicsi nyereség"
+  ],
+  [
+   " not applicable",
+   "g",
+   " nem alkalmazható"
+  ],
+  [
+   "download failed",
+   "g",
+   "a letöltés sikertelen"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "ffsubsync után"
+  ],
+  [
+   "translating to",
+   "g",
+   "fordítás erre:"
+  ],
+  [
+   "next candidate",
+   "g",
+   "következő jelölt"
+  ],
+  [
+   "after shifting",
+   "g",
+   "eltolás után"
+  ],
+  [
+   "reading audio",
+   "g",
+   "hang beolvasása"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Kijelölés · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 várakozik"
+  ],
+  [
+   "search failed",
+   "g",
+   "a keresés sikertelen"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "újrakódolás"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "cím $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " hiba"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 kész"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "feliratok:"
+  ],
+  [
+   "replacing",
+   "g",
+   "csere"
+  ],
+  [
+   "subtitles",
+   "g",
+   "feliratok"
+  ],
+  [
+   "candidate",
+   "g",
+   "jelölt"
+  ],
+  [
+   "encoding:",
+   "g",
+   "kódolás:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "indul"
+  ],
+  [
+   "encoding",
+   "g",
+   "kódolás"
+  ],
+  [
+   "checking",
+   "g",
+   "ellenőrzés"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", legfeljebb "
+  ],
+  [
+   "present",
+   "g",
+   "megvan"
+  ],
+  [
+   "missing",
+   "g",
+   "hiányzik"
+  ],
+  [
+   "speed",
+   "g",
+   "sebesség"
+  ],
+  [
+   "saved",
+   "g",
+   "mentve"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "a GPU nem tudta megtartani a minőséget - sorban a CPU-kódolóra (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Staging-takarítás: maradvány eltávolítva"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "a médiamappa üres vagy nincs csatolva - semmi nem változott"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "a minőség megtartásához nagyobb bitráta kellene, mint amennyi a forrásnak van"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "nagyobb bitrátát igényel, mint a forrás"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "a worker újraindul egy frissítéshez"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "nincs videósáv (csak borítókép?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "nincs átírható hangsáv"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "nincs elég szabad hely a PC-n ehhez a filmhez"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "újrapróbálás CPU-n (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "mappák bejárása"
+  ],
+  [
+   "analysing files",
+   "g",
+   "fájlok elemzése"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "feladatok tervezése"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU-kódolás be"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU-kódolás ki"
+  ]
+ ]
+}

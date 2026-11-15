@@ -1,0 +1,2060 @@
+{
+ "name": "한국어",
+ "s": {
+  "Re-encode from original": "원본에서 다시 인코딩",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "현재 규칙으로 다시 인코딩할까요? 원본이 복원되고 이 영화가 우선 처리됩니다.",
+  "Back in the queue": "대기열에 다시 추가됨",
+  "Restore originals": "원본 복원",
+  "Minimum bitrate (1080p)": "최소 비트레이트(1080p)",
+  "Extra floor (share of the source)": "추가 하한(원본 대비 비율)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "선택 사항: 원본 영상 비트레이트의 이 비율 이상도 유지합니다. 비트레이트가 매우 높은 소스에만 유용합니다. 0 = 끔.",
+  "with the minimum bitrate at most": "최소 비트레이트로도 최대",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "VMAF가 허용해도 새 파일은 이 값 아래로 내려가지 않습니다. 다른 해상도는 비례: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · 애니메이션 ×0.6.",
+  "bitrate already near the minimum": "비트레이트가 이미 최소값에 가까움",
+  "MFA reset from settings - set it up again": "설정에서 MFA 재설정됨 - 다시 설정하세요",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA_RESET으로 MFA 재설정됨 - 컨테이너 설정에서 MFA_RESET을 제거하세요",
+  "MFA enabled": "MFA 활성화됨",
+  "MediaScan started": "MediaScan 시작됨",
+  "New recovery codes created": "새 복구 코드 생성됨",
+  "Password changed; other sessions signed out": "비밀번호 변경됨, 다른 세션은 로그아웃됨",
+  "Password set (first time)": "비밀번호 설정됨(최초)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "참고: ADMIN_PASSWORD가 10자 미만입니다 - 설정에서 더 강력한 비밀번호를 선택하세요",
+  "part of a DVD/Blu-ray folder": "DVD/Blu-ray 폴더의 일부",
+  "folder is in Skip folders": "폴더가 건너뛸 폴더에 있습니다",
+  "file disappeared": "파일이 사라졌습니다",
+  "worker restarted - rescheduled": "worker 재시작됨 - 다시 예약됨",
+  "worker offline - rescheduled": "worker 오프라인 - 다시 예약됨",
+  "retry after worker update": "worker 업데이트 후 재시도",
+  "dvd/blu-ray converted to mkv": "DVD/Blu-ray를 mkv로 변환함",
+  "skipped by you": "직접 건너뜀",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "영화를 시청 중일 때는 교체를 기다리며, 변경할 때마다 Plex를 새로 고칩니다.",
+  "Confirm with your password and a code from your app.": "비밀번호와 앱의 코드로 확인하세요.",
+  "Your old recovery codes will stop working.": "기존 복구 코드는 더 이상 작동하지 않습니다.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "현재 인증 앱 연결과 복구 코드는 더 이상 작동하지 않습니다. 바로 MFA를 다시 설정합니다.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "대시보드 비밀번호를 설정하세요. 설정 코드는 컨테이너 로그에 있습니다(Container Manager › mediascan › 로그, 또는",
+  "- click to remove": "- 클릭하여 제거",
+  "Invalid address, e.g. http://192.168.1.10:32400": "잘못된 주소입니다. 예: http://192.168.1.10:32400",
+  "Enter a Plex token": "Plex token을 입력하세요",
+  "A password has already been set": "비밀번호가 이미 설정되어 있습니다",
+  "The key is fixed in WORKER_TOKEN (container environment)": "키는 WORKER_TOKEN(컨테이너 환경 변수)에 고정되어 있습니다",
+  "selection still running - pause or wait until it is done": "선택 항목 처리 중 - 일시 중지하거나 완료될 때까지 기다리세요",
+  "Now running": "실행 중",
+  "Finding the film on the disc": "디스크에서 영화 찾는 중",
+  "Converting to one .mkv": "하나의 .mkv로 변환 중",
+  "Checking (duration, tracks)": "확인 중(길이, 트랙)",
+  "Copying to the NAS": "NAS로 복사 중",
+  "Old folder to quarantine": "기존 폴더를 격리 보관함으로",
+  "worker has not reported for a while": "worker가 한동안 보고하지 않음",
+  "waiting for the worker": "worker 대기 중",
+  "Welcome to MediaScan": "MediaScan에 오신 것을 환영합니다",
+  "Setup code": "설정 코드",
+  "New password (at least 10 characters)": "새 비밀번호(10자 이상)",
+  "Repeat password": "비밀번호 확인",
+  "Set password": "비밀번호 설정",
+  "The passwords do not match": "비밀번호가 일치하지 않습니다",
+  "Setup code is wrong - check the container log": "설정 코드가 잘못되었습니다 - 컨테이너 로그를 확인하세요",
+  "Choose a password of at least 10 characters": "10자 이상의 비밀번호를 선택하세요",
+  "Animation folders": "애니메이션 폴더",
+  "Top-level folders with animation: these may use a lower bitrate.": "애니메이션이 있는 최상위 폴더: 더 낮은 비트레이트를 사용할 수 있습니다.",
+  "Where do I find the token?": "token은 어디서 찾나요?",
+  "Connect": "연결",
+  "Disconnect": "연결 해제",
+  "Connected": "연결됨",
+  "Not connected": "연결 안 됨",
+  "+ Add language": "+ 언어 추가",
+  "Renew": "갱신",
+  "Worker version": "Worker 버전",
+  "Password": "비밀번호",
+  "Other sessions are signed out after a change.": "변경 후 다른 세션은 로그아웃됩니다.",
+  "Change password": "비밀번호 변경",
+  "Other sessions will be signed out.": "다른 세션은 로그아웃됩니다.",
+  "Change": "변경",
+  "New worker key": "새 worker 키",
+  "Create new key": "새 키 생성",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "새 키를 입력할 때까지 모든 worker가 중지됩니다(설치 프로그램을 다시 실행하거나 worker.ini 편집).",
+  "Repeat new password": "새 비밀번호 확인",
+  "Password changed": "비밀번호가 변경되었습니다",
+  "New worker key created": "새 worker 키가 생성되었습니다",
+  "Disconnect Plex?": "Plex 연결을 해제할까요?",
+  "Plex disconnected": "Plex 연결 해제됨",
+  "Plex connected": "Plex 연결됨",
+  "Incorrect password": "비밀번호가 올바르지 않습니다",
+  "Incorrect code": "코드가 올바르지 않습니다",
+  "Incorrect code from your authenticator app": "인증 앱의 코드가 올바르지 않습니다",
+  "Too many attempts - try again in 15 minutes": "시도 횟수 초과 - 15분 후에 다시 시도하세요",
+  "DVD & Blu-ray": "DVD 및 Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "VIDEO_TS 또는 BDMV가 있는 폴더. 변환하면 모든 영상, 오디오, 자막, 챕터를 담은 하나의 .mkv가 됩니다.",
+  "Convert to MKV": "MKV로 변환",
+  "Folder": "폴더",
+  "Type": "유형",
+  "found": "발견됨",
+  "queued": "대기 중",
+  "converting…": "변환 중…",
+  "converted": "변환됨",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "변환은 모든 것을 1:1로 하나의 .mkv에 복사합니다: 영상(HDR 포함), 모든 오디오 트랙, 자막, 챕터. DVD는 가장 긴 타이틀(영화)을 선택합니다. 기존 폴더는 격리 보관함으로 이동하므로 복원할 수 있습니다. 이후 .mkv는 일반 인코딩과 자막 처리를 거칩니다. Dolby Vision Blu-ray는 Dolby Vision profile 8.1이 됩니다(베이스 레이어 1:1, DV 메타데이터 추가): Plex와 TV에서는 Dolby Vision으로, 다른 플레이어에서는 HDR10으로 재생됩니다. 이러한 영화는 Dolby Vision이 손실되므로 이후 다시 인코딩하지 않습니다.",
+  "Compare": "비교",
+  "Delete comparison": "비교 삭제",
+  "Comparison deleted": "비교가 삭제되었습니다",
+  "comparison": "비교",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "원본과 새 버전을 나란히: 크기, 품질, 화면, 자막. 영화를 직접 선택합니다.",
+  "Original → new": "원본 → 새 버전",
+  "Quality (VMAF)": "품질(VMAF)",
+  "Comparison": "비교",
+  "View": "보기",
+  "Make comparison": "비교 생성",
+  "previous attempt failed": "이전 시도 실패",
+  "Back": "뒤로",
+  "Make again": "다시 생성",
+  "New": "새 버전",
+  "VMAF whole film": "VMAF 전체 영화",
+  "Making the frames… this usually takes less than a minute.": "프레임 생성 중… 보통 1분 이내에 완료됩니다.",
+  "There is no picture comparison for this film yet.": "이 영화의 화면 비교가 아직 없습니다.",
+  "Picture · drag across the image": "화면 · 이미지 위로 드래그",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "이 보기에서는 HDR을 SDR로 변환했습니다. TV에서는 HDR로 표시됩니다.",
+  "How the setting was chosen": "설정 선택 과정",
+  "Step": "단계",
+  "Weakest 5%": "최저 5%",
+  "Bitrate": "비트레이트",
+  "chosen": "선택됨",
+  "No data.": "데이터 없음.",
+  "Nothing needed, all languages were present.": "필요 없음. 모든 언어가 있습니다.",
+  "Not processed yet.": "아직 처리되지 않음.",
+  "Comparison requested · ready within a minute": "비교 요청됨 · 1분 이내 준비",
+  "Delete this comparison? The film itself stays as it is.": "이 비교를 삭제할까요? 영화 자체는 그대로 유지됩니다.",
+  "Not possible": "불가능",
+  "Slide between original and new": "원본과 새 버전 사이를 슬라이드",
+  "Overview": "개요",
+  "Queue": "대기열",
+  "In progress": "진행 중",
+  "No gain": "이득 없음",
+  "Failed": "실패",
+  "Subtitles": "자막",
+  "Recently added": "최근 추가",
+  "Library": "라이브러리",
+  "Quarantine": "격리 보관함",
+  "Workers": "Worker",
+  "Activity": "활동",
+  "Settings": "설정",
+  "Encoding": "인코딩",
+  "System": "시스템",
+  "Status of the entire library.": "전체 라이브러리 상태.",
+  "Selection": "선택",
+  "waiting for worker": "worker 대기 중",
+  "In the selection": "선택 항목에 포함",
+  "selection": "선택",
+  "Selection · encoding": "선택 · 인코딩",
+  "Selection · subtitles": "선택 · 자막",
+  "Close list": "목록 닫기",
+  "waiting": "대기 중",
+  "nothing needed": "필요 없음",
+  "original kept": "원본 유지",
+  "Find, sync or generate missing subtitles.": "누락된 자막을 찾거나 동기화하거나 생성합니다.",
+  "All videos with their current plan. You can also queue items manually here.": "모든 동영상과 현재 계획. 여기서 직접 대기열에 추가할 수도 있습니다.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "작업을 수행하는 컴퓨터. 각 worker가 할 수 있는 작업을 선택하세요.",
+  "Log of everything that happens.": "모든 이벤트 로그.",
+  "Scan now": "지금 스캔",
+  "Saved": "절감량",
+  "Free on NAS": "NAS 여유 공간",
+  "Progress": "진행률",
+  "Saved per day": "일별 절감량",
+  "last 14 days": "최근 14일",
+  "Per folder": "폴더별",
+  "all": "전체",
+  "nothing processed yet": "아직 처리된 항목 없음",
+  "no measurement yet": "아직 측정 없음",
+  "No processed files yet": "아직 처리된 파일이 없습니다",
+  "No worker connected yet": "아직 연결된 worker가 없습니다",
+  "no worker": "worker 없음",
+  "worker offline": "worker 오프라인",
+  "online": "온라인",
+  "disabled": "비활성화됨",
+  "encoding": "인코딩",
+  "subtitles": "자막",
+  "Search by name or folder…": "이름 또는 폴더로 검색…",
+  "Several titles at once: separate them with |": "여러 제목을 한 번에: |로 구분",
+  "Nothing to show": "표시할 항목 없음",
+  "File": "파일",
+  "Source": "소스",
+  "Status": "상태",
+  "Result": "결과",
+  "Languages": "언어",
+  "Error": "오류",
+  "When": "시간",
+  "Plan": "계획",
+  "Added": "추가됨",
+  "Original": "원본",
+  "Size": "크기",
+  "Replaced": "교체됨",
+  "estimate": "예상",
+  "Name": "이름",
+  "Done": "완료",
+  "Nothing found": "찾을 수 없음",
+  "Process only these": "이것만 처리",
+  "Prioritise": "우선 처리",
+  "Skip": "건너뛰기",
+  "Retry": "재시도",
+  "Clear": "지우기",
+  "Both": "둘 다",
+  "Restore original": "원본 복원",
+  "Find subtitles": "자막 찾기",
+  "running": "실행 중",
+  "done": "완료",
+  "failed": "실패",
+  "replacing": "교체 중",
+  "no gain": "이득 없음",
+  "skipped": "건너뜀",
+  "restored": "복원됨",
+  "cancelled": "취소됨",
+  "nothing found": "찾을 수 없음",
+  "encode": "인코딩",
+  "already efficient": "이미 효율적",
+  "small gain": "이득 적음",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "오류",
+  "unknown": "알 수 없음",
+  "All": "전체",
+  "Already efficient": "이미 효율적",
+  "Small gain": "이득 적음",
+  "Restored": "복원됨",
+  "Video": "영상",
+  "Duration": "길이",
+  "Audio": "오디오",
+  "Encode": "인코딩",
+  "Quality": "품질",
+  "Encode time": "인코딩 시간",
+  "Message": "메시지",
+  "Started": "시작됨",
+  "Search": "검색",
+  "weakest 5%": "최저 5%",
+  "video": "영상",
+  "Worker": "Worker",
+  "Hardware": "하드웨어",
+  "Resolution": "해상도",
+  "Working on": "작업 중",
+  "nothing": "없음",
+  "up to 4K": "최대 4K",
+  "up to 1080p": "최대 1080p",
+  "up to 720p": "최대 720p",
+  "up to SD": "최대 SD",
+  "Remove": "제거",
+  "Add worker": "worker 추가",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "각 worker는 할 수 있는 작업(인코더 발견, Whisper 설치 여부)을 보고합니다. 여기서 허용할 작업을 결정합니다. 변경 사항은 다음 작업부터 적용되며, 실행 중인 작업은 먼저 완료됩니다.",
+  "This machine lacks the hardware or software for this": "이 컴퓨터에는 필요한 하드웨어 또는 소프트웨어가 없습니다",
+  "Quality level": "품질 수준",
+  "Standard": "표준",
+  "High": "높음",
+  "Maximum": "최대",
+  "Custom": "사용자 지정",
+  "Custom target": "사용자 지정 목표",
+  "Average VMAF and the weakest 5% of frames.": "평균 VMAF와 최저 5% 프레임.",
+  "avg.": "평균",
+  "Minimum saving": "최소 절감",
+  "If a file saves less, the original is kept.": "절감량이 이보다 적으면 원본을 유지합니다.",
+  "Processing": "처리",
+  "Storage & safety": "저장 공간 및 안전",
+  "How long replaced originals can be restored.": "교체된 원본을 복원할 수 있는 기간.",
+  "days": "일",
+  "Above this, the oldest originals are deleted permanently.": "이를 초과하면 가장 오래된 원본이 영구 삭제됩니다.",
+  "Safety brake": "안전 브레이크",
+  "Encoding pauses when the NAS has less free space than this.": "NAS 여유 공간이 이보다 적으면 인코딩을 일시 중지합니다.",
+  "Scanning": "스캔",
+  "Automatic scan": "자동 스캔",
+  "New files are queued automatically.": "새 파일은 자동으로 대기열에 추가됩니다.",
+  "Off": "끔",
+  "Every hour": "매시간",
+  "Every 6 hours": "6시간마다",
+  "Every 12 hours": "12시간마다",
+  "Daily": "매일",
+  "Skip folders": "건너뛸 폴더",
+  "Comma-separated folder names.": "쉼표로 구분한 폴더 이름.",
+  "Plex": "Plex",
+  "Dashboard address": "대시보드 주소",
+  "Use the IP address of the NAS, not localhost.": "localhost가 아닌 NAS의 IP 주소를 사용하세요.",
+  "Worker key": "Worker 키",
+  "Keep secret: with this key a worker can fetch jobs.": "비밀로 유지하세요: 이 키가 있으면 worker가 작업을 가져올 수 있습니다.",
+  "Show": "표시",
+  "Copy": "복사",
+  "Minimum requirements": "최소 요구 사항",
+  "Account & security": "계정 및 보안",
+  "Two-factor authentication": "2단계 인증",
+  "Not active": "비활성",
+  "New recovery codes": "새 복구 코드",
+  "Reset MFA": "MFA 재설정",
+  "Sessions": "세션",
+  "Sign out everywhere else": "다른 모든 곳에서 로그아웃",
+  "Sign out": "로그아웃",
+  "You have unsaved changes.": "저장하지 않은 변경 사항이 있습니다.",
+  "Cancel": "취소",
+  "Save": "저장",
+  "Language": "언어",
+  "Theme": "테마",
+  "Light": "라이트",
+  "Dark": "다크",
+  "Auto": "자동",
+  "Dashboard language.": "대시보드 언어.",
+  "Auto follows your system setting.": "자동은 시스템 설정을 따릅니다.",
+  "Reset": "재설정",
+  "Create new codes": "새 코드 생성",
+  "Close": "닫기",
+  "Code from your authenticator app": "인증 앱의 코드",
+  "Sign in": "로그인",
+  "Activate": "활성화",
+  "Set up two-factor authentication": "2단계 인증 설정",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "인증 앱으로 QR 코드를 스캔하고 6자리 코드를 입력하세요.",
+  "Manual:": "수동:",
+  "6-digit code": "6자리 코드",
+  "123456 or recovery code": "123456 또는 복구 코드",
+  "Save your recovery codes": "복구 코드 저장",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "휴대폰을 잃어버렸나요? 각 코드로 한 번씩 로그인할 수 있습니다. 한 번만 표시됩니다.",
+  "I have saved them": "저장했습니다",
+  "Save them now, they are shown only once.": "지금 저장하세요. 한 번만 표시됩니다.",
+  "Server not responding": "서버가 응답하지 않습니다",
+  "Sign-in failed": "로그인 실패",
+  "Code is incorrect": "코드가 올바르지 않습니다",
+  "Code is incorrect - check the time on your phone": "코드가 올바르지 않습니다 - 휴대폰의 시간을 확인하세요",
+  "Scan started": "스캔 시작됨",
+  "scan already running": "스캔이 이미 실행 중입니다",
+  "Copied": "복사됨",
+  "Resumed": "재개됨",
+  "Paused: a running job will finish first": "일시 중지됨: 실행 중인 작업은 먼저 완료됩니다",
+  "Added to the queue": "대기열에 추가됨",
+  "Not applicable": "해당 없음",
+  "At least one language": "언어를 하나 이상 선택",
+  "Skip this job?": "이 작업을 건너뛸까요?",
+  "Restore the original? The new version will be deleted.": "원본을 복원할까요? 새 버전은 삭제됩니다.",
+  "on": "켬",
+  "off": "끔",
+  "Quarantine cleanup": "격리 보관함 정리",
+  "Background task": "백그라운드 작업",
+  "Planning at startup": "시작 시 계획",
+  "Welcome": "환영합니다",
+  "Next": "다음",
+  "Previous": "이전",
+  "Next (or skip)": "다음(또는 건너뛰기)",
+  "Done, go to the overview": "완료, 개요로 이동",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan은 눈에 띄는 차이 없이 영화와 프로그램의 용량을 줄이고, 누락된 자막을 채워 줍니다. 원본은 품질 검사를 통과한 후에만 교체되며, 먼저 일정 기간 격리 보관함에 보관됩니다.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "간단한 6단계만 거치면 설정이 끝납니다. 모든 항목은 나중에 설정에서 변경할 수 있습니다.",
+  "Your library": "내 라이브러리",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan이 지금 미디어 폴더에서 동영상을 찾고 있습니다. 라이브러리가 크면 첫 스캔에 시간이 걸리지만, 그대로 계속 진행해도 됩니다.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "MediaScan이 절대 건드리지 않는 폴더, 쉼표로 구분(예: Music, Downloads).",
+  "Scan again": "다시 스캔",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "모든 파일에 있어야 할 언어를 선택하세요. MediaScan은 누락된 자막을 OpenSubtitles에서 찾습니다. 찾지 못하면 worker가 직접 자막을 만듭니다(내 PC에서 음성 인식 및 번역).",
+  "Click a language to remove it.": "언어를 클릭하면 제거됩니다.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "모든 영화는 사람의 눈에 화면이 어떻게 보이는지를 나타내는 점수인 VMAF로 측정됩니다. \"높음\"은 거의 모든 사람에게 원본과 구별되지 않습니다.",
+  "Higher = better picture, less space saved.": "높을수록 화질이 좋고 절감 공간은 적습니다.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "그레인과 어두운 장면을 위한 안전장치. 5 Mbps가 좋은 기본값이며, 4K 및 다른 해상도는 그에 맞게 조정됩니다.",
+  "Plex (optional)": "Plex(선택 사항)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Plex를 연결하면 MediaScan은 누군가 시청 중인 영화의 교체를 기다리고, 변경할 때마다 Plex를 새로 고칩니다. Plex가 없나요? 이 단계를 건너뛰세요.",
+  "Plex address and token": "Plex 주소 및 token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token(변경 안 됨)",
+  "Add a worker": "worker 추가",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "무거운 작업은 좋은 그래픽 카드가 있는 PC 또는 Mac, 즉 worker에서 수행됩니다. 지금 설치하거나 나중에 Worker에서 설치하세요. worker가 없는 동안에는 파일에 아무 일도 일어나지 않습니다.",
+  "✓ A worker is connected.": "✓ worker가 연결되었습니다.",
+  "Done! MediaScan is set up.": "완료! MediaScan 설정이 끝났습니다.",
+  "Connect the media share on the new machine.": "새 컴퓨터에서 미디어 공유를 연결하세요.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: 드라이브 문자 또는 \\\\NAS\\Media · Mac: Finder › 서버에 연결 · Linux: 패키지의 안내를 참조하세요.",
+  "Download the package for that system and unpack it.": "해당 시스템용 패키지를 다운로드하고 압축을 푸세요.",
+  "Run the installer.": "설치 프로그램을 실행하세요.",
+  "The installer asks for the details below and tests the connection.": "설치 프로그램이 아래 정보를 묻고 연결을 테스트합니다.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 이상, Intel Arc 또는 11세대+ iGPU, AMD RX 6000+ · 4코어 · 8 GB · 여유 공간 100 GB · 유선 네트워크. 자막: NVIDIA 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon(M1+) · macOS 13+ · 16 GB(자막: 24 GB+) · 여유 공간 150 GB · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "이 대시보드에 새 버전이 있으면 worker가 자동으로 업데이트됩니다.",
+  "What the workers are doing now and what is planned next.": "Worker가 지금 하는 작업과 다음 계획.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "눈에 띄는 화질 저하 없이 파일 크기를 줄입니다. Worker는 대기열을 위에서 아래로 처리합니다.",
+  "select page": "페이지 선택",
+  "select": "선택",
+  "to encode": "인코딩 대상",
+  "Movie": "영화",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "교체된 원본. 복원하거나 다시 인코딩할 수 있도록 일정 기간 보관합니다.",
+  "How MediaScan works: quality, subtitles, storage and security.": "MediaScan 작동 방식: 품질, 자막, 저장 공간 및 보안.",
+  "General": "일반",
+  "Advanced": "고급",
+  "Connection": "연결",
+  "Hand out new encode jobs to the workers.": "worker에게 새 인코딩 작업을 배분합니다.",
+  "Hand out new subtitle jobs to the workers.": "worker에게 새 자막 작업을 배분합니다.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "VMAF 측정의 엄격도. 높을수록 화질이 좋고 절감 공간은 적습니다.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "모든 파일에 있어야 할 자막. 누락된 자막은 검색하고, 없으면 생성합니다.",
+  "Go to Workers": "Worker로 이동",
+  "new": "새로 추가",
+  "start": "시작",
+  "Minimum bitrate (4K)": "최소 비트레이트 (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "1080p 값의 2.5배 대신 4K 전용 하한을 사용합니다. 0 = 자동. HDR +15% 및 애니메이션 ×0.6도 여기에 적용됩니다.",
+  "Ready to use in a few steps.": "몇 단계만 거치면 사용할 수 있습니다.",
+  "next": "다음",
+  "read error": "읽기 오류",
+  "MFA is already enabled": "MFA가 이미 켜져 있습니다",
+  "a .mkv with that name already exists": "같은 이름의 .mkv가 이미 있습니다",
+  "a file already exists at the original location": "원래 위치에 파일이 이미 있습니다",
+  "action not possible in this status": "이 상태에서는 해당 동작을 할 수 없습니다",
+  "walking folders": "폴더 탐색 중",
+  "planning jobs": "작업 계획 중",
+  "check on the NAS rejected (duration/tracks)": "NAS 검사 거부됨 (길이/트랙)",
+  "expected a JSON object": "JSON 객체가 필요합니다",
+  "ffprobe error": "ffprobe 오류",
+  "invalid resolution": "잘못된 해상도",
+  "invalid worker token": "잘못된 worker 토큰",
+  "job belongs to another worker": "다른 worker의 작업입니다",
+  "job is no longer active": "작업이 더 이상 활성 상태가 아닙니다",
+  "no video track": "비디오 트랙 없음",
+  "not JSON": "JSON이 아닙니다",
+  "not signed in": "로그인되지 않음",
+  "original disappeared": "원본이 사라졌습니다",
+  "original has changed in the meantime": "그 사이 원본이 변경되었습니다",
+  "original is no longer in quarantine": "원본이 더 이상 격리 상태가 아닙니다",
+  "original no longer available": "원본을 더 이상 사용할 수 없습니다",
+  "request refused": "요청이 거부되었습니다",
+  "target file already exists": "대상 파일이 이미 있습니다",
+  "the original has already been removed from quarantine - comparing is no longer possible": "원본이 이미 격리에서 삭제되어 비교할 수 없습니다",
+  "this film has not been replaced yet": "이 영화는 아직 교체되지 않았습니다",
+  "unknown action": "알 수 없는 작업",
+  "worker is still online": "worker가 아직 온라인입니다",
+  "In use now:": "현재 사용 중:",
+  "longest": "가장 긴",
+  "8.1 (from profile 7)": "8.1 (프로필 7에서)",
+  "Whisper (transcription)": "Whisper (음성 인식)",
+  "1 day ago": "1일 전",
+  "1 video": "동영상 1개",
+  "Enter your password to open the dashboard.": "대시보드를 열려면 비밀번호를 입력하세요.",
+  "No connection to the server - retrying…": "서버에 연결할 수 없습니다 - 다시 시도 중…",
+  "Are you sure?": "정말 진행할까요?",
+  "Restore": "복원",
+  "Re-encode": "다시 인코딩",
+  "Delete": "삭제",
+  "Next up": "다음 순서",
+  "in the queue": "대기 중",
+  "Load older entries": "이전 항목 불러오기",
+  "Folder: all": "폴더: 전체",
+  "Resolution: all": "해상도: 전체",
+  "Codec: all": "코덱: 전체",
+  "More": "더보기",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "개 영화가 CPU 인코더를 기다리고 있지만 CPU 인코딩이 켜진 워커가 없습니다 (Workers 페이지).",
+  "Info": "정보",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "하드웨어, 작업 적합도, 사용 중인 도구, 설정 작동 방식.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "메모리",
+  "Software": "소프트웨어",
+  "GPU encoding": "GPU 인코딩",
+  "CPU encoding (x265)": "CPU 인코딩 (x265)",
+  "Subtitles (Whisper)": "자막 (Whisper)",
+  "Translation (Ollama)": "번역 (Ollama)",
+  "Server": "서버",
+  "Database": "데이터베이스",
+  "Tools in use": "사용 중인 도구",
+  "Knowledge base": "지식 베이스",
+  "Low": "낮음",
+  "Medium": "보통",
+  "Ultra": "울트라",
+  "files": "개 파일",
+  "up": "가동",
+  "of": "/",
+  "uses": "사용",
+  "free": "여유",
+  "Media share": "미디어 공유",
+  "Rating": "평가",
+  "Hardware details appear after this worker has updated itself.": "이 워커가 업데이트되면 하드웨어 정보가 표시됩니다.",
+  "no Whisper": "Whisper 없음",
+  "unified memory": "통합 메모리",
+  "cores": "코어",
+  "threads": "스레드",
+  "driver": "드라이버",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "알 수 없음",
+  "Settings saved": "설정이 저장되었습니다",
+  "Time left": "남은 시간",
+  "Queued": "대기 중",
+  "Keep originals for": "원본 보관 기간",
+  "Quarantine size limit": "격리 보관함 크기 제한",
+  "Hide finished items": "완료된 항목 숨기기",
+  "Undo skip": "건너뛰기 취소",
+  "not supported here": "여기서는 지원 안 됨",
+  "CPU encoding": "CPU 인코딩",
+  "Retry on CPU (x265)": "CPU에서 재시도 (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "CPU에서 x265로 인코딩됨 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "worker의 CPU에서 그레인 튜닝된 x265: 필름 그레인을 훨씬 효율적으로 보존하지만 영화 한 편에 몇 시간이 걸립니다",
+  "CPU fallback for grainy films": "그레인이 많은 영화용 CPU 대체 인코딩",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "GPU가 원본 비트레이트를 넘지 않고는 품질을 유지할 수 없을 때(필름 그레인), 영화를 worker의 CPU에서 x265로 한 번 더 인코딩합니다. x265는 그레인을 훨씬 효율적으로 보존합니다. 영화 한 편에 몇 시간이 걸리며, Workers 페이지에서 worker의 CPU 인코딩을 켜세요.",
+  "CPU preset": "CPU 프리셋",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: 8코어에서 2시간짜리 1080p 영화에 약 2시간. Slow: 2~3배 더 오래 걸리고 파일은 약 5~10% 더 작아집니다.",
+  "Medium (faster)": "Medium (더 빠름)",
+  "Slow (smaller)": "Slow (더 작음)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "이 페이지를 불러올 수 없습니다.",
+  "up to 1440p": "최대 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "파일 분석 중",
+  "No worker has CPU encodes switched on (Workers page)": "CPU 인코딩이 켜진 worker가 없습니다 (Workers 페이지)",
+  "the job changed in the meantime": "그 사이에 작업이 변경되었습니다",
+  "Main": "기본 탐색",
+  "Clear search and filters": "검색 및 필터 지우기",
+  "Compact rows": "간격 좁게",
+  "Encoding and subtitles are paused.": "인코딩과 자막이 일시 중지되었습니다.",
+  "Encoding is paused: no new encode jobs are handed out.": "인코딩이 일시 중지됨: 새 인코딩 작업이 배분되지 않습니다.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "자막이 일시 중지됨: 새 자막 작업이 배분되지 않습니다.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Plex 주소와 토큰을 모두 입력하거나, 건너뛰려면 둘 다 비워 두세요.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "NAS 여유 공간이 안전 브레이크보다 적습니다. 인코딩이 자동으로 일시 중지되었습니다.",
+  "Loading…": "불러오는 중…",
+  "Next film": "다음 영화",
+  "Previous film": "이전 영화",
+  "Next page": "다음 페이지",
+  "Previous page": "이전 페이지",
+  "Rows per page": "페이지당 행 수",
+  "Resume": "재개",
+  "Resume encoding": "인코딩 재개",
+  "Resume subtitles": "자막 재개",
+  "Open settings": "설정 열기",
+  "Open the library": "라이브러리 열기",
+  "Subtitle languages": "자막 언어",
+  "Update": "업데이트",
+  "No results for this search or filter.": "이 검색 또는 필터에 대한 결과가 없습니다.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "인코딩 대기 중인 항목이 없습니다. 새 파일은 스캔 후 대기열에 추가됩니다.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "아직 교체된 파일이 없습니다. 완료된 인코딩은 품질 검사 후 여기에 표시됩니다.",
+  "No files were kept as they are. Films that would save too little end up here.": "그대로 유지된 파일이 없습니다. 절약 효과가 너무 적은 영화가 여기에 모입니다.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "대기 중인 자막이 없습니다. 언어가 빠진 파일은 스캔 후 대기열에 추가됩니다.",
+  "No subtitle job is running right now.": "지금 실행 중인 자막 작업이 없습니다.",
+  "No subtitles have been made yet.": "아직 만들어진 자막이 없습니다.",
+  "Nothing missing: every file got its subtitles so far.": "빠진 것이 없습니다. 지금까지 모든 파일에 자막이 추가되었습니다.",
+  "No failed encodes.": "실패한 인코딩이 없습니다.",
+  "No failed subtitle jobs.": "실패한 자막 작업이 없습니다.",
+  "Nothing was added in the last 14 days.": "최근 14일 동안 추가된 항목이 없습니다.",
+  "No videos with this plan.": "이 계획에 해당하는 동영상이 없습니다.",
+  "The library is being scanned; videos appear as they are found.": "라이브러리를 스캔하는 중입니다. 동영상은 발견되는 대로 표시됩니다.",
+  "No videos found yet. Check the media folder and run a scan.": "아직 동영상을 찾지 못했습니다. 미디어 폴더를 확인하고 스캔을 실행하세요.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "격리 보관함이 비어 있습니다. 교체된 원본은 보관 기간이 끝날 때까지 여기에 보관됩니다.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "라이브러리에서 DVD 또는 Blu-ray 폴더(VIDEO_TS, BDMV)를 찾을 수 없습니다.",
+  "1 worker online": "worker 1개 온라인",
+  "A worker is busy with this file": "worker가 이 파일을 처리하고 있습니다",
+  "A worker is grabbing the frames": "worker가 프레임을 가져오고 있습니다",
+  "A worker is searching or making subtitles": "worker가 자막을 검색하거나 만들고 있습니다",
+  "A worker picks up the next job within a few seconds.": "worker가 몇 초 안에 다음 작업을 시작합니다.",
+  "Above this, the oldest comparisons are deleted automatically.": "이 값을 넘으면 가장 오래된 비교가 자동으로 삭제됩니다.",
+  "All replaced films": "교체된 모든 영화",
+  "Already efficient: encoding would hardly save anything": "이미 효율적: 인코딩해도 거의 절감되지 않음",
+  "Automatic comparisons": "자동 비교",
+  "Being made…": "생성 중…",
+  "Can be made": "생성 가능",
+  "Can encode on the CPU with x265": "CPU에서 x265로 인코딩 가능",
+  "Comparison storage limit": "비교 저장 용량 한도",
+  "Comparisons": "비교",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: 재인코딩하지 않음, DV 레이어가 손실됨",
+  "Encoding is paused.": "인코딩이 일시 중지되었습니다.",
+  "Enlarge": "확대",
+  "Errors": "오류",
+  "Flip": "전환",
+  "Four frames of the original and the new version are stored": "원본과 새 버전의 프레임 4장이 저장되어 있습니다",
+  "Full width": "전체 너비",
+  "GPU encoder found": "GPU 인코더 발견",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "교체된 모든 영화에서 원본과 새 버전의 프레임을 4장씩 가져와 비교 페이지에서 언제든 화질을 확인할 수 있게 합니다. 영화당 약 1–2 MB.",
+  "Keyboard shortcuts": "키보드 단축키",
+  "Leave without saving? Your changes to the settings will be lost.": "저장하지 않고 나갈까요? 설정 변경 사항이 사라집니다.",
+  "Moved to the front": "맨 앞으로 이동됨",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "아직 비교가 없습니다. 원본이 격리 보관함에 있는 동안 하나 만들거나, 설정에서 자동 비교를 켜세요.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "지금 비교할 수 있는 영화가 없습니다: 원본이 격리 보관함에서 나갔거나 아직 교체된 것이 없습니다.",
+  "No longer possible": "더 이상 불가",
+  "No subtitles found online and none could be made": "온라인에서 자막을 찾지 못했고 만들 수도 없었습니다",
+  "Ollama found: can translate subtitles": "Ollama 발견: 자막 번역 가능",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "DVD 또는 Blu-ray 폴더의 일부입니다. DVD & Blu-ray 페이지에서 변환하세요",
+  "Paused automatically: the NAS has less free space than the safety brake.": "자동 일시 중지: NAS 여유 공간이 안전 브레이크보다 적습니다.",
+  "Planned for encoding": "인코딩 예정",
+  "Queued for the CPU encoder": "CPU 인코더 대기열에 추가됨",
+  "Replaced after the quality check; the original is in quarantine for a while": "품질 검사 후 교체됨. 원본은 한동안 격리 보관함에 있습니다",
+  "Replaced films appear here after their first encode.": "교체된 영화는 첫 인코딩 후 여기에 표시됩니다.",
+  "Search the log…": "로그 검색…",
+  "Show films that can be compared": "비교 가능한 영화 표시",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "원본과 새 버전을 번갈아 표시: 그레인과 디테일을 확인하는 가장 좋은 방법",
+  "Skipped": "건너뜀",
+  "Skipped by you; Retry puts it back in the queue": "사용자가 건너뜀. '재시도'로 다시 대기열에 넣을 수 있습니다",
+  "Slider back to the middle": "슬라이더를 가운데로",
+  "Smaller": "축소",
+  "Stopped because the file changed or disappeared": "파일이 변경되거나 사라져서 중지됨",
+  "Stopped with an error; see the message and try again": "오류로 중지됨. 메시지를 확인하고 다시 시도하세요",
+  "Subtitles are paused.": "자막이 일시 중지되었습니다.",
+  "The file could not be read; see the drawer": "파일을 읽을 수 없습니다. 사이드 패널을 확인하세요",
+  "The new file would save less than the minimum saving, so the original was kept": "새 파일의 절감량이 최소 절감보다 적어 원본을 유지했습니다",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "새 버전이 NAS에 있으며 아무도 시청하지 않을 때 교체됩니다",
+  "The original has left quarantine, so the frames can no longer be grabbed": "원본이 격리 보관함에서 나가 더 이상 프레임을 가져올 수 없습니다",
+  "The original is still in quarantine, so the frames can still be grabbed": "원본이 아직 격리 보관함에 있어 프레임을 가져올 수 있습니다",
+  "The original was put back from quarantine": "원본이 격리 보관함에서 복원되었습니다",
+  "The queue is empty. New files are queued after a scan.": "대기열이 비어 있습니다. 새 파일은 스캔 후 대기열에 추가됩니다.",
+  "The server hands out newer worker files; the worker installs them after its current job": "서버가 새 worker 파일을 배포 중입니다. worker는 현재 작업 후 설치합니다",
+  "Undo": "실행 취소",
+  "Waiting for Plex: someone is watching this film": "Plex 대기 중: 누군가 이 영화를 시청하고 있습니다",
+  "Waiting for a worker; the queue runs from top to bottom": "worker 대기 중. 대기열은 위에서 아래로 처리됩니다",
+  "Warnings": "경고",
+  "Whisper installed: can make subtitles": "Whisper 설치됨: 자막 생성 가능",
+  "Would save less than the minimum saving": "절감량이 최소 절감보다 적음",
+  "expires today": "오늘 만료",
+  "expires within a day": "하루 안에 만료",
+  "less than a day left": "하루 미만 남음",
+  "waiting for Plex": "Plex 대기 중",
+  "update pending": "업데이트 대기 중",
+  "Tap to switch between original and new": "탭하여 원본과 새 버전 전환",
+  "Repeated": "반복됨",
+  "Search in the current list": "현재 목록에서 검색",
+  "Clear the search, close a drawer or dialog": "검색 지우기, 패널 또는 대화 상자 닫기",
+  "Previous or next film on a comparison": "비교에서 이전 또는 다음 영화",
+  "Open or switch the focused row, switch or header": "포커스된 행, 스위치 또는 헤더 열기/전환",
+  "This list": "이 목록",
+  "Nothing in the log matches this.": "로그에 일치하는 항목이 없습니다.",
+  "Nothing has happened yet.": "아직 아무 일도 없습니다.",
+  "No worker is online, so nothing can run.": "온라인 worker가 없어 아무것도 실행할 수 없습니다.",
+  "There is no worker yet. Add one to get started.": "아직 worker가 없습니다. 하나 추가하여 시작하세요.",
+  "Open Workers": "Worker 열기",
+  "Some values are out of range.": "일부 값이 범위를 벗어났습니다.",
+  "no capabilities reported": "보고된 기능 없음",
+  "Replaced · expires": "교체됨 · 만료",
+  "Made": "생성됨",
+  "Make": "생성",
+  "lots of motion": "움직임 많음",
+  "dark scene": "어두운 장면",
+  "a quarter in": "1/4 지점",
+  "three quarters in": "3/4 지점",
+  "Encoded": "인코딩됨",
+  "Finished": "종료됨",
+  "later": "후",
+  "Leave": "나가기",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "비교는 원본과 새 버전에서 4개의 프레임을 가져옵니다(총 약 1–2 MB). 원본이 아직 격리 보관 중일 때 만들 수 있으며, 원본이 사라진 뒤에도 삭제할 때까지 남아 있습니다.",
+  "Retry on CPU": "CPU에서 재시도",
+  "Scan": "스캔"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1시작$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "현재: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan이 동영상 $1개를 찾았습니다($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · 최저 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "최저 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "새 항목($1일)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "계획: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "교체 실패 ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} 실패{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "스캔 완료: 동영상 $1개, 새 항목 $2, 변경 $3, 사라짐 $4, 인코딩 작업 $5개 및 자막 작업 $6개 추가"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "스캔 완료: 동영상 $1개, 새 항목 $2, 변경 $3, 사라짐 $4, 건너뛴 폴더 $5, 인코딩 작업 $6개 및 자막 작업 $7개 추가"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "영화 $1편을 현재 규칙으로 다시 인코딩할까요? 원본이 복원되고 대기열에서 우선 처리됩니다."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "영화 $1편을 다시 대기열에 추가함{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "원본 $1개 복원 후 다시 대기열에 추가함(현재 규칙)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "새로 추가: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "교체됨: $1($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray 변환됨: $1($2 GB), 디스크 폴더는 격리 보관함에 있음"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "원본 복원됨: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 {t:$2} 시작: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: 작업 $2개 (전체 $3개)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "선택 항목 배분됨 - 인코딩 자동 일시 중지"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "선택 항목 배분됨 - 자막 자동 일시 중지"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "설정 변경됨: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "작업 $1 오류: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "작업 $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 오프라인: 작업 $2개가 대기열로 돌아감"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 재시작됨: 중단된 작업 $2개가 대기열로 돌아감"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1이(가) $2(으)로 업데이트됨: 실패한 작업 $3개를 다시 대기열에 추가"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 제거됨"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: 인코딩 {t:$2}, 자막 {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "계획 업데이트됨: 인코딩 작업 $1개 및 자막 작업 $2개 추가"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "작업 $1개를 직접 대기열에 추가함"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "작업 $1개: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "비교 $1개 삭제됨"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "다른 세션 $1개에서 로그아웃됨"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "복구 코드로 로그인함($1개 남음)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "원본은 최대 $1일 동안, 합계 $2 이내로 보관됩니다. 가장 오래된 것부터 삭제됩니다. 복원하면 새 버전은 삭제됩니다."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - 클릭하여 제거"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "폴더 $1개를 변환합니다 · worker가 30초 이내에 시작합니다"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "오디오 $1 · 자막 $2"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "비교 $1개를 삭제할까요? 영화 자체는 그대로 유지됩니다."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "프레임 $1 · $2 지점 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "프레임 $1 · $2 지점"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB(jpg)"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "인코딩 시간 $1분 · 8개 구간에서 측정한 후 전체 영화에서 확인했습니다."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "현재 있음: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "최저 5% $1 · 기준 $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "타이밍 $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "프레임 생성 실패: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "선택 · 다음"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "선택 · $1번째"
+  ],
+  [
+   "^Now:$",
+   "",
+   "현재:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· 이후 선택 항목에서 $1개 더"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "예상 · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "이전에 완료된 $1개 · 표시"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "선택 항목에 $1개 추가됨 · worker가 몇 초 이내에 시작합니다"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "선택 {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "생성됨: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% 감소$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "방금"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1분 전"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1시간 전"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1일 전"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "확인 {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1일 $2시간"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1시간 $2분"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "동영상 $1개"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "격리 보관함 $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "24시간당 $1"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · 약 $2 이득"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "약 $1 GB 이득"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "처리된 파일 $1% 감소"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 온라인"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "$1개 더 시작한 후 일시 중지"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1개 항목 · $3페이지 중 $2페이지"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1개 선택됨"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "결과 $1개 모두 선택"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "스캔 중: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1회 시도"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1분"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "활성 · 복구 코드 $1개 남음"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "이 세션을 포함한 활성 세션 $1개."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1개 업데이트됨{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "다른 세션 $1개 로그아웃됨"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "이 $1개만 처리할까요? 우선 처리되며, 처리가 재개되고 완료 후 자동으로 다시 일시 중지됩니다."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "작업 $1개를 건너뛸까요?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "원본 $1개를 복원할까요? 새 버전은 삭제됩니다."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "목록에서 worker $1을(를) 제거할까요? 다시 온라인이 되면 자동으로 다시 표시됩니다."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "$1째 실행 중"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "약 $1 남음"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "최대 $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "작업 중"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex 연결됨 (버전 $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex가 올바르게 응답하지 않음: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "오류: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "교체 실패: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "$1의 값이 잘못되었습니다"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1은(는) $2에서 $3 사이여야 합니다"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · 하위 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1시간"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU가 품질을 유지하지 못했습니다 - CPU 인코더 (x265) 대기열에 추가"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "스테이징 정리: 남은 파일 삭제됨 $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "페이지당 $1개"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "worker $1개 온라인"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · worker 추가, worker 키, 다운로드는 Worker 페이지에 있습니다."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · 약 {t:$2} 후 시작 · 예상"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · 예상"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1일 남음"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "$1일 후 만료"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "생성됨 · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "생성 가능 · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · 단계 $1/$2 · 약 {t:$3} 남음"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · 단계 $1/$2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · 약 {t:$1} 남음"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "비교 $1개 요청됨 · 몇 분 안에 준비됩니다"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "비교 $1개를 생성할까요? 각각 약 1–2 MB."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "$1회 반복됨"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "$1에서 $2 사이"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: 작업 $2개"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "$1 오류: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "비교 $1개 요청됨"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "비교 정리됨: $1개 제거 ($2 MB 초과)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "격리 폴더 이름이 quarantine으로 변경됨 (레코드 $1개 업데이트)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 제거됨: 작업 $2개가 대기열로 돌아감"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "격리: $1이(가) 이미 있어 $2은(는) 그대로 두었습니다"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "격리 폴더 이름이 quarantine으로 변경됨; 레코드 $1개 업데이트, 하지만 $2은(는) 아직 비어 있지 않음"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "격리 폴더 이름 변경 실패 (미디어 공유가 마운트되어 있나요?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "새 버전이 staging에 없음"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "새 .mkv가 staging에 없음"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "원본이 사라짐"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "원본이 그사이 변경됨"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "원본을 더 이상 사용할 수 없음"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "NAS에서 검사 거부됨 (길이/트랙)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray를 mkv로 변환함"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "worker 업데이트 후 재시도"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "사용자가 건너뜀"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "대상 파일이 이미 있음"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker 오프라인 - 다시 예약됨"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker 제거됨 - 다시 예약됨"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker 재시작됨 - 다시 예약됨"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "교체 실패: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "새 mkv에 Dolby Vision이 없음"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: 다시 인코딩하지 않음 (DV 레이어가 손실됨)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "스트림을 .mkv로 복사할 수 없음: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg가 $1분 동안 진행되지 않음 (공유에 접근할 수 없음?) - 중지됨"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "파일 $2개 중 $1개가 한 번에 누락됨 - 공유에 접근할 수 없음? 사라진 것으로 표시된 항목 없음"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "번역 실패: 재시도 후에도 $1줄에 대해 사용할 수 있는 답이 없음"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: 서버 오류"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - 모델을 받으세요 (ollama pull <model>) 또는 worker.ini의 ollama_model을 수정하세요"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "$1에서 Ollama에 연결할 수 없음 ($2) - Ollama를 시작하거나 ollama_url을 확인하세요"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama에 연결할 수 없음: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama가 $2분 동안 계속 실패함"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1이(가) 한 시간 이상 걸림 - 미디어 공유에 아직 접근할 수 있나요?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1이(가) 없음; 설치하세요 $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "전체 영화 VMAF $1이(가) 모든 짝맞춤 방식에서 타당하지 않음 (샘플 $2); 낮은 구간: $3. 원본 유지; 해당 구간의 소스를 확인하세요"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: 파일을 읽을 수 없음"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: 실패"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "이 영화를 처리할 여유 공간이 PC에 부족합니다 ($2에 $1 GB 필요)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "작업 폴더 공간 부족: $1 GB 남음, 약 $2 GB 필요"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "최소 비트레이트로도 최대 $1% 감소"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "향상 레이어에서 메타데이터 추출 중"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "다운로드가 일치하지 않음 (sha256) - 사용 안 함"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "검사: 길이 또는 스트림 수가 다릅니다"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "새 mkv가 너무 짧음 ($1/$2분)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$2개 중 $1개 완료, worker 대기 중"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "Dolby Vision을 profile 8.1로 변환 중"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "기본 레이어에 메타데이터 삽입 중"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "VMAF 확인 중(두 번째 측정)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "품질 목표를 충족하는 설정 없음"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "다운로드 한도 도달 - 나머지는 나중에"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "OpenSubtitles 일일 한도 도달"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "일부 완료, 나머지는 다운로드 한도 이후"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "다운로드 후 $1을(를) 찾을 수 없음"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: 음성 언어 감지됨"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper ($1에서 번역)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "PC 여유 공간 대기 중"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "자막 파일이 비정상적으로 큼"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "자체 테스트 측정이 불안정함"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "번역 $1번째 시도 실패"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "대기: Plex에서 시청 중"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "예상 감소율 $1%에 불과"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "$1 다운로드 중 (최초 1회)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "전체 영화 확인 결과 목표 미달"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "$1초 지점의 프레임을 가져올 수 없음"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "전체 영화가 목표에 약간 미달"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "디스크에서 영화 찾는 중"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "품질 목표 도달 불가"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "검사 측정이 불안정함"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "서버에서 받은 경로가 잘못됨"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "재시도: 최소 이득 이제 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper가 GPU에서 실행 중"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "DVD에서 타이틀을 찾을 수 없음"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "압축 파일에 의심스러운 경로"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "대기: Plex에 연결할 수 없음"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "$2개 중 $1 작업 중"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles에 연결할 수 없음"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (음성 인식)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "전체 영화 VMAF 확인 중"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "완료, 교체 대기 중"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "기존 폴더를 격리 보관함으로"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "VMAF $1 확인 결과 너무 낮음"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "디스크 읽는 중(DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "영어에서 번역됨"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "완료($2개 중 $1개)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "오디오 추출 실패"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "CPU로 전환"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles 로그인됨"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (프로필 7에서)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "worker 대기 중"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "zip에 의심스러운 경로"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "내장 EN을 읽을 수 없음"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "현재까지 가장 긴 타이틀:"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "타이밍이 맞지 않음"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "$1% 감소에 불과"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "구간 $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "원본 유지"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "오늘 남은 다운로드"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "타이틀 $1 확인함"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "교체 대기 중"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "NAS로 복사 중"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "원본 유지"
+  ],
+  [
+   "translation failed",
+   "g",
+   "번역 실패"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "서버에 연결할 수 없음"
+  ],
+  [
+   "searching quality",
+   "g",
+   "품질 탐색 중"
+  ],
+  [
+   "making references",
+   "g",
+   "참조 생성 중"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "mkv로 변환 중"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "자막 중지됨"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "복사 중 NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "복사 중 PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "영화 찾는 중"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "mkv로 병합 중"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "가장 긴 재생 목록"
+  ],
+  [
+   "timing reference",
+   "g",
+   "타이밍 기준"
+  ],
+  [
+   "speech segments",
+   "g",
+   "음성 구간"
+  ],
+  [
+   "too little gain",
+   "g",
+   "이득이 너무 적음"
+  ],
+  [
+   " not applicable",
+   "g",
+   " 해당 없음"
+  ],
+  [
+   "download failed",
+   "g",
+   "다운로드 실패"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "ffsubsync 이후"
+  ],
+  [
+   "translating to",
+   "g",
+   "번역 대상:"
+  ],
+  [
+   "next candidate",
+   "g",
+   "다음 후보"
+  ],
+  [
+   "after shifting",
+   "g",
+   "이동 이후"
+  ],
+  [
+   "reading audio",
+   "g",
+   "오디오 읽는 중"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "선택 · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1개 대기 중"
+  ],
+  [
+   "search failed",
+   "g",
+   "검색 실패"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "다시 인코딩 중"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "타이틀 $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " 오류"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1개 완료"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "자막:"
+  ],
+  [
+   "replacing",
+   "g",
+   "교체 중"
+  ],
+  [
+   "subtitles",
+   "g",
+   "자막"
+  ],
+  [
+   "candidate",
+   "g",
+   "후보"
+  ],
+  [
+   "encoding:",
+   "g",
+   "인코딩:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "시작"
+  ],
+  [
+   "encoding",
+   "g",
+   "인코딩 중"
+  ],
+  [
+   "checking",
+   "g",
+   "확인 중"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", 최대 "
+  ],
+  [
+   "present",
+   "g",
+   "있음"
+  ],
+  [
+   "missing",
+   "g",
+   "없음"
+  ],
+  [
+   "speed",
+   "g",
+   "속도"
+  ],
+  [
+   "saved",
+   "g",
+   "저장됨"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU가 품질을 유지하지 못했습니다 - CPU 인코더 (x265) 대기열에 추가"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "스테이징 정리: 남은 파일 삭제됨"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "미디어 폴더가 비어 있거나 마운트되지 않았습니다 - 변경 사항 없음"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "품질을 유지하려면 원본보다 높은 비트레이트가 필요합니다"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "원본보다 높은 비트레이트가 필요함"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker가 업데이트를 위해 재시작 중"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "비디오 스트림 없음 (커버 아트만?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "받아쓸 오디오 스트림 없음"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "이 영화를 처리할 여유 공간이 PC에 부족합니다"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "CPU에서 재시도 중 (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "폴더 탐색 중"
+  ],
+  [
+   "analysing files",
+   "g",
+   "파일 분석 중"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "작업 계획 중"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU 인코딩 켬"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU 인코딩 끔"
+  ]
+ ]
+}

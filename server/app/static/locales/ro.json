@@ -1,0 +1,2060 @@
+{
+ "name": "Română",
+ "s": {
+  "Re-encode from original": "Re-codifică din original",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Re-codifici cu regulile curente? Originalul este restaurat și filmul primește prioritate.",
+  "Back in the queue": "Din nou în coadă",
+  "Restore originals": "Restaurează originalele",
+  "Minimum bitrate (1080p)": "Bitrate minim (1080p)",
+  "Extra floor (share of the source)": "Prag suplimentar (proporție din sursă)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Opțional: păstrează și cel puțin această proporție din bitrate-ul video original. Util doar pentru surse cu bitrate foarte mare. 0 = dezactivat.",
+  "with the minimum bitrate at most": "cu bitrate-ul minim cel mult",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Fișierul nou nu coboară niciodată sub această valoare, chiar dacă VMAF ar permite. Alte rezoluții se scalează: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animație ×0.6.",
+  "bitrate already near the minimum": "bitrate deja aproape de minim",
+  "MFA reset from settings - set it up again": "MFA resetat din setări - configurează-l din nou",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA resetat prin MFA_RESET - elimină MFA_RESET din setările containerului",
+  "MFA enabled": "MFA activat",
+  "MediaScan started": "MediaScan pornit",
+  "New recovery codes created": "Coduri de recuperare noi create",
+  "Password changed; other sessions signed out": "Parolă schimbată; celelalte sesiuni au fost deconectate",
+  "Password set (first time)": "Parolă setată (prima dată)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Atenție: ADMIN_PASSWORD are mai puțin de 10 caractere - alege o parolă mai puternică în Setări",
+  "part of a DVD/Blu-ray folder": "face parte dintr-un dosar DVD/Blu-ray",
+  "folder is in Skip folders": "folderul se află în Foldere ignorate",
+  "file disappeared": "fișierul a dispărut",
+  "worker restarted - rescheduled": "worker repornit - reprogramat",
+  "worker offline - rescheduled": "worker offline - reprogramat",
+  "retry after worker update": "reîncercare după actualizarea worker-ului",
+  "dvd/blu-ray converted to mkv": "DVD/Blu-ray convertit în mkv",
+  "skipped by you": "omis de tine",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Înlocuirea așteaptă cât timp un film este vizionat, iar Plex se reîmprospătează după fiecare modificare.",
+  "Confirm with your password and a code from your app.": "Confirmă cu parola și un cod din aplicație.",
+  "Your old recovery codes will stop working.": "Vechile coduri de recuperare nu vor mai funcționa.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Legătura actuală cu autentificatorul și codurile de recuperare nu vor mai funcționa. Vei configura MFA din nou imediat.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Alege o parolă pentru panou. Codul de configurare este în jurnalul containerului (Container Manager › mediascan › Log, sau",
+  "- click to remove": "- clic pentru a elimina",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Adresă invalidă, de ex. http://192.168.1.10:32400",
+  "Enter a Plex token": "Introdu un Plex token",
+  "A password has already been set": "O parolă a fost deja setată",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Cheia este fixată în WORKER_TOKEN (mediul containerului)",
+  "selection still running - pause or wait until it is done": "selecția încă rulează - pune pe pauză sau așteaptă să se termine",
+  "Now running": "Rulează acum",
+  "Finding the film on the disc": "Se caută filmul pe disc",
+  "Converting to one .mkv": "Conversie într-un singur .mkv",
+  "Checking (duration, tracks)": "Verificare (durată, piste)",
+  "Copying to the NAS": "Copiere pe NAS",
+  "Old folder to quarantine": "Dosarul vechi în carantină",
+  "worker has not reported for a while": "worker-ul nu a mai raportat de ceva timp",
+  "waiting for the worker": "se așteaptă worker-ul",
+  "Welcome to MediaScan": "Bun venit în MediaScan",
+  "Setup code": "Cod de configurare",
+  "New password (at least 10 characters)": "Parolă nouă (cel puțin 10 caractere)",
+  "Repeat password": "Repetă parola",
+  "Set password": "Setează parola",
+  "The passwords do not match": "Parolele nu coincid",
+  "Setup code is wrong - check the container log": "Codul de configurare este greșit - verifică jurnalul containerului",
+  "Choose a password of at least 10 characters": "Alege o parolă de cel puțin 10 caractere",
+  "Animation folders": "Dosare cu animație",
+  "Top-level folders with animation: these may use a lower bitrate.": "Dosare de nivel superior cu animație: acestea pot folosi un bitrate mai mic.",
+  "Where do I find the token?": "Unde găsesc token-ul?",
+  "Connect": "Conectează",
+  "Disconnect": "Deconectează",
+  "Connected": "Conectat",
+  "Not connected": "Neconectat",
+  "+ Add language": "+ Adaugă limbă",
+  "Renew": "Reînnoiește",
+  "Worker version": "Versiune worker",
+  "Password": "Parolă",
+  "Other sessions are signed out after a change.": "Celelalte sesiuni sunt deconectate după o schimbare.",
+  "Change password": "Schimbă parola",
+  "Other sessions will be signed out.": "Celelalte sesiuni vor fi deconectate.",
+  "Change": "Schimbă",
+  "New worker key": "Cheie worker nouă",
+  "Create new key": "Creează cheie nouă",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Toți workerii se opresc până introduci cheia nouă (rulează din nou programul de instalare sau editează worker.ini).",
+  "Repeat new password": "Repetă parola nouă",
+  "Password changed": "Parolă schimbată",
+  "New worker key created": "Cheie worker nouă creată",
+  "Disconnect Plex?": "Deconectezi Plex?",
+  "Plex disconnected": "Plex deconectat",
+  "Plex connected": "Plex conectat",
+  "Incorrect password": "Parolă incorectă",
+  "Incorrect code": "Cod incorect",
+  "Incorrect code from your authenticator app": "Cod incorect din aplicația de autentificare",
+  "Too many attempts - try again in 15 minutes": "Prea multe încercări - încearcă din nou peste 15 minute",
+  "DVD & Blu-ray": "DVD și Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Dosare cu VIDEO_TS sau BDMV. Conversia le transformă într-un singur .mkv cu tot video-ul, audio, subtitrările și capitolele.",
+  "Convert to MKV": "Convertește în MKV",
+  "Folder": "Dosar",
+  "Type": "Tip",
+  "found": "găsit",
+  "queued": "în coadă",
+  "converting…": "se convertește…",
+  "converted": "convertit",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Conversia copiază totul 1:1 într-un singur .mkv: video (inclusiv HDR), toate pistele audio, subtitrările și capitolele. Pentru un DVD alege cel mai lung titlu (filmul). Dosarul vechi merge în carantină, deci îl poți restaura. Apoi .mkv-ul trece prin codificarea și subtitrarea obișnuite. Blu-ray-urile Dolby Vision devin Dolby Vision profile 8.1 (strat de bază 1:1, metadate DV adăugate): Plex și televizorul tău îl redau ca Dolby Vision, alte playere ca HDR10. Un astfel de film nu mai este re-codificat ulterior, deoarece s-ar pierde Dolby Vision.",
+  "Compare": "Compară",
+  "Delete comparison": "Șterge comparația",
+  "Comparison deleted": "Comparație ștearsă",
+  "comparison": "comparație",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Originalul lângă versiunea nouă: dimensiune, calitate, imagine și subtitrări. Tu alegi filmele.",
+  "Original → new": "Original → nou",
+  "Quality (VMAF)": "Calitate (VMAF)",
+  "Comparison": "Comparație",
+  "View": "Vezi",
+  "Make comparison": "Creează comparație",
+  "previous attempt failed": "încercarea anterioară a eșuat",
+  "Back": "Înapoi",
+  "Make again": "Creează din nou",
+  "New": "Nou",
+  "VMAF whole film": "VMAF film întreg",
+  "Making the frames… this usually takes less than a minute.": "Se creează cadrele… de obicei durează mai puțin de un minut.",
+  "There is no picture comparison for this film yet.": "Nu există încă o comparație de imagine pentru acest film.",
+  "Picture · drag across the image": "Imagine · trage peste imagine",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR a fost convertit în SDR pentru această vizualizare; televizorul tău îl afișează în HDR.",
+  "How the setting was chosen": "Cum a fost aleasă setarea",
+  "Step": "Pas",
+  "Weakest 5%": "Cele mai slabe 5%",
+  "Bitrate": "Bitrate",
+  "chosen": "ales",
+  "No data.": "Fără date.",
+  "Nothing needed, all languages were present.": "Nimic necesar, toate limbile erau prezente.",
+  "Not processed yet.": "Încă neprocesat.",
+  "Comparison requested · ready within a minute": "Comparație solicitată · gata în cel mult un minut",
+  "Delete this comparison? The film itself stays as it is.": "Ștergi această comparație? Filmul rămâne neschimbat.",
+  "Not possible": "Imposibil",
+  "Slide between original and new": "Glisează între original și nou",
+  "Overview": "Prezentare generală",
+  "Queue": "Coadă",
+  "In progress": "În curs",
+  "No gain": "Fără câștig",
+  "Failed": "Eșuate",
+  "Subtitles": "Subtitrări",
+  "Recently added": "Adăugate recent",
+  "Library": "Bibliotecă",
+  "Quarantine": "Carantină",
+  "Workers": "Workeri",
+  "Activity": "Activitate",
+  "Settings": "Setări",
+  "Encoding": "Codificare",
+  "System": "Sistem",
+  "Status of the entire library.": "Starea întregii biblioteci.",
+  "Selection": "Selecție",
+  "waiting for worker": "se așteaptă un worker",
+  "In the selection": "În selecție",
+  "selection": "selecție",
+  "Selection · encoding": "Selecție · codificare",
+  "Selection · subtitles": "Selecție · subtitrări",
+  "Close list": "Închide lista",
+  "waiting": "în așteptare",
+  "nothing needed": "nimic necesar",
+  "original kept": "original păstrat",
+  "Find, sync or generate missing subtitles.": "Găsește, sincronizează sau generează subtitrările lipsă.",
+  "All videos with their current plan. You can also queue items manually here.": "Toate videoclipurile cu planul lor curent. Aici poți pune și manual elemente în coadă.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Mașinile care fac munca. Alege ce are voie să facă fiecare worker.",
+  "Log of everything that happens.": "Jurnalul a tot ce se întâmplă.",
+  "Scan now": "Scanează acum",
+  "Saved": "Economisit",
+  "Free on NAS": "Liber pe NAS",
+  "Progress": "Progres",
+  "Saved per day": "Economisit pe zi",
+  "last 14 days": "ultimele 14 zile",
+  "Per folder": "Pe dosar",
+  "all": "toate",
+  "nothing processed yet": "încă nimic procesat",
+  "no measurement yet": "încă nicio măsurătoare",
+  "No processed files yet": "Încă niciun fișier procesat",
+  "No worker connected yet": "Încă niciun worker conectat",
+  "no worker": "niciun worker",
+  "worker offline": "worker offline",
+  "online": "online",
+  "disabled": "dezactivat",
+  "encoding": "codificare",
+  "subtitles": "subtitrări",
+  "Search by name or folder…": "Caută după nume sau dosar…",
+  "Several titles at once: separate them with |": "Mai multe titluri deodată: separă-le cu |",
+  "Nothing to show": "Nimic de afișat",
+  "File": "Fișier",
+  "Source": "Sursă",
+  "Status": "Stare",
+  "Result": "Rezultat",
+  "Languages": "Limbi",
+  "Error": "Eroare",
+  "When": "Când",
+  "Plan": "Plan",
+  "Added": "Adăugat",
+  "Original": "Original",
+  "Size": "Dimensiune",
+  "Replaced": "Înlocuit",
+  "estimate": "estimare",
+  "Name": "Nume",
+  "Done": "Gata",
+  "Nothing found": "Nimic găsit",
+  "Process only these": "Procesează doar acestea",
+  "Prioritise": "Prioritizează",
+  "Skip": "Omite",
+  "Retry": "Reîncearcă",
+  "Clear": "Golește",
+  "Both": "Ambele",
+  "Restore original": "Restaurează originalul",
+  "Find subtitles": "Găsește subtitrări",
+  "running": "rulează",
+  "done": "gata",
+  "failed": "eșuat",
+  "replacing": "se înlocuiește",
+  "no gain": "fără câștig",
+  "skipped": "omis",
+  "restored": "restaurat",
+  "cancelled": "anulat",
+  "nothing found": "nimic găsit",
+  "encode": "codifică",
+  "already efficient": "deja eficient",
+  "small gain": "câștig mic",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "eroare",
+  "unknown": "necunoscut",
+  "All": "Toate",
+  "Already efficient": "Deja eficiente",
+  "Small gain": "Câștig mic",
+  "Restored": "Restaurate",
+  "Video": "Video",
+  "Duration": "Durată",
+  "Audio": "Audio",
+  "Encode": "Codificare",
+  "Quality": "Calitate",
+  "Encode time": "Timp de codificare",
+  "Message": "Mesaj",
+  "Started": "Început",
+  "Search": "Caută",
+  "weakest 5%": "cele mai slabe 5%",
+  "video": "video",
+  "Worker": "Worker",
+  "Hardware": "Hardware",
+  "Resolution": "Rezoluție",
+  "Working on": "Lucrează la",
+  "nothing": "nimic",
+  "up to 4K": "până la 4K",
+  "up to 1080p": "până la 1080p",
+  "up to 720p": "până la 720p",
+  "up to SD": "până la SD",
+  "Remove": "Elimină",
+  "Add worker": "Adaugă worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Fiecare worker raportează ce poate face (encoder găsit, Whisper instalat). Aici decizi ce are voie să facă. Modificările se aplică de la următorul job; un job în curs se termină mai întâi.",
+  "This machine lacks the hardware or software for this": "Acestei mașini îi lipsește hardware-ul sau software-ul necesar",
+  "Quality level": "Nivel de calitate",
+  "Standard": "Standard",
+  "High": "Ridicat",
+  "Maximum": "Maxim",
+  "Custom": "Personalizat",
+  "Custom target": "Țintă personalizată",
+  "Average VMAF and the weakest 5% of frames.": "VMAF mediu și cele mai slabe 5% din cadre.",
+  "avg.": "med.",
+  "Minimum saving": "Economie minimă",
+  "If a file saves less, the original is kept.": "Dacă un fișier economisește mai puțin, originalul este păstrat.",
+  "Processing": "Procesare",
+  "Storage & safety": "Stocare și siguranță",
+  "How long replaced originals can be restored.": "Cât timp pot fi restaurate originalele înlocuite.",
+  "days": "zile",
+  "Above this, the oldest originals are deleted permanently.": "Peste această valoare, cele mai vechi originale sunt șterse definitiv.",
+  "Safety brake": "Frână de siguranță",
+  "Encoding pauses when the NAS has less free space than this.": "Codificarea se oprește când NAS-ul are mai puțin spațiu liber decât atât.",
+  "Scanning": "Scanare",
+  "Automatic scan": "Scanare automată",
+  "New files are queued automatically.": "Fișierele noi sunt puse automat în coadă.",
+  "Off": "Oprit",
+  "Every hour": "În fiecare oră",
+  "Every 6 hours": "La fiecare 6 ore",
+  "Every 12 hours": "La fiecare 12 ore",
+  "Daily": "Zilnic",
+  "Skip folders": "Dosare ignorate",
+  "Comma-separated folder names.": "Nume de dosare separate prin virgulă.",
+  "Plex": "Plex",
+  "Dashboard address": "Adresa panoului",
+  "Use the IP address of the NAS, not localhost.": "Folosește adresa IP a NAS-ului, nu localhost.",
+  "Worker key": "Cheie worker",
+  "Keep secret: with this key a worker can fetch jobs.": "Păstreaz-o secretă: cu această cheie un worker poate prelua joburi.",
+  "Show": "Arată",
+  "Copy": "Copiază",
+  "Minimum requirements": "Cerințe minime",
+  "Account & security": "Cont și securitate",
+  "Two-factor authentication": "Autentificare în doi pași",
+  "Not active": "Inactiv",
+  "New recovery codes": "Coduri de recuperare noi",
+  "Reset MFA": "Resetează MFA",
+  "Sessions": "Sesiuni",
+  "Sign out everywhere else": "Deconectează-te de peste tot în rest",
+  "Sign out": "Deconectare",
+  "You have unsaved changes.": "Ai modificări nesalvate.",
+  "Cancel": "Anulează",
+  "Save": "Salvează",
+  "Language": "Limbă",
+  "Theme": "Temă",
+  "Light": "Luminoasă",
+  "Dark": "Întunecată",
+  "Auto": "Auto",
+  "Dashboard language.": "Limba panoului.",
+  "Auto follows your system setting.": "Auto urmează setarea sistemului.",
+  "Reset": "Resetează",
+  "Create new codes": "Creează coduri noi",
+  "Close": "Închide",
+  "Code from your authenticator app": "Cod din aplicația de autentificare",
+  "Sign in": "Autentificare",
+  "Activate": "Activează",
+  "Set up two-factor authentication": "Configurează autentificarea în doi pași",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Scanează codul QR cu aplicația de autentificare și introdu codul de 6 cifre.",
+  "Manual:": "Manual:",
+  "6-digit code": "Cod de 6 cifre",
+  "123456 or recovery code": "123456 sau cod de recuperare",
+  "Save your recovery codes": "Salvează codurile de recuperare",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Ți-ai pierdut telefonul? Fiecare dintre aceste coduri te autentifică o singură dată. Sunt afișate o singură dată.",
+  "I have saved them": "Le-am salvat",
+  "Save them now, they are shown only once.": "Salvează-le acum, sunt afișate o singură dată.",
+  "Server not responding": "Serverul nu răspunde",
+  "Sign-in failed": "Autentificarea a eșuat",
+  "Code is incorrect": "Codul este incorect",
+  "Code is incorrect - check the time on your phone": "Codul este incorect - verifică ora de pe telefon",
+  "Scan started": "Scanare pornită",
+  "scan already running": "scanarea rulează deja",
+  "Copied": "Copiat",
+  "Resumed": "Reluat",
+  "Paused: a running job will finish first": "Pe pauză: un job în curs se va termina mai întâi",
+  "Added to the queue": "Adăugat în coadă",
+  "Not applicable": "Nu se aplică",
+  "At least one language": "Cel puțin o limbă",
+  "Skip this job?": "Omiți acest job?",
+  "Restore the original? The new version will be deleted.": "Restaurezi originalul? Versiunea nouă va fi ștearsă.",
+  "on": "activ",
+  "off": "oprit",
+  "Quarantine cleanup": "Curățare carantină",
+  "Background task": "Sarcină de fundal",
+  "Planning at startup": "Planificare la pornire",
+  "Welcome": "Bun venit",
+  "Next": "Înainte",
+  "Previous": "Înapoi",
+  "Next (or skip)": "Înainte (sau omite)",
+  "Done, go to the overview": "Gata, mergi la prezentarea generală",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan îți micșorează filmele și serialele fără diferență vizibilă și completează subtitrările lipsă. Originalele sunt înlocuite doar după o verificare a calității și sunt păstrate mai întâi o vreme în carantină.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Șase pași scurți și ești gata. Poți modifica totul mai târziu în Setări.",
+  "Your library": "Biblioteca ta",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan caută acum videoclipuri în dosarul tău media. La o bibliotecă mare prima scanare durează ceva; poți continua liniștit.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Dosare pe care MediaScan nu le atinge niciodată, separate prin virgulă (de ex. Music, Downloads).",
+  "Scan again": "Scanează din nou",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Alege limbile pe care trebuie să le aibă fiecare fișier. MediaScan le caută pe cele lipsă pe OpenSubtitles. Dacă nu reușește, worker-ul creează singur subtitrarea (recunoaștere vocală și traducere pe propriul PC).",
+  "Click a language to remove it.": "Fă clic pe o limbă pentru a o elimina.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Fiecare film este măsurat cu VMAF, un scor pentru cum arată imaginea pentru ochiul uman. „Ridicat” nu se distinge de original pentru aproape oricine.",
+  "Higher = better picture, less space saved.": "Mai mare = imagine mai bună, mai puțin spațiu economisit.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "O plasă de siguranță pentru granulație și scene întunecate. 5 Mbps este o valoare implicită bună; 4K și alte rezoluții se scalează corespunzător.",
+  "Plex (optional)": "Plex (opțional)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Cu Plex conectat, MediaScan așteaptă să înlocuiască un film cât timp cineva îl vizionează și reîmprospătează Plex după fiecare modificare. Nu ai Plex? Omite acest pas.",
+  "Plex address and token": "Adresă Plex și token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (neschimbat)",
+  "Add a worker": "Adaugă un worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Munca grea se face pe un PC sau Mac cu o placă video bună: worker-ul. Instalează-l acum sau mai târziu din Workeri. Cât timp nu există worker, fișierelor tale nu li se întâmplă nimic.",
+  "✓ A worker is connected.": "✓ Un worker este conectat.",
+  "Done! MediaScan is set up.": "Gata! MediaScan este configurat.",
+  "Connect the media share on the new machine.": "Conectează partajarea media pe mașina nouă.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: literă de unitate sau \\\\NAS\\Media · Mac: Finder › Conectare la server · Linux: vezi instrucțiunile din pachet.",
+  "Download the package for that system and unpack it.": "Descarcă pachetul pentru acel sistem și dezarhivează-l.",
+  "Run the installer.": "Rulează programul de instalare.",
+  "The installer asks for the details below and tests the connection.": "Programul de instalare cere detaliile de mai jos și testează conexiunea.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 sau mai nou, Intel Arc sau iGPU generația 11+, AMD RX 6000+ · 4 nuclee · 8 GB · 100 GB liber · rețea prin cablu. Subtitrări: NVIDIA cu 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitrări: 24 GB+) · 150 GB liber · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Workerii se actualizează singuri când acest panou are o versiune nouă.",
+  "What the workers are doing now and what is planned next.": "Ce fac workerii acum și ce urmează.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Micșorează fișierele fără pierdere vizibilă de calitate. Worker-ul parcurge coada de sus în jos.",
+  "select page": "selectează pagina",
+  "select": "selectează",
+  "to encode": "de codificat",
+  "Movie": "Film",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Originale înlocuite, păstrate o vreme ca să le poți restaura sau re-codifica.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Cum funcționează MediaScan: calitate, subtitrări, stocare și securitate.",
+  "General": "General",
+  "Advanced": "Avansat",
+  "Connection": "Conexiune",
+  "Hand out new encode jobs to the workers.": "Distribuie joburi noi de codificare către workeri.",
+  "Hand out new subtitle jobs to the workers.": "Distribuie joburi noi de subtitrare către workeri.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Cât de strictă este măsurarea VMAF. Mai mare = imagine mai bună, mai puțin spațiu economisit.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Ce subtitrări trebuie să aibă fiecare fișier. Cele lipsă sunt căutate sau, altfel, generate.",
+  "Go to Workers": "Mergi la Workeri",
+  "new": "nou",
+  "start": "start",
+  "Minimum bitrate (4K)": "Bitrate minim (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Prag propriu pentru 4K, în loc de 2,5 × valoarea 1080p. 0 = automat. HDR +15% și animație ×0,6 se aplică și aici.",
+  "Ready to use in a few steps.": "Gata de utilizare în câțiva pași.",
+  "next": "următorul",
+  "read error": "eroare de citire",
+  "MFA is already enabled": "MFA este deja activat",
+  "a .mkv with that name already exists": "există deja un fișier .mkv cu acest nume",
+  "a file already exists at the original location": "există deja un fișier în locația originală",
+  "action not possible in this status": "acțiunea nu este posibilă în această stare",
+  "walking folders": "se parcurg folderele",
+  "planning jobs": "se planifică sarcinile",
+  "check on the NAS rejected (duration/tracks)": "verificarea pe NAS a fost respinsă (durată/piste)",
+  "expected a JSON object": "se aștepta un obiect JSON",
+  "ffprobe error": "eroare ffprobe",
+  "invalid resolution": "rezoluție nevalidă",
+  "invalid worker token": "token de worker nevalid",
+  "job belongs to another worker": "sarcina aparține altui worker",
+  "job is no longer active": "sarcina nu mai este activă",
+  "no video track": "nicio pistă video",
+  "not JSON": "nu este JSON",
+  "not signed in": "nu sunteți autentificat",
+  "original disappeared": "originalul a dispărut",
+  "original has changed in the meantime": "originalul s-a schimbat între timp",
+  "original is no longer in quarantine": "originalul nu mai este în carantină",
+  "original no longer available": "originalul nu mai este disponibil",
+  "request refused": "cerere refuzată",
+  "target file already exists": "fișierul țintă există deja",
+  "the original has already been removed from quarantine - comparing is no longer possible": "originalul a fost deja eliminat din carantină - compararea nu mai este posibilă",
+  "this film has not been replaced yet": "acest film nu a fost încă înlocuit",
+  "unknown action": "acțiune necunoscută",
+  "worker is still online": "worker-ul este încă online",
+  "In use now:": "Utilizat acum:",
+  "longest": "cel mai lung",
+  "8.1 (from profile 7)": "8.1 (din profilul 7)",
+  "Whisper (transcription)": "Whisper (transcriere)",
+  "1 day ago": "acum 1 zile",
+  "1 video": "1 videoclipuri",
+  "Enter your password to open the dashboard.": "Introdu parola pentru a deschide panoul.",
+  "No connection to the server - retrying…": "Nu există conexiune cu serverul - se reîncearcă…",
+  "Are you sure?": "Ești sigur?",
+  "Restore": "Restaurează",
+  "Re-encode": "Recodifică",
+  "Delete": "Șterge",
+  "Next up": "Urmează",
+  "in the queue": "în coadă",
+  "Load older entries": "Încarcă intrări mai vechi",
+  "Folder: all": "Dosar: toate",
+  "Resolution: all": "Rezoluție: toate",
+  "Codec: all": "Codec: toate",
+  "More": "Mai mult",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "film(e) așteaptă codorul CPU, dar niciun worker nu are codarea pe CPU pornită (pagina Workers).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Hardware-ul tău, cât de bine se potrivește muncii, instrumentele folosite și cum funcționează setările.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Memorie",
+  "Software": "Software",
+  "GPU encoding": "Codare pe GPU",
+  "CPU encoding (x265)": "Codare pe CPU (x265)",
+  "Subtitles (Whisper)": "Subtitrări (Whisper)",
+  "Translation (Ollama)": "Traducere (Ollama)",
+  "Server": "Server",
+  "Database": "Bază de date",
+  "Tools in use": "Instrumente folosite",
+  "Knowledge base": "Bază de cunoștințe",
+  "Low": "Scăzut",
+  "Medium": "Mediu",
+  "Ultra": "Ultra",
+  "files": "fișiere",
+  "up": "activ de",
+  "of": "din",
+  "uses": "folosește",
+  "free": "liber",
+  "Media share": "Partajare media",
+  "Rating": "Evaluare",
+  "Hardware details appear after this worker has updated itself.": "Detaliile hardware apar după ce acest worker s-a actualizat.",
+  "no Whisper": "fără Whisper",
+  "unified memory": "memorie unificată",
+  "cores": "nuclee",
+  "threads": "fire",
+  "driver": "driver",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Necunoscut",
+  "Settings saved": "Setări salvate",
+  "Time left": "Timp rămas",
+  "Queued": "În coadă",
+  "Keep originals for": "Păstrează originalele timp de",
+  "Quarantine size limit": "Limita de dimensiune a carantinei",
+  "Hide finished items": "Ascunde elementele terminate",
+  "Undo skip": "Anulează omiterea",
+  "not supported here": "nu este suportat aici",
+  "CPU encoding": "Codificare pe CPU",
+  "Retry on CPU (x265)": "Reîncearcă pe CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Codificat pe CPU cu x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 cu reglaj pentru granulație pe CPU-ul workerului: păstrează granulația mult mai eficient, dar durează ore pe film",
+  "CPU fallback for grainy films": "Rezervă pe CPU pentru filme granulate",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Când GPU-ul nu poate păstra calitatea fără a depăși bitrate-ul sursei (granulație de film), filmul este codificat încă o dată pe CPU-ul unui worker cu x265, care păstrează granulația mult mai eficient. Durează ore pe film; pornește codificarea pe CPU pentru un worker pe pagina Workers.",
+  "CPU preset": "Preset CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: aproximativ 2 ore pentru un film de 2 ore în 1080p pe 8 nuclee. Slow: de 2-3 ori mai mult pentru fișiere cu circa 5-10% mai mici.",
+  "Medium (faster)": "Medium (mai rapid)",
+  "Slow (smaller)": "Slow (mai mic)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Pagina nu a putut fi încărcată.",
+  "up to 1440p": "până la 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "se analizează fișierele",
+  "No worker has CPU encodes switched on (Workers page)": "Niciun worker nu are codificarea pe CPU pornită (pagina Workers)",
+  "the job changed in the meantime": "jobul s-a schimbat între timp",
+  "Main": "Navigare principală",
+  "Clear search and filters": "Șterge căutarea și filtrele",
+  "Compact rows": "Rânduri compacte",
+  "Encoding and subtitles are paused.": "Codificarea și subtitrările sunt pe pauză.",
+  "Encoding is paused: no new encode jobs are handed out.": "Codificarea este pe pauză: nu se distribuie joburi noi de codificare.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Subtitrările sunt pe pauză: nu se distribuie joburi noi de subtitrare.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Introdu atât adresa Plex, cât și tokenul, sau lasă-le pe amândouă goale pentru a sări peste acest pas.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Spațiul liber pe NAS este sub frâna de siguranță. Codificarea a fost pusă pe pauză automat.",
+  "Loading…": "Se încarcă…",
+  "Next film": "Filmul următor",
+  "Previous film": "Filmul anterior",
+  "Next page": "Pagina următoare",
+  "Previous page": "Pagina anterioară",
+  "Rows per page": "Rânduri pe pagină",
+  "Resume": "Reia",
+  "Resume encoding": "Reia codificarea",
+  "Resume subtitles": "Reia subtitrările",
+  "Open settings": "Deschide setările",
+  "Open the library": "Deschide biblioteca",
+  "Subtitle languages": "Limbile subtitrărilor",
+  "Update": "Actualizează",
+  "No results for this search or filter.": "Niciun rezultat pentru această căutare sau acest filtru.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Nimic în coadă pentru codificare. Fișierele noi intră în coadă după o scanare.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Niciun fișier nu a fost înlocuit încă. Codificările terminate apar aici după verificarea calității.",
+  "No files were kept as they are. Films that would save too little end up here.": "Niciun fișier nu a fost păstrat ca atare. Filmele care ar economisi prea puțin ajung aici.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Nicio subtitrare în așteptare. Fișierele cărora le lipsește o limbă intră în coadă după o scanare.",
+  "No subtitle job is running right now.": "Niciun job de subtitrare nu rulează acum.",
+  "No subtitles have been made yet.": "Nu s-au creat încă subtitrări.",
+  "Nothing missing: every file got its subtitles so far.": "Nu lipsește nimic: până acum fiecare fișier și-a primit subtitrările.",
+  "No failed encodes.": "Nicio codificare eșuată.",
+  "No failed subtitle jobs.": "Niciun job de subtitrare eșuat.",
+  "Nothing was added in the last 14 days.": "Nu s-a adăugat nimic în ultimele 14 zile.",
+  "No videos with this plan.": "Niciun videoclip cu acest plan.",
+  "The library is being scanned; videos appear as they are found.": "Biblioteca este scanată; videoclipurile apar pe măsură ce sunt găsite.",
+  "No videos found yet. Check the media folder and run a scan.": "Niciun videoclip găsit încă. Verifică dosarul media și pornește o scanare.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Nimic în carantină. Originalele înlocuite sunt păstrate aici până expiră perioada de păstrare.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Nu s-au găsit dosare DVD sau Blu-ray (VIDEO_TS, BDMV) în bibliotecă.",
+  "1 worker online": "1 worker online",
+  "A worker is busy with this file": "Un worker lucrează la acest fișier",
+  "A worker is grabbing the frames": "Un worker extrage cadrele",
+  "A worker is searching or making subtitles": "Un worker caută sau creează subtitrări",
+  "A worker picks up the next job within a few seconds.": "Un worker preia următoarea sarcină în câteva secunde.",
+  "Above this, the oldest comparisons are deleted automatically.": "Peste această limită, cele mai vechi comparații sunt șterse automat.",
+  "All replaced films": "Toate filmele înlocuite",
+  "Already efficient: encoding would hardly save anything": "Deja eficient: codificarea nu ar economisi aproape nimic",
+  "Automatic comparisons": "Comparații automate",
+  "Being made…": "Se creează…",
+  "Can be made": "Se poate crea",
+  "Can encode on the CPU with x265": "Poate codifica pe CPU cu x265",
+  "Comparison storage limit": "Limita de stocare a comparațiilor",
+  "Comparisons": "Comparații",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: nu se recodifică, stratul DV s-ar pierde",
+  "Encoding is paused.": "Codificarea este pe pauză.",
+  "Enlarge": "Mărește",
+  "Errors": "Erori",
+  "Flip": "Alternează",
+  "Four frames of the original and the new version are stored": "Sunt stocate patru cadre din original și din versiunea nouă",
+  "Full width": "Lățime completă",
+  "GPU encoder found": "Codificator GPU găsit",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Extrage patru cadre din original și din versiunea nouă pentru fiecare film înlocuit, ca să poți verifica oricând imaginea pe pagina Compară. Aproximativ 1–2 MB per film.",
+  "Keyboard shortcuts": "Taste rapide",
+  "Leave without saving? Your changes to the settings will be lost.": "Ieși fără a salva? Modificările tale la setări se vor pierde.",
+  "Moved to the front": "Mutat în față",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Nicio comparație încă. Creează una cât timp originalul este încă în carantină, sau activează comparațiile automate în Setări.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Niciun film nu poate fi comparat acum: originalele au ieșit din carantină, sau nimic nu a fost înlocuit încă.",
+  "No longer possible": "Nu mai este posibil",
+  "No subtitles found online and none could be made": "Nu s-au găsit subtitrări online și nu s-a putut crea niciuna",
+  "Ollama found: can translate subtitles": "Ollama găsit: poate traduce subtitrări",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Face parte dintr-un folder DVD sau Blu-ray; convertește-l pe pagina DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Pus pe pauză automat: NAS-ul are mai puțin spațiu liber decât frâna de siguranță.",
+  "Planned for encoding": "Planificat pentru codificare",
+  "Queued for the CPU encoder": "În coadă pentru codificatorul CPU",
+  "Replaced after the quality check; the original is in quarantine for a while": "Înlocuit după verificarea calității; originalul rămâne o vreme în carantină",
+  "Replaced films appear here after their first encode.": "Filmele înlocuite apar aici după prima codificare.",
+  "Search the log…": "Caută în jurnal…",
+  "Show films that can be compared": "Arată filmele care pot fi comparate",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Arată pe rând originalul și versiunea nouă: cea mai bună cale de a observa granulația și detaliile",
+  "Skipped": "Omis",
+  "Skipped by you; Retry puts it back in the queue": "Omis de tine; „Reîncearcă” îl pune înapoi în coadă",
+  "Slider back to the middle": "Cursorul înapoi la mijloc",
+  "Smaller": "Micșorează",
+  "Stopped because the file changed or disappeared": "Oprit pentru că fișierul s-a schimbat sau a dispărut",
+  "Stopped with an error; see the message and try again": "Oprit cu o eroare; vezi mesajul și încearcă din nou",
+  "Subtitles are paused.": "Subtitrările sunt pe pauză.",
+  "The file could not be read; see the drawer": "Fișierul nu a putut fi citit; vezi panoul lateral",
+  "The new file would save less than the minimum saving, so the original was kept": "Noul fișier ar economisi mai puțin decât economia minimă, așa că originalul a fost păstrat",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Versiunea nouă este pe NAS și este înlocuită imediat ce nimeni nu se uită",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Originalul a ieșit din carantină, deci cadrele nu mai pot fi extrase",
+  "The original is still in quarantine, so the frames can still be grabbed": "Originalul este încă în carantină, deci cadrele mai pot fi extrase",
+  "The original was put back from quarantine": "Originalul a fost restaurat din carantină",
+  "The queue is empty. New files are queued after a scan.": "Coada este goală. Fișierele noi intră în coadă după o scanare.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Serverul distribuie fișiere worker mai noi; workerul le instalează după sarcina curentă",
+  "Undo": "Anulează",
+  "Waiting for Plex: someone is watching this film": "Se așteaptă Plex: cineva urmărește acest film",
+  "Waiting for a worker; the queue runs from top to bottom": "Se așteaptă un worker; coada rulează de sus în jos",
+  "Warnings": "Avertismente",
+  "Whisper installed: can make subtitles": "Whisper instalat: poate crea subtitrări",
+  "Would save less than the minimum saving": "Ar economisi mai puțin decât economia minimă",
+  "expires today": "expiră azi",
+  "expires within a day": "expiră în mai puțin de o zi",
+  "less than a day left": "mai puțin de o zi rămasă",
+  "waiting for Plex": "se așteaptă Plex",
+  "update pending": "actualizare în așteptare",
+  "Tap to switch between original and new": "Atinge pentru a comuta între original și nou",
+  "Repeated": "Repetat",
+  "Search in the current list": "Caută în lista curentă",
+  "Clear the search, close a drawer or dialog": "Șterge căutarea, închide un panou sau un dialog",
+  "Previous or next film on a comparison": "Filmul anterior sau următor într-o comparație",
+  "Open or switch the focused row, switch or header": "Deschide sau comută rândul, comutatorul sau antetul focalizat",
+  "This list": "Această listă",
+  "Nothing in the log matches this.": "Nimic din jurnal nu se potrivește.",
+  "Nothing has happened yet.": "Nu s-a întâmplat nimic încă.",
+  "No worker is online, so nothing can run.": "Niciun worker nu este online, deci nimic nu poate rula.",
+  "There is no worker yet. Add one to get started.": "Nu există încă niciun worker. Adaugă unul pentru a începe.",
+  "Open Workers": "Deschide Workeri",
+  "Some values are out of range.": "Unele valori sunt în afara intervalului.",
+  "no capabilities reported": "nicio capacitate raportată",
+  "Replaced · expires": "Înlocuit · expiră",
+  "Made": "Creată",
+  "Make": "Creează",
+  "lots of motion": "multă mișcare",
+  "dark scene": "scenă întunecată",
+  "a quarter in": "la un sfert",
+  "three quarters in": "la trei sferturi",
+  "Encoded": "Codificat",
+  "Finished": "Terminat",
+  "later": "mai târziu",
+  "Leave": "Ieși",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "O comparație ia 4 cadre din original și din noua versiune (în total circa 1–2 MB). Poate fi făcută cât timp originalul este încă în carantină și rămâne până o ștergi, chiar și după ce originalul a dispărut.",
+  "Retry on CPU": "Reîncearcă pe CPU",
+  "Scan": "Scanare"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1start$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Acum: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan a găsit $1 videoclipuri ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · cele mai slabe 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "cele mai slabe 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Noi ($1 zile)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Plan: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Înlocuirea a eșuat ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} a eșuat{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Scanare terminată: $1 videoclipuri, $2 noi, $3 modificate, $4 dispărute; $5 joburi de codificare și $6 de subtitrare adăugate"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Scanare terminată: $1 videoclipuri, $2 noi, $3 modificate, $4 dispărute, $5 în dosare ignorate; $6 joburi de codificare și $7 de subtitrare adăugate"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Re-codifici $1 film(e) cu regulile curente? Originalele sunt restaurate și filmele primesc prioritate în coadă."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 film(e) din nou în coadă{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 original(e) restaurat(e) și puse din nou în coadă (reguli curente)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Nou: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Înlocuit: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray convertit: $1 ($2 GB); dosarul discului este în carantină"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Original restaurat: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 a început {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 job(uri) (din toate cele $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Selecție distribuită - codificarea pusă automat pe pauză"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Selecție distribuită - subtitrările puse automat pe pauză"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Setări modificate: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Job $1 eroare: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Job $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 offline: $2 job(uri) din nou în coadă"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 repornit: $2 job(uri) întrerupt(e) din nou în coadă"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 actualizat la $2: $3 job(uri) eșuat(e) din nou în coadă"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 eliminat"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: codificare {t:$2}, subtitrări {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Planificare actualizată: $1 joburi de codificare și $2 de subtitrare adăugate"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 job(uri) puse manual în coadă"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 job(uri): $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 comparație(ii) ștearsă(e)"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Deconectat din $1 altă(e) sesiune(i)"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Cod de recuperare folosit la autentificare (au mai rămas $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Originalele sunt păstrate cel mult $1 zile și împreună niciodată mai mult de $2. Cele mai vechi pleacă primele. Restaurarea șterge versiunea nouă."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - clic pentru a elimina"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 dosar(e) vor fi convertite · worker-ul pornește în jumătate de minut"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 audio · $2 subtitrări"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Ștergi $1 comparație(ii)? Filmele rămân neschimbate."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Cadrul $1 · la $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Cadrul $1 · la $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB ca jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Timp de codificare $1 min · măsurat pe 8 fragmente, apoi verificat pe tot filmul."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Prezente acum: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "cele mai slabe 5% $1 · normă $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "sincronizare $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Crearea cadrelor a eșuat: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "selecție · următorul"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "selecție · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Acum:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· apoi încă $1 din selecție"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "estimare · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 terminate anterior · arată"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 adăugat(e) în selecție · worker-ul pornește în câteva secunde"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Selecție {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "creat: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · cu $3% mai mic$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "chiar acum"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "acum $1 min"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "acum $1 h"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "acum $1 zile"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "văzut {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 z $2 h"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 h $2 m"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 videoclipuri"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "carantină $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 pe 24 h"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 câștig"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB câștig"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "Cu $1% mai mic la fișierele procesate"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 online"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "Încă $1 de pornit, apoi pauză"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 elemente · pagina $2 din $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 selectate"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Selectează toate cele $1 rezultate"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Scanare: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "încercat de $1×"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 min"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Activ · $1 cod(uri) de recuperare rămase"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 sesiune(i) activă(e), inclusiv aceasta."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 actualizat(e){w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 altă(e) sesiune(i) deconectată(e)"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Procesezi doar aceste $1? Primesc prioritate, procesarea se reia și apoi se pune din nou automat pe pauză."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Omiți $1 job(uri)?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Restaurezi $1 original(e)? Versiunile noi vor fi șterse."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Elimini worker-ul $1 din listă? Dacă revine online, reapare automat."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "rulează de $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 rămas"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "până la $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "lucrează la"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex conectat (versiunea $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex nu răspunde corect: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "eroare: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "înlocuirea a eșuat: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "valoare nevalidă pentru $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 trebuie să fie între $2 și $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · cele mai slabe 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 h"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU-ul nu a putut păstra calitatea - în coadă pentru codorul CPU (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Curățare staging: rest eliminat $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 pe pagină"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 workeri online"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · adăugarea unui worker, cheia worker și descărcările sunt pe pagina Workeri."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · începe în ~{t:$2} · estimare"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · estimare"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 zile rămase"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "expiră în $1 zile"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Creată · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Se poate crea · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · pasul $1 din $2 · ~{t:$3} rămas"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · pasul $1 din $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · ~{t:$1} rămas"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 comparație(ii) solicitată(e) · gata în câteva minute"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Creezi $1 comparație(ii)? Aproximativ 1–2 MB fiecare."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Repetat de $1 ori"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "între $1 și $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 job(uri)"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Eroare în $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 comparație(ii) solicitată(e)"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Comparații curățate: $1 eliminată(e) (peste $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Folderul de carantină redenumit în quarantine ($1 înregistrare(ări) actualizată(e))"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 eliminat: $2 job(uri) din nou în coadă"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Carantină: $1 există deja, $2 a fost lăsat la locul lui"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Folderul de carantină redenumit în quarantine; $1 înregistrare(ări) actualizată(e), dar $2 nu este încă gol"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Redenumirea folderului de carantină a eșuat (este montată partajarea media?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "noua versiune lipsește din staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "noul .mkv lipsește din staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "originalul a dispărut"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "originalul s-a schimbat între timp"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "originalul nu mai este disponibil"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "verificarea pe NAS respinsă (durată/piste)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray convertit în mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "reîncercare după actualizarea workerului"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "omis de tine"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "fișierul destinație există deja"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker offline - replanificat"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker eliminat - replanificat"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker repornit - replanificat"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "înlocuirea a eșuat: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision lipsește din noul mkv"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: nu s-a recodat (stratul DV s-ar pierde)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "un flux nu poate fi copiat în .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg nu a progresat timp de $1 minute (partajarea inaccesibilă?) - oprit"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 din $2 fișiere lipsesc deodată - partajarea inaccesibilă? Nimic marcat ca dispărut"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "traducerea a eșuat: niciun răspuns utilizabil pentru $1 linie/linii după reîncercări"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: eroare de server"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - descarcă modelul (ollama pull <model>) sau corectează ollama_model din worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama nu este accesibil la $1 ($2) - pornește Ollama sau verifică ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama inaccesibil: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama a continuat să eșueze timp de $2 minute"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 a durat mai mult de o oră - partajarea media mai este accesibilă?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 lipsește; instalează-l $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF pe tot filmul $1 neplauzibil cu orice metodă de asociere (eșantioane $2); scăzut la $3. Originalul păstrat; verifică sursa acolo"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: nu se poate citi fișierul"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: eșuat"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "nu este destul spațiu liber pe PC pentru acest film ($1 GB necesari în $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "spațiu insuficient în folderul de lucru: $1 GB liberi, ~$2 GB necesari"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "cu bitrate-ul minim cel mult cu $1% mai mic"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "se extrag metadatele din stratul de îmbunătățire"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "descărcarea nu se potrivește (sha256) - nefolosită"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "verificare: durata sau numărul de fluxuri diferă"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "mkv-ul nou este prea scurt ($1 din $2 min)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 din $2 gata, se așteaptă un worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "se convertește Dolby Vision în profile 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "se injectează metadatele în stratul de bază"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "se verifică VMAF (a doua măsurare)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "nicio setare nu atinge ținta de calitate"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "limita de descărcări atinsă - restul mai târziu"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "limita zilnică OpenSubtitles atinsă"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "parțial; restul după limita de descărcare"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 nu a fost găsit după descărcare"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: limba vorbită detectată"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (tradus din $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "se așteaptă spațiu liber pe PC"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "fișierul de subtitrare este neobișnuit de mare"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "măsurătoarea autotestului nu este fiabilă"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "încercarea de traducere $1 a eșuat"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "în așteptare: vizionat în Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "estimat doar cu $1% mai mic"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "se descarcă $1 (o singură dată)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "verificarea pe tot filmul sub țintă"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "nu se poate extrage un cadru la $1 s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "filmul întreg puțin sub țintă"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "se caută filmul pe disc"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "ținta de calitate nu poate fi atinsă"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "măsurătoarea de verificare nu este fiabilă"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "cale nevalidă de la server"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "din nou: câștig minim acum 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper rulează pe GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "nu s-au găsit titluri pe DVD"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "cale suspectă în arhivă"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "în așteptare: Plex inaccesibil"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "se lucrează la $1 din $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles inaccesibil"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (transcriere)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "se verifică VMAF pe tot filmul"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "gata, se așteaptă înlocuirea"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "dosarul vechi în carantină"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "verificare VMAF $1 prea mic"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "se citește discul (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "tradus din engleză"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "gata ($1 din $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "extragerea audio a eșuat"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "se revine la CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "autentificat la OpenSubtitles"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (din profilul 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "se așteaptă worker-ul"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "cale suspectă în zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "EN încorporat ilizibil"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "cel mai lung până acum: titlul"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "sincronizarea nu se potrivește"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "doar cu $1% mai mic"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "segment $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "se păstrează originalul"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "descărcări rămase astăzi"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "titlul $1 verificat"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "se așteaptă înlocuirea"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "se copiază pe NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "păstrează originalul"
+  ],
+  [
+   "translation failed",
+   "g",
+   "traducerea a eșuat"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "server inaccesibil"
+  ],
+  [
+   "searching quality",
+   "g",
+   "se caută calitatea"
+  ],
+  [
+   "making references",
+   "g",
+   "se creează referințe"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "se convertește în mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "subtitrări oprite"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "se copiază NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "se copiază PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "se caută filmul"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "se combină în mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "cel mai lung playlist"
+  ],
+  [
+   "timing reference",
+   "g",
+   "referință de sincronizare"
+  ],
+  [
+   "speech segments",
+   "g",
+   "segmente de vorbire"
+  ],
+  [
+   "too little gain",
+   "g",
+   "câștig prea mic"
+  ],
+  [
+   " not applicable",
+   "g",
+   " nu se aplică"
+  ],
+  [
+   "download failed",
+   "g",
+   "descărcarea a eșuat"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "după ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "se traduce în"
+  ],
+  [
+   "next candidate",
+   "g",
+   "următorul candidat"
+  ],
+  [
+   "after shifting",
+   "g",
+   "după deplasare"
+  ],
+  [
+   "reading audio",
+   "g",
+   "se citește audio"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Selecție · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 în așteptare"
+  ],
+  [
+   "search failed",
+   "g",
+   "căutarea a eșuat"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "se re-codifică"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "titlul $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " eroare(i)"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 gata"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "subtitrări:"
+  ],
+  [
+   "replacing",
+   "g",
+   "se înlocuiește"
+  ],
+  [
+   "subtitles",
+   "g",
+   "subtitrări"
+  ],
+  [
+   "candidate",
+   "g",
+   "candidat"
+  ],
+  [
+   "encoding:",
+   "g",
+   "codificare:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "start"
+  ],
+  [
+   "encoding",
+   "g",
+   "se codifică"
+  ],
+  [
+   "checking",
+   "g",
+   "se verifică"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", până la "
+  ],
+  [
+   "present",
+   "g",
+   "prezente"
+  ],
+  [
+   "missing",
+   "g",
+   "lipsă"
+  ],
+  [
+   "speed",
+   "g",
+   "viteză"
+  ],
+  [
+   "saved",
+   "g",
+   "salvat"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU-ul nu a putut păstra calitatea - în coadă pentru codorul CPU (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Curățare staging: rest eliminat"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "folderul media este gol sau nemontat - nimic schimbat"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "păstrarea calității ar necesita mai mult bitrate decât are sursa"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "necesită mai mult bitrate decât sursa"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "workerul repornește pentru o actualizare"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "niciun flux video (doar coperta?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "niciun flux audio de transcris"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "nu este destul spațiu liber pe PC pentru acest film"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "se reîncearcă pe CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "se parcurg folderele"
+  ],
+  [
+   "analysing files",
+   "g",
+   "se analizează fișierele"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "se planifică sarcinile"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "Codificare pe CPU activ"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "Codificare pe CPU oprit"
+  ]
+ ]
+}

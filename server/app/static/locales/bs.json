@@ -1,0 +1,2060 @@
+{
+ "name": "Bosanski",
+ "s": {
+  "Re-encode from original": "Ponovo enkoduj iz originala",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Ponovo enkodovati po trenutnim pravilima? Original se vraća i film dobija prioritet.",
+  "Back in the queue": "Ponovo u redu čekanja",
+  "Restore originals": "Vrati originale",
+  "Minimum bitrate (1080p)": "Minimalni bitrate (1080p)",
+  "Extra floor (share of the source)": "Dodatna donja granica (udio izvora)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Opcionalno: pored toga zadrži bar ovaj udio originalnog bitratea videa. Korisno samo za izvore sa vrlo visokim bitrateom. 0 = isključeno.",
+  "with the minimum bitrate at most": "uz minimalni bitrate najviše",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Novi fajl nikad ne ide niže, čak i ako VMAF to dozvoljava. Ostale rezolucije srazmjerno: 4K ×2,5 · 720p ×0,55 · SD ×0,3 · HDR +15% · animacija ×0,6.",
+  "bitrate already near the minimum": "bitrate već blizu donje granice",
+  "MFA reset from settings - set it up again": "MFA resetovan iz podešavanja - ponovo ga podesi",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA resetovan preko MFA_RESET - ukloni MFA_RESET iz podešavanja kontejnera",
+  "MFA enabled": "MFA uključen",
+  "MediaScan started": "MediaScan pokrenut",
+  "New recovery codes created": "Napravljeni novi kodovi za oporavak",
+  "Password changed; other sessions signed out": "Lozinka promijenjena; ostale sesije odjavljene",
+  "Password set (first time)": "Lozinka postavljena (prvi put)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Napomena: ADMIN_PASSWORD je kraći od 10 znakova - izaberi jaču lozinku u Podešavanjima",
+  "part of a DVD/Blu-ray folder": "dio DVD/Blu-ray foldera",
+  "folder is in Skip folders": "folder je u Preskoči foldere",
+  "file disappeared": "datoteka je nestala",
+  "worker restarted - rescheduled": "worker ponovo pokrenut - ponovo zakazano",
+  "worker offline - rescheduled": "worker offline - ponovo zakazano",
+  "retry after worker update": "ponovo poslije ažuriranja workera",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray konvertovan u mkv",
+  "skipped by you": "preskočeno na tvoj zahtjev",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Zamjena čeka dok se film gleda, a Plex se osvježava poslije svake promjene.",
+  "Confirm with your password and a code from your app.": "Potvrdi lozinkom i kodom iz aplikacije.",
+  "Your old recovery codes will stop working.": "Tvoji stari kodovi za oporavak prestaće da važe.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Tvoja trenutna veza sa autentifikatorom i kodovi za oporavak prestaće da važe. Poslije toga odmah ponovo podešavaš MFA.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Izaberi lozinku za kontrolnu ploču. Kod za podešavanje nalazi se u logu kontejnera (Container Manager › mediascan › Log, ili",
+  "- click to remove": "- klikni za uklanjanje",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Neispravna adresa, npr. http://192.168.1.10:32400",
+  "Enter a Plex token": "Unesi Plex token",
+  "A password has already been set": "Lozinka je već postavljena",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Ključ je fiksno zadan u WORKER_TOKEN (okruženje kontejnera)",
+  "selection still running - pause or wait until it is done": "izbor je još u toku - pauziraj ili sačekaj da se završi",
+  "Now running": "Trenutno u toku",
+  "Finding the film on the disc": "Traženje filma na disku",
+  "Converting to one .mkv": "Konvertovanje u jedan .mkv",
+  "Checking (duration, tracks)": "Provjera (trajanje, trake)",
+  "Copying to the NAS": "Kopiranje na NAS",
+  "Old folder to quarantine": "Stari folder u karantin",
+  "worker has not reported for a while": "worker se već neko vrijeme ne javlja",
+  "waiting for the worker": "čeka se worker",
+  "Welcome to MediaScan": "Dobro došli u MediaScan",
+  "Setup code": "Kod za podešavanje",
+  "New password (at least 10 characters)": "Nova lozinka (najmanje 10 znakova)",
+  "Repeat password": "Ponovi lozinku",
+  "Set password": "Postavi lozinku",
+  "The passwords do not match": "Lozinke se ne podudaraju",
+  "Setup code is wrong - check the container log": "Kod za podešavanje nije tačan - provjeri log kontejnera",
+  "Choose a password of at least 10 characters": "Izaberi lozinku od najmanje 10 znakova",
+  "Animation folders": "Folderi sa animacijom",
+  "Top-level folders with animation: these may use a lower bitrate.": "Glavni folderi sa animacijom: oni smiju da imaju niži bitrate.",
+  "Where do I find the token?": "Gdje mogu da nađem token?",
+  "Connect": "Poveži",
+  "Disconnect": "Prekini vezu",
+  "Connected": "Povezano",
+  "Not connected": "Nije povezano",
+  "+ Add language": "+ Dodaj jezik",
+  "Renew": "Obnovi",
+  "Worker version": "Verzija workera",
+  "Password": "Lozinka",
+  "Other sessions are signed out after a change.": "Poslije promjene ostale sesije se odjavljuju.",
+  "Change password": "Promijeni lozinku",
+  "Other sessions will be signed out.": "Ostale sesije će biti odjavljene.",
+  "Change": "Promijeni",
+  "New worker key": "Novi ključ workera",
+  "Create new key": "Napravi novi ključ",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Svi workeri staju dok ne uneseš novi ključ (ponovo pokreni instaler ili izmijeni worker.ini).",
+  "Repeat new password": "Ponovi novu lozinku",
+  "Password changed": "Lozinka promijenjena",
+  "New worker key created": "Napravljen novi ključ workera",
+  "Disconnect Plex?": "Prekinuti vezu sa Plexom?",
+  "Plex disconnected": "Veza sa Plexom prekinuta",
+  "Plex connected": "Plex povezan",
+  "Incorrect password": "Netačna lozinka",
+  "Incorrect code": "Netačan kod",
+  "Incorrect code from your authenticator app": "Netačan kod iz aplikacije za autentifikaciju",
+  "Too many attempts - try again in 15 minutes": "Previše pokušaja - pokušaj ponovo za 15 minuta",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Folderi sa VIDEO_TS ili BDMV. Konvertovanje od njih pravi jedan .mkv sa svom slikom, zvukom, titlovima i poglavljima.",
+  "Convert to MKV": "Konvertuj u MKV",
+  "Folder": "Folder",
+  "Type": "Vrsta",
+  "found": "pronađeno",
+  "queued": "u redu čekanja",
+  "converting…": "konvertuje se…",
+  "converted": "konvertovano",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Konvertovanje kopira sve 1:1 u jedan .mkv: sliku (i HDR), sve audio trake, titlove i poglavlja. Kod DVD-a bira najduži naslov (film). Stari folder ide u karantin, pa možeš da ga vratiš. Zatim .mkv prolazi uobičajeno enkodovanje i titlove. Dolby Vision Blu-ray diskovi postaju Dolby Vision profil 8.1 (osnovni sloj 1:1, dodati DV metapodaci): Plex i tvoj TV ga puštaju kao Dolby Vision, ostali plejeri kao HDR10. Takav film se poslije ne enkoduje ponovo, jer bi se izgubio Dolby Vision.",
+  "Compare": "Uporedi",
+  "Delete comparison": "Obriši poređenje",
+  "Comparison deleted": "Poređenje obrisano",
+  "comparison": "poređenje",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Original pored nove verzije: veličina, kvalitet, slika i titlovi. Ti biraš filmove.",
+  "Original → new": "Original → novo",
+  "Quality (VMAF)": "Kvalitet (VMAF)",
+  "Comparison": "Poređenje",
+  "View": "Prikaži",
+  "Make comparison": "Napravi poređenje",
+  "previous attempt failed": "prethodni pokušaj nije uspio",
+  "Back": "Nazad",
+  "Make again": "Napravi ponovo",
+  "New": "Novo",
+  "VMAF whole film": "VMAF cijelog filma",
+  "Making the frames… this usually takes less than a minute.": "Prave se kadrovi… to obično traje manje od minute.",
+  "There is no picture comparison for this film yet.": "Za ovaj film još nema poređenja slike.",
+  "Picture · drag across the image": "Slika · prevuci preko slike",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR je za ovaj prikaz konvertovan u SDR; na TV-u ga vidiš u HDR-u.",
+  "How the setting was chosen": "Kako je podešavanje izabrano",
+  "Step": "Korak",
+  "Weakest 5%": "Najslabijih 5%",
+  "Bitrate": "Bitrate",
+  "chosen": "izabrano",
+  "No data.": "Nema podataka.",
+  "Nothing needed, all languages were present.": "Ništa nije potrebno, svi jezici već postoje.",
+  "Not processed yet.": "Još nije obrađeno.",
+  "Comparison requested · ready within a minute": "Poređenje zatraženo · gotovo za minutu",
+  "Delete this comparison? The film itself stays as it is.": "Obrisati ovo poređenje? Sam film ostaje nepromijenjen.",
+  "Not possible": "Nije moguće",
+  "Slide between original and new": "Pomjeri između originala i novog",
+  "Overview": "Pregled",
+  "Queue": "Red čekanja",
+  "In progress": "U toku",
+  "No gain": "Bez uštede",
+  "Failed": "Neuspjelo",
+  "Subtitles": "Titlovi",
+  "Recently added": "Nedavno dodato",
+  "Library": "Biblioteka",
+  "Quarantine": "Karantin",
+  "Workers": "Workeri",
+  "Activity": "Aktivnost",
+  "Settings": "Podešavanja",
+  "Encoding": "Enkodovanje",
+  "System": "Sistem",
+  "Status of the entire library.": "Stanje cijele biblioteke.",
+  "Selection": "Izbor",
+  "waiting for worker": "čeka workera",
+  "In the selection": "U izboru",
+  "selection": "izbor",
+  "Selection · encoding": "Izbor · enkodovanje",
+  "Selection · subtitles": "Izbor · titlovi",
+  "Close list": "Zatvori listu",
+  "waiting": "čeka",
+  "nothing needed": "ništa nije potrebno",
+  "original kept": "original zadržan",
+  "Find, sync or generate missing subtitles.": "Pronađi, sinhronizuj ili napravi titlove koji nedostaju.",
+  "All videos with their current plan. You can also queue items manually here.": "Svi video snimci sa trenutnim planom. Ovdje ih možeš i ručno staviti u red čekanja.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Računari koji obavljaju posao. Za svaki worker izaberi šta smije da radi.",
+  "Log of everything that happens.": "Log svega što se dešava.",
+  "Scan now": "Skeniraj sada",
+  "Saved": "Ušteđeno",
+  "Free on NAS": "Slobodno na NAS-u",
+  "Progress": "Napredak",
+  "Saved per day": "Ušteđeno po danu",
+  "last 14 days": "posljednjih 14 dana",
+  "Per folder": "Po folderu",
+  "all": "sve",
+  "nothing processed yet": "još ništa nije obrađeno",
+  "no measurement yet": "još nema mjerenja",
+  "No processed files yet": "Još nema obrađenih fajlova",
+  "No worker connected yet": "Još nijedan worker nije povezan",
+  "no worker": "nema workera",
+  "worker offline": "worker offline",
+  "online": "online",
+  "disabled": "isključeno",
+  "encoding": "enkodovanje",
+  "subtitles": "titlovi",
+  "Search by name or folder…": "Traži po nazivu ili folderu…",
+  "Several titles at once: separate them with |": "Više naslova odjednom: odvoji ih sa |",
+  "Nothing to show": "Nema ničega za prikaz",
+  "File": "Fajl",
+  "Source": "Izvor",
+  "Status": "Status",
+  "Result": "Rezultat",
+  "Languages": "Jezici",
+  "Error": "Greška",
+  "When": "Kada",
+  "Plan": "Plan",
+  "Added": "Dodato",
+  "Original": "Original",
+  "Size": "Veličina",
+  "Replaced": "Zamijenjeno",
+  "estimate": "procjena",
+  "Name": "Naziv",
+  "Done": "Gotovo",
+  "Nothing found": "Ništa nije pronađeno",
+  "Process only these": "Obradi samo ove",
+  "Prioritise": "Prioritet",
+  "Skip": "Preskoči",
+  "Retry": "Pokušaj ponovo",
+  "Clear": "Obriši",
+  "Both": "Oba",
+  "Restore original": "Vrati original",
+  "Find subtitles": "Traži titlove",
+  "running": "u toku",
+  "done": "gotovo",
+  "failed": "neuspjelo",
+  "replacing": "zamjena",
+  "no gain": "bez uštede",
+  "skipped": "preskočeno",
+  "restored": "vraćeno",
+  "cancelled": "otkazano",
+  "nothing found": "nije pronađeno",
+  "encode": "enkodovanje",
+  "already efficient": "već efikasno",
+  "small gain": "mala ušteda",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "greška",
+  "unknown": "nepoznato",
+  "All": "Sve",
+  "Already efficient": "Već efikasno",
+  "Small gain": "Mala ušteda",
+  "Restored": "Vraćeno",
+  "Video": "Video",
+  "Duration": "Trajanje",
+  "Audio": "Audio",
+  "Encode": "Enkodovanje",
+  "Quality": "Kvalitet",
+  "Encode time": "Vrijeme enkodovanja",
+  "Message": "Poruka",
+  "Started": "Pokrenuto",
+  "Search": "Pretraga",
+  "weakest 5%": "najslabijih 5%",
+  "video": "video",
+  "Worker": "Worker",
+  "Hardware": "Hardver",
+  "Resolution": "Rezolucija",
+  "Working on": "Radi na",
+  "nothing": "ništa",
+  "up to 4K": "do 4K",
+  "up to 1080p": "do 1080p",
+  "up to 720p": "do 720p",
+  "up to SD": "do SD",
+  "Remove": "Ukloni",
+  "Add worker": "Dodaj worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Svaki worker sam javlja šta može (pronađen enkoder, instaliran Whisper). Ovdje odlučuješ šta smije. Promjene važe od sljedećeg posla; posao u toku se prvo završava.",
+  "This machine lacks the hardware or software for this": "Ovaj računar nema hardver ili softver za ovo",
+  "Quality level": "Nivo kvaliteta",
+  "Standard": "Standardno",
+  "High": "Visoko",
+  "Maximum": "Maksimalno",
+  "Custom": "Prilagođeno",
+  "Custom target": "Prilagođeni prag",
+  "Average VMAF and the weakest 5% of frames.": "Prosječni VMAF i najslabijih 5% kadrova.",
+  "avg.": "prosjek",
+  "Minimum saving": "Minimalna ušteda",
+  "If a file saves less, the original is kept.": "Ako fajl uštedi manje, original se zadržava.",
+  "Processing": "Obrada",
+  "Storage & safety": "Skladište i sigurnost",
+  "How long replaced originals can be restored.": "Koliko dugo zamijenjeni originali mogu da se vrate.",
+  "days": "dana",
+  "Above this, the oldest originals are deleted permanently.": "Iznad toga najstariji originali se trajno brišu.",
+  "Safety brake": "Sigurnosna kočnica",
+  "Encoding pauses when the NAS has less free space than this.": "Enkodovanje se pauzira kad NAS ima manje slobodnog prostora od ovoga.",
+  "Scanning": "Skeniranje",
+  "Automatic scan": "Automatsko skeniranje",
+  "New files are queued automatically.": "Novi fajlovi automatski idu u red čekanja.",
+  "Off": "Isključeno",
+  "Every hour": "Svaki sat",
+  "Every 6 hours": "Svakih 6 sati",
+  "Every 12 hours": "Svakih 12 sati",
+  "Daily": "Dnevno",
+  "Skip folders": "Preskoči foldere",
+  "Comma-separated folder names.": "Nazivi foldera odvojeni zarezom.",
+  "Plex": "Plex",
+  "Dashboard address": "Adresa kontrolne ploče",
+  "Use the IP address of the NAS, not localhost.": "Koristi IP adresu NAS-a, ne localhost.",
+  "Worker key": "Ključ workera",
+  "Keep secret: with this key a worker can fetch jobs.": "Čuvaj u tajnosti: sa ovim ključem worker može da preuzima poslove.",
+  "Show": "Prikaži",
+  "Copy": "Kopiraj",
+  "Minimum requirements": "Minimalni zahtjevi",
+  "Account & security": "Račun i sigurnost",
+  "Two-factor authentication": "Dvofaktorska autentifikacija",
+  "Not active": "Nije aktivno",
+  "New recovery codes": "Novi kodovi za oporavak",
+  "Reset MFA": "Ponovo podesi MFA",
+  "Sessions": "Sesije",
+  "Sign out everywhere else": "Odjavi se svugdje drugdje",
+  "Sign out": "Odjavi se",
+  "You have unsaved changes.": "Imaš nesačuvane izmjene.",
+  "Cancel": "Otkaži",
+  "Save": "Sačuvaj",
+  "Language": "Jezik",
+  "Theme": "Tema",
+  "Light": "Svijetla",
+  "Dark": "Tamna",
+  "Auto": "Auto",
+  "Dashboard language.": "Jezik kontrolne ploče.",
+  "Auto follows your system setting.": "Auto prati podešavanje sistema.",
+  "Reset": "Ponovo podesi",
+  "Create new codes": "Napravi nove kodove",
+  "Close": "Zatvori",
+  "Code from your authenticator app": "Kod iz aplikacije za autentifikaciju",
+  "Sign in": "Prijavi se",
+  "Activate": "Aktiviraj",
+  "Set up two-factor authentication": "Podesi dvofaktorsku autentifikaciju",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Skeniraj QR kod aplikacijom za autentifikaciju i unesi šestocifreni kod.",
+  "Manual:": "Ručno:",
+  "6-digit code": "Šestocifreni kod",
+  "123456 or recovery code": "123456 ili kod za oporavak",
+  "Save your recovery codes": "Sačuvaj kodove za oporavak",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Izgubio si telefon? Svakim od ovih kodova možeš da se prijaviš jednom. Prikazuju se samo jednom.",
+  "I have saved them": "Sačuvao sam ih",
+  "Save them now, they are shown only once.": "Sačuvaj ih sada, prikazuju se samo jednom.",
+  "Server not responding": "Server ne odgovara",
+  "Sign-in failed": "Prijava nije uspjela",
+  "Code is incorrect": "Kod nije tačan",
+  "Code is incorrect - check the time on your phone": "Kod nije tačan - provjeri vrijeme na telefonu",
+  "Scan started": "Skeniranje pokrenuto",
+  "scan already running": "skeniranje je već u toku",
+  "Copied": "Kopirano",
+  "Resumed": "Nastavljeno",
+  "Paused: a running job will finish first": "Pauzirano: posao u toku se prvo završava",
+  "Added to the queue": "Dodato u red čekanja",
+  "Not applicable": "Nije primjenjivo",
+  "At least one language": "Bar jedan jezik",
+  "Skip this job?": "Preskočiti ovaj posao?",
+  "Restore the original? The new version will be deleted.": "Vratiti original? Nova verzija će biti obrisana.",
+  "on": "uključeno",
+  "off": "isključeno",
+  "Quarantine cleanup": "Čišćenje karantina",
+  "Background task": "Pozadinski zadatak",
+  "Planning at startup": "Planiranje pri pokretanju",
+  "Welcome": "Dobro došli",
+  "Next": "Dalje",
+  "Previous": "Nazad",
+  "Next (or skip)": "Dalje (ili preskoči)",
+  "Done, go to the overview": "Gotovo, na pregled",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan smanjuje tvoje filmove i serije bez vidljive razlike i dopunjuje titlove koji nedostaju. Originali se zamjenjuju tek poslije provjere kvaliteta i prvo neko vrijeme ostaju u karantinu.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Šest kratkih koraka i sve je podešeno. Sve možeš kasnije da promijeniš u Podešavanjima.",
+  "Your library": "Tvoja biblioteka",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan sada traži video snimke u tvom folderu sa medijima. Kod velike biblioteke prvo skeniranje traje neko vrijeme; možeš slobodno da nastaviš.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Folderi koje MediaScan nikad ne dira, odvojeni zarezima (npr. Music, Downloads).",
+  "Scan again": "Skeniraj ponovo",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Izaberi jezike koje svaki fajl treba da ima. Šta nedostaje, MediaScan traži na OpenSubtitles. Ako to ne uspije, worker sam pravi titlove (prepoznavanje govora i prijevod na tvom računaru).",
+  "Click a language to remove it.": "Klikni na jezik da ga ukloniš.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Svaki film se mjeri VMAF-om, ocjenom kako slika izgleda ljudskom oku. \"Visoko\" se skoro kod svih ne razlikuje od originala.",
+  "Higher = better picture, less space saved.": "Više = bolja slika, manja ušteda prostora.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Zaštitna mreža za zrnasto i tamne scene. 5 Mbps je dobra zadana vrijednost; 4K i ostale rezolucije se prilagođavaju srazmjerno.",
+  "Plex (optional)": "Plex (opcionalno)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Kad je Plex povezan, MediaScan čeka sa zamjenom filma dok ga neko gleda i osvježava Plex poslije svake promjene. Nemaš Plex? Samo preskoči ovaj korak.",
+  "Plex address and token": "Plex adresa i token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (nepromijenjen)",
+  "Add a worker": "Dodaj worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Težak posao obavlja PC ili Mac sa dobrom grafičkom karticom: worker. Instaliraj ga sada ili kasnije preko stranice Workeri. Dok nema workera, sa tvojim fajlovima se ništa ne dešava.",
+  "✓ A worker is connected.": "✓ Worker je povezan.",
+  "Done! MediaScan is set up.": "Gotovo! MediaScan je podešen.",
+  "Connect the media share on the new machine.": "Poveži dijeljeni folder sa medijima na novom računaru.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: slovo diska ili \\\\NAS\\Media · Mac: Finder › Poveži se sa serverom · Linux: pogledaj uputstvo u paketu.",
+  "Download the package for that system and unpack it.": "Preuzmi paket za taj sistem i raspakuj ga.",
+  "Run the installer.": "Pokreni instaler.",
+  "The installer asks for the details below and tests the connection.": "Instaler traži podatke ispod i testira vezu.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 ili noviji, Intel Arc ili iGPU 11. gen.+, AMD RX 6000+ · 4 jezgra · 8 GB · 100 GB slobodno · žičana mreža. Titlovi: NVIDIA sa 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (titlovi: 24 GB+) · 150 GB slobodno · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Workeri se sami ažuriraju kad ova kontrolna ploča ima novu verziju.",
+  "What the workers are doing now and what is planned next.": "Šta workeri rade sada i šta slijedi.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Smanji fajlove bez vidljivog gubitka kvaliteta. Worker obrađuje red čekanja odozgo nadole.",
+  "select page": "izaberi stranicu",
+  "select": "izaberi",
+  "to encode": "za enkodovanje",
+  "Movie": "Film",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Zamijenjeni originali, privremeno čuvani da bi mogao da ih vratiš ili ponovo enkoduješ.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Kako MediaScan radi: kvalitet, titlovi, skladište i sigurnost.",
+  "General": "Opšte",
+  "Advanced": "Napredno",
+  "Connection": "Veza",
+  "Hand out new encode jobs to the workers.": "Dodjeljuj nove poslove enkodovanja workerima.",
+  "Hand out new subtitle jobs to the workers.": "Dodjeljuj nove poslove titlova workerima.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Koliko je strogo VMAF mjerenje. Više = bolja slika, manja ušteda prostora.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Koje titlove svaki fajl treba da ima. Oni koji nedostaju se traže, a u suprotnom prave.",
+  "Go to Workers": "Idi na Workere",
+  "new": "novo",
+  "start": "početak",
+  "Minimum bitrate (4K)": "Minimalni bitrate (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Vlastita donja granica za 4K umjesto 2,5 × vrijednosti za 1080p. 0 = automatski. HDR +15% i animacija ×0,6 vrijede i ovdje.",
+  "Ready to use in a few steps.": "Spremno za korištenje u nekoliko koraka.",
+  "next": "dalje",
+  "read error": "greška pri čitanju",
+  "MFA is already enabled": "MFA je već uključen",
+  "a .mkv with that name already exists": "već postoji .mkv s tim imenom",
+  "a file already exists at the original location": "datoteka već postoji na originalnoj lokaciji",
+  "action not possible in this status": "radnja nije moguća u ovom stanju",
+  "walking folders": "pregled foldera",
+  "planning jobs": "planiranje poslova",
+  "check on the NAS rejected (duration/tracks)": "provjera na NAS-u odbijena (trajanje/zapisi)",
+  "expected a JSON object": "očekivan je JSON objekt",
+  "ffprobe error": "ffprobe greška",
+  "invalid resolution": "nevažeća rezolucija",
+  "invalid worker token": "nevažeći worker token",
+  "job belongs to another worker": "posao pripada drugom workeru",
+  "job is no longer active": "posao više nije aktivan",
+  "no video track": "nema video zapisa",
+  "not JSON": "nije JSON",
+  "not signed in": "nije prijavljen",
+  "original disappeared": "original je nestao",
+  "original has changed in the meantime": "original se u međuvremenu promijenio",
+  "original is no longer in quarantine": "original više nije u karanteni",
+  "original no longer available": "original više nije dostupan",
+  "request refused": "zahtjev odbijen",
+  "target file already exists": "ciljna datoteka već postoji",
+  "the original has already been removed from quarantine - comparing is no longer possible": "original je već uklonjen iz karantene - poređenje više nije moguće",
+  "this film has not been replaced yet": "ovaj film još nije zamijenjen",
+  "unknown action": "nepoznata radnja",
+  "worker is still online": "worker je još online",
+  "In use now:": "Trenutno u upotrebi:",
+  "longest": "najduži",
+  "8.1 (from profile 7)": "8.1 (iz profila 7)",
+  "Whisper (transcription)": "Whisper (transkripcija)",
+  "1 day ago": "prije 1 dana",
+  "1 video": "1 video snimaka",
+  "Enter your password to open the dashboard.": "Unesite lozinku da otvorite kontrolnu ploču.",
+  "No connection to the server - retrying…": "Nema veze sa serverom - ponovni pokušaj…",
+  "Are you sure?": "Jeste li sigurni?",
+  "Restore": "Vrati",
+  "Re-encode": "Ponovo kodiraj",
+  "Delete": "Izbriši",
+  "Next up": "Slijedi",
+  "in the queue": "u redu čekanja",
+  "Load older entries": "Učitaj starije unose",
+  "Folder: all": "Mapa: sve",
+  "Resolution: all": "Rezolucija: sve",
+  "Codec: all": "Kodek: svi",
+  "More": "Više",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "film(ova) čeka CPU koder, ali nijedan worker nema uključeno CPU kodiranje (stranica Workers).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Vaš hardver, koliko odgovara poslu, korišteni alati i kako rade postavke.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Memorija",
+  "Software": "Softver",
+  "GPU encoding": "GPU kodiranje",
+  "CPU encoding (x265)": "CPU kodiranje (x265)",
+  "Subtitles (Whisper)": "Titlovi (Whisper)",
+  "Translation (Ollama)": "Prijevod (Ollama)",
+  "Server": "Server",
+  "Database": "Baza podataka",
+  "Tools in use": "Korišteni alati",
+  "Knowledge base": "Baza znanja",
+  "Low": "Nisko",
+  "Medium": "Srednje",
+  "Ultra": "Ultra",
+  "files": "datoteka",
+  "up": "aktivan",
+  "of": "od",
+  "uses": "koristi",
+  "free": "slobodno",
+  "Media share": "Medijski dijeljeni disk",
+  "Rating": "Ocjena",
+  "Hardware details appear after this worker has updated itself.": "Detalji hardvera pojavljuju se nakon što se ovaj worker ažurira.",
+  "no Whisper": "bez Whispera",
+  "unified memory": "objedinjena memorija",
+  "cores": "jezgri",
+  "threads": "niti",
+  "driver": "drajver",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Nepoznato",
+  "Settings saved": "Podešavanja sačuvana",
+  "Time left": "Preostalo vrijeme",
+  "Queued": "U redu čekanja",
+  "Keep originals for": "Čuvaj originale",
+  "Quarantine size limit": "Ograničenje veličine karantina",
+  "Hide finished items": "Sakrij završene",
+  "Undo skip": "Poništi preskakanje",
+  "not supported here": "ovdje nije podržano",
+  "CPU encoding": "CPU enkodovanje",
+  "Retry on CPU (x265)": "Pokušaj ponovo na CPU-u (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Enkodovano na CPU-u sa x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 sa podešavanjem za zrno na CPU-u workera: čuva zrno mnogo efikasnije, ali traje satima po filmu",
+  "CPU fallback for grainy films": "CPU rezerva za zrnaste filmove",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Kad GPU ne može zadržati kvalitet bez prekoračenja bitratea izvora (filmsko zrno), film se još jednom enkoduje na CPU-u workera sa x265, koji čuva zrno mnogo efikasnije. Traje satima po filmu; uključi CPU enkodovanje za worker na stranici Workers.",
+  "CPU preset": "CPU preset",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: oko 2 sata za 2-satni 1080p film na 8 jezgri. Slow: 2-3 puta duže za oko 5-10% manje fajlove.",
+  "Medium (faster)": "Medium (brže)",
+  "Slow (smaller)": "Slow (manje)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Ovu stranicu nije moguće učitati.",
+  "up to 1440p": "do 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "analiza datoteka",
+  "No worker has CPU encodes switched on (Workers page)": "Nijedan worker nema uključeno CPU enkodovanje (stranica Workers)",
+  "the job changed in the meantime": "posao se u međuvremenu promijenio",
+  "Main": "Glavna navigacija",
+  "Clear search and filters": "Očisti pretragu i filtere",
+  "Compact rows": "Kompaktni redovi",
+  "Encoding and subtitles are paused.": "Enkodovanje i titlovi su pauzirani.",
+  "Encoding is paused: no new encode jobs are handed out.": "Enkodovanje je pauzirano: ne dodjeljuju se novi poslovi enkodovanja.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Titlovi su pauzirani: ne dodjeljuju se novi poslovi titlova.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Unesi i Plex adresu i token, ili ostavi oboje prazno da preskočiš.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Slobodan prostor na NAS-u je ispod sigurnosne kočnice. Enkodovanje je automatski pauzirano.",
+  "Loading…": "Učitavanje…",
+  "Next film": "Sljedeći film",
+  "Previous film": "Prethodni film",
+  "Next page": "Sljedeća stranica",
+  "Previous page": "Prethodna stranica",
+  "Rows per page": "Redova po stranici",
+  "Resume": "Nastavi",
+  "Resume encoding": "Nastavi enkodovanje",
+  "Resume subtitles": "Nastavi titlove",
+  "Open settings": "Otvori postavke",
+  "Open the library": "Otvori biblioteku",
+  "Subtitle languages": "Jezici titlova",
+  "Update": "Ažuriraj",
+  "No results for this search or filter.": "Nema rezultata za ovu pretragu ili filter.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Ništa nije u redu čekanja za enkodovanje. Novi fajlovi ulaze u red čekanja nakon skeniranja.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Još nijedan fajl nije zamijenjen. Završena enkodovanja pojavljuju se ovdje nakon provjere kvaliteta.",
+  "No files were kept as they are. Films that would save too little end up here.": "Nijedan fajl nije ostavljen kakav jeste. Ovdje završavaju filmovi koji bi uštedjeli premalo.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Nijedan titl ne čeka. Fajlovi kojima nedostaje jezik ulaze u red čekanja nakon skeniranja.",
+  "No subtitle job is running right now.": "Trenutno ne radi nijedan posao titlova.",
+  "No subtitles have been made yet.": "Još nije napravljen nijedan titl.",
+  "Nothing missing: every file got its subtitles so far.": "Ništa ne nedostaje: svaki fajl je do sada dobio svoje titlove.",
+  "No failed encodes.": "Nema neuspjelih enkodovanja.",
+  "No failed subtitle jobs.": "Nema neuspjelih poslova titlova.",
+  "Nothing was added in the last 14 days.": "U posljednjih 14 dana ništa nije dodano.",
+  "No videos with this plan.": "Nema video snimaka s ovim planom.",
+  "The library is being scanned; videos appear as they are found.": "Biblioteka se skenira; video snimci se pojavljuju kako se pronalaze.",
+  "No videos found yet. Check the media folder and run a scan.": "Još nema pronađenih video snimaka. Provjeri medijski folder i pokreni skeniranje.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Ništa nije u karantinu. Zamijenjeni originali čuvaju se ovdje dok ne istekne vrijeme čuvanja.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "U biblioteci nisu pronađeni DVD ili Blu-ray folderi (VIDEO_TS, BDMV).",
+  "1 worker online": "1 worker online",
+  "A worker is busy with this file": "Worker radi na ovom fajlu",
+  "A worker is grabbing the frames": "Worker uzima kadrove",
+  "A worker is searching or making subtitles": "Worker traži ili pravi titlove",
+  "A worker picks up the next job within a few seconds.": "Worker preuzima sljedeći posao za nekoliko sekundi.",
+  "Above this, the oldest comparisons are deleted automatically.": "Iznad toga najstarija poređenja se automatski brišu.",
+  "All replaced films": "Svi zamijenjeni filmovi",
+  "Already efficient: encoding would hardly save anything": "Već efikasno: enkodovanje bi jedva išta uštedjelo",
+  "Automatic comparisons": "Automatska poređenja",
+  "Being made…": "Pravi se…",
+  "Can be made": "Može se napraviti",
+  "Can encode on the CPU with x265": "Može enkodovati na CPU-u pomoću x265",
+  "Comparison storage limit": "Ograničenje prostora za poređenja",
+  "Comparisons": "Poređenja",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: nije ponovo enkodovano, DV sloj bi se izgubio",
+  "Encoding is paused.": "Enkodovanje je pauzirano.",
+  "Enlarge": "Povećaj",
+  "Errors": "Greške",
+  "Flip": "Prebaci",
+  "Four frames of the original and the new version are stored": "Sačuvana su četiri kadra originala i nove verzije",
+  "Full width": "Puna širina",
+  "GPU encoder found": "Pronađen GPU enkoder",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Uzmi četiri kadra originala i nove verzije za svaki zamijenjeni film, tako da sliku uvijek možeš provjeriti na stranici Uporedi. Oko 1–2 MB po filmu.",
+  "Keyboard shortcuts": "Prečice na tastaturi",
+  "Leave without saving? Your changes to the settings will be lost.": "Otići bez spremanja? Tvoje izmjene podešavanja bit će izgubljene.",
+  "Moved to the front": "Premješteno na početak",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Još nema poređenja. Napravi jedno dok je original još u karantinu ili uključi automatska poređenja u Podešavanjima.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Trenutno se nijedan film ne može porediti: originali su izašli iz karantina ili još ništa nije zamijenjeno.",
+  "No longer possible": "Više nije moguće",
+  "No subtitles found online and none could be made": "Titlovi nisu pronađeni online i nije ih bilo moguće napraviti",
+  "Ollama found: can translate subtitles": "Pronađen Ollama: može prevoditi titlove",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Dio DVD ili Blu-ray foldera; pretvori ga na stranici DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Automatski pauzirano: NAS ima manje slobodnog prostora od sigurnosne kočnice.",
+  "Planned for encoding": "Planirano za enkodovanje",
+  "Queued for the CPU encoder": "U redu čekanja za CPU enkoder",
+  "Replaced after the quality check; the original is in quarantine for a while": "Zamijenjeno nakon provjere kvaliteta; original je neko vrijeme u karantinu",
+  "Replaced films appear here after their first encode.": "Zamijenjeni filmovi pojavljuju se ovdje nakon prvog enkodovanja.",
+  "Search the log…": "Pretraži dnevnik…",
+  "Show films that can be compared": "Prikaži filmove koji se mogu porediti",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Prikaži original i novu verziju naizmjenično: najbolji način da uočiš zrno i detalje",
+  "Skipped": "Preskočeno",
+  "Skipped by you; Retry puts it back in the queue": "Preskočio si; „Pokušaj ponovo“ vraća ga u red čekanja",
+  "Slider back to the middle": "Klizač nazad na sredinu",
+  "Smaller": "Smanji",
+  "Stopped because the file changed or disappeared": "Zaustavljeno jer se fajl promijenio ili nestao",
+  "Stopped with an error; see the message and try again": "Zaustavljeno s greškom; pogledaj poruku i pokušaj ponovo",
+  "Subtitles are paused.": "Titlovi su pauzirani.",
+  "The file could not be read; see the drawer": "Fajl nije bilo moguće pročitati; vidi bočni panel",
+  "The new file would save less than the minimum saving, so the original was kept": "Novi fajl bi uštedio manje od minimalne uštede, pa je original zadržan",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Nova verzija je na NAS-u i mijenja se čim niko ne gleda",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Original je izašao iz karantina, pa se kadrovi više ne mogu uzeti",
+  "The original is still in quarantine, so the frames can still be grabbed": "Original je još u karantinu, pa se kadrovi još mogu uzeti",
+  "The original was put back from quarantine": "Original je vraćen iz karantina",
+  "The queue is empty. New files are queued after a scan.": "Red čekanja je prazan. Novi fajlovi dolaze u red nakon skeniranja.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Server dijeli novije worker fajlove; worker ih instalira nakon trenutnog posla",
+  "Undo": "Poništi",
+  "Waiting for Plex: someone is watching this film": "Čeka se Plex: neko gleda ovaj film",
+  "Waiting for a worker; the queue runs from top to bottom": "Čeka se worker; red se obrađuje od vrha prema dnu",
+  "Warnings": "Upozorenja",
+  "Whisper installed: can make subtitles": "Whisper instaliran: može praviti titlove",
+  "Would save less than the minimum saving": "Uštedjelo bi manje od minimalne uštede",
+  "expires today": "istječe danas",
+  "expires within a day": "istječe u roku od jednog dana",
+  "less than a day left": "manje od jednog dana",
+  "waiting for Plex": "čeka Plex",
+  "update pending": "ažuriranje čeka",
+  "Tap to switch between original and new": "Dodirni za prebacivanje između originala i novog",
+  "Repeated": "Ponovljeno",
+  "Search in the current list": "Pretraži trenutnu listu",
+  "Clear the search, close a drawer or dialog": "Očisti pretragu, zatvori panel ili dijalog",
+  "Previous or next film on a comparison": "Prethodni ili sljedeći film u poređenju",
+  "Open or switch the focused row, switch or header": "Otvori ili prebaci fokusirani red, prekidač ili zaglavlje",
+  "This list": "Ova lista",
+  "Nothing in the log matches this.": "Ništa u dnevniku ne odgovara ovome.",
+  "Nothing has happened yet.": "Još se ništa nije dogodilo.",
+  "No worker is online, so nothing can run.": "Nijedan worker nije online, pa se ništa ne može izvršavati.",
+  "There is no worker yet. Add one to get started.": "Još nema workera. Dodaj jednog za početak.",
+  "Open Workers": "Otvori Workere",
+  "Some values are out of range.": "Neke vrijednosti su izvan opsega.",
+  "no capabilities reported": "nisu prijavljene mogućnosti",
+  "Replaced · expires": "Zamijenjeno · istječe",
+  "Made": "Napravljeno",
+  "Make": "Napravi",
+  "lots of motion": "puno pokreta",
+  "dark scene": "tamna scena",
+  "a quarter in": "na četvrtini",
+  "three quarters in": "na tri četvrtine",
+  "Encoded": "Enkodovano",
+  "Finished": "Završeno",
+  "later": "kasnije",
+  "Leave": "Otiđi",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Poređenje uzima 4 sličice iz originala i nove verzije (ukupno oko 1–2 MB). Može se napraviti dok je original još u karantinu i ostaje dok ga ne obrišeš, čak i nakon što original nestane.",
+  "Retry on CPU": "Pokušaj ponovo na CPU-u",
+  "Scan": "Skeniranje"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1početak$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Trenutno: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan je pronašao $1 video snimaka ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · najslabijih 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "najslabijih 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Novo ($1 dana)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Plan: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Zamjena nije uspjela ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} nije uspjelo{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Skeniranje gotovo: $1 video snimaka, $2 novih, $3 izmijenjenih, $4 nestalih; dodato $5 poslova enkodovanja i $6 poslova titlova"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Skeniranje gotovo: $1 video snimaka, $2 novih, $3 izmijenjenih, $4 nestalih, $5 u preskočenim folderima; dodato $6 poslova enkodovanja i $7 poslova titlova"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Ponovo enkodovati filmove ($1) po trenutnim pravilima? Originali se vraćaju i filmovi dobijaju prioritet u redu čekanja."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "Filmova ponovo u redu čekanja: $1{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "Vraćeno originala: $1, ponovo u redu čekanja (trenutna pravila)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Novo: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Zamijenjeno: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray konvertovan: $1 ($2 GB); folder diska je u karantinu"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Original vraćen: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 je pokrenuo {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 poslova (od ukupno $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Izbor dodijeljen - enkodovanje automatski pauzirano"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Izbor dodijeljen - titlovi automatski pauzirani"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Podešavanja promijenjena: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Posao $1, greška: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Posao $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 offline: poslova vraćeno u red čekanja: $2"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 ponovo pokrenut: prekinutih poslova vraćeno u red čekanja: $2"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 ažuriran na $2: neuspjelih poslova ponovo u redu čekanja: $3"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 uklonjen"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: enkodovanje {t:$2}, titlovi {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Planiranje ažurirano: dodato $1 poslova enkodovanja i $2 poslova titlova"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "Ručno dodato u red čekanja: $1 poslova"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "Poslovi ($1): $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "Obrisano poređenja: $1"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Odjavljeno sa drugih sesija: $1"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Za prijavu je korišćen kod za oporavak (preostalo: $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Originali se čuvaju najviše $1 dana i ukupno nikad više od $2. Najstariji idu prvi. Vraćanje briše novu verziju."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - klikni za uklanjanje"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "Foldera za konvertovanje: $1 · worker počinje za pola minuta"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "audio: $1 · titlovi: $2"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Obrisati poređenja ($1)? Sami filmovi ostaju nepromijenjeni."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Kadar $1 · na $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Kadar $1 · na $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB kao jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Vrijeme enkodovanja $1 min · izmjereno na 8 isječaka, zatim provjereno na cijelom filmu."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Trenutno prisutno: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "najslabijih 5% $1 · prag $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "sinhronizacija $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Pravljenje kadrova nije uspjelo: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "izbor · sljedeće"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "izbor · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Trenutno:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· zatim još $1 iz izbora"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "procjena · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "Ranije završeno: $1 · prikaži"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "Dodato u izbor: $1 · worker počinje za nekoliko sekundi"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Izbor {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "napravljeno: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% manje$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "upravo"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "prije $1 min"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "prije $1 h"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "prije $1 dana"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "pogledano {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 d $2 h"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 h $2 min"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 video snimaka"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "karantin $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 za 24 h"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 uštede"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB uštede"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% manje na obrađenim fajlovima"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 online"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "još $1 za pokretanje, zatim pauza"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 stavki · stranica $2 od $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "Izabrano: $1"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Izaberi svih $1 rezultata"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Skeniranje: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× pokušano"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 min"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Aktivno · preostalo kodova za oporavak: $1"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "Aktivnih sesija: $1, uključujući ovu."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "Ažurirano: $1{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "Odjavljeno drugih sesija: $1"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Obraditi samo ovih $1? Dobijaju prioritet, obrada se nastavlja i poslije toga se ponovo automatski pauzira."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Preskočiti poslove ($1)?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Vratiti originale ($1)? Nove verzije će biti obrisane."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Ukloniti worker $1 sa liste? Ako ponovo bude online, automatski se vraća."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "radi već $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "još ~$1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "do $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "radi na"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex povezan (verzija $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex ne odgovara ispravno: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "greška: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "zamjena nije uspjela: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "nevažeća vrijednost za $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 mora biti između $2 i $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · najlošijih 5 % $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 h"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU nije mogao zadržati kvalitet - u redu čekanja za CPU enkoder (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Čišćenje staginga: uklonjen ostatak $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 po stranici"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 workera online"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · dodavanje workera, ključ workera i preuzimanja nalaze se na stranici Workeri."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · počinje za ~{t:$2} · procjena"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · procjena"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "još $1 dana"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "istječe za $1 dana"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Napravljeno · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Može se napraviti · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · korak $1 od $2 · još ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · korak $1 od $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · još ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "Zatraženo poređenja: $1 · gotova za nekoliko minuta"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Napraviti poređenja ($1)? Oko 1–2 MB svako."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Ponovljeno $1 puta"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "između $1 i $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 poslova"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Greška u $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "Zatraženo poređenja: $1"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Poređenja očišćena: uklonjeno $1 (preko $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Folder karantina preimenovan u quarantine (ažurirano zapisa: $1)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 uklonjen: poslova vraćeno u red čekanja: $2"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Karantin: $1 već postoji, $2 je ostavljen gdje je bio"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Folder karantina preimenovan u quarantine; ažurirano zapisa: $1, ali $2 još nije prazan"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Preimenovanje foldera karantina nije uspjelo (je li dijeljenje medija montirano?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "nova verzija nedostaje u stagingu"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "novi .mkv nedostaje u stagingu"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "original je nestao"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "original se u međuvremenu promijenio"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "original više nije dostupan"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "provjera na NAS-u odbijena (trajanje/zapisi)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray konvertovan u mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "ponovni pokušaj nakon ažuriranja workera"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "preskočili ste"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "ciljna datoteka već postoji"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker offline - ponovo zakazano"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker uklonjen - ponovo zakazano"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker ponovo pokrenut - ponovo zakazano"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "zamjena nije uspjela: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "u novom mkv-u nedostaje Dolby Vision"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: nije ponovo kodirano (DV sloj bi se izgubio)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "stream se ne može kopirati u .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg nije napredovao $1 minuta (dijeljenje nedostupno?) - zaustavljeno"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "Nedostaje $1 od $2 fajlova odjednom - dijeljenje nedostupno? Ništa nije označeno kao nestalo"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "prijevod nije uspio: nema upotrebljivog odgovora za $1 red(ova) nakon ponovnih pokušaja"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: greška servera"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - preuzmite model (ollama pull <model>) ili ispravite ollama_model u worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama nije dostupna na $1 ($2) - pokrenite Ollamu ili provjerite ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama nedostupna: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama je nastavila da otkazuje $2 minuta"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 je trajalo duže od sat vremena - je li medijski share još dostupan?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 nedostaje; instalirajte ga $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF cijelog filma $1 nije vjerodostojan ni s jednom metodom uparivanja (uzorci $2); nisko na $3. Original zadržan; provjerite tamo izvor"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: datoteka se ne može pročitati"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: nije uspjelo"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "nema dovoljno slobodnog prostora na PC-u za ovaj film ($1 GB potrebno u $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "nema dovoljno prostora u radnom folderu: $1 GB slobodno, potrebno ~$2 GB"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "uz minimalni bitrate najviše $1% manje"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "izdvajanje metapodataka iz sloja poboljšanja"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "preuzimanje se ne podudara (sha256) - ne koristi se"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "provjera: trajanje ili broj streamova se razlikuje"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "novi mkv je prekratak ($1 od $2 min)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 od $2 gotovo, čeka workera"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "konvertovanje Dolby Visiona u profil 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "umetanje metapodataka u osnovni sloj"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "provjera VMAF-a (drugo mjerenje)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "nijedno podešavanje ne dostiže prag kvaliteta"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "dostignuto ograničenje preuzimanja - ostatak kasnije"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "dostignut dnevni limit OpenSubtitles"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "djelimično; ostatak poslije limita preuzimanja"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 nije pronađen nakon preuzimanja"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: otkriven govorni jezik"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (prevedeno sa $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "čeka slobodan prostor na PC-u"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "datoteka titlova je neočekivano velika"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "mjerenje samotesta nije pouzdano"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "pokušaj prijevoda $1 nije uspio"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "čeka: gleda se u Plexu"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "očekivano samo $1% manje"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "preuzimanje $1 (jednokratno)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "provjera cijelog filma ispod praga"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "ne mogu uhvatiti sličicu na $1 s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "cijeli film malo ispod praga"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "traženje filma na disku"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "prag kvaliteta nedostižan"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "mjerenje provjere nije pouzdano"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "nevažeća putanja sa servera"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "ponovo: minimalna ušteda sada 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper radi na GPU-u"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "na DVD-u nisu pronađeni naslovi"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "sumnjiva putanja u arhivi"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "čeka: Plex nedostupan"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "radi na $1 od $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles nije dostupan"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (transkripcija)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "provjera VMAF-a cijelog filma"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "gotovo, čeka na zamjenu"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "stari folder u karantin"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "provjera VMAF $1 preniska"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "čitanje diska (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "prevedeno sa engleskog"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "gotovo ($1 od $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "izdvajanje zvuka nije uspjelo"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "povratak na CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles prijavljen"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (iz profila 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "čeka se worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "sumnjiva putanja u zipu"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "ugrađeni EN nije čitljiv"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "najduži do sada: naslov"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "sinhronizacija se ne poklapa"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "samo $1% manje"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "isječak $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "zadržava se original"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "preostalo preuzimanja danas"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "naslov $1 provjeren"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "čeka na zamjenu"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "kopiranje na NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "zadržava original"
+  ],
+  [
+   "translation failed",
+   "g",
+   "prijevod nije uspio"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "server nije dostupan"
+  ],
+  [
+   "searching quality",
+   "g",
+   "traženje kvaliteta"
+  ],
+  [
+   "making references",
+   "g",
+   "pravljenje referenci"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "konvertovanje u mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "titlovi zaustavljeni"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "kopiranje NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "kopiranje PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "traženje filma"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "spajanje u mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "najduža plejlista"
+  ],
+  [
+   "timing reference",
+   "g",
+   "referenca za sinhronizaciju"
+  ],
+  [
+   "speech segments",
+   "g",
+   "govorni segmenti"
+  ],
+  [
+   "too little gain",
+   "g",
+   "premala ušteda"
+  ],
+  [
+   " not applicable",
+   "g",
+   " nije primjenjivo"
+  ],
+  [
+   "download failed",
+   "g",
+   "preuzimanje nije uspjelo"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "nakon ffsubsynca"
+  ],
+  [
+   "translating to",
+   "g",
+   "prevođenje na"
+  ],
+  [
+   "next candidate",
+   "g",
+   "sljedeći kandidat"
+  ],
+  [
+   "after shifting",
+   "g",
+   "nakon pomaka"
+  ],
+  [
+   "reading audio",
+   "g",
+   "čitanje zvuka"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Izbor · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 čeka"
+  ],
+  [
+   "search failed",
+   "g",
+   "pretraga nije uspjela"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "ponovno enkodovanje"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "naslov $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " greška(e)"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 gotovo"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "titlovi:"
+  ],
+  [
+   "replacing",
+   "g",
+   "zamjena"
+  ],
+  [
+   "subtitles",
+   "g",
+   "titlovi"
+  ],
+  [
+   "candidate",
+   "g",
+   "kandidat"
+  ],
+  [
+   "encoding:",
+   "g",
+   "enkodovanje:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "početak"
+  ],
+  [
+   "encoding",
+   "g",
+   "enkodovanje"
+  ],
+  [
+   "checking",
+   "g",
+   "provjera"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", do "
+  ],
+  [
+   "present",
+   "g",
+   "prisutno"
+  ],
+  [
+   "missing",
+   "g",
+   "nedostaje"
+  ],
+  [
+   "speed",
+   "g",
+   "brzina"
+  ],
+  [
+   "saved",
+   "g",
+   "sačuvano"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU nije mogao zadržati kvalitet - u redu čekanja za CPU enkoder (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Čišćenje staginga: uklonjen ostatak"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "folder s medijima je prazan ili nije montiran - ništa nije promijenjeno"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "zadržavanje kvaliteta zahtijevalo bi veći bitrate nego što izvor ima"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "zahtijeva veći bitrate od izvora"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker se ponovo pokreće radi ažuriranja"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "nema video zapisa (samo omot?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "nema audio zapisa za transkripciju"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "nema dovoljno slobodnog prostora na PC-u za ovaj film"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "ponovni pokušaj na CPU-u (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "pregled foldera"
+  ],
+  [
+   "analysing files",
+   "g",
+   "analiza datoteka"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "planiranje poslova"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU enkodovanje uključeno"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU enkodovanje isključeno"
+  ]
+ ]
+}

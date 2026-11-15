@@ -1,0 +1,2060 @@
+{
+ "name": "Soomaali",
+ "s": {
+  "Re-encode from original": "Dib u encode-garee asalka",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Ma dib u encode-gareysaa xeerarka hadda? Asalka waa la soo celinayaa, filimkuna mudnaan ayuu helayaa.",
+  "Back in the queue": "Mar kale safka",
+  "Restore originals": "Soo celi asalladii",
+  "Minimum bitrate (1080p)": "Bitrate-ka ugu yar (1080p)",
+  "Extra floor (share of the source)": "Xad hoose oo dheeraad ah (qayb ka mid ah isha)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Ikhtiyaari: sidoo kale hay ugu yaraan qaybtan bitrate-ka muuqaalka asalka ah. Waxtar u leh oo keliya ilaha bitrate-koodu aad u sarreeyo. 0 = dansan.",
+  "with the minimum bitrate at most": "bitrate-ka ugu yar ugu badnaan",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Faylka cusub weligii kama hooseeyo, xitaa haddii VMAF ogolaado. Xallin kale waa saami: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · kartoon ×0.6.",
+  "bitrate already near the minimum": "bitrate-ku horeba wuu u dhow yahay kan ugu yar",
+  "MFA reset from settings - set it up again": "MFA waxaa laga dib-u-dejiyay dejinta - mar kale deji",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA waxaa lagu dib-u-dejiyay MFA_RESET - ka saar MFA_RESET dejinta konteenarka",
+  "MFA enabled": "MFA waa la shiday",
+  "MediaScan started": "MediaScan wuu bilaabmay",
+  "New recovery codes created": "Koodhadh soo kabasho oo cusub ayaa la sameeyay",
+  "Password changed; other sessions signed out": "Erayga sirta waa la beddelay; fadhiyada kale waa laga saaray",
+  "Password set (first time)": "Erayga sirta waa la dejiyay (markii ugu horreysay)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Fiiro: ADMIN_PASSWORD wuu ka gaaban yahay 10 xaraf - Dejinta ka dooro eray sir ah oo ka adag",
+  "part of a DVD/Blu-ray folder": "qayb ka mid ah gal DVD/Blu-ray",
+  "folder is in Skip folders": "folderku wuxuu ku jiraa Skip folders",
+  "file disappeared": "fayl waa libaaxay",
+  "worker restarted - rescheduled": "worker-ka dib ayuu u bilaabmay - dib ayaa loo qorsheeyay",
+  "worker offline - rescheduled": "worker-ka xiriir ma leh - dib ayaa loo qorsheeyay",
+  "retry after worker update": "isku day mar kale cusboonaysiinta worker-ka kadib",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray waxaa loo beddelay mkv",
+  "skipped by you": "adiga ayaa ka booday",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Beddelku wuu sugaa marka filim la daawanayo, Plex-na wuu cusboonaysiiyaa isbeddel kasta kadib.",
+  "Confirm with your password and a code from your app.": "Ku xaqiiji erayga sirta iyo kood ka yimid app-kaaga.",
+  "Your old recovery codes will stop working.": "Koodhadhkaagii hore ee soo kabashada way joogsan doonaan.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Xiriirka authenticator-kaaga iyo koodhadhka soo kabashada way joogsan doonaan. Kadib MFA isla markiiba mar kale ayaad dejin doontaa.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Dooro eray sir ah oo dashboard-ka ah. Koodhka dejinta wuxuu ku jiraa diiwaanka konteenarka (Container Manager › mediascan › Log, ama",
+  "- click to remove": "- guji si aad u saarto",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Cinwaan aan sax ahayn, tusaale http://192.168.1.10:32400",
+  "Enter a Plex token": "Geli token-ka Plex",
+  "A password has already been set": "Eray sir ah horeba waa la dejiyay",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Furaha wuxuu go'an yahay WORKER_TOKEN (deegaanka konteenarka)",
+  "selection still running - pause or wait until it is done": "xulashadu weli way socotaa - hakii ama sug inta ay dhammaanayso",
+  "Now running": "Hadda socda",
+  "Finding the film on the disc": "Filimka laga raadinayo saxanka",
+  "Converting to one .mkv": "U beddelid hal .mkv",
+  "Checking (duration, tracks)": "Hubin (muddo, raadadka)",
+  "Copying to the NAS": "U koobiyeyn NAS-ka",
+  "Old folder to quarantine": "Galka hore karantiilka",
+  "worker has not reported for a while": "worker-ku muddo ma soo warbixin",
+  "waiting for the worker": "sugaya worker-ka",
+  "Welcome to MediaScan": "Ku soo dhowow MediaScan",
+  "Setup code": "Koodhka dejinta",
+  "New password (at least 10 characters)": "Eray sir cusub (ugu yaraan 10 xaraf)",
+  "Repeat password": "Ku celi erayga sirta",
+  "Set password": "Deji erayga sirta",
+  "The passwords do not match": "Erayada sirta isma laha",
+  "Setup code is wrong - check the container log": "Koodhka dejinta waa khalad - eeg diiwaanka konteenarka",
+  "Choose a password of at least 10 characters": "Dooro eray sir ah oo ugu yaraan 10 xaraf ah",
+  "Animation folders": "Galalka kartoonka",
+  "Top-level folders with animation: these may use a lower bitrate.": "Galalka sare ee kartoonka: kuwani waxay isticmaali karaan bitrate ka hooseeya.",
+  "Where do I find the token?": "Xagee ka helaa token-ka?",
+  "Connect": "Ku xir",
+  "Disconnect": "Ka jar",
+  "Connected": "Ku xiran",
+  "Not connected": "Ma xirna",
+  "+ Add language": "+ Ku dar luqad",
+  "Renew": "Cusboonaysii",
+  "Worker version": "Nooca worker-ka",
+  "Password": "Erayga sirta",
+  "Other sessions are signed out after a change.": "Isbeddel kadib fadhiyada kale waa laga saarayaa.",
+  "Change password": "Beddel erayga sirta",
+  "Other sessions will be signed out.": "Fadhiyada kale waa laga saari doonaa.",
+  "Change": "Beddel",
+  "New worker key": "Fure worker oo cusub",
+  "Create new key": "Samee fure cusub",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Dhammaan worker-yadu way joogsadaan ilaa aad geliso furaha cusub (mar kale socodsii rakibaha ama wax ka beddel worker.ini).",
+  "Repeat new password": "Ku celi erayga sirta cusub",
+  "Password changed": "Erayga sirta waa la beddelay",
+  "New worker key created": "Fure worker oo cusub ayaa la sameeyay",
+  "Disconnect Plex?": "Ka jar Plex?",
+  "Plex disconnected": "Plex waa la jaray",
+  "Plex connected": "Plex waa la xiray",
+  "Incorrect password": "Eray sir khaldan",
+  "Incorrect code": "Kood khaldan",
+  "Incorrect code from your authenticator app": "Kood khaldan oo ka yimid app-ka authenticator",
+  "Too many attempts - try again in 15 minutes": "Isku day aad u badan - isku day mar kale 15 daqiiqo kadib",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Galal leh VIDEO_TS ama BDMV. U beddelidda waxay ka dhigtaa hal .mkv oo leh dhammaan muuqaalka, codka, qoraal-hoosaadka iyo cutubyada.",
+  "Convert to MKV": "U beddel MKV",
+  "Folder": "Gal",
+  "Type": "Nooc",
+  "found": "la helay",
+  "queued": "safka",
+  "converting…": "waa la beddelayaa…",
+  "converted": "la beddelay",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "U beddelidda waxay wax walba 1:1 u koobiyeysaa hal .mkv: muuqaal (HDR-na), dhammaan raadadka codka, qoraal-hoosaadka iyo cutubyada. DVD-ga waxay dooranaysaa cinwaanka ugu dheer (filimka). Galka hore wuxuu aadaa karantiilka, markaa waad soo celin kartaa. Kadib .mkv-gu wuxuu maraa encode-garaynta caadiga ah iyo qoraal-hoosaadka. Blu-ray-ga Dolby Vision wuxuu noqdaa Dolby Vision profile 8.1 (lakabka saldhigga 1:1, xogta DV lagu daray): Plex iyo TV-gaagu waxay u daaraan Dolby Vision, ciyaartoyda kalena HDR10. Filimkaas dib looma encode-gareeyo, maxaa yeelay Dolby Vision ayaa lumaya.",
+  "Compare": "Isbarbardhig",
+  "Delete comparison": "Tirtir isbarbardhigga",
+  "Comparison deleted": "Isbarbardhigga waa la tirtiray",
+  "comparison": "isbarbardhig",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Asalka oo ag yaal nooca cusub: cabbirka, tayada, muuqaalka iyo qoraal-hoosaadka. Adiga ayaa dooranaya filimada.",
+  "Original → new": "Asal → cusub",
+  "Quality (VMAF)": "Tayada (VMAF)",
+  "Comparison": "Isbarbardhig",
+  "View": "Eeg",
+  "Make comparison": "Samee isbarbardhig",
+  "previous attempt failed": "isku daygii hore wuu fashilmay",
+  "Back": "Dib u noqo",
+  "Make again": "Mar kale samee",
+  "New": "Cusub",
+  "VMAF whole film": "VMAF filimka oo dhan",
+  "Making the frames… this usually takes less than a minute.": "Sawirrada waa la samaynayaa… tani badanaa waxay qaadataa wax ka yar daqiiqad.",
+  "There is no picture comparison for this film yet.": "Weli ma jiro isbarbardhig sawir oo filimkan ah.",
+  "Picture · drag across the image": "Muuqaal · ku jiid sawirka",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR waxaa loo beddelay SDR muuqaalkan; TV-gaaga waxaad ku arkaysaa HDR.",
+  "How the setting was chosen": "Sida dejinta loo doortay",
+  "Step": "Tallaabo",
+  "Weakest 5%": "5%-ka ugu daciifsan",
+  "Bitrate": "Bitrate",
+  "chosen": "la doortay",
+  "No data.": "Xog ma jirto.",
+  "Nothing needed, all languages were present.": "Waxba looma baahna, dhammaan luqadaha way joogeen.",
+  "Not processed yet.": "Weli lama habayn.",
+  "Comparison requested · ready within a minute": "Isbarbardhig ayaa la codsaday · diyaar daqiiqad gudaheed",
+  "Delete this comparison? The film itself stays as it is.": "Tirtir isbarbardhiggan? Filimka laftiisu sidiisa ayuu ahaanayaa.",
+  "Not possible": "Suurtagal maaha",
+  "Slide between original and new": "Ku dhex jiid asalka iyo cusubka",
+  "Overview": "Guudmar",
+  "Queue": "Safka",
+  "In progress": "Socda",
+  "No gain": "Faa'iido ma leh",
+  "Failed": "Fashilmay",
+  "Subtitles": "Qoraal-hoosaad",
+  "Recently added": "Dhawaan lagu daray",
+  "Library": "Maktabadda",
+  "Quarantine": "Karantiil",
+  "Workers": "Worker-yada",
+  "Activity": "Dhaqdhaqaaq",
+  "Settings": "Dejinta",
+  "Encoding": "Encode-garayn",
+  "System": "Nidaamka",
+  "Status of the entire library.": "Xaaladda maktabadda oo dhan.",
+  "Selection": "Xulasho",
+  "waiting for worker": "sugaya worker",
+  "In the selection": "Xulashada ku jira",
+  "selection": "xulasho",
+  "Selection · encoding": "Xulasho · encode-garayn",
+  "Selection · subtitles": "Xulasho · qoraal-hoosaad",
+  "Close list": "Xir liiska",
+  "waiting": "sugaya",
+  "nothing needed": "looma baahna",
+  "original kept": "asalka waa la hayaa",
+  "Find, sync or generate missing subtitles.": "Raadi, isku waafaji ama samee qoraal-hoosaadka maqan.",
+  "All videos with their current plan. You can also queue items manually here.": "Dhammaan muuqaallada iyo qorshahooda hadda. Halkan sidoo kale gacanta ayaad safka ugu dari kartaa.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Mashiinada shaqada qabta. Dooro waxa worker kasta loo oggol yahay.",
+  "Log of everything that happens.": "Diiwaanka wax kasta oo dhaca.",
+  "Scan now": "Iskaan hadda",
+  "Saved": "La badbaadiyay",
+  "Free on NAS": "Bannaan NAS-ka",
+  "Progress": "Horumar",
+  "Saved per day": "La badbaadiyay maalintii",
+  "last 14 days": "14-kii maalmood ee u dambeeyay",
+  "Per folder": "Gal kasta",
+  "all": "dhammaan",
+  "nothing processed yet": "weli waxba lama habayn",
+  "no measurement yet": "weli cabbir ma jiro",
+  "No processed files yet": "Weli faylal la habeeyay ma jiraan",
+  "No worker connected yet": "Weli worker lama xirin",
+  "no worker": "worker ma jiro",
+  "worker offline": "worker-ka xiriir ma leh",
+  "online": "khadka",
+  "disabled": "dansan",
+  "encoding": "encode-garayn",
+  "subtitles": "qoraal-hoosaad",
+  "Search by name or folder…": "Ku raadi magac ama gal…",
+  "Several titles at once: separate them with |": "Dhowr cinwaan hal mar: ku kala saar |",
+  "Nothing to show": "Waxba lama tusi karo",
+  "File": "Fayl",
+  "Source": "Isha",
+  "Status": "Xaalad",
+  "Result": "Natiijo",
+  "Languages": "Luqadaha",
+  "Error": "Khalad",
+  "When": "Goorma",
+  "Plan": "Qorshe",
+  "Added": "La daray",
+  "Original": "Asal",
+  "Size": "Cabbir",
+  "Replaced": "La beddelay",
+  "estimate": "qiyaas",
+  "Name": "Magac",
+  "Done": "Dhammaaday",
+  "Nothing found": "Waxba lama helin",
+  "Process only these": "Kuwan oo keliya habee",
+  "Prioritise": "Mudnaan sii",
+  "Skip": "Ka bood",
+  "Retry": "Isku day mar kale",
+  "Clear": "Nadiifi",
+  "Both": "Labadaba",
+  "Restore original": "Soo celi asalka",
+  "Find subtitles": "Raadi qoraal-hoosaad",
+  "running": "socda",
+  "done": "dhammaaday",
+  "failed": "fashilmay",
+  "replacing": "la beddelayaa",
+  "no gain": "faa'iido ma leh",
+  "skipped": "laga booday",
+  "restored": "la soo celiyay",
+  "cancelled": "la joojiyay",
+  "nothing found": "waxba lama helin",
+  "encode": "encode",
+  "already efficient": "horeba wax ku ool ah",
+  "small gain": "faa'iido yar",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "khalad",
+  "unknown": "lama yaqaan",
+  "All": "Dhammaan",
+  "Already efficient": "Horeba wax ku ool ah",
+  "Small gain": "Faa'iido yar",
+  "Restored": "La soo celiyay",
+  "Video": "Muuqaal",
+  "Duration": "Muddo",
+  "Audio": "Cod",
+  "Encode": "Encode",
+  "Quality": "Tayada",
+  "Encode time": "Waqtiga encode-ka",
+  "Message": "Fariin",
+  "Started": "Bilaabmay",
+  "Search": "Raadin",
+  "weakest 5%": "5%-ka ugu daciifsan",
+  "video": "muuqaal",
+  "Worker": "Worker",
+  "Hardware": "Qalabka",
+  "Resolution": "Xallin",
+  "Working on": "Ka shaqaynaya",
+  "nothing": "waxba",
+  "up to 4K": "ilaa 4K",
+  "up to 1080p": "ilaa 1080p",
+  "up to 720p": "ilaa 720p",
+  "up to SD": "ilaa SD",
+  "Remove": "Saar",
+  "Add worker": "Ku dar worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Worker kasta wuxuu sheegaa waxa uu qaban karo (encoder la helay, Whisper la rakibay). Halkan waxaad go'aamisaa waxa uu qaban karo. Isbeddelku wuxuu dhaqan galaa shaqada xigta; shaqo socotana marka hore way dhammaysaa.",
+  "This machine lacks the hardware or software for this": "Mashiinkani ma laha qalabka ama software-ka tan loo baahan yahay",
+  "Quality level": "Heerka tayada",
+  "Standard": "Caadi",
+  "High": "Sare",
+  "Maximum": "Ugu sarreeya",
+  "Custom": "Gaar ah",
+  "Custom target": "Heer gaar ah",
+  "Average VMAF and the weakest 5% of frames.": "Celceliska VMAF iyo 5%-ka ugu daciifsan ee sawirrada.",
+  "avg.": "celc.",
+  "Minimum saving": "Badbaadinta ugu yar",
+  "If a file saves less, the original is kept.": "Haddii fayl ka yar badbaadiyo, asalka waa la hayaa.",
+  "Processing": "Habaynta",
+  "Storage & safety": "Kaydin & badbaado",
+  "How long replaced originals can be restored.": "Inta muddo ah ee asallada la beddelay la soo celin karo.",
+  "days": "maalmood",
+  "Above this, the oldest originals are deleted permanently.": "Wixii ka badan, asallada ugu da'da weyn si joogto ah ayaa loo tirtiraa.",
+  "Safety brake": "Bareegga badbaadada",
+  "Encoding pauses when the NAS has less free space than this.": "Encode-garayntu way hakataa marka NAS-ku leeyahay meel bannaan oo ka yar tan.",
+  "Scanning": "Iskaanka",
+  "Automatic scan": "Iskaan toos ah",
+  "New files are queued automatically.": "Faylasha cusub si toos ah ayay safka u galaan.",
+  "Off": "Dansan",
+  "Every hour": "Saacad kasta",
+  "Every 6 hours": "6-dii saacadoodba",
+  "Every 12 hours": "12-kii saacadoodba",
+  "Daily": "Maalin kasta",
+  "Skip folders": "Galalka laga boodo",
+  "Comma-separated folder names.": "Magacyada galalka oo hakad lagu kala saaray.",
+  "Plex": "Plex",
+  "Dashboard address": "Cinwaanka dashboard-ka",
+  "Use the IP address of the NAS, not localhost.": "Isticmaal cinwaanka IP ee NAS-ka, ha isticmaalin localhost.",
+  "Worker key": "Furaha worker-ka",
+  "Keep secret: with this key a worker can fetch jobs.": "Qarsoodi ka dhig: furahan worker wuu ku soo qaadan karaa shaqooyin.",
+  "Show": "Tus",
+  "Copy": "Koobiyee",
+  "Minimum requirements": "Shuruudaha ugu yar",
+  "Account & security": "Akoon & amni",
+  "Two-factor authentication": "Xaqiijinta laba-tallaabo",
+  "Not active": "Firfircoon maaha",
+  "New recovery codes": "Koodhadh soo kabasho oo cusub",
+  "Reset MFA": "Dib u deji MFA",
+  "Sessions": "Fadhiyada",
+  "Sign out everywhere else": "Ka bax meelaha kale oo dhan",
+  "Sign out": "Ka bax",
+  "You have unsaved changes.": "Waxaad leedahay isbeddello aan la kaydin.",
+  "Cancel": "Jooji",
+  "Save": "Kaydi",
+  "Language": "Luqad",
+  "Theme": "Mawduuc",
+  "Light": "Iftiin",
+  "Dark": "Mugdi",
+  "Auto": "Toos",
+  "Dashboard language.": "Luqadda dashboard-ka.",
+  "Auto follows your system setting.": "Toos wuxuu raacaa dejinta nidaamkaaga.",
+  "Reset": "Dib u deji",
+  "Create new codes": "Samee koodhadh cusub",
+  "Close": "Xir",
+  "Code from your authenticator app": "Koodhka app-ka authenticator",
+  "Sign in": "Soo gal",
+  "Activate": "Shid",
+  "Set up two-factor authentication": "Deji xaqiijinta laba-tallaabo",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Ku iskaan koodhka QR app-kaaga authenticator oo geli koodhka 6-da god.",
+  "Manual:": "Gacanta:",
+  "6-digit code": "Kood 6 god ah",
+  "123456 or recovery code": "123456 ama koodh soo kabasho",
+  "Save your recovery codes": "Kaydi koodhadhkaaga soo kabashada",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Telefoonkii ma lumay? Koodh kasta oo kuwan ka mid ah hal mar ayuu ku gelinayaa. Hal mar oo keliya ayaa la tusayaa.",
+  "I have saved them": "Waan kaydiyay",
+  "Save them now, they are shown only once.": "Hadda kaydi, hal mar oo keliya ayaa la tusayaa.",
+  "Server not responding": "Server-ku ma jawaabayo",
+  "Sign-in failed": "Gelitaanku wuu fashilmay",
+  "Code is incorrect": "Koodhku waa khalad",
+  "Code is incorrect - check the time on your phone": "Koodhku waa khalad - hubi waqtiga telefoonkaaga",
+  "Scan started": "Iskaanku wuu bilaabmay",
+  "scan already running": "iskaan horeba wuu socdaa",
+  "Copied": "La koobiyeeyay",
+  "Resumed": "Dib loo sii waday",
+  "Paused: a running job will finish first": "Hakad: shaqada socota marka hore way dhammaysaa",
+  "Added to the queue": "Safka lagu daray",
+  "Not applicable": "Khuseyn maayo",
+  "At least one language": "Ugu yaraan hal luqad",
+  "Skip this job?": "Ka bood shaqadan?",
+  "Restore the original? The new version will be deleted.": "Soo celi asalka? Nooca cusub waa la tirtiri doonaa.",
+  "on": "shidan",
+  "off": "dansan",
+  "Quarantine cleanup": "Nadiifinta karantiilka",
+  "Background task": "Hawl gadaal ah",
+  "Planning at startup": "Qorshaynta bilowga",
+  "Welcome": "Soo dhowow",
+  "Next": "Xiga",
+  "Previous": "Hore",
+  "Next (or skip)": "Xiga (ama ka bood)",
+  "Done, go to the overview": "Dhammaaday, aad guudmarka",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan wuxuu yareeyaa filimadaada iyo taxanayaashaada adigoon arag farqi, wuxuuna buuxiyaa qoraal-hoosaadka maqan. Asallada waxaa la beddelaa oo keliya hubin tayo kadib, marka horena muddo ayay karantiilka ku jiraan.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Lix tallaabo oo gaaban ayaad wax walba ku dejinaysaa. Wax walba hadhow waad ka beddeli kartaa Dejinta.",
+  "Your library": "Maktabaddaada",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan hadda wuxuu muuqaallo ka raadinayaa galka warbaahintaada. Maktabad weyn iskaanka koowaad muddo ayuu qaataa; si caadi ah ayaad u sii wadi kartaa.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Galal aan MediaScan waligii taaban, oo hakad lagu kala saaray (tusaale Music, Downloads).",
+  "Scan again": "Mar kale iskaan",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Dooro luqadaha fayl kastaa yeelanayo. MediaScan kuwa maqan wuxuu ka raadiyaa OpenSubtitles. Haddii taasi guuldarraysato, worker-ku qoraal-hoosaadka isagaa sameeya (aqoonsiga hadalka iyo turjumaad PC-gaaga).",
+  "Click a language to remove it.": "Guji luqad si aad u saarto.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Filim kasta waxaa lagu cabbiraa VMAF, oo ah qiyaas sida muuqaalku isha ugu eg yahay. \"Sare\" ku dhawaad qof walba kama kala saari karo asalka.",
+  "Higher = better picture, less space saved.": "Ka sarreeya = muuqaal ka wanaagsan, meel yar oo la badbaadiyo.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Shabag badbaado oo xabbadaha iyo muuqaallada mugdiga ah. 5 Mbps waa caadi wanaagsan; 4K iyo xallinta kale si saami ah ayay u raacaan.",
+  "Plex (optional)": "Plex (ikhtiyaari)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Plex oo xiran, MediaScan wuxuu sugaa beddelka filim marka qof daawanayo, wuxuuna Plex cusboonaysiiyaa isbeddel kasta kadib. Plex ma lihid? Ka bood tallaabadan.",
+  "Plex address and token": "Cinwaanka iyo token-ka Plex",
+  "Plex token": "Token-ka Plex",
+  "token (unchanged)": "token (aan la beddelin)",
+  "Add a worker": "Ku dar worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Shaqada culus waxay ka dhacdaa PC ama Mac leh kaarka garaafyada wanaagsan: worker-ka. Hadda rakib, ama hadhow Worker-yada. Inta aan worker jirin, waxba laguma samaynayo faylashaada.",
+  "✓ A worker is connected.": "✓ Worker ayaa ku xiran.",
+  "Done! MediaScan is set up.": "Dhammaaday! MediaScan waa la dejiyay.",
+  "Connect the media share on the new machine.": "Ku xir wadaagga warbaahinta mashiinka cusub.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: xarafka darawalka ama \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: eeg tilmaamaha xirmada.",
+  "Download the package for that system and unpack it.": "Soo dejiso xirmada nidaamkaas oo fur.",
+  "Run the installer.": "Socodsii rakibaha.",
+  "The installer asks for the details below and tests the connection.": "Rakibuhu wuxuu weydiiyaa xogta hoose wuxuuna tijaabiyaa xiriirka.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 ama ka cusub, Intel Arc ama iGPU jiilka 11+, AMD RX 6000+ · 4 kood · 8 GB · 100 GB bannaan · shabakad fiilo leh. Qoraal-hoosaad: NVIDIA leh 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (qoraal-hoosaad: 24 GB+) · 150 GB bannaan · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Worker-yadu iyagaa is cusboonaysiiya marka dashboard-kani leeyahay nooc cusub.",
+  "What the workers are doing now and what is planned next.": "Waxa worker-yadu hadda qabanayaan iyo waxa xiga ee la qorsheeyay.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Faylasha yaree adigoon lumin tayo muuqata. Worker-ku safka ayuu ka shaqeeyaa kor ilaa hoos.",
+  "select page": "dooro bogga",
+  "select": "dooro",
+  "to encode": "in la encode-gareeyo",
+  "Movie": "Filim",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Asallo la beddelay, muddo la hayo si aad u soo celin karto ama dib ugu encode-gareyso.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Sida MediaScan u shaqeeyo: tayada, qoraal-hoosaadka, kaydinta iyo amniga.",
+  "General": "Guud",
+  "Advanced": "Horumarsan",
+  "Connection": "Xiriir",
+  "Hand out new encode jobs to the workers.": "U qaybi shaqooyin encode oo cusub worker-yada.",
+  "Hand out new subtitle jobs to the workers.": "U qaybi shaqooyin qoraal-hoosaad oo cusub worker-yada.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Sida adag ee cabbirka VMAF. Ka sarreeya = muuqaal ka wanaagsan, meel yar oo la badbaadiyo.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Qoraal-hoosaadyada fayl kastaa yeelanayo. Kuwa maqan waa la raadiyaa, haddii kalese waa la sameeyaa.",
+  "Go to Workers": "Aad Worker-yada",
+  "new": "cusub",
+  "start": "bilow",
+  "Minimum bitrate (4K)": "Heerka ugu yar ee bitrate (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Xad hoose oo gaar ah 4K, halkii 2.5 × qiimaha 1080p. 0 = otomaatig. HDR +15% iyo kartoonka ×0.6 halkan sidoo kale way khuseeyaan.",
+  "Ready to use in a few steps.": "Waxaad isticmaali kartaa dhowr tillaabo kadib.",
+  "next": "xiga",
+  "read error": "khalad akhris",
+  "MFA is already enabled": "MFA hore ayaa loo furay",
+  "a .mkv with that name already exists": "fayl .mkv ah oo magacaas leh hore ayuu u jiray",
+  "a file already exists at the original location": "fayl ayaa hore ugu jira goobtii asalka ahayd",
+  "action not possible in this status": "ficilkan laguma samayn karo xaaladdan",
+  "walking folders": "la mari folderrada",
+  "planning jobs": "qorshaynta shaqooyinka",
+  "check on the NAS rejected (duration/tracks)": "hubinta NAS waa la diiday (muddo/tracks)",
+  "expected a JSON object": "waxaa la filayay shay JSON ah",
+  "ffprobe error": "khalad ffprobe",
+  "invalid resolution": "xallinta (resolution) ma saxna",
+  "invalid worker token": "tokenka worker ma saxna",
+  "job belongs to another worker": "shaqadu waxay ka tirsan tahay worker kale",
+  "job is no longer active": "shaqadu hadda ma shaqaynayso",
+  "no video track": "ma jiro track muuqaal ah",
+  "not JSON": "ma aha JSON",
+  "not signed in": "lama soo gelin",
+  "original disappeared": "asalka waa libaaxay",
+  "original has changed in the meantime": "asalka ayaa isbeddelay xilligan dhexe",
+  "original is no longer in quarantine": "asalku hadda kuma jiro karantiilka",
+  "original no longer available": "asalku hadda lama heli karo",
+  "request refused": "codsiga waa la diiday",
+  "target file already exists": "faylka bartilmaameedka hore ayuu u jiray",
+  "the original has already been removed from quarantine - comparing is no longer possible": "asalka hore ayaa looga saaray karantiilka - isbarbardhigu hadda suurtagal ma aha",
+  "this film has not been replaced yet": "filimkan weli lama beddelin",
+  "unknown action": "ficil aan la garanayn",
+  "worker is still online": "worker weli waa online",
+  "In use now:": "Hadda la isticmaalayo:",
+  "longest": "ugu dheer",
+  "8.1 (from profile 7)": "8.1 (laga soo qaaday profile 7)",
+  "Whisper (transcription)": "Whisper (qoraal-u-beddel)",
+  "1 day ago": "1 maalmood kahor",
+  "1 video": "1 muuqaal",
+  "Enter your password to open the dashboard.": "Geli eraygaaga sirta ah si aad u furto dashboard-ka.",
+  "No connection to the server - retrying…": "Xiriir lama heli karo server-ka - dib ayaa loo isku dayayaa…",
+  "Are you sure?": "Ma hubtaa?",
+  "Restore": "Soo celi",
+  "Re-encode": "Dib u koodh",
+  "Delete": "Tirtir",
+  "Next up": "Xiga",
+  "in the queue": "safka ku jira",
+  "Load older entries": "Soo rar diiwaanada hore",
+  "Folder: all": "Galka: dhammaan",
+  "Resolution: all": "Xallinta: dhammaan",
+  "Codec: all": "Codec: dhammaan",
+  "More": "Dheeraad",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "filim ayaa sugaya koodheeyaha CPU, laakiin worker-na ma shidin koodhka CPU (bogga Workers).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Qalabkaaga, inta uu shaqada u habboon yahay, qalabka la isticmaalo, iyo sida dejintu u shaqeyso.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Xusuusta",
+  "Software": "Software",
+  "GPU encoding": "Koodhka GPU",
+  "CPU encoding (x265)": "Koodhka CPU (x265)",
+  "Subtitles (Whisper)": "Qoraalka hoose (Whisper)",
+  "Translation (Ollama)": "Turjumaad (Ollama)",
+  "Server": "Server",
+  "Database": "Kaydka xogta",
+  "Tools in use": "Qalabka la isticmaalo",
+  "Knowledge base": "Kaydka aqoonta",
+  "Low": "Hoose",
+  "Medium": "Dhexdhexaad",
+  "Ultra": "Ultra",
+  "files": "faylal",
+  "up": "shaqeynaya",
+  "of": "ka mid ah",
+  "uses": "isticmaalaya",
+  "free": "bannaan",
+  "Media share": "Wadaagga warbaahinta",
+  "Rating": "Qiimeyn",
+  "Hardware details appear after this worker has updated itself.": "Faahfaahinta qalabka waxay muuqataa ka dib marka worker-kani is cusboonaysiiyo.",
+  "no Whisper": "Whisper ma jiro",
+  "unified memory": "xusuus la wadaago",
+  "cores": "xudun",
+  "threads": "dun",
+  "driver": "darawal",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Lama garanayo",
+  "Settings saved": "Dejinta waa la keydiyay",
+  "Time left": "Waqtiga haray",
+  "Queued": "Safka ku jira",
+  "Keep originals for": "Asalka hay muddo",
+  "Quarantine size limit": "Xadka cabbirka karantiilka",
+  "Hide finished items": "Qari kuwa dhammaaday",
+  "Undo skip": "Ka boodka ka noqo",
+  "not supported here": "halkan laguma taageero",
+  "CPU encoding": "Encode-garaynta CPU",
+  "Retry on CPU (x265)": "Dib u isku day CPU-ga (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Lagu encode-gareeyay CPU-ga iyadoo la isticmaalayo x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 oo grain loo hagaajiyay CPU-ga worker-ka: grain-ka si aad u hufan u ilaaliyaa, laakiin filim kasta saacado ayuu qaataa",
+  "CPU fallback for grainy films": "Ku noqoshada CPU filimada grain leh",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Marka GPU-ga uusan tayada ilaalin karin isagoon ka badin bitrate-ka asalka (grain-ka filimka), filimka mar kale ayaa lagu encode-gareeyaa CPU-ga worker iyadoo la isticmaalayo x265, kaas oo grain-ka si aad u hufan u ilaaliya. Filim kasta saacado ayuu qaataa; ka shid encode-garaynta CPU worker bogga Workers.",
+  "CPU preset": "Preset-ka CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: qiyaastii 2 saacadood filim 1080p ah oo 2 saacadood ah 8 core. Slow: 2-3 jeer ka dheer si loo helo faylal qiyaastii 5-10% ka yar.",
+  "Medium (faster)": "Medium (dhakhso badan)",
+  "Slow (smaller)": "Slow (ka yar)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Boggan lama soo rari karin.",
+  "up to 1440p": "ilaa 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "falanqaynta faylasha",
+  "No worker has CPU encodes switched on (Workers page)": "Worker-na ma shidin encode-garaynta CPU (bogga Workers)",
+  "the job changed in the meantime": "shaqada intaas ayaa isbeddeshay",
+  "Main": "Hagista ugu weyn",
+  "Clear search and filters": "Raadinta iyo shaandhooyinka tirtir",
+  "Compact rows": "Safaf isku dhow",
+  "Encoding and subtitles are paused.": "Encode-garaynta iyo qoraal-hoosaadka waa hakad.",
+  "Encoding is paused: no new encode jobs are handed out.": "Encode-garaynta waa hakad: shaqooyin encode oo cusub lama qaybinayo.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Qoraal-hoosaadka waa hakad: shaqooyin qoraal-hoosaad oo cusub lama qaybinayo.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Geli cinwaanka Plex iyo token-ka labadaba, ama labadaba bannaan ka tag si aad u dhaafto.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Meesha bannaan ee NAS-ka waxay ka hoosaysaa bareegga badbaadada. Encode-garaynta si toos ah ayaa loo hakiyay.",
+  "Loading…": "Waa la soo rarayaa…",
+  "Next film": "Filimka xiga",
+  "Previous film": "Filimka hore",
+  "Next page": "Bogga xiga",
+  "Previous page": "Bogga hore",
+  "Rows per page": "Safaf bog kasta",
+  "Resume": "Sii wad",
+  "Resume encoding": "Encode-garaynta sii wad",
+  "Resume subtitles": "Qoraal-hoosaadka sii wad",
+  "Open settings": "Fur dejinta",
+  "Open the library": "Fur maktabadda",
+  "Subtitle languages": "Luqadaha qoraal-hoosaadka",
+  "Update": "Cusboonaysii",
+  "No results for this search or filter.": "Natiijo uma jirto raadintan ama shaandhadan.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Waxba safka encode-garaynta kuma jiraan. Faylasha cusub safka ayay galaan iskaan kaddib.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Weli fayl lama beddelin. Encode-yada dhammaaday halkan ayay ka muuqdaan hubinta tayada kaddib.",
+  "No files were kept as they are. Films that would save too little end up here.": "Fayl sidii uu ahaa looma hayn. Filimada aad u yar keydinaya halkan ayay ku dhammaadaan.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Qoraal-hoosaad sugaya ma jiro. Faylasha luqad ka maqan tahay safka ayay galaan iskaan kaddib.",
+  "No subtitle job is running right now.": "Hadda shaqo qoraal-hoosaad ma socoto.",
+  "No subtitles have been made yet.": "Weli qoraal-hoosaad lama samayn.",
+  "Nothing missing: every file got its subtitles so far.": "Waxba kama maqna: ilaa hadda fayl kasta qoraal-hoosaadkiisa wuu helay.",
+  "No failed encodes.": "Encode fashilmay ma jiro.",
+  "No failed subtitle jobs.": "Shaqo qoraal-hoosaad oo fashilantay ma jirto.",
+  "Nothing was added in the last 14 days.": "14-kii maalmood ee la soo dhaafay waxba laguma darin.",
+  "No videos with this plan.": "Muuqaal qorshahan leh ma jiro.",
+  "The library is being scanned; videos appear as they are found.": "Maktabadda waa la iskaanayaa; muuqaalada waxay soo muuqdaan marka la helo.",
+  "No videos found yet. Check the media folder and run a scan.": "Weli muuqaal lama helin. Hubi galka warbaahinta oo iskaan samee.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Waxba karantiilka kuma jiraan. Asalka la beddelay halkan ayaa lagu haynayaa ilaa muddada haynta ay dhammaato.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Galal DVD ama Blu-ray (VIDEO_TS, BDMV) maktabadda lagama helin.",
+  "1 worker online": "1 worker online",
+  "A worker is busy with this file": "Worker ayaa ka shaqeynaya faylkan",
+  "A worker is grabbing the frames": "Worker ayaa qaadaya sawirrada",
+  "A worker is searching or making subtitles": "Worker ayaa raadinaya ama samaynaya qoraal-hoosaad",
+  "A worker picks up the next job within a few seconds.": "Worker wuxuu qaadanayaa shaqada xigta dhawr ilbiriqsi gudahood.",
+  "Above this, the oldest comparisons are deleted automatically.": "Intaas ka badan, isbarbardhigyada ugu da'da weyn si toos ah ayaa loo tirtiraa.",
+  "All replaced films": "Dhammaan filimada la beddelay",
+  "Already efficient: encoding would hardly save anything": "Horeba waa hufan: encode-garaynta wax badan ma badbaadin lahayn",
+  "Automatic comparisons": "Isbarbardhigyo toos ah",
+  "Being made…": "Waa la samaynayaa…",
+  "Can be made": "Waa la samayn karaa",
+  "Can encode on the CPU with x265": "Wuxuu ku encode-garayn karaa CPU-ga x265",
+  "Comparison storage limit": "Xadka kaydinta isbarbardhigyada",
+  "Comparisons": "Isbarbardhigyo",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: dib looma encode-garayn, lakabka DV wuu lumi lahaa",
+  "Encoding is paused.": "Encode-garaynta waa hakad.",
+  "Enlarge": "Weynee",
+  "Errors": "Khaladaad",
+  "Flip": "Beddel",
+  "Four frames of the original and the new version are stored": "Afar sawir oo asalka iyo nooca cusub ayaa la kaydiyay",
+  "Full width": "Ballac buuxa",
+  "GPU encoder found": "Encoder-ka GPU waa la helay",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Filim kasta oo la beddelay ka qaad afar sawir oo asalka iyo nooca cusub, si aad mar walba sawirka u hubiso bogga Isbarbardhig. Qiyaastii 1–2 MB filimkiiba.",
+  "Keyboard shortcuts": "Furayaasha gaaban ee kiiboodhka",
+  "Leave without saving? Your changes to the settings will be lost.": "Ka bax adigoon kaydin? Isbeddelladaada dejinta waa lumayaan.",
+  "Moved to the front": "Waxaa loo wareejiyay hore",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Weli isbarbardhig ma jiro. Mid samee inta asalka weli karantiilka ku jiro, ama Dejinta ka shid isbarbardhigyada tooska ah.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Hadda filim la isbarbardhigi karo ma jiro: asalka karantiilka ayaa ka baxay, ama weli waxba lama beddelin.",
+  "No longer possible": "Hadda suurtagal ma aha",
+  "No subtitles found online and none could be made": "Qoraal-hoosaad online lagama helin, lamana samayn karin",
+  "Ollama found: can translate subtitles": "Ollama waa la helay: wuxuu tarjumi karaa qoraal-hoosaadka",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Qayb ka mid ah galka DVD ama Blu-ray; ka beddel bogga DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Si toos ah ayaa loo hakiyay: NAS-ka meel bannaan ka yar bareegga badbaadada ayuu leeyahay.",
+  "Planned for encoding": "Loo qorsheeyay encode-garayn",
+  "Queued for the CPU encoder": "Safka encoder-ka CPU ayaa lagu daray",
+  "Replaced after the quality check; the original is in quarantine for a while": "Waxaa la beddelay hubinta tayada kaddib; asalka muddo ayuu karantiilka ku jirayaa",
+  "Replaced films appear here after their first encode.": "Filimada la beddelay halkan ayay ka muuqdaan encode-kooda koowaad kaddib.",
+  "Search the log…": "Ka raadi diiwaanka…",
+  "Show films that can be compared": "Muuji filimada la isbarbardhigi karo",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Isdaba-joog u muuji asalka iyo nooca cusub: habka ugu fiican ee lagu arko xuubka iyo faahfaahinta",
+  "Skipped": "Waa la booday",
+  "Skipped by you; Retry puts it back in the queue": "Adigu waad ka booday; «Isku day mar kale» dib ayay safka u celinaysaa",
+  "Slider back to the middle": "Siibida dib ugu celi dhexda",
+  "Smaller": "Yaree",
+  "Stopped because the file changed or disappeared": "Waa la joojiyay sababtoo ah faylka waa isbeddelay ama waa libdhay",
+  "Stopped with an error; see the message and try again": "Khalad ayuu ku joogsaday; fiiri fariinta oo isku day mar kale",
+  "Subtitles are paused.": "Qoraal-hoosaadka waa hakad.",
+  "The file could not be read; see the drawer": "Faylka lama akhrin karin; fiiri guluufka dhinaca",
+  "The new file would save less than the minimum saving, so the original was kept": "Faylka cusub wuxuu badbaadin lahaa wax ka yar badbaadinta ugu yar, sidaas darteed asalka waa la hayay",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Nooca cusub wuxuu ku jiraa NAS-ka waxaana la beddelayaa isla marka aan cidna daawanayn",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Asalka karantiilka ayuu ka baxay, sidaas darteed sawirrada hadda lama qaadi karo",
+  "The original is still in quarantine, so the frames can still be grabbed": "Asalka weli karantiilka ayuu ku jiraa, sidaas darteed sawirrada weli waa la qaadi karaa",
+  "The original was put back from quarantine": "Asalka karantiilka ayaa dib looga soo celiyay",
+  "The queue is empty. New files are queued after a scan.": "Safka waa madhan. Faylasha cusub safka ayaa lagu daraa baaritaan kaddib.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Server-ka wuxuu qaybinayaa faylasha worker ee cusub; worker-ka wuxuu rakibayaa shaqada hadda kaddib",
+  "Undo": "Ka noqo",
+  "Waiting for Plex: someone is watching this film": "Sugaya Plex: qof ayaa daawanaya filimkan",
+  "Waiting for a worker; the queue runs from top to bottom": "Sugaya worker; safka kor ilaa hoos ayuu u socdaa",
+  "Warnings": "Digniino",
+  "Whisper installed: can make subtitles": "Whisper waa la rakibay: wuxuu samayn karaa qoraal-hoosaad",
+  "Would save less than the minimum saving": "Wuxuu badbaadin lahaa wax ka yar badbaadinta ugu yar",
+  "expires today": "maanta ayuu dhacayaa",
+  "expires within a day": "maalin gudaheed ayuu dhacayaa",
+  "less than a day left": "wax ka yar maalin ayaa haray",
+  "waiting for Plex": "sugaya Plex",
+  "update pending": "cusboonaysiin sugaysa",
+  "Tap to switch between original and new": "Taabo si aad u beddesho asalka iyo cusub",
+  "Repeated": "La soo celceliyay",
+  "Search in the current list": "Ka raadi liiska hadda",
+  "Clear the search, close a drawer or dialog": "Tirtir raadinta, xir guluufka ama wada-hadalka",
+  "Previous or next film on a comparison": "Filimka hore ama xiga isbarbardhig",
+  "Open or switch the focused row, switch or header": "Fur ama beddel safka, furaha ama madaxa la dooray",
+  "This list": "Liiskan",
+  "Nothing in the log matches this.": "Diiwaanka waxba kuma jiraan oo tan la mid ah.",
+  "Nothing has happened yet.": "Weli waxba ma dhicin.",
+  "No worker is online, so nothing can run.": "Worker online ah ma jiro, sidaas darteed waxba ma socon karaan.",
+  "There is no worker yet. Add one to get started.": "Weli worker ma jiro. Mid ku dar si aad u bilowdo.",
+  "Open Workers": "Fur Worker-yada",
+  "Some values are out of range.": "Qiimayaal qaar waxay ka baxsan yihiin xadka.",
+  "no capabilities reported": "awood lama soo sheegin",
+  "Replaced · expires": "La beddelay · dhacayaa",
+  "Made": "La sameeyay",
+  "Make": "Samee",
+  "lots of motion": "dhaqdhaqaaq badan",
+  "dark scene": "muuqaal mugdi",
+  "a quarter in": "rubuc gudaha",
+  "three quarters in": "saddex rubuc gudaha",
+  "Encoded": "La encode-gareeyay",
+  "Finished": "Dhammaaday",
+  "later": "kaddib",
+  "Leave": "Ka bax",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Isbarbardhig wuxuu ka qaadaa 4 sawir faylka asalka ah iyo nooca cusub (wadar ahaan ilaa 1–2 MB). Waa la samayn karaa inta faylka asalka ahi karantiil ku jiro, wuxuuna sii jiraa ilaa aad tirtirto, xitaa ka dib markii asalku baxo.",
+  "Retry on CPU": "Dib u isku day CPU-ga",
+  "Scan": "Iskaan"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1bilow$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Hadda: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan wuxuu helay $1 muuqaal ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · 5%-ka ugu xun $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "5%-ka ugu xun $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Cusub ($1 maalmood)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Qorshe: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Beddelidda waa fashilantay ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} wuu fashilmay{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Iskaanku waa dhammaaday: $1 muuqaal, $2 cusub, $3 la beddelay, $4 maqan; $5 shaqo encode iyo $6 shaqo qoraal-hoosaad ayaa lagu daray"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Iskaanku waa dhammaaday: $1 muuqaal, $2 cusub, $3 la beddelay, $4 maqan, $5 galalka laga boodo; $6 shaqo encode iyo $7 shaqo qoraal-hoosaad ayaa lagu daray"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Ma dib u encode-gareysaa $1 filim xeerarka hadda? Asallada waa la soo celinayaa, filimadana mudnaan ayay safka ku helayaan."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 filim mar kale safka{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 asal ayaa la soo celiyay oo mar kale safka la geliyay (xeerarka hadda)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Cusub: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "La beddelay: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray waa la beddelay: $1 ($2 GB); galka saxanka wuxuu ku jiraa karantiilka"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Asalka waa la soo celiyay: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 wuxuu bilaabay {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 shaqo (dhammaan $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Xulashada waa la qaybiyay - encode-garaynta si toos ah ayaa loo hakiyay"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Xulashada waa la qaybiyay - qoraal-hoosaadka si toos ah ayaa loo hakiyay"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Dejinta waa la beddelay: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Shaqo $1 khalad: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Shaqo $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 xiriir ma leh: $2 shaqo mar kale safka"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 dib ayuu u bilaabmay: $2 shaqo oo go'day mar kale safka"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 waxaa loo cusboonaysiiyay $2: $3 shaqo oo fashilmay mar kale safka"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 waa la saaray"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: encode-garayn {t:$2}, qoraal-hoosaad {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Qorshaynta waa la cusboonaysiiyay: $1 shaqo encode iyo $2 shaqo qoraal-hoosaad ayaa lagu daray"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 shaqo ayaa gacanta safka loo geliyay"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 shaqo: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 isbarbardhig ayaa la tirtiray"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Waa laga baxay $1 fadhi oo kale"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Koodh soo kabasho ayaa lagu galay ($1 ayaa haray)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Asallada waxaa la hayaa ugu badnaan $1 maalmood, wadar ahaanna weligood kama badna $2. Kuwa ugu da'da weyn ayaa marka hore baxa. Soo celintu waxay tirtirtaa nooca cusub."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - guji si aad u saarto"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 gal ayaa la beddeli doonaa · worker-ku wuxuu bilaabayaa nus daqiiqo gudaheed"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 cod · $2 qoraal-hoosaad"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Tirtir $1 isbarbardhig? Filimada laftoodu sidooda ayay ahaanayaan."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Sawir $1 · $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Sawir $1 · $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB sida jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Waqtiga encode-ka $1 daqiiqo · lagu cabbiray 8 qaybood, kadib lagu hubiyay filimka oo dhan."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Hadda jira: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "5%-ka ugu daciifsan $1 · heerka $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "waqtiyeyn $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Samaynta sawirrada way fashilantay: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "xulasho · xiga"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "xulasho · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Hadda:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· kadib $1 kale oo xulashada ah"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "qiyaas · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 hore u dhammaaday · tus"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 ayaa xulashada lagu daray · worker-ku wuxuu bilaabayaa dhowr ilbiriqsi gudahood"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Xulasho {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "la sameeyay: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% ka yar$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "hadda"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 daqiiqo kahor"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 saacadood kahor"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 maalmood kahor"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "la arkay {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 m $2 s"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 s $2 d"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 muuqaal"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "karantiil $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 24 saacadoodba"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 faa'iido"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB faa'iido"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% ka yar faylasha la habeeyay"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 khadka"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "$1 kale oo bilaabanaya, kadib hakad"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 shay · bogga $2 ee $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 la doortay"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Dooro dhammaan $1 natiijo"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Iskaan: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× la isku dayay"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 daqiiqo"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Firfircoon · $1 koodh soo kabasho ayaa haray"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 fadhi firfircoon, oo uu ku jiro kan."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 waa la cusboonaysiiyay{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 fadhi oo kale ayaa laga saaray"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Kuwan $1 oo keliya habee? Mudnaan ayay helayaan, habayntu way sii socotaa kadibna si toos ah ayay mar kale u hakanaysaa."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Ka bood $1 shaqo?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Soo celi $1 asal? Noocyada cusub waa la tirtiri doonaa."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Ka saar worker $1 liiska? Haddii uu dib u soo khadka galo, si toos ah ayuu mar kale u muuqanayaa."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "socday $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 ayaa haray"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "ilaa $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "ka shaqaynaya"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex waa ku xirmay (nooca $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex si sax ah uma jawaabayo: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "khalad: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "beddelku waa fashilmay: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "qiime aan sax ahayn oo loogu talagalay $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 waa inuu u dhexeeyaa $2 iyo $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · 5% ugu xun $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 saac"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU-ga tayada ma ilaalin karin - safka encoder-ka CPU (x265) ayaa la geliyay"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Nadiifinta staging: hadhaagii waa la saaray $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 bog kasta"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 worker online"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · ku darista worker, furaha worker-ka iyo soo dejinta waxay ku yaalliin bogga Worker-yada."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · ~{t:$2} gudahood ayuu bilaabanayaa · qiyaas"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · qiyaas"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 maalmood ayaa haray"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "$1 maalmood gudahood ayuu dhacayaa"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "La sameeyay · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Waa la samayn karaa · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · tallaabo $1 ee $2 · ~{t:$3} ayaa haray"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · tallaabo $1 ee $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · ~{t:$1} ayaa haray"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 isbarbardhig ayaa la codsaday · dhawr daqiiqo gudahood diyaar"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Samee $1 isbarbardhig? Qiyaastii 1–2 MB midkiiba."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "$1 jeer la soo celceliyay"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "inta u dhaxaysa $1 iyo $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 shaqo"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Khalad ku jira $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 isbarbardhig ayaa la codsaday"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Isbarbardhigyada waa la nadiifiyay: $1 ayaa la saaray (ka badan $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Folderka karantiilka magaciisa waxaa loo beddelay quarantine ($1 diiwaan ayaa la cusboonaysiiyay)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 waa la saaray: $2 shaqo mar kale safka"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Karantiil: $1 horay u jiray, $2 waxaa looga tagay meeshii uu ahaa"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Folderka karantiilka magaciisa waxaa loo beddelay quarantine; $1 diiwaan ayaa la cusboonaysiiyay, laakiin $2 weli ma madhana"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Beddelidda magaca folderka karantiilka waa fashilantay (share-ka media-ga ma xiran yahay?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "nooca cusub kama jiro staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   ".mkv-ga cusub kama jiro staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "asalka wuu libdhay"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "asalka inta u dhexeysay waa la beddelay"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "asalka hadda lama heli karo"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "hubinta NAS-ka waa la diiday (muddada/raadadka)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray loo beddelay mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "isku day mar kale cusboonaysiinta worker-ka ka dib"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "adigu waad ka booday"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "faylka la rabo horey u jiray"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker-ka offline - dib loo qorsheeyay"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker-ka waa la saaray - dib loo qorsheeyay"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker-ka dib loo bilaabay - dib loo qorsheeyay"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "beddelidda waa fashilantay: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision kama jiro mkv-ga cusub"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: dib looma habayn (lakabka DV wuu lumi lahaa)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "stream lama koobiyeyn karo .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg $1 daqiiqo horumar ma samayn (share-ka lama gaari karo?) - waa la joojiyay"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 ka mid ah $2 fayl ayaa hal mar maqan - share-ka lama gaari karo? Waxba looma calaamadin inay tageen"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "tarjumaadu waa fashilantay: jawaab la isticmaali karo looma helin $1 sadar isku dayo dib ka dib"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: khalad server"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - soo dejiso moodelka (ollama pull <model>) ama sax ollama_model gudaha worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama lama gaari karo $1 ($2) - bilow Ollama ama hubi ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama lama gaari karo: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama $2 daqiiqo si joogto ah u fashilmay"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 wuxuu qaatay in ka badan saacad - share-ka warbaahinta weli ma la gaari karaa?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 ma jiro; ku rakib $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF filimka oo dhan $1 lama aamini karo hab lammaaneyn kasta (tusaalooyin $2); hooseeya $3. Asalka waa la hayay; halkaas isha ka hubi"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: faylka lama akhrin karo"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: fashilmay"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "PC-ga kuma filna meel bannaan filimkan ($1 GB loo baahan yahay gudaha $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "meel ku filan kuma jirto folderka shaqada: $1 GB bannaan, ~$2 GB loo baahan yahay"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "bitrate-ka ugu yar ugu badnaan $1% ka yar"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "metadata ayaa laga soo saarayaa lakabka kordhinta"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "soo dejintu ma waafaqsana (sha256) - lama isticmaalin"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "hubin: muddada ama tirada streams way kala duwan yihiin"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "mkv-ga cusub aad buu u gaaban yahay ($1 ee $2 daqiiqo)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 ee $2 dhammaaday, sugaya worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "Dolby Vision loo beddelayo profile 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "metadata lagu dhex shubayo lakabka aasaasiga"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "hubinta VMAF (cabbirka labaad)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "dejin kastaa ma gaarto heerka tayada"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "xadka soo dejinta waa la gaaray - inta kale dambe"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "xadka maalinlaha OpenSubtitles waa la gaaray"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "qayb; inta kale xadka soo dejinta kadib"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 lagama helin kadib soo dejinta"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: luqadda la hadlo waa la ogaaday"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (laga tarjumay $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "sugaya meel bannaan PC-ga"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "faylka subtitle-ku si aan caadi ahayn ayuu u weyn yahay"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "cabbirka tijaabada nafta ma kalsoona"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "isku-daygii tarjumaadda $1 waa fashilmay"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "sugaya: hadda Plex-ka lagu daawanayo"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "la filayo oo keliya $1% ka yar"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "soo dejinta $1 (hal mar)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "hubinta filimka oo dhan ka hooseeya heerka"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "ma qaban karo frame ilbiriqsiga $1"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "filimka oo dhan wax yar ka hooseeya heerka"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "filimka laga raadinayo saxanka"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "heerka tayada lama gaari karo"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "cabbirka hubinta ma kalsoona"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "waddo aan sax ahayn oo server-ka ka timid"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "mar kale: faa'iidada ugu yar hadda 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper wuxuu ku socdaa GPU-ga"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "ma jiraan cinwaano lagu helay DVD-ga"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "waddo shaki leh oo kaydka ku jirta"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "sugaya: Plex lama gaari karo"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "ka shaqaynaya $1 ee $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles lama gaari karo"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (qoraal-u-beddel)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "hubinta VMAF filimka oo dhan"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "dhammaaday, sugaya beddelka"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "galka hore karantiilka"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "hubinta VMAF $1 aad u hooseeya"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "akhrinta saxanka (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "laga turjumay Ingiriisi"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "dhammaaday ($1 ee $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "soo saarista codka waa fashilantay"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "dib ugu laabashada CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles waa la soo galay"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (laga soo qaaday profile 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "sugaya worker-ka"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "waddo shaki leh oo zip ku jirta"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "EN-ga ku dhex jira lama akhrin karo"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "ugu dheer ilaa hadda: cinwaan"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "waqtigu isma waafaqsana"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "oo keliya $1% ka yar"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "qayb $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "asalka waa la hayaa"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "soo dejinta maanta haray"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "cinwaan $1 la hubiyay"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "sugaya beddelka"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "u koobiyeyn NAS-ka"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "asalka waa la hayaa"
+  ],
+  [
+   "translation failed",
+   "g",
+   "tarjumaadu waa fashilantay"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "server lama gaari karo"
+  ],
+  [
+   "searching quality",
+   "g",
+   "raadinta tayada"
+  ],
+  [
+   "making references",
+   "g",
+   "samaynta tixraacyada"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "u beddelid mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "qoraal-hoosaadka waa la joojiyay"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "koobiyeyn NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "koobiyeyn PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "raadinta filimka"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "isku darid mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "playlist-ka ugu dheer"
+  ],
+  [
+   "timing reference",
+   "g",
+   "tixraaca waqtiga"
+  ],
+  [
+   "speech segments",
+   "g",
+   "qaybaha hadalka"
+  ],
+  [
+   "too little gain",
+   "g",
+   "faa'iido aad u yar"
+  ],
+  [
+   " not applicable",
+   "g",
+   " khuseyn maayo"
+  ],
+  [
+   "download failed",
+   "g",
+   "soo dejintu waa fashilantay"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "kadib ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "turjumid"
+  ],
+  [
+   "next candidate",
+   "g",
+   "musharaxa xiga"
+  ],
+  [
+   "after shifting",
+   "g",
+   "kadib wareejinta"
+  ],
+  [
+   "reading audio",
+   "g",
+   "akhrinta codka"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Xulasho · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 sugaya"
+  ],
+  [
+   "search failed",
+   "g",
+   "raadintu waa fashilantay"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "dib u encode-garayn"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "cinwaan $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " khalad"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 dhammaaday"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "qoraal-hoosaad:"
+  ],
+  [
+   "replacing",
+   "g",
+   "beddelid"
+  ],
+  [
+   "subtitles",
+   "g",
+   "qoraal-hoosaad"
+  ],
+  [
+   "candidate",
+   "g",
+   "musharax"
+  ],
+  [
+   "encoding:",
+   "g",
+   "encode-garayn:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "bilow"
+  ],
+  [
+   "encoding",
+   "g",
+   "encode-garayn"
+  ],
+  [
+   "checking",
+   "g",
+   "hubin"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", ilaa "
+  ],
+  [
+   "present",
+   "g",
+   "jira"
+  ],
+  [
+   "missing",
+   "g",
+   "maqan"
+  ],
+  [
+   "speed",
+   "g",
+   "xawaare"
+  ],
+  [
+   "saved",
+   "g",
+   "la kaydiyay"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU-ga tayada ma ilaalin karin - safka encoder-ka CPU (x265) ayaa la geliyay"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Nadiifinta staging: hadhaagii waa la saaray"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "folderka media-ga waa madhan yahay ama lama xirin - waxba isma beddelin"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "ilaalinta tayada waxay u baahan tahay bitrate ka badan kan asalka"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "waxay u baahan tahay bitrate ka badan asalka"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker-ka dib ayuu u bilaabmayaa cusboonaysiin"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "stream video ma jiro (sawirka daboolka oo keliya?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "stream cod ah oo la qoro ma jiro"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "PC-ga kuma filna meel bannaan filimkan"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "dib ayaa loogu isku dayayaa CPU-ga (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "la mari folderrada"
+  ],
+  [
+   "analysing files",
+   "g",
+   "falanqaynta faylasha"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "qorshaynta shaqooyinka"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "Encode-garaynta CPU shidan"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "Encode-garaynta CPU dansan"
+  ]
+ ]
+}

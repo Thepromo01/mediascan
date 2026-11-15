@@ -1,0 +1,2060 @@
+{
+ "name": "فارسی",
+ "s": {
+  "Re-encode from original": "کدگذاری دوباره از نسخه اصلی",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "با قوانین فعلی دوباره کدگذاری شود؟ نسخه اصلی بازگردانده می‌شود و فیلم اولویت می‌گیرد.",
+  "Back in the queue": "بازگشت به صف",
+  "Restore originals": "بازگرداندن نسخه‌های اصلی",
+  "Minimum bitrate (1080p)": "حداقل بیت‌ریت (1080p)",
+  "Extra floor (share of the source)": "کف اضافی (سهمی از منبع)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "اختیاری: علاوه بر این دست‌کم این سهم از بیت‌ریت ویدیوی اصلی حفظ شود. فقط برای منابع با بیت‌ریت بسیار بالا مفید است. 0 = خاموش.",
+  "with the minimum bitrate at most": "با حداقل بیت‌ریت حداکثر",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "فایل جدید هرگز پایین‌تر از این نمی‌رود، حتی اگر VMAF آن را بپذیرد. رزولوشن‌های دیگر به نسبت: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · انیمیشن ×0.6.",
+  "bitrate already near the minimum": "بیت‌ریت از قبل نزدیک حداقل است",
+  "MFA reset from settings - set it up again": "MFA از تنظیمات بازنشانی شد - دوباره آن را تنظیم کنید",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA از طریق MFA_RESET بازنشانی شد - MFA_RESET را از تنظیمات کانتینر حذف کنید",
+  "MFA enabled": "MFA فعال شد",
+  "MediaScan started": "MediaScan راه‌اندازی شد",
+  "New recovery codes created": "کدهای بازیابی جدید ساخته شد",
+  "Password changed; other sessions signed out": "رمز عبور تغییر کرد؛ نشست‌های دیگر خارج شدند",
+  "Password set (first time)": "رمز عبور تنظیم شد (بار اول)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "توجه: ADMIN_PASSWORD کوتاه‌تر از 10 نویسه است - در تنظیمات رمز قوی‌تری انتخاب کنید",
+  "part of a DVD/Blu-ray folder": "بخشی از پوشه DVD/Blu-ray",
+  "folder is in Skip folders": "پوشه در «پوشه‌های نادیده‌گرفته‌شده» است",
+  "file disappeared": "فایل ناپدید شد",
+  "worker restarted - rescheduled": "ورکر دوباره راه‌اندازی شد - زمان‌بندی دوباره",
+  "worker offline - rescheduled": "ورکر آفلاین - زمان‌بندی دوباره",
+  "retry after worker update": "تلاش دوباره پس از به‌روزرسانی ورکر",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray به mkv تبدیل شد",
+  "skipped by you": "توسط شما رد شد",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "جایگزینی تا وقتی فیلم در حال تماشاست صبر می‌کند و Plex پس از هر تغییر تازه‌سازی می‌شود.",
+  "Confirm with your password and a code from your app.": "با رمز عبور و کدی از برنامه‌تان تأیید کنید.",
+  "Your old recovery codes will stop working.": "کدهای بازیابی قدیمی شما از کار می‌افتند.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "اتصال فعلی برنامه احراز هویت و کدهای بازیابی از کار می‌افتند. سپس بلافاصله MFA را دوباره تنظیم می‌کنید.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "یک رمز عبور برای داشبورد انتخاب کنید. کد راه‌اندازی در لاگ کانتینر است (Container Manager › mediascan › Log، یا",
+  "- click to remove": "- برای حذف کلیک کنید",
+  "Invalid address, e.g. http://192.168.1.10:32400": "نشانی نامعتبر، مثلاً http://192.168.1.10:32400",
+  "Enter a Plex token": "یک Plex token وارد کنید",
+  "A password has already been set": "رمز عبور قبلاً تنظیم شده است",
+  "The key is fixed in WORKER_TOKEN (container environment)": "کلید در WORKER_TOKEN ثابت است (محیط کانتینر)",
+  "selection still running - pause or wait until it is done": "انتخاب هنوز در حال اجراست - مکث کنید یا صبر کنید تا تمام شود",
+  "Now running": "در حال اجرا",
+  "Finding the film on the disc": "یافتن فیلم روی دیسک",
+  "Converting to one .mkv": "تبدیل به یک .mkv",
+  "Checking (duration, tracks)": "بررسی (مدت، ترک‌ها)",
+  "Copying to the NAS": "کپی به NAS",
+  "Old folder to quarantine": "پوشه قدیمی به قرنطینه",
+  "worker has not reported for a while": "ورکر مدتی است گزارشی نداده",
+  "waiting for the worker": "در انتظار ورکر",
+  "Welcome to MediaScan": "به MediaScan خوش آمدید",
+  "Setup code": "کد راه‌اندازی",
+  "New password (at least 10 characters)": "رمز عبور جدید (دست‌کم 10 نویسه)",
+  "Repeat password": "تکرار رمز عبور",
+  "Set password": "تنظیم رمز عبور",
+  "The passwords do not match": "رمزهای عبور یکسان نیستند",
+  "Setup code is wrong - check the container log": "کد راه‌اندازی نادرست است - لاگ کانتینر را ببینید",
+  "Choose a password of at least 10 characters": "رمز عبوری با دست‌کم 10 نویسه انتخاب کنید",
+  "Animation folders": "پوشه‌های انیمیشن",
+  "Top-level folders with animation: these may use a lower bitrate.": "پوشه‌های اصلی با انیمیشن: این‌ها می‌توانند بیت‌ریت کمتری داشته باشند.",
+  "Where do I find the token?": "token را کجا پیدا کنم؟",
+  "Connect": "اتصال",
+  "Disconnect": "قطع اتصال",
+  "Connected": "متصل",
+  "Not connected": "متصل نیست",
+  "+ Add language": "+ افزودن زبان",
+  "Renew": "تمدید",
+  "Worker version": "نسخه ورکر",
+  "Password": "رمز عبور",
+  "Other sessions are signed out after a change.": "پس از تغییر، نشست‌های دیگر خارج می‌شوند.",
+  "Change password": "تغییر رمز عبور",
+  "Other sessions will be signed out.": "نشست‌های دیگر خارج می‌شوند.",
+  "Change": "تغییر",
+  "New worker key": "کلید ورکر جدید",
+  "Create new key": "ساخت کلید جدید",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "همه ورکرها تا وقتی کلید جدید را وارد نکنید متوقف می‌شوند (نصب‌کننده را دوباره اجرا کنید یا worker.ini را ویرایش کنید).",
+  "Repeat new password": "تکرار رمز عبور جدید",
+  "Password changed": "رمز عبور تغییر کرد",
+  "New worker key created": "کلید ورکر جدید ساخته شد",
+  "Disconnect Plex?": "اتصال Plex قطع شود؟",
+  "Plex disconnected": "اتصال Plex قطع شد",
+  "Plex connected": "Plex متصل شد",
+  "Incorrect password": "رمز عبور نادرست",
+  "Incorrect code": "کد نادرست",
+  "Incorrect code from your authenticator app": "کد نادرست از برنامه احراز هویت",
+  "Too many attempts - try again in 15 minutes": "تلاش‌های بیش از حد - 15 دقیقه دیگر دوباره امتحان کنید",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "پوشه‌هایی با VIDEO_TS یا BDMV. تبدیل، آن‌ها را به یک .mkv با همه تصویر، صدا، زیرنویس‌ها و فصل‌ها تبدیل می‌کند.",
+  "Convert to MKV": "تبدیل به MKV",
+  "Folder": "پوشه",
+  "Type": "نوع",
+  "found": "پیدا شده",
+  "queued": "در صف",
+  "converting…": "در حال تبدیل…",
+  "converted": "تبدیل شد",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "تبدیل، همه چیز را 1:1 در یک .mkv کپی می‌کند: تصویر (HDR هم)، همه ترک‌های صوتی، زیرنویس‌ها و فصل‌ها. برای DVD طولانی‌ترین عنوان (فیلم) انتخاب می‌شود. پوشه قدیمی به قرنطینه می‌رود، پس می‌توانید آن را بازگردانید. سپس .mkv مسیر عادی کدگذاری و زیرنویس را طی می‌کند. Blu-rayهای دارای Dolby Vision به Dolby Vision پروفایل 8.1 تبدیل می‌شوند (لایه پایه 1:1، با افزودن متادیتای DV): Plex و تلویزیون شما آن را Dolby Vision پخش می‌کنند و پخش‌کننده‌های دیگر HDR10. چنین فیلمی بعداً دوباره کدگذاری نمی‌شود، چون Dolby Vision از دست می‌رود.",
+  "Compare": "مقایسه",
+  "Delete comparison": "حذف مقایسه",
+  "Comparison deleted": "مقایسه حذف شد",
+  "comparison": "مقایسه",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "نسخه اصلی کنار نسخه جدید: حجم، کیفیت، تصویر و زیرنویس‌ها. خودتان فیلم‌ها را انتخاب کنید.",
+  "Original → new": "اصلی → جدید",
+  "Quality (VMAF)": "کیفیت (VMAF)",
+  "Comparison": "مقایسه",
+  "View": "مشاهده",
+  "Make comparison": "ساخت مقایسه",
+  "previous attempt failed": "تلاش قبلی ناموفق بود",
+  "Back": "بازگشت",
+  "Make again": "ساخت دوباره",
+  "New": "جدید",
+  "VMAF whole film": "VMAF کل فیلم",
+  "Making the frames… this usually takes less than a minute.": "در حال ساخت فریم‌ها… معمولاً کمتر از یک دقیقه طول می‌کشد.",
+  "There is no picture comparison for this film yet.": "هنوز مقایسه تصویری برای این فیلم وجود ندارد.",
+  "Picture · drag across the image": "تصویر · روی تصویر بکشید",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR برای این نما به SDR تبدیل شده است؛ تلویزیون شما آن را HDR نشان می‌دهد.",
+  "How the setting was chosen": "تنظیم چگونه انتخاب شد",
+  "Step": "مرحله",
+  "Weakest 5%": "ضعیف‌ترین 5%",
+  "Bitrate": "بیت‌ریت",
+  "chosen": "انتخاب‌شده",
+  "No data.": "داده‌ای نیست.",
+  "Nothing needed, all languages were present.": "نیازی نبود، همه زبان‌ها از قبل موجود بودند.",
+  "Not processed yet.": "هنوز پردازش نشده.",
+  "Comparison requested · ready within a minute": "مقایسه درخواست شد · ظرف یک دقیقه آماده است",
+  "Delete this comparison? The film itself stays as it is.": "این مقایسه حذف شود؟ خود فیلم همان‌طور که هست می‌ماند.",
+  "Not possible": "ممکن نیست",
+  "Slide between original and new": "بین اصلی و جدید بلغزانید",
+  "Overview": "نمای کلی",
+  "Queue": "صف",
+  "In progress": "در حال انجام",
+  "No gain": "بدون صرفه‌جویی",
+  "Failed": "ناموفق",
+  "Subtitles": "زیرنویس‌ها",
+  "Recently added": "تازه افزوده‌شده",
+  "Library": "کتابخانه",
+  "Quarantine": "قرنطینه",
+  "Workers": "ورکرها",
+  "Activity": "فعالیت",
+  "Settings": "تنظیمات",
+  "Encoding": "کدگذاری",
+  "System": "سیستم",
+  "Status of the entire library.": "وضعیت کل کتابخانه.",
+  "Selection": "انتخاب",
+  "waiting for worker": "در انتظار ورکر",
+  "In the selection": "در انتخاب",
+  "selection": "انتخاب",
+  "Selection · encoding": "انتخاب · کدگذاری",
+  "Selection · subtitles": "انتخاب · زیرنویس‌ها",
+  "Close list": "بستن فهرست",
+  "waiting": "در انتظار",
+  "nothing needed": "نیازی نیست",
+  "original kept": "نسخه اصلی حفظ شد",
+  "Find, sync or generate missing subtitles.": "یافتن، همگام‌سازی یا ساخت زیرنویس‌های گمشده.",
+  "All videos with their current plan. You can also queue items manually here.": "همه ویدیوها با برنامه فعلی‌شان. اینجا می‌توانید موارد را دستی هم به صف اضافه کنید.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "ماشین‌هایی که کار را انجام می‌دهند. برای هر ورکر انتخاب کنید چه کاری مجاز است.",
+  "Log of everything that happens.": "گزارش همه رویدادها.",
+  "Scan now": "اسکن اکنون",
+  "Saved": "صرفه‌جویی‌شده",
+  "Free on NAS": "فضای آزاد NAS",
+  "Progress": "پیشرفت",
+  "Saved per day": "صرفه‌جویی روزانه",
+  "last 14 days": "14 روز گذشته",
+  "Per folder": "به تفکیک پوشه",
+  "all": "همه",
+  "nothing processed yet": "هنوز چیزی پردازش نشده",
+  "no measurement yet": "هنوز اندازه‌گیری نشده",
+  "No processed files yet": "هنوز فایل پردازش‌شده‌ای نیست",
+  "No worker connected yet": "هنوز ورکری متصل نیست",
+  "no worker": "بدون ورکر",
+  "worker offline": "ورکر آفلاین",
+  "online": "آنلاین",
+  "disabled": "غیرفعال",
+  "encoding": "کدگذاری",
+  "subtitles": "زیرنویس‌ها",
+  "Search by name or folder…": "جستجو بر اساس نام یا پوشه…",
+  "Several titles at once: separate them with |": "چند عنوان با هم: با | جدا کنید",
+  "Nothing to show": "چیزی برای نمایش نیست",
+  "File": "فایل",
+  "Source": "منبع",
+  "Status": "وضعیت",
+  "Result": "نتیجه",
+  "Languages": "زبان‌ها",
+  "Error": "خطا",
+  "When": "زمان",
+  "Plan": "برنامه",
+  "Added": "افزوده‌شده",
+  "Original": "اصلی",
+  "Size": "حجم",
+  "Replaced": "جایگزین‌شده",
+  "estimate": "تخمین",
+  "Name": "نام",
+  "Done": "آماده",
+  "Nothing found": "چیزی پیدا نشد",
+  "Process only these": "فقط این‌ها پردازش شوند",
+  "Prioritise": "اولویت",
+  "Skip": "رد کردن",
+  "Retry": "تلاش دوباره",
+  "Clear": "پاک کردن",
+  "Both": "هر دو",
+  "Restore original": "بازگرداندن اصلی",
+  "Find subtitles": "یافتن زیرنویس",
+  "running": "در حال اجرا",
+  "done": "انجام شد",
+  "failed": "ناموفق",
+  "replacing": "در حال جایگزینی",
+  "no gain": "بدون صرفه‌جویی",
+  "skipped": "رد شده",
+  "restored": "بازگردانده‌شده",
+  "cancelled": "لغو شده",
+  "nothing found": "چیزی پیدا نشد",
+  "encode": "کدگذاری",
+  "already efficient": "از قبل بهینه",
+  "small gain": "صرفه‌جویی کم",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "خطا",
+  "unknown": "نامشخص",
+  "All": "همه",
+  "Already efficient": "از قبل بهینه",
+  "Small gain": "صرفه‌جویی کم",
+  "Restored": "بازگردانده‌شده",
+  "Video": "ویدیو",
+  "Duration": "مدت",
+  "Audio": "صدا",
+  "Encode": "کدگذاری",
+  "Quality": "کیفیت",
+  "Encode time": "زمان کدگذاری",
+  "Message": "پیام",
+  "Started": "شروع",
+  "Search": "جستجو",
+  "weakest 5%": "ضعیف‌ترین 5%",
+  "video": "ویدیو",
+  "Worker": "ورکر",
+  "Hardware": "سخت‌افزار",
+  "Resolution": "رزولوشن",
+  "Working on": "در حال کار روی",
+  "nothing": "هیچ",
+  "up to 4K": "تا 4K",
+  "up to 1080p": "تا 1080p",
+  "up to 720p": "تا 720p",
+  "up to SD": "تا SD",
+  "Remove": "حذف",
+  "Add worker": "افزودن ورکر",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "هر ورکر خودش اعلام می‌کند چه کاری می‌تواند (انکودر یافت شد، Whisper نصب است). اینجا تعیین می‌کنید چه کاری مجاز است. تغییرات از کار بعدی اعمال می‌شوند؛ کار در حال اجرا ابتدا تمام می‌شود.",
+  "This machine lacks the hardware or software for this": "این ماشین سخت‌افزار یا نرم‌افزار لازم را ندارد",
+  "Quality level": "سطح کیفیت",
+  "Standard": "استاندارد",
+  "High": "بالا",
+  "Maximum": "حداکثر",
+  "Custom": "سفارشی",
+  "Custom target": "هدف سفارشی",
+  "Average VMAF and the weakest 5% of frames.": "میانگین VMAF و ضعیف‌ترین 5% فریم‌ها.",
+  "avg.": "میانگین",
+  "Minimum saving": "حداقل صرفه‌جویی",
+  "If a file saves less, the original is kept.": "اگر فایلی کمتر از این صرفه‌جویی کند، نسخه اصلی می‌ماند.",
+  "Processing": "پردازش",
+  "Storage & safety": "ذخیره‌سازی و ایمنی",
+  "How long replaced originals can be restored.": "نسخه‌های اصلی جایگزین‌شده تا چه مدت قابل بازگرداندن هستند.",
+  "days": "روز",
+  "Above this, the oldest originals are deleted permanently.": "بالاتر از این، قدیمی‌ترین نسخه‌های اصلی برای همیشه حذف می‌شوند.",
+  "Safety brake": "ترمز ایمنی",
+  "Encoding pauses when the NAS has less free space than this.": "وقتی فضای آزاد NAS کمتر از این باشد، کدگذاری متوقف می‌شود.",
+  "Scanning": "اسکن",
+  "Automatic scan": "اسکن خودکار",
+  "New files are queued automatically.": "فایل‌های جدید خودکار به صف اضافه می‌شوند.",
+  "Off": "خاموش",
+  "Every hour": "هر ساعت",
+  "Every 6 hours": "هر 6 ساعت",
+  "Every 12 hours": "هر 12 ساعت",
+  "Daily": "روزانه",
+  "Skip folders": "پوشه‌های نادیده",
+  "Comma-separated folder names.": "نام پوشه‌ها، جداشده با کاما.",
+  "Plex": "Plex",
+  "Dashboard address": "نشانی داشبورد",
+  "Use the IP address of the NAS, not localhost.": "از نشانی IP دستگاه NAS استفاده کنید، نه localhost.",
+  "Worker key": "کلید ورکر",
+  "Keep secret: with this key a worker can fetch jobs.": "محرمانه نگه دارید: با این کلید یک ورکر می‌تواند کار دریافت کند.",
+  "Show": "نمایش",
+  "Copy": "کپی",
+  "Minimum requirements": "حداقل نیازمندی‌ها",
+  "Account & security": "حساب و امنیت",
+  "Two-factor authentication": "احراز هویت دومرحله‌ای",
+  "Not active": "غیرفعال",
+  "New recovery codes": "کدهای بازیابی جدید",
+  "Reset MFA": "بازنشانی MFA",
+  "Sessions": "نشست‌ها",
+  "Sign out everywhere else": "خروج از همه جاهای دیگر",
+  "Sign out": "خروج",
+  "You have unsaved changes.": "تغییرات ذخیره‌نشده دارید.",
+  "Cancel": "لغو",
+  "Save": "ذخیره",
+  "Language": "زبان",
+  "Theme": "پوسته",
+  "Light": "روشن",
+  "Dark": "تیره",
+  "Auto": "خودکار",
+  "Dashboard language.": "زبان داشبورد.",
+  "Auto follows your system setting.": "خودکار از تنظیم سیستم شما پیروی می‌کند.",
+  "Reset": "بازنشانی",
+  "Create new codes": "ساخت کدهای جدید",
+  "Close": "بستن",
+  "Code from your authenticator app": "کد از برنامه احراز هویت",
+  "Sign in": "ورود",
+  "Activate": "فعال‌سازی",
+  "Set up two-factor authentication": "تنظیم احراز هویت دومرحله‌ای",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "کد QR را با برنامه احراز هویت اسکن کنید و کد 6 رقمی را وارد کنید.",
+  "Manual:": "دستی:",
+  "6-digit code": "کد 6 رقمی",
+  "123456 or recovery code": "123456 یا کد بازیابی",
+  "Save your recovery codes": "کدهای بازیابی خود را نگه دارید",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "تلفن را گم کرده‌اید؟ با هر یک از این کدها یک بار می‌توانید وارد شوید. فقط یک بار نمایش داده می‌شوند.",
+  "I have saved them": "ذخیره‌شان کردم",
+  "Save them now, they are shown only once.": "همین حالا ذخیره کنید، فقط یک بار نمایش داده می‌شوند.",
+  "Server not responding": "سرور پاسخ نمی‌دهد",
+  "Sign-in failed": "ورود ناموفق بود",
+  "Code is incorrect": "کد نادرست است",
+  "Code is incorrect - check the time on your phone": "کد نادرست است - زمان تلفن خود را بررسی کنید",
+  "Scan started": "اسکن شروع شد",
+  "scan already running": "اسکن از قبل در حال اجراست",
+  "Copied": "کپی شد",
+  "Resumed": "ادامه یافت",
+  "Paused: a running job will finish first": "متوقف شد: کار در حال اجرا ابتدا تمام می‌شود",
+  "Added to the queue": "به صف اضافه شد",
+  "Not applicable": "قابل اعمال نیست",
+  "At least one language": "دست‌کم یک زبان",
+  "Skip this job?": "این کار رد شود؟",
+  "Restore the original? The new version will be deleted.": "نسخه اصلی بازگردانده شود؟ نسخه جدید حذف می‌شود.",
+  "on": "روشن",
+  "off": "خاموش",
+  "Quarantine cleanup": "پاک‌سازی قرنطینه",
+  "Background task": "کار پس‌زمینه",
+  "Planning at startup": "برنامه‌ریزی هنگام راه‌اندازی",
+  "Welcome": "خوش آمدید",
+  "Next": "بعدی",
+  "Previous": "قبلی",
+  "Next (or skip)": "بعدی (یا رد کردن)",
+  "Done, go to the overview": "تمام، رفتن به نمای کلی",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan فیلم‌ها و سریال‌های شما را بدون تفاوت قابل مشاهده کوچک‌تر می‌کند و زیرنویس‌های گمشده را تکمیل می‌کند. نسخه‌های اصلی فقط پس از بررسی کیفیت جایگزین می‌شوند و ابتدا مدتی در قرنطینه می‌مانند.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "با شش مرحله کوتاه همه چیز آماده است. بعداً می‌توانید همه چیز را در تنظیمات تغییر دهید.",
+  "Your library": "کتابخانه شما",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan اکنون در پوشه رسانه شما دنبال ویدیو می‌گردد. در کتابخانه بزرگ، اولین اسکن مدتی طول می‌کشد؛ می‌توانید ادامه دهید.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "پوشه‌هایی که MediaScan هرگز به آن‌ها دست نمی‌زند، جداشده با کاما (مثلاً Music, Downloads).",
+  "Scan again": "اسکن دوباره",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "زبان‌هایی را که هر فایل باید داشته باشد انتخاب کنید. MediaScan موارد گمشده را در OpenSubtitles جستجو می‌کند. اگر نشد، ورکر خودش زیرنویس را می‌سازد (تشخیص گفتار و ترجمه روی رایانه خودتان).",
+  "Click a language to remove it.": "برای حذف یک زبان روی آن کلیک کنید.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "هر فیلم با VMAF سنجیده می‌شود، امتیازی برای اینکه تصویر به چشم انسان چگونه به نظر می‌رسد. «بالا» برای تقریباً همه از نسخه اصلی قابل تشخیص نیست.",
+  "Higher = better picture, less space saved.": "بالاتر = تصویر بهتر، صرفه‌جویی کمتر در فضا.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "یک تور ایمنی برای دانه‌بندی و صحنه‌های تاریک. 5 Mbps پیش‌فرض خوبی است؛ 4K و رزولوشن‌های دیگر به نسبت تنظیم می‌شوند.",
+  "Plex (optional)": "Plex (اختیاری)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "با اتصال Plex، اگر کسی در حال تماشای فیلم باشد MediaScan با جایگزینی صبر می‌کند و پس از هر تغییر Plex را تازه‌سازی می‌کند. Plex ندارید؟ این مرحله را رد کنید.",
+  "Plex address and token": "نشانی Plex و token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (بدون تغییر)",
+  "Add a worker": "افزودن یک ورکر",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "کار سنگین روی یک PC یا Mac با کارت گرافیک خوب انجام می‌شود: ورکر. همین حالا نصبش کنید، یا بعداً از بخش ورکرها. تا وقتی ورکری نباشد، اتفاقی برای فایل‌های شما نمی‌افتد.",
+  "✓ A worker is connected.": "✓ یک ورکر متصل است.",
+  "Done! MediaScan is set up.": "تمام! MediaScan تنظیم شد.",
+  "Connect the media share on the new machine.": "اشتراک رسانه را روی ماشین جدید متصل کنید.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: حرف درایو یا \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: راهنمای داخل بسته را ببینید.",
+  "Download the package for that system and unpack it.": "بسته مخصوص آن سیستم را دانلود و از حالت فشرده خارج کنید.",
+  "Run the installer.": "نصب‌کننده را اجرا کنید.",
+  "The installer asks for the details below and tests the connection.": "نصب‌کننده اطلاعات زیر را می‌پرسد و اتصال را آزمایش می‌کند.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 یا جدیدتر، Intel Arc یا iGPU نسل 11+، AMD RX 6000+ · 4 هسته · 8 GB · 100 GB فضای آزاد · شبکه سیمی. زیرنویس: NVIDIA با 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (زیرنویس: 24 GB+) · 150 GB فضای آزاد · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "ورکرها وقتی این داشبورد نسخه جدیدی داشته باشد خودشان را به‌روز می‌کنند.",
+  "What the workers are doing now and what is planned next.": "آنچه ورکرها اکنون انجام می‌دهند و آنچه در ادامه برنامه‌ریزی شده است.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "کوچک‌تر کردن فایل‌ها بدون افت کیفیت قابل مشاهده. ورکر صف را از بالا به پایین پیش می‌برد.",
+  "select page": "انتخاب صفحه",
+  "select": "انتخاب",
+  "to encode": "برای کدگذاری",
+  "Movie": "فیلم",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "نسخه‌های اصلی جایگزین‌شده، که مدتی نگه داشته می‌شوند تا بتوانید بازگردانید یا دوباره کدگذاری کنید.",
+  "How MediaScan works: quality, subtitles, storage and security.": "MediaScan چگونه کار می‌کند: کیفیت، زیرنویس، ذخیره‌سازی و امنیت.",
+  "General": "عمومی",
+  "Advanced": "پیشرفته",
+  "Connection": "اتصال",
+  "Hand out new encode jobs to the workers.": "واگذاری کارهای کدگذاری جدید به ورکرها.",
+  "Hand out new subtitle jobs to the workers.": "واگذاری کارهای زیرنویس جدید به ورکرها.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "سنجش VMAF چقدر سخت‌گیرانه است. بالاتر = تصویر بهتر، صرفه‌جویی کمتر در فضا.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "هر فایل چه زیرنویس‌هایی باید داشته باشد. موارد گمشده جستجو و در غیر این صورت ساخته می‌شوند.",
+  "Go to Workers": "رفتن به ورکرها",
+  "new": "جدید",
+  "start": "شروع",
+  "Minimum bitrate (4K)": "حداقل بیت‌ریت (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "حد پایین جداگانه برای 4K به‌جای ۲٫۵ برابر مقدار 1080p. ‏0 = خودکار. HDR ‏+15% و انیمیشن ×0.6 اینجا هم اعمال می‌شوند.",
+  "Ready to use in a few steps.": "با چند مرحله آماده استفاده است.",
+  "next": "بعدی",
+  "read error": "خطای خواندن",
+  "MFA is already enabled": "MFA از قبل فعال است",
+  "a .mkv with that name already exists": "یک فایل .mkv با این نام از قبل وجود دارد",
+  "a file already exists at the original location": "در مکان اصلی از قبل فایلی وجود دارد",
+  "action not possible in this status": "این عمل در این وضعیت ممکن نیست",
+  "walking folders": "در حال پیمایش پوشه‌ها",
+  "planning jobs": "در حال برنامه‌ریزی کارها",
+  "check on the NAS rejected (duration/tracks)": "بررسی روی NAS رد شد (مدت/ترک‌ها)",
+  "expected a JSON object": "یک شیء JSON انتظار می‌رفت",
+  "ffprobe error": "خطای ffprobe",
+  "invalid resolution": "رزولوشن نامعتبر",
+  "invalid worker token": "توکن worker نامعتبر",
+  "job belongs to another worker": "کار متعلق به worker دیگری است",
+  "job is no longer active": "کار دیگر فعال نیست",
+  "no video track": "ترک ویدیویی وجود ندارد",
+  "not JSON": "JSON نیست",
+  "not signed in": "وارد نشده‌اید",
+  "original disappeared": "اصل فایل ناپدید شد",
+  "original has changed in the meantime": "اصل فایل در این بین تغییر کرده است",
+  "original is no longer in quarantine": "اصل فایل دیگر در قرنطینه نیست",
+  "original no longer available": "اصل فایل دیگر در دسترس نیست",
+  "request refused": "درخواست رد شد",
+  "target file already exists": "فایل مقصد از قبل وجود دارد",
+  "the original has already been removed from quarantine - comparing is no longer possible": "اصل فایل قبلاً از قرنطینه حذف شده - مقایسه دیگر ممکن نیست",
+  "this film has not been replaced yet": "این فیلم هنوز جایگزین نشده است",
+  "unknown action": "عمل ناشناخته",
+  "worker is still online": "worker هنوز آنلاین است",
+  "In use now:": "در حال استفاده:",
+  "longest": "طولانی‌ترین",
+  "8.1 (from profile 7)": "8.1 (از پروفایل 7)",
+  "Whisper (transcription)": "Whisper (رونویسی)",
+  "1 day ago": "1 روز پیش",
+  "1 video": "1 ویدیو",
+  "Enter your password to open the dashboard.": "برای باز کردن داشبورد، رمز عبور خود را وارد کنید.",
+  "No connection to the server - retrying…": "اتصال به سرور برقرار نیست - تلاش دوباره…",
+  "Are you sure?": "مطمئن هستید؟",
+  "Restore": "بازگردانی",
+  "Re-encode": "رمزگذاری دوباره",
+  "Delete": "حذف",
+  "Next up": "بعدی",
+  "in the queue": "در صف",
+  "Load older entries": "بارگذاری موارد قدیمی‌تر",
+  "Folder: all": "پوشه: همه",
+  "Resolution: all": "وضوح: همه",
+  "Codec: all": "کدک: همه",
+  "More": "بیشتر",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "فیلم منتظر رمزگذار CPU هستند، اما هیچ worker‌ای رمزگذاری با CPU را فعال ندارد (صفحه Workers).",
+  "Info": "اطلاعات",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "سخت‌افزار شما، میزان تناسب آن با کار، ابزارهای مورد استفاده و نحوه کار تنظیمات.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "حافظه",
+  "Software": "نرم‌افزار",
+  "GPU encoding": "رمزگذاری با GPU",
+  "CPU encoding (x265)": "رمزگذاری با CPU (x265)",
+  "Subtitles (Whisper)": "زیرنویس‌ها (Whisper)",
+  "Translation (Ollama)": "ترجمه (Ollama)",
+  "Server": "سرور",
+  "Database": "پایگاه داده",
+  "Tools in use": "ابزارهای در حال استفاده",
+  "Knowledge base": "پایگاه دانش",
+  "Low": "پایین",
+  "Medium": "متوسط",
+  "Ultra": "فوق‌العاده",
+  "files": "فایل",
+  "up": "فعال",
+  "of": "از",
+  "uses": "استفاده می‌کند",
+  "free": "آزاد",
+  "Media share": "اشتراک رسانه",
+  "Rating": "رتبه",
+  "Hardware details appear after this worker has updated itself.": "جزئیات سخت‌افزار پس از به‌روزرسانی این worker نمایش داده می‌شود.",
+  "no Whisper": "بدون Whisper",
+  "unified memory": "حافظه یکپارچه",
+  "cores": "هسته",
+  "threads": "رشته",
+  "driver": "درایور",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "نامشخص",
+  "Settings saved": "تنظیمات ذخیره شد",
+  "Time left": "زمان باقی‌مانده",
+  "Queued": "در صف",
+  "Keep originals for": "نگهداری نسخه‌های اصلی برای",
+  "Quarantine size limit": "حد اندازه قرنطینه",
+  "Hide finished items": "پنهان کردن موارد تمام‌شده",
+  "Undo skip": "لغو رد کردن",
+  "not supported here": "در اینجا پشتیبانی نمی‌شود",
+  "CPU encoding": "کدگذاری با CPU",
+  "Retry on CPU (x265)": "تلاش دوباره روی CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "روی CPU با x265 کدگذاری شده (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 با تنظیم گرین روی CPU ورکر: گرین را بسیار کارآمدتر حفظ می‌کند، اما برای هر فیلم ساعت‌ها طول می‌کشد",
+  "CPU fallback for grainy films": "جایگزین CPU برای فیلم‌های گرین‌دار",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "وقتی GPU نتواند بدون فراتر رفتن از بیت‌ریت منبع کیفیت را حفظ کند (گرین فیلم)، فیلم یک بار دیگر روی CPU یک ورکر با x265 کدگذاری می‌شود که گرین را بسیار کارآمدتر حفظ می‌کند. برای هر فیلم ساعت‌ها طول می‌کشد؛ در صفحه Workers کدگذاری با CPU را برای یک ورکر فعال کنید.",
+  "CPU preset": "پیش‌تنظیم CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: حدود 2 ساعت برای یک فیلم 2 ساعته 1080p روی 8 هسته. Slow: 2 تا 3 برابر طولانی‌تر برای فایل‌هایی حدود 5-10% کوچک‌تر.",
+  "Medium (faster)": "Medium (سریع‌تر)",
+  "Slow (smaller)": "Slow (کوچک‌تر)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "این صفحه بارگذاری نشد.",
+  "up to 1440p": "تا 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "در حال تحلیل فایل‌ها",
+  "No worker has CPU encodes switched on (Workers page)": "هیچ ورکری کدگذاری با CPU را فعال ندارد (صفحه Workers)",
+  "the job changed in the meantime": "کار در این میان تغییر کرده است",
+  "Main": "ناوبری اصلی",
+  "Clear search and filters": "پاک کردن جستجو و فیلترها",
+  "Compact rows": "ردیف‌های فشرده",
+  "Encoding and subtitles are paused.": "کدگذاری و زیرنویس‌ها متوقف هستند.",
+  "Encoding is paused: no new encode jobs are handed out.": "کدگذاری متوقف است: کار کدگذاری جدیدی واگذار نمی‌شود.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "زیرنویس‌ها متوقف هستند: کار زیرنویس جدیدی واگذار نمی‌شود.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "هم نشانی Plex و هم توکن را وارد کنید، یا هر دو را خالی بگذارید تا رد شود.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "فضای آزاد NAS کمتر از ترمز ایمنی است. کدگذاری خودکار متوقف شد.",
+  "Loading…": "در حال بارگذاری…",
+  "Next film": "فیلم بعدی",
+  "Previous film": "فیلم قبلی",
+  "Next page": "صفحه بعدی",
+  "Previous page": "صفحه قبلی",
+  "Rows per page": "ردیف در هر صفحه",
+  "Resume": "ادامه",
+  "Resume encoding": "ادامه کدگذاری",
+  "Resume subtitles": "ادامه زیرنویس‌ها",
+  "Open settings": "باز کردن تنظیمات",
+  "Open the library": "باز کردن کتابخانه",
+  "Subtitle languages": "زبان‌های زیرنویس",
+  "Update": "به‌روزرسانی",
+  "No results for this search or filter.": "نتیجه‌ای برای این جستجو یا فیلتر نیست.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "چیزی در صف کدگذاری نیست. فایل‌های جدید پس از اسکن در صف قرار می‌گیرند.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "هنوز فایلی جایگزین نشده. کدگذاری‌های تمام‌شده پس از بررسی کیفیت اینجا نشان داده می‌شوند.",
+  "No files were kept as they are. Films that would save too little end up here.": "هیچ فایلی دست‌نخورده نمانده. فیلم‌هایی که صرفه‌جویی خیلی کمی دارند اینجا می‌آیند.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "زیرنویسی در انتظار نیست. فایل‌هایی که زبانی کم دارند پس از اسکن در صف قرار می‌گیرند.",
+  "No subtitle job is running right now.": "اکنون هیچ کار زیرنویسی در حال اجرا نیست.",
+  "No subtitles have been made yet.": "هنوز زیرنویسی ساخته نشده.",
+  "Nothing missing: every file got its subtitles so far.": "چیزی کم نیست: تا الان هر فایل زیرنویس‌هایش را گرفته است.",
+  "No failed encodes.": "کدگذاری ناموفقی نیست.",
+  "No failed subtitle jobs.": "کار زیرنویس ناموفقی نیست.",
+  "Nothing was added in the last 14 days.": "در ۱۴ روز گذشته چیزی اضافه نشده.",
+  "No videos with this plan.": "ویدیویی با این برنامه نیست.",
+  "The library is being scanned; videos appear as they are found.": "کتابخانه اسکن می‌شود؛ ویدیوها به محض پیدا شدن نشان داده می‌شوند.",
+  "No videos found yet. Check the media folder and run a scan.": "هنوز ویدیویی پیدا نشده. پوشه رسانه را بررسی کنید و یک اسکن اجرا کنید.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "چیزی در قرنطینه نیست. نسخه‌های اصلی جایگزین‌شده تا پایان مدت نگهداری اینجا می‌مانند.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "پوشه DVD یا Blu-ray (VIDEO_TS، BDMV) در کتابخانه پیدا نشد.",
+  "1 worker online": "۱ ورکر آنلاین",
+  "A worker is busy with this file": "یک ورکر روی این فایل کار می‌کند",
+  "A worker is grabbing the frames": "یک ورکر فریم‌ها را می‌گیرد",
+  "A worker is searching or making subtitles": "یک ورکر زیرنویس جست‌وجو یا می‌سازد",
+  "A worker picks up the next job within a few seconds.": "یک ورکر در چند ثانیه کار بعدی را برمی‌دارد.",
+  "Above this, the oldest comparisons are deleted automatically.": "بالاتر از این، قدیمی‌ترین مقایسه‌ها خودکار حذف می‌شوند.",
+  "All replaced films": "همه فیلم‌های جایگزین‌شده",
+  "Already efficient: encoding would hardly save anything": "از قبل بهینه است: کدگذاری تقریباً هیچ صرفه‌جویی‌ای ندارد",
+  "Automatic comparisons": "مقایسه‌های خودکار",
+  "Being made…": "در حال ساخت…",
+  "Can be made": "قابل ساخت",
+  "Can encode on the CPU with x265": "می‌تواند روی CPU با x265 کدگذاری کند",
+  "Comparison storage limit": "حد فضای مقایسه‌ها",
+  "Comparisons": "مقایسه‌ها",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: دوباره کدگذاری نشد، لایه DV از بین می‌رفت",
+  "Encoding is paused.": "کدگذاری متوقف است.",
+  "Enlarge": "بزرگ‌تر",
+  "Errors": "خطاها",
+  "Flip": "جابه‌جا",
+  "Four frames of the original and the new version are stored": "چهار فریم از نسخه اصلی و نسخه جدید ذخیره شده است",
+  "Full width": "تمام‌عرض",
+  "GPU encoder found": "کدگذار GPU پیدا شد",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "برای هر فیلم جایگزین‌شده چهار فریم از نسخه اصلی و نسخه جدید گرفته می‌شود تا همیشه بتوانید تصویر را در صفحه مقایسه بررسی کنید. حدود 1–2 MB برای هر فیلم.",
+  "Keyboard shortcuts": "کلیدهای میانبر",
+  "Leave without saving? Your changes to the settings will be lost.": "بدون ذخیره خارج می‌شوید؟ تغییرات شما در تنظیمات از بین می‌رود.",
+  "Moved to the front": "به ابتدای صف منتقل شد",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "هنوز مقایسه‌ای نیست. تا وقتی نسخه اصلی در قرنطینه است یکی بسازید، یا مقایسه‌های خودکار را در تنظیمات روشن کنید.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "در حال حاضر هیچ فیلمی قابل مقایسه نیست: نسخه‌های اصلی از قرنطینه خارج شده‌اند یا هنوز چیزی جایگزین نشده است.",
+  "No longer possible": "دیگر ممکن نیست",
+  "No subtitles found online and none could be made": "زیرنویسی آنلاین پیدا نشد و ساختن آن هم ممکن نبود",
+  "Ollama found: can translate subtitles": "Ollama پیدا شد: می‌تواند زیرنویس ترجمه کند",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "بخشی از یک پوشه DVD یا Blu-ray است؛ آن را در صفحه DVD & Blu-ray تبدیل کنید",
+  "Paused automatically: the NAS has less free space than the safety brake.": "خودکار متوقف شد: فضای آزاد NAS کمتر از ترمز ایمنی است.",
+  "Planned for encoding": "برای کدگذاری برنامه‌ریزی شده",
+  "Queued for the CPU encoder": "در صف کدگذار CPU",
+  "Replaced after the quality check; the original is in quarantine for a while": "پس از بررسی کیفیت جایگزین شد؛ نسخه اصلی مدتی در قرنطینه می‌ماند",
+  "Replaced films appear here after their first encode.": "فیلم‌های جایگزین‌شده پس از اولین کدگذاری اینجا نشان داده می‌شوند.",
+  "Search the log…": "جست‌وجو در گزارش…",
+  "Show films that can be compared": "نمایش فیلم‌های قابل مقایسه",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "نمایش نوبتی نسخه اصلی و نسخه جدید: بهترین راه برای دیدن دانه‌دانگی و جزئیات",
+  "Skipped": "رد شد",
+  "Skipped by you; Retry puts it back in the queue": "توسط شما رد شد؛ «تلاش دوباره» آن را به صف برمی‌گرداند",
+  "Slider back to the middle": "لغزنده به وسط",
+  "Smaller": "کوچک‌تر",
+  "Stopped because the file changed or disappeared": "متوقف شد زیرا فایل تغییر کرد یا ناپدید شد",
+  "Stopped with an error; see the message and try again": "با خطا متوقف شد؛ پیام را ببینید و دوباره تلاش کنید",
+  "Subtitles are paused.": "زیرنویس‌ها متوقف هستند.",
+  "The file could not be read; see the drawer": "فایل خوانده نشد؛ پنل کناری را ببینید",
+  "The new file would save less than the minimum saving, so the original was kept": "فایل جدید کمتر از حداقل صرفه‌جویی ذخیره می‌کرد، بنابراین نسخه اصلی نگه داشته شد",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "نسخه جدید روی NAS است و به‌محض اینکه کسی تماشا نکند جایگزین می‌شود",
+  "The original has left quarantine, so the frames can no longer be grabbed": "نسخه اصلی از قرنطینه خارج شده، بنابراین دیگر نمی‌توان فریم‌ها را گرفت",
+  "The original is still in quarantine, so the frames can still be grabbed": "نسخه اصلی هنوز در قرنطینه است، بنابراین هنوز می‌توان فریم‌ها را گرفت",
+  "The original was put back from quarantine": "نسخه اصلی از قرنطینه بازگردانده شد",
+  "The queue is empty. New files are queued after a scan.": "صف خالی است. فایل‌های جدید پس از اسکن به صف اضافه می‌شوند.",
+  "The server hands out newer worker files; the worker installs them after its current job": "سرور فایل‌های جدیدتر ورکر را توزیع می‌کند؛ ورکر پس از کار فعلی آن‌ها را نصب می‌کند",
+  "Undo": "واگرد",
+  "Waiting for Plex: someone is watching this film": "در انتظار Plex: کسی این فیلم را تماشا می‌کند",
+  "Waiting for a worker; the queue runs from top to bottom": "در انتظار ورکر؛ صف از بالا به پایین اجرا می‌شود",
+  "Warnings": "هشدارها",
+  "Whisper installed: can make subtitles": "Whisper نصب است: می‌تواند زیرنویس بسازد",
+  "Would save less than the minimum saving": "کمتر از حداقل صرفه‌جویی ذخیره می‌کرد",
+  "expires today": "امروز منقضی می‌شود",
+  "expires within a day": "در کمتر از یک روز منقضی می‌شود",
+  "less than a day left": "کمتر از یک روز باقی‌مانده",
+  "waiting for Plex": "در انتظار Plex",
+  "update pending": "به‌روزرسانی در انتظار",
+  "Tap to switch between original and new": "برای جابه‌جایی بین نسخه اصلی و جدید ضربه بزنید",
+  "Repeated": "تکرارشده",
+  "Search in the current list": "جست‌وجو در فهرست فعلی",
+  "Clear the search, close a drawer or dialog": "پاک کردن جست‌وجو، بستن پنل یا پنجره",
+  "Previous or next film on a comparison": "فیلم قبلی یا بعدی در یک مقایسه",
+  "Open or switch the focused row, switch or header": "باز کردن یا تغییر ردیف، کلید یا سرستون انتخاب‌شده",
+  "This list": "این فهرست",
+  "Nothing in the log matches this.": "هیچ‌چیز در گزارش با این مطابقت ندارد.",
+  "Nothing has happened yet.": "هنوز اتفاقی نیفتاده است.",
+  "No worker is online, so nothing can run.": "هیچ ورکری آنلاین نیست، بنابراین چیزی اجرا نمی‌شود.",
+  "There is no worker yet. Add one to get started.": "هنوز ورکری نیست. برای شروع یکی اضافه کنید.",
+  "Open Workers": "باز کردن ورکرها",
+  "Some values are out of range.": "برخی مقادیر خارج از محدوده هستند.",
+  "no capabilities reported": "قابلیتی گزارش نشده",
+  "Replaced · expires": "جایگزین‌شده · انقضا",
+  "Made": "ساخته شد",
+  "Make": "ساخت",
+  "lots of motion": "حرکت زیاد",
+  "dark scene": "صحنه تاریک",
+  "a quarter in": "در یک‌چهارم",
+  "three quarters in": "در سه‌چهارم",
+  "Encoded": "کدگذاری شد",
+  "Finished": "پایان یافت",
+  "later": "بعد",
+  "Leave": "خروج",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "یک مقایسه ۴ فریم از نسخهٔ اصلی و نسخهٔ جدید می‌گیرد (در مجموع حدود ۱–۲ مگابایت). تا زمانی که نسخهٔ اصلی هنوز در قرنطینه است می‌توان آن را ساخت و تا وقتی حذفش نکنید باقی می‌ماند، حتی پس از حذف نسخهٔ اصلی.",
+  "Retry on CPU": "تلاش دوباره روی CPU",
+  "Scan": "اسکن"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1شروع$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "اکنون: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan $1 ویدیو پیدا کرد ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · ضعیف‌ترین 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "ضعیف‌ترین 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "جدید ($1 روز)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "برنامه: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "جایگزینی ناموفق بود ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} ناموفق{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "اسکن تمام شد: $1 ویدیو، $2 جدید، $3 تغییرکرده، $4 حذف‌شده؛ $5 کار کدگذاری و $6 کار زیرنویس اضافه شد"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "اسکن تمام شد: $1 ویدیو، $2 جدید، $3 تغییرکرده، $4 حذف‌شده، $5 در پوشه‌های نادیده؛ $6 کار کدگذاری و $7 کار زیرنویس اضافه شد"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "$1 فیلم با قوانین فعلی دوباره کدگذاری شود؟ نسخه‌های اصلی بازگردانده می‌شوند و فیلم‌ها در صف اولویت می‌گیرند."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 فیلم دوباره در صف{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 نسخه اصلی بازگردانده و دوباره به صف اضافه شد (قوانین فعلی)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "جدید: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "جایگزین شد: $1 ($2 -> $3 GB، VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray تبدیل شد: $1 ($2 GB)؛ پوشه دیسک در قرنطینه است"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "نسخه اصلی بازگردانده شد: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 {t:$2} را شروع کرد: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 کار (از مجموع $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "انتخاب واگذار شد - کدگذاری خودکار متوقف شد"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "انتخاب واگذار شد - زیرنویس خودکار متوقف شد"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "تنظیمات تغییر کرد: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "خطای کار $1: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "کار $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "ورکر $1 آفلاین: $2 کار به صف بازگشت"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 دوباره راه‌اندازی شد: $2 کار قطع‌شده به صف بازگشت"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 به $2 به‌روز شد: $3 کار ناموفق به صف بازگشت"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "ورکر $1 حذف شد"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "ورکر $1: کدگذاری {t:$2}، زیرنویس {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "برنامه‌ریزی به‌روز شد: $1 کار کدگذاری و $2 کار زیرنویس اضافه شد"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 کار دستی به صف اضافه شد"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 کار: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 مقایسه حذف شد"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "از $1 نشست دیگر خارج شد"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "ورود با کد بازیابی ($1 باقی‌مانده)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "نسخه‌های اصلی حداکثر $1 روز نگه داشته می‌شوند و مجموعاً هرگز بیش از $2. قدیمی‌ترین‌ها اول حذف می‌شوند. بازگرداندن، نسخه جدید را حذف می‌کند."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - برای حذف کلیک کنید"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 پوشه تبدیل می‌شود · ورکر ظرف نیم دقیقه شروع می‌کند"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 صدا · $2 زیرنویس"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "$1 مقایسه حذف شود؟ خود فیلم‌ها همان‌طور که هستند می‌مانند."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "فریم $1 · در $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "فریم $1 · در $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB به‌صورت jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "زمان کدگذاری $1 دقیقه · روی 8 قطعه سنجیده شد، سپس روی کل فیلم بررسی شد."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "اکنون موجود: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "ضعیف‌ترین 5% $1 · هدف $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "زمان‌بندی $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "ساخت فریم‌ها ناموفق بود: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "انتخاب · بعدی"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "انتخاب · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "اکنون:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· سپس $1 مورد دیگر از انتخاب"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "تخمین · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 مورد قبلاً تمام شده · نمایش"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 به انتخاب اضافه شد · ورکر ظرف چند ثانیه شروع می‌کند"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "انتخاب {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "ساخته‌شده: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% کوچک‌تر$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "همین حالا"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 دقیقه پیش"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 ساعت پیش"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 روز پیش"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "دیده‌شده {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 روز $2 ساعت"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 ساعت $2 دقیقه"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 ویدیو"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "قرنطینه $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 در 24 ساعت"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 صرفه‌جویی"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB صرفه‌جویی"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% کوچک‌تر در فایل‌های پردازش‌شده"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "ورکر $1 آنلاین"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "$1 مورد دیگر برای شروع، سپس توقف"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 مورد · صفحه $2 از $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 انتخاب‌شده"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "انتخاب همه $1 نتیجه"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "در حال اسکن: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× تلاش"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 دقیقه"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "فعال · $1 کد بازیابی باقی‌مانده"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 نشست فعال، از جمله همین."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 به‌روز شد{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 نشست دیگر خارج شد"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "فقط این $1 مورد پردازش شوند؟ اولویت می‌گیرند، پردازش ادامه می‌یابد و پس از آن دوباره خودکار متوقف می‌شود."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "$1 کار رد شود؟"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "$1 نسخه اصلی بازگردانده شود؟ نسخه‌های جدید حذف می‌شوند."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "ورکر $1 از فهرست حذف شود؟ اگر دوباره آنلاین شود، خودکار دوباره ظاهر می‌شود."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "مدت اجرا $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 باقی‌مانده"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "تا $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "در حال کار روی"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex متصل شد (نسخه $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex درست پاسخ نمی‌دهد: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "خطا: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "جایگزینی ناموفق بود: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "مقدار نامعتبر برای $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 باید بین $2 و $3 باشد"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · بدترین ۵٪ $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 ساعت"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU نتوانست کیفیت را حفظ کند - در صف برای کدگذار CPU (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "پاک‌سازی staging: فایل باقی‌مانده حذف شد $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 در هر صفحه"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 ورکر آنلاین"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · افزودن ورکر، کلید ورکر و دانلودها در صفحه ورکرها هستند."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · شروع در ~{t:$2} · تخمین"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · تخمین"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 روز باقی‌مانده"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "در $1 روز منقضی می‌شود"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "ساخته شد · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "قابل ساخت · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · مرحله $1 از $2 · ~{t:$3} باقی‌مانده"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · مرحله $1 از $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · ~{t:$1} باقی‌مانده"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 مقایسه درخواست شد · در چند دقیقه آماده می‌شود"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "$1 مقایسه ساخته شود؟ حدود 1–2 MB برای هر یک."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "$1 بار تکرار شد"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "بین $1 و $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 کار"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "خطا در $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 مقایسه درخواست شد"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "مقایسه‌ها پاک‌سازی شد: $1 حذف شد (بیش از $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "پوشه قرنطینه به quarantine تغییر نام داد ($1 رکورد به‌روز شد)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "ورکر $1 حذف شد: $2 کار به صف بازگشت"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "قرنطینه: $1 از قبل وجود دارد، $2 در جای خود باقی ماند"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "پوشه قرنطینه به quarantine تغییر نام داد؛ $1 رکورد به‌روز شد، اما $2 هنوز خالی نیست"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "تغییر نام پوشه قرنطینه ناموفق بود (اشتراک مدیا سوار شده است؟): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "نسخه جدید در staging وجود ندارد"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "فایل .mkv جدید در staging وجود ندارد"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "فایل اصلی ناپدید شده است"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "فایل اصلی در این میان تغییر کرده است"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "فایل اصلی دیگر در دسترس نیست"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "بررسی روی NAS رد شد (مدت/ترک‌ها)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray به mkv تبدیل شد"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "تلاش دوباره پس از به‌روزرسانی ورکر"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "توسط شما رد شد"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "فایل مقصد از قبل وجود دارد"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "ورکر آفلاین - دوباره زمان‌بندی شد"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "ورکر حذف شد - دوباره زمان‌بندی شد"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "ورکر دوباره راه‌اندازی شد - دوباره زمان‌بندی شد"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "جایگزینی ناموفق بود: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision در mkv جدید وجود ندارد"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: دوباره کدگذاری نشد (لایه DV از بین می‌رفت)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "یک استریم را نمی‌توان در .mkv کپی کرد: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg برای $1 دقیقه پیشرفتی نداشت (اشتراک در دسترس نیست؟) - متوقف شد"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 از $2 فایل هم‌زمان گم شده‌اند - اشتراک در دسترس نیست؟ هیچ‌چیز به‌عنوان ناپدیدشده علامت نخورد"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "ترجمه ناموفق بود: پس از تلاش‌های مجدد پاسخ قابل‌استفاده‌ای برای $1 خط نبود"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: خطای سرور"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - مدل را دریافت کنید (ollama pull <model>) یا ollama_model را در worker.ini درست کنید"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama در $1 در دسترس نیست ($2) - Ollama را راه‌اندازی کنید یا ollama_url را بررسی کنید"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama در دسترس نیست: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama برای $2 دقیقه پیوسته خطا داد"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 بیش از یک ساعت طول کشید - آیا اشتراک رسانه هنوز در دسترس است؟"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 وجود ندارد؛ آن را نصب کنید $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF کل فیلم $1 با هیچ روش جفت‌سازی قابل‌قبول نیست (نمونه‌ها $2)؛ پایین در $3. فایل اصلی نگه داشته شد؛ منبع را در آنجا بررسی کنید"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: فایل خوانده نمی‌شود"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: ناموفق"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "فضای آزاد کافی روی رایانه برای این فیلم نیست ($1 GB لازم است در $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "فضای کافی در پوشه کاری نیست: $1 GB آزاد، حدود $2 GB لازم است"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "با حداقل بیت‌ریت حداکثر $1% کوچک‌تر"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "استخراج فراداده از لایه بهبود"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "دانلود مطابقت ندارد (sha256) - استفاده نشد"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "بررسی: مدت یا تعداد استریم‌ها متفاوت است"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "mkv جدید خیلی کوتاه است ($1 از $2 دقیقه)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 از $2 انجام شد، در انتظار ورکر"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "تبدیل Dolby Vision به پروفایل 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "تزریق فراداده به لایه پایه"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "بررسی VMAF (سنجش دوم)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "هیچ تنظیمی به هدف کیفیت نمی‌رسد"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "به محدودیت دانلود رسیدید - بقیه بعداً"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "سقف روزانه OpenSubtitles پر شد"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "بخشی؛ بقیه پس از سقف دانلود"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 پس از دانلود پیدا نشد"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: زبان گفتار شناسایی شد"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (ترجمه از $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "در انتظار فضای آزاد روی رایانه"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "فایل زیرنویس به‌طور غیرمنتظره‌ای بزرگ است"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "اندازه‌گیری خودآزمایی قابل اعتماد نیست"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "تلاش $1 برای ترجمه ناموفق بود"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "در انتظار: در حال تماشا در Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "انتظار فقط $1% کوچک‌تر"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "در حال دانلود $1 (یک‌بار)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "بررسی کل فیلم زیر هدف"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "گرفتن فریم در $1s ممکن نیست"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "کل فیلم کمی زیر هدف"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "یافتن فیلم روی دیسک"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "هدف کیفیت دست‌یافتنی نیست"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "اندازه‌گیری بررسی قابل اعتماد نیست"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "مسیر نامعتبر از سرور"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "دوباره: حداقل صرفه‌جویی اکنون 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper روی GPU اجرا می‌شود"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "هیچ عنوانی روی DVD پیدا نشد"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "مسیر مشکوک در آرشیو"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "در انتظار: Plex در دسترس نیست"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "در حال کار روی $1 از $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles در دسترس نیست"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (رونویسی)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "بررسی VMAF کل فیلم"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "تمام، در انتظار جایگزینی"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "پوشه قدیمی به قرنطینه"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "بررسی VMAF $1 بسیار پایین"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "خواندن دیسک (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "ترجمه‌شده از انگلیسی"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "انجام شد ($1 از $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "استخراج صدا ناموفق بود"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "بازگشت به CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles وارد شد"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (از پروفایل 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "در انتظار ورکر"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "مسیر مشکوک در zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "EN جاسازی‌شده خوانا نیست"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "طولانی‌ترین تا اکنون: عنوان"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "زمان‌بندی مطابقت ندارد"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "فقط $1% کوچک‌تر"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "قطعه $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "اصل فایل نگه داشته می‌شود"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "دانلودهای باقی‌مانده امروز"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "عنوان $1 بررسی شد"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "در انتظار جایگزینی"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "کپی به NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "نسخه اصلی حفظ می‌شود"
+  ],
+  [
+   "translation failed",
+   "g",
+   "ترجمه ناموفق بود"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "سرور در دسترس نیست"
+  ],
+  [
+   "searching quality",
+   "g",
+   "جستجوی کیفیت"
+  ],
+  [
+   "making references",
+   "g",
+   "ساخت مرجع‌ها"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "تبدیل به mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "زیرنویس‌ها متوقف شد"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "کپی NAS → رایانه"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "کپی رایانه → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "یافتن فیلم"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "ادغام در mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "طولانی‌ترین فهرست پخش"
+  ],
+  [
+   "timing reference",
+   "g",
+   "مرجع زمان‌بندی"
+  ],
+  [
+   "speech segments",
+   "g",
+   "بخش‌های گفتار"
+  ],
+  [
+   "too little gain",
+   "g",
+   "صرفه‌جویی بسیار کم"
+  ],
+  [
+   " not applicable",
+   "g",
+   " قابل اعمال نیست"
+  ],
+  [
+   "download failed",
+   "g",
+   "دانلود ناموفق بود"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "پس از ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "ترجمه به"
+  ],
+  [
+   "next candidate",
+   "g",
+   "نامزد بعدی"
+  ],
+  [
+   "after shifting",
+   "g",
+   "پس از جابه‌جایی"
+  ],
+  [
+   "reading audio",
+   "g",
+   "خواندن صدا"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "انتخاب · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 در انتظار"
+  ],
+  [
+   "search failed",
+   "g",
+   "جستجو ناموفق بود"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "کدگذاری دوباره"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "عنوان $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " خطا"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 انجام شد"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "زیرنویس‌ها:"
+  ],
+  [
+   "replacing",
+   "g",
+   "جایگزینی"
+  ],
+  [
+   "subtitles",
+   "g",
+   "زیرنویس‌ها"
+  ],
+  [
+   "candidate",
+   "g",
+   "نامزد"
+  ],
+  [
+   "encoding:",
+   "g",
+   "کدگذاری:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "شروع"
+  ],
+  [
+   "encoding",
+   "g",
+   "کدگذاری"
+  ],
+  [
+   "checking",
+   "g",
+   "بررسی"
+  ],
+  [
+   ", up to ",
+   "g",
+   "، تا "
+  ],
+  [
+   "present",
+   "g",
+   "موجود"
+  ],
+  [
+   "missing",
+   "g",
+   "گمشده"
+  ],
+  [
+   "speed",
+   "g",
+   "سرعت"
+  ],
+  [
+   "saved",
+   "g",
+   "ذخیره شد"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU نتوانست کیفیت را حفظ کند - در صف برای کدگذار CPU (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "پاک‌سازی staging: فایل باقی‌مانده حذف شد"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "پوشه مدیا خالی است یا سوار نشده - چیزی تغییر نکرد"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "حفظ کیفیت به بیت‌ریتی بیش از آنچه منبع دارد نیاز دارد"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "به بیت‌ریتی بیش از منبع نیاز دارد"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "ورکر برای به‌روزرسانی دوباره راه‌اندازی می‌شود"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "جریان ویدئو وجود ندارد (فقط تصویر جلد؟)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "جریان صدایی برای رونویسی وجود ندارد"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "فضای آزاد کافی روی رایانه برای این فیلم نیست"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "تلاش دوباره روی CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "در حال پیمایش پوشه‌ها"
+  ],
+  [
+   "analysing files",
+   "g",
+   "در حال تحلیل فایل‌ها"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "در حال برنامه‌ریزی کارها"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "کدگذاری با CPU روشن"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "کدگذاری با CPU خاموش"
+  ]
+ ]
+}

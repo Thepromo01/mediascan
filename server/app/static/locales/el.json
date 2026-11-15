@@ -1,0 +1,2060 @@
+{
+ "name": "Ελληνικά",
+ "s": {
+  "Re-encode from original": "Επανακωδικοποίηση από το πρωτότυπο",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Επανακωδικοποίηση με τους τρέχοντες κανόνες; Το πρωτότυπο επαναφέρεται και η ταινία αποκτά προτεραιότητα.",
+  "Back in the queue": "Ξανά στην ουρά",
+  "Restore originals": "Επαναφορά πρωτοτύπων",
+  "Minimum bitrate (1080p)": "Ελάχιστο bitrate (1080p)",
+  "Extra floor (share of the source)": "Επιπλέον κατώτατο όριο (ποσοστό της πηγής)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Προαιρετικό: διατηρεί επίσης τουλάχιστον αυτό το ποσοστό του αρχικού bitrate βίντεο. Χρήσιμο μόνο για πηγές με πολύ υψηλό bitrate. 0 = ανενεργό.",
+  "with the minimum bitrate at most": "με το ελάχιστο bitrate το πολύ",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Το νέο αρχείο δεν πέφτει ποτέ χαμηλότερα, ακόμη κι αν το VMAF το επιτρέπει. Άλλες αναλύσεις αναλογικά: 4K ×2,5 · 720p ×0,55 · SD ×0,3 · HDR +15% · κινούμενα σχέδια ×0,6.",
+  "bitrate already near the minimum": "bitrate ήδη κοντά στο ελάχιστο",
+  "MFA reset from settings - set it up again": "Επαναφορά MFA από τις ρυθμίσεις - ρυθμίστε το ξανά",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "Επαναφορά MFA μέσω MFA_RESET - αφαιρέστε ξανά το MFA_RESET από τις ρυθμίσεις του container",
+  "MFA enabled": "Το MFA ενεργοποιήθηκε",
+  "MediaScan started": "Το MediaScan ξεκίνησε",
+  "New recovery codes created": "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης",
+  "Password changed; other sessions signed out": "Ο κωδικός πρόσβασης άλλαξε, οι άλλες συνεδρίες αποσυνδέθηκαν",
+  "Password set (first time)": "Ο κωδικός πρόσβασης ορίστηκε (πρώτη φορά)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Προσοχή: το ADMIN_PASSWORD έχει λιγότερους από 10 χαρακτήρες - επιλέξτε ισχυρότερο κωδικό στις Ρυθμίσεις",
+  "part of a DVD/Blu-ray folder": "μέρος φακέλου DVD/Blu-ray",
+  "folder is in Skip folders": "ο φάκελος βρίσκεται στους Φακέλους προς παράλειψη",
+  "file disappeared": "το αρχείο εξαφανίστηκε",
+  "worker restarted - rescheduled": "ο worker επανεκκινήθηκε - επαναπρογραμματίστηκε",
+  "worker offline - rescheduled": "ο worker είναι εκτός σύνδεσης - επαναπρογραμματίστηκε",
+  "retry after worker update": "επανάληψη μετά από ενημέρωση worker",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray μετατράπηκε σε mkv",
+  "skipped by you": "παραλείφθηκε από εσάς",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Η αντικατάσταση περιμένει όσο μια ταινία προβάλλεται, και το Plex ανανεώνεται μετά από κάθε αλλαγή.",
+  "Confirm with your password and a code from your app.": "Επιβεβαιώστε με τον κωδικό πρόσβασής σας και έναν κωδικό από την εφαρμογή σας.",
+  "Your old recovery codes will stop working.": "Οι παλιοί κωδικοί ανάκτησης θα πάψουν να ισχύουν.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Η τρέχουσα σύνδεση του authenticator και οι κωδικοί ανάκτησης θα πάψουν να ισχύουν. Στη συνέχεια ρυθμίζετε αμέσως ξανά το MFA.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Επιλέξτε κωδικό πρόσβασης για τον πίνακα ελέγχου. Ο κωδικός εγκατάστασης βρίσκεται στο αρχείο καταγραφής του container (Container Manager › mediascan › Αρχείο καταγραφής, ή",
+  "- click to remove": "- κάντε κλικ για αφαίρεση",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Μη έγκυρη διεύθυνση, π.χ. http://192.168.1.10:32400",
+  "Enter a Plex token": "Εισαγάγετε ένα Plex token",
+  "A password has already been set": "Έχει ήδη οριστεί κωδικός πρόσβασης",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Το κλειδί είναι σταθερό στο WORKER_TOKEN (περιβάλλον του container)",
+  "selection still running - pause or wait until it is done": "η επιλογή εκτελείται ακόμη - κάντε παύση ή περιμένετε να ολοκληρωθεί",
+  "Now running": "Εκτελείται τώρα",
+  "Finding the film on the disc": "Εύρεση της ταινίας στον δίσκο",
+  "Converting to one .mkv": "Μετατροπή σε ένα .mkv",
+  "Checking (duration, tracks)": "Έλεγχος (διάρκεια, κομμάτια)",
+  "Copying to the NAS": "Αντιγραφή στο NAS",
+  "Old folder to quarantine": "Παλιός φάκελος στην καραντίνα",
+  "worker has not reported for a while": "ο worker δεν έχει αναφέρει εδώ και λίγο",
+  "waiting for the worker": "αναμονή για τον worker",
+  "Welcome to MediaScan": "Καλώς ήρθατε στο MediaScan",
+  "Setup code": "Κωδικός εγκατάστασης",
+  "New password (at least 10 characters)": "Νέος κωδικός πρόσβασης (τουλάχιστον 10 χαρακτήρες)",
+  "Repeat password": "Επανάληψη κωδικού πρόσβασης",
+  "Set password": "Ορισμός κωδικού πρόσβασης",
+  "The passwords do not match": "Οι κωδικοί πρόσβασης δεν ταιριάζουν",
+  "Setup code is wrong - check the container log": "Λάθος κωδικός εγκατάστασης - ελέγξτε το αρχείο καταγραφής του container",
+  "Choose a password of at least 10 characters": "Επιλέξτε κωδικό πρόσβασης με τουλάχιστον 10 χαρακτήρες",
+  "Animation folders": "Φάκελοι κινούμενων σχεδίων",
+  "Top-level folders with animation: these may use a lower bitrate.": "Κύριοι φάκελοι με κινούμενα σχέδια: αυτοί μπορούν να έχουν χαμηλότερο bitrate.",
+  "Where do I find the token?": "Πού θα βρω το token;",
+  "Connect": "Σύνδεση",
+  "Disconnect": "Αποσύνδεση",
+  "Connected": "Συνδεδεμένο",
+  "Not connected": "Μη συνδεδεμένο",
+  "+ Add language": "+ Προσθήκη γλώσσας",
+  "Renew": "Ανανέωση",
+  "Worker version": "Έκδοση worker",
+  "Password": "Κωδικός πρόσβασης",
+  "Other sessions are signed out after a change.": "Μετά την αλλαγή, οι άλλες συνεδρίες αποσυνδέονται.",
+  "Change password": "Αλλαγή κωδικού πρόσβασης",
+  "Other sessions will be signed out.": "Οι άλλες συνεδρίες θα αποσυνδεθούν.",
+  "Change": "Αλλαγή",
+  "New worker key": "Νέο κλειδί worker",
+  "Create new key": "Δημιουργία νέου κλειδιού",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Όλοι οι workers σταματούν μέχρι να εισαγάγετε το νέο κλειδί (εκτελέστε ξανά το πρόγραμμα εγκατάστασης ή επεξεργαστείτε το worker.ini).",
+  "Repeat new password": "Επανάληψη νέου κωδικού πρόσβασης",
+  "Password changed": "Ο κωδικός πρόσβασης άλλαξε",
+  "New worker key created": "Δημιουργήθηκε νέο κλειδί worker",
+  "Disconnect Plex?": "Αποσύνδεση του Plex;",
+  "Plex disconnected": "Το Plex αποσυνδέθηκε",
+  "Plex connected": "Το Plex συνδέθηκε",
+  "Incorrect password": "Λάθος κωδικός πρόσβασης",
+  "Incorrect code": "Λάθος κωδικός",
+  "Incorrect code from your authenticator app": "Λάθος κωδικός από την εφαρμογή authenticator",
+  "Too many attempts - try again in 15 minutes": "Πάρα πολλές προσπάθειες - δοκιμάστε ξανά σε 15 λεπτά",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Φάκελοι με VIDEO_TS ή BDMV. Η μετατροπή τούς κάνει ένα .mkv με όλη την εικόνα, τον ήχο, τους υπότιτλους και τα κεφάλαια.",
+  "Convert to MKV": "Μετατροπή σε MKV",
+  "Folder": "Φάκελος",
+  "Type": "Τύπος",
+  "found": "βρέθηκε",
+  "queued": "στην ουρά",
+  "converting…": "μετατρέπεται…",
+  "converted": "μετατράπηκε",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Η μετατροπή αντιγράφει τα πάντα 1:1 σε ένα .mkv: εικόνα (και HDR), όλα τα κομμάτια ήχου, υπότιτλους και κεφάλαια. Σε DVD επιλέγει τον μεγαλύτερο τίτλο (την ταινία). Ο παλιός φάκελος πηγαίνει στην καραντίνα, οπότε μπορείτε να τον επαναφέρετε. Στη συνέχεια το .mkv περνά από την κανονική κωδικοποίηση και τους υπότιτλους. Τα Blu-ray με Dolby Vision γίνονται Dolby Vision profile 8.1 (βασικό επίπεδο 1:1, με μεταδεδομένα DV): το Plex και η τηλεόρασή σας το αναπαράγουν ως Dolby Vision, άλλες συσκευές αναπαραγωγής ως HDR10. Μια τέτοια ταινία δεν επανακωδικοποιείται στη συνέχεια, γιατί τότε θα χανόταν το Dolby Vision.",
+  "Compare": "Σύγκριση",
+  "Delete comparison": "Διαγραφή σύγκρισης",
+  "Comparison deleted": "Η σύγκριση διαγράφηκε",
+  "comparison": "σύγκριση",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Το πρωτότυπο δίπλα στη νέα έκδοση: μέγεθος, ποιότητα, εικόνα και υπότιτλοι. Εσείς επιλέγετε ποιες ταινίες.",
+  "Original → new": "Πρωτότυπο → νέο",
+  "Quality (VMAF)": "Ποιότητα (VMAF)",
+  "Comparison": "Σύγκριση",
+  "View": "Προβολή",
+  "Make comparison": "Δημιουργία σύγκρισης",
+  "previous attempt failed": "η προηγούμενη προσπάθεια απέτυχε",
+  "Back": "Πίσω",
+  "Make again": "Εκ νέου δημιουργία",
+  "New": "Νέο",
+  "VMAF whole film": "VMAF όλης της ταινίας",
+  "Making the frames… this usually takes less than a minute.": "Δημιουργία καρέ… συνήθως διαρκεί λιγότερο από ένα λεπτό.",
+  "There is no picture comparison for this film yet.": "Δεν υπάρχει ακόμη σύγκριση εικόνας για αυτή την ταινία.",
+  "Picture · drag across the image": "Εικόνα · σύρετε πάνω στην εικόνα",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "Το HDR μετατράπηκε σε SDR για αυτή την προβολή· στην τηλεόρασή σας εμφανίζεται σε HDR.",
+  "How the setting was chosen": "Πώς επιλέχθηκε η ρύθμιση",
+  "Step": "Βήμα",
+  "Weakest 5%": "Χειρότερο 5%",
+  "Bitrate": "Bitrate",
+  "chosen": "επιλέχθηκε",
+  "No data.": "Δεν υπάρχουν δεδομένα.",
+  "Nothing needed, all languages were present.": "Δεν χρειάστηκε τίποτα, όλες οι γλώσσες υπήρχαν ήδη.",
+  "Not processed yet.": "Δεν έχει επεξεργαστεί ακόμη.",
+  "Comparison requested · ready within a minute": "Ζητήθηκε σύγκριση · έτοιμη σε ένα λεπτό",
+  "Delete this comparison? The film itself stays as it is.": "Διαγραφή αυτής της σύγκρισης; Η ίδια η ταινία μένει ως έχει.",
+  "Not possible": "Δεν είναι δυνατό",
+  "Slide between original and new": "Σύρετε μεταξύ πρωτοτύπου και νέου",
+  "Overview": "Επισκόπηση",
+  "Queue": "Ουρά",
+  "In progress": "Σε εξέλιξη",
+  "No gain": "Χωρίς κέρδος",
+  "Failed": "Απέτυχαν",
+  "Subtitles": "Υπότιτλοι",
+  "Recently added": "Πρόσφατες προσθήκες",
+  "Library": "Βιβλιοθήκη",
+  "Quarantine": "Καραντίνα",
+  "Workers": "Workers",
+  "Activity": "Δραστηριότητα",
+  "Settings": "Ρυθμίσεις",
+  "Encoding": "Κωδικοποίηση",
+  "System": "Σύστημα",
+  "Status of the entire library.": "Κατάσταση ολόκληρης της βιβλιοθήκης.",
+  "Selection": "Επιλογή",
+  "waiting for worker": "αναμονή για worker",
+  "In the selection": "Στην επιλογή",
+  "selection": "επιλογή",
+  "Selection · encoding": "Επιλογή · κωδικοποίηση",
+  "Selection · subtitles": "Επιλογή · υπότιτλοι",
+  "Close list": "Κλείσιμο λίστας",
+  "waiting": "αναμονή",
+  "nothing needed": "δεν χρειάζεται τίποτα",
+  "original kept": "διατηρήθηκε το πρωτότυπο",
+  "Find, sync or generate missing subtitles.": "Εύρεση, συγχρονισμός ή δημιουργία υπότιτλων που λείπουν.",
+  "All videos with their current plan. You can also queue items manually here.": "Όλα τα βίντεο με το τρέχον πλάνο τους. Εδώ μπορείτε επίσης να βάλετε στοιχεία στην ουρά χειροκίνητα.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Τα μηχανήματα που κάνουν τη δουλειά. Επιλέξτε τι επιτρέπεται να κάνει κάθε worker.",
+  "Log of everything that happens.": "Αρχείο καταγραφής όλων όσων συμβαίνουν.",
+  "Scan now": "Σάρωση τώρα",
+  "Saved": "Εξοικονομήθηκαν",
+  "Free on NAS": "Ελεύθερα στο NAS",
+  "Progress": "Πρόοδος",
+  "Saved per day": "Εξοικονόμηση ανά ημέρα",
+  "last 14 days": "τελευταίες 14 ημέρες",
+  "Per folder": "Ανά φάκελο",
+  "all": "όλα",
+  "nothing processed yet": "δεν έχει επεξεργαστεί τίποτα ακόμη",
+  "no measurement yet": "καμία μέτρηση ακόμη",
+  "No processed files yet": "Δεν υπάρχουν ακόμη επεξεργασμένα αρχεία",
+  "No worker connected yet": "Δεν έχει συνδεθεί ακόμη worker",
+  "no worker": "κανένας worker",
+  "worker offline": "worker εκτός σύνδεσης",
+  "online": "σε σύνδεση",
+  "disabled": "απενεργοποιημένο",
+  "encoding": "κωδικοποίηση",
+  "subtitles": "υπότιτλοι",
+  "Search by name or folder…": "Αναζήτηση με όνομα ή φάκελο…",
+  "Several titles at once: separate them with |": "Πολλοί τίτλοι μαζί: διαχωρίστε τους με |",
+  "Nothing to show": "Τίποτα για εμφάνιση",
+  "File": "Αρχείο",
+  "Source": "Πηγή",
+  "Status": "Κατάσταση",
+  "Result": "Αποτέλεσμα",
+  "Languages": "Γλώσσες",
+  "Error": "Σφάλμα",
+  "When": "Πότε",
+  "Plan": "Πλάνο",
+  "Added": "Προστέθηκε",
+  "Original": "Πρωτότυπο",
+  "Size": "Μέγεθος",
+  "Replaced": "Αντικαταστάθηκε",
+  "estimate": "εκτίμηση",
+  "Name": "Όνομα",
+  "Done": "Έτοιμο",
+  "Nothing found": "Δεν βρέθηκε τίποτα",
+  "Process only these": "Επεξεργασία μόνο αυτών",
+  "Prioritise": "Προτεραιότητα",
+  "Skip": "Παράλειψη",
+  "Retry": "Επανάληψη",
+  "Clear": "Εκκαθάριση",
+  "Both": "Και τα δύο",
+  "Restore original": "Επαναφορά πρωτοτύπου",
+  "Find subtitles": "Εύρεση υπότιτλων",
+  "running": "εκτελείται",
+  "done": "έτοιμο",
+  "failed": "απέτυχε",
+  "replacing": "αντικατάσταση",
+  "no gain": "χωρίς κέρδος",
+  "skipped": "παραλείφθηκε",
+  "restored": "επαναφέρθηκε",
+  "cancelled": "ακυρώθηκε",
+  "nothing found": "δεν βρέθηκε τίποτα",
+  "encode": "κωδικοποίηση",
+  "already efficient": "ήδη αποδοτικό",
+  "small gain": "μικρό κέρδος",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "σφάλμα",
+  "unknown": "άγνωστο",
+  "All": "Όλα",
+  "Already efficient": "Ήδη αποδοτικά",
+  "Small gain": "Μικρό κέρδος",
+  "Restored": "Επαναφέρθηκαν",
+  "Video": "Βίντεο",
+  "Duration": "Διάρκεια",
+  "Audio": "Ήχος",
+  "Encode": "Κωδικοποίηση",
+  "Quality": "Ποιότητα",
+  "Encode time": "Χρόνος κωδικοποίησης",
+  "Message": "Μήνυμα",
+  "Started": "Ξεκίνησε",
+  "Search": "Αναζήτηση",
+  "weakest 5%": "χειρότερο 5%",
+  "video": "βίντεο",
+  "Worker": "Worker",
+  "Hardware": "Υλικό",
+  "Resolution": "Ανάλυση",
+  "Working on": "Εργάζεται σε",
+  "nothing": "τίποτα",
+  "up to 4K": "έως 4K",
+  "up to 1080p": "έως 1080p",
+  "up to 720p": "έως 720p",
+  "up to SD": "έως SD",
+  "Remove": "Αφαίρεση",
+  "Add worker": "Προσθήκη worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Κάθε worker αναφέρει μόνος του τι μπορεί να κάνει (βρέθηκε encoder, εγκατεστημένο Whisper). Εδώ αποφασίζετε τι επιτρέπεται να κάνει. Οι αλλαγές ισχύουν από την επόμενη εργασία· μια εργασία σε εξέλιξη ολοκληρώνεται πρώτα.",
+  "This machine lacks the hardware or software for this": "Αυτό το μηχάνημα δεν διαθέτει το υλικό ή το λογισμικό για αυτό",
+  "Quality level": "Επίπεδο ποιότητας",
+  "Standard": "Τυπικό",
+  "High": "Υψηλό",
+  "Maximum": "Μέγιστο",
+  "Custom": "Προσαρμοσμένο",
+  "Custom target": "Προσαρμοσμένος στόχος",
+  "Average VMAF and the weakest 5% of frames.": "Μέσο VMAF και το χειρότερο 5% των καρέ.",
+  "avg.": "μ.ό.",
+  "Minimum saving": "Ελάχιστη εξοικονόμηση",
+  "If a file saves less, the original is kept.": "Αν ένα αρχείο εξοικονομεί λιγότερο, διατηρείται το πρωτότυπο.",
+  "Processing": "Επεξεργασία",
+  "Storage & safety": "Αποθήκευση & ασφάλεια",
+  "How long replaced originals can be restored.": "Για πόσο μπορούν να επαναφερθούν τα πρωτότυπα που αντικαταστάθηκαν.",
+  "days": "ημέρες",
+  "Above this, the oldest originals are deleted permanently.": "Πάνω από αυτό, τα παλαιότερα πρωτότυπα διαγράφονται οριστικά.",
+  "Safety brake": "Φρένο ασφαλείας",
+  "Encoding pauses when the NAS has less free space than this.": "Η κωδικοποίηση σταματά προσωρινά όταν το NAS έχει λιγότερο ελεύθερο χώρο από αυτόν.",
+  "Scanning": "Σάρωση",
+  "Automatic scan": "Αυτόματη σάρωση",
+  "New files are queued automatically.": "Τα νέα αρχεία μπαίνουν αυτόματα στην ουρά.",
+  "Off": "Ανενεργό",
+  "Every hour": "Κάθε ώρα",
+  "Every 6 hours": "Κάθε 6 ώρες",
+  "Every 12 hours": "Κάθε 12 ώρες",
+  "Daily": "Καθημερινά",
+  "Skip folders": "Φάκελοι προς παράλειψη",
+  "Comma-separated folder names.": "Ονόματα φακέλων χωρισμένα με κόμμα.",
+  "Plex": "Plex",
+  "Dashboard address": "Διεύθυνση πίνακα ελέγχου",
+  "Use the IP address of the NAS, not localhost.": "Χρησιμοποιήστε τη διεύθυνση IP του NAS, όχι localhost.",
+  "Worker key": "Κλειδί worker",
+  "Keep secret: with this key a worker can fetch jobs.": "Κρατήστε το μυστικό: με αυτό το κλειδί ένας worker μπορεί να λαμβάνει εργασίες.",
+  "Show": "Εμφάνιση",
+  "Copy": "Αντιγραφή",
+  "Minimum requirements": "Ελάχιστες απαιτήσεις",
+  "Account & security": "Λογαριασμός & ασφάλεια",
+  "Two-factor authentication": "Έλεγχος ταυτότητας δύο παραγόντων",
+  "Not active": "Ανενεργό",
+  "New recovery codes": "Νέοι κωδικοί ανάκτησης",
+  "Reset MFA": "Επαναρύθμιση MFA",
+  "Sessions": "Συνεδρίες",
+  "Sign out everywhere else": "Αποσύνδεση από όλες τις άλλες συσκευές",
+  "Sign out": "Αποσύνδεση",
+  "You have unsaved changes.": "Έχετε μη αποθηκευμένες αλλαγές.",
+  "Cancel": "Ακύρωση",
+  "Save": "Αποθήκευση",
+  "Language": "Γλώσσα",
+  "Theme": "Θέμα",
+  "Light": "Φωτεινό",
+  "Dark": "Σκοτεινό",
+  "Auto": "Αυτόματο",
+  "Dashboard language.": "Γλώσσα του πίνακα ελέγχου.",
+  "Auto follows your system setting.": "Το Αυτόματο ακολουθεί τη ρύθμιση του συστήματός σας.",
+  "Reset": "Επαναρύθμιση",
+  "Create new codes": "Δημιουργία νέων κωδικών",
+  "Close": "Κλείσιμο",
+  "Code from your authenticator app": "Κωδικός από την εφαρμογή authenticator",
+  "Sign in": "Σύνδεση",
+  "Activate": "Ενεργοποίηση",
+  "Set up two-factor authentication": "Ρύθμιση ελέγχου ταυτότητας δύο παραγόντων",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Σαρώστε τον κωδικό QR με την εφαρμογή authenticator και εισαγάγετε τον 6ψήφιο κωδικό.",
+  "Manual:": "Χειροκίνητα:",
+  "6-digit code": "6ψήφιος κωδικός",
+  "123456 or recovery code": "123456 ή κωδικός ανάκτησης",
+  "Save your recovery codes": "Αποθηκεύστε τους κωδικούς ανάκτησης",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Χάσατε το τηλέφωνό σας; Με καθέναν από αυτούς τους κωδικούς συνδέεστε μία φορά. Εμφανίζονται μόνο μία φορά.",
+  "I have saved them": "Τους αποθήκευσα",
+  "Save them now, they are shown only once.": "Αποθηκεύστε τους τώρα, εμφανίζονται μόνο μία φορά.",
+  "Server not responding": "Ο διακομιστής δεν αποκρίνεται",
+  "Sign-in failed": "Η σύνδεση απέτυχε",
+  "Code is incorrect": "Λάθος κωδικός",
+  "Code is incorrect - check the time on your phone": "Λάθος κωδικός - ελέγξτε την ώρα στο τηλέφωνό σας",
+  "Scan started": "Η σάρωση ξεκίνησε",
+  "scan already running": "η σάρωση εκτελείται ήδη",
+  "Copied": "Αντιγράφηκε",
+  "Resumed": "Συνεχίστηκε",
+  "Paused: a running job will finish first": "Σε παύση: μια εργασία σε εξέλιξη θα ολοκληρωθεί πρώτα",
+  "Added to the queue": "Προστέθηκε στην ουρά",
+  "Not applicable": "Δεν ισχύει",
+  "At least one language": "Τουλάχιστον μία γλώσσα",
+  "Skip this job?": "Παράλειψη αυτής της εργασίας;",
+  "Restore the original? The new version will be deleted.": "Επαναφορά του πρωτοτύπου; Η νέα έκδοση θα διαγραφεί.",
+  "on": "ενεργό",
+  "off": "ανενεργό",
+  "Quarantine cleanup": "Εκκαθάριση καραντίνας",
+  "Background task": "Εργασία παρασκηνίου",
+  "Planning at startup": "Προγραμματισμός κατά την εκκίνηση",
+  "Welcome": "Καλώς ήρθατε",
+  "Next": "Επόμενο",
+  "Previous": "Προηγούμενο",
+  "Next (or skip)": "Επόμενο (ή παράλειψη)",
+  "Done, go to the overview": "Έτοιμο, στην επισκόπηση",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "Το MediaScan κάνει τις ταινίες και τις σειρές σας μικρότερες χωρίς ορατή διαφορά και συμπληρώνει τους υπότιτλους που λείπουν. Τα πρωτότυπα αντικαθίστανται μόνο μετά από έλεγχο ποιότητας και μένουν πρώτα για λίγο στην καραντίνα.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Έξι σύντομα βήματα και όλα είναι έτοιμα. Μπορείτε να αλλάξετε τα πάντα αργότερα στις Ρυθμίσεις.",
+  "Your library": "Η βιβλιοθήκη σας",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "Το MediaScan αναζητά τώρα βίντεο στον φάκελο πολυμέσων σας. Σε μεγάλη βιβλιοθήκη η πρώτη σάρωση διαρκεί λίγο· μπορείτε απλώς να συνεχίσετε.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Φάκελοι που το MediaScan δεν αγγίζει ποτέ, χωρισμένοι με κόμμα (π.χ. Music, Downloads).",
+  "Scan again": "Σάρωση ξανά",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Επιλέξτε τις γλώσσες που πρέπει να έχει κάθε αρχείο. Όσες λείπουν, το MediaScan τις αναζητά στο OpenSubtitles. Αν αυτό αποτύχει, ο worker δημιουργεί ο ίδιος τον υπότιτλο (αναγνώριση ομιλίας και μετάφραση στον δικό σας υπολογιστή).",
+  "Click a language to remove it.": "Κάντε κλικ σε μια γλώσσα για να την αφαιρέσετε.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Κάθε ταινία μετριέται με VMAF, ένα σκορ για το πώς φαίνεται η εικόνα στο ανθρώπινο μάτι. Το «Υψηλό» είναι σχεδόν για όλους αδιάκριτο από το πρωτότυπο.",
+  "Higher = better picture, less space saved.": "Υψηλότερο = καλύτερη εικόνα, λιγότερη εξοικονόμηση χώρου.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Ένα δίχτυ ασφαλείας για τον κόκκο και τις σκοτεινές σκηνές. Τα 5 Mbps είναι καλή προεπιλογή· το 4K και οι άλλες αναλύσεις προσαρμόζονται αναλογικά.",
+  "Plex (optional)": "Plex (προαιρετικό)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Με συνδεδεμένο το Plex, το MediaScan περιμένει να αντικαταστήσει μια ταινία όσο κάποιος την παρακολουθεί και ανανεώνει το Plex μετά από κάθε αλλαγή. Δεν έχετε Plex; Απλώς παραλείψτε αυτό το βήμα.",
+  "Plex address and token": "Διεύθυνση Plex και token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (αμετάβλητο)",
+  "Add a worker": "Προσθήκη worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Τη βαριά δουλειά την κάνει ένας PC ή Mac με καλή κάρτα γραφικών: ο worker. Εγκαταστήστε τον τώρα ή αργότερα από τους Workers. Όσο δεν υπάρχει worker, δεν συμβαίνει τίποτα στα αρχεία σας.",
+  "✓ A worker is connected.": "✓ Ένας worker είναι συνδεδεμένος.",
+  "Done! MediaScan is set up.": "Έτοιμο! Το MediaScan ρυθμίστηκε.",
+  "Connect the media share on the new machine.": "Συνδέστε τον κοινόχρηστο φάκελο πολυμέσων στο νέο μηχάνημα.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: γράμμα μονάδας ή \\\\NAS\\Media · Mac: Finder › Σύνδεση με διακομιστή · Linux: δείτε τις οδηγίες στο πακέτο.",
+  "Download the package for that system and unpack it.": "Κατεβάστε το πακέτο για αυτό το σύστημα και αποσυμπιέστε το.",
+  "Run the installer.": "Εκτελέστε το πρόγραμμα εγκατάστασης.",
+  "The installer asks for the details below and tests the connection.": "Το πρόγραμμα εγκατάστασης ζητά τα παρακάτω στοιχεία και ελέγχει τη σύνδεση.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 ή νεότερη, Intel Arc ή iGPU 11ης γενιάς+, AMD RX 6000+ · 4 πυρήνες · 8 GB · 100 GB ελεύθερα · ενσύρματο δίκτυο. Υπότιτλοι: NVIDIA με 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (υπότιτλοι: 24 GB+) · 150 GB ελεύθερα · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Οι workers ενημερώνονται μόνοι τους όταν αυτός ο πίνακας ελέγχου έχει νέα έκδοση.",
+  "What the workers are doing now and what is planned next.": "Τι κάνουν τώρα οι workers και τι ακολουθεί.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Μικρότερα αρχεία χωρίς ορατή απώλεια ποιότητας. Ο worker επεξεργάζεται την ουρά από πάνω προς τα κάτω.",
+  "select page": "επιλογή σελίδας",
+  "select": "επιλογή",
+  "to encode": "προς κωδικοποίηση",
+  "Movie": "Ταινία",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Πρωτότυπα που αντικαταστάθηκαν, διατηρούνται προσωρινά ώστε να μπορείτε να τα επαναφέρετε ή να τα επανακωδικοποιήσετε.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Πώς λειτουργεί το MediaScan: ποιότητα, υπότιτλοι, αποθήκευση και ασφάλεια.",
+  "General": "Γενικά",
+  "Advanced": "Για προχωρημένους",
+  "Connection": "Σύνδεση",
+  "Hand out new encode jobs to the workers.": "Διανομή νέων εργασιών κωδικοποίησης στους workers.",
+  "Hand out new subtitle jobs to the workers.": "Διανομή νέων εργασιών υπότιτλων στους workers.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Πόσο αυστηρή είναι η μέτρηση VMAF. Υψηλότερο = καλύτερη εικόνα, λιγότερη εξοικονόμηση χώρου.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Ποιους υπότιτλους πρέπει να έχει κάθε αρχείο. Όσοι λείπουν αναζητούνται, αλλιώς δημιουργούνται.",
+  "Go to Workers": "Μετάβαση στους Workers",
+  "new": "νέο",
+  "start": "έναρξη",
+  "Minimum bitrate (4K)": "Ελάχιστο bitrate (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Δικό του κατώτατο όριο για 4K, αντί για 2,5 × την τιμή 1080p. 0 = αυτόματο. HDR +15% και κινούμενα σχέδια ×0,6 ισχύουν κι εδώ.",
+  "Ready to use in a few steps.": "Έτοιμο για χρήση σε λίγα βήματα.",
+  "next": "επόμενο",
+  "read error": "σφάλμα ανάγνωσης",
+  "MFA is already enabled": "Το MFA είναι ήδη ενεργοποιημένο",
+  "a .mkv with that name already exists": "υπάρχει ήδη ένα .mkv με αυτό το όνομα",
+  "a file already exists at the original location": "υπάρχει ήδη αρχείο στην αρχική θέση",
+  "action not possible in this status": "η ενέργεια δεν είναι δυνατή σε αυτή την κατάσταση",
+  "walking folders": "περιήγηση στους φακέλους",
+  "planning jobs": "προγραμματισμός εργασιών",
+  "check on the NAS rejected (duration/tracks)": "ο έλεγχος στο NAS απορρίφθηκε (διάρκεια/κομμάτια)",
+  "expected a JSON object": "αναμενόταν αντικείμενο JSON",
+  "ffprobe error": "σφάλμα ffprobe",
+  "invalid resolution": "μη έγκυρη ανάλυση",
+  "invalid worker token": "μη έγκυρο token worker",
+  "job belongs to another worker": "η εργασία ανήκει σε άλλον worker",
+  "job is no longer active": "η εργασία δεν είναι πλέον ενεργή",
+  "no video track": "δεν υπάρχει κομμάτι βίντεο",
+  "not JSON": "δεν είναι JSON",
+  "not signed in": "δεν έχετε συνδεθεί",
+  "original disappeared": "το πρωτότυπο εξαφανίστηκε",
+  "original has changed in the meantime": "το πρωτότυπο άλλαξε στο μεταξύ",
+  "original is no longer in quarantine": "το πρωτότυπο δεν είναι πλέον σε καραντίνα",
+  "original no longer available": "το πρωτότυπο δεν είναι πλέον διαθέσιμο",
+  "request refused": "το αίτημα απορρίφθηκε",
+  "target file already exists": "το αρχείο προορισμού υπάρχει ήδη",
+  "the original has already been removed from quarantine - comparing is no longer possible": "το πρωτότυπο έχει ήδη αφαιρεθεί από την καραντίνα - η σύγκριση δεν είναι πλέον δυνατή",
+  "this film has not been replaced yet": "αυτή η ταινία δεν έχει αντικατασταθεί ακόμη",
+  "unknown action": "άγνωστη ενέργεια",
+  "worker is still online": "ο worker είναι ακόμη online",
+  "In use now:": "Σε χρήση τώρα:",
+  "longest": "μεγαλύτερο",
+  "8.1 (from profile 7)": "8.1 (από το προφίλ 7)",
+  "Whisper (transcription)": "Whisper (απομαγνητοφώνηση)",
+  "1 day ago": "πριν από 1 ημέρες",
+  "1 video": "1 βίντεο",
+  "Enter your password to open the dashboard.": "Εισαγάγετε τον κωδικό σας για να ανοίξετε τον πίνακα.",
+  "No connection to the server - retrying…": "Δεν υπάρχει σύνδεση με τον διακομιστή - νέα προσπάθεια…",
+  "Are you sure?": "Είστε σίγουροι;",
+  "Restore": "Επαναφορά",
+  "Re-encode": "Επανακωδικοποίηση",
+  "Delete": "Διαγραφή",
+  "Next up": "Επόμενα",
+  "in the queue": "στην ουρά",
+  "Load older entries": "Φόρτωση παλαιότερων εγγραφών",
+  "Folder: all": "Φάκελος: όλοι",
+  "Resolution: all": "Ανάλυση: όλες",
+  "Codec: all": "Codec: όλα",
+  "More": "Περισσότερα",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "ταινία(ες) περιμένουν τον κωδικοποιητή CPU, αλλά κανένας worker δεν έχει ενεργή την κωδικοποίηση CPU (σελίδα Workers).",
+  "Info": "Πληροφορίες",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Το υλικό σας, πόσο ταιριάζει στη δουλειά, τα εργαλεία που χρησιμοποιούνται και πώς λειτουργούν οι ρυθμίσεις.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Μνήμη",
+  "Software": "Λογισμικό",
+  "GPU encoding": "Κωδικοποίηση GPU",
+  "CPU encoding (x265)": "Κωδικοποίηση CPU (x265)",
+  "Subtitles (Whisper)": "Υπότιτλοι (Whisper)",
+  "Translation (Ollama)": "Μετάφραση (Ollama)",
+  "Server": "Διακομιστής",
+  "Database": "Βάση δεδομένων",
+  "Tools in use": "Εργαλεία σε χρήση",
+  "Knowledge base": "Βάση γνώσεων",
+  "Low": "Χαμηλό",
+  "Medium": "Μεσαίο",
+  "Ultra": "Ultra",
+  "files": "αρχεία",
+  "up": "σε λειτουργία",
+  "of": "από",
+  "uses": "χρησιμοποιεί",
+  "free": "ελεύθερα",
+  "Media share": "Κοινόχρηστος φάκελος",
+  "Rating": "Αξιολόγηση",
+  "Hardware details appear after this worker has updated itself.": "Οι λεπτομέρειες υλικού εμφανίζονται αφού αυτός ο worker ενημερωθεί.",
+  "no Whisper": "χωρίς Whisper",
+  "unified memory": "ενοποιημένη μνήμη",
+  "cores": "πυρήνες",
+  "threads": "νήματα",
+  "driver": "οδηγός",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Άγνωστο",
+  "Settings saved": "Οι ρυθμίσεις αποθηκεύτηκαν",
+  "Time left": "Χρόνος που απομένει",
+  "Queued": "Σε ουρά",
+  "Keep originals for": "Διατήρηση πρωτοτύπων για",
+  "Quarantine size limit": "Όριο μεγέθους καραντίνας",
+  "Hide finished items": "Απόκρυψη ολοκληρωμένων",
+  "Undo skip": "Αναίρεση παράλειψης",
+  "not supported here": "δεν υποστηρίζεται εδώ",
+  "CPU encoding": "Κωδικοποίηση CPU",
+  "Retry on CPU (x265)": "Επανάληψη σε CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Κωδικοποιήθηκε στη CPU με x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 με ρύθμιση για κόκκο στη CPU του worker: διατηρεί τον κόκκο πολύ πιο αποδοτικά, αλλά χρειάζεται ώρες ανά ταινία",
+  "CPU fallback for grainy films": "Εναλλακτική CPU για ταινίες με κόκκο",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Όταν η GPU δεν μπορεί να κρατήσει την ποιότητα χωρίς να ξεπεράσει το bitrate της πηγής (κόκκος φιλμ), η ταινία κωδικοποιείται ακόμη μία φορά στη CPU ενός worker με x265, που διατηρεί τον κόκκο πολύ πιο αποδοτικά. Χρειάζεται ώρες ανά ταινία· ενεργοποιήστε την κωδικοποίηση CPU για έναν worker στη σελίδα Workers.",
+  "CPU preset": "Προεπιλογή CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: περίπου 2 ώρες για ταινία 2 ωρών σε 1080p με 8 πυρήνες. Slow: 2-3 φορές περισσότερο για αρχεία περίπου 5-10% μικρότερα.",
+  "Medium (faster)": "Medium (ταχύτερο)",
+  "Slow (smaller)": "Slow (μικρότερο)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Δεν ήταν δυνατή η φόρτωση της σελίδας.",
+  "up to 1440p": "έως 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "ανάλυση αρχείων",
+  "No worker has CPU encodes switched on (Workers page)": "Κανένας worker δεν έχει ενεργή την κωδικοποίηση CPU (σελίδα Workers)",
+  "the job changed in the meantime": "η εργασία άλλαξε στο μεταξύ",
+  "Main": "Κύρια πλοήγηση",
+  "Clear search and filters": "Καθαρισμός αναζήτησης και φίλτρων",
+  "Compact rows": "Συμπαγείς γραμμές",
+  "Encoding and subtitles are paused.": "Η κωδικοποίηση και οι υπότιτλοι είναι σε παύση.",
+  "Encoding is paused: no new encode jobs are handed out.": "Η κωδικοποίηση είναι σε παύση: δεν διανέμονται νέες εργασίες κωδικοποίησης.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Οι υπότιτλοι είναι σε παύση: δεν διανέμονται νέες εργασίες υποτίτλων.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Εισαγάγετε και τη διεύθυνση Plex και το token, ή αφήστε και τα δύο κενά για παράλειψη.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Ο ελεύθερος χώρος στο NAS είναι κάτω από το φρένο ασφαλείας. Η κωδικοποίηση τέθηκε αυτόματα σε παύση.",
+  "Loading…": "Φόρτωση…",
+  "Next film": "Επόμενη ταινία",
+  "Previous film": "Προηγούμενη ταινία",
+  "Next page": "Επόμενη σελίδα",
+  "Previous page": "Προηγούμενη σελίδα",
+  "Rows per page": "Γραμμές ανά σελίδα",
+  "Resume": "Συνέχιση",
+  "Resume encoding": "Συνέχιση κωδικοποίησης",
+  "Resume subtitles": "Συνέχιση υποτίτλων",
+  "Open settings": "Άνοιγμα ρυθμίσεων",
+  "Open the library": "Άνοιγμα βιβλιοθήκης",
+  "Subtitle languages": "Γλώσσες υποτίτλων",
+  "Update": "Ενημέρωση",
+  "No results for this search or filter.": "Δεν υπάρχουν αποτελέσματα για αυτή την αναζήτηση ή το φίλτρο.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Τίποτα σε ουρά για κωδικοποίηση. Τα νέα αρχεία μπαίνουν στην ουρά μετά από σάρωση.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Δεν έχει αντικατασταθεί κανένα αρχείο ακόμη. Οι ολοκληρωμένες κωδικοποιήσεις εμφανίζονται εδώ μετά τον έλεγχο ποιότητας.",
+  "No files were kept as they are. Films that would save too little end up here.": "Κανένα αρχείο δεν έμεινε ως έχει. Εδώ καταλήγουν οι ταινίες που θα εξοικονομούσαν πολύ λίγο χώρο.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Δεν περιμένουν υπότιτλοι. Τα αρχεία στα οποία λείπει γλώσσα μπαίνουν στην ουρά μετά από σάρωση.",
+  "No subtitle job is running right now.": "Δεν εκτελείται εργασία υποτίτλων αυτή τη στιγμή.",
+  "No subtitles have been made yet.": "Δεν έχουν δημιουργηθεί υπότιτλοι ακόμη.",
+  "Nothing missing: every file got its subtitles so far.": "Τίποτα δεν λείπει: κάθε αρχείο έχει πάρει μέχρι τώρα τους υπότιτλούς του.",
+  "No failed encodes.": "Καμία αποτυχημένη κωδικοποίηση.",
+  "No failed subtitle jobs.": "Καμία αποτυχημένη εργασία υποτίτλων.",
+  "Nothing was added in the last 14 days.": "Δεν προστέθηκε τίποτα τις τελευταίες 14 ημέρες.",
+  "No videos with this plan.": "Κανένα βίντεο με αυτό το πλάνο.",
+  "The library is being scanned; videos appear as they are found.": "Η βιβλιοθήκη σαρώνεται· τα βίντεο εμφανίζονται καθώς βρίσκονται.",
+  "No videos found yet. Check the media folder and run a scan.": "Δεν βρέθηκαν βίντεο ακόμη. Ελέγξτε τον φάκελο πολυμέσων και εκτελέστε σάρωση.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Τίποτα σε καραντίνα. Τα αντικατεστημένα πρωτότυπα διατηρούνται εδώ μέχρι να λήξει ο χρόνος διατήρησης.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Δεν βρέθηκαν φάκελοι DVD ή Blu-ray (VIDEO_TS, BDMV) στη βιβλιοθήκη.",
+  "1 worker online": "1 worker σε σύνδεση",
+  "A worker is busy with this file": "Ένας worker επεξεργάζεται αυτό το αρχείο",
+  "A worker is grabbing the frames": "Ένας worker λαμβάνει τα καρέ",
+  "A worker is searching or making subtitles": "Ένας worker αναζητά ή δημιουργεί υπότιτλους",
+  "A worker picks up the next job within a few seconds.": "Ένας worker αναλαμβάνει την επόμενη εργασία σε λίγα δευτερόλεπτα.",
+  "Above this, the oldest comparisons are deleted automatically.": "Πάνω από αυτό, οι παλαιότερες συγκρίσεις διαγράφονται αυτόματα.",
+  "All replaced films": "Όλες οι αντικατεστημένες ταινίες",
+  "Already efficient: encoding would hardly save anything": "Ήδη αποδοτικό: η κωδικοποίηση δεν θα εξοικονομούσε σχεδόν τίποτα",
+  "Automatic comparisons": "Αυτόματες συγκρίσεις",
+  "Being made…": "Δημιουργείται…",
+  "Can be made": "Μπορεί να δημιουργηθεί",
+  "Can encode on the CPU with x265": "Μπορεί να κωδικοποιεί στη CPU με x265",
+  "Comparison storage limit": "Όριο αποθήκευσης συγκρίσεων",
+  "Comparisons": "Συγκρίσεις",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: δεν επανακωδικοποιήθηκε, το επίπεδο DV θα χανόταν",
+  "Encoding is paused.": "Η κωδικοποίηση είναι σε παύση.",
+  "Enlarge": "Μεγέθυνση",
+  "Errors": "Σφάλματα",
+  "Flip": "Εναλλαγή",
+  "Four frames of the original and the new version are stored": "Αποθηκεύονται τέσσερα καρέ από το πρωτότυπο και τη νέα έκδοση",
+  "Full width": "Πλήρες πλάτος",
+  "GPU encoder found": "Βρέθηκε κωδικοποιητής GPU",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Λήψη τεσσάρων καρέ από το πρωτότυπο και τη νέα έκδοση για κάθε αντικατεστημένη ταινία, ώστε να μπορείτε πάντα να ελέγχετε την εικόνα στη σελίδα Σύγκριση. Περίπου 1–2 MB ανά ταινία.",
+  "Keyboard shortcuts": "Συντομεύσεις πληκτρολογίου",
+  "Leave without saving? Your changes to the settings will be lost.": "Αποχώρηση χωρίς αποθήκευση; Οι αλλαγές σας στις ρυθμίσεις θα χαθούν.",
+  "Moved to the front": "Μετακινήθηκε μπροστά",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Δεν υπάρχουν συγκρίσεις ακόμη. Δημιουργήστε μία όσο το πρωτότυπο είναι ακόμη σε καραντίνα, ή ενεργοποιήστε τις αυτόματες συγκρίσεις στις Ρυθμίσεις.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Καμία ταινία δεν μπορεί να συγκριθεί τώρα: τα πρωτότυπα έφυγαν από την καραντίνα, ή δεν έχει αντικατασταθεί τίποτα ακόμη.",
+  "No longer possible": "Δεν είναι πλέον δυνατό",
+  "No subtitles found online and none could be made": "Δεν βρέθηκαν υπότιτλοι online και δεν ήταν δυνατή η δημιουργία τους",
+  "Ollama found: can translate subtitles": "Βρέθηκε Ollama: μπορεί να μεταφράζει υπότιτλους",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Μέρος φακέλου DVD ή Blu-ray· μετατρέψτε τον στη σελίδα DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Τέθηκε αυτόματα σε παύση: το NAS έχει λιγότερο ελεύθερο χώρο από το φρένο ασφαλείας.",
+  "Planned for encoding": "Προγραμματισμένο για κωδικοποίηση",
+  "Queued for the CPU encoder": "Σε ουρά για τον κωδικοποιητή CPU",
+  "Replaced after the quality check; the original is in quarantine for a while": "Αντικαταστάθηκε μετά τον έλεγχο ποιότητας· το πρωτότυπο μένει για λίγο σε καραντίνα",
+  "Replaced films appear here after their first encode.": "Οι αντικατεστημένες ταινίες εμφανίζονται εδώ μετά την πρώτη κωδικοποίησή τους.",
+  "Search the log…": "Αναζήτηση στο αρχείο καταγραφής…",
+  "Show films that can be compared": "Εμφάνιση ταινιών που μπορούν να συγκριθούν",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Εμφάνιση του πρωτοτύπου και της νέας έκδοσης εναλλάξ: ο καλύτερος τρόπος να εντοπίσετε κόκκο και λεπτομέρεια",
+  "Skipped": "Παραλείφθηκε",
+  "Skipped by you; Retry puts it back in the queue": "Παραλείφθηκε από εσάς· η «Επανάληψη» το επιστρέφει στην ουρά",
+  "Slider back to the middle": "Ρυθμιστικό πίσω στη μέση",
+  "Smaller": "Μικρότερο",
+  "Stopped because the file changed or disappeared": "Διακόπηκε επειδή το αρχείο άλλαξε ή εξαφανίστηκε",
+  "Stopped with an error; see the message and try again": "Διακόπηκε με σφάλμα· δείτε το μήνυμα και δοκιμάστε ξανά",
+  "Subtitles are paused.": "Οι υπότιτλοι είναι σε παύση.",
+  "The file could not be read; see the drawer": "Το αρχείο δεν ήταν δυνατό να διαβαστεί· δείτε το πλαϊνό πλαίσιο",
+  "The new file would save less than the minimum saving, so the original was kept": "Το νέο αρχείο θα εξοικονομούσε λιγότερο από την ελάχιστη εξοικονόμηση, οπότε διατηρήθηκε το πρωτότυπο",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Η νέα έκδοση είναι στο NAS και αντικαθιστά το πρωτότυπο μόλις δεν παρακολουθεί κανείς",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Το πρωτότυπο έφυγε από την καραντίνα, οπότε τα καρέ δεν μπορούν πλέον να ληφθούν",
+  "The original is still in quarantine, so the frames can still be grabbed": "Το πρωτότυπο είναι ακόμη σε καραντίνα, οπότε τα καρέ μπορούν ακόμη να ληφθούν",
+  "The original was put back from quarantine": "Το πρωτότυπο επανήλθε από την καραντίνα",
+  "The queue is empty. New files are queued after a scan.": "Η ουρά είναι άδεια. Τα νέα αρχεία μπαίνουν στην ουρά μετά από σάρωση.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Ο διακομιστής διανέμει νεότερα αρχεία worker· ο worker τα εγκαθιστά μετά την τρέχουσα εργασία",
+  "Undo": "Αναίρεση",
+  "Waiting for Plex: someone is watching this film": "Αναμονή για Plex: κάποιος παρακολουθεί αυτή την ταινία",
+  "Waiting for a worker; the queue runs from top to bottom": "Αναμονή για worker· η ουρά εκτελείται από πάνω προς τα κάτω",
+  "Warnings": "Προειδοποιήσεις",
+  "Whisper installed: can make subtitles": "Whisper εγκατεστημένο: μπορεί να δημιουργεί υπότιτλους",
+  "Would save less than the minimum saving": "Θα εξοικονομούσε λιγότερο από την ελάχιστη εξοικονόμηση",
+  "expires today": "λήγει σήμερα",
+  "expires within a day": "λήγει εντός μίας ημέρας",
+  "less than a day left": "απομένει λιγότερο από μία ημέρα",
+  "waiting for Plex": "αναμονή για Plex",
+  "update pending": "ενημέρωση σε αναμονή",
+  "Tap to switch between original and new": "Πατήστε για εναλλαγή μεταξύ πρωτοτύπου και νέου",
+  "Repeated": "Επαναλήφθηκε",
+  "Search in the current list": "Αναζήτηση στην τρέχουσα λίστα",
+  "Clear the search, close a drawer or dialog": "Καθαρισμός αναζήτησης, κλείσιμο πλαισίου ή διαλόγου",
+  "Previous or next film on a comparison": "Προηγούμενη ή επόμενη ταινία σε σύγκριση",
+  "Open or switch the focused row, switch or header": "Άνοιγμα ή εναλλαγή της επιλεγμένης γραμμής, διακόπτη ή κεφαλίδας",
+  "This list": "Αυτή η λίστα",
+  "Nothing in the log matches this.": "Τίποτα στο αρχείο καταγραφής δεν ταιριάζει.",
+  "Nothing has happened yet.": "Δεν έχει συμβεί τίποτα ακόμη.",
+  "No worker is online, so nothing can run.": "Κανένας worker δεν είναι συνδεδεμένος, οπότε τίποτα δεν μπορεί να εκτελεστεί.",
+  "There is no worker yet. Add one to get started.": "Δεν υπάρχει worker ακόμη. Προσθέστε έναν για να ξεκινήσετε.",
+  "Open Workers": "Άνοιγμα Workers",
+  "Some values are out of range.": "Ορισμένες τιμές είναι εκτός ορίων.",
+  "no capabilities reported": "δεν αναφέρθηκαν δυνατότητες",
+  "Replaced · expires": "Αντικαταστάθηκε · λήγει",
+  "Made": "Δημιουργήθηκε",
+  "Make": "Δημιουργία",
+  "lots of motion": "πολλή κίνηση",
+  "dark scene": "σκοτεινή σκηνή",
+  "a quarter in": "στο ένα τέταρτο",
+  "three quarters in": "στα τρία τέταρτα",
+  "Encoded": "Κωδικοποιήθηκε",
+  "Finished": "Ολοκληρώθηκε",
+  "later": "αργότερα",
+  "Leave": "Αποχώρηση",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Μια σύγκριση παίρνει 4 καρέ από το πρωτότυπο και τη νέα έκδοση (συνολικά περίπου 1–2 MB). Μπορεί να γίνει όσο το πρωτότυπο είναι ακόμη σε καραντίνα και παραμένει μέχρι να τη διαγράψετε, ακόμη κι όταν το πρωτότυπο έχει φύγει.",
+  "Retry on CPU": "Επανάληψη σε CPU",
+  "Scan": "Σάρωση"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1έναρξη$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Τώρα: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "Το MediaScan βρήκε $1 βίντεο ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · χειρότερο 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "χειρότερο 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Νέα ($1 ημέρες)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Πλάνο: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Η αντικατάσταση απέτυχε ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} απέτυχε{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Η σάρωση ολοκληρώθηκε: $1 βίντεο, $2 νέα, $3 αλλαγμένα, $4 αφαιρέθηκαν· προστέθηκαν $5 εργασίες κωδικοποίησης και $6 υπότιτλων"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Η σάρωση ολοκληρώθηκε: $1 βίντεο, $2 νέα, $3 αλλαγμένα, $4 αφαιρέθηκαν, $5 σε φακέλους προς παράλειψη· προστέθηκαν $6 εργασίες κωδικοποίησης και $7 υπότιτλων"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Επανακωδικοποίηση $1 ταινιών με τους τρέχοντες κανόνες; Τα πρωτότυπα επαναφέρονται και οι ταινίες αποκτούν προτεραιότητα στην ουρά."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 ταινίες ξανά στην ουρά{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 πρωτότυπα επαναφέρθηκαν και μπήκαν ξανά στην ουρά (τρέχοντες κανόνες)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Νέο: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Αντικαταστάθηκε: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "Μετατράπηκε DVD/Blu-ray: $1 ($2 GB)· ο φάκελος του δίσκου είναι στην καραντίνα"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Επαναφέρθηκε το πρωτότυπο: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "Ο $1 ξεκίνησε {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 εργασίες (από τις $3 συνολικά)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Η επιλογή διανεμήθηκε - η κωδικοποίηση τέθηκε αυτόματα σε παύση"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Η επιλογή διανεμήθηκε - οι υπότιτλοι τέθηκαν αυτόματα σε παύση"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Οι ρυθμίσεις άλλαξαν: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Σφάλμα εργασίας $1: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Εργασία $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 εκτός σύνδεσης: $2 εργασίες ξανά στην ουρά"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "Ο $1 επανεκκινήθηκε: $2 διακοπείσες εργασίες ξανά στην ουρά"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "Ο $1 ενημερώθηκε σε $2: $3 αποτυχημένες εργασίες ξανά στην ουρά"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Ο worker $1 αφαιρέθηκε"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: κωδικοποίηση {t:$2}, υπότιτλοι {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Ο προγραμματισμός ενημερώθηκε: προστέθηκαν $1 εργασίες κωδικοποίησης και $2 υπότιτλων"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 εργασίες μπήκαν χειροκίνητα στην ουρά"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 εργασίες: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 συγκρίσεις διαγράφηκαν"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Αποσύνδεση από $1 άλλες συνεδρίες"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Σύνδεση με κωδικό ανάκτησης (απομένουν $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Τα πρωτότυπα διατηρούνται για έως $1 ημέρες και συνολικά ποτέ πάνω από $2. Τα παλαιότερα φεύγουν πρώτα. Η επαναφορά διαγράφει τη νέα έκδοση."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - κάντε κλικ για αφαίρεση"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 φάκελοι θα μετατραπούν · ο worker ξεκινά μέσα σε μισό λεπτό"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 ήχος · $2 υπότιτλοι"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Διαγραφή $1 συγκρίσεων; Οι ίδιες οι ταινίες μένουν ως έχουν."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Καρέ $1 · στο $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Καρέ $1 · στο $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB ως jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Χρόνος κωδικοποίησης $1 λεπτά · μετρήθηκε σε 8 τμήματα και μετά ελέγχθηκε σε όλη την ταινία."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Υπάρχουν τώρα: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "χειρότερο 5% $1 · στόχος $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "συγχρονισμός $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Η δημιουργία καρέ απέτυχε: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "επιλογή · επόμενο"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "επιλογή · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Τώρα:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· μετά άλλα $1 από την επιλογή"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "εκτίμηση · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 ολοκληρώθηκαν νωρίτερα · εμφάνιση"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 προστέθηκαν στην επιλογή · ο worker ξεκινά σε λίγα δευτερόλεπτα"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Επιλογή {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "δημιουργήθηκε: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% μικρότερο$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "μόλις τώρα"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "πριν από $1 λεπ."
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "πριν από $1 ώρ."
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "πριν από $1 ημέρες"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "τελευταία φορά {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 ημ. $2 ώρ."
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 ώρ. $2 λ."
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 βίντεο"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "καραντίνα $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 ανά 24 ώρες"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 κέρδος"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB κέρδος"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% μικρότερα τα επεξεργασμένα αρχεία"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 σε σύνδεση"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "άλλα $1 για εκκίνηση, μετά παύση"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 στοιχεία · σελίδα $2 από $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 επιλεγμένα"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Επιλογή και των $1 αποτελεσμάτων"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Σάρωση: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× προσπάθειες"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 λεπ."
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Ενεργό · απομένουν $1 κωδικοί ανάκτησης"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 ενεργές συνεδρίες, μαζί με αυτήν."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 ενημερώθηκαν{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 άλλες συνεδρίες αποσυνδέθηκαν"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Επεξεργασία μόνο αυτών των $1; Αποκτούν προτεραιότητα, η επεξεργασία συνεχίζεται και μετά τίθεται ξανά αυτόματα σε παύση."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Παράλειψη $1 εργασιών;"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Επαναφορά $1 πρωτοτύπων; Οι νέες εκδόσεις θα διαγραφούν."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Αφαίρεση του worker $1 από τη λίστα; Αν επανέλθει σε σύνδεση, θα εμφανιστεί ξανά αυτόματα."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "εκτελείται εδώ και $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "απομένουν ~$1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "έως $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "εργάζεται σε"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Το Plex συνδέθηκε (έκδοση $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Το Plex δεν ανταποκρίνεται σωστά: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "σφάλμα: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "η αντικατάσταση απέτυχε: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "μη έγκυρη τιμή για $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "το $1 πρέπει να είναι μεταξύ $2 και $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · χειρότερο 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 ώ"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: η GPU δεν μπόρεσε να κρατήσει την ποιότητα - σε ουρά για τον κωδικοποιητή CPU (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Εκκαθάριση staging: αφαιρέθηκε υπόλειμμα $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 ανά σελίδα"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 workers σε σύνδεση"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · η προσθήκη worker, το κλειδί worker και οι λήψεις βρίσκονται στη σελίδα Workers."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · ξεκινά σε ~{t:$2} · εκτίμηση"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · εκτίμηση"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "απομένουν $1 ημέρες"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "λήγει σε $1 ημέρες"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Δημιουργήθηκε · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Μπορεί να δημιουργηθεί · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · βήμα $1 από $2 · απομένουν ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · βήμα $1 από $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · απομένουν ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "Ζητήθηκαν $1 συγκρίσεις · έτοιμες σε λίγα λεπτά"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Δημιουργία $1 συγκρίσεων; Περίπου 1–2 MB η καθεμία."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Επαναλήφθηκε $1 φορές"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "μεταξύ $1 και $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 εργασίες"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Σφάλμα στο $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "Ζητήθηκαν $1 συγκρίσεις"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Εκκαθάριση συγκρίσεων: $1 αφαιρέθηκαν (πάνω από $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Ο φάκελος καραντίνας μετονομάστηκε σε quarantine ($1 εγγραφές ενημερώθηκαν)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Ο worker $1 αφαιρέθηκε: $2 εργασίες ξανά στην ουρά"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Καραντίνα: το $1 υπάρχει ήδη, το $2 έμεινε στη θέση του"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Ο φάκελος καραντίνας μετονομάστηκε σε quarantine· $1 εγγραφές ενημερώθηκαν, αλλά το $2 δεν είναι ακόμη άδειο"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Η μετονομασία του φακέλου καραντίνας απέτυχε (είναι προσαρτημένος ο κοινόχρηστος φάκελος πολυμέσων;): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "η νέα έκδοση λείπει από το staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "το νέο .mkv λείπει από το staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "το πρωτότυπο εξαφανίστηκε"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "το πρωτότυπο άλλαξε στο μεταξύ"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "το πρωτότυπο δεν είναι πλέον διαθέσιμο"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "ο έλεγχος στο NAS απορρίφθηκε (διάρκεια/κομμάτια)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray μετατράπηκε σε mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "νέα προσπάθεια μετά την ενημέρωση του worker"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "παραλείφθηκε από εσάς"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "το αρχείο προορισμού υπάρχει ήδη"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker εκτός σύνδεσης - επαναπρογραμματίστηκε"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker αφαιρέθηκε - επαναπρογραμματίστηκε"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker επανεκκινήθηκε - επαναπρογραμματίστηκε"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "η αντικατάσταση απέτυχε: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "το Dolby Vision λείπει από το νέο mkv"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: δεν επανακωδικοποιήθηκε (το επίπεδο DV θα χανόταν)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "μια ροή δεν μπορεί να αντιγραφεί σε .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "το ffmpeg δεν προχώρησε για $1 λεπτά (κοινόχρηστος φάκελος μη προσβάσιμος;) - διακόπηκε"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "Λείπουν $1 από $2 αρχεία ταυτόχρονα - κοινόχρηστος φάκελος μη προσβάσιμος; Τίποτα δεν σημειώθηκε ως χαμένο"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "η μετάφραση απέτυχε: καμία χρήσιμη απάντηση για $1 γραμμή(ές) μετά τις επαναλήψεις"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: σφάλμα διακομιστή"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - κατεβάστε το μοντέλο (ollama pull <model>) ή διορθώστε το ollama_model στο worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "το Ollama δεν είναι προσβάσιμο στο $1 ($2) - ξεκινήστε το Ollama ή ελέγξτε το ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama μη προσβάσιμο: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - το Ollama συνέχισε να αποτυγχάνει για $2 λεπτά"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 διήρκεσε πάνω από μία ώρα - είναι ακόμη προσβάσιμος ο κοινόχρηστος φάκελος πολυμέσων;"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "το $1 λείπει· εγκαταστήστε το $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF ολόκληρης ταινίας $1 μη αξιόπιστο με κάθε μέθοδο αντιστοίχισης (δείγματα $2)· χαμηλό στα $3. Το πρωτότυπο διατηρήθηκε· ελέγξτε εκεί την πηγή"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: δεν είναι δυνατή η ανάγνωση του αρχείου"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: απέτυχε"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "δεν υπάρχει αρκετός ελεύθερος χώρος στο PC για αυτή την ταινία ($1 GB απαιτούνται σε $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "δεν υπάρχει αρκετός χώρος στον φάκελο εργασίας: $1 GB ελεύθερα, χρειάζονται ~$2 GB"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "με το ελάχιστο bitrate το πολύ $1% μικρότερο"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "εξαγωγή μεταδεδομένων από το επίπεδο βελτίωσης"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "η λήψη δεν ταιριάζει (sha256) - δεν χρησιμοποιήθηκε"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "έλεγχος: η διάρκεια ή ο αριθμός των streams διαφέρει"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "το νέο mkv είναι πολύ σύντομο ($1 από $2 λεπτά)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 από $2 έτοιμα, αναμονή για worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "μετατροπή Dolby Vision σε profile 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "ενσωμάτωση μεταδεδομένων στο βασικό επίπεδο"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "έλεγχος VMAF (δεύτερη μέτρηση)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "καμία ρύθμιση δεν πιάνει τον στόχο ποιότητας"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "επιτεύχθηκε το όριο λήψεων - τα υπόλοιπα αργότερα"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "συμπληρώθηκε το ημερήσιο όριο του OpenSubtitles"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "εν μέρει· τα υπόλοιπα μετά το όριο λήψεων"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "το $1 δεν βρέθηκε μετά τη λήψη"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: εντοπίστηκε η ομιλούμενη γλώσσα"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (μετάφραση από $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "αναμονή για ελεύθερο χώρο στο PC"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "το αρχείο υποτίτλων είναι ασυνήθιστα μεγάλο"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "η μέτρηση του αυτοελέγχου δεν είναι αξιόπιστη"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "η απόπειρα μετάφρασης $1 απέτυχε"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "αναμονή: προβάλλεται στο Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "αναμένεται μόνο $1% μικρότερο"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "λήψη του $1 (εφάπαξ)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "ο έλεγχος σε όλη την ταινία κάτω από τον στόχο"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "δεν είναι δυνατή η λήψη καρέ στα $1 δ"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "όλη η ταινία λίγο κάτω από τον στόχο"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "εύρεση της ταινίας στον δίσκο"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "ο στόχος ποιότητας δεν είναι εφικτός"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "η μέτρηση ελέγχου δεν είναι αξιόπιστη"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "μη έγκυρη διαδρομή από τον διακομιστή"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "επανάληψη: ελάχιστο κέρδος τώρα 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "το Whisper τρέχει στη GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "δεν βρέθηκαν τίτλοι στο DVD"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "ύποπτη διαδρομή στο αρχείο"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "αναμονή: το Plex δεν είναι προσβάσιμο"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "επεξεργασία $1 από $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "το OpenSubtitles δεν είναι προσβάσιμο"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (απομαγνητοφώνηση)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "έλεγχος VMAF σε όλη την ταινία"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "έτοιμο, αναμονή για αντικατάσταση"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "παλιός φάκελος στην καραντίνα"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "έλεγχος VMAF $1 πολύ χαμηλό"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "ανάγνωση δίσκου (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "μεταφρασμένο από τα αγγλικά"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "έτοιμα ($1 από $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "η εξαγωγή ήχου απέτυχε"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "επιστροφή στη CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "σύνδεση στο OpenSubtitles"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (από το προφίλ 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "αναμονή για τον worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "ύποπτη διαδρομή στο zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "το ενσωματωμένο EN δεν διαβάζεται"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "μεγαλύτερος μέχρι τώρα: τίτλος"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "ο συγχρονισμός δεν ταιριάζει"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "μόνο $1% μικρότερο"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "τμήμα $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "διατήρηση του πρωτοτύπου"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "λήψεις που απομένουν σήμερα"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "ο τίτλος $1 ελέγχθηκε"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "αναμονή για αντικατάσταση"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "αντιγραφή στο NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "διατηρείται το πρωτότυπο"
+  ],
+  [
+   "translation failed",
+   "g",
+   "η μετάφραση απέτυχε"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "ο διακομιστής δεν είναι προσβάσιμος"
+  ],
+  [
+   "searching quality",
+   "g",
+   "αναζήτηση ποιότητας"
+  ],
+  [
+   "making references",
+   "g",
+   "δημιουργία αναφορών"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "μετατροπή σε mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "οι υπότιτλοι σταμάτησαν"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "αντιγραφή NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "αντιγραφή PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "εύρεση της ταινίας"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "συγχώνευση σε mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "μεγαλύτερη playlist"
+  ],
+  [
+   "timing reference",
+   "g",
+   "αναφορά συγχρονισμού"
+  ],
+  [
+   "speech segments",
+   "g",
+   "τμήματα ομιλίας"
+  ],
+  [
+   "too little gain",
+   "g",
+   "πολύ μικρό κέρδος"
+  ],
+  [
+   " not applicable",
+   "g",
+   " δεν ισχύει"
+  ],
+  [
+   "download failed",
+   "g",
+   "η λήψη απέτυχε"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "μετά το ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "μετάφραση σε"
+  ],
+  [
+   "next candidate",
+   "g",
+   "επόμενος υποψήφιος"
+  ],
+  [
+   "after shifting",
+   "g",
+   "μετά τη μετατόπιση"
+  ],
+  [
+   "reading audio",
+   "g",
+   "ανάγνωση ήχου"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Επιλογή · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 σε αναμονή"
+  ],
+  [
+   "search failed",
+   "g",
+   "η αναζήτηση απέτυχε"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "επανακωδικοποίηση"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "τίτλος $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " σφάλμα(τα)"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 έτοιμα"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "υπότιτλοι:"
+  ],
+  [
+   "replacing",
+   "g",
+   "αντικατάσταση"
+  ],
+  [
+   "subtitles",
+   "g",
+   "υπότιτλοι"
+  ],
+  [
+   "candidate",
+   "g",
+   "υποψήφιος"
+  ],
+  [
+   "encoding:",
+   "g",
+   "κωδικοποίηση:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "έναρξη"
+  ],
+  [
+   "encoding",
+   "g",
+   "κωδικοποίηση"
+  ],
+  [
+   "checking",
+   "g",
+   "έλεγχος"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", έως "
+  ],
+  [
+   "present",
+   "g",
+   "υπάρχει"
+  ],
+  [
+   "missing",
+   "g",
+   "λείπει"
+  ],
+  [
+   "speed",
+   "g",
+   "ταχύτητα"
+  ],
+  [
+   "saved",
+   "g",
+   "αποθηκεύτηκε"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "η GPU δεν μπόρεσε να κρατήσει την ποιότητα - σε ουρά για τον κωδικοποιητή CPU (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Εκκαθάριση staging: αφαιρέθηκε υπόλειμμα"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "ο φάκελος πολυμέσων είναι κενός ή μη προσαρτημένος - δεν άλλαξε τίποτα"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "η διατήρηση της ποιότητας θα χρειαζόταν περισσότερο bitrate από όσο έχει η πηγή"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "χρειάζεται περισσότερο bitrate από την πηγή"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "ο worker επανεκκινείται για ενημέρωση"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "χωρίς ροή βίντεο (μόνο εξώφυλλο;)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "χωρίς ροή ήχου για μεταγραφή"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "δεν υπάρχει αρκετός ελεύθερος χώρος στο PC για αυτή την ταινία"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "νέα προσπάθεια στη CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "περιήγηση στους φακέλους"
+  ],
+  [
+   "analysing files",
+   "g",
+   "ανάλυση αρχείων"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "προγραμματισμός εργασιών"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "Κωδικοποίηση CPU ενεργό"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "Κωδικοποίηση CPU ανενεργό"
+  ]
+ ]
+}

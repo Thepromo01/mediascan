@@ -1,0 +1,2060 @@
+{
+ "name": "简体中文",
+ "s": {
+  "Re-encode from original": "从原始文件重新编码",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "按当前规则重新编码？将恢复原始文件，并优先处理该影片。",
+  "Back in the queue": "已重新加入队列",
+  "Restore originals": "恢复原始文件",
+  "Minimum bitrate (1080p)": "最低码率（1080p）",
+  "Extra floor (share of the source)": "额外下限（占源文件比例）",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "可选：同时至少保留原始视频码率的这一比例。仅对码率极高的源文件有用。0 = 关闭。",
+  "with the minimum bitrate at most": "即使使用最低码率也最多",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "新文件绝不会低于此值，即使 VMAF 允许。其他分辨率按比例：4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · 动画 ×0.6。",
+  "bitrate already near the minimum": "码率已接近最低值",
+  "MFA reset from settings - set it up again": "已在设置中重置 MFA - 请重新设置",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "已通过 MFA_RESET 重置 MFA - 请从容器设置中移除 MFA_RESET",
+  "MFA enabled": "MFA 已启用",
+  "MediaScan started": "MediaScan 已启动",
+  "New recovery codes created": "已生成新的恢复码",
+  "Password changed; other sessions signed out": "密码已更改；其他会话已退出",
+  "Password set (first time)": "已设置密码（首次）",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "注意：ADMIN_PASSWORD 少于 10 个字符 - 请在设置中选择更强的密码",
+  "part of a DVD/Blu-ray folder": "属于 DVD/Blu-ray 文件夹",
+  "folder is in Skip folders": "文件夹在跳过文件夹列表中",
+  "file disappeared": "文件已消失",
+  "worker restarted - rescheduled": "worker 已重启 - 已重新安排",
+  "worker offline - rescheduled": "worker 离线 - 已重新安排",
+  "retry after worker update": "worker 更新后重试",
+  "dvd/blu-ray converted to mkv": "DVD/Blu-ray 已转换为 mkv",
+  "skipped by you": "已被你跳过",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "有人观看影片时会等待替换，每次更改后 Plex 都会刷新。",
+  "Confirm with your password and a code from your app.": "请输入密码和应用中的验证码确认。",
+  "Your old recovery codes will stop working.": "旧的恢复码将失效。",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "当前的验证器绑定和恢复码将失效。你需要立即重新设置 MFA。",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "为仪表板设置密码。设置码在容器日志中（Container Manager › mediascan › 日志，或",
+  "- click to remove": "- 点击移除",
+  "Invalid address, e.g. http://192.168.1.10:32400": "地址无效，例如 http://192.168.1.10:32400",
+  "Enter a Plex token": "请输入 Plex token",
+  "A password has already been set": "密码已设置",
+  "The key is fixed in WORKER_TOKEN (container environment)": "密钥固定在 WORKER_TOKEN 中（容器环境变量）",
+  "selection still running - pause or wait until it is done": "选择仍在进行中 - 请暂停或等待完成",
+  "Now running": "正在运行",
+  "Finding the film on the disc": "在光盘上查找影片",
+  "Converting to one .mkv": "转换为单个 .mkv",
+  "Checking (duration, tracks)": "检查中（时长、轨道）",
+  "Copying to the NAS": "复制到 NAS",
+  "Old folder to quarantine": "旧文件夹移至隔离区",
+  "worker has not reported for a while": "worker 已有一段时间未报告",
+  "waiting for the worker": "等待 worker",
+  "Welcome to MediaScan": "欢迎使用 MediaScan",
+  "Setup code": "设置码",
+  "New password (at least 10 characters)": "新密码（至少 10 个字符）",
+  "Repeat password": "重复密码",
+  "Set password": "设置密码",
+  "The passwords do not match": "两次密码不一致",
+  "Setup code is wrong - check the container log": "设置码错误 - 请检查容器日志",
+  "Choose a password of at least 10 characters": "请选择至少 10 个字符的密码",
+  "Animation folders": "动画文件夹",
+  "Top-level folders with animation: these may use a lower bitrate.": "包含动画的顶级文件夹：可使用较低码率。",
+  "Where do I find the token?": "在哪里找到 token？",
+  "Connect": "连接",
+  "Disconnect": "断开连接",
+  "Connected": "已连接",
+  "Not connected": "未连接",
+  "+ Add language": "+ 添加语言",
+  "Renew": "更新",
+  "Worker version": "Worker 版本",
+  "Password": "密码",
+  "Other sessions are signed out after a change.": "更改后其他会话将退出。",
+  "Change password": "更改密码",
+  "Other sessions will be signed out.": "其他会话将退出。",
+  "Change": "更改",
+  "New worker key": "新 worker 密钥",
+  "Create new key": "生成新密钥",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "在你输入新密钥前，所有 worker 都会停止（重新运行安装程序或编辑 worker.ini）。",
+  "Repeat new password": "重复新密码",
+  "Password changed": "密码已更改",
+  "New worker key created": "已生成新 worker 密钥",
+  "Disconnect Plex?": "断开 Plex？",
+  "Plex disconnected": "Plex 已断开",
+  "Plex connected": "Plex 已连接",
+  "Incorrect password": "密码错误",
+  "Incorrect code": "验证码错误",
+  "Incorrect code from your authenticator app": "验证器应用中的验证码错误",
+  "Too many attempts - try again in 15 minutes": "尝试次数过多 - 请 15 分钟后重试",
+  "DVD & Blu-ray": "DVD 与 Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "包含 VIDEO_TS 或 BDMV 的文件夹。转换会将其合并为一个 .mkv，包含所有视频、音频、字幕和章节。",
+  "Convert to MKV": "转换为 MKV",
+  "Folder": "文件夹",
+  "Type": "类型",
+  "found": "已发现",
+  "queued": "已排队",
+  "converting…": "转换中…",
+  "converted": "已转换",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "转换会将所有内容 1:1 复制到一个 .mkv：视频（含 HDR）、所有音轨、字幕和章节。DVD 会选取最长的标题（即影片）。旧文件夹移至隔离区，可随时恢复。之后 .mkv 会经过常规编码和字幕处理。Dolby Vision Blu-ray 会转为 Dolby Vision profile 8.1（基础层 1:1，添加 DV 元数据）：Plex 和电视按 Dolby Vision 播放，其他播放器按 HDR10 播放。此类影片之后不会重新编码，否则会丢失 Dolby Vision。",
+  "Compare": "对比",
+  "Delete comparison": "删除对比",
+  "Comparison deleted": "对比已删除",
+  "comparison": "对比",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "原始文件与新版本并排：大小、质量、画面和字幕。由你选择影片。",
+  "Original → new": "原始 → 新",
+  "Quality (VMAF)": "质量（VMAF）",
+  "Comparison": "对比",
+  "View": "查看",
+  "Make comparison": "生成对比",
+  "previous attempt failed": "上次尝试失败",
+  "Back": "返回",
+  "Make again": "重新生成",
+  "New": "新",
+  "VMAF whole film": "VMAF 全片",
+  "Making the frames… this usually takes less than a minute.": "正在生成画面… 通常不到一分钟。",
+  "There is no picture comparison for this film yet.": "此影片还没有画面对比。",
+  "Picture · drag across the image": "画面 · 在图像上拖动",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "此视图中 HDR 已转换为 SDR；电视上会以 HDR 显示。",
+  "How the setting was chosen": "设置的选择过程",
+  "Step": "步骤",
+  "Weakest 5%": "最差 5%",
+  "Bitrate": "码率",
+  "chosen": "已选",
+  "No data.": "无数据。",
+  "Nothing needed, all languages were present.": "无需处理，所有语言都已存在。",
+  "Not processed yet.": "尚未处理。",
+  "Comparison requested · ready within a minute": "已请求对比 · 一分钟内就绪",
+  "Delete this comparison? The film itself stays as it is.": "删除此对比？影片本身保持不变。",
+  "Not possible": "无法执行",
+  "Slide between original and new": "在原始和新版本之间滑动",
+  "Overview": "概览",
+  "Queue": "队列",
+  "In progress": "进行中",
+  "No gain": "无收益",
+  "Failed": "失败",
+  "Subtitles": "字幕",
+  "Recently added": "最近添加",
+  "Library": "媒体库",
+  "Quarantine": "隔离区",
+  "Workers": "Worker",
+  "Activity": "活动",
+  "Settings": "设置",
+  "Encoding": "编码",
+  "System": "系统",
+  "Status of the entire library.": "整个媒体库的状态。",
+  "Selection": "选择",
+  "waiting for worker": "等待 worker",
+  "In the selection": "在选择中",
+  "selection": "选择",
+  "Selection · encoding": "选择 · 编码",
+  "Selection · subtitles": "选择 · 字幕",
+  "Close list": "关闭列表",
+  "waiting": "等待中",
+  "nothing needed": "无需处理",
+  "original kept": "保留原始文件",
+  "Find, sync or generate missing subtitles.": "查找、同步或生成缺失的字幕。",
+  "All videos with their current plan. You can also queue items manually here.": "所有视频及其当前计划。也可以在此手动加入队列。",
+  "The machines doing the work. Choose what each worker is allowed to do.": "执行任务的机器。选择每个 worker 可以做什么。",
+  "Log of everything that happens.": "所有事件的日志。",
+  "Scan now": "立即扫描",
+  "Saved": "已节省",
+  "Free on NAS": "NAS 可用空间",
+  "Progress": "进度",
+  "Saved per day": "每日节省",
+  "last 14 days": "最近 14 天",
+  "Per folder": "按文件夹",
+  "all": "全部",
+  "nothing processed yet": "尚未处理任何内容",
+  "no measurement yet": "尚无测量",
+  "No processed files yet": "尚无已处理文件",
+  "No worker connected yet": "尚未连接 worker",
+  "no worker": "无 worker",
+  "worker offline": "worker 离线",
+  "online": "在线",
+  "disabled": "已禁用",
+  "encoding": "编码",
+  "subtitles": "字幕",
+  "Search by name or folder…": "按名称或文件夹搜索…",
+  "Several titles at once: separate them with |": "一次搜索多个标题：用 | 分隔",
+  "Nothing to show": "无内容",
+  "File": "文件",
+  "Source": "来源",
+  "Status": "状态",
+  "Result": "结果",
+  "Languages": "语言",
+  "Error": "错误",
+  "When": "时间",
+  "Plan": "计划",
+  "Added": "添加时间",
+  "Original": "原始",
+  "Size": "大小",
+  "Replaced": "替换时间",
+  "estimate": "预估",
+  "Name": "名称",
+  "Done": "完成时间",
+  "Nothing found": "未找到",
+  "Process only these": "仅处理这些",
+  "Prioritise": "优先处理",
+  "Skip": "跳过",
+  "Retry": "重试",
+  "Clear": "清除",
+  "Both": "两者",
+  "Restore original": "恢复原始文件",
+  "Find subtitles": "查找字幕",
+  "running": "运行中",
+  "done": "完成",
+  "failed": "失败",
+  "replacing": "替换中",
+  "no gain": "无收益",
+  "skipped": "已跳过",
+  "restored": "已恢复",
+  "cancelled": "已取消",
+  "nothing found": "未找到",
+  "encode": "编码",
+  "already efficient": "已足够高效",
+  "small gain": "收益小",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "错误",
+  "unknown": "未知",
+  "All": "全部",
+  "Already efficient": "已足够高效",
+  "Small gain": "收益小",
+  "Restored": "已恢复",
+  "Video": "视频",
+  "Duration": "时长",
+  "Audio": "音频",
+  "Encode": "编码",
+  "Quality": "质量",
+  "Encode time": "编码耗时",
+  "Message": "消息",
+  "Started": "开始时间",
+  "Search": "搜索",
+  "weakest 5%": "最差 5%",
+  "video": "视频",
+  "Worker": "Worker",
+  "Hardware": "硬件",
+  "Resolution": "分辨率",
+  "Working on": "正在处理",
+  "nothing": "无",
+  "up to 4K": "最高 4K",
+  "up to 1080p": "最高 1080p",
+  "up to 720p": "最高 720p",
+  "up to SD": "最高 SD",
+  "Remove": "移除",
+  "Add worker": "添加 worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "每个 worker 会报告自身能力（是否找到编码器、是否安装 Whisper）。由你在此决定它可以做什么。更改从下一个任务开始生效；正在运行的任务会先完成。",
+  "This machine lacks the hardware or software for this": "此机器缺少所需的硬件或软件",
+  "Quality level": "质量等级",
+  "Standard": "标准",
+  "High": "高",
+  "Maximum": "最高",
+  "Custom": "自定义",
+  "Custom target": "自定义目标",
+  "Average VMAF and the weakest 5% of frames.": "平均 VMAF 和最差 5% 帧。",
+  "avg.": "平均",
+  "Minimum saving": "最低节省",
+  "If a file saves less, the original is kept.": "如果文件节省少于此值，则保留原始文件。",
+  "Processing": "处理",
+  "Storage & safety": "存储与安全",
+  "How long replaced originals can be restored.": "已替换的原始文件可恢复的时长。",
+  "days": "天",
+  "Above this, the oldest originals are deleted permanently.": "超过此值时，最旧的原始文件将被永久删除。",
+  "Safety brake": "安全阈值",
+  "Encoding pauses when the NAS has less free space than this.": "NAS 可用空间低于此值时暂停编码。",
+  "Scanning": "扫描",
+  "Automatic scan": "自动扫描",
+  "New files are queued automatically.": "新文件会自动加入队列。",
+  "Off": "关闭",
+  "Every hour": "每小时",
+  "Every 6 hours": "每 6 小时",
+  "Every 12 hours": "每 12 小时",
+  "Daily": "每天",
+  "Skip folders": "跳过的文件夹",
+  "Comma-separated folder names.": "以逗号分隔的文件夹名称。",
+  "Plex": "Plex",
+  "Dashboard address": "仪表板地址",
+  "Use the IP address of the NAS, not localhost.": "请使用 NAS 的 IP 地址，而非 localhost。",
+  "Worker key": "Worker 密钥",
+  "Keep secret: with this key a worker can fetch jobs.": "请保密：持有此密钥的 worker 可以领取任务。",
+  "Show": "显示",
+  "Copy": "复制",
+  "Minimum requirements": "最低配置",
+  "Account & security": "账户与安全",
+  "Two-factor authentication": "双重身份验证",
+  "Not active": "未启用",
+  "New recovery codes": "新的恢复码",
+  "Reset MFA": "重置 MFA",
+  "Sessions": "会话",
+  "Sign out everywhere else": "退出其他所有会话",
+  "Sign out": "退出登录",
+  "You have unsaved changes.": "你有未保存的更改。",
+  "Cancel": "取消",
+  "Save": "保存",
+  "Language": "语言",
+  "Theme": "主题",
+  "Light": "浅色",
+  "Dark": "深色",
+  "Auto": "自动",
+  "Dashboard language.": "仪表板语言。",
+  "Auto follows your system setting.": "自动跟随系统设置。",
+  "Reset": "重置",
+  "Create new codes": "生成新恢复码",
+  "Close": "关闭",
+  "Code from your authenticator app": "验证器应用中的验证码",
+  "Sign in": "登录",
+  "Activate": "激活",
+  "Set up two-factor authentication": "设置双重身份验证",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "用验证器应用扫描二维码，并输入 6 位验证码。",
+  "Manual:": "手动：",
+  "6-digit code": "6 位验证码",
+  "123456 or recovery code": "123456 或恢复码",
+  "Save your recovery codes": "保存恢复码",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "手机丢了？每个恢复码可登录一次。它们只显示一次。",
+  "I have saved them": "我已保存",
+  "Save them now, they are shown only once.": "请立即保存，它们只显示一次。",
+  "Server not responding": "服务器无响应",
+  "Sign-in failed": "登录失败",
+  "Code is incorrect": "验证码错误",
+  "Code is incorrect - check the time on your phone": "验证码错误 - 请检查手机上的时间",
+  "Scan started": "扫描已开始",
+  "scan already running": "扫描已在运行",
+  "Copied": "已复制",
+  "Resumed": "已恢复运行",
+  "Paused: a running job will finish first": "已暂停：正在运行的任务会先完成",
+  "Added to the queue": "已加入队列",
+  "Not applicable": "不适用",
+  "At least one language": "至少选择一种语言",
+  "Skip this job?": "跳过此任务？",
+  "Restore the original? The new version will be deleted.": "恢复原始文件？新版本将被删除。",
+  "on": "开",
+  "off": "关",
+  "Quarantine cleanup": "隔离区清理",
+  "Background task": "后台任务",
+  "Planning at startup": "启动时规划",
+  "Welcome": "欢迎",
+  "Next": "下一步",
+  "Previous": "上一步",
+  "Next (or skip)": "下一步（或跳过）",
+  "Done, go to the overview": "完成，前往概览",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan 能在不产生可见差异的情况下缩小电影和剧集的体积，并补全缺失的字幕。原始文件只有在通过质量检查后才会被替换，并先在隔离区保留一段时间。",
+  "Six short steps and you're set up. You can change everything later in Settings.": "只需六个简单步骤即可完成设置。之后可随时在设置中更改。",
+  "Your library": "你的媒体库",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan 正在媒体文件夹中查找视频。媒体库较大时，首次扫描需要一些时间；你可以继续操作。",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "MediaScan 永远不会处理的文件夹，用逗号分隔（例如 Music, Downloads）。",
+  "Scan again": "重新扫描",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "选择每个文件应具备的语言。MediaScan 会在 OpenSubtitles 上查找缺失的字幕。如果找不到，worker 会自行生成字幕（在你自己的电脑上进行语音识别和翻译）。",
+  "Click a language to remove it.": "点击语言即可移除。",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "每部电影都会用 VMAF 测量，这是一个衡量画面在人眼看来效果如何的评分。“高”对几乎所有人来说都与原始文件无法区分。",
+  "Higher = better picture, less space saved.": "越高 = 画质越好，节省空间越少。",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "针对颗粒感和暗场的安全保障。5 Mbps 是不错的默认值；4K 及其他分辨率会相应缩放。",
+  "Plex (optional)": "Plex（可选）",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "连接 Plex 后，有人观看时 MediaScan 会等待替换，并在每次更改后刷新 Plex。没有 Plex？跳过此步骤即可。",
+  "Plex address and token": "Plex 地址和 token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token（未更改）",
+  "Add a worker": "添加 worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "繁重的工作由配备优秀显卡的 PC 或 Mac 完成：即 worker。现在安装，或稍后在 Worker 页面安装。在没有 worker 之前，你的文件不会有任何变化。",
+  "✓ A worker is connected.": "✓ 已连接一个 worker。",
+  "Done! MediaScan is set up.": "完成！MediaScan 已设置好。",
+  "Connect the media share on the new machine.": "在新机器上连接媒体共享。",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows：盘符或 \\\\NAS\\Media · Mac：访达 › 连接服务器 · Linux：参见安装包中的说明。",
+  "Download the package for that system and unpack it.": "下载适用于该系统的安装包并解压。",
+  "Run the installer.": "运行安装程序。",
+  "The installer asks for the details below and tests the connection.": "安装程序会询问以下信息并测试连接。",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 或更新、Intel Arc 或 11 代+ 核显、AMD RX 6000+ · 4 核 · 8 GB · 100 GB 可用空间 · 有线网络。字幕：NVIDIA 8 GB+。",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon（M1+）· macOS 13+ · 16 GB（字幕：24 GB+）· 150 GB 可用空间 · Homebrew。",
+  "Workers update themselves when this dashboard has a new version.": "当此仪表板有新版本时，worker 会自动更新。",
+  "What the workers are doing now and what is planned next.": "Worker 当前正在做什么，以及接下来的计划。",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "在无可见画质损失的情况下缩小文件。Worker 会从上到下处理队列。",
+  "select page": "选择本页",
+  "select": "选择",
+  "to encode": "待编码",
+  "Movie": "电影",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "已替换的原始文件，会保留一段时间，以便恢复或重新编码。",
+  "How MediaScan works: quality, subtitles, storage and security.": "MediaScan 的工作方式：质量、字幕、存储和安全。",
+  "General": "常规",
+  "Advanced": "高级",
+  "Connection": "连接",
+  "Hand out new encode jobs to the workers.": "向 worker 分发新的编码任务。",
+  "Hand out new subtitle jobs to the workers.": "向 worker 分发新的字幕任务。",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "VMAF 测量的严格程度。越高 = 画质越好，节省空间越少。",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "每个文件应具备的字幕。缺失的字幕会先搜索，找不到则自动生成。",
+  "Go to Workers": "前往 Worker",
+  "new": "新",
+  "start": "开始",
+  "Minimum bitrate (4K)": "最低码率 (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "为 4K 单独设定下限，而不是 1080p 值的 2.5 倍。0 = 自动。HDR +15% 和动画 ×0.6 在此同样适用。",
+  "Ready to use in a few steps.": "几步即可开始使用。",
+  "next": "下一步",
+  "read error": "读取错误",
+  "MFA is already enabled": "MFA 已启用",
+  "a .mkv with that name already exists": "已存在同名的 .mkv 文件",
+  "a file already exists at the original location": "原位置已存在文件",
+  "action not possible in this status": "当前状态下无法执行此操作",
+  "walking folders": "正在遍历文件夹",
+  "planning jobs": "正在规划任务",
+  "check on the NAS rejected (duration/tracks)": "NAS 上的检查被拒绝（时长/轨道）",
+  "expected a JSON object": "应为 JSON 对象",
+  "ffprobe error": "ffprobe 错误",
+  "invalid resolution": "分辨率无效",
+  "invalid worker token": "worker 令牌无效",
+  "job belongs to another worker": "任务属于另一个 worker",
+  "job is no longer active": "任务已不再活动",
+  "no video track": "没有视频轨道",
+  "not JSON": "不是 JSON",
+  "not signed in": "未登录",
+  "original disappeared": "原文件已消失",
+  "original has changed in the meantime": "原文件在此期间已更改",
+  "original is no longer in quarantine": "原文件已不在隔离区",
+  "original no longer available": "原文件已不可用",
+  "request refused": "请求被拒绝",
+  "target file already exists": "目标文件已存在",
+  "the original has already been removed from quarantine - comparing is no longer possible": "原文件已从隔离区移除 - 无法再进行比较",
+  "this film has not been replaced yet": "这部影片尚未被替换",
+  "unknown action": "未知操作",
+  "worker is still online": "worker 仍在线",
+  "In use now:": "当前使用：",
+  "longest": "最长",
+  "8.1 (from profile 7)": "8.1（来自配置文件 7）",
+  "Whisper (transcription)": "Whisper（转录）",
+  "1 day ago": "1 天前",
+  "1 video": "1 个视频",
+  "Enter your password to open the dashboard.": "输入密码以打开控制面板。",
+  "No connection to the server - retrying…": "无法连接服务器 - 正在重试…",
+  "Are you sure?": "确定吗？",
+  "Restore": "恢复",
+  "Re-encode": "重新编码",
+  "Delete": "删除",
+  "Next up": "接下来",
+  "in the queue": "在队列中",
+  "Load older entries": "加载更早的记录",
+  "Folder: all": "文件夹：全部",
+  "Resolution: all": "分辨率：全部",
+  "Codec: all": "编码：全部",
+  "More": "更多",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "部影片在等待 CPU 编码器，但没有任何 worker 开启了 CPU 编码（Workers 页面）。",
+  "Info": "信息",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "你的硬件、它与工作的匹配程度、使用的工具，以及各项设置的工作原理。",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "内存",
+  "Software": "软件",
+  "GPU encoding": "GPU 编码",
+  "CPU encoding (x265)": "CPU 编码 (x265)",
+  "Subtitles (Whisper)": "字幕 (Whisper)",
+  "Translation (Ollama)": "翻译 (Ollama)",
+  "Server": "服务器",
+  "Database": "数据库",
+  "Tools in use": "使用的工具",
+  "Knowledge base": "知识库",
+  "Low": "低",
+  "Medium": "中",
+  "Ultra": "极致",
+  "files": "个文件",
+  "up": "运行",
+  "of": "/",
+  "uses": "占用",
+  "free": "可用",
+  "Media share": "媒体共享",
+  "Rating": "评级",
+  "Hardware details appear after this worker has updated itself.": "此 worker 自我更新后将显示硬件详情。",
+  "no Whisper": "无 Whisper",
+  "unified memory": "统一内存",
+  "cores": "核心",
+  "threads": "线程",
+  "driver": "驱动",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "未知",
+  "Settings saved": "设置已保存",
+  "Time left": "剩余时间",
+  "Queued": "排队中",
+  "Keep originals for": "原始文件保留",
+  "Quarantine size limit": "隔离区大小上限",
+  "Hide finished items": "隐藏已完成项",
+  "Undo skip": "取消跳过",
+  "not supported here": "此处不支持",
+  "CPU encoding": "CPU 编码",
+  "Retry on CPU (x265)": "在 CPU 上重试 (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "已在 CPU 上用 x265 编码 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "在 worker 的 CPU 上使用颗粒调优的 x265：保留胶片颗粒的效率高得多，但每部影片需要数小时",
+  "CPU fallback for grainy films": "颗粒影片的 CPU 回退",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "当 GPU 无法在不超过源码率的情况下保持质量（胶片颗粒）时，影片会在某个 worker 的 CPU 上用 x265 再编码一次，x265 保留颗粒的效率高得多。每部影片需要数小时；请在 Workers 页面为某个 worker 开启 CPU 编码。",
+  "CPU preset": "CPU 预设",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium：8 核处理 2 小时的 1080p 影片约需 2 小时。Slow：耗时 2-3 倍，文件约小 5-10%。",
+  "Medium (faster)": "Medium（更快）",
+  "Slow (smaller)": "Slow（更小）",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux：",
+  "macOS:": "macOS：",
+  "Could not load this page.": "无法加载此页面。",
+  "up to 1440p": "最高 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "正在分析文件",
+  "No worker has CPU encodes switched on (Workers page)": "没有任何 worker 开启了 CPU 编码（Workers 页面）",
+  "the job changed in the meantime": "任务在此期间已更改",
+  "Main": "主导航",
+  "Clear search and filters": "清除搜索和筛选",
+  "Compact rows": "紧凑行",
+  "Encoding and subtitles are paused.": "编码和字幕已暂停。",
+  "Encoding is paused: no new encode jobs are handed out.": "编码已暂停：不再分发新的编码任务。",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "字幕已暂停：不再分发新的字幕任务。",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "请同时填写 Plex 地址和令牌，或都留空以跳过。",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "NAS 可用空间低于安全阈值。编码已自动暂停。",
+  "Loading…": "加载中…",
+  "Next film": "下一部影片",
+  "Previous film": "上一部影片",
+  "Next page": "下一页",
+  "Previous page": "上一页",
+  "Rows per page": "每页行数",
+  "Resume": "恢复",
+  "Resume encoding": "恢复编码",
+  "Resume subtitles": "恢复字幕",
+  "Open settings": "打开设置",
+  "Open the library": "打开媒体库",
+  "Subtitle languages": "字幕语言",
+  "Update": "更新",
+  "No results for this search or filter.": "没有符合此搜索或筛选的结果。",
+  "Nothing is queued for encoding. New files are queued after a scan.": "没有排队等待编码的项目。新文件会在扫描后进入队列。",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "尚未替换任何文件。完成的编码会在质量检查后显示在这里。",
+  "No files were kept as they are. Films that would save too little end up here.": "没有保持原样的文件。节省空间太少的影片会出现在这里。",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "没有等待中的字幕。缺少语言的文件会在扫描后进入队列。",
+  "No subtitle job is running right now.": "当前没有正在运行的字幕任务。",
+  "No subtitles have been made yet.": "尚未生成任何字幕。",
+  "Nothing missing: every file got its subtitles so far.": "没有缺失：到目前为止每个文件都已获得字幕。",
+  "No failed encodes.": "没有失败的编码。",
+  "No failed subtitle jobs.": "没有失败的字幕任务。",
+  "Nothing was added in the last 14 days.": "最近 14 天没有新增内容。",
+  "No videos with this plan.": "没有使用此计划的视频。",
+  "The library is being scanned; videos appear as they are found.": "正在扫描媒体库；视频会在找到后显示。",
+  "No videos found yet. Check the media folder and run a scan.": "尚未找到视频。请检查媒体文件夹并运行扫描。",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "隔离区为空。被替换的原始文件会保存在这里，直到保留期结束。",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "媒体库中未找到 DVD 或 Blu-ray 文件夹（VIDEO_TS、BDMV）。",
+  "1 worker online": "1 个 worker 在线",
+  "A worker is busy with this file": "一个 worker 正在处理此文件",
+  "A worker is grabbing the frames": "一个 worker 正在截取画面",
+  "A worker is searching or making subtitles": "一个 worker 正在搜索或生成字幕",
+  "A worker picks up the next job within a few seconds.": "worker 会在几秒内接手下一个任务。",
+  "Above this, the oldest comparisons are deleted automatically.": "超过此值后，最旧的对比会被自动删除。",
+  "All replaced films": "所有已替换的影片",
+  "Already efficient: encoding would hardly save anything": "已经很高效：编码几乎节省不了空间",
+  "Automatic comparisons": "自动对比",
+  "Being made…": "正在生成…",
+  "Can be made": "可生成",
+  "Can encode on the CPU with x265": "可用 x265 在 CPU 上编码",
+  "Comparison storage limit": "对比存储上限",
+  "Comparisons": "对比",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision：未重新编码，否则 DV 层会丢失",
+  "Encoding is paused.": "编码已暂停。",
+  "Enlarge": "放大",
+  "Errors": "错误",
+  "Flip": "切换",
+  "Four frames of the original and the new version are stored": "已保存原始文件和新版本各四帧画面",
+  "Full width": "全宽",
+  "GPU encoder found": "已找到 GPU 编码器",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "为每部已替换的影片截取原始文件和新版本各四帧画面，以便你随时在对比页面检查画质。每部影片约 1–2 MB。",
+  "Keyboard shortcuts": "键盘快捷键",
+  "Leave without saving? Your changes to the settings will be lost.": "不保存就离开？你对设置的更改将丢失。",
+  "Moved to the front": "已移到最前",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "还没有对比。趁原始文件还在隔离区时创建一个，或在设置中开启自动对比。",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "目前没有可对比的影片：原始文件已离开隔离区，或尚未替换任何影片。",
+  "No longer possible": "已无法生成",
+  "No subtitles found online and none could be made": "在线未找到字幕，也无法生成",
+  "Ollama found: can translate subtitles": "已找到 Ollama：可翻译字幕",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "属于 DVD 或 Blu-ray 文件夹；请在 DVD & Blu-ray 页面转换",
+  "Paused automatically: the NAS has less free space than the safety brake.": "已自动暂停：NAS 可用空间低于安全阈值。",
+  "Planned for encoding": "计划编码",
+  "Queued for the CPU encoder": "已排队等待 CPU 编码器",
+  "Replaced after the quality check; the original is in quarantine for a while": "质量检查后已替换；原始文件会在隔离区保留一段时间",
+  "Replaced films appear here after their first encode.": "被替换的影片会在首次编码后显示在这里。",
+  "Search the log…": "搜索日志…",
+  "Show films that can be compared": "显示可对比的影片",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "轮流显示原始文件和新版本：发现噪点和细节差异的最佳方式",
+  "Skipped": "已跳过",
+  "Skipped by you; Retry puts it back in the queue": "已被你跳过；“重试”会将其重新加入队列",
+  "Slider back to the middle": "滑块回到中间",
+  "Smaller": "缩小",
+  "Stopped because the file changed or disappeared": "已停止：文件已更改或消失",
+  "Stopped with an error; see the message and try again": "因错误停止；查看消息后重试",
+  "Subtitles are paused.": "字幕已暂停。",
+  "The file could not be read; see the drawer": "无法读取文件；请查看侧边栏",
+  "The new file would save less than the minimum saving, so the original was kept": "新文件节省的空间低于最低节省，因此保留了原始文件",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "新版本已在 NAS 上，没有人观看时会立即替换",
+  "The original has left quarantine, so the frames can no longer be grabbed": "原始文件已离开隔离区，无法再截取画面",
+  "The original is still in quarantine, so the frames can still be grabbed": "原始文件仍在隔离区，仍可截取画面",
+  "The original was put back from quarantine": "原始文件已从隔离区恢复",
+  "The queue is empty. New files are queued after a scan.": "队列为空。新文件会在扫描后加入队列。",
+  "The server hands out newer worker files; the worker installs them after its current job": "服务器提供了更新的 worker 文件；worker 会在当前任务结束后安装",
+  "Undo": "撤销",
+  "Waiting for Plex: someone is watching this film": "等待 Plex：有人正在观看这部影片",
+  "Waiting for a worker; the queue runs from top to bottom": "等待 worker；队列从上到下依次处理",
+  "Warnings": "警告",
+  "Whisper installed: can make subtitles": "已安装 Whisper：可生成字幕",
+  "Would save less than the minimum saving": "节省的空间低于最低节省",
+  "expires today": "今天到期",
+  "expires within a day": "一天内到期",
+  "less than a day left": "剩余不到一天",
+  "waiting for Plex": "等待 Plex",
+  "update pending": "待更新",
+  "Tap to switch between original and new": "点击在原始与新版本之间切换",
+  "Repeated": "重复",
+  "Search in the current list": "在当前列表中搜索",
+  "Clear the search, close a drawer or dialog": "清除搜索，关闭侧边栏或对话框",
+  "Previous or next film on a comparison": "对比中的上一部或下一部影片",
+  "Open or switch the focused row, switch or header": "打开或切换当前聚焦的行、开关或表头",
+  "This list": "此列表",
+  "Nothing in the log matches this.": "日志中没有匹配的内容。",
+  "Nothing has happened yet.": "还没有任何活动。",
+  "No worker is online, so nothing can run.": "没有 worker 在线，因此无法运行任何任务。",
+  "There is no worker yet. Add one to get started.": "还没有 worker。添加一个即可开始。",
+  "Open Workers": "打开 Worker",
+  "Some values are out of range.": "部分数值超出范围。",
+  "no capabilities reported": "未报告任何能力",
+  "Replaced · expires": "替换时间 · 到期",
+  "Made": "已生成",
+  "Make": "生成",
+  "lots of motion": "大量运动",
+  "dark scene": "暗场景",
+  "a quarter in": "四分之一处",
+  "three quarters in": "四分之三处",
+  "Encoded": "编码完成",
+  "Finished": "结束",
+  "later": "之后",
+  "Leave": "离开",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "一次对比会从原始文件和新版本中各取 4 帧（总计约 1–2 MB）。只要原始文件仍在隔离区就可以创建，并会一直保留到你删除为止，即使原始文件已经不在了。",
+  "Retry on CPU": "在 CPU 上重试",
+  "Scan": "扫描"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1开始$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "当前：$1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan 找到 $1 个视频（$2）。"
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · 最差 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "最差 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "新增（$1 天）"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "计划：{t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "替换失败（$1）：{w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1}失败{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "扫描完成：$1 个视频，$2 个新增，$3 个变更，$4 个消失；已添加 $5 个编码任务和 $6 个字幕任务"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "扫描完成：$1 个视频，$2 个新增，$3 个变更，$4 个消失，$5 个在跳过的文件夹中；已添加 $6 个编码任务和 $7 个字幕任务"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "按当前规则重新编码 $1 部影片？将恢复原始文件，并在队列中优先处理这些影片。"
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 部影片已重新加入队列{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 个原始文件已恢复并重新加入队列（当前规则）"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "新增：$1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "已替换：$1（$2 -> $3 GB，VMAF $4）"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray 已转换：$1（$2 GB）；光盘文件夹已移至隔离区"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "原始文件已恢复：$1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 开始{t:$2}：$3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}：$2 个任务（共 $3 个）"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "选择已分发 - 编码已自动暂停"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "选择已分发 - 字幕已自动暂停"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "设置已更改：$1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "任务 $1 错误：$2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "任务 $1：$2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 离线：$2 个任务已退回队列"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 已重启：$2 个中断的任务已退回队列"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 已更新到 $2：$3 个失败任务已重新加入队列"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 已移除"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1：编码{t:$2}，字幕{t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "规划已更新：已添加 $1 个编码任务和 $2 个字幕任务"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "已手动将 $1 个任务加入队列"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 个任务：$2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "已删除 $1 个对比"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "已退出 $1 个其他会话"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "已使用恢复码登录（剩余 $1 个）"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1：$2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "原始文件最多保留 $1 天，总计不超过 $2。最旧的先删除。恢复会删除新版本。"
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - 点击移除"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "将转换 $1 个文件夹 · worker 将在半分钟内开始"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 条音轨 · $2 条字幕"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "删除 $1 个对比？影片本身保持不变。"
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "第 $1 帧 · 位于 $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "第 $1 帧 · 位于 $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB（jpg）"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "编码耗时 $1 分钟 · 在 8 个片段上测量，然后对全片进行检查。"
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "当前已有：$1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "最差 5% $1 · 标准 $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "时间轴 $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "生成画面失败：$1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "选择 · 下一个"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "选择 · 第 $1 个"
+  ],
+  [
+   "^Now:$",
+   "",
+   "当前："
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· 之后还有选择中的 $1 个"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "预估 · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 个之前已完成 · 显示"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "已将 $1 个添加到选择 · worker 将在几秒内开始"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "选择{t:$1}：{t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "生成于：$1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · 缩小 $3%$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "刚刚"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 分钟前"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 小时前"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 天前"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "已观看 {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 天 $2 小时"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 小时 $2 分"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 个视频"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "隔离区 $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "每 24 小时 $1"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · 收益约 $2"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "收益约 $1 GB"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "已处理文件缩小 $1%"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 在线"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "还有 $1 个待开始，之后暂停"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 项 · 第 $2 页，共 $3 页"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "已选择 $1 个"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "选择全部 $1 个结果"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "扫描中：{w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "已尝试 $1 次"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 分钟"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "已启用 · 剩余 $1 个恢复码"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 个活动会话，包括当前会话。"
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "已更新 $1 个{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "已退出 $1 个其他会话"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "仅处理这 $1 个？它们将优先处理，处理会恢复，完成后自动再次暂停。"
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "跳过 $1 个任务？"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "恢复 $1 个原始文件？新版本将被删除。"
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "从列表中移除 worker $1？如果它重新上线，会自动重新出现。"
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "已运行 $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "剩余约 $1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "最高 $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "正在处理"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "已连接 Plex（版本 $1）"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex 响应异常：$1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "错误：$1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "替换失败：$1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "$1 的值无效"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 必须介于 $2 和 $3 之间"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · 最差 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 小时"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU 无法保持质量 - 已排队等待 CPU 编码器 (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "清理 staging：已删除残留文件 $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "每页 $1 条"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 个 worker 在线"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · 添加 worker、worker 密钥和下载内容都在 Worker 页面。"
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · 约 {t:$2} 后开始 · 预估"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · 预估"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "剩余 $1 天"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "$1 天后到期"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "已生成 · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "可生成 · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · 第 $1/$2 步 · 剩余约 {t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · 第 $1/$2 步"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · 剩余约 {t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "已请求 $1 个对比 · 几分钟内完成"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "生成 $1 个对比？每个约 1–2 MB。"
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "重复 $1 次"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "介于 $1 和 $2 之间"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}：$2 个任务"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}：$2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "$1 出错：{w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "已请求 $1 个对比"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "已清理对比：移除 $1 个（超过 $2 MB）"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "隔离文件夹已重命名为 quarantine（已更新 $1 条记录）"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 已移除：$2 个任务已退回队列"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "隔离区：$1 已存在，$2 保留在原处"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "隔离文件夹已重命名为 quarantine；已更新 $1 条记录，但 $2 尚未清空"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "重命名隔离文件夹失败（媒体共享已挂载吗？）：$1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "staging 中缺少新版本"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "staging 中缺少新的 .mkv"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "原文件已消失"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "原文件在此期间已被更改"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "原文件已不可用"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "NAS 上的检查未通过（时长/轨道）"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray 已转换为 mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "worker 更新后重试"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "已被你跳过"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "目标文件已存在"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker 离线 - 已重新排队"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker 已移除 - 已重新排队"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker 已重启 - 已重新排队"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "替换失败：$1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "新 mkv 中缺少 Dolby Vision"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision：未重新编码（DV 层会丢失）"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "有一条流无法复制到 .mkv：$1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg 已 $1 分钟没有进展（共享不可访问？）- 已停止"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$2 个文件中有 $1 个同时缺失 - 共享不可访问？未将任何文件标记为已消失"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "翻译失败：重试后仍没有可用的回答（$1 行）"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1：服务器错误"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1：$2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - 请拉取模型（ollama pull <model>）或修正 worker.ini 中的 ollama_model"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "无法在 $1 连接 Ollama（$2）- 请启动 Ollama 或检查 ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "无法连接 Ollama：$1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama 持续失败 $2 分钟"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 耗时超过一小时 - 媒体共享还能访问吗？"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "缺少 $1；请安装 $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "全片 VMAF $1 在所有配对方法下都不可信（样本 $2）；低分位置：$3。已保留原文件；请检查该处的源"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe：无法读取文件"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe：失败"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg：$1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "PC 上没有足够的可用空间处理这部影片（需要 $1 GB，位于 $2）"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "工作文件夹空间不足：剩余 $1 GB，约需 $2 GB"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "即使使用最低码率也最多缩小 $1%"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "正在从增强层提取元数据"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "下载内容不匹配 (sha256) - 未使用"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "检查：时长或流数量不一致"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "新 mkv 太短（$1/$2 分钟）"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1/$2 已完成，等待 worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "将 Dolby Vision 转换为 profile 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "正在向基础层注入元数据"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "检查 VMAF（第二次测量）"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "没有设置能达到质量目标"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "已达下载上限 - 其余稍后处理"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "已达 OpenSubtitles 每日上限"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "部分完成；其余待下载限额恢复后"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "下载后未找到 $1"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper：检测到的语音语言"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper（从 $1 翻译）"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "等待 PC 可用空间"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "字幕文件异常大"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "自检测量不可靠"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "第 $1 次翻译尝试失败"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "等待：正在 Plex 中观看"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "预计仅缩小 $1%"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "正在下载 $1（仅一次）"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "全片检查低于目标"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "无法在 $1 秒处截取画面"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "全片略低于目标"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "在光盘上查找影片"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "无法达到质量目标"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "检查测量不可靠"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "服务器返回的路径无效"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "重试：最低收益现为 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper 正在 GPU 上运行"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "DVD 上未找到标题"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "压缩包中有可疑路径"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "等待：无法连接 Plex"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "正在处理第 $1 个，共 $2 个"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "无法连接 OpenSubtitles"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper（转录）"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "检查全片 VMAF"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "完成，等待替换"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "旧文件夹移至隔离区"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "检查 VMAF $1 过低"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "读取光盘（DV）"
+  ],
+  [
+   "translated from English",
+   "g",
+   "译自英语"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "完成（$1/$2）"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "音频提取失败"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "回退到 CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles 已登录"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1（来自配置文件 7）"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "等待 worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "zip 中有可疑路径"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "内嵌 EN 无法读取"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "目前最长：标题"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "时间轴不匹配"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "仅缩小 $1%"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "片段 $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "保留原文件"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "今日剩余下载次数"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "已检查标题 $1"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "等待替换"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "复制到 NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "保留原始文件"
+  ],
+  [
+   "translation failed",
+   "g",
+   "翻译失败"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "无法连接服务器"
+  ],
+  [
+   "searching quality",
+   "g",
+   "搜索质量"
+  ],
+  [
+   "making references",
+   "g",
+   "生成参考"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "转换为 mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "字幕已停止"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "复制 NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "复制 PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "查找影片"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "合并为 mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "最长播放列表"
+  ],
+  [
+   "timing reference",
+   "g",
+   "时间参考"
+  ],
+  [
+   "speech segments",
+   "g",
+   "语音片段"
+  ],
+  [
+   "too little gain",
+   "g",
+   "收益太少"
+  ],
+  [
+   " not applicable",
+   "g",
+   " 不适用"
+  ],
+  [
+   "download failed",
+   "g",
+   "下载失败"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "ffsubsync 之后"
+  ],
+  [
+   "translating to",
+   "g",
+   "翻译为"
+  ],
+  [
+   "next candidate",
+   "g",
+   "下一个候选"
+  ],
+  [
+   "after shifting",
+   "g",
+   "偏移之后"
+  ],
+  [
+   "reading audio",
+   "g",
+   "读取音频"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "选择 · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 个等待中"
+  ],
+  [
+   "search failed",
+   "g",
+   "搜索失败"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "重新编码"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "标题 $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " 个错误"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 个完成"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "字幕："
+  ],
+  [
+   "replacing",
+   "g",
+   "替换中"
+  ],
+  [
+   "subtitles",
+   "g",
+   "字幕"
+  ],
+  [
+   "candidate",
+   "g",
+   "候选"
+  ],
+  [
+   "encoding:",
+   "g",
+   "编码："
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "开始"
+  ],
+  [
+   "encoding",
+   "g",
+   "编码"
+  ],
+  [
+   "checking",
+   "g",
+   "检查中"
+  ],
+  [
+   ", up to ",
+   "g",
+   "，最高 "
+  ],
+  [
+   "present",
+   "g",
+   "已有"
+  ],
+  [
+   "missing",
+   "g",
+   "缺失"
+  ],
+  [
+   "speed",
+   "g",
+   "速度"
+  ],
+  [
+   "saved",
+   "g",
+   "已保存"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU 无法保持质量 - 已排队等待 CPU 编码器 (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "清理 staging：已删除残留文件"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "媒体文件夹为空或未挂载 - 未做任何更改"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "保持质量所需的码率高于源文件"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "所需码率高于源文件"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker 正在重启以更新"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "没有视频流（只有封面图？）"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "没有可转写的音频流"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "PC 上没有足够的可用空间处理这部影片"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "正在 CPU 上重试 (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "正在遍历文件夹"
+  ],
+  [
+   "analysing files",
+   "g",
+   "正在分析文件"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "正在规划任务"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU 编码 开"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU 编码 关"
+  ]
+ ]
+}

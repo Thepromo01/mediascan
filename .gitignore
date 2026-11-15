@@ -1,0 +1,8 @@
+server/app/dist/
+__pycache__/
+*.pyc
+.env
+mediascan.env
+data/
+.ruff_cache/
+.venv/

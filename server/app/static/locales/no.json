@@ -1,0 +1,2060 @@
+{
+ "name": "Norsk bokmål",
+ "s": {
+  "Re-encode from original": "Omkod fra original",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Omkode med gjeldende regler? Originalen gjenopprettes, og filmen får prioritet.",
+  "Back in the queue": "Tilbake i køen",
+  "Restore originals": "Gjenopprett originaler",
+  "Minimum bitrate (1080p)": "Minimum bitrate (1080p)",
+  "Extra floor (share of the source)": "Ekstra gulv (andel av kilden)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Valgfritt: behold også minst denne andelen av den opprinnelige videobitraten. Kun nyttig for kilder med svært høy bitrate. 0 = av.",
+  "with the minimum bitrate at most": "med minimum bitrate maksimalt",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Den nye filen går aldri lavere, selv om VMAF godtar det. Andre oppløsninger skaleres: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animasjon ×0.6.",
+  "bitrate already near the minimum": "bitrate allerede nær minimum",
+  "MFA reset from settings - set it up again": "MFA tilbakestilt fra innstillinger - sett det opp igjen",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA tilbakestilt via MFA_RESET - fjern MFA_RESET fra containerinnstillingene igjen",
+  "MFA enabled": "MFA aktivert",
+  "MediaScan started": "MediaScan startet",
+  "New recovery codes created": "Nye gjenopprettingskoder opprettet",
+  "Password changed; other sessions signed out": "Passord endret; andre økter logget ut",
+  "Password set (first time)": "Passord angitt (første gang)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Merk: ADMIN_PASSWORD er kortere enn 10 tegn - velg et sterkere passord under Innstillinger",
+  "part of a DVD/Blu-ray folder": "del av en DVD/Blu-ray-mappe",
+  "folder is in Skip folders": "mappen er i Hopp over mapper",
+  "file disappeared": "filen forsvant",
+  "worker restarted - rescheduled": "worker startet på nytt - planlagt på nytt",
+  "worker offline - rescheduled": "worker frakoblet - planlagt på nytt",
+  "retry after worker update": "nytt forsøk etter worker-oppdatering",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray konvertert til mkv",
+  "skipped by you": "hoppet over av deg",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Erstatning venter mens en film blir sett, og Plex oppdateres etter hver endring.",
+  "Confirm with your password and a code from your app.": "Bekreft med passordet ditt og en kode fra appen din.",
+  "Your old recovery codes will stop working.": "De gamle gjenopprettingskodene dine slutter å virke.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Den nåværende autentiseringskoblingen og gjenopprettingskodene dine slutter å virke. Du setter opp MFA igjen med en gang.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Velg et passord for dashbordet. Oppsettkoden står i containerloggen (Container Manager › mediascan › Log, eller",
+  "- click to remove": "- klikk for å fjerne",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Ugyldig adresse, f.eks. http://192.168.1.10:32400",
+  "Enter a Plex token": "Skriv inn et Plex-token",
+  "A password has already been set": "Et passord er allerede angitt",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Nøkkelen er fastsatt i WORKER_TOKEN (containermiljø)",
+  "selection still running - pause or wait until it is done": "utvalget kjører fortsatt - sett på pause eller vent til det er ferdig",
+  "Now running": "Kjører nå",
+  "Finding the film on the disc": "Finner filmen på platen",
+  "Converting to one .mkv": "Konverterer til én .mkv",
+  "Checking (duration, tracks)": "Kontrollerer (varighet, spor)",
+  "Copying to the NAS": "Kopierer til NAS",
+  "Old folder to quarantine": "Gammel mappe til karantene",
+  "worker has not reported for a while": "worker har ikke meldt seg på en stund",
+  "waiting for the worker": "venter på worker",
+  "Welcome to MediaScan": "Velkommen til MediaScan",
+  "Setup code": "Oppsettkode",
+  "New password (at least 10 characters)": "Nytt passord (minst 10 tegn)",
+  "Repeat password": "Gjenta passord",
+  "Set password": "Angi passord",
+  "The passwords do not match": "Passordene er ikke like",
+  "Setup code is wrong - check the container log": "Oppsettkoden er feil - sjekk containerloggen",
+  "Choose a password of at least 10 characters": "Velg et passord på minst 10 tegn",
+  "Animation folders": "Animasjonsmapper",
+  "Top-level folders with animation: these may use a lower bitrate.": "Toppmapper med animasjon: disse kan bruke lavere bitrate.",
+  "Where do I find the token?": "Hvor finner jeg tokenet?",
+  "Connect": "Koble til",
+  "Disconnect": "Koble fra",
+  "Connected": "Tilkoblet",
+  "Not connected": "Ikke tilkoblet",
+  "+ Add language": "+ Legg til språk",
+  "Renew": "Forny",
+  "Worker version": "Worker-versjon",
+  "Password": "Passord",
+  "Other sessions are signed out after a change.": "Andre økter logges ut etter en endring.",
+  "Change password": "Endre passord",
+  "Other sessions will be signed out.": "Andre økter blir logget ut.",
+  "Change": "Endre",
+  "New worker key": "Ny worker-nøkkel",
+  "Create new key": "Opprett ny nøkkel",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Alle workers stopper til du skriver inn den nye nøkkelen (kjør installasjonsprogrammet på nytt eller rediger worker.ini).",
+  "Repeat new password": "Gjenta nytt passord",
+  "Password changed": "Passord endret",
+  "New worker key created": "Ny worker-nøkkel opprettet",
+  "Disconnect Plex?": "Koble fra Plex?",
+  "Plex disconnected": "Plex frakoblet",
+  "Plex connected": "Plex tilkoblet",
+  "Incorrect password": "Feil passord",
+  "Incorrect code": "Feil kode",
+  "Incorrect code from your authenticator app": "Feil kode fra autentiseringsappen",
+  "Too many attempts - try again in 15 minutes": "For mange forsøk - prøv igjen om 15 minutter",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Mapper med VIDEO_TS eller BDMV. Konvertering gjør dem om til én .mkv med all video, lyd, undertekster og kapitler.",
+  "Convert to MKV": "Konverter til MKV",
+  "Folder": "Mappe",
+  "Type": "Type",
+  "found": "funnet",
+  "queued": "i kø",
+  "converting…": "konverterer…",
+  "converted": "konvertert",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Konvertering kopierer alt 1:1 til én .mkv: video (også HDR), alle lydspor, undertekster og kapitler. For en DVD velges den lengste tittelen (filmen). Den gamle mappen går til karantene, så du kan gjenopprette den. Deretter går .mkv-filen gjennom vanlig koding og undertekster. Dolby Vision-Blu-rays blir Dolby Vision profil 8.1 (basislag 1:1, DV-metadata lagt til): Plex og TV-en din spiller den av som Dolby Vision, andre spillere som HDR10. En slik film omkodes ikke etterpå, siden Dolby Vision da ville gått tapt.",
+  "Compare": "Sammenlign",
+  "Delete comparison": "Slett sammenligning",
+  "Comparison deleted": "Sammenligning slettet",
+  "comparison": "sammenligning",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Originalen ved siden av den nye versjonen: størrelse, kvalitet, bilde og undertekster. Du velger hvilke filmer.",
+  "Original → new": "Original → ny",
+  "Quality (VMAF)": "Kvalitet (VMAF)",
+  "Comparison": "Sammenligning",
+  "View": "Vis",
+  "Make comparison": "Lag sammenligning",
+  "previous attempt failed": "forrige forsøk mislyktes",
+  "Back": "Tilbake",
+  "Make again": "Lag på nytt",
+  "New": "Ny",
+  "VMAF whole film": "VMAF hele filmen",
+  "Making the frames… this usually takes less than a minute.": "Lager bildene… dette tar vanligvis under ett minutt.",
+  "There is no picture comparison for this film yet.": "Det finnes ingen bildesammenligning for denne filmen ennå.",
+  "Picture · drag across the image": "Bilde · dra over bildet",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR er konvertert til SDR for denne visningen; TV-en din viser det i HDR.",
+  "How the setting was chosen": "Slik ble innstillingen valgt",
+  "Step": "Trinn",
+  "Weakest 5%": "Svakeste 5%",
+  "Bitrate": "Bitrate",
+  "chosen": "valgt",
+  "No data.": "Ingen data.",
+  "Nothing needed, all languages were present.": "Ingenting nødvendig, alle språk fantes.",
+  "Not processed yet.": "Ikke behandlet ennå.",
+  "Comparison requested · ready within a minute": "Sammenligning bestilt · klar innen ett minutt",
+  "Delete this comparison? The film itself stays as it is.": "Slette denne sammenligningen? Selve filmen forblir uendret.",
+  "Not possible": "Ikke mulig",
+  "Slide between original and new": "Skyv mellom original og ny",
+  "Overview": "Oversikt",
+  "Queue": "Kø",
+  "In progress": "Pågår",
+  "No gain": "Ingen gevinst",
+  "Failed": "Mislyktes",
+  "Subtitles": "Undertekster",
+  "Recently added": "Nylig lagt til",
+  "Library": "Bibliotek",
+  "Quarantine": "Karantene",
+  "Workers": "Workers",
+  "Activity": "Aktivitet",
+  "Settings": "Innstillinger",
+  "Encoding": "Koding",
+  "System": "System",
+  "Status of the entire library.": "Status for hele biblioteket.",
+  "Selection": "Utvalg",
+  "waiting for worker": "venter på worker",
+  "In the selection": "I utvalget",
+  "selection": "utvalg",
+  "Selection · encoding": "Utvalg · koding",
+  "Selection · subtitles": "Utvalg · undertekster",
+  "Close list": "Lukk liste",
+  "waiting": "venter",
+  "nothing needed": "ingenting nødvendig",
+  "original kept": "original beholdt",
+  "Find, sync or generate missing subtitles.": "Finn, synkroniser eller generer manglende undertekster.",
+  "All videos with their current plan. You can also queue items manually here.": "Alle videoer med gjeldende plan. Du kan også legge elementer i køen manuelt her.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Maskinene som gjør jobben. Velg hva hver worker får gjøre.",
+  "Log of everything that happens.": "Logg over alt som skjer.",
+  "Scan now": "Skann nå",
+  "Saved": "Spart",
+  "Free on NAS": "Ledig på NAS",
+  "Progress": "Fremdrift",
+  "Saved per day": "Spart per dag",
+  "last 14 days": "siste 14 dager",
+  "Per folder": "Per mappe",
+  "all": "alle",
+  "nothing processed yet": "ingenting behandlet ennå",
+  "no measurement yet": "ingen måling ennå",
+  "No processed files yet": "Ingen behandlede filer ennå",
+  "No worker connected yet": "Ingen worker tilkoblet ennå",
+  "no worker": "ingen worker",
+  "worker offline": "worker frakoblet",
+  "online": "tilkoblet",
+  "disabled": "deaktivert",
+  "encoding": "koding",
+  "subtitles": "undertekster",
+  "Search by name or folder…": "Søk etter navn eller mappe…",
+  "Several titles at once: separate them with |": "Flere titler samtidig: skill dem med |",
+  "Nothing to show": "Ingenting å vise",
+  "File": "Fil",
+  "Source": "Kilde",
+  "Status": "Status",
+  "Result": "Resultat",
+  "Languages": "Språk",
+  "Error": "Feil",
+  "When": "Når",
+  "Plan": "Plan",
+  "Added": "Lagt til",
+  "Original": "Original",
+  "Size": "Størrelse",
+  "Replaced": "Erstattet",
+  "estimate": "anslag",
+  "Name": "Navn",
+  "Done": "Ferdig",
+  "Nothing found": "Ingenting funnet",
+  "Process only these": "Behandle bare disse",
+  "Prioritise": "Prioriter",
+  "Skip": "Hopp over",
+  "Retry": "Prøv igjen",
+  "Clear": "Tøm",
+  "Both": "Begge",
+  "Restore original": "Gjenopprett original",
+  "Find subtitles": "Finn undertekster",
+  "running": "kjører",
+  "done": "ferdig",
+  "failed": "mislyktes",
+  "replacing": "erstatter",
+  "no gain": "ingen gevinst",
+  "skipped": "hoppet over",
+  "restored": "gjenopprettet",
+  "cancelled": "avbrutt",
+  "nothing found": "ingenting funnet",
+  "encode": "kod",
+  "already efficient": "allerede effektiv",
+  "small gain": "liten gevinst",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "feil",
+  "unknown": "ukjent",
+  "All": "Alle",
+  "Already efficient": "Allerede effektiv",
+  "Small gain": "Liten gevinst",
+  "Restored": "Gjenopprettet",
+  "Video": "Video",
+  "Duration": "Varighet",
+  "Audio": "Lyd",
+  "Encode": "Kod",
+  "Quality": "Kvalitet",
+  "Encode time": "Kodetid",
+  "Message": "Melding",
+  "Started": "Startet",
+  "Search": "Søk",
+  "weakest 5%": "svakeste 5%",
+  "video": "video",
+  "Worker": "Worker",
+  "Hardware": "Maskinvare",
+  "Resolution": "Oppløsning",
+  "Working on": "Jobber med",
+  "nothing": "ingenting",
+  "up to 4K": "opptil 4K",
+  "up to 1080p": "opptil 1080p",
+  "up to 720p": "opptil 720p",
+  "up to SD": "opptil SD",
+  "Remove": "Fjern",
+  "Add worker": "Legg til worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Hver worker rapporterer hva den kan (koder funnet, Whisper installert). Her bestemmer du hva den får gjøre. Endringer gjelder fra neste jobb; en jobb som kjører, fullføres først.",
+  "This machine lacks the hardware or software for this": "Denne maskinen mangler maskinvare eller programvare for dette",
+  "Quality level": "Kvalitetsnivå",
+  "Standard": "Standard",
+  "High": "Høy",
+  "Maximum": "Maksimal",
+  "Custom": "Egendefinert",
+  "Custom target": "Egendefinert mål",
+  "Average VMAF and the weakest 5% of frames.": "Gjennomsnittlig VMAF og de svakeste 5% av bildene.",
+  "avg.": "gj.sn.",
+  "Minimum saving": "Minste besparelse",
+  "If a file saves less, the original is kept.": "Hvis en fil sparer mindre, beholdes originalen.",
+  "Processing": "Behandling",
+  "Storage & safety": "Lagring og sikkerhet",
+  "How long replaced originals can be restored.": "Hvor lenge erstattede originaler kan gjenopprettes.",
+  "days": "dager",
+  "Above this, the oldest originals are deleted permanently.": "Over dette slettes de eldste originalene permanent.",
+  "Safety brake": "Sikkerhetsbrems",
+  "Encoding pauses when the NAS has less free space than this.": "Koding settes på pause når NAS har mindre ledig plass enn dette.",
+  "Scanning": "Skanning",
+  "Automatic scan": "Automatisk skanning",
+  "New files are queued automatically.": "Nye filer legges i kø automatisk.",
+  "Off": "Av",
+  "Every hour": "Hver time",
+  "Every 6 hours": "Hver 6. time",
+  "Every 12 hours": "Hver 12. time",
+  "Daily": "Daglig",
+  "Skip folders": "Ignorerte mapper",
+  "Comma-separated folder names.": "Kommaseparerte mappenavn.",
+  "Plex": "Plex",
+  "Dashboard address": "Dashbordadresse",
+  "Use the IP address of the NAS, not localhost.": "Bruk IP-adressen til NAS-en, ikke localhost.",
+  "Worker key": "Worker-nøkkel",
+  "Keep secret: with this key a worker can fetch jobs.": "Hold hemmelig: med denne nøkkelen kan en worker hente jobber.",
+  "Show": "Vis",
+  "Copy": "Kopier",
+  "Minimum requirements": "Minstekrav",
+  "Account & security": "Konto og sikkerhet",
+  "Two-factor authentication": "Tofaktorautentisering",
+  "Not active": "Ikke aktiv",
+  "New recovery codes": "Nye gjenopprettingskoder",
+  "Reset MFA": "Tilbakestill MFA",
+  "Sessions": "Økter",
+  "Sign out everywhere else": "Logg ut alle andre steder",
+  "Sign out": "Logg ut",
+  "You have unsaved changes.": "Du har endringer som ikke er lagret.",
+  "Cancel": "Avbryt",
+  "Save": "Lagre",
+  "Language": "Språk",
+  "Theme": "Tema",
+  "Light": "Lyst",
+  "Dark": "Mørkt",
+  "Auto": "Auto",
+  "Dashboard language.": "Dashbordets språk.",
+  "Auto follows your system setting.": "Auto følger systeminnstillingen din.",
+  "Reset": "Tilbakestill",
+  "Create new codes": "Opprett nye koder",
+  "Close": "Lukk",
+  "Code from your authenticator app": "Kode fra autentiseringsappen",
+  "Sign in": "Logg inn",
+  "Activate": "Aktiver",
+  "Set up two-factor authentication": "Sett opp tofaktorautentisering",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Skann QR-koden med autentiseringsappen og skriv inn den 6-sifrede koden.",
+  "Manual:": "Manuelt:",
+  "6-digit code": "6-sifret kode",
+  "123456 or recovery code": "123456 eller gjenopprettingskode",
+  "Save your recovery codes": "Lagre gjenopprettingskodene dine",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Mistet telefonen? Hver av disse kodene logger deg inn én gang. De vises bare én gang.",
+  "I have saved them": "Jeg har lagret dem",
+  "Save them now, they are shown only once.": "Lagre dem nå, de vises bare én gang.",
+  "Server not responding": "Serveren svarer ikke",
+  "Sign-in failed": "Innlogging mislyktes",
+  "Code is incorrect": "Koden er feil",
+  "Code is incorrect - check the time on your phone": "Koden er feil - sjekk klokken på telefonen",
+  "Scan started": "Skanning startet",
+  "scan already running": "skanning kjører allerede",
+  "Copied": "Kopiert",
+  "Resumed": "Gjenopptatt",
+  "Paused: a running job will finish first": "Satt på pause: en jobb som kjører, fullføres først",
+  "Added to the queue": "Lagt i køen",
+  "Not applicable": "Ikke aktuelt",
+  "At least one language": "Minst ett språk",
+  "Skip this job?": "Hoppe over denne jobben?",
+  "Restore the original? The new version will be deleted.": "Gjenopprette originalen? Den nye versjonen blir slettet.",
+  "on": "på",
+  "off": "av",
+  "Quarantine cleanup": "Opprydding i karantene",
+  "Background task": "Bakgrunnsoppgave",
+  "Planning at startup": "Planlegging ved oppstart",
+  "Welcome": "Velkommen",
+  "Next": "Neste",
+  "Previous": "Forrige",
+  "Next (or skip)": "Neste (eller hopp over)",
+  "Done, go to the overview": "Ferdig, gå til oversikten",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan gjør filmene og seriene dine mindre uten synlig forskjell, og fyller inn manglende undertekster. Originaler erstattes først etter en kvalitetskontroll, og beholdes en stund i karantene.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Seks korte trinn, så er du i gang. Du kan endre alt senere under Innstillinger.",
+  "Your library": "Biblioteket ditt",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan leter nå etter videoer i mediemappen din. Med et stort bibliotek tar den første skanningen litt tid; du kan bare fortsette.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Mapper MediaScan aldri rører, skilt med komma (f.eks. Music, Downloads).",
+  "Scan again": "Skann på nytt",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Velg språkene hver fil skal ha. MediaScan leter etter manglende språk på OpenSubtitles. Hvis det ikke lykkes, lager worker underteksten selv (talegjenkjenning og oversettelse på din egen PC).",
+  "Click a language to remove it.": "Klikk på et språk for å fjerne det.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Hver film måles med VMAF, en poengsum for hvordan bildet ser ut for det menneskelige øyet. «Høy» kan nesten ingen skille fra originalen.",
+  "Higher = better picture, less space saved.": "Høyere = bedre bilde, mindre plass spart.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Et sikkerhetsnett for korn og mørke scener. 5 Mbps er en god standard; 4K og andre oppløsninger skaleres tilsvarende.",
+  "Plex (optional)": "Plex (valgfritt)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Med Plex tilkoblet venter MediaScan med å erstatte en film mens noen ser på den, og oppdaterer Plex etter hver endring. Ingen Plex? Bare hopp over dette trinnet.",
+  "Plex address and token": "Plex-adresse og token",
+  "Plex token": "Plex-token",
+  "token (unchanged)": "token (uendret)",
+  "Add a worker": "Legg til en worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Det tunge arbeidet skjer på en PC eller Mac med et godt grafikkort: worker. Installer den nå, eller senere via Workers. Så lenge det ikke finnes noen worker, skjer det ingenting med filene dine.",
+  "✓ A worker is connected.": "✓ En worker er tilkoblet.",
+  "Done! MediaScan is set up.": "Ferdig! MediaScan er satt opp.",
+  "Connect the media share on the new machine.": "Koble til mediedelingen på den nye maskinen.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: stasjonsbokstav eller \\\\NAS\\Media · Mac: Finder › Koble til tjener · Linux: se veiledningen i pakken.",
+  "Download the package for that system and unpack it.": "Last ned pakken for det systemet og pakk den ut.",
+  "Run the installer.": "Kjør installasjonsprogrammet.",
+  "The installer asks for the details below and tests the connection.": "Installasjonsprogrammet ber om opplysningene nedenfor og tester tilkoblingen.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 eller nyere, Intel Arc eller 11. gen.+ iGPU, AMD RX 6000+ · 4 kjerner · 8 GB · 100 GB ledig · kablet nettverk. Undertekster: NVIDIA med 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (undertekster: 24 GB+) · 150 GB ledig · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Workers oppdaterer seg selv når dette dashbordet har en ny versjon.",
+  "What the workers are doing now and what is planned next.": "Hva workers gjør nå og hva som er planlagt videre.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Gjør filer mindre uten synlig kvalitetstap. Worker går gjennom køen ovenfra og ned.",
+  "select page": "velg side",
+  "select": "velg",
+  "to encode": "skal kodes",
+  "Movie": "Film",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Erstattede originaler, beholdt en stund så du kan gjenopprette dem eller få dem omkodet.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Slik jobber MediaScan: kvalitet, undertekster, lagring og sikkerhet.",
+  "General": "Generelt",
+  "Advanced": "Avansert",
+  "Connection": "Tilkobling",
+  "Hand out new encode jobs to the workers.": "Del ut nye kodejobber til workers.",
+  "Hand out new subtitle jobs to the workers.": "Del ut nye undertekstjobber til workers.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Hvor streng VMAF-målingen er. Høyere = bedre bilde, mindre plass spart.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Hvilke undertekster hver fil skal ha. Manglende søkes etter, ellers genereres de.",
+  "Go to Workers": "Gå til Workers",
+  "new": "ny",
+  "start": "start",
+  "Minimum bitrate (4K)": "Minimum bithastighet (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Egen nedre grense for 4K i stedet for 2,5 × 1080p-verdien. 0 = automatisk. HDR +15 % og animasjon ×0,6 gjelder også her.",
+  "Ready to use in a few steps.": "Klar til bruk etter noen få trinn.",
+  "next": "neste",
+  "read error": "lesefeil",
+  "MFA is already enabled": "MFA er allerede aktivert",
+  "a .mkv with that name already exists": "en .mkv med det navnet finnes allerede",
+  "a file already exists at the original location": "en fil finnes allerede på den opprinnelige plasseringen",
+  "action not possible in this status": "handlingen er ikke mulig i denne statusen",
+  "walking folders": "går gjennom mapper",
+  "planning jobs": "planlegger jobber",
+  "check on the NAS rejected (duration/tracks)": "kontroll på NAS avvist (varighet/spor)",
+  "expected a JSON object": "forventet et JSON-objekt",
+  "ffprobe error": "ffprobe-feil",
+  "invalid resolution": "ugyldig oppløsning",
+  "invalid worker token": "ugyldig worker-token",
+  "job belongs to another worker": "jobben tilhører en annen worker",
+  "job is no longer active": "jobben er ikke lenger aktiv",
+  "no video track": "ikke noe videospor",
+  "not JSON": "ikke JSON",
+  "not signed in": "ikke logget inn",
+  "original disappeared": "originalen forsvant",
+  "original has changed in the meantime": "originalen er endret i mellomtiden",
+  "original is no longer in quarantine": "originalen er ikke lenger i karantene",
+  "original no longer available": "originalen er ikke lenger tilgjengelig",
+  "request refused": "forespørselen ble avvist",
+  "target file already exists": "målfilen finnes allerede",
+  "the original has already been removed from quarantine - comparing is no longer possible": "originalen er allerede fjernet fra karantenen - sammenligning er ikke lenger mulig",
+  "this film has not been replaced yet": "denne filmen er ikke erstattet ennå",
+  "unknown action": "ukjent handling",
+  "worker is still online": "worker er fortsatt online",
+  "In use now:": "I bruk nå:",
+  "longest": "lengst",
+  "8.1 (from profile 7)": "8.1 (fra profil 7)",
+  "Whisper (transcription)": "Whisper (transkribering)",
+  "1 day ago": "1 dager siden",
+  "1 video": "1 videoer",
+  "Enter your password to open the dashboard.": "Skriv inn passordet ditt for å åpne dashbordet.",
+  "No connection to the server - retrying…": "Ingen kontakt med serveren - prøver igjen…",
+  "Are you sure?": "Er du sikker?",
+  "Restore": "Gjenopprett",
+  "Re-encode": "Kod på nytt",
+  "Delete": "Slett",
+  "Next up": "Neste",
+  "in the queue": "i køen",
+  "Load older entries": "Last inn eldre oppføringer",
+  "Folder: all": "Mappe: alle",
+  "Resolution: all": "Oppløsning: alle",
+  "Codec: all": "Kodek: alle",
+  "More": "Mer",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "film(er) venter på CPU-koderen, men ingen worker har CPU-koding slått på (siden Workers).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Maskinvaren din, hvor godt den passer til arbeidet, verktøyene som brukes og hvordan innstillingene virker.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Minne",
+  "Software": "Programvare",
+  "GPU encoding": "GPU-koding",
+  "CPU encoding (x265)": "CPU-koding (x265)",
+  "Subtitles (Whisper)": "Undertekster (Whisper)",
+  "Translation (Ollama)": "Oversettelse (Ollama)",
+  "Server": "Server",
+  "Database": "Database",
+  "Tools in use": "Verktøy i bruk",
+  "Knowledge base": "Kunnskapsbase",
+  "Low": "Lav",
+  "Medium": "Middels",
+  "Ultra": "Ultra",
+  "files": "filer",
+  "up": "oppe",
+  "of": "av",
+  "uses": "bruker",
+  "free": "ledig",
+  "Media share": "Mediedeling",
+  "Rating": "Vurdering",
+  "Hardware details appear after this worker has updated itself.": "Maskinvaredetaljer vises når denne workeren har oppdatert seg.",
+  "no Whisper": "ingen Whisper",
+  "unified memory": "delt minne",
+  "cores": "kjerner",
+  "threads": "tråder",
+  "driver": "driver",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Ukjent",
+  "Settings saved": "Innstillinger lagret",
+  "Time left": "Tid igjen",
+  "Queued": "I kø",
+  "Keep originals for": "Behold originaler i",
+  "Quarantine size limit": "Størrelsesgrense for karantene",
+  "Hide finished items": "Skjul fullførte",
+  "Undo skip": "Angre hopp over",
+  "not supported here": "ikke støttet her",
+  "CPU encoding": "CPU-koding",
+  "Retry on CPU (x265)": "Prøv igjen på CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Kodet på CPU-en med x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 med grain-innstilling på workerens CPU: bevarer filmkorn langt mer effektivt, men tar timer per film",
+  "CPU fallback for grainy films": "CPU-reserve for kornete filmer",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Når GPU-en ikke kan holde kvaliteten uten å overskride kildens bitrate (filmkorn), kodes filmen en gang til på CPU-en til en worker med x265, som bevarer korn langt mer effektivt. Tar timer per film; slå på CPU-koding for en worker på siden Workers.",
+  "CPU preset": "CPU-forvalg",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: omtrent 2 timer for en 2 timer lang 1080p-film på 8 kjerner. Slow: 2-3 ganger lengre for omtrent 5-10% mindre filer.",
+  "Medium (faster)": "Medium (raskere)",
+  "Slow (smaller)": "Slow (mindre)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Kunne ikke laste denne siden.",
+  "up to 1440p": "opptil 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "analyserer filer",
+  "No worker has CPU encodes switched on (Workers page)": "Ingen worker har CPU-koding slått på (siden Workers)",
+  "the job changed in the meantime": "jobben ble endret i mellomtiden",
+  "Main": "Hovednavigasjon",
+  "Clear search and filters": "Tøm søk og filtre",
+  "Compact rows": "Kompakte rader",
+  "Encoding and subtitles are paused.": "Koding og undertekster er satt på pause.",
+  "Encoding is paused: no new encode jobs are handed out.": "Koding er satt på pause: ingen nye kodejobber deles ut.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Undertekster er satt på pause: ingen nye undertekstjobber deles ut.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Skriv inn både Plex-adressen og tokenet, eller la begge stå tomme for å hoppe over.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Ledig plass på NAS er under sikkerhetsbremsen. Koding ble satt på pause automatisk.",
+  "Loading…": "Laster…",
+  "Next film": "Neste film",
+  "Previous film": "Forrige film",
+  "Next page": "Neste side",
+  "Previous page": "Forrige side",
+  "Rows per page": "Rader per side",
+  "Resume": "Fortsett",
+  "Resume encoding": "Fortsett koding",
+  "Resume subtitles": "Fortsett undertekster",
+  "Open settings": "Åpne innstillinger",
+  "Open the library": "Åpne biblioteket",
+  "Subtitle languages": "Undertekstspråk",
+  "Update": "Oppdater",
+  "No results for this search or filter.": "Ingen treff for dette søket eller filteret.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Ingenting i kø for koding. Nye filer legges i kø etter en skanning.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Ingen filer er erstattet ennå. Ferdige kodinger vises her etter kvalitetskontrollen.",
+  "No files were kept as they are. Films that would save too little end up here.": "Ingen filer er beholdt som de er. Filmer som ville spart for lite, ender her.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Ingen undertekster venter. Filer som mangler et språk, legges i kø etter en skanning.",
+  "No subtitle job is running right now.": "Ingen undertekstjobb kjører akkurat nå.",
+  "No subtitles have been made yet.": "Ingen undertekster er laget ennå.",
+  "Nothing missing: every file got its subtitles so far.": "Ingenting mangler: alle filer har fått undertekstene sine så langt.",
+  "No failed encodes.": "Ingen mislykkede kodinger.",
+  "No failed subtitle jobs.": "Ingen mislykkede undertekstjobber.",
+  "Nothing was added in the last 14 days.": "Ingenting er lagt til de siste 14 dagene.",
+  "No videos with this plan.": "Ingen videoer med denne planen.",
+  "The library is being scanned; videos appear as they are found.": "Biblioteket skannes; videoer vises etter hvert som de blir funnet.",
+  "No videos found yet. Check the media folder and run a scan.": "Ingen videoer funnet ennå. Sjekk mediemappen og kjør en skanning.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Ingenting i karantene. Erstattede originaler beholdes her til oppbevaringstiden er over.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Ingen DVD- eller Blu-ray-mapper (VIDEO_TS, BDMV) ble funnet i biblioteket.",
+  "1 worker online": "1 worker online",
+  "A worker is busy with this file": "En worker jobber med denne filen",
+  "A worker is grabbing the frames": "En worker henter bildene",
+  "A worker is searching or making subtitles": "En worker søker etter eller lager undertekster",
+  "A worker picks up the next job within a few seconds.": "En worker tar neste jobb innen få sekunder.",
+  "Above this, the oldest comparisons are deleted automatically.": "Over dette slettes de eldste sammenligningene automatisk.",
+  "All replaced films": "Alle erstattede filmer",
+  "Already efficient: encoding would hardly save anything": "Allerede effektiv: koding ville knapt spare noe",
+  "Automatic comparisons": "Automatiske sammenligninger",
+  "Being made…": "Lages…",
+  "Can be made": "Kan lages",
+  "Can encode on the CPU with x265": "Kan kode på CPU-en med x265",
+  "Comparison storage limit": "Lagringsgrense for sammenligninger",
+  "Comparisons": "Sammenligninger",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: ikke omkodet, DV-laget ville gå tapt",
+  "Encoding is paused.": "Koding er satt på pause.",
+  "Enlarge": "Forstørr",
+  "Errors": "Feil",
+  "Flip": "Bytt",
+  "Four frames of the original and the new version are stored": "Fire bilder fra originalen og den nye versjonen er lagret",
+  "Full width": "Full bredde",
+  "GPU encoder found": "GPU-koder funnet",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Hent fire bilder fra originalen og den nye versjonen for hver erstattet film, slik at du alltid kan sjekke bildet på siden Sammenlign. Ca. 1–2 MB per film.",
+  "Keyboard shortcuts": "Hurtigtaster",
+  "Leave without saving? Your changes to the settings will be lost.": "Forlate uten å lagre? Endringene dine i innstillingene går tapt.",
+  "Moved to the front": "Flyttet fremst",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Ingen sammenligninger ennå. Lag en mens originalen fortsatt er i karantene, eller slå på automatiske sammenligninger i Innstillinger.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Ingen film kan sammenlignes akkurat nå: originalene har forlatt karantenen, eller ingenting er erstattet ennå.",
+  "No longer possible": "Ikke lenger mulig",
+  "No subtitles found online and none could be made": "Ingen undertekster funnet på nett, og ingen kunne lages",
+  "Ollama found: can translate subtitles": "Ollama funnet: kan oversette undertekster",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Del av en DVD- eller Blu-ray-mappe; konverter den på siden DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Satt på pause automatisk: NAS-en har mindre ledig plass enn sikkerhetsbremsen.",
+  "Planned for encoding": "Planlagt for koding",
+  "Queued for the CPU encoder": "I kø for CPU-koderen",
+  "Replaced after the quality check; the original is in quarantine for a while": "Erstattet etter kvalitetskontrollen; originalen er i karantene en stund",
+  "Replaced films appear here after their first encode.": "Erstattede filmer vises her etter første koding.",
+  "Search the log…": "Søk i loggen…",
+  "Show films that can be compared": "Vis filmer som kan sammenlignes",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Vis originalen og den nye versjonen etter tur: den beste måten å se korn og detaljer",
+  "Skipped": "Hoppet over",
+  "Skipped by you; Retry puts it back in the queue": "Hoppet over av deg; «Prøv igjen» setter den tilbake i køen",
+  "Slider back to the middle": "Glidebryter tilbake til midten",
+  "Smaller": "Mindre",
+  "Stopped because the file changed or disappeared": "Stoppet fordi filen ble endret eller forsvant",
+  "Stopped with an error; see the message and try again": "Stoppet med en feil; se meldingen og prøv igjen",
+  "Subtitles are paused.": "Undertekster er satt på pause.",
+  "The file could not be read; see the drawer": "Filen kunne ikke leses; se sidepanelet",
+  "The new file would save less than the minimum saving, so the original was kept": "Den nye filen ville spare mindre enn minste besparelse, så originalen ble beholdt",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Den nye versjonen ligger på NAS-en og byttes inn så snart ingen ser på",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Originalen har forlatt karantenen, så bildene kan ikke lenger hentes",
+  "The original is still in quarantine, so the frames can still be grabbed": "Originalen er fortsatt i karantene, så bildene kan fortsatt hentes",
+  "The original was put back from quarantine": "Originalen ble gjenopprettet fra karantenen",
+  "The queue is empty. New files are queued after a scan.": "Køen er tom. Nye filer settes i kø etter en skanning.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Serveren deler ut nyere worker-filer; workeren installerer dem etter gjeldende jobb",
+  "Undo": "Angre",
+  "Waiting for Plex: someone is watching this film": "Venter på Plex: noen ser på denne filmen",
+  "Waiting for a worker; the queue runs from top to bottom": "Venter på en worker; køen kjøres fra topp til bunn",
+  "Warnings": "Advarsler",
+  "Whisper installed: can make subtitles": "Whisper installert: kan lage undertekster",
+  "Would save less than the minimum saving": "Ville spare mindre enn minste besparelse",
+  "expires today": "utløper i dag",
+  "expires within a day": "utløper innen en dag",
+  "less than a day left": "under en dag igjen",
+  "waiting for Plex": "venter på Plex",
+  "update pending": "oppdatering venter",
+  "Tap to switch between original and new": "Trykk for å bytte mellom original og ny",
+  "Repeated": "Gjentatt",
+  "Search in the current list": "Søk i gjeldende liste",
+  "Clear the search, close a drawer or dialog": "Tøm søket, lukk et panel eller en dialog",
+  "Previous or next film on a comparison": "Forrige eller neste film i en sammenligning",
+  "Open or switch the focused row, switch or header": "Åpne eller bytt den fokuserte raden, bryteren eller overskriften",
+  "This list": "Denne listen",
+  "Nothing in the log matches this.": "Ingenting i loggen samsvarer med dette.",
+  "Nothing has happened yet.": "Ingenting har skjedd ennå.",
+  "No worker is online, so nothing can run.": "Ingen worker er på nett, så ingenting kan kjøre.",
+  "There is no worker yet. Add one to get started.": "Det finnes ingen worker ennå. Legg til en for å komme i gang.",
+  "Open Workers": "Åpne Workers",
+  "Some values are out of range.": "Noen verdier er utenfor området.",
+  "no capabilities reported": "ingen funksjoner rapportert",
+  "Replaced · expires": "Erstattet · utløper",
+  "Made": "Laget",
+  "Make": "Lag",
+  "lots of motion": "mye bevegelse",
+  "dark scene": "mørk scene",
+  "a quarter in": "en fjerdedel inn",
+  "three quarters in": "tre fjerdedeler inn",
+  "Encoded": "Kodet",
+  "Finished": "Avsluttet",
+  "later": "senere",
+  "Leave": "Forlat",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "En sammenligning tar 4 bilder fra originalen og den nye versjonen (totalt ca. 1–2 MB). Den kan lages så lenge originalen fortsatt er i karantene, og blir værende til du sletter den, også etter at originalen er borte.",
+  "Retry on CPU": "Prøv igjen på CPU",
+  "Scan": "Skanning"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1start$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Nå: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan fant $1 videoer ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · svakeste 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "svakeste 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Ny ($1 dager)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Plan: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Utskifting mislyktes ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} mislyktes{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Skanning ferdig: $1 videoer, $2 nye, $3 endret, $4 borte; $5 kode- og $6 undertekstjobber lagt til"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Skanning ferdig: $1 videoer, $2 nye, $3 endret, $4 borte, $5 i ignorerte mapper; $6 kode- og $7 undertekstjobber lagt til"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Omkode $1 film(er) med gjeldende regler? Originalene gjenopprettes, og filmene får prioritet i køen."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 film(er) tilbake i køen{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 original(er) gjenopprettet og lagt i kø på nytt (gjeldende regler)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Ny: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Erstattet: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray konvertert: $1 ($2 GB); platemappen er i karantene"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Original gjenopprettet: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 startet {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 jobb(er) (alle $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Utvalg delt ut - koding satt på pause automatisk"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Utvalg delt ut - undertekster satt på pause automatisk"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Innstillinger endret: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Jobb $1 feil: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Jobb $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 frakoblet: $2 jobb(er) tilbake i køen"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 startet på nytt: $2 avbrutte jobb(er) tilbake i køen"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 oppdatert til $2: $3 mislykkede jobb(er) tilbake i køen"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 fjernet"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: koding {t:$2}, undertekster {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Planlegging oppdatert: $1 kode- og $2 undertekstjobber lagt til"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 jobb(er) lagt i kø manuelt"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 jobb(er): $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 sammenligning(er) slettet"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Logget ut av $1 andre økt(er)"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Gjenopprettingskode brukt til innlogging ($1 igjen)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Originaler beholdes i maksimalt $1 dager og til sammen aldri mer enn $2. De eldste går først. Gjenoppretting sletter den nye versjonen."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - klikk for å fjerne"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 mappe(r) konverteres · worker starter innen et halvt minutt"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 lyd · $2 undertekster"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Slette $1 sammenligning(er)? Selve filmene forblir uendret."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Bilde $1 · ved $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Bilde $1 · ved $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB som jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Kodetid $1 min · målt på 8 fragmenter, deretter kontrollert over hele filmen."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Finnes nå: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "svakeste 5% $1 · norm $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "timing $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Kunne ikke lage bilder: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "utvalg · neste"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "utvalg · nr. $1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Nå:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· deretter $1 til fra utvalget"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "anslag · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 fullført tidligere · vis"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 lagt til i utvalget · worker starter innen noen sekunder"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Utvalg {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "laget: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% mindre$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "akkurat nå"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 min siden"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 t siden"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 dager siden"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "sett {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 d $2 t"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 t $2 m"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 videoer"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "karantene $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 per 24 t"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 gevinst"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB gevinst"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% mindre på behandlede filer"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 tilkoblet"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "$1 til å starte, deretter pause"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 elementer · side $2 av $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 valgt"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Velg alle $1 resultater"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Skanner: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× forsøkt"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 min"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Aktiv · $1 gjenopprettingskode(r) igjen"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 aktiv(e) økt(er), inkludert denne."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 oppdatert{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 andre økt(er) logget ut"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Behandle bare disse $1? De får prioritet, behandlingen gjenopptas og settes på pause igjen automatisk etterpå."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Hoppe over $1 jobb(er)?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Gjenopprette $1 original(er)? De nye versjonene blir slettet."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Fjerne worker $1 fra listen? Hvis den kommer tilbake, dukker den opp igjen automatisk."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "kjører i $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 igjen"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "opptil $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "jobber med"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex tilkoblet (versjon $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex svarer ikke riktig: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "feil: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "erstatning mislyktes: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "ugyldig verdi for $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 må være mellom $2 og $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · dårligste 5 % $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 t"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU-en kunne ikke holde kvaliteten - i kø for CPU-koderen (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Staging-opprydding: rest fjernet $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 per side"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 workers online"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · legge til worker, worker-nøkkelen og nedlastingene finner du på Workers-siden."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · starter om ~{t:$2} · anslag"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · anslag"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 dager igjen"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "utløper om $1 dager"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Laget · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Kan lages · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · steg $1 av $2 · ~{t:$3} igjen"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · steg $1 av $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · ~{t:$1} igjen"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 sammenligning(er) bestilt · klare innen få minutter"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Lage $1 sammenligning(er)? Ca. 1–2 MB hver."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Gjentatt $1 ganger"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "mellom $1 og $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 jobb(er)"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Feil i $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 sammenligning(er) bestilt"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Sammenligninger ryddet: $1 fjernet (over $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Karantenemappen omdøpt til quarantine ($1 post(er) oppdatert)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 fjernet: $2 jobb(er) tilbake i køen"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Karantene: $1 finnes allerede, $2 ble latt stå"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Karantenemappen omdøpt til quarantine; $1 post(er) oppdatert, men $2 er ikke tom enda"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Omdøping av karantenemappen mislyktes (er mediedelingen montert?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "ny versjon mangler i staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "ny .mkv mangler i staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "originalen er forsvunnet"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "originalen er endret i mellomtiden"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "originalen er ikke lenger tilgjengelig"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "kontroll på NAS-en avvist (varighet/spor)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray konvertert til mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "nytt forsøk etter worker-oppdatering"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "hoppet over av deg"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "målfilen finnes allerede"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker frakoblet - planlagt på nytt"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker fjernet - planlagt på nytt"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker startet på nytt - planlagt på nytt"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "utskifting mislyktes: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision mangler i den nye mkv-en"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: ikke omkodet (DV-laget ville gått tapt)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "en strøm kan ikke kopieres til .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg gjorde ingen fremgang på $1 minutter (delingen utilgjengelig?) - stoppet"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 av $2 filer mangler på én gang - delingen utilgjengelig? Ingenting markert som forsvunnet"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "oversettelsen mislyktes: ingen brukbar respons for $1 linje(r) etter nye forsøk"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: serverfeil"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - hent modellen (ollama pull <model>) eller rett ollama_model i worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama er ikke tilgjengelig på $1 ($2) - start Ollama eller sjekk ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama utilgjengelig: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama fortsatte å feile i $2 minutter"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 tok mer enn en time - er mediedelingen fortsatt tilgjengelig?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 mangler; installer det $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF hele filmen $1 ikke plausibel med noen parringsmetode (prøver $2); lav ved $3. Originalen beholdt; sjekk kilden der"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: kan ikke lese filen"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: mislyktes"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "ikke nok ledig plass på PC-en til denne filmen ($1 GB trengs i $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "ikke nok plass i arbeidsmappen: $1 GB ledig, ~$2 GB trengs"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "med minimum bitrate maksimalt $1% mindre"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "trekker ut metadata fra forbedringslaget"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "nedlastingen stemmer ikke (sha256) - brukes ikke"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "kontroll: varighet eller antall strømmer avviker"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "ny mkv er for kort ($1 av $2 min)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 av $2 ferdig, venter på en worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "konverterer Dolby Vision til profil 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "setter inn metadata i baselaget"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "kontrollerer VMAF (andre måling)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "ingen innstilling når kvalitetsmålet"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "nedlastingsgrensen nådd - resten senere"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "OpenSubtitles' daglige grense nådd"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "delvis; resten etter nedlastingsgrensen"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 ble ikke funnet etter nedlasting"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: oppdaget talespråk"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (oversatt fra $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "venter på ledig plass på PC-en"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "undertekstfilen er uventet stor"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "selvtestens måling er upålitelig"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "oversettelsesforsøk $1 mislyktes"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "venter: blir sett i Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "forventet bare $1% mindre"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "laster ned $1 (engangs)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "kontroll av hele filmen under målet"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "kan ikke hente et bilde ved $1 s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "hele filmen rett under målet"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "finner filmen på platen"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "kvalitetsmålet er ikke oppnåelig"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "kontrollmålingen er upålitelig"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "ugyldig sti fra serveren"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "igjen: minste gevinst nå 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper kjører på GPU-en"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "ingen titler funnet på DVD-en"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "mistenkelig sti i arkivet"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "venter: Plex utilgjengelig"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "jobber med $1 av $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles er utilgjengelig"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (transkribering)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "kontrollerer VMAF hele filmen"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "ferdig, venter på erstatning"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "gammel mappe til karantene"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "kontroll VMAF $1 for lav"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "leser platen (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "oversatt fra engelsk"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "ferdig ($1 av $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "lydutvinning mislyktes"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "faller tilbake til CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles innlogget"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (fra profil 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "venter på worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "mistenkelig sti i zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "innebygd EN kan ikke leses"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "lengste så langt: tittel"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "timingen stemmer ikke"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "bare $1% mindre"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "fragment $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "beholder originalen"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "nedlastinger igjen i dag"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "tittel $1 sjekket"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "venter på erstatning"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "kopierer til NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "beholder originalen"
+  ],
+  [
+   "translation failed",
+   "g",
+   "oversettelsen mislyktes"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "serveren er utilgjengelig"
+  ],
+  [
+   "searching quality",
+   "g",
+   "søker kvalitet"
+  ],
+  [
+   "making references",
+   "g",
+   "lager referanser"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "konverterer til mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "undertekster stoppet"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "kopierer NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "kopierer PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "finner filmen"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "slår sammen til mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "lengste spilleliste"
+  ],
+  [
+   "timing reference",
+   "g",
+   "timing-referanse"
+  ],
+  [
+   "speech segments",
+   "g",
+   "talesegmenter"
+  ],
+  [
+   "too little gain",
+   "g",
+   "for liten gevinst"
+  ],
+  [
+   " not applicable",
+   "g",
+   " ikke aktuelt"
+  ],
+  [
+   "download failed",
+   "g",
+   "nedlastingen mislyktes"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "etter ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "oversetter til"
+  ],
+  [
+   "next candidate",
+   "g",
+   "neste kandidat"
+  ],
+  [
+   "after shifting",
+   "g",
+   "etter forskyvning"
+  ],
+  [
+   "reading audio",
+   "g",
+   "leser lyd"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Utvalg · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 venter"
+  ],
+  [
+   "search failed",
+   "g",
+   "søket mislyktes"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "omkoder"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "tittel $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " feil"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 ferdig"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "undertekster:"
+  ],
+  [
+   "replacing",
+   "g",
+   "erstatter"
+  ],
+  [
+   "subtitles",
+   "g",
+   "undertekster"
+  ],
+  [
+   "candidate",
+   "g",
+   "kandidat"
+  ],
+  [
+   "encoding:",
+   "g",
+   "koding:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "start"
+  ],
+  [
+   "encoding",
+   "g",
+   "koder"
+  ],
+  [
+   "checking",
+   "g",
+   "kontrollerer"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", opptil "
+  ],
+  [
+   "present",
+   "g",
+   "finnes"
+  ],
+  [
+   "missing",
+   "g",
+   "mangler"
+  ],
+  [
+   "speed",
+   "g",
+   "hastighet"
+  ],
+  [
+   "saved",
+   "g",
+   "lagret"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU-en kunne ikke holde kvaliteten - i kø for CPU-koderen (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Staging-opprydding: rest fjernet"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "mediemappen er tom eller ikke montert - ingenting endret"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "å holde kvaliteten ville kreve høyere bitrate enn kilden har"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "krever høyere bitrate enn kilden"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "workeren starter på nytt for en oppdatering"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "ingen videostrøm (bare omslagsbilde?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "ingen lydstrøm å transkribere"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "ikke nok ledig plass på PC-en til denne filmen"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "prøver igjen på CPU-en (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "går gjennom mapper"
+  ],
+  [
+   "analysing files",
+   "g",
+   "analyserer filer"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "planlegger jobber"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU-koding på"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU-koding av"
+  ]
+ ]
+}

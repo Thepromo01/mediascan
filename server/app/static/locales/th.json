@@ -1,0 +1,2060 @@
+{
+ "name": "ไทย",
+ "s": {
+  "Re-encode from original": "เข้ารหัสใหม่จากต้นฉบับ",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "เข้ารหัสใหม่ด้วยกฎปัจจุบันหรือไม่? ต้นฉบับจะถูกกู้คืนและภาพยนตร์จะได้รับความสำคัญก่อน",
+  "Back in the queue": "กลับเข้าคิว",
+  "Restore originals": "กู้คืนต้นฉบับ",
+  "Minimum bitrate (1080p)": "บิตเรตขั้นต่ำ (1080p)",
+  "Extra floor (share of the source)": "ขั้นต่ำเพิ่มเติม (สัดส่วนของต้นฉบับ)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "ไม่บังคับ: คงบิตเรตวิดีโอไว้อย่างน้อยตามสัดส่วนนี้ของต้นฉบับด้วย มีประโยชน์เฉพาะกับต้นฉบับที่บิตเรตสูงมาก 0 = ปิด",
+  "with the minimum bitrate at most": "เมื่อใช้บิตเรตขั้นต่ำ เล็กลงได้สูงสุด",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "ไฟล์ใหม่จะไม่ต่ำกว่านี้ แม้ VMAF จะยอมรับก็ตาม ความละเอียดอื่นปรับตามสัดส่วน: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · แอนิเมชัน ×0.6",
+  "bitrate already near the minimum": "บิตเรตใกล้ค่าขั้นต่ำแล้ว",
+  "MFA reset from settings - set it up again": "รีเซ็ต MFA จากการตั้งค่าแล้ว - โปรดตั้งค่าใหม่",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "รีเซ็ต MFA ผ่าน MFA_RESET แล้ว - โปรดลบ MFA_RESET ออกจากการตั้งค่าคอนเทนเนอร์",
+  "MFA enabled": "เปิดใช้ MFA แล้ว",
+  "MediaScan started": "MediaScan เริ่มทำงานแล้ว",
+  "New recovery codes created": "สร้างรหัสกู้คืนใหม่แล้ว",
+  "Password changed; other sessions signed out": "เปลี่ยนรหัสผ่านแล้ว เซสชันอื่นถูกออกจากระบบ",
+  "Password set (first time)": "ตั้งรหัสผ่านแล้ว (ครั้งแรก)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "หมายเหตุ: ADMIN_PASSWORD สั้นกว่า 10 ตัวอักษร - โปรดเลือกรหัสผ่านที่รัดกุมกว่านี้ในการตั้งค่า",
+  "part of a DVD/Blu-ray folder": "เป็นส่วนหนึ่งของโฟลเดอร์ DVD/Blu-ray",
+  "folder is in Skip folders": "โฟลเดอร์อยู่ในรายการข้ามโฟลเดอร์",
+  "file disappeared": "ไฟล์หายไป",
+  "worker restarted - rescheduled": "worker รีสตาร์ท - จัดกำหนดการใหม่",
+  "worker offline - rescheduled": "worker ออฟไลน์ - จัดกำหนดการใหม่",
+  "retry after worker update": "ลองใหม่หลังอัปเดต worker",
+  "dvd/blu-ray converted to mkv": "แปลง dvd/blu-ray เป็น mkv แล้ว",
+  "skipped by you": "คุณข้ามไว้",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "การแทนที่จะรอขณะที่มีคนกำลังดูภาพยนตร์ และ Plex จะรีเฟรชหลังทุกการเปลี่ยนแปลง",
+  "Confirm with your password and a code from your app.": "ยืนยันด้วยรหัสผ่านและรหัสจากแอปของคุณ",
+  "Your old recovery codes will stop working.": "รหัสกู้คืนเดิมจะใช้ไม่ได้อีก",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "ลิงก์แอปยืนยันตัวตนและรหัสกู้คืนปัจจุบันจะใช้ไม่ได้อีก คุณจะต้องตั้งค่า MFA ใหม่ทันที",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "เลือกรหัสผ่านสำหรับแดชบอร์ด รหัสตั้งค่าอยู่ในล็อกของคอนเทนเนอร์ (Container Manager › mediascan › Log หรือ",
+  "- click to remove": "- คลิกเพื่อลบ",
+  "Invalid address, e.g. http://192.168.1.10:32400": "ที่อยู่ไม่ถูกต้อง เช่น http://192.168.1.10:32400",
+  "Enter a Plex token": "ป้อน token ของ Plex",
+  "A password has already been set": "ตั้งรหัสผ่านไว้แล้ว",
+  "The key is fixed in WORKER_TOKEN (container environment)": "คีย์ถูกกำหนดไว้ใน WORKER_TOKEN (environment ของคอนเทนเนอร์)",
+  "selection still running - pause or wait until it is done": "รายการที่เลือกยังทำงานอยู่ - หยุดชั่วคราวหรือรอจนเสร็จ",
+  "Now running": "กำลังทำงาน",
+  "Finding the film on the disc": "กำลังค้นหาภาพยนตร์บนแผ่น",
+  "Converting to one .mkv": "กำลังแปลงเป็น .mkv ไฟล์เดียว",
+  "Checking (duration, tracks)": "กำลังตรวจสอบ (ความยาว, แทร็ก)",
+  "Copying to the NAS": "กำลังคัดลอกไปยัง NAS",
+  "Old folder to quarantine": "ย้ายโฟลเดอร์เดิมไปที่กักกัน",
+  "worker has not reported for a while": "worker ไม่ได้รายงานมาสักพักแล้ว",
+  "waiting for the worker": "กำลังรอ worker",
+  "Welcome to MediaScan": "ยินดีต้อนรับสู่ MediaScan",
+  "Setup code": "รหัสตั้งค่า",
+  "New password (at least 10 characters)": "รหัสผ่านใหม่ (อย่างน้อย 10 ตัวอักษร)",
+  "Repeat password": "ยืนยันรหัสผ่าน",
+  "Set password": "ตั้งรหัสผ่าน",
+  "The passwords do not match": "รหัสผ่านไม่ตรงกัน",
+  "Setup code is wrong - check the container log": "รหัสตั้งค่าไม่ถูกต้อง - ตรวจสอบล็อกของคอนเทนเนอร์",
+  "Choose a password of at least 10 characters": "เลือกรหัสผ่านอย่างน้อย 10 ตัวอักษร",
+  "Animation folders": "โฟลเดอร์แอนิเมชัน",
+  "Top-level folders with animation: these may use a lower bitrate.": "โฟลเดอร์ระดับบนสุดที่มีแอนิเมชัน: ใช้บิตเรตต่ำกว่าได้",
+  "Where do I find the token?": "หา token ได้ที่ไหน?",
+  "Connect": "เชื่อมต่อ",
+  "Disconnect": "ยกเลิกการเชื่อมต่อ",
+  "Connected": "เชื่อมต่อแล้ว",
+  "Not connected": "ไม่ได้เชื่อมต่อ",
+  "+ Add language": "+ เพิ่มภาษา",
+  "Renew": "ต่ออายุ",
+  "Worker version": "เวอร์ชัน worker",
+  "Password": "รหัสผ่าน",
+  "Other sessions are signed out after a change.": "เซสชันอื่นจะถูกออกจากระบบหลังการเปลี่ยนแปลง",
+  "Change password": "เปลี่ยนรหัสผ่าน",
+  "Other sessions will be signed out.": "เซสชันอื่นจะถูกออกจากระบบ",
+  "Change": "เปลี่ยน",
+  "New worker key": "คีย์ worker ใหม่",
+  "Create new key": "สร้างคีย์ใหม่",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "worker ทั้งหมดจะหยุดจนกว่าคุณจะป้อนคีย์ใหม่ (เรียกใช้ตัวติดตั้งอีกครั้งหรือแก้ไข worker.ini)",
+  "Repeat new password": "ยืนยันรหัสผ่านใหม่",
+  "Password changed": "เปลี่ยนรหัสผ่านแล้ว",
+  "New worker key created": "สร้างคีย์ worker ใหม่แล้ว",
+  "Disconnect Plex?": "ยกเลิกการเชื่อมต่อ Plex?",
+  "Plex disconnected": "ยกเลิกการเชื่อมต่อ Plex แล้ว",
+  "Plex connected": "เชื่อมต่อ Plex แล้ว",
+  "Incorrect password": "รหัสผ่านไม่ถูกต้อง",
+  "Incorrect code": "รหัสไม่ถูกต้อง",
+  "Incorrect code from your authenticator app": "รหัสจากแอปยืนยันตัวตนไม่ถูกต้อง",
+  "Too many attempts - try again in 15 minutes": "พยายามหลายครั้งเกินไป - ลองอีกครั้งใน 15 นาที",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "โฟลเดอร์ที่มี VIDEO_TS หรือ BDMV การแปลงจะรวมเป็น .mkv ไฟล์เดียวพร้อมวิดีโอ เสียง คำบรรยาย และบททั้งหมด",
+  "Convert to MKV": "แปลงเป็น MKV",
+  "Folder": "โฟลเดอร์",
+  "Type": "ประเภท",
+  "found": "พบแล้ว",
+  "queued": "อยู่ในคิว",
+  "converting…": "กำลังแปลง…",
+  "converted": "แปลงแล้ว",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "การแปลงจะคัดลอกทุกอย่างแบบ 1:1 ลงใน .mkv ไฟล์เดียว: วิดีโอ (รวม HDR) แทร็กเสียงทั้งหมด คำบรรยาย และบท สำหรับ DVD จะเลือกไตเติลที่ยาวที่สุด (ตัวภาพยนตร์) โฟลเดอร์เดิมจะย้ายไปที่กักกัน คุณจึงกู้คืนได้ จากนั้น .mkv จะผ่านการเข้ารหัสและคำบรรยายตามปกติ Blu-ray แบบ Dolby Vision จะกลายเป็น Dolby Vision profile 8.1 (เลเยอร์ฐาน 1:1 เพิ่ม metadata DV): Plex และทีวีของคุณจะเล่นเป็น Dolby Vision ส่วนเครื่องเล่นอื่นเล่นเป็น HDR10 ภาพยนตร์ลักษณะนี้จะไม่ถูกเข้ารหัสใหม่ภายหลัง เพราะจะสูญเสีย Dolby Vision",
+  "Compare": "เปรียบเทียบ",
+  "Delete comparison": "ลบการเปรียบเทียบ",
+  "Comparison deleted": "ลบการเปรียบเทียบแล้ว",
+  "comparison": "การเปรียบเทียบ",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "ต้นฉบับเทียบกับเวอร์ชันใหม่: ขนาด คุณภาพ ภาพ และคำบรรยาย คุณเลือกภาพยนตร์ได้เอง",
+  "Original → new": "ต้นฉบับ → ใหม่",
+  "Quality (VMAF)": "คุณภาพ (VMAF)",
+  "Comparison": "การเปรียบเทียบ",
+  "View": "ดู",
+  "Make comparison": "สร้างการเปรียบเทียบ",
+  "previous attempt failed": "ครั้งก่อนล้มเหลว",
+  "Back": "กลับ",
+  "Make again": "สร้างอีกครั้ง",
+  "New": "ใหม่",
+  "VMAF whole film": "VMAF ทั้งเรื่อง",
+  "Making the frames… this usually takes less than a minute.": "กำลังสร้างเฟรม… โดยปกติใช้เวลาไม่ถึงหนึ่งนาที",
+  "There is no picture comparison for this film yet.": "ยังไม่มีการเปรียบเทียบภาพสำหรับภาพยนตร์เรื่องนี้",
+  "Picture · drag across the image": "ภาพ · ลากผ่านภาพ",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR ถูกแปลงเป็น SDR สำหรับมุมมองนี้ ทีวีของคุณจะแสดงเป็น HDR",
+  "How the setting was chosen": "วิธีเลือกการตั้งค่า",
+  "Step": "ขั้นตอน",
+  "Weakest 5%": "5% ที่แย่ที่สุด",
+  "Bitrate": "บิตเรต",
+  "chosen": "ที่เลือก",
+  "No data.": "ไม่มีข้อมูล",
+  "Nothing needed, all languages were present.": "ไม่ต้องทำอะไร มีครบทุกภาษาแล้ว",
+  "Not processed yet.": "ยังไม่ได้ประมวลผล",
+  "Comparison requested · ready within a minute": "ขอการเปรียบเทียบแล้ว · พร้อมภายในหนึ่งนาที",
+  "Delete this comparison? The film itself stays as it is.": "ลบการเปรียบเทียบนี้หรือไม่? ตัวภาพยนตร์จะยังคงเหมือนเดิม",
+  "Not possible": "ทำไม่ได้",
+  "Slide between original and new": "เลื่อนระหว่างต้นฉบับและใหม่",
+  "Overview": "ภาพรวม",
+  "Queue": "คิว",
+  "In progress": "กำลังดำเนินการ",
+  "No gain": "ไม่ลดขนาด",
+  "Failed": "ล้มเหลว",
+  "Subtitles": "คำบรรยาย",
+  "Recently added": "เพิ่มล่าสุด",
+  "Library": "คลัง",
+  "Quarantine": "กักกัน",
+  "Workers": "Worker",
+  "Activity": "กิจกรรม",
+  "Settings": "การตั้งค่า",
+  "Encoding": "การเข้ารหัส",
+  "System": "ระบบ",
+  "Status of the entire library.": "สถานะของคลังทั้งหมด",
+  "Selection": "รายการที่เลือก",
+  "waiting for worker": "กำลังรอ worker",
+  "In the selection": "ในรายการที่เลือก",
+  "selection": "รายการที่เลือก",
+  "Selection · encoding": "รายการที่เลือก · การเข้ารหัส",
+  "Selection · subtitles": "รายการที่เลือก · คำบรรยาย",
+  "Close list": "ปิดรายการ",
+  "waiting": "กำลังรอ",
+  "nothing needed": "ไม่ต้องทำอะไร",
+  "original kept": "เก็บต้นฉบับไว้",
+  "Find, sync or generate missing subtitles.": "ค้นหา ซิงก์ หรือสร้างคำบรรยายที่ขาดหายไป",
+  "All videos with their current plan. You can also queue items manually here.": "วิดีโอทั้งหมดพร้อมแผนปัจจุบัน คุณสามารถเพิ่มรายการเข้าคิวด้วยตนเองได้ที่นี่",
+  "The machines doing the work. Choose what each worker is allowed to do.": "เครื่องที่ทำงาน เลือกสิ่งที่ worker แต่ละตัวได้รับอนุญาตให้ทำ",
+  "Log of everything that happens.": "บันทึกทุกสิ่งที่เกิดขึ้น",
+  "Scan now": "สแกนตอนนี้",
+  "Saved": "ประหยัดได้",
+  "Free on NAS": "ว่างบน NAS",
+  "Progress": "ความคืบหน้า",
+  "Saved per day": "ประหยัดได้ต่อวัน",
+  "last 14 days": "14 วันที่ผ่านมา",
+  "Per folder": "ตามโฟลเดอร์",
+  "all": "ทั้งหมด",
+  "nothing processed yet": "ยังไม่ได้ประมวลผลอะไร",
+  "no measurement yet": "ยังไม่มีการวัด",
+  "No processed files yet": "ยังไม่มีไฟล์ที่ประมวลผล",
+  "No worker connected yet": "ยังไม่มี worker เชื่อมต่อ",
+  "no worker": "ไม่มี worker",
+  "worker offline": "worker ออฟไลน์",
+  "online": "ออนไลน์",
+  "disabled": "ปิดใช้งาน",
+  "encoding": "การเข้ารหัส",
+  "subtitles": "คำบรรยาย",
+  "Search by name or folder…": "ค้นหาตามชื่อหรือโฟลเดอร์…",
+  "Several titles at once: separate them with |": "หลายชื่อเรื่องพร้อมกัน: คั่นด้วย |",
+  "Nothing to show": "ไม่มีอะไรให้แสดง",
+  "File": "ไฟล์",
+  "Source": "ต้นทาง",
+  "Status": "สถานะ",
+  "Result": "ผลลัพธ์",
+  "Languages": "ภาษา",
+  "Error": "ข้อผิดพลาด",
+  "When": "เมื่อ",
+  "Plan": "แผน",
+  "Added": "เพิ่มเมื่อ",
+  "Original": "ต้นฉบับ",
+  "Size": "ขนาด",
+  "Replaced": "แทนที่แล้ว",
+  "estimate": "ประมาณการ",
+  "Name": "ชื่อ",
+  "Done": "เสร็จสิ้น",
+  "Nothing found": "ไม่พบอะไร",
+  "Process only these": "ประมวลผลเฉพาะรายการเหล่านี้",
+  "Prioritise": "จัดลำดับความสำคัญ",
+  "Skip": "ข้าม",
+  "Retry": "ลองใหม่",
+  "Clear": "ล้าง",
+  "Both": "ทั้งสองอย่าง",
+  "Restore original": "กู้คืนต้นฉบับ",
+  "Find subtitles": "ค้นหาคำบรรยาย",
+  "running": "กำลังทำงาน",
+  "done": "เสร็จแล้ว",
+  "failed": "ล้มเหลว",
+  "replacing": "กำลังแทนที่",
+  "no gain": "ไม่ลดขนาด",
+  "skipped": "ข้ามแล้ว",
+  "restored": "กู้คืนแล้ว",
+  "cancelled": "ยกเลิกแล้ว",
+  "nothing found": "ไม่พบ",
+  "encode": "เข้ารหัส",
+  "already efficient": "มีประสิทธิภาพอยู่แล้ว",
+  "small gain": "ลดได้น้อย",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "ข้อผิดพลาด",
+  "unknown": "ไม่ทราบ",
+  "All": "ทั้งหมด",
+  "Already efficient": "มีประสิทธิภาพอยู่แล้ว",
+  "Small gain": "ลดได้น้อย",
+  "Restored": "กู้คืนแล้ว",
+  "Video": "วิดีโอ",
+  "Duration": "ความยาว",
+  "Audio": "เสียง",
+  "Encode": "เข้ารหัส",
+  "Quality": "คุณภาพ",
+  "Encode time": "เวลาเข้ารหัส",
+  "Message": "ข้อความ",
+  "Started": "เริ่มเมื่อ",
+  "Search": "ค้นหา",
+  "weakest 5%": "5% ที่แย่ที่สุด",
+  "video": "วิดีโอ",
+  "Worker": "Worker",
+  "Hardware": "ฮาร์ดแวร์",
+  "Resolution": "ความละเอียด",
+  "Working on": "กำลังทำ",
+  "nothing": "ไม่มี",
+  "up to 4K": "สูงสุด 4K",
+  "up to 1080p": "สูงสุด 1080p",
+  "up to 720p": "สูงสุด 720p",
+  "up to SD": "สูงสุด SD",
+  "Remove": "ลบ",
+  "Add worker": "เพิ่ม worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "worker แต่ละตัวรายงานสิ่งที่ทำได้ (พบตัวเข้ารหัส ติดตั้ง Whisper แล้ว) ที่นี่คุณกำหนดว่าทำอะไรได้บ้าง การเปลี่ยนแปลงมีผลตั้งแต่งานถัดไป งานที่กำลังทำอยู่จะทำให้เสร็จก่อน",
+  "This machine lacks the hardware or software for this": "เครื่องนี้ไม่มีฮาร์ดแวร์หรือซอฟต์แวร์สำหรับสิ่งนี้",
+  "Quality level": "ระดับคุณภาพ",
+  "Standard": "มาตรฐาน",
+  "High": "สูง",
+  "Maximum": "สูงสุด",
+  "Custom": "กำหนดเอง",
+  "Custom target": "เป้าหมายที่กำหนดเอง",
+  "Average VMAF and the weakest 5% of frames.": "VMAF เฉลี่ยและ 5% ของเฟรมที่แย่ที่สุด",
+  "avg.": "เฉลี่ย",
+  "Minimum saving": "การลดขนาดขั้นต่ำ",
+  "If a file saves less, the original is kept.": "หากไฟล์ลดได้น้อยกว่านี้ จะเก็บต้นฉบับไว้",
+  "Processing": "การประมวลผล",
+  "Storage & safety": "พื้นที่จัดเก็บและความปลอดภัย",
+  "How long replaced originals can be restored.": "ระยะเวลาที่สามารถกู้คืนต้นฉบับที่ถูกแทนที่ได้",
+  "days": "วัน",
+  "Above this, the oldest originals are deleted permanently.": "เมื่อเกินค่านี้ ต้นฉบับที่เก่าที่สุดจะถูกลบถาวร",
+  "Safety brake": "เบรกความปลอดภัย",
+  "Encoding pauses when the NAS has less free space than this.": "การเข้ารหัสจะหยุดชั่วคราวเมื่อพื้นที่ว่างบน NAS น้อยกว่านี้",
+  "Scanning": "การสแกน",
+  "Automatic scan": "สแกนอัตโนมัติ",
+  "New files are queued automatically.": "ไฟล์ใหม่จะเข้าคิวโดยอัตโนมัติ",
+  "Off": "ปิด",
+  "Every hour": "ทุกชั่วโมง",
+  "Every 6 hours": "ทุก 6 ชั่วโมง",
+  "Every 12 hours": "ทุก 12 ชั่วโมง",
+  "Daily": "ทุกวัน",
+  "Skip folders": "โฟลเดอร์ที่ข้าม",
+  "Comma-separated folder names.": "ชื่อโฟลเดอร์คั่นด้วยจุลภาค",
+  "Plex": "Plex",
+  "Dashboard address": "ที่อยู่แดชบอร์ด",
+  "Use the IP address of the NAS, not localhost.": "ใช้ที่อยู่ IP ของ NAS ไม่ใช่ localhost",
+  "Worker key": "คีย์ worker",
+  "Keep secret: with this key a worker can fetch jobs.": "เก็บเป็นความลับ: ด้วยคีย์นี้ worker สามารถดึงงานได้",
+  "Show": "แสดง",
+  "Copy": "คัดลอก",
+  "Minimum requirements": "ความต้องการขั้นต่ำ",
+  "Account & security": "บัญชีและความปลอดภัย",
+  "Two-factor authentication": "การยืนยันตัวตนแบบสองขั้นตอน",
+  "Not active": "ไม่ได้ใช้งาน",
+  "New recovery codes": "รหัสกู้คืนใหม่",
+  "Reset MFA": "รีเซ็ต MFA",
+  "Sessions": "เซสชัน",
+  "Sign out everywhere else": "ออกจากระบบที่อื่นทั้งหมด",
+  "Sign out": "ออกจากระบบ",
+  "You have unsaved changes.": "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก",
+  "Cancel": "ยกเลิก",
+  "Save": "บันทึก",
+  "Language": "ภาษา",
+  "Theme": "ธีม",
+  "Light": "สว่าง",
+  "Dark": "มืด",
+  "Auto": "อัตโนมัติ",
+  "Dashboard language.": "ภาษาของแดชบอร์ด",
+  "Auto follows your system setting.": "อัตโนมัติจะตามการตั้งค่าระบบของคุณ",
+  "Reset": "รีเซ็ต",
+  "Create new codes": "สร้างรหัสใหม่",
+  "Close": "ปิด",
+  "Code from your authenticator app": "รหัสจากแอปยืนยันตัวตน",
+  "Sign in": "เข้าสู่ระบบ",
+  "Activate": "เปิดใช้งาน",
+  "Set up two-factor authentication": "ตั้งค่าการยืนยันตัวตนแบบสองขั้นตอน",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "สแกนคิวอาร์โค้ดด้วยแอปยืนยันตัวตนแล้วป้อนรหัส 6 หลัก",
+  "Manual:": "ป้อนเอง:",
+  "6-digit code": "รหัส 6 หลัก",
+  "123456 or recovery code": "123456 หรือรหัสกู้คืน",
+  "Save your recovery codes": "บันทึกรหัสกู้คืนของคุณ",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "โทรศัพท์หาย? รหัสแต่ละรหัสใช้เข้าสู่ระบบได้หนึ่งครั้ง และจะแสดงเพียงครั้งเดียว",
+  "I have saved them": "ฉันบันทึกแล้ว",
+  "Save them now, they are shown only once.": "บันทึกตอนนี้ รหัสจะแสดงเพียงครั้งเดียว",
+  "Server not responding": "เซิร์ฟเวอร์ไม่ตอบสนอง",
+  "Sign-in failed": "เข้าสู่ระบบไม่สำเร็จ",
+  "Code is incorrect": "รหัสไม่ถูกต้อง",
+  "Code is incorrect - check the time on your phone": "รหัสไม่ถูกต้อง - ตรวจสอบเวลาบนโทรศัพท์ของคุณ",
+  "Scan started": "เริ่มสแกนแล้ว",
+  "scan already running": "กำลังสแกนอยู่แล้ว",
+  "Copied": "คัดลอกแล้ว",
+  "Resumed": "ทำต่อแล้ว",
+  "Paused: a running job will finish first": "หยุดชั่วคราว: งานที่กำลังทำอยู่จะทำให้เสร็จก่อน",
+  "Added to the queue": "เพิ่มเข้าคิวแล้ว",
+  "Not applicable": "ไม่เกี่ยวข้อง",
+  "At least one language": "อย่างน้อยหนึ่งภาษา",
+  "Skip this job?": "ข้ามงานนี้หรือไม่?",
+  "Restore the original? The new version will be deleted.": "กู้คืนต้นฉบับหรือไม่? เวอร์ชันใหม่จะถูกลบ",
+  "on": "เปิด",
+  "off": "ปิด",
+  "Quarantine cleanup": "ล้างกักกัน",
+  "Background task": "งานเบื้องหลัง",
+  "Planning at startup": "วางแผนเมื่อเริ่มต้น",
+  "Welcome": "ยินดีต้อนรับ",
+  "Next": "ถัดไป",
+  "Previous": "ก่อนหน้า",
+  "Next (or skip)": "ถัดไป (หรือข้าม)",
+  "Done, go to the overview": "เสร็จแล้ว ไปที่ภาพรวม",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan ทำให้ภาพยนตร์และซีรีส์ของคุณมีขนาดเล็กลงโดยไม่เห็นความแตกต่าง และเติมคำบรรยายที่ขาดหายไป ต้นฉบับจะถูกแทนที่หลังผ่านการตรวจสอบคุณภาพเท่านั้น และจะถูกเก็บไว้ในกักกันระยะหนึ่งก่อน",
+  "Six short steps and you're set up. You can change everything later in Settings.": "เพียงหกขั้นตอนสั้นๆ ก็พร้อมใช้งาน คุณเปลี่ยนทุกอย่างได้ภายหลังในการตั้งค่า",
+  "Your library": "คลังของคุณ",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan กำลังค้นหาวิดีโอในโฟลเดอร์มีเดียของคุณ หากคลังใหญ่ การสแกนครั้งแรกจะใช้เวลาสักพัก คุณทำขั้นตอนต่อไปได้เลย",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "โฟลเดอร์ที่ MediaScan จะไม่แตะต้อง คั่นด้วยจุลภาค (เช่น Music, Downloads)",
+  "Scan again": "สแกนอีกครั้ง",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "เลือกภาษาที่ทุกไฟล์ควรมี MediaScan จะค้นหาภาษาที่ขาดบน OpenSubtitles หากไม่พบ worker จะสร้างคำบรรยายเอง (รู้จำเสียงพูดและแปลบนพีซีของคุณเอง)",
+  "Click a language to remove it.": "คลิกที่ภาษาเพื่อลบ",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "ภาพยนตร์ทุกเรื่องจะถูกวัดด้วย VMAF ซึ่งเป็นคะแนนว่าภาพดูเป็นอย่างไรในสายตามนุษย์ \"สูง\" แทบแยกไม่ออกจากต้นฉบับสำหรับเกือบทุกคน",
+  "Higher = better picture, less space saved.": "สูงขึ้น = ภาพดีขึ้น ประหยัดพื้นที่น้อยลง",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "ตาข่ายความปลอดภัยสำหรับเกรนและฉากมืด 5 Mbps เป็นค่าเริ่มต้นที่ดี 4K และความละเอียดอื่นจะปรับตามสัดส่วน",
+  "Plex (optional)": "Plex (ไม่บังคับ)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "เมื่อเชื่อมต่อ Plex แล้ว MediaScan จะรอแทนที่ภาพยนตร์ขณะที่มีคนกำลังดู และรีเฟรช Plex หลังทุกการเปลี่ยนแปลง ไม่มี Plex? ข้ามขั้นตอนนี้ได้เลย",
+  "Plex address and token": "ที่อยู่และ token ของ Plex",
+  "Plex token": "token ของ Plex",
+  "token (unchanged)": "token (ไม่เปลี่ยน)",
+  "Add a worker": "เพิ่ม worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "งานหนักทำบนพีซีหรือ Mac ที่มีการ์ดจอดี: นั่นคือ worker ติดตั้งตอนนี้ หรือภายหลังผ่านหน้า Worker ตราบใดที่ยังไม่มี worker ไฟล์ของคุณจะไม่ถูกแตะต้อง",
+  "✓ A worker is connected.": "✓ เชื่อมต่อ worker แล้ว",
+  "Done! MediaScan is set up.": "เสร็จแล้ว! ตั้งค่า MediaScan เรียบร้อย",
+  "Connect the media share on the new machine.": "เชื่อมต่อแชร์มีเดียบนเครื่องใหม่",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: อักษรไดรฟ์หรือ \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: ดูคำแนะนำในแพ็กเกจ",
+  "Download the package for that system and unpack it.": "ดาวน์โหลดแพ็กเกจสำหรับระบบนั้นแล้วแตกไฟล์",
+  "Run the installer.": "เรียกใช้ตัวติดตั้ง",
+  "The installer asks for the details below and tests the connection.": "ตัวติดตั้งจะถามรายละเอียดด้านล่างและทดสอบการเชื่อมต่อ",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 ขึ้นไป, Intel Arc หรือ iGPU รุ่นที่ 11 ขึ้นไป, AMD RX 6000+ · 4 คอร์ · 8 GB · ว่าง 100 GB · เครือข่ายแบบมีสาย คำบรรยาย: NVIDIA ที่มี 8 GB+",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (คำบรรยาย: 24 GB+) · ว่าง 150 GB · Homebrew",
+  "Workers update themselves when this dashboard has a new version.": "worker จะอัปเดตตัวเองเมื่อแดชบอร์ดนี้มีเวอร์ชันใหม่",
+  "What the workers are doing now and what is planned next.": "สิ่งที่ worker กำลังทำอยู่และสิ่งที่วางแผนไว้ถัดไป",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "ทำให้ไฟล์เล็กลงโดยไม่เสียคุณภาพที่มองเห็นได้ worker จะทำงานตามคิวจากบนลงล่าง",
+  "select page": "เลือกหน้านี้",
+  "select": "เลือก",
+  "to encode": "ต้องเข้ารหัส",
+  "Movie": "ภาพยนตร์",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "ต้นฉบับที่ถูกแทนที่ เก็บไว้ระยะหนึ่งเพื่อให้คุณกู้คืนหรือสั่งเข้ารหัสใหม่ได้",
+  "How MediaScan works: quality, subtitles, storage and security.": "วิธีการทำงานของ MediaScan: คุณภาพ คำบรรยาย พื้นที่จัดเก็บ และความปลอดภัย",
+  "General": "ทั่วไป",
+  "Advanced": "ขั้นสูง",
+  "Connection": "การเชื่อมต่อ",
+  "Hand out new encode jobs to the workers.": "แจกงานเข้ารหัสใหม่ให้ worker",
+  "Hand out new subtitle jobs to the workers.": "แจกงานคำบรรยายใหม่ให้ worker",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "การวัด VMAF เข้มงวดเพียงใด สูงขึ้น = ภาพดีขึ้น ประหยัดพื้นที่น้อยลง",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "คำบรรยายที่ทุกไฟล์ควรมี ภาษาที่ขาดจะถูกค้นหา หรือสร้างขึ้นใหม่",
+  "Go to Workers": "ไปที่ Worker",
+  "new": "ใหม่",
+  "start": "เริ่ม",
+  "Minimum bitrate (4K)": "บิตเรตขั้นต่ำ (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "ค่าขั้นต่ำเฉพาะสำหรับ 4K แทน 2.5 × ค่าของ 1080p 0 = อัตโนมัติ HDR +15% และแอนิเมชัน ×0.6 ใช้ที่นี่ด้วย",
+  "Ready to use in a few steps.": "พร้อมใช้งานในไม่กี่ขั้นตอน",
+  "next": "ถัดไป",
+  "read error": "อ่านผิดพลาด",
+  "MFA is already enabled": "เปิดใช้ MFA อยู่แล้ว",
+  "a .mkv with that name already exists": "มีไฟล์ .mkv ชื่อนี้อยู่แล้ว",
+  "a file already exists at the original location": "มีไฟล์อยู่ที่ตำแหน่งเดิมแล้ว",
+  "action not possible in this status": "ทำการกระทำนี้ไม่ได้ในสถานะนี้",
+  "walking folders": "กำลังเดินดูโฟลเดอร์",
+  "planning jobs": "กำลังวางแผนงาน",
+  "check on the NAS rejected (duration/tracks)": "NAS ปฏิเสธการตรวจสอบ (ความยาว/แทร็ก)",
+  "expected a JSON object": "คาดว่าจะเป็นออบเจ็กต์ JSON",
+  "ffprobe error": "ffprobe ผิดพลาด",
+  "invalid resolution": "ความละเอียดไม่ถูกต้อง",
+  "invalid worker token": "โทเค็น worker ไม่ถูกต้อง",
+  "job belongs to another worker": "งานนี้เป็นของ worker อื่น",
+  "job is no longer active": "งานไม่ทำงานอยู่แล้ว",
+  "no video track": "ไม่มีแทร็กวิดีโอ",
+  "not JSON": "ไม่ใช่ JSON",
+  "not signed in": "ยังไม่ได้ลงชื่อเข้าใช้",
+  "original disappeared": "ไฟล์ต้นฉบับหายไป",
+  "original has changed in the meantime": "ไฟล์ต้นฉบับมีการเปลี่ยนแปลงระหว่างนี้",
+  "original is no longer in quarantine": "ไฟล์ต้นฉบับไม่อยู่ในกักกันแล้ว",
+  "original no longer available": "ไม่มีไฟล์ต้นฉบับแล้ว",
+  "request refused": "คำขอถูกปฏิเสธ",
+  "target file already exists": "มีไฟล์ปลายทางอยู่แล้ว",
+  "the original has already been removed from quarantine - comparing is no longer possible": "ไฟล์ต้นฉบับถูกลบออกจากกักกันแล้ว - เปรียบเทียบไม่ได้อีก",
+  "this film has not been replaced yet": "ภาพยนตร์เรื่องนี้ยังไม่ถูกแทนที่",
+  "unknown action": "ไม่รู้จักการทำงานนี้",
+  "worker is still online": "worker ยังออนไลน์อยู่",
+  "In use now:": "กำลังใช้งานอยู่:",
+  "longest": "ยาวที่สุด",
+  "8.1 (from profile 7)": "8.1 (จากโปรไฟล์ 7)",
+  "Whisper (transcription)": "Whisper (ถอดเสียง)",
+  "1 day ago": "1 วันที่แล้ว",
+  "1 video": "วิดีโอ 1 รายการ",
+  "Enter your password to open the dashboard.": "ใส่รหัสผ่านเพื่อเปิดแดชบอร์ด",
+  "No connection to the server - retrying…": "ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ - กำลังลองใหม่…",
+  "Are you sure?": "แน่ใจหรือไม่?",
+  "Restore": "กู้คืน",
+  "Re-encode": "เข้ารหัสใหม่",
+  "Delete": "ลบ",
+  "Next up": "ถัดไป",
+  "in the queue": "ในคิว",
+  "Load older entries": "โหลดรายการเก่า",
+  "Folder: all": "โฟลเดอร์: ทั้งหมด",
+  "Resolution: all": "ความละเอียด: ทั้งหมด",
+  "Codec: all": "โคเดก: ทั้งหมด",
+  "More": "เพิ่มเติม",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "เรื่องกำลังรอตัวเข้ารหัส CPU แต่ไม่มี worker ตัวใดเปิดการเข้ารหัสด้วย CPU (หน้า Workers)",
+  "Info": "ข้อมูล",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "ฮาร์ดแวร์ของคุณ ความเหมาะสมกับงาน เครื่องมือที่ใช้ และวิธีการทำงานของการตั้งค่า",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "หน่วยความจำ",
+  "Software": "ซอฟต์แวร์",
+  "GPU encoding": "เข้ารหัสด้วย GPU",
+  "CPU encoding (x265)": "เข้ารหัสด้วย CPU (x265)",
+  "Subtitles (Whisper)": "คำบรรยาย (Whisper)",
+  "Translation (Ollama)": "การแปล (Ollama)",
+  "Server": "เซิร์ฟเวอร์",
+  "Database": "ฐานข้อมูล",
+  "Tools in use": "เครื่องมือที่ใช้",
+  "Knowledge base": "คลังความรู้",
+  "Low": "ต่ำ",
+  "Medium": "ปานกลาง",
+  "Ultra": "สูงสุด",
+  "files": "ไฟล์",
+  "up": "ทำงาน",
+  "of": "จาก",
+  "uses": "ใช้",
+  "free": "ว่าง",
+  "Media share": "แชร์สื่อ",
+  "Rating": "คะแนน",
+  "Hardware details appear after this worker has updated itself.": "รายละเอียดฮาร์ดแวร์จะแสดงหลังจาก worker นี้อัปเดตตัวเอง",
+  "no Whisper": "ไม่มี Whisper",
+  "unified memory": "หน่วยความจำรวม",
+  "cores": "คอร์",
+  "threads": "เธรด",
+  "driver": "ไดรเวอร์",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "ไม่ทราบ",
+  "Settings saved": "บันทึกการตั้งค่าแล้ว",
+  "Time left": "เวลาที่เหลือ",
+  "Queued": "อยู่ในคิว",
+  "Keep originals for": "เก็บต้นฉบับไว้นาน",
+  "Quarantine size limit": "ขีดจำกัดขนาดกักกัน",
+  "Hide finished items": "ซ่อนที่เสร็จแล้ว",
+  "Undo skip": "เลิกข้าม",
+  "not supported here": "ไม่รองรับที่นี่",
+  "CPU encoding": "การเข้ารหัสด้วย CPU",
+  "Retry on CPU (x265)": "ลองใหม่บน CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "เข้ารหัสบน CPU ด้วย x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 แบบปรับสำหรับเกรนบน CPU ของ worker: เก็บเกรนได้มีประสิทธิภาพกว่ามาก แต่ใช้เวลาหลายชั่วโมงต่อเรื่อง",
+  "CPU fallback for grainy films": "สำรองด้วย CPU สำหรับภาพยนตร์ที่มีเกรน",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "เมื่อ GPU รักษาคุณภาพไม่ได้โดยไม่เกินบิตเรตของต้นฉบับ (เกรนฟิล์ม) ภาพยนตร์จะถูกเข้ารหัสอีกครั้งบน CPU ของ worker ด้วย x265 ซึ่งเก็บเกรนได้มีประสิทธิภาพกว่ามาก ใช้เวลาหลายชั่วโมงต่อเรื่อง เปิดการเข้ารหัสด้วย CPU ให้ worker ที่หน้า Workers",
+  "CPU preset": "พรีเซ็ต CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: ประมาณ 2 ชั่วโมงสำหรับภาพยนตร์ 1080p ความยาว 2 ชั่วโมงบน 8 คอร์ Slow: นานกว่า 2-3 เท่า ได้ไฟล์เล็กลงราว 5-10%",
+  "Medium (faster)": "Medium (เร็วกว่า)",
+  "Slow (smaller)": "Slow (เล็กกว่า)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "โหลดหน้านี้ไม่ได้",
+  "up to 1440p": "สูงสุด 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "กำลังวิเคราะห์ไฟล์",
+  "No worker has CPU encodes switched on (Workers page)": "ไม่มี worker ตัวใดเปิดการเข้ารหัสด้วย CPU (หน้า Workers)",
+  "the job changed in the meantime": "งานเปลี่ยนไปในระหว่างนี้",
+  "Main": "การนำทางหลัก",
+  "Clear search and filters": "ล้างการค้นหาและตัวกรอง",
+  "Compact rows": "แถวแบบกระชับ",
+  "Encoding and subtitles are paused.": "การเข้ารหัสและคำบรรยายหยุดชั่วคราว",
+  "Encoding is paused: no new encode jobs are handed out.": "การเข้ารหัสหยุดชั่วคราว: ไม่มีการแจกงานเข้ารหัสใหม่",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "คำบรรยายหยุดชั่วคราว: ไม่มีการแจกงานคำบรรยายใหม่",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "กรอกทั้งที่อยู่ Plex และโทเค็น หรือเว้นว่างทั้งสองช่องเพื่อข้าม",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "พื้นที่ว่างบน NAS ต่ำกว่าเบรกความปลอดภัย การเข้ารหัสถูกหยุดชั่วคราวโดยอัตโนมัติ",
+  "Loading…": "กำลังโหลด…",
+  "Next film": "ภาพยนตร์ถัดไป",
+  "Previous film": "ภาพยนตร์ก่อนหน้า",
+  "Next page": "หน้าถัดไป",
+  "Previous page": "หน้าก่อนหน้า",
+  "Rows per page": "จำนวนแถวต่อหน้า",
+  "Resume": "ทำต่อ",
+  "Resume encoding": "ทำการเข้ารหัสต่อ",
+  "Resume subtitles": "ทำคำบรรยายต่อ",
+  "Open settings": "เปิดการตั้งค่า",
+  "Open the library": "เปิดไลบรารี",
+  "Subtitle languages": "ภาษาคำบรรยาย",
+  "Update": "อัปเดต",
+  "No results for this search or filter.": "ไม่มีผลลัพธ์สำหรับการค้นหาหรือตัวกรองนี้",
+  "Nothing is queued for encoding. New files are queued after a scan.": "ไม่มีรายการรอเข้ารหัส ไฟล์ใหม่จะเข้าคิวหลังการสแกน",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "ยังไม่มีไฟล์ที่ถูกแทนที่ การเข้ารหัสที่เสร็จแล้วจะแสดงที่นี่หลังการตรวจสอบคุณภาพ",
+  "No files were kept as they are. Films that would save too little end up here.": "ไม่มีไฟล์ที่คงไว้ตามเดิม ภาพยนตร์ที่ประหยัดพื้นที่ได้น้อยเกินไปจะมาอยู่ที่นี่",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "ไม่มีคำบรรยายที่รออยู่ ไฟล์ที่ขาดภาษาจะเข้าคิวหลังการสแกน",
+  "No subtitle job is running right now.": "ขณะนี้ไม่มีงานคำบรรยายที่กำลังทำงาน",
+  "No subtitles have been made yet.": "ยังไม่มีการสร้างคำบรรยาย",
+  "Nothing missing: every file got its subtitles so far.": "ไม่มีอะไรขาด: จนถึงตอนนี้ทุกไฟล์ได้รับคำบรรยายแล้ว",
+  "No failed encodes.": "ไม่มีการเข้ารหัสที่ล้มเหลว",
+  "No failed subtitle jobs.": "ไม่มีงานคำบรรยายที่ล้มเหลว",
+  "Nothing was added in the last 14 days.": "ไม่มีรายการเพิ่มใน 14 วันที่ผ่านมา",
+  "No videos with this plan.": "ไม่มีวิดีโอที่ใช้แผนนี้",
+  "The library is being scanned; videos appear as they are found.": "กำลังสแกนไลบรารี วิดีโอจะแสดงเมื่อพบ",
+  "No videos found yet. Check the media folder and run a scan.": "ยังไม่พบวิดีโอ ตรวจสอบโฟลเดอร์สื่อแล้วเริ่มการสแกน",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "ไม่มีรายการในการกักกัน ต้นฉบับที่ถูกแทนที่จะเก็บไว้ที่นี่จนกว่าจะหมดเวลาเก็บ",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "ไม่พบโฟลเดอร์ DVD หรือ Blu-ray (VIDEO_TS, BDMV) ในไลบรารี",
+  "1 worker online": "worker 1 ตัวออนไลน์",
+  "A worker is busy with this file": "Worker กำลังทำงานกับไฟล์นี้",
+  "A worker is grabbing the frames": "Worker กำลังดึงเฟรม",
+  "A worker is searching or making subtitles": "Worker กำลังค้นหาหรือสร้างคำบรรยาย",
+  "A worker picks up the next job within a few seconds.": "Worker จะรับงานถัดไปภายในไม่กี่วินาที",
+  "Above this, the oldest comparisons are deleted automatically.": "เกินกว่านี้ การเปรียบเทียบที่เก่าที่สุดจะถูกลบโดยอัตโนมัติ",
+  "All replaced films": "ภาพยนตร์ที่แทนที่แล้วทั้งหมด",
+  "Already efficient: encoding would hardly save anything": "มีประสิทธิภาพอยู่แล้ว: การเข้ารหัสแทบไม่ประหยัดอะไรเลย",
+  "Automatic comparisons": "เปรียบเทียบอัตโนมัติ",
+  "Being made…": "กำลังสร้าง…",
+  "Can be made": "สร้างได้",
+  "Can encode on the CPU with x265": "เข้ารหัสบน CPU ด้วย x265 ได้",
+  "Comparison storage limit": "ขีดจำกัดพื้นที่เก็บการเปรียบเทียบ",
+  "Comparisons": "การเปรียบเทียบ",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: ไม่เข้ารหัสใหม่ เพราะเลเยอร์ DV จะหายไป",
+  "Encoding is paused.": "การเข้ารหัสหยุดชั่วคราว",
+  "Enlarge": "ขยาย",
+  "Errors": "ข้อผิดพลาด",
+  "Flip": "สลับ",
+  "Four frames of the original and the new version are stored": "เก็บเฟรมจากต้นฉบับและเวอร์ชันใหม่ไว้สี่เฟรม",
+  "Full width": "เต็มความกว้าง",
+  "GPU encoder found": "พบตัวเข้ารหัส GPU",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "ดึงเฟรมจากต้นฉบับและเวอร์ชันใหม่สี่เฟรมสำหรับทุกภาพยนตร์ที่แทนที่ เพื่อให้คุณตรวจสอบภาพได้เสมอในหน้าเปรียบเทียบ ประมาณ 1–2 MB ต่อภาพยนตร์",
+  "Keyboard shortcuts": "ปุ่มลัดคีย์บอร์ด",
+  "Leave without saving? Your changes to the settings will be lost.": "ออกโดยไม่บันทึก? การเปลี่ยนแปลงการตั้งค่าของคุณจะหายไป",
+  "Moved to the front": "ย้ายไปลำดับแรก",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "ยังไม่มีการเปรียบเทียบ สร้างได้ขณะที่ต้นฉบับยังอยู่ในกักกัน หรือเปิดการเปรียบเทียบอัตโนมัติในการตั้งค่า",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "ตอนนี้ไม่มีภาพยนตร์ที่เปรียบเทียบได้: ต้นฉบับออกจากกักกันแล้ว หรือยังไม่มีอะไรถูกแทนที่",
+  "No longer possible": "ทำไม่ได้แล้ว",
+  "No subtitles found online and none could be made": "ไม่พบคำบรรยายออนไลน์และสร้างไม่ได้",
+  "Ollama found: can translate subtitles": "พบ Ollama: แปลคำบรรยายได้",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "เป็นส่วนหนึ่งของโฟลเดอร์ DVD หรือ Blu-ray; แปลงได้ที่หน้า DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "หยุดชั่วคราวโดยอัตโนมัติ: พื้นที่ว่างบน NAS ต่ำกว่าเบรกความปลอดภัย",
+  "Planned for encoding": "วางแผนเข้ารหัส",
+  "Queued for the CPU encoder": "อยู่ในคิวสำหรับตัวเข้ารหัส CPU",
+  "Replaced after the quality check; the original is in quarantine for a while": "แทนที่แล้วหลังตรวจสอบคุณภาพ; ต้นฉบับอยู่ในกักกันสักระยะ",
+  "Replaced films appear here after their first encode.": "ภาพยนตร์ที่ถูกแทนที่จะแสดงที่นี่หลังการเข้ารหัสครั้งแรก",
+  "Search the log…": "ค้นหาในบันทึก…",
+  "Show films that can be compared": "แสดงภาพยนตร์ที่เปรียบเทียบได้",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "แสดงต้นฉบับและเวอร์ชันใหม่สลับกัน: วิธีที่ดีที่สุดในการสังเกตเกรนและรายละเอียด",
+  "Skipped": "ข้ามแล้ว",
+  "Skipped by you; Retry puts it back in the queue": "คุณข้ามไป; \"ลองใหม่\" จะนำกลับเข้าคิว",
+  "Slider back to the middle": "เลื่อนแถบกลับไปตรงกลาง",
+  "Smaller": "ย่อ",
+  "Stopped because the file changed or disappeared": "หยุดเพราะไฟล์เปลี่ยนไปหรือหายไป",
+  "Stopped with an error; see the message and try again": "หยุดเพราะมีข้อผิดพลาด; ดูข้อความและลองใหม่",
+  "Subtitles are paused.": "คำบรรยายหยุดชั่วคราว",
+  "The file could not be read; see the drawer": "อ่านไฟล์ไม่ได้; ดูแผงด้านข้าง",
+  "The new file would save less than the minimum saving, so the original was kept": "ไฟล์ใหม่จะประหยัดน้อยกว่าการลดขนาดขั้นต่ำ จึงเก็บต้นฉบับไว้",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "เวอร์ชันใหม่อยู่บน NAS และจะถูกสลับเข้าทันทีที่ไม่มีใครดู",
+  "The original has left quarantine, so the frames can no longer be grabbed": "ต้นฉบับออกจากกักกันแล้ว จึงดึงเฟรมไม่ได้อีก",
+  "The original is still in quarantine, so the frames can still be grabbed": "ต้นฉบับยังอยู่ในกักกัน จึงยังดึงเฟรมได้",
+  "The original was put back from quarantine": "คืนต้นฉบับจากกักกันแล้ว",
+  "The queue is empty. New files are queued after a scan.": "คิวว่าง ไฟล์ใหม่จะเข้าคิวหลังการสแกน",
+  "The server hands out newer worker files; the worker installs them after its current job": "เซิร์ฟเวอร์แจกไฟล์ worker รุ่นใหม่กว่า; worker จะติดตั้งหลังจบงานปัจจุบัน",
+  "Undo": "เลิกทำ",
+  "Waiting for Plex: someone is watching this film": "รอ Plex: มีคนกำลังดูภาพยนตร์นี้",
+  "Waiting for a worker; the queue runs from top to bottom": "รอ worker; คิวทำงานจากบนลงล่าง",
+  "Warnings": "คำเตือน",
+  "Whisper installed: can make subtitles": "ติดตั้ง Whisper แล้ว: สร้างคำบรรยายได้",
+  "Would save less than the minimum saving": "จะประหยัดน้อยกว่าการลดขนาดขั้นต่ำ",
+  "expires today": "หมดอายุวันนี้",
+  "expires within a day": "หมดอายุภายในหนึ่งวัน",
+  "less than a day left": "เหลือไม่ถึงหนึ่งวัน",
+  "waiting for Plex": "รอ Plex",
+  "update pending": "รออัปเดต",
+  "Tap to switch between original and new": "แตะเพื่อสลับระหว่างต้นฉบับกับใหม่",
+  "Repeated": "ซ้ำ",
+  "Search in the current list": "ค้นหาในรายการปัจจุบัน",
+  "Clear the search, close a drawer or dialog": "ล้างการค้นหา ปิดแผงหรือกล่องโต้ตอบ",
+  "Previous or next film on a comparison": "ภาพยนตร์ก่อนหน้าหรือถัดไปในการเปรียบเทียบ",
+  "Open or switch the focused row, switch or header": "เปิดหรือสลับแถว สวิตช์ หรือหัวตารางที่โฟกัส",
+  "This list": "รายการนี้",
+  "Nothing in the log matches this.": "ไม่มีอะไรในบันทึกที่ตรงกับนี้",
+  "Nothing has happened yet.": "ยังไม่มีอะไรเกิดขึ้น",
+  "No worker is online, so nothing can run.": "ไม่มี worker ออนไลน์ จึงไม่มีอะไรทำงานได้",
+  "There is no worker yet. Add one to get started.": "ยังไม่มี worker เพิ่มหนึ่งตัวเพื่อเริ่มต้น",
+  "Open Workers": "เปิด Worker",
+  "Some values are out of range.": "ค่าบางค่าอยู่นอกช่วง",
+  "no capabilities reported": "ไม่มีการรายงานความสามารถ",
+  "Replaced · expires": "แทนที่แล้ว · หมดอายุ",
+  "Made": "สร้างแล้ว",
+  "Make": "สร้าง",
+  "lots of motion": "เคลื่อนไหวมาก",
+  "dark scene": "ฉากมืด",
+  "a quarter in": "ที่หนึ่งในสี่",
+  "three quarters in": "ที่สามในสี่",
+  "Encoded": "เข้ารหัสแล้ว",
+  "Finished": "เสร็จสิ้น",
+  "later": "ถัดมา",
+  "Leave": "ออก",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "การเปรียบเทียบจะดึง 4 เฟรมจากไฟล์ต้นฉบับและเวอร์ชันใหม่ (รวมประมาณ 1–2 MB) สร้างได้ตราบใดที่ต้นฉบับยังอยู่ในกักกัน และจะคงอยู่จนกว่าคุณจะลบ แม้ต้นฉบับจะหายไปแล้วก็ตาม",
+  "Retry on CPU": "ลองใหม่บน CPU",
+  "Scan": "การสแกน"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1เริ่ม$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "ตอนนี้: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan พบวิดีโอ $1 รายการ ($2)"
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · 5% ที่แย่ที่สุด $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "5% ที่แย่ที่สุด $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "ใหม่ ($1 วัน)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "แผน: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "แทนที่ไม่สำเร็จ ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} ล้มเหลว{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "สแกนเสร็จ: วิดีโอ $1, ใหม่ $2, เปลี่ยนแปลง $3, หายไป $4; เพิ่มงานเข้ารหัส $5 และงานคำบรรยาย $6"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "สแกนเสร็จ: วิดีโอ $1, ใหม่ $2, เปลี่ยนแปลง $3, หายไป $4, ในโฟลเดอร์ที่ข้าม $5; เพิ่มงานเข้ารหัส $6 และงานคำบรรยาย $7"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "เข้ารหัสภาพยนตร์ $1 เรื่องใหม่ด้วยกฎปัจจุบันหรือไม่? ต้นฉบับจะถูกกู้คืนและภาพยนตร์จะได้รับความสำคัญก่อนในคิว"
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "ภาพยนตร์ $1 เรื่องกลับเข้าคิว{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "กู้คืนต้นฉบับ $1 รายการและเข้าคิวอีกครั้งแล้ว (กฎปัจจุบัน)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "ใหม่: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "แทนที่แล้ว: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "แปลง DVD/Blu-ray แล้ว: $1 ($2 GB); โฟลเดอร์แผ่นอยู่ในกักกัน"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "กู้คืนต้นฉบับแล้ว: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 เริ่ม{t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 งาน (จากทั้งหมด $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "แจกรายการที่เลือกแล้ว - หยุดการเข้ารหัสชั่วคราวโดยอัตโนมัติ"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "แจกรายการที่เลือกแล้ว - หยุดคำบรรยายชั่วคราวโดยอัตโนมัติ"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "เปลี่ยนการตั้งค่าแล้ว: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "งาน $1 ผิดพลาด: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "งาน $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 ออฟไลน์: $2 งานกลับเข้าคิว"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 รีสตาร์ท: $2 งานที่ถูกขัดจังหวะกลับเข้าคิว"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 อัปเดตเป็น $2: $3 งานที่ล้มเหลวกลับเข้าคิว"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "ลบ Worker $1 แล้ว"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: การเข้ารหัส {t:$2}, คำบรรยาย {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "อัปเดตแผนแล้ว: เพิ่มงานเข้ารหัส $1 และงานคำบรรยาย $2"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "เพิ่ม $1 งานเข้าคิวด้วยตนเองแล้ว"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 งาน: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "ลบการเปรียบเทียบ $1 รายการแล้ว"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "ออกจากระบบ $1 เซสชันอื่นแล้ว"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "ใช้รหัสกู้คืนเพื่อเข้าสู่ระบบ (เหลือ $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "ต้นฉบับจะเก็บไว้ไม่เกิน $1 วัน และรวมกันไม่เกิน $2 รายการที่เก่าที่สุดจะถูกลบก่อน การกู้คืนจะลบเวอร์ชันใหม่"
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - คลิกเพื่อลบ"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "จะแปลง $1 โฟลเดอร์ · worker จะเริ่มภายในครึ่งนาที"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "เสียง $1 · คำบรรยาย $2"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "ลบการเปรียบเทียบ $1 รายการหรือไม่? ตัวภาพยนตร์จะยังคงเหมือนเดิม"
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "เฟรม $1 · ที่ $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "เฟรม $1 · ที่ $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB เป็น jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "เวลาเข้ารหัส $1 นาที · วัดจาก 8 ช่วง แล้วตรวจสอบทั้งเรื่อง"
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "มีอยู่ตอนนี้: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "5% ที่แย่ที่สุด $1 · เกณฑ์ $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "จังหวะเวลา $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "สร้างเฟรมไม่สำเร็จ: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "รายการที่เลือก · ถัดไป"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "รายการที่เลือก · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "ตอนนี้:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· จากนั้นอีก $1 รายการจากรายการที่เลือก"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "ประมาณการ · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 รายการเสร็จก่อนหน้า · แสดง"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "เพิ่ม $1 เข้ารายการที่เลือกแล้ว · worker จะเริ่มภายในไม่กี่วินาที"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "รายการที่เลือก {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "สร้างเมื่อ: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · เล็กลง $3%$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "เมื่อสักครู่"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 นาทีที่แล้ว"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 ชม. ที่แล้ว"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 วันที่แล้ว"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "เห็นล่าสุด {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 วัน $2 ชม."
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 ชม. $2 นาที"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "วิดีโอ $1 รายการ"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "กักกัน $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 ต่อ 24 ชม."
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ประหยัด ~$2"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "ประหยัด ~$1 GB"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "เล็กลง $1% ในไฟล์ที่ประมวลผลแล้ว"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 ออนไลน์"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "อีก $1 รายการที่จะเริ่ม แล้วหยุดชั่วคราว"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 รายการ · หน้า $2 จาก $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "เลือก $1 รายการ"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "เลือกผลลัพธ์ทั้งหมด $1 รายการ"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "กำลังสแกน: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "ลองแล้ว $1×"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 นาที"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "ใช้งานอยู่ · เหลือรหัสกู้คืน $1 รหัส"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 เซสชันที่ใช้งานอยู่ รวมเซสชันนี้"
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "อัปเดต $1 แล้ว{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "ออกจากระบบ $1 เซสชันอื่นแล้ว"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "ประมวลผลเฉพาะ $1 รายการนี้หรือไม่? รายการเหล่านี้จะได้รับความสำคัญก่อน การประมวลผลจะทำงานต่อและหยุดชั่วคราวอีกครั้งโดยอัตโนมัติหลังจากนั้น"
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "ข้าม $1 งานหรือไม่?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "กู้คืนต้นฉบับ $1 รายการหรือไม่? เวอร์ชันใหม่จะถูกลบ"
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "ลบ worker $1 ออกจากรายการหรือไม่? หากกลับมาออนไลน์ จะปรากฏอีกครั้งโดยอัตโนมัติ"
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "ทำงานมา $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "เหลือ ~$1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "สูงสุด $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "กำลังทำ"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "เชื่อมต่อ Plex แล้ว (เวอร์ชัน $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex ตอบสนองไม่ถูกต้อง: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "ข้อผิดพลาด: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "แทนที่ไม่สำเร็จ: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "ค่าไม่ถูกต้องสำหรับ $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 ต้องอยู่ระหว่าง $2 ถึง $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · แย่สุด 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 ชม."
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU รักษาคุณภาพไม่ได้ - เข้าคิวสำหรับตัวเข้ารหัส CPU (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "ล้าง staging: ลบไฟล์ตกค้างแล้ว $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 ต่อหน้า"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "worker $1 ตัวออนไลน์"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · การเพิ่ม worker คีย์ worker และไฟล์ดาวน์โหลดอยู่ในหน้า Worker"
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · เริ่มในอีก ~{t:$2} · ประมาณการ"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · ประมาณการ"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "เหลือ $1 วัน"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "หมดอายุในอีก $1 วัน"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "สร้างแล้ว · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "สร้างได้ · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · ขั้นตอน $1 จาก $2 · เหลือ ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · ขั้นตอน $1 จาก $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · เหลือ ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "ขอสร้างการเปรียบเทียบ $1 รายการ · พร้อมภายในไม่กี่นาที"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "สร้างการเปรียบเทียบ $1 รายการ? ประมาณ 1–2 MB ต่อรายการ"
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "ซ้ำ $1 ครั้ง"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "ระหว่าง $1 ถึง $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 งาน"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "ข้อผิดพลาดใน $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "ขอสร้างการเปรียบเทียบ $1 รายการ"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "ล้างการเปรียบเทียบแล้ว: ลบ $1 รายการ (เกิน $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "เปลี่ยนชื่อโฟลเดอร์กักกันเป็น quarantine แล้ว (อัปเดต $1 รายการ)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "ลบ Worker $1 แล้ว: $2 งานกลับเข้าคิว"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "กักกัน: $1 มีอยู่แล้ว, $2 ถูกปล่อยไว้ที่เดิม"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "เปลี่ยนชื่อโฟลเดอร์กักกันเป็น quarantine แล้ว; อัปเดต $1 รายการ แต่ $2 ยังไม่ว่าง"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "เปลี่ยนชื่อโฟลเดอร์กักกันไม่สำเร็จ (เมานต์แชร์สื่อแล้วหรือยัง?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "ไม่พบเวอร์ชันใหม่ใน staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "ไม่พบ .mkv ใหม่ใน staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "ไฟล์ต้นฉบับหายไป"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "ไฟล์ต้นฉบับถูกเปลี่ยนแปลงในระหว่างนี้"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "ไฟล์ต้นฉบับไม่พร้อมใช้งานอีกต่อไป"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "การตรวจสอบบน NAS ไม่ผ่าน (ความยาว/แทร็ก)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "แปลง dvd/blu-ray เป็น mkv แล้ว"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "ลองใหม่หลังอัปเดต worker"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "คุณข้ามไป"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "มีไฟล์ปลายทางอยู่แล้ว"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker ออฟไลน์ - จัดตารางใหม่แล้ว"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "ลบ worker แล้ว - จัดตารางใหม่แล้ว"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker รีสตาร์ท - จัดตารางใหม่แล้ว"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "แทนที่ไม่สำเร็จ: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "ไม่พบ Dolby Vision ใน mkv ใหม่"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: ไม่ได้เข้ารหัสใหม่ (เลเยอร์ DV จะหายไป)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "คัดลอกสตรีมหนึ่งลง .mkv ไม่ได้: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg ไม่มีความคืบหน้าเป็นเวลา $1 นาที (เข้าถึงแชร์ไม่ได้?) - หยุดแล้ว"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "ไฟล์หายไปพร้อมกัน $1 จาก $2 ไฟล์ - เข้าถึงแชร์ไม่ได้? ไม่มีรายการใดถูกทำเครื่องหมายว่าหายไป"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "แปลไม่สำเร็จ: ไม่มีคำตอบที่ใช้ได้สำหรับ $1 บรรทัดหลังจากลองใหม่"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: ข้อผิดพลาดของเซิร์ฟเวอร์"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - ดาวน์โหลดโมเดล (ollama pull <model>) หรือแก้ ollama_model ใน worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "เข้าถึง Ollama ที่ $1 ไม่ได้ ($2) - เริ่ม Ollama หรือตรวจสอบ ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "เข้าถึง Ollama ไม่ได้: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama ล้มเหลวต่อเนื่องเป็นเวลา $2 นาที"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 ใช้เวลานานกว่าหนึ่งชั่วโมง - ยังเข้าถึงแชร์สื่อได้อยู่หรือไม่?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "ไม่พบ $1 โปรดติดตั้ง $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF ทั้งเรื่อง $1 ไม่น่าเชื่อถือกับทุกวิธีจับคู่ (ตัวอย่าง $2); ต่ำที่ $3 เก็บไฟล์ต้นฉบับไว้; ตรวจสอบต้นทางที่จุดนั้น"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: อ่านไฟล์ไม่ได้"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: ล้มเหลว"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "พื้นที่ว่างบน PC ไม่พอสำหรับภาพยนตร์เรื่องนี้ (ต้องการ $1 GB ใน $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "พื้นที่ในโฟลเดอร์ทำงานไม่พอ: ว่าง $1 GB ต้องการประมาณ $2 GB"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "เมื่อใช้บิตเรตขั้นต่ำ เล็กลงได้สูงสุด $1%"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "กำลังแยกเมทาดาทาจากเลเยอร์เสริม"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "ไฟล์ที่ดาวน์โหลดไม่ตรงกัน (sha256) - ไม่นำมาใช้"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "ตรวจสอบ: ความยาวหรือจำนวนสตรีมไม่ตรงกัน"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "mkv ใหม่สั้นเกินไป ($1 จาก $2 นาที)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "เสร็จ $1 จาก $2 กำลังรอ worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "กำลังแปลง Dolby Vision เป็น profile 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "กำลังฝังเมทาดาทาลงในเลเยอร์หลัก"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "กำลังตรวจ VMAF (วัดครั้งที่สอง)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "ไม่มีการตั้งค่าใดถึงเป้าหมายคุณภาพ"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "ถึงขีดจำกัดการดาวน์โหลดแล้ว - ที่เหลือไว้ทีหลัง"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "ถึงขีดจำกัดรายวันของ OpenSubtitles แล้ว"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "บางส่วน; ที่เหลือหลังพ้นขีดจำกัดการดาวน์โหลด"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "ไม่พบ $1 หลังดาวน์โหลด"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: ตรวจพบภาษาพูด"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (แปลจาก $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "กำลังรอพื้นที่ว่างบน PC"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "ไฟล์คำบรรยายใหญ่ผิดปกติ"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "ผลวัดการทดสอบตัวเองไม่น่าเชื่อถือ"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "การแปลครั้งที่ $1 ไม่สำเร็จ"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "กำลังรอ: มีคนกำลังดูใน Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "คาดว่าเล็กลงเพียง $1%"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "กำลังดาวน์โหลด $1 (ครั้งเดียว)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "การตรวจทั้งเรื่องต่ำกว่าเป้าหมาย"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "จับเฟรมที่ $1 วินาทีไม่ได้"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "ทั้งเรื่องต่ำกว่าเป้าหมายเล็กน้อย"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "กำลังค้นหาภาพยนตร์บนแผ่น"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "ไม่สามารถถึงเป้าหมายคุณภาพ"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "ผลวัดการตรวจสอบไม่น่าเชื่อถือ"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "เส้นทางจากเซิร์ฟเวอร์ไม่ถูกต้อง"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "อีกครั้ง: การลดขนาดขั้นต่ำตอนนี้คือ 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper กำลังทำงานบน GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "ไม่พบไตเติลบน DVD"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "เส้นทางน่าสงสัยในไฟล์เก็บถาวร"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "กำลังรอ: เชื่อมต่อ Plex ไม่ได้"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "กำลังทำ $1 จาก $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "เชื่อมต่อ OpenSubtitles ไม่ได้"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (ถอดเสียง)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "กำลังตรวจ VMAF ทั้งเรื่อง"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "เสร็จแล้ว กำลังรอแทนที่"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "ย้ายโฟลเดอร์เดิมไปที่กักกัน"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "ตรวจ VMAF $1 ต่ำเกินไป"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "กำลังอ่านแผ่น (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "แปลจากภาษาอังกฤษ"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "เสร็จแล้ว ($1 จาก $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "แยกเสียงไม่สำเร็จ"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "สลับไปใช้ CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "ลงชื่อเข้าใช้ OpenSubtitles แล้ว"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (จากโปรไฟล์ 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "กำลังรอ worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "เส้นทางน่าสงสัยใน zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "อ่าน EN ที่ฝังอยู่ไม่ได้"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "ยาวที่สุดจนถึงตอนนี้: ไตเติล"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "จังหวะเวลาไม่ตรงกัน"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "เล็กลงเพียง $1%"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "ช่วง $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "เก็บไฟล์ต้นฉบับไว้"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "ดาวน์โหลดเหลือวันนี้"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "ตรวจไตเติล $1 แล้ว"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "กำลังรอแทนที่"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "กำลังคัดลอกไปยัง NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "เก็บต้นฉบับไว้"
+  ],
+  [
+   "translation failed",
+   "g",
+   "แปลไม่สำเร็จ"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "เชื่อมต่อเซิร์ฟเวอร์ไม่ได้"
+  ],
+  [
+   "searching quality",
+   "g",
+   "กำลังค้นหาคุณภาพ"
+  ],
+  [
+   "making references",
+   "g",
+   "กำลังสร้างข้อมูลอ้างอิง"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "กำลังแปลงเป็น mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "หยุดคำบรรยายแล้ว"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "กำลังคัดลอก NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "กำลังคัดลอก PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "กำลังค้นหาภาพยนตร์"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "กำลังรวมเป็น mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "เพลย์ลิสต์ที่ยาวที่สุด"
+  ],
+  [
+   "timing reference",
+   "g",
+   "อ้างอิงจังหวะเวลา"
+  ],
+  [
+   "speech segments",
+   "g",
+   "ช่วงเสียงพูด"
+  ],
+  [
+   "too little gain",
+   "g",
+   "ลดขนาดได้น้อยเกินไป"
+  ],
+  [
+   " not applicable",
+   "g",
+   " ไม่เกี่ยวข้อง"
+  ],
+  [
+   "download failed",
+   "g",
+   "ดาวน์โหลดไม่สำเร็จ"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "หลัง ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "กำลังแปลเป็น"
+  ],
+  [
+   "next candidate",
+   "g",
+   "ตัวเลือกถัดไป"
+  ],
+  [
+   "after shifting",
+   "g",
+   "หลังเลื่อนเวลา"
+  ],
+  [
+   "reading audio",
+   "g",
+   "กำลังอ่านเสียง"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "รายการที่เลือก · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "กำลังรอ $1"
+  ],
+  [
+   "search failed",
+   "g",
+   "ค้นหาไม่สำเร็จ"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "กำลังเข้ารหัสใหม่"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "ไตเติล $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " ข้อผิดพลาด"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " เสร็จ $1"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "คำบรรยาย:"
+  ],
+  [
+   "replacing",
+   "g",
+   "กำลังแทนที่"
+  ],
+  [
+   "subtitles",
+   "g",
+   "คำบรรยาย"
+  ],
+  [
+   "candidate",
+   "g",
+   "ตัวเลือก"
+  ],
+  [
+   "encoding:",
+   "g",
+   "การเข้ารหัส:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "เริ่ม"
+  ],
+  [
+   "encoding",
+   "g",
+   "กำลังเข้ารหัส"
+  ],
+  [
+   "checking",
+   "g",
+   "กำลังตรวจสอบ"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", สูงสุด "
+  ],
+  [
+   "present",
+   "g",
+   "มีอยู่"
+  ],
+  [
+   "missing",
+   "g",
+   "ขาด"
+  ],
+  [
+   "speed",
+   "g",
+   "ความเร็ว"
+  ],
+  [
+   "saved",
+   "g",
+   "บันทึกแล้ว"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU รักษาคุณภาพไม่ได้ - เข้าคิวสำหรับตัวเข้ารหัส CPU (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "ล้าง staging: ลบไฟล์ตกค้างแล้ว"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "โฟลเดอร์สื่อว่างเปล่าหรือยังไม่ได้เมานต์ - ไม่มีอะไรเปลี่ยน"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "การรักษาคุณภาพต้องใช้บิตเรตสูงกว่าที่ต้นฉบับมี"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "ต้องใช้บิตเรตสูงกว่าต้นฉบับ"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker กำลังรีสตาร์ทเพื่ออัปเดต"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "ไม่มีสตรีมวิดีโอ (มีแค่ภาพปก?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "ไม่มีสตรีมเสียงให้ถอดความ"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "พื้นที่ว่างบน PC ไม่พอสำหรับภาพยนตร์เรื่องนี้"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "กำลังลองใหม่บน CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "กำลังเดินดูโฟลเดอร์"
+  ],
+  [
+   "analysing files",
+   "g",
+   "กำลังวิเคราะห์ไฟล์"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "กำลังวางแผนงาน"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "การเข้ารหัสด้วย CPU เปิด"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "การเข้ารหัสด้วย CPU ปิด"
+  ]
+ ]
+}

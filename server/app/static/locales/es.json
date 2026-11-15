@@ -1,0 +1,2060 @@
+{
+ "name": "Español",
+ "s": {
+  "Re-encode from original": "Recodificar desde el original",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "¿Recodificar con las reglas actuales? Se restaura el original y la película pasa a tener prioridad.",
+  "Back in the queue": "De vuelta en la cola",
+  "Restore originals": "Restaurar originales",
+  "Minimum bitrate (1080p)": "Bitrate mínimo (1080p)",
+  "Extra floor (share of the source)": "Límite inferior extra (parte de la fuente)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Opcional: conservar también al menos esta parte del bitrate de vídeo original. Solo útil para fuentes con un bitrate muy alto. 0 = desactivado.",
+  "with the minimum bitrate at most": "con el bitrate mínimo como mucho",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "El nuevo archivo nunca baja de esto, aunque VMAF lo permita. Otras resoluciones escalan: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animación ×0.6.",
+  "bitrate already near the minimum": "bitrate ya cerca del mínimo",
+  "MFA reset from settings - set it up again": "MFA restablecida desde los ajustes - vuelve a configurarla",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA restablecida mediante MFA_RESET - quita MFA_RESET de los ajustes del contenedor",
+  "MFA enabled": "MFA activada",
+  "MediaScan started": "MediaScan iniciado",
+  "New recovery codes created": "Nuevos códigos de recuperación creados",
+  "Password changed; other sessions signed out": "Contraseña cambiada; otras sesiones cerradas",
+  "Password set (first time)": "Contraseña establecida (primera vez)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Nota: ADMIN_PASSWORD tiene menos de 10 caracteres - elige una contraseña más segura en Ajustes",
+  "part of a DVD/Blu-ray folder": "parte de una carpeta DVD/Blu-ray",
+  "folder is in Skip folders": "la carpeta está en Omitir carpetas",
+  "file disappeared": "el archivo desapareció",
+  "worker restarted - rescheduled": "worker reiniciado - reprogramado",
+  "worker offline - rescheduled": "worker sin conexión - reprogramado",
+  "retry after worker update": "reintento tras actualizar el worker",
+  "dvd/blu-ray converted to mkv": "DVD/Blu-ray convertido a MKV",
+  "skipped by you": "omitido por ti",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "El reemplazo espera mientras se está viendo una película, y Plex se actualiza tras cada cambio.",
+  "Confirm with your password and a code from your app.": "Confirma con tu contraseña y un código de tu app.",
+  "Your old recovery codes will stop working.": "Tus códigos de recuperación antiguos dejarán de funcionar.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Tu vínculo actual con el autenticador y los códigos de recuperación dejarán de funcionar. Volverás a configurar la MFA enseguida.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Elige una contraseña para el panel. El código de configuración está en el registro del contenedor (Container Manager › mediascan › Log, o",
+  "- click to remove": "- haz clic para quitar",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Dirección no válida, p. ej. http://192.168.1.10:32400",
+  "Enter a Plex token": "Introduce un token de Plex",
+  "A password has already been set": "Ya se ha establecido una contraseña",
+  "The key is fixed in WORKER_TOKEN (container environment)": "La clave está fijada en WORKER_TOKEN (entorno del contenedor)",
+  "selection still running - pause or wait until it is done": "la selección sigue en curso - pausa o espera a que termine",
+  "Now running": "En curso",
+  "Finding the film on the disc": "Buscando la película en el disco",
+  "Converting to one .mkv": "Convirtiendo a un único .mkv",
+  "Checking (duration, tracks)": "Comprobando (duración, pistas)",
+  "Copying to the NAS": "Copiando al NAS",
+  "Old folder to quarantine": "Carpeta antigua a cuarentena",
+  "worker has not reported for a while": "el worker lleva un rato sin informar",
+  "waiting for the worker": "esperando al worker",
+  "Welcome to MediaScan": "Bienvenido a MediaScan",
+  "Setup code": "Código de configuración",
+  "New password (at least 10 characters)": "Nueva contraseña (al menos 10 caracteres)",
+  "Repeat password": "Repetir contraseña",
+  "Set password": "Establecer contraseña",
+  "The passwords do not match": "Las contraseñas no coinciden",
+  "Setup code is wrong - check the container log": "El código de configuración es incorrecto - revisa el registro del contenedor",
+  "Choose a password of at least 10 characters": "Elige una contraseña de al menos 10 caracteres",
+  "Animation folders": "Carpetas de animación",
+  "Top-level folders with animation: these may use a lower bitrate.": "Carpetas de primer nivel con animación: pueden usar un bitrate más bajo.",
+  "Where do I find the token?": "¿Dónde encuentro el token?",
+  "Connect": "Conectar",
+  "Disconnect": "Desconectar",
+  "Connected": "Conectado",
+  "Not connected": "No conectado",
+  "+ Add language": "+ Añadir idioma",
+  "Renew": "Renovar",
+  "Worker version": "Versión del worker",
+  "Password": "Contraseña",
+  "Other sessions are signed out after a change.": "Las otras sesiones se cierran tras un cambio.",
+  "Change password": "Cambiar contraseña",
+  "Other sessions will be signed out.": "Las otras sesiones se cerrarán.",
+  "Change": "Cambiar",
+  "New worker key": "Nueva clave de worker",
+  "Create new key": "Crear nueva clave",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Todos los workers se detienen hasta que introduzcas la nueva clave (vuelve a ejecutar el instalador o edita worker.ini).",
+  "Repeat new password": "Repetir nueva contraseña",
+  "Password changed": "Contraseña cambiada",
+  "New worker key created": "Nueva clave de worker creada",
+  "Disconnect Plex?": "¿Desconectar Plex?",
+  "Plex disconnected": "Plex desconectado",
+  "Plex connected": "Plex conectado",
+  "Incorrect password": "Contraseña incorrecta",
+  "Incorrect code": "Código incorrecto",
+  "Incorrect code from your authenticator app": "Código incorrecto de tu app de autenticación",
+  "Too many attempts - try again in 15 minutes": "Demasiados intentos - vuelve a intentarlo en 15 minutos",
+  "DVD & Blu-ray": "DVD y Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Carpetas con VIDEO_TS o BDMV. Al convertirlas se obtiene un único .mkv con todo el vídeo, audio, subtítulos y capítulos.",
+  "Convert to MKV": "Convertir a MKV",
+  "Folder": "Carpeta",
+  "Type": "Tipo",
+  "found": "encontrado",
+  "queued": "en cola",
+  "converting…": "convirtiendo…",
+  "converted": "convertido",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "La conversión copia todo 1:1 en un único .mkv: vídeo (también HDR), todas las pistas de audio, subtítulos y capítulos. En un DVD elige el título más largo (la película). La carpeta antigua va a cuarentena, así que puedes restaurarla. Después, el .mkv pasa por la codificación normal y los subtítulos. Los Blu-ray Dolby Vision se convierten en Dolby Vision perfil 8.1 (capa base 1:1, metadatos DV añadidos): Plex y tu TV lo reproducen como Dolby Vision, otros reproductores como HDR10. Una película así no se recodifica después, ya que se perdería el Dolby Vision.",
+  "Compare": "Comparar",
+  "Delete comparison": "Eliminar comparación",
+  "Comparison deleted": "Comparación eliminada",
+  "comparison": "comparación",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "El original junto a la nueva versión: tamaño, calidad, imagen y subtítulos. Tú eliges las películas.",
+  "Original → new": "Original → nuevo",
+  "Quality (VMAF)": "Calidad (VMAF)",
+  "Comparison": "Comparación",
+  "View": "Ver",
+  "Make comparison": "Crear comparación",
+  "previous attempt failed": "el intento anterior falló",
+  "Back": "Atrás",
+  "Make again": "Crear de nuevo",
+  "New": "Nuevo",
+  "VMAF whole film": "VMAF película completa",
+  "Making the frames… this usually takes less than a minute.": "Creando los fotogramas… suele tardar menos de un minuto.",
+  "There is no picture comparison for this film yet.": "Aún no hay comparación de imagen para esta película.",
+  "Picture · drag across the image": "Imagen · arrastra sobre la imagen",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "El HDR se ha convertido a SDR para esta vista; tu TV lo muestra en HDR.",
+  "How the setting was chosen": "Cómo se eligió el ajuste",
+  "Step": "Paso",
+  "Weakest 5%": "5% más débil",
+  "Bitrate": "Bitrate",
+  "chosen": "elegido",
+  "No data.": "Sin datos.",
+  "Nothing needed, all languages were present.": "Nada necesario, todos los idiomas estaban presentes.",
+  "Not processed yet.": "Aún no procesado.",
+  "Comparison requested · ready within a minute": "Comparación solicitada · lista en un minuto",
+  "Delete this comparison? The film itself stays as it is.": "¿Eliminar esta comparación? La película en sí no cambia.",
+  "Not possible": "No es posible",
+  "Slide between original and new": "Desliza entre original y nuevo",
+  "Overview": "Resumen",
+  "Queue": "Cola",
+  "In progress": "En curso",
+  "No gain": "Sin ganancia",
+  "Failed": "Fallidos",
+  "Subtitles": "Subtítulos",
+  "Recently added": "Añadidos recientemente",
+  "Library": "Biblioteca",
+  "Quarantine": "Cuarentena",
+  "Workers": "Workers",
+  "Activity": "Actividad",
+  "Settings": "Ajustes",
+  "Encoding": "Codificación",
+  "System": "Sistema",
+  "Status of the entire library.": "Estado de toda la biblioteca.",
+  "Selection": "Selección",
+  "waiting for worker": "esperando a un worker",
+  "In the selection": "En la selección",
+  "selection": "selección",
+  "Selection · encoding": "Selección · codificación",
+  "Selection · subtitles": "Selección · subtítulos",
+  "Close list": "Cerrar lista",
+  "waiting": "en espera",
+  "nothing needed": "nada necesario",
+  "original kept": "original conservado",
+  "Find, sync or generate missing subtitles.": "Buscar, sincronizar o generar subtítulos que faltan.",
+  "All videos with their current plan. You can also queue items manually here.": "Todos los vídeos con su plan actual. Aquí también puedes poner elementos en cola manualmente.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Las máquinas que hacen el trabajo. Elige qué puede hacer cada worker.",
+  "Log of everything that happens.": "Registro de todo lo que ocurre.",
+  "Scan now": "Escanear ahora",
+  "Saved": "Ahorrado",
+  "Free on NAS": "Libre en el NAS",
+  "Progress": "Progreso",
+  "Saved per day": "Ahorrado por día",
+  "last 14 days": "últimos 14 días",
+  "Per folder": "Por carpeta",
+  "all": "todo",
+  "nothing processed yet": "aún no se ha procesado nada",
+  "no measurement yet": "aún sin medición",
+  "No processed files yet": "Aún no hay archivos procesados",
+  "No worker connected yet": "Aún no hay ningún worker conectado",
+  "no worker": "sin worker",
+  "worker offline": "worker sin conexión",
+  "online": "en línea",
+  "disabled": "desactivado",
+  "encoding": "codificación",
+  "subtitles": "subtítulos",
+  "Search by name or folder…": "Buscar por nombre o carpeta…",
+  "Several titles at once: separate them with |": "Varios títulos a la vez: sepáralos con |",
+  "Nothing to show": "Nada que mostrar",
+  "File": "Archivo",
+  "Source": "Fuente",
+  "Status": "Estado",
+  "Result": "Resultado",
+  "Languages": "Idiomas",
+  "Error": "Error",
+  "When": "Cuándo",
+  "Plan": "Plan",
+  "Added": "Añadido",
+  "Original": "Original",
+  "Size": "Tamaño",
+  "Replaced": "Reemplazado",
+  "estimate": "estimación",
+  "Name": "Nombre",
+  "Done": "Listo",
+  "Nothing found": "No se encontró nada",
+  "Process only these": "Procesar solo estos",
+  "Prioritise": "Priorizar",
+  "Skip": "Omitir",
+  "Retry": "Reintentar",
+  "Clear": "Quitar selección",
+  "Both": "Ambos",
+  "Restore original": "Restaurar original",
+  "Find subtitles": "Buscar subtítulos",
+  "running": "en curso",
+  "done": "listo",
+  "failed": "fallido",
+  "replacing": "reemplazando",
+  "no gain": "sin ganancia",
+  "skipped": "omitido",
+  "restored": "restaurado",
+  "cancelled": "cancelado",
+  "nothing found": "nada encontrado",
+  "encode": "codificar",
+  "already efficient": "ya eficiente",
+  "small gain": "ganancia pequeña",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "error",
+  "unknown": "desconocido",
+  "All": "Todo",
+  "Already efficient": "Ya eficiente",
+  "Small gain": "Ganancia pequeña",
+  "Restored": "Restaurado",
+  "Video": "Vídeo",
+  "Duration": "Duración",
+  "Audio": "Audio",
+  "Encode": "Codificación",
+  "Quality": "Calidad",
+  "Encode time": "Tiempo de codificación",
+  "Message": "Mensaje",
+  "Started": "Iniciado",
+  "Search": "Buscar",
+  "weakest 5%": "5% más débil",
+  "video": "vídeo",
+  "Worker": "Worker",
+  "Hardware": "Hardware",
+  "Resolution": "Resolución",
+  "Working on": "Trabajando en",
+  "nothing": "nada",
+  "up to 4K": "hasta 4K",
+  "up to 1080p": "hasta 1080p",
+  "up to 720p": "hasta 720p",
+  "up to SD": "hasta SD",
+  "Remove": "Quitar",
+  "Add worker": "Añadir worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Cada worker informa de lo que puede hacer (codificador encontrado, Whisper instalado). Aquí decides lo que puede hacer. Los cambios se aplican desde el siguiente trabajo; un trabajo en curso se termina primero.",
+  "This machine lacks the hardware or software for this": "A esta máquina le falta el hardware o el software para esto",
+  "Quality level": "Nivel de calidad",
+  "Standard": "Estándar",
+  "High": "Alta",
+  "Maximum": "Máxima",
+  "Custom": "Personalizada",
+  "Custom target": "Objetivo personalizado",
+  "Average VMAF and the weakest 5% of frames.": "VMAF medio y el 5% de fotogramas más débil.",
+  "avg.": "media",
+  "Minimum saving": "Ahorro mínimo",
+  "If a file saves less, the original is kept.": "Si un archivo ahorra menos, se conserva el original.",
+  "Processing": "Procesamiento",
+  "Storage & safety": "Almacenamiento y seguridad",
+  "How long replaced originals can be restored.": "Durante cuánto tiempo se pueden restaurar los originales reemplazados.",
+  "days": "días",
+  "Above this, the oldest originals are deleted permanently.": "Por encima de esto, los originales más antiguos se eliminan definitivamente.",
+  "Safety brake": "Freno de seguridad",
+  "Encoding pauses when the NAS has less free space than this.": "La codificación se pausa cuando el NAS tiene menos espacio libre que esto.",
+  "Scanning": "Escaneo",
+  "Automatic scan": "Escaneo automático",
+  "New files are queued automatically.": "Los archivos nuevos se ponen en cola automáticamente.",
+  "Off": "Desactivado",
+  "Every hour": "Cada hora",
+  "Every 6 hours": "Cada 6 horas",
+  "Every 12 hours": "Cada 12 horas",
+  "Daily": "Diario",
+  "Skip folders": "Carpetas omitidas",
+  "Comma-separated folder names.": "Nombres de carpeta separados por comas.",
+  "Plex": "Plex",
+  "Dashboard address": "Dirección del panel",
+  "Use the IP address of the NAS, not localhost.": "Usa la dirección IP del NAS, no localhost.",
+  "Worker key": "Clave de worker",
+  "Keep secret: with this key a worker can fetch jobs.": "Mantenla en secreto: con esta clave un worker puede obtener trabajos.",
+  "Show": "Mostrar",
+  "Copy": "Copiar",
+  "Minimum requirements": "Requisitos mínimos",
+  "Account & security": "Cuenta y seguridad",
+  "Two-factor authentication": "Autenticación de dos factores",
+  "Not active": "No activa",
+  "New recovery codes": "Nuevos códigos de recuperación",
+  "Reset MFA": "Restablecer MFA",
+  "Sessions": "Sesiones",
+  "Sign out everywhere else": "Cerrar sesión en todos los demás",
+  "Sign out": "Cerrar sesión",
+  "You have unsaved changes.": "Tienes cambios sin guardar.",
+  "Cancel": "Cancelar",
+  "Save": "Guardar",
+  "Language": "Idioma",
+  "Theme": "Tema",
+  "Light": "Claro",
+  "Dark": "Oscuro",
+  "Auto": "Auto",
+  "Dashboard language.": "Idioma del panel.",
+  "Auto follows your system setting.": "Auto sigue el ajuste de tu sistema.",
+  "Reset": "Restablecer",
+  "Create new codes": "Crear nuevos códigos",
+  "Close": "Cerrar",
+  "Code from your authenticator app": "Código de tu app de autenticación",
+  "Sign in": "Iniciar sesión",
+  "Activate": "Activar",
+  "Set up two-factor authentication": "Configurar la autenticación de dos factores",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Escanea el código QR con tu app de autenticación e introduce el código de 6 dígitos.",
+  "Manual:": "Manual:",
+  "6-digit code": "Código de 6 dígitos",
+  "123456 or recovery code": "123456 o código de recuperación",
+  "Save your recovery codes": "Guarda tus códigos de recuperación",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "¿Perdiste el teléfono? Cada uno de estos códigos te permite iniciar sesión una vez. Solo se muestran una vez.",
+  "I have saved them": "Ya los he guardado",
+  "Save them now, they are shown only once.": "Guárdalos ahora, solo se muestran una vez.",
+  "Server not responding": "El servidor no responde",
+  "Sign-in failed": "Error al iniciar sesión",
+  "Code is incorrect": "El código es incorrecto",
+  "Code is incorrect - check the time on your phone": "El código es incorrecto - comprueba la hora de tu teléfono",
+  "Scan started": "Escaneo iniciado",
+  "scan already running": "el escaneo ya está en curso",
+  "Copied": "Copiado",
+  "Resumed": "Reanudado",
+  "Paused: a running job will finish first": "En pausa: un trabajo en curso terminará primero",
+  "Added to the queue": "Añadido a la cola",
+  "Not applicable": "No aplicable",
+  "At least one language": "Al menos un idioma",
+  "Skip this job?": "¿Omitir este trabajo?",
+  "Restore the original? The new version will be deleted.": "¿Restaurar el original? Se eliminará la nueva versión.",
+  "on": "activado",
+  "off": "desactivado",
+  "Quarantine cleanup": "Limpieza de cuarentena",
+  "Background task": "Tarea en segundo plano",
+  "Planning at startup": "Planificación al iniciar",
+  "Welcome": "Bienvenido",
+  "Next": "Siguiente",
+  "Previous": "Anterior",
+  "Next (or skip)": "Siguiente (u omitir)",
+  "Done, go to the overview": "Listo, ir al resumen",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan reduce el tamaño de tus películas y series sin diferencia visible y completa los subtítulos que faltan. Los originales solo se reemplazan tras un control de calidad y antes se guardan un tiempo en cuarentena.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Seis pasos cortos y listo. Puedes cambiarlo todo más tarde en Ajustes.",
+  "Your library": "Tu biblioteca",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan está buscando vídeos en tu carpeta multimedia. Con una biblioteca grande, el primer escaneo tarda un rato; puedes seguir sin más.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Carpetas que MediaScan nunca toca, separadas por comas (p. ej. Music, Downloads).",
+  "Scan again": "Escanear de nuevo",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Elige los idiomas que debe tener cada archivo. MediaScan busca los que faltan en OpenSubtitles. Si no lo consigue, el worker crea el subtítulo él mismo (reconocimiento de voz y traducción en tu propio PC).",
+  "Click a language to remove it.": "Haz clic en un idioma para quitarlo.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Cada película se mide con VMAF, una puntuación de cómo ve la imagen el ojo humano. «Alta» es indistinguible del original para casi todo el mundo.",
+  "Higher = better picture, less space saved.": "Más alto = mejor imagen, menos espacio ahorrado.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Una red de seguridad para el grano y las escenas oscuras. 5 Mbps es un buen valor predeterminado; 4K y otras resoluciones escalan en consecuencia.",
+  "Plex (optional)": "Plex (opcional)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Con Plex conectado, MediaScan espera para reemplazar una película mientras alguien la está viendo, y actualiza Plex tras cada cambio. ¿No tienes Plex? Simplemente omite este paso.",
+  "Plex address and token": "Dirección y token de Plex",
+  "Plex token": "Token de Plex",
+  "token (unchanged)": "token (sin cambios)",
+  "Add a worker": "Añadir un worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "El trabajo pesado lo hace un PC o Mac con una buena tarjeta gráfica: el worker. Instálalo ahora o más tarde desde Workers. Mientras no haya ningún worker, no se toca ningún archivo.",
+  "✓ A worker is connected.": "✓ Hay un worker conectado.",
+  "Done! MediaScan is set up.": "¡Listo! MediaScan está configurado.",
+  "Connect the media share on the new machine.": "Conecta la carpeta compartida de medios en la nueva máquina.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: letra de unidad o \\\\NAS\\Media · Mac: Finder › Conectarse al servidor · Linux: consulta las instrucciones del paquete.",
+  "Download the package for that system and unpack it.": "Descarga el paquete para ese sistema y descomprímelo.",
+  "Run the installer.": "Ejecuta el instalador.",
+  "The installer asks for the details below and tests the connection.": "El instalador pide los datos de abajo y prueba la conexión.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 o posterior, Intel Arc o iGPU de 11.ª gen.+, AMD RX 6000+ · 4 núcleos · 8 GB · 100 GB libres · red por cable. Subtítulos: NVIDIA con 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtítulos: 24 GB+) · 150 GB libres · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Los workers se actualizan solos cuando este panel tiene una nueva versión.",
+  "What the workers are doing now and what is planned next.": "Lo que hacen los workers ahora y lo que viene después.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Reduce el tamaño de los archivos sin pérdida de calidad visible. El worker procesa la cola de arriba abajo.",
+  "select page": "seleccionar página",
+  "select": "seleccionar",
+  "to encode": "por codificar",
+  "Movie": "Película",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Originales reemplazados, guardados un tiempo para que puedas restaurarlos o volver a codificarlos.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Cómo funciona MediaScan: calidad, subtítulos, almacenamiento y seguridad.",
+  "General": "General",
+  "Advanced": "Avanzado",
+  "Connection": "Conexión",
+  "Hand out new encode jobs to the workers.": "Repartir nuevos trabajos de codificación a los workers.",
+  "Hand out new subtitle jobs to the workers.": "Repartir nuevos trabajos de subtítulos a los workers.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Qué tan estricta es la medición VMAF. Más alto = mejor imagen, menos espacio ahorrado.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Qué subtítulos debe tener cada archivo. Los que faltan se buscan o, si no, se generan.",
+  "Go to Workers": "Ir a Workers",
+  "new": "nuevo",
+  "start": "inicio",
+  "Minimum bitrate (4K)": "Bitrate mínimo (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Límite propio para 4K, en lugar de 2,5 × el valor de 1080p. 0 = automático. HDR +15 % y animación ×0,6 también se aplican.",
+  "Ready to use in a few steps.": "Listo para usar en unos pocos pasos.",
+  "next": "siguiente",
+  "read error": "error de lectura",
+  "MFA is already enabled": "MFA ya está activada",
+  "a .mkv with that name already exists": "ya existe un .mkv con ese nombre",
+  "a file already exists at the original location": "ya existe un archivo en la ubicación original",
+  "action not possible in this status": "acción no posible en este estado",
+  "walking folders": "recorriendo carpetas",
+  "planning jobs": "planificando tareas",
+  "check on the NAS rejected (duration/tracks)": "comprobación en el NAS rechazada (duración/pistas)",
+  "expected a JSON object": "se esperaba un objeto JSON",
+  "ffprobe error": "error de ffprobe",
+  "invalid resolution": "resolución no válida",
+  "invalid worker token": "token de worker no válido",
+  "job belongs to another worker": "la tarea pertenece a otro worker",
+  "job is no longer active": "la tarea ya no está activa",
+  "no video track": "sin pista de vídeo",
+  "not JSON": "no es JSON",
+  "not signed in": "sesión no iniciada",
+  "original disappeared": "el original desapareció",
+  "original has changed in the meantime": "el original ha cambiado entretanto",
+  "original is no longer in quarantine": "el original ya no está en cuarentena",
+  "original no longer available": "original ya no disponible",
+  "request refused": "solicitud rechazada",
+  "target file already exists": "el archivo de destino ya existe",
+  "the original has already been removed from quarantine - comparing is no longer possible": "el original ya se eliminó de la cuarentena - ya no se puede comparar",
+  "this film has not been replaced yet": "esta película aún no se ha reemplazado",
+  "unknown action": "acción desconocida",
+  "worker is still online": "el worker sigue en línea",
+  "In use now:": "En uso ahora:",
+  "longest": "más larga",
+  "8.1 (from profile 7)": "8.1 (del perfil 7)",
+  "Whisper (transcription)": "Whisper (transcripción)",
+  "1 day ago": "hace 1 día",
+  "1 video": "1 vídeo",
+  "Enter your password to open the dashboard.": "Introduce tu contraseña para abrir el panel.",
+  "No connection to the server - retrying…": "Sin conexión con el servidor - reintentando…",
+  "Are you sure?": "¿Estás seguro?",
+  "Restore": "Restaurar",
+  "Re-encode": "Recodificar",
+  "Delete": "Eliminar",
+  "Next up": "A continuación",
+  "in the queue": "en la cola",
+  "Load older entries": "Cargar entradas anteriores",
+  "Folder: all": "Carpeta: todas",
+  "Resolution: all": "Resolución: todas",
+  "Codec: all": "Códec: todos",
+  "More": "Más",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "película(s) esperan al codificador por CPU, pero ningún worker tiene activada la codificación por CPU (página Workers).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Tu hardware, lo bien que encaja con el trabajo, las herramientas usadas y cómo funcionan los ajustes.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Memoria",
+  "Software": "Software",
+  "GPU encoding": "Codificación por GPU",
+  "CPU encoding (x265)": "Codificación por CPU (x265)",
+  "Subtitles (Whisper)": "Subtítulos (Whisper)",
+  "Translation (Ollama)": "Traducción (Ollama)",
+  "Server": "Servidor",
+  "Database": "Base de datos",
+  "Tools in use": "Herramientas en uso",
+  "Knowledge base": "Base de conocimiento",
+  "Low": "Bajo",
+  "Medium": "Medio",
+  "Ultra": "Ultra",
+  "files": "archivos",
+  "up": "activo",
+  "of": "de",
+  "uses": "usa",
+  "free": "libre",
+  "Media share": "Carpeta de medios",
+  "Rating": "Valoración",
+  "Hardware details appear after this worker has updated itself.": "Los detalles del hardware aparecen cuando este worker se haya actualizado.",
+  "no Whisper": "sin Whisper",
+  "unified memory": "memoria unificada",
+  "cores": "núcleos",
+  "threads": "hilos",
+  "driver": "controlador",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Desconocido",
+  "Settings saved": "Ajustes guardados",
+  "Time left": "Tiempo restante",
+  "Queued": "En cola",
+  "Keep originals for": "Conservar originales durante",
+  "Quarantine size limit": "Límite de tamaño de la cuarentena",
+  "Hide finished items": "Ocultar elementos terminados",
+  "Undo skip": "Deshacer omisión",
+  "not supported here": "no compatible aquí",
+  "CPU encoding": "Codificación por CPU",
+  "Retry on CPU (x265)": "Reintentar en CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Codificado en la CPU con x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 con ajuste para grano en la CPU del worker: conserva el grano con mucha más eficiencia, pero tarda horas por película",
+  "CPU fallback for grainy films": "Alternativa por CPU para películas con grano",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Cuando la GPU no puede mantener la calidad sin superar la tasa de bits del original (grano de película), la película se codifica otra vez en la CPU de un worker con x265, que conserva el grano con mucha más eficiencia. Tarda horas por película; activa la codificación por CPU para un worker en la página Workers.",
+  "CPU preset": "Preajuste de CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: unas 2 horas para una película de 2 horas en 1080p con 8 núcleos. Slow: de 2 a 3 veces más tiempo para archivos entre un 5 y un 10% más pequeños.",
+  "Medium (faster)": "Medium (más rápido)",
+  "Slow (smaller)": "Slow (más pequeño)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "No se pudo cargar esta página.",
+  "up to 1440p": "hasta 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "analizando archivos",
+  "No worker has CPU encodes switched on (Workers page)": "Ningún worker tiene activada la codificación por CPU (página Workers)",
+  "the job changed in the meantime": "el trabajo cambió mientras tanto",
+  "Main": "Navegación principal",
+  "Clear search and filters": "Borrar búsqueda y filtros",
+  "Compact rows": "Filas compactas",
+  "Encoding and subtitles are paused.": "La codificación y los subtítulos están en pausa.",
+  "Encoding is paused: no new encode jobs are handed out.": "La codificación está en pausa: no se reparten nuevos trabajos de codificación.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Los subtítulos están en pausa: no se reparten nuevos trabajos de subtítulos.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Introduce la dirección de Plex y el token, o deja ambos vacíos para omitir este paso.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "El espacio libre en el NAS está por debajo del freno de seguridad. La codificación se ha pausado automáticamente.",
+  "Loading…": "Cargando…",
+  "Next film": "Película siguiente",
+  "Previous film": "Película anterior",
+  "Next page": "Página siguiente",
+  "Previous page": "Página anterior",
+  "Rows per page": "Filas por página",
+  "Resume": "Reanudar",
+  "Resume encoding": "Reanudar codificación",
+  "Resume subtitles": "Reanudar subtítulos",
+  "Open settings": "Abrir ajustes",
+  "Open the library": "Abrir la biblioteca",
+  "Subtitle languages": "Idiomas de subtítulos",
+  "Update": "Actualizar",
+  "No results for this search or filter.": "No hay resultados para esta búsqueda o filtro.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "No hay nada en cola para codificar. Los archivos nuevos entran en la cola tras un escaneo.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Aún no se ha reemplazado ningún archivo. Las codificaciones terminadas aparecen aquí tras el control de calidad.",
+  "No files were kept as they are. Films that would save too little end up here.": "No se ha dejado ningún archivo tal cual. Las películas que ahorrarían demasiado poco acaban aquí.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "No hay subtítulos en espera. Los archivos a los que les falta un idioma entran en la cola tras un escaneo.",
+  "No subtitle job is running right now.": "Ahora mismo no hay ningún trabajo de subtítulos en curso.",
+  "No subtitles have been made yet.": "Aún no se han creado subtítulos.",
+  "Nothing missing: every file got its subtitles so far.": "No falta nada: hasta ahora todos los archivos tienen sus subtítulos.",
+  "No failed encodes.": "No hay codificaciones fallidas.",
+  "No failed subtitle jobs.": "No hay trabajos de subtítulos fallidos.",
+  "Nothing was added in the last 14 days.": "No se ha añadido nada en los últimos 14 días.",
+  "No videos with this plan.": "No hay vídeos con este plan.",
+  "The library is being scanned; videos appear as they are found.": "Se está escaneando la biblioteca; los vídeos aparecen a medida que se encuentran.",
+  "No videos found yet. Check the media folder and run a scan.": "Aún no se han encontrado vídeos. Comprueba la carpeta de medios y ejecuta un escaneo.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "No hay nada en cuarentena. Los originales reemplazados se guardan aquí hasta que termina el tiempo de conservación.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "No se han encontrado carpetas de DVD o Blu-ray (VIDEO_TS, BDMV) en la biblioteca.",
+  "1 worker online": "1 worker en línea",
+  "A worker is busy with this file": "Un worker está procesando este archivo",
+  "A worker is grabbing the frames": "Un worker está capturando los fotogramas",
+  "A worker is searching or making subtitles": "Un worker está buscando o creando subtítulos",
+  "A worker picks up the next job within a few seconds.": "Un worker toma el siguiente trabajo en unos segundos.",
+  "Above this, the oldest comparisons are deleted automatically.": "Por encima de esto, las comparaciones más antiguas se eliminan automáticamente.",
+  "All replaced films": "Todas las películas reemplazadas",
+  "Already efficient: encoding would hardly save anything": "Ya es eficiente: codificar apenas ahorraría nada",
+  "Automatic comparisons": "Comparaciones automáticas",
+  "Being made…": "Creándose…",
+  "Can be made": "Se puede crear",
+  "Can encode on the CPU with x265": "Puede codificar en la CPU con x265",
+  "Comparison storage limit": "Límite de almacenamiento de comparaciones",
+  "Comparisons": "Comparaciones",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: no se recodifica, la capa DV se perdería",
+  "Encoding is paused.": "La codificación está en pausa.",
+  "Enlarge": "Ampliar",
+  "Errors": "Errores",
+  "Flip": "Alternar",
+  "Four frames of the original and the new version are stored": "Se guardan cuatro fotogramas del original y de la nueva versión",
+  "Full width": "Ancho completo",
+  "GPU encoder found": "Codificador GPU detectado",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Capturar cuatro fotogramas del original y de la nueva versión de cada película reemplazada, para que siempre puedas comprobar la imagen en la página Comparar. Unos 1–2 MB por película.",
+  "Keyboard shortcuts": "Atajos de teclado",
+  "Leave without saving? Your changes to the settings will be lost.": "¿Salir sin guardar? Tus cambios en los ajustes se perderán.",
+  "Moved to the front": "Movido al principio",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Aún no hay comparaciones. Crea una mientras el original siga en cuarentena, o activa las comparaciones automáticas en Ajustes.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Ahora no se puede comparar ninguna película: los originales han salido de la cuarentena, o aún no se ha reemplazado nada.",
+  "No longer possible": "Ya no es posible",
+  "No subtitles found online and none could be made": "No se encontraron subtítulos en línea y no se pudo crear ninguno",
+  "Ollama found: can translate subtitles": "Ollama detectado: puede traducir subtítulos",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Forma parte de una carpeta DVD o Blu-ray; conviértela en la página DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Pausado automáticamente: el NAS tiene menos espacio libre que el freno de seguridad.",
+  "Planned for encoding": "Previsto para codificar",
+  "Queued for the CPU encoder": "En cola para el codificador CPU",
+  "Replaced after the quality check; the original is in quarantine for a while": "Reemplazado tras el control de calidad; el original queda un tiempo en cuarentena",
+  "Replaced films appear here after their first encode.": "Las películas reemplazadas aparecen aquí tras su primera codificación.",
+  "Search the log…": "Buscar en el registro…",
+  "Show films that can be compared": "Mostrar películas que se pueden comparar",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Mostrar el original y la nueva versión alternativamente: la mejor forma de detectar grano y detalle",
+  "Skipped": "Omitido",
+  "Skipped by you; Retry puts it back in the queue": "Omitido por ti; «Reintentar» lo devuelve a la cola",
+  "Slider back to the middle": "Deslizador al centro",
+  "Smaller": "Reducir",
+  "Stopped because the file changed or disappeared": "Detenido porque el archivo cambió o desapareció",
+  "Stopped with an error; see the message and try again": "Detenido con un error; revisa el mensaje e inténtalo de nuevo",
+  "Subtitles are paused.": "Los subtítulos están en pausa.",
+  "The file could not be read; see the drawer": "No se pudo leer el archivo; consulta el panel lateral",
+  "The new file would save less than the minimum saving, so the original was kept": "El archivo nuevo ahorraría menos que el ahorro mínimo, así que se conservó el original",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "La nueva versión está en el NAS y se intercambia en cuanto nadie esté viendo",
+  "The original has left quarantine, so the frames can no longer be grabbed": "El original ha salido de la cuarentena, así que ya no se pueden capturar los fotogramas",
+  "The original is still in quarantine, so the frames can still be grabbed": "El original sigue en cuarentena, así que aún se pueden capturar los fotogramas",
+  "The original was put back from quarantine": "El original se restauró desde la cuarentena",
+  "The queue is empty. New files are queued after a scan.": "La cola está vacía. Los archivos nuevos se añaden a la cola tras un escaneo.",
+  "The server hands out newer worker files; the worker installs them after its current job": "El servidor distribuye archivos de worker más nuevos; el worker los instala tras su trabajo actual",
+  "Undo": "Deshacer",
+  "Waiting for Plex: someone is watching this film": "Esperando a Plex: alguien está viendo esta película",
+  "Waiting for a worker; the queue runs from top to bottom": "Esperando un worker; la cola se procesa de arriba abajo",
+  "Warnings": "Avisos",
+  "Whisper installed: can make subtitles": "Whisper instalado: puede crear subtítulos",
+  "Would save less than the minimum saving": "Ahorraría menos que el ahorro mínimo",
+  "expires today": "caduca hoy",
+  "expires within a day": "caduca en menos de un día",
+  "less than a day left": "queda menos de un día",
+  "waiting for Plex": "esperando a Plex",
+  "update pending": "actualización pendiente",
+  "Tap to switch between original and new": "Toca para cambiar entre original y nuevo",
+  "Repeated": "Repetido",
+  "Search in the current list": "Buscar en la lista actual",
+  "Clear the search, close a drawer or dialog": "Borrar la búsqueda, cerrar un panel o un diálogo",
+  "Previous or next film on a comparison": "Película anterior o siguiente en una comparación",
+  "Open or switch the focused row, switch or header": "Abrir o cambiar la fila, el interruptor o el encabezado enfocado",
+  "This list": "Esta lista",
+  "Nothing in the log matches this.": "Nada en el registro coincide con esto.",
+  "Nothing has happened yet.": "Aún no ha pasado nada.",
+  "No worker is online, so nothing can run.": "No hay ningún worker en línea, así que nada puede ejecutarse.",
+  "There is no worker yet. Add one to get started.": "Aún no hay ningún worker. Añade uno para empezar.",
+  "Open Workers": "Abrir Workers",
+  "Some values are out of range.": "Algunos valores están fuera de rango.",
+  "no capabilities reported": "sin capacidades informadas",
+  "Replaced · expires": "Reemplazado · caduca",
+  "Made": "Creada",
+  "Make": "Crear",
+  "lots of motion": "mucho movimiento",
+  "dark scene": "escena oscura",
+  "a quarter in": "a un cuarto",
+  "three quarters in": "a tres cuartos",
+  "Encoded": "Codificado",
+  "Finished": "Terminado",
+  "later": "después",
+  "Leave": "Salir",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Una comparación toma 4 fotogramas del original y de la nueva versión (en total 1–2 MB). Se puede crear mientras el original siga en cuarentena y se conserva hasta que la elimines, incluso cuando el original ya no exista.",
+  "Retry on CPU": "Reintentar en CPU",
+  "Scan": "Escaneo"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1inicio$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Ahora: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan ha encontrado $1 vídeos ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · 5% más débil $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "5% más débil $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Nuevo ($1 días)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Plan: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Error al reemplazar ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1}: error{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Escaneo listo: $1 vídeos, $2 nuevos, $3 modificados, $4 desaparecidos; $5 trabajos de codificación y $6 de subtítulos añadidos"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Escaneo listo: $1 vídeos, $2 nuevos, $3 modificados, $4 desaparecidos, $5 en carpetas omitidas; $6 trabajos de codificación y $7 de subtítulos añadidos"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "¿Recodificar $1 película(s) con las reglas actuales? Se restauran los originales y las películas pasan a tener prioridad en la cola."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 película(s) de vuelta en la cola{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 original(es) restaurado(s) y de nuevo en cola (reglas actuales)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Nuevo: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Reemplazado: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray convertido: $1 ($2 GB); la carpeta del disco está en cuarentena"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Original restaurado: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 inició {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 trabajo(s) (de $3 en total)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Selección repartida - codificación pausada automáticamente"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Selección repartida - subtítulos pausados automáticamente"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Ajustes cambiados: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Trabajo $1 error: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Trabajo $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 sin conexión: $2 trabajo(s) de vuelta en la cola"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 reiniciado: $2 trabajo(s) interrumpido(s) de vuelta en la cola"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 actualizado a $2: $3 trabajo(s) fallido(s) de nuevo en la cola"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 eliminado"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: codificación {t:$2}, subtítulos {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Planificación actualizada: $1 trabajos de codificación y $2 de subtítulos añadidos"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 trabajo(s) puesto(s) en cola manualmente"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 trabajo(s): $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 comparación(es) eliminada(s)"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Sesión cerrada en $1 otra(s) sesión(es)"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Código de recuperación usado para iniciar sesión (quedan $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Los originales se guardan como máximo $1 días y en conjunto nunca más de $2. Los más antiguos se van primero. Restaurar elimina la nueva versión."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - haz clic para quitar"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "Se convertirán $1 carpeta(s) · el worker empieza en menos de medio minuto"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 audio · $2 subtítulos"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "¿Eliminar $1 comparación(es)? Las películas en sí no cambian."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Fotograma $1 · en $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Fotograma $1 · en $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB como jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Tiempo de codificación $1 min · medido en 8 fragmentos y luego comprobado en toda la película."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Presentes ahora: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "5% más débil $1 · norma $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "sincronía $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Error al crear los fotogramas: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "selección · siguiente"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "selección · n.º $1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Ahora:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· después $1 más de la selección"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "estimación · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 terminados antes · mostrar"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 añadido(s) a la selección · el worker empieza en unos segundos"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Selección {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "creado: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% más pequeño$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "justo ahora"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "hace $1 min"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "hace $1 h"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "hace $1 días"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "visto {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 d $2 h"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 h $2 min"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 vídeos"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "cuarentena $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 por 24 h"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 de ganancia"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB de ganancia"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% más pequeño en los archivos procesados"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 en línea"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "quedan $1 por iniciar, luego pausa"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 elementos · página $2 de $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 seleccionado(s)"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Seleccionar los $1 resultados"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Escaneando: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× intentado"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 min"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Activa · quedan $1 código(s) de recuperación"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 sesión(es) activa(s), incluida esta."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 actualizado(s){w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 otra(s) sesión(es) cerrada(s)"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "¿Procesar solo estos $1? Pasan a tener prioridad, el procesamiento se reanuda y después vuelve a pausarse automáticamente."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "¿Omitir $1 trabajo(s)?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "¿Restaurar $1 original(es)? Se eliminarán las nuevas versiones."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "¿Quitar el worker $1 de la lista? Si vuelve a estar en línea, reaparecerá automáticamente."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "en curso desde hace $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "quedan ~$1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "hasta $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "trabajando en"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex conectado (versión $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex no responde correctamente: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "error: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "error al reemplazar: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "valor no válido para $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 debe estar entre $2 y $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · 5% más débil $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 h"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: la GPU no pudo mantener la calidad - en cola para el codificador por CPU (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Limpieza de staging: resto eliminado $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 por página"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 workers en línea"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · añadir un worker, la clave de worker y las descargas están en la página Workers."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · empieza en ~{t:$2} · estimación"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · estimación"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "quedan $1 días"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "caduca en $1 días"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Creada · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Se puede crear · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · paso $1 de $2 · quedan ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · paso $1 de $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · quedan ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 comparación(es) solicitada(s) · listas en unos minutos"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "¿Crear $1 comparación(es)? Unos 1–2 MB cada una."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Repetido $1 veces"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "entre $1 y $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 trabajo(s)"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Error en $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 comparación(es) solicitada(s)"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Comparaciones limpiadas: $1 eliminada(s) (más de $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Carpeta de cuarentena renombrada a quarantine ($1 registro(s) actualizado(s))"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 eliminado: $2 trabajo(s) de vuelta en la cola"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Cuarentena: $1 ya existe, $2 se dejó donde estaba"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Carpeta de cuarentena renombrada a quarantine; $1 registro(s) actualizado(s), pero $2 aún no está vacía"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Error al renombrar la carpeta de cuarentena (¿está montado el recurso compartido de medios?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "falta la nueva versión en staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "falta el nuevo .mkv en staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "el original ha desaparecido"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "el original ha cambiado mientras tanto"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "el original ya no está disponible"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "comprobación en el NAS rechazada (duración/pistas)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray convertido a mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "reintento tras la actualización del worker"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "omitido por ti"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "el archivo de destino ya existe"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker sin conexión - reprogramado"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker eliminado - reprogramado"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker reiniciado - reprogramado"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "error al reemplazar: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "falta Dolby Vision en el nuevo mkv"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: no recodificado (se perdería la capa DV)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "un flujo no se puede copiar a .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg no avanzó durante $1 minutos (¿recurso compartido inaccesible?) - detenido"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "Faltan $1 de $2 archivos a la vez - ¿recurso compartido inaccesible? Nada se marcó como desaparecido"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "error de traducción: ninguna respuesta útil para $1 línea(s) tras varios intentos"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: error del servidor"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - descarga el modelo (ollama pull <model>) o corrige ollama_model en worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama no está accesible en $1 ($2) - inicia Ollama o revisa ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama inaccesible: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama siguió fallando durante $2 minutos"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 tardó más de una hora - ¿sigue accesible el recurso compartido de medios?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "falta $1; instálalo $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF de la película completa $1 no plausible con ningún método de emparejamiento (muestras $2); bajo en $3. Original conservado; revisa ahí la fuente"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: no se puede leer el archivo"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: error"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "no hay suficiente espacio libre en el PC para esta película ($1 GB necesarios en $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "no hay espacio suficiente en la carpeta de trabajo: $1 GB libres, ~$2 GB necesarios"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "con el bitrate mínimo como mucho $1% más pequeño"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "extrayendo metadatos de la capa de mejora"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "la descarga no coincide (sha256) - no se usa"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "comprobación: la duración o el número de flujos difiere"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "el nuevo mkv es demasiado corto ($1 de $2 min)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 de $2 listos, esperando a un worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "convirtiendo Dolby Vision a perfil 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "insertando metadatos en la capa base"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "comprobando VMAF (segunda medición)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "ningún ajuste alcanza el objetivo de calidad"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "límite de descargas alcanzado - el resto más tarde"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "límite diario de OpenSubtitles alcanzado"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "en parte; el resto tras el límite de descargas"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 no encontrado tras la descarga"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: idioma hablado detectado"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (traducido de $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "esperando espacio libre en el PC"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "archivo de subtítulos inesperadamente grande"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "medición de la autoprueba poco fiable"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "intento de traducción $1 fallido"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "esperando: se está viendo en Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "se espera solo $1% más pequeño"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "descargando $1 (una sola vez)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "comprobación de la película completa por debajo del objetivo"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "no se puede capturar un fotograma en $1s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "película completa justo por debajo del objetivo"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "buscando la película en el disco"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "objetivo de calidad inalcanzable"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "medición de la comprobación poco fiable"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "ruta no válida del servidor"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "de nuevo: ganancia mínima ahora 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper se ejecuta en la GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "no se encontraron títulos en el DVD"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "ruta sospechosa en el archivo comprimido"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "esperando: Plex no accesible"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "trabajando en $1 de $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles inaccesible"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (transcripción)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "comprobando VMAF película completa"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "listo, esperando para reemplazar"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "carpeta antigua a cuarentena"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "comprobación VMAF $1 demasiado baja"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "leyendo el disco (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "traducido del inglés"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "listo ($1 de $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "error al extraer el audio"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "volviendo a la CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles conectado"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (del perfil 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "esperando al worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "ruta sospechosa en el zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "EN incrustado ilegible"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "el más largo hasta ahora: título"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "la sincronía no coincide"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "solo $1% más pequeño"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "segmento $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "conservando el original"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "descargas restantes hoy"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "título $1 revisado"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "esperando para reemplazar"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "copiando al NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "se conserva el original"
+  ],
+  [
+   "translation failed",
+   "g",
+   "error de traducción"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "servidor inaccesible"
+  ],
+  [
+   "searching quality",
+   "g",
+   "buscando la calidad"
+  ],
+  [
+   "making references",
+   "g",
+   "creando referencias"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "convirtiendo a mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "subtítulos detenidos"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "copiando NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "copiando PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "buscando la película"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "uniendo en mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "playlist más larga"
+  ],
+  [
+   "timing reference",
+   "g",
+   "referencia de sincronía"
+  ],
+  [
+   "speech segments",
+   "g",
+   "fragmentos de voz"
+  ],
+  [
+   "too little gain",
+   "g",
+   "ganancia insuficiente"
+  ],
+  [
+   " not applicable",
+   "g",
+   " no aplicable"
+  ],
+  [
+   "download failed",
+   "g",
+   "error en la descarga"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "después de ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "traduciendo a"
+  ],
+  [
+   "next candidate",
+   "g",
+   "siguiente candidato"
+  ],
+  [
+   "after shifting",
+   "g",
+   "después del desplazamiento"
+  ],
+  [
+   "reading audio",
+   "g",
+   "leyendo el audio"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Selección · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 en espera"
+  ],
+  [
+   "search failed",
+   "g",
+   "error en la búsqueda"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "recodificando"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "título $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " error(es)"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 listos"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "subtítulos:"
+  ],
+  [
+   "replacing",
+   "g",
+   "reemplazando"
+  ],
+  [
+   "subtitles",
+   "g",
+   "subtítulos"
+  ],
+  [
+   "candidate",
+   "g",
+   "candidato"
+  ],
+  [
+   "encoding:",
+   "g",
+   "codificación:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "inicio"
+  ],
+  [
+   "encoding",
+   "g",
+   "codificando"
+  ],
+  [
+   "checking",
+   "g",
+   "comprobando"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", hasta "
+  ],
+  [
+   "present",
+   "g",
+   "presente"
+  ],
+  [
+   "missing",
+   "g",
+   "falta"
+  ],
+  [
+   "speed",
+   "g",
+   "velocidad"
+  ],
+  [
+   "saved",
+   "g",
+   "guardado"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "la GPU no pudo mantener la calidad - en cola para el codificador por CPU (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Limpieza de staging: resto eliminado"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "la carpeta de medios está vacía o no está montada - nada cambió"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "mantener la calidad necesitaría más tasa de bits de la que tiene el original"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "necesita más tasa de bits que el original"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "el worker se reinicia para una actualización"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "sin pista de vídeo (¿solo la carátula?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "sin pista de audio que transcribir"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "no hay suficiente espacio libre en el PC para esta película"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "reintentando en la CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "recorriendo carpetas"
+  ],
+  [
+   "analysing files",
+   "g",
+   "analizando archivos"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "planificando tareas"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "Codificación por CPU activado"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "Codificación por CPU desactivado"
+  ]
+ ]
+}

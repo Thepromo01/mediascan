@@ -1,0 +1,147 @@
+{
+ "rate": {
+  "gpu.ultra": "Een moderne GPU-encoder: snel, 10-bit HEVC van hoge kwaliteit. Hij doet ongeveer 15 films per dag.",
+  "gpu.high": "Een goede GPU-encoder: 10-bit HEVC met B-frames. Ongeveer 8 films per dag.",
+  "gpu.medium": "Een oudere GPU-encoder: het werkt, maar hij heeft meer bits nodig voor dezelfde kwaliteit en is trager.",
+  "gpu.low": "Geen GPU-encoder gevonden: alles draait op de CPU, en dat is veel trager.",
+  "cpu.ultra": "Kernen genoeg: een film van 2 uur (1080p) in ongeveer een uur op de preset Medium.",
+  "cpu.high": "16 threads of meer: een film van 2 uur (1080p) in ongeveer 2 uur op Medium. Prima voor af en toe een korrelige film.",
+  "cpu.medium": "8 tot 15 threads: een film van 2 uur duurt 3 tot 5 uur. Goed voor een paar films, niet voor de hele bibliotheek.",
+  "cpu.low": "Minder dan 8 threads: een CPU-encode duurt bijna een dag. Laat de CPU-fallback liever uit.",
+  "subs.ultra": "12 GB VRAM of meer: het beste Whisper-model (large-v3) draait op volle snelheid, een film in een paar minuten.",
+  "subs.high": "8 tot 12 GB VRAM: large-v3 draait goed; een film duurt een paar minuten.",
+  "subs.medium": "6 tot 8 GB VRAM: het werkt, maar een kleiner Whisper-model (medium) is sneller.",
+  "subs.low": "Whisper is op deze worker niet geïnstalleerd, of er is te weinig VRAM: ondertitels komen alleen van OpenSubtitles.",
+  "llm.ultra": "24 GB VRAM of meer: ruimte voor een 27B-vertaalmodel naast Whisper, de beste kwaliteit.",
+  "llm.high": "Het gekozen model past in het VRAM naast Whisper. Goede vertalingen op goede snelheid.",
+  "llm.medium": "Het model past, maar nét: Whisper en de vertaler wisselen elkaar af, dus ondertitels duren langer.",
+  "llm.low": "Het model past niet in het VRAM: Ollama draait het op de CPU, en dat is heel traag. Kies een kleiner model.",
+  "llm.none": "Geen vertaalmodel ingesteld in worker.ini: ontbrekende ondertitels worden alleen gezocht, niet gemaakt.",
+  "srv.high": "De server scant, controleert en wisselt alleen bestanden: één kern en 1 GB geheugen is genoeg.",
+  "srv.disk": "De vrije ruimte op de mediashare zit onder je veiligheidsrem: encoderen staat op pauze tot er ruimte is.",
+  "cpu.unknown": "Deze worker heeft zijn hardware nog niet gemeld; het oordeel volgt na zijn volgende update.",
+  "subs.unknown": "Whisper is geïnstalleerd, maar de worker kon de hoeveelheid VRAM niet lezen (geen NVIDIA-tool gevonden), dus de snelheid is onbekend.",
+  "llm.unknown": "De worker kon de hoeveelheid VRAM niet lezen, dus of het model past is onbekend.",
+  "cpu.off": "CPU-encoden staat uit voor deze worker. Zet het aan op de pagina Workers om het voor korrelige films te gebruiken.",
+  "subs.off": "Ondertitels staan uit voor deze worker, of Whisper is niet geïnstalleerd. Zet het aan op de pagina Workers."
+ },
+ "tools": {
+  "ffmpeg": "leest, encodeert en schrijft de videobestanden",
+  "libvmaf": "de kwaliteitsscore van Netflix: controleert elk nieuw bestand tegen het origineel",
+  "nvenc": "de encoder op een NVIDIA-GPU (HEVC 10-bit)",
+  "qsv": "de encoder op een Intel-GPU (HEVC 10-bit)",
+  "amf": "de encoder op een AMD-GPU (HEVC 10-bit)",
+  "videotoolbox": "de encoder op Apple Silicon (HEVC 10-bit)",
+  "x265": "de CPU-encoder, voor korrelige films",
+  "whisper": "zet spraak om in tekst, op je eigen machine",
+  "ollama": "vertaalt ondertitels met een lokaal taalmodel",
+  "opensubtitles": "bestaande ondertitels, gezocht op de vingerafdruk van het bestand",
+  "ffsubsync": "controleert en herstelt de timing van gevonden ondertitels",
+  "mkvtoolnix": "maakt van dvd- en blu-raymappen één .mkv",
+  "dovi_tool": "zet Dolby Vision profiel 7 om naar 8.1, zodat Plex en tv's het afspelen",
+  "vaapi": "de encoder op een Intel- of AMD-GPU onder Linux (HEVC 10-bit)"
+ },
+ "groups": [
+  {
+   "t": "Kwaliteit",
+   "q": [
+    {
+     "q": "Wat is VMAF, en wat betekent 96,5 / 93?",
+     "a": "VMAF is een cijfer van 0 tot 100 voor hoeveel een nieuw bestand op het origineel lijkt. Netflix heeft het bedacht, en het voorspelt wat echte mensen zien. **96,5** is het gemiddelde over de hele film. **93** is het laagste cijfer dat de zwakste 5% van de beelden mag krijgen, zodat één donkere of snelle scène er niet tussendoor glipt. Boven de 96 ziet bijna niemand verschil op een tv. 95 is nog steeds heel goed. 97,5 is voor wie dicht bij een groot scherm zit."
+    },
+    {
+     "q": "Waarom is er een minimale bitrate als het kwaliteitscijfer al goed is?",
+     "a": "Het cijfer is een beetje te mild voor filmkorrel en voor vlakke, donkere scènes. Een encoder kan de korrel wegpoetsen en toch een goed cijfer halen, maar op een grote tv zou je het zien. De minimale bitrate (5 Mbps voor 1080p, meer voor 4K, minder voor SD en animatie) houdt genoeg bits over voor korrel en schaduwen. Hij is nooit hoger dan 90% van wat het origineel gebruikt."
+    },
+    {
+     "q": "Hoe vindt MediaScan de juiste instelling voor een film?",
+     "a": "Hij knipt 8 korte stukjes uit de film en encodeert die met een paar kwaliteitsinstellingen, en meet elke keer het cijfer, tot hij het kleinste bestand vindt dat nog aan je doel voldoet. Daarna encodeert hij de hele film met die instelling en meet hij opnieuw. Alleen als dat slaagt, en het bestand minstens 10% kleiner is, wordt het origineel vervangen."
+    },
+    {
+     "q": "Wat betekent 'geen winst'?",
+     "a": "De film is getest, maar kon niet kleiner zonder kwaliteit te verliezen. Vaak is hij al efficiënt (HEVC met een lage bitrate), of zo korrelig dat de korrel bewaren meer bits kost dan het origineel heeft. Het origineel blijft zoals het is. Voor korrelige films kan de CPU-fallback helpen."
+    },
+    {
+     "q": "Wat is 'minimale besparing'?",
+     "a": "Als een nieuw bestand maar een paar procent kleiner zou worden, is het wisselen de moeite en het risico niet waard. Onder dit percentage (standaard 10%) blijft het origineel staan."
+    }
+   ]
+  },
+  {
+   "t": "GPU en CPU",
+   "q": [
+    {
+     "q": "GPU of CPU: wat is het verschil?",
+     "a": "De GPU heeft een speciaal chipje voor video-encoderen. Dat is 10 tot 20 keer sneller dan de CPU en laat de rest van de computer met rust, dus het doet het grootste deel van de bibliotheek. De CPU-encoder (x265) is traag, maar veel beter in het bewaren van **filmkorrel**: hij houdt de korrel vast bij een veel lagere bitrate. MediaScan gebruikt de CPU alleen voor films die de GPU niet kleiner krijgt zonder kwaliteitsverlies."
+    },
+    {
+     "q": "Wat doen de CPU-presets Medium en Slow?",
+     "a": "De preset is hoe hard de encoder zoekt naar besparing. **Medium**: ongeveer 2 uur voor een film van 2 uur (1080p) op 8 kernen. **Slow**: 2 tot 3 keer zo lang, voor bestanden die ongeveer 5 tot 10% kleiner zijn. Het kwaliteitsdoel is voor beide gelijk; alleen de tijd verandert."
+    },
+    {
+     "q": "Maakt een CPU-encode de rest traag?",
+     "a": "Nee. De CPU-encoder krijgt alle kernen op twee na, en draait met een lagere prioriteit: het GPU-werk, het dashboard en de rest van de computer houden hun ruimte. Zolang een CPU-encode loopt, gebruikt de kwaliteitsmeting van de GPU-job minder threads, zodat die twee nooit om dezelfde kernen vechten."
+    },
+    {
+     "q": "Welke videokaart heb ik nodig?",
+     "a": "Een GTX 1660 Super of RTX 2060 is het minimum. Oudere GTX 10-kaarten kunnen ook HEVC encoderen, maar langzamer en met minder kwaliteit per bit. RTX 20 en 30 doen het goed; RTX 40 en 50 zijn het snelst en geven de beste kwaliteit per bit. Intel Arc en recente AMD-kaarten werken ook, net als Apple M-chips. Voor ondertitels telt de hoeveelheid VRAM: 8 GB is ruim, 12 GB of meer is ideaal."
+    }
+   ]
+  },
+  {
+   "t": "Ondertitels en het lokale taalmodel",
+   "q": [
+    {
+     "q": "Hoe worden ondertitels gevonden?",
+     "a": "Eerst vraagt MediaScan bij OpenSubtitles om ondertitels die precies bij jouw bestand horen. Gevonden ondertitels worden tegen het geluid gecontroleerd en verschoven als de timing niet klopt. Past er niets, dan luistert Whisper op je eigen machine naar het geluid en schrijft op wat er gezegd wordt, en Ollama vertaalt dat naar jouw talen. Niets verlaat je netwerk, behalve de zoekopdracht bij OpenSubtitles."
+    },
+    {
+     "q": "Welk Ollama-model moet ik gebruiken?",
+     "a": "De standaard **gemma4:12b** heeft ongeveer 9 GB VRAM nodig en vertaalt goed in alle 38 talen. Met 24 GB VRAM kun je een 27B-model gebruiken voor net wat natuurlijkere zinnen. Met 8 GB kies je een model van 7 tot 9B. Een model dat niet in het VRAM past, draait op de CPU en wordt pijnlijk traag."
+    },
+    {
+     "q": "Welk Whisper-model moet ik gebruiken?",
+     "a": "**large-v3** is het nauwkeurigst en heeft ongeveer 5 GB VRAM nodig. Met minder VRAM is 'medium' een goede tweede keus. Whisper hoort ook welke taal er gesproken wordt, dus het werkt voor films in elke taal."
+    },
+    {
+     "q": "Waar komen de ondertitels terecht?",
+     "a": "Naast de film, als los bestand: 'Film.en.srt', 'Film.nl.srt' enzovoort. Plex en elke speler pakken die vanzelf op. Het filmbestand zelf wordt voor ondertitels niet aangeraakt."
+    }
+   ]
+  },
+  {
+   "t": "Opslag en veiligheid",
+   "q": [
+    {
+     "q": "Kan ik een film kwijtraken?",
+     "a": "Nee. Het nieuwe bestand wordt naast het origineel geschreven, op de NAS nog eens gecontroleerd (lengte, aantal sporen) en pas dan omgewisseld. Het origineel gaat 7 dagen in quarantaine (of tot de quarantaine vol is) en is met één klik terug te zetten. Audio, ondertitels, hoofdstukken en HDR-informatie worden exact gekopieerd."
+    },
+    {
+     "q": "Wat is de veiligheidsrem?",
+     "a": "Als de vrije ruimte op je mediashare onder dit getal zakt, stopt het encoderen vanzelf, zodat een volle schijf nooit iets kapot kan maken. Het gaat weer verder zodra er ruimte is."
+    },
+    {
+     "q": "Wat gebeurt er als een worker uitvalt?",
+     "a": "Een job die bezig was, gaat na 10 minuten terug in de wachtrij en een andere worker (of dezelfde, later) pakt hem op. Er wordt niets vervangen voordat een nieuw bestand helemaal is gecontroleerd."
+    }
+   ]
+  }
+ ],
+ "errors": {
+  "staging": "De nieuwe versie stond niet meer op de NAS toen hij ingewisseld moest worden (de staging-map is leeggemaakt, of de share viel weg). **Opnieuw** maakt hem opnieuw.",
+  "mux": "Een van de sporen in dit bestand kan niet zomaar in een .mkv (een ongewoon ondertitel- of audioformaat). Het bestand blijft zoals het is; zet het eerst met een ander programma om als je het toch wilt encoden.",
+  "space": "De pc van de worker heeft te weinig vrije ruimte voor deze film: nodig is ongeveer twee keer de bestandsgrootte plus 20 GB. Maak ruimte vrij en kies **Opnieuw**.",
+  "share": "De worker verloor tijdens het werk de verbinding met de mediashare. Controleer de share en kies **Opnieuw**.",
+  "ollama": "Ollama (het vertaalmodel) antwoordde niet. Draait Ollama op de worker en is het model gedownload? Kies dan **Opnieuw**.",
+  "translation": "Het vertaalmodel bleef onbruikbare antwoorden geven voor een paar regels. Meestal eenmalig: **Opnieuw**.",
+  "opensubtitles": "OpenSubtitles was niet bereikbaar of de daglimiet is bereikt. De job wordt later vanzelf opnieuw geprobeerd.",
+  "whisper": "Spraakherkenning kon niet draaien: geen audiospoor, of Whisper is niet geïnstalleerd op de worker (zie de Info-pagina).",
+  "dv": "Dolby Vision-films worden niet opnieuw geëncodeerd: de DV-laag zou verloren gaan. Het bestand blijft zoals het is.",
+  "vmaf": "De kwaliteitsmeting van de hele film klopte niet (vaak een bestand met een variabele framerate). **Opnieuw** meet het nog eens; blijft het misgaan, dan blijft het origineel staan.",
+  "probe": "Het bestand kon niet worden gelezen: mogelijk beschadigd of geen video. Controleer het op de NAS.",
+  "original": "Het origineel is gewijzigd of verdwenen terwijl de nieuwe versie werd gemaakt, dus is het niet vervangen. Kies **Opnieuw** zodra het bestand weer stabiel is.",
+  "check": "De eindcontrole op de NAS vond een andere duur of een ander aantal sporen dan verwacht, dus het origineel is bewaard. **Opnieuw** maakt hem opnieuw.",
+  "worker": "De worker ging offline of herstartte tijdens deze job. Hij staat vanzelf weer in de wachtrij.",
+  "ffmpeg": "ffmpeg stopte met een fout (de tekst hieronder). Vaak een beschadigd bronbestand; probeer één keer **Opnieuw**, controleer anders het bestand."
+ }
+}

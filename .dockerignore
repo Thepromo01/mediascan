@@ -1,0 +1,10 @@
+.git
+.github
+docs
+data
+**/__pycache__
+**/*.pyc
+server/app/dist
+_backup
+_deploy
+_oud-*

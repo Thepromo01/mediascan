@@ -1,0 +1,2060 @@
+{
+ "name": "Svenska",
+ "s": {
+  "Re-encode from original": "Koda om från original",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Koda om med nuvarande regler? Originalet återställs och filmen får förtur.",
+  "Back in the queue": "Tillbaka i kön",
+  "Restore originals": "Återställ original",
+  "Minimum bitrate (1080p)": "Lägsta bithastighet (1080p)",
+  "Extra floor (share of the source)": "Extra golv (andel av källan)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Valfritt: behåll dessutom minst denna andel av den ursprungliga videobithastigheten. Bara användbart för källor med mycket hög bithastighet. 0 = av.",
+  "with the minimum bitrate at most": "med lägsta bithastighet högst",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Den nya filen går aldrig lägre, även om VMAF tycker att det räcker. Andra upplösningar skalas: 4K ×2,5 · 720p ×0,55 · SD ×0,3 · HDR +15% · animation ×0,6.",
+  "bitrate already near the minimum": "bithastigheten redan nära golvet",
+  "MFA reset from settings - set it up again": "MFA återställd från inställningar - konfigurera den igen",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA återställd via MFA_RESET - ta bort MFA_RESET från containerns inställningar igen",
+  "MFA enabled": "MFA aktiverad",
+  "MediaScan started": "MediaScan startad",
+  "New recovery codes created": "Nya återställningskoder skapade",
+  "Password changed; other sessions signed out": "Lösenord ändrat; andra sessioner utloggade",
+  "Password set (first time)": "Lösenord angivet (första gången)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Obs: ADMIN_PASSWORD är kortare än 10 tecken - välj ett starkare lösenord i Inställningar",
+  "part of a DVD/Blu-ray folder": "del av en DVD/Blu-ray-mapp",
+  "folder is in Skip folders": "mappen finns i Hoppa över mappar",
+  "file disappeared": "filen försvann",
+  "worker restarted - rescheduled": "worker omstartad - omplanerad",
+  "worker offline - rescheduled": "worker offline - omplanerad",
+  "retry after worker update": "nytt försök efter worker-uppdatering",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray konverterad till mkv",
+  "skipped by you": "överhoppad av dig",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Ersättning väntar medan en film spelas upp, och Plex uppdateras efter varje ändring.",
+  "Confirm with your password and a code from your app.": "Bekräfta med ditt lösenord och en kod från din app.",
+  "Your old recovery codes will stop working.": "Dina gamla återställningskoder slutar gälla.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Din nuvarande autentiseringskoppling och dina återställningskoder slutar gälla. Därefter konfigurerar du MFA igen direkt.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Välj ett lösenord för instrumentpanelen. Installationskoden finns i containerns logg (Container Manager › mediascan › Logg, eller",
+  "- click to remove": "- klicka för att ta bort",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Ogiltig adress, t.ex. http://192.168.1.10:32400",
+  "Enter a Plex token": "Ange en Plex-token",
+  "A password has already been set": "Ett lösenord har redan angetts",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Nyckeln är fast i WORKER_TOKEN (containerns miljö)",
+  "selection still running - pause or wait until it is done": "urvalet körs fortfarande - pausa eller vänta tills det är klart",
+  "Now running": "Körs nu",
+  "Finding the film on the disc": "Söker filmen på skivan",
+  "Converting to one .mkv": "Konverterar till en .mkv",
+  "Checking (duration, tracks)": "Kontrollerar (längd, spår)",
+  "Copying to the NAS": "Kopierar till NAS",
+  "Old folder to quarantine": "Gammal mapp till karantän",
+  "worker has not reported for a while": "worker har inte rapporterat på ett tag",
+  "waiting for the worker": "väntar på worker",
+  "Welcome to MediaScan": "Välkommen till MediaScan",
+  "Setup code": "Installationskod",
+  "New password (at least 10 characters)": "Nytt lösenord (minst 10 tecken)",
+  "Repeat password": "Upprepa lösenord",
+  "Set password": "Ange lösenord",
+  "The passwords do not match": "Lösenorden matchar inte",
+  "Setup code is wrong - check the container log": "Fel installationskod - kontrollera containerns logg",
+  "Choose a password of at least 10 characters": "Välj ett lösenord på minst 10 tecken",
+  "Animation folders": "Animationsmappar",
+  "Top-level folders with animation: these may use a lower bitrate.": "Toppmappar med animation: dessa får ha lägre bithastighet.",
+  "Where do I find the token?": "Var hittar jag token?",
+  "Connect": "Anslut",
+  "Disconnect": "Koppla från",
+  "Connected": "Ansluten",
+  "Not connected": "Inte ansluten",
+  "+ Add language": "+ Lägg till språk",
+  "Renew": "Förnya",
+  "Worker version": "Worker-version",
+  "Password": "Lösenord",
+  "Other sessions are signed out after a change.": "Andra sessioner loggas ut efter en ändring.",
+  "Change password": "Byt lösenord",
+  "Other sessions will be signed out.": "Andra sessioner loggas ut.",
+  "Change": "Ändra",
+  "New worker key": "Ny worker-nyckel",
+  "Create new key": "Skapa ny nyckel",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Alla workers stoppar tills du anger den nya nyckeln (kör installationsprogrammet igen eller redigera worker.ini).",
+  "Repeat new password": "Upprepa nytt lösenord",
+  "Password changed": "Lösenord ändrat",
+  "New worker key created": "Ny worker-nyckel skapad",
+  "Disconnect Plex?": "Koppla från Plex?",
+  "Plex disconnected": "Plex frånkopplad",
+  "Plex connected": "Plex ansluten",
+  "Incorrect password": "Fel lösenord",
+  "Incorrect code": "Fel kod",
+  "Incorrect code from your authenticator app": "Fel kod från din autentiseringsapp",
+  "Too many attempts - try again in 15 minutes": "För många försök - försök igen om 15 minuter",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Mappar med VIDEO_TS eller BDMV. Konvertering gör dem till en .mkv med all bild, ljud, undertexter och kapitel.",
+  "Convert to MKV": "Konvertera till MKV",
+  "Folder": "Mapp",
+  "Type": "Typ",
+  "found": "hittad",
+  "queued": "i kö",
+  "converting…": "konverteras…",
+  "converted": "konverterad",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Konverteringen kopierar allt 1:1 till en .mkv: bild (även HDR), alla ljudspår, undertexter och kapitel. För en DVD väljs den längsta titeln (filmen). Den gamla mappen flyttas till karantän, så du kan återställa den. Sedan går .mkv-filen igenom vanlig kodning och undertexter. Blu-ray med Dolby Vision blir Dolby Vision profil 8.1 (basskikt 1:1, DV-metadata tillagd): Plex och din TV spelar upp det som Dolby Vision, andra spelare som HDR10. En sådan film kodas inte om efteråt, eftersom Dolby Vision då skulle gå förlorad.",
+  "Compare": "Jämför",
+  "Delete comparison": "Ta bort jämförelse",
+  "Comparison deleted": "Jämförelse borttagen",
+  "comparison": "jämförelse",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Original bredvid den nya versionen: storlek, kvalitet, bild och undertexter. Du väljer vilka filmer.",
+  "Original → new": "Original → ny",
+  "Quality (VMAF)": "Kvalitet (VMAF)",
+  "Comparison": "Jämförelse",
+  "View": "Visa",
+  "Make comparison": "Skapa jämförelse",
+  "previous attempt failed": "förra försöket misslyckades",
+  "Back": "Tillbaka",
+  "Make again": "Skapa igen",
+  "New": "Ny",
+  "VMAF whole film": "VMAF hela filmen",
+  "Making the frames… this usually takes less than a minute.": "Bildrutorna skapas… det tar oftast under en minut.",
+  "There is no picture comparison for this film yet.": "Det finns ingen bildjämförelse för den här filmen än.",
+  "Picture · drag across the image": "Bild · dra över bilden",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR har konverterats till SDR för den här vyn; på din TV visas den i HDR.",
+  "How the setting was chosen": "Hur inställningen valdes",
+  "Step": "Steg",
+  "Weakest 5%": "Svagaste 5%",
+  "Bitrate": "Bithastighet",
+  "chosen": "vald",
+  "No data.": "Inga data.",
+  "Nothing needed, all languages were present.": "Inget behövdes, alla språk fanns redan.",
+  "Not processed yet.": "Inte bearbetad än.",
+  "Comparison requested · ready within a minute": "Jämförelse begärd · klar inom en minut",
+  "Delete this comparison? The film itself stays as it is.": "Ta bort den här jämförelsen? Själva filmen förblir som den är.",
+  "Not possible": "Inte möjligt",
+  "Slide between original and new": "Skjut mellan original och ny",
+  "Overview": "Översikt",
+  "Queue": "Kö",
+  "In progress": "Pågår",
+  "No gain": "Ingen vinst",
+  "Failed": "Misslyckade",
+  "Subtitles": "Undertexter",
+  "Recently added": "Nyligen tillagda",
+  "Library": "Bibliotek",
+  "Quarantine": "Karantän",
+  "Workers": "Workers",
+  "Activity": "Aktivitet",
+  "Settings": "Inställningar",
+  "Encoding": "Kodning",
+  "System": "System",
+  "Status of the entire library.": "Status för hela biblioteket.",
+  "Selection": "Urval",
+  "waiting for worker": "väntar på worker",
+  "In the selection": "I urvalet",
+  "selection": "urval",
+  "Selection · encoding": "Urval · kodning",
+  "Selection · subtitles": "Urval · undertexter",
+  "Close list": "Stäng listan",
+  "waiting": "väntar",
+  "nothing needed": "inget behövs",
+  "original kept": "originalet behålls",
+  "Find, sync or generate missing subtitles.": "Hitta, synkronisera eller skapa saknade undertexter.",
+  "All videos with their current plan. You can also queue items manually here.": "Alla videor med sin nuvarande plan. Här kan du också köa objekt manuellt.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Maskinerna som gör jobbet. Välj vad varje worker får göra.",
+  "Log of everything that happens.": "Logg över allt som händer.",
+  "Scan now": "Skanna nu",
+  "Saved": "Sparat",
+  "Free on NAS": "Ledigt på NAS",
+  "Progress": "Förlopp",
+  "Saved per day": "Sparat per dag",
+  "last 14 days": "senaste 14 dagarna",
+  "Per folder": "Per mapp",
+  "all": "alla",
+  "nothing processed yet": "inget bearbetat än",
+  "no measurement yet": "ingen mätning än",
+  "No processed files yet": "Inga bearbetade filer än",
+  "No worker connected yet": "Ingen worker ansluten än",
+  "no worker": "ingen worker",
+  "worker offline": "worker offline",
+  "online": "online",
+  "disabled": "avstängd",
+  "encoding": "kodning",
+  "subtitles": "undertexter",
+  "Search by name or folder…": "Sök på namn eller mapp…",
+  "Several titles at once: separate them with |": "Flera titlar samtidigt: separera dem med |",
+  "Nothing to show": "Inget att visa",
+  "File": "Fil",
+  "Source": "Källa",
+  "Status": "Status",
+  "Result": "Resultat",
+  "Languages": "Språk",
+  "Error": "Fel",
+  "When": "När",
+  "Plan": "Plan",
+  "Added": "Tillagd",
+  "Original": "Original",
+  "Size": "Storlek",
+  "Replaced": "Ersatt",
+  "estimate": "uppskattning",
+  "Name": "Namn",
+  "Done": "Klar",
+  "Nothing found": "Inget hittades",
+  "Process only these": "Bearbeta bara dessa",
+  "Prioritise": "Prioritera",
+  "Skip": "Hoppa över",
+  "Retry": "Försök igen",
+  "Clear": "Rensa",
+  "Both": "Båda",
+  "Restore original": "Återställ original",
+  "Find subtitles": "Hitta undertexter",
+  "running": "körs",
+  "done": "klar",
+  "failed": "misslyckad",
+  "replacing": "ersätter",
+  "no gain": "ingen vinst",
+  "skipped": "överhoppad",
+  "restored": "återställd",
+  "cancelled": "avbruten",
+  "nothing found": "inget hittat",
+  "encode": "koda",
+  "already efficient": "redan effektiv",
+  "small gain": "liten vinst",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "fel",
+  "unknown": "okänd",
+  "All": "Alla",
+  "Already efficient": "Redan effektiva",
+  "Small gain": "Liten vinst",
+  "Restored": "Återställda",
+  "Video": "Video",
+  "Duration": "Längd",
+  "Audio": "Ljud",
+  "Encode": "Kodning",
+  "Quality": "Kvalitet",
+  "Encode time": "Kodningstid",
+  "Message": "Meddelande",
+  "Started": "Startad",
+  "Search": "Sökning",
+  "weakest 5%": "svagaste 5%",
+  "video": "video",
+  "Worker": "Worker",
+  "Hardware": "Hårdvara",
+  "Resolution": "Upplösning",
+  "Working on": "Arbetar med",
+  "nothing": "inget",
+  "up to 4K": "upp till 4K",
+  "up to 1080p": "upp till 1080p",
+  "up to 720p": "upp till 720p",
+  "up to SD": "upp till SD",
+  "Remove": "Ta bort",
+  "Add worker": "Lägg till worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Varje worker rapporterar själv vad den klarar (kodare hittad, Whisper installerad). Här bestämmer du vad den får göra. Ändringar gäller från nästa jobb; ett pågående jobb slutförs först.",
+  "This machine lacks the hardware or software for this": "Den här maskinen saknar hårdvara eller programvara för detta",
+  "Quality level": "Kvalitetsnivå",
+  "Standard": "Standard",
+  "High": "Hög",
+  "Maximum": "Maximal",
+  "Custom": "Anpassad",
+  "Custom target": "Anpassat mål",
+  "Average VMAF and the weakest 5% of frames.": "Genomsnittlig VMAF och de svagaste 5% av bildrutorna.",
+  "avg.": "snitt",
+  "Minimum saving": "Minsta besparing",
+  "If a file saves less, the original is kept.": "Om en fil sparar mindre behålls originalet.",
+  "Processing": "Bearbetning",
+  "Storage & safety": "Lagring & säkerhet",
+  "How long replaced originals can be restored.": "Hur länge ersatta original kan återställas.",
+  "days": "dagar",
+  "Above this, the oldest originals are deleted permanently.": "Över detta raderas de äldsta originalen permanent.",
+  "Safety brake": "Säkerhetsbroms",
+  "Encoding pauses when the NAS has less free space than this.": "Kodningen pausas när NAS har mindre ledigt utrymme än så här.",
+  "Scanning": "Skanning",
+  "Automatic scan": "Automatisk skanning",
+  "New files are queued automatically.": "Nya filer köas automatiskt.",
+  "Off": "Av",
+  "Every hour": "Varje timme",
+  "Every 6 hours": "Var 6:e timme",
+  "Every 12 hours": "Var 12:e timme",
+  "Daily": "Dagligen",
+  "Skip folders": "Hoppa över mappar",
+  "Comma-separated folder names.": "Kommaseparerade mappnamn.",
+  "Plex": "Plex",
+  "Dashboard address": "Adress till instrumentpanelen",
+  "Use the IP address of the NAS, not localhost.": "Använd NAS:ens IP-adress, inte localhost.",
+  "Worker key": "Worker-nyckel",
+  "Keep secret: with this key a worker can fetch jobs.": "Håll hemlig: med den här nyckeln kan en worker hämta jobb.",
+  "Show": "Visa",
+  "Copy": "Kopiera",
+  "Minimum requirements": "Minimikrav",
+  "Account & security": "Konto & säkerhet",
+  "Two-factor authentication": "Tvåstegsverifiering",
+  "Not active": "Inte aktiv",
+  "New recovery codes": "Nya återställningskoder",
+  "Reset MFA": "Konfigurera om MFA",
+  "Sessions": "Sessioner",
+  "Sign out everywhere else": "Logga ut från alla andra enheter",
+  "Sign out": "Logga ut",
+  "You have unsaved changes.": "Du har osparade ändringar.",
+  "Cancel": "Avbryt",
+  "Save": "Spara",
+  "Language": "Språk",
+  "Theme": "Tema",
+  "Light": "Ljust",
+  "Dark": "Mörkt",
+  "Auto": "Auto",
+  "Dashboard language.": "Instrumentpanelens språk.",
+  "Auto follows your system setting.": "Auto följer systeminställningen.",
+  "Reset": "Återställ",
+  "Create new codes": "Skapa nya koder",
+  "Close": "Stäng",
+  "Code from your authenticator app": "Kod från din autentiseringsapp",
+  "Sign in": "Logga in",
+  "Activate": "Aktivera",
+  "Set up two-factor authentication": "Konfigurera tvåstegsverifiering",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Skanna QR-koden med din autentiseringsapp och ange den 6-siffriga koden.",
+  "Manual:": "Manuellt:",
+  "6-digit code": "6-siffrig kod",
+  "123456 or recovery code": "123456 eller återställningskod",
+  "Save your recovery codes": "Spara dina återställningskoder",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Tappat telefonen? Varje kod loggar in dig en gång. De visas bara en gång.",
+  "I have saved them": "Jag har sparat dem",
+  "Save them now, they are shown only once.": "Spara dem nu, de visas bara en gång.",
+  "Server not responding": "Servern svarar inte",
+  "Sign-in failed": "Inloggningen misslyckades",
+  "Code is incorrect": "Fel kod",
+  "Code is incorrect - check the time on your phone": "Fel kod - kontrollera tiden på din telefon",
+  "Scan started": "Skanning startad",
+  "scan already running": "skanning pågår redan",
+  "Copied": "Kopierat",
+  "Resumed": "Återupptaget",
+  "Paused: a running job will finish first": "Pausat: ett pågående jobb slutförs först",
+  "Added to the queue": "Tillagt i kön",
+  "Not applicable": "Ej tillämpligt",
+  "At least one language": "Minst ett språk",
+  "Skip this job?": "Hoppa över det här jobbet?",
+  "Restore the original? The new version will be deleted.": "Återställa originalet? Den nya versionen tas bort.",
+  "on": "på",
+  "off": "av",
+  "Quarantine cleanup": "Karantänrensning",
+  "Background task": "Bakgrundsuppgift",
+  "Planning at startup": "Planering vid start",
+  "Welcome": "Välkommen",
+  "Next": "Nästa",
+  "Previous": "Föregående",
+  "Next (or skip)": "Nästa (eller hoppa över)",
+  "Done, go to the overview": "Klart, till översikten",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan gör dina filmer och serier mindre utan synlig skillnad och fyller i saknade undertexter. Original ersätts först efter en kvalitetskontroll och ligger först kvar i karantän en tid.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Sex korta steg så är allt klart. Du kan ändra allt senare i Inställningar.",
+  "Your library": "Ditt bibliotek",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan letar nu efter videor i din mediemapp. Med ett stort bibliotek tar den första skanningen en stund; du kan bara fortsätta.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Mappar som MediaScan aldrig rör, separerade med kommatecken (t.ex. Music, Downloads).",
+  "Scan again": "Skanna igen",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Välj vilka språk varje fil ska ha. MediaScan söker efter saknade på OpenSubtitles. Om det misslyckas skapar worker undertexten själv (taligenkänning och översättning på din egen dator).",
+  "Click a language to remove it.": "Klicka på ett språk för att ta bort det.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Varje film mäts med VMAF, ett mått på hur bilden ser ut för det mänskliga ögat. ”Hög” går för nästan alla inte att skilja från originalet.",
+  "Higher = better picture, less space saved.": "Högre = bättre bild, mindre sparat utrymme.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Ett skyddsnät för filmkorn och mörka scener. 5 Mbps är ett bra standardvärde; 4K och andra upplösningar skalas i proportion.",
+  "Plex (optional)": "Plex (valfritt)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Med Plex anslutet väntar MediaScan med att ersätta en film medan någon tittar på den, och uppdaterar Plex efter varje ändring. Ingen Plex? Hoppa bara över det här steget.",
+  "Plex address and token": "Plex-adress och token",
+  "Plex token": "Plex-token",
+  "token (unchanged)": "token (oförändrad)",
+  "Add a worker": "Lägg till en worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Det tunga arbetet görs av en PC eller Mac med ett bra grafikkort: din worker. Installera den nu, eller senare via Workers. Så länge det inte finns någon worker händer inget med dina filer.",
+  "✓ A worker is connected.": "✓ En worker är ansluten.",
+  "Done! MediaScan is set up.": "Klart! MediaScan är konfigurerat.",
+  "Connect the media share on the new machine.": "Anslut medieresursen på den nya maskinen.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: enhetsbokstav eller \\\\NAS\\Media · Mac: Finder › Anslut till server · Linux: se instruktionerna i paketet.",
+  "Download the package for that system and unpack it.": "Ladda ner paketet för det systemet och packa upp det.",
+  "Run the installer.": "Kör installationsprogrammet.",
+  "The installer asks for the details below and tests the connection.": "Installationsprogrammet frågar efter uppgifterna nedan och testar anslutningen.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 eller nyare, Intel Arc eller iGPU 11:e gen+, AMD RX 6000+ · 4 kärnor · 8 GB · 100 GB ledigt · trådbundet nätverk. Undertexter: NVIDIA med 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (undertexter: 24 GB+) · 150 GB ledigt · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Workers uppdaterar sig själva när denna instrumentpanel har en ny version.",
+  "What the workers are doing now and what is planned next.": "Vad workers gör nu och vad som står på tur.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Gör filer mindre utan synlig kvalitetsförlust. Worker arbetar sig igenom kön uppifrån och ner.",
+  "select page": "välj sida",
+  "select": "välj",
+  "to encode": "att koda",
+  "Movie": "Film",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Ersatta original, sparade en tid så att du kan återställa dem eller koda om dem.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Hur MediaScan fungerar: kvalitet, undertexter, lagring och säkerhet.",
+  "General": "Allmänt",
+  "Advanced": "Avancerat",
+  "Connection": "Anslutning",
+  "Hand out new encode jobs to the workers.": "Dela ut nya kodningsjobb till workers.",
+  "Hand out new subtitle jobs to the workers.": "Dela ut nya undertextjobb till workers.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Hur strikt VMAF-mätningen är. Högre = bättre bild, mindre sparat utrymme.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Vilka undertexter varje fil ska ha. Det som saknas söks upp, annars skapas det.",
+  "Go to Workers": "Till Workers",
+  "new": "ny",
+  "start": "start",
+  "Minimum bitrate (4K)": "Lägsta bithastighet (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Egen undre gräns för 4K i stället för 2,5 × 1080p-värdet. 0 = automatiskt. HDR +15 % och animation ×0,6 gäller även här.",
+  "Ready to use in a few steps.": "Redo att använda efter några steg.",
+  "next": "nästa",
+  "read error": "läsfel",
+  "MFA is already enabled": "MFA är redan aktiverat",
+  "a .mkv with that name already exists": "en .mkv med det namnet finns redan",
+  "a file already exists at the original location": "en fil finns redan på den ursprungliga platsen",
+  "action not possible in this status": "åtgärden är inte möjlig i detta läge",
+  "walking folders": "går igenom mappar",
+  "planning jobs": "planerar jobb",
+  "check on the NAS rejected (duration/tracks)": "kontrollen på NAS avvisades (längd/spår)",
+  "expected a JSON object": "förväntade ett JSON-objekt",
+  "ffprobe error": "ffprobe-fel",
+  "invalid resolution": "ogiltig upplösning",
+  "invalid worker token": "ogiltig worker-token",
+  "job belongs to another worker": "jobbet tillhör en annan worker",
+  "job is no longer active": "jobbet är inte längre aktivt",
+  "no video track": "inget videospår",
+  "not JSON": "inte JSON",
+  "not signed in": "inte inloggad",
+  "original disappeared": "originalet försvann",
+  "original has changed in the meantime": "originalet har ändrats under tiden",
+  "original is no longer in quarantine": "originalet finns inte längre i karantän",
+  "original no longer available": "originalet är inte längre tillgängligt",
+  "request refused": "begäran avvisades",
+  "target file already exists": "målfilen finns redan",
+  "the original has already been removed from quarantine - comparing is no longer possible": "originalet har redan tagits bort från karantänen - jämförelse är inte längre möjlig",
+  "this film has not been replaced yet": "den här filmen har inte ersatts ännu",
+  "unknown action": "okänd åtgärd",
+  "worker is still online": "worker är fortfarande online",
+  "In use now:": "Används nu:",
+  "longest": "längst",
+  "8.1 (from profile 7)": "8.1 (från profil 7)",
+  "Whisper (transcription)": "Whisper (transkribering)",
+  "1 day ago": "för 1 dagar sedan",
+  "1 video": "1 videor",
+  "Enter your password to open the dashboard.": "Ange ditt lösenord för att öppna instrumentpanelen.",
+  "No connection to the server - retrying…": "Ingen kontakt med servern - försöker igen…",
+  "Are you sure?": "Är du säker?",
+  "Restore": "Återställ",
+  "Re-encode": "Koda om",
+  "Delete": "Ta bort",
+  "Next up": "Härnäst",
+  "in the queue": "i kön",
+  "Load older entries": "Ladda äldre poster",
+  "Folder: all": "Mapp: alla",
+  "Resolution: all": "Upplösning: alla",
+  "Codec: all": "Codec: alla",
+  "More": "Mer",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "film(er) väntar på CPU-kodaren, men ingen worker har CPU-kodning påslagen (sidan Workers).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Din hårdvara, hur väl den passar arbetet, verktygen som används och hur inställningarna fungerar.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Minne",
+  "Software": "Programvara",
+  "GPU encoding": "GPU-kodning",
+  "CPU encoding (x265)": "CPU-kodning (x265)",
+  "Subtitles (Whisper)": "Undertexter (Whisper)",
+  "Translation (Ollama)": "Översättning (Ollama)",
+  "Server": "Server",
+  "Database": "Databas",
+  "Tools in use": "Verktyg som används",
+  "Knowledge base": "Kunskapsbank",
+  "Low": "Låg",
+  "Medium": "Medel",
+  "Ultra": "Ultra",
+  "files": "filer",
+  "up": "uppe",
+  "of": "av",
+  "uses": "använder",
+  "free": "ledigt",
+  "Media share": "Mediadelning",
+  "Rating": "Betyg",
+  "Hardware details appear after this worker has updated itself.": "Hårdvarudetaljer visas när den här workern har uppdaterat sig.",
+  "no Whisper": "ingen Whisper",
+  "unified memory": "delat minne",
+  "cores": "kärnor",
+  "threads": "trådar",
+  "driver": "drivrutin",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Okänt",
+  "Settings saved": "Inställningar sparade",
+  "Time left": "Tid kvar",
+  "Queued": "I kö",
+  "Keep originals for": "Behåll original i",
+  "Quarantine size limit": "Storleksgräns för karantän",
+  "Hide finished items": "Dölj slutförda",
+  "Undo skip": "Ångra hoppa över",
+  "not supported here": "stöds inte här",
+  "CPU encoding": "CPU-kodning",
+  "Retry on CPU (x265)": "Försök igen på CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Kodad på CPU:n med x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 med grain-inställning på workerns CPU: bevarar filmkorn mycket effektivare, men tar timmar per film",
+  "CPU fallback for grainy films": "CPU-reserv för korniga filmer",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "När GPU:n inte kan behålla kvaliteten utan att överskrida källans bitrate (filmkorn) kodas filmen en gång till på en workers CPU med x265, som bevarar korn mycket effektivare. Tar timmar per film; slå på CPU-kodning för en worker på sidan Workers.",
+  "CPU preset": "CPU-förinställning",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: cirka 2 timmar för en 2 timmar lång 1080p-film på 8 kärnor. Slow: 2-3 gånger längre för ungefär 5-10% mindre filer.",
+  "Medium (faster)": "Medium (snabbare)",
+  "Slow (smaller)": "Slow (mindre)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Sidan kunde inte läsas in.",
+  "up to 1440p": "upp till 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "analyserar filer",
+  "No worker has CPU encodes switched on (Workers page)": "Ingen worker har CPU-kodning påslagen (sidan Workers)",
+  "the job changed in the meantime": "jobbet ändrades under tiden",
+  "Main": "Huvudnavigering",
+  "Clear search and filters": "Rensa sökning och filter",
+  "Compact rows": "Kompakta rader",
+  "Encoding and subtitles are paused.": "Kodning och undertexter är pausade.",
+  "Encoding is paused: no new encode jobs are handed out.": "Kodningen är pausad: inga nya kodningsjobb delas ut.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Undertexter är pausade: inga nya undertextjobb delas ut.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Ange både Plex-adressen och token, eller lämna båda tomma för att hoppa över.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Ledigt utrymme på NAS är under säkerhetsbromsen. Kodningen pausades automatiskt.",
+  "Loading…": "Läser in…",
+  "Next film": "Nästa film",
+  "Previous film": "Föregående film",
+  "Next page": "Nästa sida",
+  "Previous page": "Föregående sida",
+  "Rows per page": "Rader per sida",
+  "Resume": "Återuppta",
+  "Resume encoding": "Återuppta kodning",
+  "Resume subtitles": "Återuppta undertexter",
+  "Open settings": "Öppna inställningar",
+  "Open the library": "Öppna biblioteket",
+  "Subtitle languages": "Undertextspråk",
+  "Update": "Uppdatera",
+  "No results for this search or filter.": "Inga träffar för den här sökningen eller det här filtret.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Inget i kö för kodning. Nya filer hamnar i kön efter en skanning.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Inga filer har ersatts än. Färdiga kodningar visas här efter kvalitetskontrollen.",
+  "No files were kept as they are. Films that would save too little end up here.": "Inga filer har behållits som de är. Filmer som skulle spara för lite hamnar här.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Inga undertexter väntar. Filer som saknar ett språk hamnar i kön efter en skanning.",
+  "No subtitle job is running right now.": "Inget undertextjobb körs just nu.",
+  "No subtitles have been made yet.": "Inga undertexter har skapats än.",
+  "Nothing missing: every file got its subtitles so far.": "Inget saknas: alla filer har hittills fått sina undertexter.",
+  "No failed encodes.": "Inga misslyckade kodningar.",
+  "No failed subtitle jobs.": "Inga misslyckade undertextjobb.",
+  "Nothing was added in the last 14 days.": "Inget har lagts till de senaste 14 dagarna.",
+  "No videos with this plan.": "Inga videor med den här planen.",
+  "The library is being scanned; videos appear as they are found.": "Biblioteket skannas; videor visas allt eftersom de hittas.",
+  "No videos found yet. Check the media folder and run a scan.": "Inga videor hittades än. Kontrollera mediemappen och kör en skanning.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Inget i karantän. Ersatta original sparas här tills lagringstiden är slut.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Inga DVD- eller Blu-ray-mappar (VIDEO_TS, BDMV) hittades i biblioteket.",
+  "1 worker online": "1 worker online",
+  "A worker is busy with this file": "En worker arbetar med den här filen",
+  "A worker is grabbing the frames": "En worker hämtar bildrutorna",
+  "A worker is searching or making subtitles": "En worker söker eller skapar undertexter",
+  "A worker picks up the next job within a few seconds.": "En worker tar nästa jobb inom några sekunder.",
+  "Above this, the oldest comparisons are deleted automatically.": "Över detta tas de äldsta jämförelserna bort automatiskt.",
+  "All replaced films": "Alla ersatta filmer",
+  "Already efficient: encoding would hardly save anything": "Redan effektiv: kodning skulle knappt spara något",
+  "Automatic comparisons": "Automatiska jämförelser",
+  "Being made…": "Skapas…",
+  "Can be made": "Kan skapas",
+  "Can encode on the CPU with x265": "Kan koda på CPU:n med x265",
+  "Comparison storage limit": "Lagringsgräns för jämförelser",
+  "Comparisons": "Jämförelser",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: inte omkodad, DV-lagret skulle gå förlorat",
+  "Encoding is paused.": "Kodningen är pausad.",
+  "Enlarge": "Förstora",
+  "Errors": "Fel",
+  "Flip": "Växla",
+  "Four frames of the original and the new version are stored": "Fyra bildrutor från originalet och den nya versionen är sparade",
+  "Full width": "Full bredd",
+  "GPU encoder found": "GPU-kodare hittad",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Hämta fyra bildrutor från originalet och den nya versionen för varje ersatt film, så att du alltid kan kontrollera bilden på sidan Jämför. Cirka 1–2 MB per film.",
+  "Keyboard shortcuts": "Tangentbordsgenvägar",
+  "Leave without saving? Your changes to the settings will be lost.": "Lämna utan att spara? Dina ändringar i inställningarna går förlorade.",
+  "Moved to the front": "Flyttad längst fram",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Inga jämförelser ännu. Skapa en medan originalet fortfarande är i karantän, eller slå på automatiska jämförelser i Inställningar.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Ingen film kan jämföras just nu: originalen har lämnat karantänen, eller så har inget ersatts ännu.",
+  "No longer possible": "Inte längre möjligt",
+  "No subtitles found online and none could be made": "Inga undertexter hittades online och inga kunde skapas",
+  "Ollama found: can translate subtitles": "Ollama hittad: kan översätta undertexter",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Del av en DVD- eller Blu-ray-mapp; konvertera den på sidan DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Pausad automatiskt: NAS:en har mindre ledigt utrymme än säkerhetsbromsen.",
+  "Planned for encoding": "Planerad för kodning",
+  "Queued for the CPU encoder": "I kö för CPU-kodaren",
+  "Replaced after the quality check; the original is in quarantine for a while": "Ersatt efter kvalitetskontrollen; originalet ligger en tid i karantän",
+  "Replaced films appear here after their first encode.": "Ersatta filmer visas här efter sin första kodning.",
+  "Search the log…": "Sök i loggen…",
+  "Show films that can be compared": "Visa filmer som kan jämföras",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Visa originalet och den nya versionen växelvis: bästa sättet att upptäcka korn och detaljer",
+  "Skipped": "Överhoppad",
+  "Skipped by you; Retry puts it back in the queue": "Överhoppad av dig; ”Försök igen” lägger den tillbaka i kön",
+  "Slider back to the middle": "Reglaget tillbaka till mitten",
+  "Smaller": "Mindre",
+  "Stopped because the file changed or disappeared": "Stoppad eftersom filen ändrades eller försvann",
+  "Stopped with an error; see the message and try again": "Stoppad med ett fel; se meddelandet och försök igen",
+  "Subtitles are paused.": "Undertexter är pausade.",
+  "The file could not be read; see the drawer": "Filen kunde inte läsas; se sidopanelen",
+  "The new file would save less than the minimum saving, so the original was kept": "Den nya filen skulle spara mindre än den minsta besparingen, så originalet behölls",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Den nya versionen finns på NAS:en och byts in så snart ingen tittar",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Originalet har lämnat karantänen, så bildrutorna kan inte längre hämtas",
+  "The original is still in quarantine, so the frames can still be grabbed": "Originalet är fortfarande i karantän, så bildrutorna kan fortfarande hämtas",
+  "The original was put back from quarantine": "Originalet återställdes från karantänen",
+  "The queue is empty. New files are queued after a scan.": "Kön är tom. Nya filer köas efter en skanning.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Servern delar ut nyare worker-filer; workern installerar dem efter sitt pågående jobb",
+  "Undo": "Ångra",
+  "Waiting for Plex: someone is watching this film": "Väntar på Plex: någon tittar på den här filmen",
+  "Waiting for a worker; the queue runs from top to bottom": "Väntar på en worker; kön körs uppifrån och ned",
+  "Warnings": "Varningar",
+  "Whisper installed: can make subtitles": "Whisper installerad: kan skapa undertexter",
+  "Would save less than the minimum saving": "Skulle spara mindre än den minsta besparingen",
+  "expires today": "går ut idag",
+  "expires within a day": "går ut inom en dag",
+  "less than a day left": "mindre än en dag kvar",
+  "waiting for Plex": "väntar på Plex",
+  "update pending": "uppdatering väntar",
+  "Tap to switch between original and new": "Tryck för att växla mellan original och ny",
+  "Repeated": "Upprepad",
+  "Search in the current list": "Sök i aktuell lista",
+  "Clear the search, close a drawer or dialog": "Rensa sökningen, stäng en panel eller dialog",
+  "Previous or next film on a comparison": "Föregående eller nästa film i en jämförelse",
+  "Open or switch the focused row, switch or header": "Öppna eller växla den fokuserade raden, brytaren eller rubriken",
+  "This list": "Den här listan",
+  "Nothing in the log matches this.": "Inget i loggen matchar detta.",
+  "Nothing has happened yet.": "Inget har hänt ännu.",
+  "No worker is online, so nothing can run.": "Ingen worker är online, så inget kan köras.",
+  "There is no worker yet. Add one to get started.": "Det finns ingen worker ännu. Lägg till en för att komma igång.",
+  "Open Workers": "Öppna Workers",
+  "Some values are out of range.": "Vissa värden ligger utanför intervallet.",
+  "no capabilities reported": "inga funktioner rapporterade",
+  "Replaced · expires": "Ersatt · går ut",
+  "Made": "Skapad",
+  "Make": "Skapa",
+  "lots of motion": "mycket rörelse",
+  "dark scene": "mörk scen",
+  "a quarter in": "en fjärdedel in",
+  "three quarters in": "tre fjärdedelar in",
+  "Encoded": "Kodad",
+  "Finished": "Avslutad",
+  "later": "senare",
+  "Leave": "Lämna",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "En jämförelse tar 4 bildrutor från originalet och den nya versionen (totalt cirka 1–2 MB). Den kan skapas så länge originalet ligger kvar i karantän och finns kvar tills du tar bort den, även när originalet är borta.",
+  "Retry on CPU": "Försök igen på CPU",
+  "Scan": "Skanning"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1start$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Nu: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan hittade $1 videor ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · sämsta 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "sämsta 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Nytt ($1 dagar)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Plan: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Ersättning misslyckades ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} misslyckades{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Skanning klar: $1 videor, $2 nya, $3 ändrade, $4 borta; $5 kodnings- och $6 undertextjobb tillagda"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Skanning klar: $1 videor, $2 nya, $3 ändrade, $4 borta, $5 i överhoppade mappar; $6 kodnings- och $7 undertextjobb tillagda"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Koda om $1 film(er) med nuvarande regler? Originalen återställs och filmerna får förtur i kön."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 film(er) tillbaka i kön{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 original återställda och köade igen (nuvarande regler)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Ny: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Ersatt: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray konverterad: $1 ($2 GB); skivmappen ligger i karantän"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Original återställt: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 startade {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 jobb (alla $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Urval utdelat - kodning pausad automatiskt"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Urval utdelat - undertexter pausade automatiskt"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Inställningar ändrade: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Jobb $1 fel: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Jobb $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 offline: $2 jobb tillbaka i kön"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 omstartad: $2 avbrutna jobb tillbaka i kön"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 uppdaterad till $2: $3 misslyckade jobb tillbaka i kön"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 borttagen"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: kodning {t:$2}, undertexter {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Planering uppdaterad: $1 kodnings- och $2 undertextjobb tillagda"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 jobb köade manuellt"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 jobb: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 jämförelse(r) borttagna"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Utloggad från $1 andra session(er)"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Återställningskod använd för inloggning ($1 kvar)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Original sparas i högst $1 dagar och tillsammans aldrig mer än $2. De äldsta försvinner först. Återställning tar bort den nya versionen."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - klicka för att ta bort"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 mapp(ar) konverteras · worker startar inom en halv minut"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 ljud · $2 undertexter"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Ta bort $1 jämförelse(r)? Själva filmerna förblir som de är."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Bildruta $1 · vid $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Bildruta $1 · vid $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB som jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Kodningstid $1 min · mätt på 8 fragment, sedan kontrollerat över hela filmen."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Finns nu: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "svagaste 5% $1 · mål $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "timing $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Det gick inte att skapa bildrutor: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "urval · nästa"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "urval · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Nu:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· sedan $1 till från urvalet"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "uppskattning · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 slutförda tidigare · visa"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 tillagda i urvalet · worker startar inom några sekunder"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Urval {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "skapad: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% mindre$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "just nu"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "för $1 min sedan"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "för $1 h sedan"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "för $1 dagar sedan"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "sedd {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 d $2 h"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 h $2 min"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 videor"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "karantän $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 per 24 h"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 vinst"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB vinst"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% mindre på bearbetade filer"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 online"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "$1 till att starta, sedan paus"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 objekt · sida $2 av $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 valda"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Välj alla $1 resultat"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Skannar: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× försökt"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 min"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Aktiv · $1 återställningskod(er) kvar"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 aktiva session(er), inklusive denna."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 uppdaterade{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 andra session(er) utloggade"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Bearbeta bara dessa $1? De får förtur, bearbetningen återupptas och pausas sedan automatiskt igen."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Hoppa över $1 jobb?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Återställa $1 original? De nya versionerna tas bort."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Ta bort worker $1 från listan? Om den kommer online igen dyker den upp automatiskt."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "körs sedan $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 kvar"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "upp till $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "arbetar med"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex ansluten (version $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex svarar inte korrekt: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "fel: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "ersättningen misslyckades: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "ogiltigt värde för $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 måste vara mellan $2 och $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · sämsta 5 % $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 h"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU:n kunde inte behålla kvaliteten - i kö för CPU-kodaren (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Staging-rensning: rest borttagen $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 per sida"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 workers online"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · lägga till worker, worker-nyckeln och nedladdningar finns under Workers."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · startar om ~{t:$2} · uppskattning"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · uppskattning"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 dagar kvar"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "går ut om $1 dagar"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Skapad · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Kan skapas · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · steg $1 av $2 · ~{t:$3} kvar"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · steg $1 av $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · ~{t:$1} kvar"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 jämförelse(r) begärda · klara inom några minuter"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Skapa $1 jämförelse(r)? Cirka 1–2 MB vardera."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Upprepad $1 gånger"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "mellan $1 och $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 jobb"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Fel i $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 jämförelse(r) begärda"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Jämförelser rensade: $1 borttagna (över $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Karantänmappen omdöpt till quarantine ($1 post(er) uppdaterade)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 borttagen: $2 jobb tillbaka i kön"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Karantän: $1 finns redan, $2 lämnades kvar"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Karantänmappen omdöpt till quarantine; $1 post(er) uppdaterade, men $2 är inte tom ännu"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Byte av namn på karantänmappen misslyckades (är mediedelningen monterad?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "ny version saknas i staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "ny .mkv saknas i staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "originalet har försvunnit"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "originalet har ändrats under tiden"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "originalet är inte längre tillgängligt"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "kontrollen på NAS:en avvisad (längd/spår)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray konverterad till mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "nytt försök efter worker-uppdatering"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "överhoppad av dig"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "målfilen finns redan"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker offline - omplanerad"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker borttagen - omplanerad"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker omstartad - omplanerad"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "ersättning misslyckades: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision saknas i den nya mkv:n"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: inte omkodad (DV-lagret skulle gå förlorat)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "en ström kan inte kopieras till .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg gjorde inga framsteg på $1 minuter (delningen onåbar?) - stoppad"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 av $2 filer saknas på en gång - delningen onåbar? Inget markerat som försvunnet"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "översättningen misslyckades: inget användbart svar för $1 rad(er) efter nya försök"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: serverfel"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - hämta modellen (ollama pull <model>) eller rätta ollama_model i worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama kan inte nås på $1 ($2) - starta Ollama eller kontrollera ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama kan inte nås: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama fortsatte misslyckas i $2 minuter"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 tog mer än en timme - är mediedelningen fortfarande nåbar?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 saknas; installera det $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF hela filmen $1 inte trovärdigt med någon parningsmetod (prover $2); lågt vid $3. Originalet behållet; kontrollera källan där"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: kan inte läsa filen"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: misslyckades"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "inte tillräckligt med ledigt utrymme på PC:n för den här filmen ($1 GB behövs i $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "inte tillräckligt med utrymme i arbetsmappen: $1 GB ledigt, ~$2 GB behövs"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "med lägsta bithastighet högst $1% mindre"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "extraherar metadata från förbättringslagret"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "nedladdningen stämmer inte (sha256) - används inte"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "kontroll: längd eller antal strömmar skiljer sig"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "nya mkv är för kort ($1 av $2 min)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 av $2 klara, väntar på worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "konverterar Dolby Vision till profil 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "infogar metadata i baslagret"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "kontrollerar VMAF (andra mätningen)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "ingen inställning når kvalitetsmålet"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "nedladdningsgränsen nåddes - resten senare"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "OpenSubtitles dagsgräns nådd"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "delvis; resten efter nedladdningsgränsen"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 hittades inte efter nedladdningen"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: upptäckte talat språk"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (översatt från $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "väntar på ledigt utrymme på PC:n"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "undertextfilen är oväntat stor"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "självtestets mätning är opålitlig"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "översättningsförsök $1 misslyckades"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "väntar: spelas upp i Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "förväntat bara $1% mindre"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "laddar ner $1 (engångs)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "kontroll av hela filmen under målet"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "kan inte hämta en bildruta vid $1 s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "hela filmen strax under målet"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "söker filmen på skivan"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "kvalitetsmålet går inte att nå"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "kontrollmätningen är opålitlig"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "ogiltig sökväg från servern"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "nytt försök: minsta vinst nu 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper körs på GPU:n"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "inga titlar hittades på DVD:n"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "misstänkt sökväg i arkivet"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "väntar: Plex kan inte nås"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "arbetar med $1 av $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles kan inte nås"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (transkribering)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "kontrollerar VMAF hela filmen"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "klar, väntar på att ersätta"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "gammal mapp till karantän"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "kontroll VMAF $1 för låg"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "läser skivan (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "översatt från engelska"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "klar ($1 av $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "ljudextraktionen misslyckades"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "återgår till CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles inloggad"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (från profil 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "väntar på worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "misstänkt sökväg i zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "inbäddad EN oläsbar"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "längst hittills: titel"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "timingen stämmer inte"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "bara $1% mindre"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "segment $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "behåller originalet"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "nedladdningar kvar idag"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "titel $1 kontrollerad"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "väntar på att ersätta"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "kopierar till NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "behåller originalet"
+  ],
+  [
+   "translation failed",
+   "g",
+   "översättningen misslyckades"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "servern kan inte nås"
+  ],
+  [
+   "searching quality",
+   "g",
+   "söker kvalitet"
+  ],
+  [
+   "making references",
+   "g",
+   "skapar referenser"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "konverterar till mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "undertexter stoppade"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "kopierar NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "kopierar PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "söker filmen"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "slår ihop till mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "längsta spellistan"
+  ],
+  [
+   "timing reference",
+   "g",
+   "timingreferens"
+  ],
+  [
+   "speech segments",
+   "g",
+   "talsegment"
+  ],
+  [
+   "too little gain",
+   "g",
+   "för liten vinst"
+  ],
+  [
+   " not applicable",
+   "g",
+   " ej tillämpligt"
+  ],
+  [
+   "download failed",
+   "g",
+   "nedladdningen misslyckades"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "efter ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "översätter till"
+  ],
+  [
+   "next candidate",
+   "g",
+   "nästa kandidat"
+  ],
+  [
+   "after shifting",
+   "g",
+   "efter förskjutning"
+  ],
+  [
+   "reading audio",
+   "g",
+   "läser ljud"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Urval · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 väntar"
+  ],
+  [
+   "search failed",
+   "g",
+   "sökningen misslyckades"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "kodar om"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "titel $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " fel"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 klara"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "undertexter:"
+  ],
+  [
+   "replacing",
+   "g",
+   "ersätter"
+  ],
+  [
+   "subtitles",
+   "g",
+   "undertexter"
+  ],
+  [
+   "candidate",
+   "g",
+   "kandidat"
+  ],
+  [
+   "encoding:",
+   "g",
+   "kodning:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "start"
+  ],
+  [
+   "encoding",
+   "g",
+   "kodar"
+  ],
+  [
+   "checking",
+   "g",
+   "kontrollerar"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", upp till "
+  ],
+  [
+   "present",
+   "g",
+   "finns"
+  ],
+  [
+   "missing",
+   "g",
+   "saknas"
+  ],
+  [
+   "speed",
+   "g",
+   "hastighet"
+  ],
+  [
+   "saved",
+   "g",
+   "sparad"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU:n kunde inte behålla kvaliteten - i kö för CPU-kodaren (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Staging-rensning: rest borttagen"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "mediamappen är tom eller inte monterad - inget ändrat"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "att behålla kvaliteten skulle kräva högre bitrate än källan har"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "kräver högre bitrate än källan"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "workern startar om för en uppdatering"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "ingen videoström (bara omslagsbild?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "ingen ljudström att transkribera"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "inte tillräckligt med ledigt utrymme på PC:n för den här filmen"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "försöker igen på CPU:n (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "går igenom mappar"
+  ],
+  [
+   "analysing files",
+   "g",
+   "analyserar filer"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "planerar jobb"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU-kodning på"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU-kodning av"
+  ]
+ ]
+}

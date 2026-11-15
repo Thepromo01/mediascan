@@ -1,0 +1,2060 @@
+{
+ "name": "עברית",
+ "s": {
+  "Re-encode from original": "קידוד מחדש מהמקור",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "לקודד מחדש עם הכללים הנוכחיים? המקור ישוחזר והסרט יקבל עדיפות.",
+  "Back in the queue": "חזרה לתור",
+  "Restore originals": "שחזור המקורות",
+  "Minimum bitrate (1080p)": "קצב סיביות מינימלי (1080p)",
+  "Extra floor (share of the source)": "רצפה נוספת (חלק מהמקור)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "אופציונלי: שמירה גם על לפחות חלק זה מקצב הסיביות המקורי של הווידאו. שימושי רק למקורות עם קצב סיביות גבוה מאוד. 0 = כבוי.",
+  "with the minimum bitrate at most": "עם קצב הסיביות המינימלי לכל היותר",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "הקובץ החדש לעולם לא יורד מתחת לזה, גם אם VMAF מאשר. רזולוציות אחרות בהתאמה: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · אנימציה ×0.6.",
+  "bitrate already near the minimum": "קצב הסיביות כבר קרוב למינימום",
+  "MFA reset from settings - set it up again": "MFA אופס מההגדרות - יש להגדיר מחדש",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA אופס דרך MFA_RESET - יש להסיר את MFA_RESET מהגדרות הקונטיינר",
+  "MFA enabled": "MFA הופעל",
+  "MediaScan started": "MediaScan הופעל",
+  "New recovery codes created": "נוצרו קודי שחזור חדשים",
+  "Password changed; other sessions signed out": "הסיסמה שונתה; הפעלות אחרות נותקו",
+  "Password set (first time)": "הסיסמה הוגדרה (פעם ראשונה)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "שימו לב: ADMIN_PASSWORD קצרה מ-10 תווים - בחרו סיסמה חזקה יותר בהגדרות",
+  "part of a DVD/Blu-ray folder": "חלק מתיקיית DVD/Blu-ray",
+  "folder is in Skip folders": "התיקייה נמצאת ב\"תיקיות לדילוג\"",
+  "file disappeared": "הקובץ נעלם",
+  "worker restarted - rescheduled": "הוורקר הופעל מחדש - תוזמן מחדש",
+  "worker offline - rescheduled": "הוורקר לא מקוון - תוזמן מחדש",
+  "retry after worker update": "ניסיון חוזר לאחר עדכון הוורקר",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray הומר ל-mkv",
+  "skipped by you": "דולג על ידך",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "ההחלפה ממתינה כל עוד צופים בסרט, ו-Plex מתרענן אחרי כל שינוי.",
+  "Confirm with your password and a code from your app.": "אשרו עם הסיסמה וקוד מהאפליקציה.",
+  "Your old recovery codes will stop working.": "קודי השחזור הישנים יפסיקו לעבוד.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "הקישור הנוכחי לאפליקציית האימות וקודי השחזור יפסיקו לעבוד. מיד לאחר מכן תגדירו MFA מחדש.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "בחרו סיסמה ללוח הבקרה. קוד ההגדרה נמצא ביומן הקונטיינר (Container Manager › mediascan › Log, או",
+  "- click to remove": "- לחצו להסרה",
+  "Invalid address, e.g. http://192.168.1.10:32400": "כתובת לא תקינה, למשל http://192.168.1.10:32400",
+  "Enter a Plex token": "הזינו Plex token",
+  "A password has already been set": "כבר הוגדרה סיסמה",
+  "The key is fixed in WORKER_TOKEN (container environment)": "המפתח קבוע ב-WORKER_TOKEN (סביבת הקונטיינר)",
+  "selection still running - pause or wait until it is done": "הבחירה עדיין רצה - השהו או המתינו עד שתסתיים",
+  "Now running": "פועל כעת",
+  "Finding the film on the disc": "חיפוש הסרט בדיסק",
+  "Converting to one .mkv": "המרה ל-.mkv אחד",
+  "Checking (duration, tracks)": "בדיקה (משך, רצועות)",
+  "Copying to the NAS": "העתקה ל-NAS",
+  "Old folder to quarantine": "התיקייה הישנה להסגר",
+  "worker has not reported for a while": "הוורקר לא דיווח כבר זמן מה",
+  "waiting for the worker": "ממתין לוורקר",
+  "Welcome to MediaScan": "ברוכים הבאים ל-MediaScan",
+  "Setup code": "קוד הגדרה",
+  "New password (at least 10 characters)": "סיסמה חדשה (לפחות 10 תווים)",
+  "Repeat password": "אימות סיסמה",
+  "Set password": "הגדרת סיסמה",
+  "The passwords do not match": "הסיסמאות אינן תואמות",
+  "Setup code is wrong - check the container log": "קוד ההגדרה שגוי - בדקו ביומן הקונטיינר",
+  "Choose a password of at least 10 characters": "בחרו סיסמה של לפחות 10 תווים",
+  "Animation folders": "תיקיות אנימציה",
+  "Top-level folders with animation: these may use a lower bitrate.": "תיקיות ראשיות עם אנימציה: מותר להן קצב סיביות נמוך יותר.",
+  "Where do I find the token?": "איפה מוצאים את ה-token?",
+  "Connect": "חיבור",
+  "Disconnect": "ניתוק",
+  "Connected": "מחובר",
+  "Not connected": "לא מחובר",
+  "+ Add language": "+ הוספת שפה",
+  "Renew": "חידוש",
+  "Worker version": "גרסת וורקר",
+  "Password": "סיסמה",
+  "Other sessions are signed out after a change.": "לאחר השינוי הפעלות אחרות ינותקו.",
+  "Change password": "שינוי סיסמה",
+  "Other sessions will be signed out.": "הפעלות אחרות ינותקו.",
+  "Change": "שינוי",
+  "New worker key": "מפתח וורקר חדש",
+  "Create new key": "יצירת מפתח חדש",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "כל הוורקרים ייעצרו עד שתזינו את המפתח החדש (הריצו שוב את המתקין או ערכו את worker.ini).",
+  "Repeat new password": "אימות הסיסמה החדשה",
+  "Password changed": "הסיסמה שונתה",
+  "New worker key created": "נוצר מפתח וורקר חדש",
+  "Disconnect Plex?": "לנתק את Plex?",
+  "Plex disconnected": "Plex נותק",
+  "Plex connected": "Plex חובר",
+  "Incorrect password": "סיסמה שגויה",
+  "Incorrect code": "קוד שגוי",
+  "Incorrect code from your authenticator app": "קוד שגוי מאפליקציית האימות",
+  "Too many attempts - try again in 15 minutes": "יותר מדי ניסיונות - נסו שוב בעוד 15 דקות",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "תיקיות עם VIDEO_TS או BDMV. ההמרה יוצרת מהן .mkv אחד עם כל הווידאו, השמע, הכתוביות והפרקים.",
+  "Convert to MKV": "המרה ל-MKV",
+  "Folder": "תיקייה",
+  "Type": "סוג",
+  "found": "נמצא",
+  "queued": "בתור",
+  "converting…": "בהמרה…",
+  "converted": "הומר",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "ההמרה מעתיקה הכול 1:1 ל-.mkv אחד: וידאו (גם HDR), כל רצועות השמע, הכתוביות והפרקים. ב-DVD נבחר הכותר הארוך ביותר (הסרט). התיקייה הישנה עוברת להסגר, כך שאפשר לשחזר אותה. לאחר מכן ה-.mkv עובר קידוד רגיל וכתוביות. Blu-ray עם Dolby Vision הופך ל-Dolby Vision פרופיל 8.1 (שכבת בסיס 1:1, נוספים מטא-נתוני DV): Plex והטלוויזיה שלכם מנגנים אותו כ-Dolby Vision, נגנים אחרים כ-HDR10. סרט כזה לא מקודד מחדש לאחר מכן, כי אז Dolby Vision היה הולך לאיבוד.",
+  "Compare": "השוואה",
+  "Delete comparison": "מחיקת ההשוואה",
+  "Comparison deleted": "ההשוואה נמחקה",
+  "comparison": "השוואה",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "המקור לצד הגרסה החדשה: גודל, איכות, תמונה וכתוביות. אתם בוחרים אילו סרטים.",
+  "Original → new": "מקור → חדש",
+  "Quality (VMAF)": "איכות (VMAF)",
+  "Comparison": "השוואה",
+  "View": "צפייה",
+  "Make comparison": "יצירת השוואה",
+  "previous attempt failed": "הניסיון הקודם נכשל",
+  "Back": "חזרה",
+  "Make again": "יצירה מחדש",
+  "New": "חדש",
+  "VMAF whole film": "VMAF לכל הסרט",
+  "Making the frames… this usually takes less than a minute.": "הפריימים נוצרים… זה לרוב לוקח פחות מדקה.",
+  "There is no picture comparison for this film yet.": "עדיין אין השוואת תמונה לסרט הזה.",
+  "Picture · drag across the image": "תמונה · גררו על פני התמונה",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR הומר ל-SDR לתצוגה זו; בטלוויזיה תראו אותו ב-HDR.",
+  "How the setting was chosen": "איך נבחרה ההגדרה",
+  "Step": "שלב",
+  "Weakest 5%": "5% החלשים ביותר",
+  "Bitrate": "קצב סיביות",
+  "chosen": "נבחר",
+  "No data.": "אין נתונים.",
+  "Nothing needed, all languages were present.": "לא נדרש דבר, כל השפות כבר היו קיימות.",
+  "Not processed yet.": "עדיין לא עובד.",
+  "Comparison requested · ready within a minute": "ההשוואה התבקשה · מוכנה תוך דקה",
+  "Delete this comparison? The film itself stays as it is.": "למחוק את ההשוואה הזו? הסרט עצמו נשאר כפי שהוא.",
+  "Not possible": "לא אפשרי",
+  "Slide between original and new": "החליקו בין המקור לחדש",
+  "Overview": "סקירה",
+  "Queue": "תור",
+  "In progress": "בתהליך",
+  "No gain": "ללא חיסכון",
+  "Failed": "נכשלו",
+  "Subtitles": "כתוביות",
+  "Recently added": "נוספו לאחרונה",
+  "Library": "ספרייה",
+  "Quarantine": "הסגר",
+  "Workers": "וורקרים",
+  "Activity": "פעילות",
+  "Settings": "הגדרות",
+  "Encoding": "קידוד",
+  "System": "מערכת",
+  "Status of the entire library.": "מצב הספרייה כולה.",
+  "Selection": "בחירה",
+  "waiting for worker": "ממתין לוורקר",
+  "In the selection": "בבחירה",
+  "selection": "בחירה",
+  "Selection · encoding": "בחירה · קידוד",
+  "Selection · subtitles": "בחירה · כתוביות",
+  "Close list": "סגירת הרשימה",
+  "waiting": "ממתין",
+  "nothing needed": "לא נדרש דבר",
+  "original kept": "המקור נשמר",
+  "Find, sync or generate missing subtitles.": "חיפוש, סנכרון או יצירה של כתוביות חסרות.",
+  "All videos with their current plan. You can also queue items manually here.": "כל הסרטונים עם התוכנית הנוכחית שלהם. כאן אפשר גם להוסיף פריטים לתור ידנית.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "המכונות שעושות את העבודה. בחרו מה כל וורקר רשאי לעשות.",
+  "Log of everything that happens.": "יומן של כל מה שקורה.",
+  "Scan now": "סריקה עכשיו",
+  "Saved": "נחסך",
+  "Free on NAS": "פנוי ב-NAS",
+  "Progress": "התקדמות",
+  "Saved per day": "נחסך ליום",
+  "last 14 days": "14 הימים האחרונים",
+  "Per folder": "לפי תיקייה",
+  "all": "הכול",
+  "nothing processed yet": "עדיין לא עובד דבר",
+  "no measurement yet": "עדיין אין מדידה",
+  "No processed files yet": "עדיין אין קבצים מעובדים",
+  "No worker connected yet": "עדיין לא מחובר וורקר",
+  "no worker": "אין וורקר",
+  "worker offline": "הוורקר לא מקוון",
+  "online": "מקוון",
+  "disabled": "מושבת",
+  "encoding": "קידוד",
+  "subtitles": "כתוביות",
+  "Search by name or folder…": "חיפוש לפי שם או תיקייה…",
+  "Several titles at once: separate them with |": "כמה כותרים בבת אחת: הפרידו ביניהם עם |",
+  "Nothing to show": "אין מה להציג",
+  "File": "קובץ",
+  "Source": "מקור",
+  "Status": "מצב",
+  "Result": "תוצאה",
+  "Languages": "שפות",
+  "Error": "שגיאה",
+  "When": "מתי",
+  "Plan": "תוכנית",
+  "Added": "נוסף",
+  "Original": "מקורי",
+  "Size": "גודל",
+  "Replaced": "הוחלף",
+  "estimate": "הערכה",
+  "Name": "שם",
+  "Done": "הסתיים",
+  "Nothing found": "לא נמצא דבר",
+  "Process only these": "עיבוד אלה בלבד",
+  "Prioritise": "עדיפות",
+  "Skip": "דילוג",
+  "Retry": "ניסיון חוזר",
+  "Clear": "ניקוי",
+  "Both": "שניהם",
+  "Restore original": "שחזור המקור",
+  "Find subtitles": "חיפוש כתוביות",
+  "running": "פועל",
+  "done": "הסתיים",
+  "failed": "נכשל",
+  "replacing": "מוחלף",
+  "no gain": "ללא חיסכון",
+  "skipped": "דולג",
+  "restored": "שוחזר",
+  "cancelled": "בוטל",
+  "nothing found": "לא נמצא דבר",
+  "encode": "קידוד",
+  "already efficient": "כבר יעיל",
+  "small gain": "חיסכון קטן",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "שגיאה",
+  "unknown": "לא ידוע",
+  "All": "הכול",
+  "Already efficient": "כבר יעילים",
+  "Small gain": "חיסכון קטן",
+  "Restored": "שוחזרו",
+  "Video": "וידאו",
+  "Duration": "משך",
+  "Audio": "שמע",
+  "Encode": "קידוד",
+  "Quality": "איכות",
+  "Encode time": "זמן קידוד",
+  "Message": "הודעה",
+  "Started": "התחיל",
+  "Search": "חיפוש",
+  "weakest 5%": "5% החלשים ביותר",
+  "video": "וידאו",
+  "Worker": "וורקר",
+  "Hardware": "חומרה",
+  "Resolution": "רזולוציה",
+  "Working on": "עובד על",
+  "nothing": "כלום",
+  "up to 4K": "עד 4K",
+  "up to 1080p": "עד 1080p",
+  "up to 720p": "עד 720p",
+  "up to SD": "עד SD",
+  "Remove": "הסרה",
+  "Add worker": "הוספת וורקר",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "כל וורקר מדווח מה הוא יכול (נמצא מקודד, Whisper מותקן). כאן אתם קובעים מה מותר לו. שינויים חלים מהמשימה הבאה; משימה פעילה מסתיימת קודם.",
+  "This machine lacks the hardware or software for this": "למכונה זו אין את החומרה או התוכנה הדרושות לכך",
+  "Quality level": "רמת איכות",
+  "Standard": "רגיל",
+  "High": "גבוה",
+  "Maximum": "מקסימלי",
+  "Custom": "מותאם אישית",
+  "Custom target": "יעד מותאם",
+  "Average VMAF and the weakest 5% of frames.": "VMAF ממוצע ו-5% הפריימים החלשים ביותר.",
+  "avg.": "ממוצע",
+  "Minimum saving": "חיסכון מינימלי",
+  "If a file saves less, the original is kept.": "אם קובץ חוסך פחות, המקור נשמר.",
+  "Processing": "עיבוד",
+  "Storage & safety": "אחסון ובטיחות",
+  "How long replaced originals can be restored.": "כמה זמן ניתן לשחזר מקורות שהוחלפו.",
+  "days": "ימים",
+  "Above this, the oldest originals are deleted permanently.": "מעבר לזה המקורות הישנים ביותר נמחקים לצמיתות.",
+  "Safety brake": "בלם בטיחות",
+  "Encoding pauses when the NAS has less free space than this.": "הקידוד מושהה כשהשטח הפנוי ב-NAS קטן מזה.",
+  "Scanning": "סריקה",
+  "Automatic scan": "סריקה אוטומטית",
+  "New files are queued automatically.": "קבצים חדשים נכנסים לתור אוטומטית.",
+  "Off": "כבוי",
+  "Every hour": "כל שעה",
+  "Every 6 hours": "כל 6 שעות",
+  "Every 12 hours": "כל 12 שעות",
+  "Daily": "יומי",
+  "Skip folders": "תיקיות לדילוג",
+  "Comma-separated folder names.": "שמות תיקיות מופרדים בפסיקים.",
+  "Plex": "Plex",
+  "Dashboard address": "כתובת לוח הבקרה",
+  "Use the IP address of the NAS, not localhost.": "השתמשו בכתובת ה-IP של ה-NAS, לא ב-localhost.",
+  "Worker key": "מפתח וורקר",
+  "Keep secret: with this key a worker can fetch jobs.": "שמרו בסוד: בעזרת מפתח זה וורקר יכול לקבל משימות.",
+  "Show": "הצגה",
+  "Copy": "העתקה",
+  "Minimum requirements": "דרישות מינימום",
+  "Account & security": "חשבון ואבטחה",
+  "Two-factor authentication": "אימות דו-שלבי",
+  "Not active": "לא פעיל",
+  "New recovery codes": "קודי שחזור חדשים",
+  "Reset MFA": "איפוס MFA",
+  "Sessions": "הפעלות",
+  "Sign out everywhere else": "התנתקות מכל מקום אחר",
+  "Sign out": "התנתקות",
+  "You have unsaved changes.": "יש לך שינויים שלא נשמרו.",
+  "Cancel": "ביטול",
+  "Save": "שמירה",
+  "Language": "שפה",
+  "Theme": "ערכת נושא",
+  "Light": "בהירה",
+  "Dark": "כהה",
+  "Auto": "אוטומטי",
+  "Dashboard language.": "שפת לוח הבקרה.",
+  "Auto follows your system setting.": "אוטומטי עוקב אחר הגדרת המערכת.",
+  "Reset": "איפוס",
+  "Create new codes": "יצירת קודים חדשים",
+  "Close": "סגירה",
+  "Code from your authenticator app": "קוד מאפליקציית האימות",
+  "Sign in": "התחברות",
+  "Activate": "הפעלה",
+  "Set up two-factor authentication": "הגדרת אימות דו-שלבי",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "סרקו את קוד ה-QR באפליקציית האימות והזינו את הקוד בן 6 הספרות.",
+  "Manual:": "ידני:",
+  "6-digit code": "קוד בן 6 ספרות",
+  "123456 or recovery code": "123456 או קוד שחזור",
+  "Save your recovery codes": "שמרו את קודי השחזור",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "איבדתם את הטלפון? כל אחד מהקודים האלה מאפשר התחברות אחת. הם מוצגים פעם אחת בלבד.",
+  "I have saved them": "שמרתי אותם",
+  "Save them now, they are shown only once.": "שמרו אותם עכשיו, הם מוצגים פעם אחת בלבד.",
+  "Server not responding": "השרת לא מגיב",
+  "Sign-in failed": "ההתחברות נכשלה",
+  "Code is incorrect": "הקוד שגוי",
+  "Code is incorrect - check the time on your phone": "הקוד שגוי - בדקו את השעה בטלפון",
+  "Scan started": "הסריקה התחילה",
+  "scan already running": "סריקה כבר פועלת",
+  "Copied": "הועתק",
+  "Resumed": "הומשך",
+  "Paused: a running job will finish first": "מושהה: משימה פעילה תסתיים קודם",
+  "Added to the queue": "נוסף לתור",
+  "Not applicable": "לא רלוונטי",
+  "At least one language": "לפחות שפה אחת",
+  "Skip this job?": "לדלג על המשימה הזו?",
+  "Restore the original? The new version will be deleted.": "לשחזר את המקור? הגרסה החדשה תימחק.",
+  "on": "פועל",
+  "off": "כבוי",
+  "Quarantine cleanup": "ניקוי הסגר",
+  "Background task": "משימת רקע",
+  "Planning at startup": "תכנון בהפעלה",
+  "Welcome": "ברוכים הבאים",
+  "Next": "הבא",
+  "Previous": "הקודם",
+  "Next (or skip)": "הבא (או דילוג)",
+  "Done, go to the overview": "סיום, לסקירה",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan מקטין את הסרטים והסדרות שלכם בלי הבדל נראה לעין, ומשלים כתוביות חסרות. מקורות מוחלפים רק אחרי בדיקת איכות, ונשמרים תחילה בהסגר לזמן מה.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "שישה שלבים קצרים וסיימתם. אפשר לשנות הכול מאוחר יותר בהגדרות.",
+  "Your library": "הספרייה שלך",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan מחפש כעת סרטונים בתיקיית המדיה. בספרייה גדולה הסריקה הראשונה לוקחת זמן; אפשר פשוט להמשיך.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "תיקיות ש-MediaScan לעולם לא נוגע בהן, מופרדות בפסיקים (למשל Music, Downloads).",
+  "Scan again": "סריקה מחדש",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "בחרו את השפות שכל קובץ צריך. MediaScan מחפש את החסרות ב-OpenSubtitles. אם זה לא מצליח, הוורקר יוצר את הכתוביות בעצמו (זיהוי דיבור ותרגום על המחשב שלכם).",
+  "Click a language to remove it.": "לחצו על שפה כדי להסיר אותה.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "כל סרט נמדד עם VMAF, ציון לאופן שבו התמונה נראית לעין האנושית. \"גבוה\" אינו ניתן להבחנה מהמקור כמעט לכל אחד.",
+  "Higher = better picture, less space saved.": "גבוה יותר = תמונה טובה יותר, פחות חיסכון במקום.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "רשת ביטחון לגרעיניות ולסצנות חשוכות. 5 Mbps הוא ברירת מחדל טובה; 4K ורזולוציות אחרות מותאמות בהתאם.",
+  "Plex (optional)": "Plex (אופציונלי)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "כש-Plex מחובר, MediaScan ממתין עם ההחלפה כל עוד מישהו צופה בסרט, ומרענן את Plex אחרי כל שינוי. אין Plex? פשוט דלגו על שלב זה.",
+  "Plex address and token": "כתובת Plex ו-token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (ללא שינוי)",
+  "Add a worker": "הוספת וורקר",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "העבודה הכבדה נעשית במחשב PC או Mac עם כרטיס גרפי טוב: הוורקר. התקינו אותו עכשיו, או מאוחר יותר דרך וורקרים. כל עוד אין וורקר, לא קורה דבר לקבצים שלכם.",
+  "✓ A worker is connected.": "✓ וורקר מחובר.",
+  "Done! MediaScan is set up.": "סיימנו! MediaScan מוגדר.",
+  "Connect the media share on the new machine.": "חברו את שיתוף המדיה במכונה החדשה.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: אות כונן או \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: ראו את ההוראות בחבילה.",
+  "Download the package for that system and unpack it.": "הורידו את החבילה למערכת זו וחלצו אותה.",
+  "Run the installer.": "הריצו את המתקין.",
+  "The installer asks for the details below and tests the connection.": "המתקין מבקש את הפרטים שלהלן ובודק את החיבור.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 ומעלה, Intel Arc או iGPU דור 11+, AMD RX 6000+ · 4 ליבות · 8 GB · 100 GB פנויים · רשת קווית. כתוביות: NVIDIA עם 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (כתוביות: 24 GB+) · 150 GB פנויים · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "הוורקרים מתעדכנים בעצמם כשללוח הבקרה הזה יש גרסה חדשה.",
+  "What the workers are doing now and what is planned next.": "מה הוורקרים עושים עכשיו ומה מתוכנן בהמשך.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "הקטנת קבצים ללא אובדן איכות נראה לעין. הוורקר עובר על התור מלמעלה למטה.",
+  "select page": "בחירת העמוד",
+  "select": "בחירה",
+  "to encode": "לקידוד",
+  "Movie": "סרט",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "מקורות שהוחלפו, נשמרים זמנית כדי שתוכלו לשחזר אותם או לקודד אותם מחדש.",
+  "How MediaScan works: quality, subtitles, storage and security.": "איך MediaScan עובד: איכות, כתוביות, אחסון ואבטחה.",
+  "General": "כללי",
+  "Advanced": "מתקדם",
+  "Connection": "חיבור",
+  "Hand out new encode jobs to the workers.": "חלוקת משימות קידוד חדשות לוורקרים.",
+  "Hand out new subtitle jobs to the workers.": "חלוקת משימות כתוביות חדשות לוורקרים.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "עד כמה מחמירה מדידת ה-VMAF. גבוה יותר = תמונה טובה יותר, פחות חיסכון במקום.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "אילו כתוביות כל קובץ צריך. החסרות מחופשות, ואם לא נמצאות – נוצרות.",
+  "Go to Workers": "לוורקרים",
+  "new": "חדש",
+  "start": "התחלה",
+  "Minimum bitrate (4K)": "קצב סיביות מינימלי (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "סף משלו ל-4K, במקום פי 2.5 מערך ה-1080p. ‏0 = אוטומטי. HDR ‏+15% ואנימציה ×0.6 חלים גם כאן.",
+  "Ready to use in a few steps.": "מוכן לשימוש בכמה צעדים.",
+  "next": "הבא",
+  "read error": "שגיאת קריאה",
+  "MFA is already enabled": "MFA כבר מופעל",
+  "a .mkv with that name already exists": "כבר קיים קובץ .mkv בשם הזה",
+  "a file already exists at the original location": "כבר קיים קובץ במיקום המקורי",
+  "action not possible in this status": "הפעולה אינה אפשרית במצב זה",
+  "walking folders": "סורק תיקיות",
+  "planning jobs": "מתכנן משימות",
+  "check on the NAS rejected (duration/tracks)": "הבדיקה ב-NAS נדחתה (משך/רצועות)",
+  "expected a JSON object": "צפוי אובייקט JSON",
+  "ffprobe error": "שגיאת ffprobe",
+  "invalid resolution": "רזולוציה לא תקינה",
+  "invalid worker token": "טוקן worker לא תקין",
+  "job belongs to another worker": "המשימה שייכת ל-worker אחר",
+  "job is no longer active": "המשימה כבר אינה פעילה",
+  "no video track": "אין רצועת וידאו",
+  "not JSON": "לא JSON",
+  "not signed in": "לא מחובר",
+  "original disappeared": "המקור נעלם",
+  "original has changed in the meantime": "המקור השתנה בינתיים",
+  "original is no longer in quarantine": "המקור כבר אינו בהסגר",
+  "original no longer available": "המקור כבר אינו זמין",
+  "request refused": "הבקשה נדחתה",
+  "target file already exists": "קובץ היעד כבר קיים",
+  "the original has already been removed from quarantine - comparing is no longer possible": "המקור כבר הוסר מההסגר - השוואה אינה אפשרית עוד",
+  "this film has not been replaced yet": "הסרט הזה עדיין לא הוחלף",
+  "unknown action": "פעולה לא מוכרת",
+  "worker is still online": "ה-worker עדיין מחובר",
+  "In use now:": "בשימוש כעת:",
+  "longest": "הארוך ביותר",
+  "8.1 (from profile 7)": "8.1 (מפרופיל 7)",
+  "Whisper (transcription)": "Whisper (תמלול)",
+  "1 day ago": "לפני 1 ימים",
+  "1 video": "1 סרטונים",
+  "Enter your password to open the dashboard.": "הזן את הסיסמה כדי לפתוח את לוח הבקרה.",
+  "No connection to the server - retrying…": "אין חיבור לשרת - מנסה שוב…",
+  "Are you sure?": "האם אתה בטוח?",
+  "Restore": "שחזר",
+  "Re-encode": "קודד מחדש",
+  "Delete": "מחק",
+  "Next up": "הבא בתור",
+  "in the queue": "בתור",
+  "Load older entries": "טען רשומות ישנות יותר",
+  "Folder: all": "תיקייה: הכול",
+  "Resolution: all": "רזולוציה: הכול",
+  "Codec: all": "קודק: הכול",
+  "More": "עוד",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "סרטים ממתינים למקודד המעבד, אך לאף worker לא מופעל קידוד במעבד (עמוד Workers).",
+  "Info": "מידע",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "החומרה שלך, עד כמה היא מתאימה לעבודה, הכלים בשימוש ואיך ההגדרות עובדות.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "זיכרון",
+  "Software": "תוכנה",
+  "GPU encoding": "קידוד ב-GPU",
+  "CPU encoding (x265)": "קידוד במעבד (x265)",
+  "Subtitles (Whisper)": "כתוביות (Whisper)",
+  "Translation (Ollama)": "תרגום (Ollama)",
+  "Server": "שרת",
+  "Database": "מסד נתונים",
+  "Tools in use": "כלים בשימוש",
+  "Knowledge base": "מאגר ידע",
+  "Low": "נמוך",
+  "Medium": "בינוני",
+  "Ultra": "אולטרה",
+  "files": "קבצים",
+  "up": "פעיל",
+  "of": "מתוך",
+  "uses": "משתמש ב-",
+  "free": "פנוי",
+  "Media share": "שיתוף מדיה",
+  "Rating": "דירוג",
+  "Hardware details appear after this worker has updated itself.": "פרטי החומרה יופיעו לאחר שה-worker יעדכן את עצמו.",
+  "no Whisper": "ללא Whisper",
+  "unified memory": "זיכרון מאוחד",
+  "cores": "ליבות",
+  "threads": "תהליכונים",
+  "driver": "דרייבר",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "לא ידוע",
+  "Settings saved": "ההגדרות נשמרו",
+  "Time left": "זמן שנותר",
+  "Queued": "בתור",
+  "Keep originals for": "שמירת מקור למשך",
+  "Quarantine size limit": "מגבלת גודל ההסגר",
+  "Hide finished items": "הסתרת מה שהסתיים",
+  "Undo skip": "ביטול הדילוג",
+  "not supported here": "לא נתמך כאן",
+  "CPU encoding": "קידוד במעבד",
+  "Retry on CPU (x265)": "ניסיון חוזר במעבד (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "קודד במעבד עם x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 עם כיוון לגרעיניות במעבד של ה-worker: שומר על הגרעיניות ביעילות רבה יותר, אך נמשך שעות לסרט",
+  "CPU fallback for grainy films": "גיבוי במעבד לסרטים גרעיניים",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "כשה-GPU לא מצליח לשמור על האיכות בלי לעבור את קצב הסיביות של המקור (גרעיניות פילם), הסרט מקודד שוב במעבד של worker עם x265, השומר על הגרעיניות ביעילות רבה יותר. נמשך שעות לסרט; הפעילו קידוד במעבד עבור worker בעמוד Workers.",
+  "CPU preset": "הגדרה קבועה למעבד",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: כשעתיים לסרט 1080p באורך שעתיים על 8 ליבות. Slow: פי 2-3 יותר זמן עבור קבצים קטנים יותר בכ-5-10%.",
+  "Medium (faster)": "Medium (מהיר יותר)",
+  "Slow (smaller)": "Slow (קטן יותר)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "לא ניתן לטעון עמוד זה.",
+  "up to 1440p": "עד 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "מנתח קבצים",
+  "No worker has CPU encodes switched on (Workers page)": "לאף worker לא מופעל קידוד במעבד (עמוד Workers)",
+  "the job changed in the meantime": "המשימה השתנתה בינתיים",
+  "Main": "ניווט ראשי",
+  "Clear search and filters": "ניקוי החיפוש והמסננים",
+  "Compact rows": "שורות צפופות",
+  "Encoding and subtitles are paused.": "הקידוד והכתוביות מושהים.",
+  "Encoding is paused: no new encode jobs are handed out.": "הקידוד מושהה: לא מחולקות משימות קידוד חדשות.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "הכתוביות מושהות: לא מחולקות משימות כתוביות חדשות.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "הזינו גם את כתובת Plex וגם את הטוקן, או השאירו את שניהם ריקים כדי לדלג.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "השטח הפנוי ב-NAS נמוך מבלם הבטיחות. הקידוד הושהה אוטומטית.",
+  "Loading…": "טוען…",
+  "Next film": "הסרט הבא",
+  "Previous film": "הסרט הקודם",
+  "Next page": "העמוד הבא",
+  "Previous page": "העמוד הקודם",
+  "Rows per page": "שורות בעמוד",
+  "Resume": "המשך",
+  "Resume encoding": "המשך קידוד",
+  "Resume subtitles": "המשך כתוביות",
+  "Open settings": "פתיחת ההגדרות",
+  "Open the library": "פתיחת הספרייה",
+  "Subtitle languages": "שפות כתוביות",
+  "Update": "עדכון",
+  "No results for this search or filter.": "אין תוצאות לחיפוש או למסנן הזה.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "אין כלום בתור לקידוד. קבצים חדשים נכנסים לתור אחרי סריקה.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "עדיין לא הוחלפו קבצים. קידודים שהסתיימו מופיעים כאן אחרי בדיקת האיכות.",
+  "No files were kept as they are. Films that would save too little end up here.": "לא נשארו קבצים כפי שהם. סרטים שיחסכו מעט מדי מגיעים לכאן.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "אין כתוביות שמחכות. קבצים שחסרה בהם שפה נכנסים לתור אחרי סריקה.",
+  "No subtitle job is running right now.": "אין משימת כתוביות שרצה כרגע.",
+  "No subtitles have been made yet.": "עדיין לא נוצרו כתוביות.",
+  "Nothing missing: every file got its subtitles so far.": "לא חסר כלום: עד כה כל קובץ קיבל את הכתוביות שלו.",
+  "No failed encodes.": "אין קידודים שנכשלו.",
+  "No failed subtitle jobs.": "אין משימות כתוביות שנכשלו.",
+  "Nothing was added in the last 14 days.": "לא נוסף דבר ב-14 הימים האחרונים.",
+  "No videos with this plan.": "אין סרטונים עם התוכנית הזו.",
+  "The library is being scanned; videos appear as they are found.": "הספרייה נסרקת; סרטונים מופיעים ככל שהם נמצאים.",
+  "No videos found yet. Check the media folder and run a scan.": "עדיין לא נמצאו סרטונים. בדקו את תיקיית המדיה והריצו סריקה.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "אין כלום בהסגר. קבצי מקור שהוחלפו נשמרים כאן עד שתקופת השמירה מסתיימת.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "לא נמצאו בספרייה תיקיות DVD או Blu-ray (VIDEO_TS, BDMV).",
+  "1 worker online": "וורקר 1 מחובר",
+  "A worker is busy with this file": "וורקר עובד על הקובץ הזה",
+  "A worker is grabbing the frames": "וורקר לוכד את הפריימים",
+  "A worker is searching or making subtitles": "וורקר מחפש או יוצר כתוביות",
+  "A worker picks up the next job within a few seconds.": "וורקר ייקח את המשימה הבאה תוך כמה שניות.",
+  "Above this, the oldest comparisons are deleted automatically.": "מעל זה, ההשוואות הישנות ביותר נמחקות אוטומטית.",
+  "All replaced films": "כל הסרטים שהוחלפו",
+  "Already efficient: encoding would hardly save anything": "כבר יעיל: קידוד בקושי יחסוך משהו",
+  "Automatic comparisons": "השוואות אוטומטיות",
+  "Being made…": "נוצרת…",
+  "Can be made": "ניתן ליצור",
+  "Can encode on the CPU with x265": "יכול לקודד על ה-CPU עם x265",
+  "Comparison storage limit": "מגבלת אחסון להשוואות",
+  "Comparisons": "השוואות",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: לא קודד מחדש, שכבת ה-DV הייתה הולכת לאיבוד",
+  "Encoding is paused.": "הקידוד מושהה.",
+  "Enlarge": "הגדלה",
+  "Errors": "שגיאות",
+  "Flip": "החלפה",
+  "Four frames of the original and the new version are stored": "ארבעה פריימים מהמקור ומהגרסה החדשה שמורים",
+  "Full width": "רוחב מלא",
+  "GPU encoder found": "נמצא מקודד GPU",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "לכידת ארבעה פריימים מהמקור ומהגרסה החדשה לכל סרט שהוחלף, כדי שתמיד אפשר יהיה לבדוק את התמונה בעמוד ההשוואה. כ-1–2 MB לסרט.",
+  "Keyboard shortcuts": "קיצורי מקלדת",
+  "Leave without saving? Your changes to the settings will be lost.": "לצאת בלי לשמור? השינויים שלך בהגדרות יאבדו.",
+  "Moved to the front": "הועבר לראש התור",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "אין עדיין השוואות. צרו אחת כל עוד המקור בהסגר, או הפעילו השוואות אוטומטיות בהגדרות.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "אי אפשר להשוות שום סרט כרגע: המקורות יצאו מההסגר, או שעדיין לא הוחלף דבר.",
+  "No longer possible": "כבר לא אפשרי",
+  "No subtitles found online and none could be made": "לא נמצאו כתוביות ברשת ולא ניתן היה ליצור כתוביות",
+  "Ollama found: can translate subtitles": "נמצא Ollama: יכול לתרגם כתוביות",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "חלק מתיקיית DVD או Blu-ray; המירו אותה בעמוד DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "הושהה אוטומטית: ב-NAS יש פחות שטח פנוי מבלם הבטיחות.",
+  "Planned for encoding": "מתוכנן לקידוד",
+  "Queued for the CPU encoder": "בתור למקודד ה-CPU",
+  "Replaced after the quality check; the original is in quarantine for a while": "הוחלף אחרי בדיקת האיכות; המקור נשאר זמן מה בהסגר",
+  "Replaced films appear here after their first encode.": "סרטים שהוחלפו מופיעים כאן אחרי הקידוד הראשון שלהם.",
+  "Search the log…": "חיפוש ביומן…",
+  "Show films that can be compared": "הצגת סרטים שניתן להשוות",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "הצגת המקור והגרסה החדשה לסירוגין: הדרך הטובה ביותר להבחין בגרעיניות ובפרטים",
+  "Skipped": "דולג",
+  "Skipped by you; Retry puts it back in the queue": "דילגת על זה; «ניסיון חוזר» מחזיר אותו לתור",
+  "Slider back to the middle": "המחוון חזרה לאמצע",
+  "Smaller": "הקטנה",
+  "Stopped because the file changed or disappeared": "נעצר כי הקובץ השתנה או נעלם",
+  "Stopped with an error; see the message and try again": "נעצר עם שגיאה; ראו את ההודעה ונסו שוב",
+  "Subtitles are paused.": "הכתוביות מושהות.",
+  "The file could not be read; see the drawer": "לא ניתן לקרוא את הקובץ; ראו את הפאנל הצדדי",
+  "The new file would save less than the minimum saving, so the original was kept": "הקובץ החדש היה חוסך פחות מהחיסכון המינימלי, לכן המקור נשמר",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "הגרסה החדשה נמצאת ב-NAS ותוחלף ברגע שאף אחד לא צופה",
+  "The original has left quarantine, so the frames can no longer be grabbed": "המקור יצא מההסגר, לכן כבר אי אפשר ללכוד את הפריימים",
+  "The original is still in quarantine, so the frames can still be grabbed": "המקור עדיין בהסגר, לכן עדיין אפשר ללכוד את הפריימים",
+  "The original was put back from quarantine": "המקור שוחזר מההסגר",
+  "The queue is empty. New files are queued after a scan.": "התור ריק. קבצים חדשים נכנסים לתור אחרי סריקה.",
+  "The server hands out newer worker files; the worker installs them after its current job": "השרת מחלק קובצי וורקר חדשים יותר; הוורקר מתקין אותם אחרי המשימה הנוכחית",
+  "Undo": "ביטול",
+  "Waiting for Plex: someone is watching this film": "מחכה ל-Plex: מישהו צופה בסרט הזה",
+  "Waiting for a worker; the queue runs from top to bottom": "מחכה לוורקר; התור מתבצע מלמעלה למטה",
+  "Warnings": "אזהרות",
+  "Whisper installed: can make subtitles": "Whisper מותקן: יכול ליצור כתוביות",
+  "Would save less than the minimum saving": "היה חוסך פחות מהחיסכון המינימלי",
+  "expires today": "פג היום",
+  "expires within a day": "פג תוך יום",
+  "less than a day left": "נותר פחות מיום",
+  "waiting for Plex": "מחכה ל-Plex",
+  "update pending": "עדכון ממתין",
+  "Tap to switch between original and new": "הקישו למעבר בין המקור לחדש",
+  "Repeated": "חוזר",
+  "Search in the current list": "חיפוש ברשימה הנוכחית",
+  "Clear the search, close a drawer or dialog": "ניקוי החיפוש, סגירת פאנל או תיבת דו-שיח",
+  "Previous or next film on a comparison": "הסרט הקודם או הבא בהשוואה",
+  "Open or switch the focused row, switch or header": "פתיחה או החלפה של השורה, המתג או הכותרת שבמיקוד",
+  "This list": "הרשימה הזו",
+  "Nothing in the log matches this.": "שום דבר ביומן לא מתאים לזה.",
+  "Nothing has happened yet.": "עדיין לא קרה דבר.",
+  "No worker is online, so nothing can run.": "אין וורקר מקוון, לכן שום דבר לא יכול לרוץ.",
+  "There is no worker yet. Add one to get started.": "אין עדיין וורקר. הוסיפו אחד כדי להתחיל.",
+  "Open Workers": "פתיחת וורקרים",
+  "Some values are out of range.": "כמה ערכים מחוץ לטווח.",
+  "no capabilities reported": "לא דווחו יכולות",
+  "Replaced · expires": "הוחלף · פג",
+  "Made": "נוצרה",
+  "Make": "יצירה",
+  "lots of motion": "הרבה תנועה",
+  "dark scene": "סצנה חשוכה",
+  "a quarter in": "ברבע",
+  "three quarters in": "בשלושת רבעים",
+  "Encoded": "קודד",
+  "Finished": "הסתיים",
+  "later": "לאחר מכן",
+  "Leave": "יציאה",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "השוואה לוקחת 4 פריימים מהמקור ומהגרסה החדשה (בסך הכול כ‑1–2 MB). אפשר ליצור אותה כל עוד המקור עדיין בהסגר, והיא נשמרת עד שתמחקו אותה, גם אחרי שהמקור נעלם.",
+  "Retry on CPU": "ניסיון חוזר במעבד",
+  "Scan": "סריקה"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1התחלה$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "כעת: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan מצא $1 סרטונים ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · 5% החלשים $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "5% החלשים $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "חדשים ($1 ימים)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "תוכנית: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "ההחלפה נכשלה ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} נכשל{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "הסריקה הסתיימה: $1 סרטונים, $2 חדשים, $3 שהשתנו, $4 שנעלמו; נוספו $5 משימות קידוד ו-$6 משימות כתוביות"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "הסריקה הסתיימה: $1 סרטונים, $2 חדשים, $3 שהשתנו, $4 שנעלמו, $5 בתיקיות שדולגו; נוספו $6 משימות קידוד ו-$7 משימות כתוביות"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "לקודד מחדש $1 סרטים עם הכללים הנוכחיים? המקורות ישוחזרו והסרטים יקבלו עדיפות בתור."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 סרטים חזרו לתור{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 מקורות שוחזרו ונכנסו שוב לתור (כללים נוכחיים)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "חדש: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "הוחלף: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray הומר: $1 ($2 GB); תיקיית הדיסק בהסגר"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "המקור שוחזר: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 התחיל {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 משימות (מתוך $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "הבחירה חולקה - הקידוד הושהה אוטומטית"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "הבחירה חולקה - הכתוביות הושהו אוטומטית"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "ההגדרות שונו: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "שגיאה במשימה $1: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "משימה $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "וורקר $1 לא מקוון: $2 משימות חזרו לתור"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 הופעל מחדש: $2 משימות שנקטעו חזרו לתור"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 עודכן ל-$2: $3 משימות שנכשלו חזרו לתור"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "וורקר $1 הוסר"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "וורקר $1: קידוד {t:$2}, כתוביות {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "התכנון עודכן: נוספו $1 משימות קידוד ו-$2 משימות כתוביות"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 משימות נוספו לתור ידנית"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 משימות: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 השוואות נמחקו"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "נותקו $1 הפעלות אחרות"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "התחברות עם קוד שחזור (נותרו $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "מקורות נשמרים לכל היותר $1 ימים ויחד לעולם לא יותר מ-$2. הישנים ביותר נמחקים ראשונים. שחזור מוחק את הגרסה החדשה."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - לחצו להסרה"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 תיקיות יומרו · הוורקר מתחיל תוך חצי דקה"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 שמע · $2 כתוביות"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "למחוק $1 השוואות? הסרטים עצמם נשארים כפי שהם."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "פריים $1 · ב-$2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "פריים $1 · ב-$2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB כ-jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "זמן קידוד $1 דק׳ · נמדד על 8 קטעים, ואז נבדק על כל הסרט."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "קיים כעת: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "5% החלשים $1 · יעד $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "תזמון $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "יצירת הפריימים נכשלה: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "בחירה · הבא"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "בחירה · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "כעת:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· אחר כך עוד $1 מהבחירה"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "הערכה · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 הסתיימו קודם · הצגה"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 נוספו לבחירה · הוורקר מתחיל תוך כמה שניות"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "בחירה {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "נוצר: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · קטן ב-$3%$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "הרגע"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "לפני $1 דק׳"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "לפני $1 שע׳"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "לפני $1 ימים"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "נראה {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 י׳ $2 שע׳"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 שע׳ $2 דק׳"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 סרטונים"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "הסגר $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 ל-24 שע׳"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 חיסכון"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB חיסכון"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "קטן ב-$1% בקבצים שעובדו"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "וורקר $1 מקוון"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "עוד $1 להתחלה, ואז השהיה"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 פריטים · עמוד $2 מתוך $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 נבחרו"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "בחירת כל $1 התוצאות"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "סורק: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× ניסיונות"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 דק׳"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "פעיל · נותרו $1 קודי שחזור"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 הפעלות פעילות, כולל זו."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 עודכנו{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 הפעלות אחרות נותקו"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "לעבד רק את $1 אלה? הם יקבלו עדיפות, העיבוד יתחדש ולאחר מכן יושהה שוב אוטומטית."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "לדלג על $1 משימות?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "לשחזר $1 מקורות? הגרסאות החדשות יימחקו."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "להסיר את וורקר $1 מהרשימה? אם יחזור להיות מקוון, הוא יופיע שוב אוטומטית."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "פועל כבר $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "נותרו ~$1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "עד $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "עובד על"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex מחובר (גרסה $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex לא מגיב כראוי: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "שגיאה: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "ההחלפה נכשלה: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "ערך לא תקין עבור $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 חייב להיות בין $2 ל-$3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · ה-5% הגרועים $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 שעות"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: ה-GPU לא הצליח לשמור על האיכות - בתור למקודד המעבד (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "ניקוי staging: הוסרה שארית $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 בעמוד"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 וורקרים מחוברים"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · הוספת וורקר, המפתח וההורדות נמצאים בעמוד וורקרים."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · מתחיל בעוד ~{t:$2} · הערכה"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · הערכה"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "נותרו $1 ימים"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "פג בעוד $1 ימים"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "נוצרה · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "ניתן ליצור · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · שלב $1 מתוך $2 · נותרו ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · שלב $1 מתוך $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · נותרו ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "התבקשו $1 השוואות · מוכנות תוך כמה דקות"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "ליצור $1 השוואות? כ-1–2 MB כל אחת."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "חזר $1 פעמים"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "בין $1 ל-$2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 משימות"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "שגיאה ב-$1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "התבקשו $1 השוואות"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "ההשוואות נוקו: $1 הוסרו (מעל $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "תיקיית ההסגר שונתה ל-quarantine ($1 רשומות עודכנו)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "וורקר $1 הוסר: $2 משימות חזרו לתור"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "הסגר: $1 כבר קיים, $2 נשאר במקומו"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "תיקיית ההסגר שונתה ל-quarantine; $1 רשומות עודכנו, אך $2 עדיין לא ריקה"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "שינוי שם תיקיית ההסגר נכשל (האם שיתוף המדיה מחובר?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "הגרסה החדשה חסרה ב-staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "ה-.mkv החדש חסר ב-staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "המקור נעלם"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "המקור השתנה בינתיים"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "המקור אינו זמין עוד"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "הבדיקה ב-NAS נדחתה (משך/רצועות)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray הומר ל-mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "ניסיון חוזר אחרי עדכון ה-worker"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "דילגת על זה"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "קובץ היעד כבר קיים"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "ה-worker לא מקוון - תוזמן מחדש"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "ה-worker הוסר - תוזמן מחדש"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "ה-worker הופעל מחדש - תוזמן מחדש"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "ההחלפה נכשלה: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision חסר ב-mkv החדש"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: לא קודד מחדש (שכבת ה-DV הייתה הולכת לאיבוד)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "לא ניתן להעתיק זרם ל-.mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg לא התקדם במשך $1 דקות (השיתוף לא זמין?) - הופסק"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 מתוך $2 קבצים חסרים בבת אחת - השיתוף לא זמין? דבר לא סומן כנעלם"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "התרגום נכשל: אין תשובה שמישה ל-$1 שורה/ות אחרי ניסיונות חוזרים"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: שגיאת שרת"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - הורידו את המודל (ollama pull <model>) או תקנו את ollama_model ב-worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama אינו זמין ב-$1 ($2) - הפעילו את Ollama או בדקו את ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama אינו זמין: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama המשיך להיכשל במשך $2 דקות"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 נמשך יותר משעה - האם שיתוף המדיה עדיין זמין?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 חסר; התקינו אותו $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF לכל הסרט $1 אינו סביר בכל שיטות ההתאמה (דגימות $2); נמוך ב-$3. המקור נשמר; בדקו שם את המקור"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: לא ניתן לקרוא את הקובץ"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: נכשל"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "אין די מקום פנוי במחשב לסרט זה (נדרשים $1 GB ב-$2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "אין מספיק מקום בתיקיית העבודה: $1 GB פנויים, נדרשים ~$2 GB"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "עם קצב הסיביות המינימלי לכל היותר קטן ב-$1%"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "מחלץ מטא-נתונים משכבת השיפור"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "ההורדה אינה תואמת (sha256) - לא בשימוש"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "בדיקה: המשך או מספר הזרמים שונים"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "קובץ ה-mkv החדש קצר מדי ($1 מתוך $2 דקות)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 מתוך $2 הסתיימו, ממתין לוורקר"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "המרת Dolby Vision לפרופיל 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "מזריק מטא-נתונים לשכבת הבסיס"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "בדיקת VMAF (מדידה שנייה)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "אף הגדרה לא עומדת ביעד האיכות"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "הגעת למגבלת ההורדות - השאר מאוחר יותר"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "הגעה למגבלה היומית של OpenSubtitles"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "חלקית; השאר אחרי מגבלת ההורדות"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 לא נמצא לאחר ההורדה"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: זוהתה שפת הדיבור"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (תורגם מ-$1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "ממתין למקום פנוי במחשב"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "קובץ הכתוביות גדול באופן חריג"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "מדידת הבדיקה העצמית אינה אמינה"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "ניסיון תרגום $1 נכשל"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "ממתין: נצפה כעת ב-Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "צפוי קטן ב-$1% בלבד"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "מוריד את $1 (חד-פעמי)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "בדיקת כל הסרט מתחת ליעד"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "לא ניתן לקחת פריים ב-$1s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "כל הסרט מעט מתחת ליעד"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "חיפוש הסרט בדיסק"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "יעד האיכות אינו בר השגה"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "מדידת הבדיקה אינה אמינה"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "נתיב לא תקין מהשרת"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "שוב: חיסכון מינימלי כעת 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper רץ על ה-GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "לא נמצאו כותרים ב-DVD"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "נתיב חשוד בארכיון"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "ממתין: Plex לא זמין"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "עובד על $1 מתוך $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles אינו זמין"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (תמלול)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "בדיקת VMAF לכל הסרט"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "הסתיים, ממתין להחלפה"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "התיקייה הישנה להסגר"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "בדיקת VMAF $1 נמוכה מדי"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "קריאת הדיסק (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "תורגם מאנגלית"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "הסתיים ($1 מתוך $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "חילוץ האודיו נכשל"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "חוזר ל-CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles מחובר"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (מפרופיל 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "ממתין לוורקר"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "נתיב חשוד ב-zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "לא ניתן לקרוא EN מוטמע"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "הארוך ביותר עד כה: כותר"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "התזמון לא תואם"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "קטן ב-$1% בלבד"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "קטע $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "משאיר את המקור"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "הורדות שנותרו היום"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "כותר $1 נבדק"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "ממתין להחלפה"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "העתקה ל-NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "המקור נשמר"
+  ],
+  [
+   "translation failed",
+   "g",
+   "התרגום נכשל"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "השרת אינו זמין"
+  ],
+  [
+   "searching quality",
+   "g",
+   "חיפוש איכות"
+  ],
+  [
+   "making references",
+   "g",
+   "יצירת קטעי ייחוס"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "המרה ל-mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "הכתוביות נעצרו"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "העתקה NAS → מחשב"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "העתקה מחשב → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "חיפוש הסרט"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "איחוד ל-mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "רשימת ההשמעה הארוכה ביותר"
+  ],
+  [
+   "timing reference",
+   "g",
+   "ייחוס תזמון"
+  ],
+  [
+   "speech segments",
+   "g",
+   "קטעי דיבור"
+  ],
+  [
+   "too little gain",
+   "g",
+   "חיסכון קטן מדי"
+  ],
+  [
+   " not applicable",
+   "g",
+   " לא רלוונטי"
+  ],
+  [
+   "download failed",
+   "g",
+   "ההורדה נכשלה"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "לאחר ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "תרגום ל"
+  ],
+  [
+   "next candidate",
+   "g",
+   "המועמד הבא"
+  ],
+  [
+   "after shifting",
+   "g",
+   "לאחר הזזה"
+  ],
+  [
+   "reading audio",
+   "g",
+   "קריאת שמע"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "בחירה · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 ממתינים"
+  ],
+  [
+   "search failed",
+   "g",
+   "החיפוש נכשל"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "קידוד מחדש"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "כותר $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " שגיאות"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 הסתיימו"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "כתוביות:"
+  ],
+  [
+   "replacing",
+   "g",
+   "מחליף"
+  ],
+  [
+   "subtitles",
+   "g",
+   "כתוביות"
+  ],
+  [
+   "candidate",
+   "g",
+   "מועמד"
+  ],
+  [
+   "encoding:",
+   "g",
+   "קידוד:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "התחלה"
+  ],
+  [
+   "encoding",
+   "g",
+   "קידוד"
+  ],
+  [
+   "checking",
+   "g",
+   "בדיקה"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", עד "
+  ],
+  [
+   "present",
+   "g",
+   "קיים"
+  ],
+  [
+   "missing",
+   "g",
+   "חסר"
+  ],
+  [
+   "speed",
+   "g",
+   "מהירות"
+  ],
+  [
+   "saved",
+   "g",
+   "נשמר"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "ה-GPU לא הצליח לשמור על האיכות - בתור למקודד המעבד (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "ניקוי staging: הוסרה שארית"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "תיקיית המדיה ריקה או לא מחוברת - לא שונה דבר"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "שמירה על האיכות תדרוש קצב סיביות גבוה מזה של המקור"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "דורש קצב סיביות גבוה מזה של המקור"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "ה-worker מופעל מחדש לעדכון"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "אין זרם וידאו (רק תמונת עטיפה?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "אין זרם שמע לתעתוק"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "אין די מקום פנוי במחשב לסרט זה"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "ניסיון חוזר במעבד (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "סורק תיקיות"
+  ],
+  [
+   "analysing files",
+   "g",
+   "מנתח קבצים"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "מתכנן משימות"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "קידוד במעבד פועל"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "קידוד במעבד כבוי"
+  ]
+ ]
+}

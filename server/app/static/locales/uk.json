@@ -1,0 +1,2060 @@
+{
+ "name": "Українська",
+ "s": {
+  "Re-encode from original": "Перекодувати з оригіналу",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Перекодувати за поточними правилами? Оригінал буде відновлено, а фільм отримає пріоритет.",
+  "Back in the queue": "Знову в черзі",
+  "Restore originals": "Відновити оригінали",
+  "Minimum bitrate (1080p)": "Мінімальний бітрейт (1080p)",
+  "Extra floor (share of the source)": "Додатковий поріг (частка джерела)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Необов’язково: також зберігати щонайменше цю частку бітрейту оригінального відео. Корисно лише для джерел з дуже високим бітрейтом. 0 = вимкнено.",
+  "with the minimum bitrate at most": "з мінімальним бітрейтом щонайбільше",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Новий файл ніколи не опускається нижче, навіть якщо VMAF це дозволяє. Інші роздільності масштабуються: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · анімація ×0.6.",
+  "bitrate already near the minimum": "бітрейт уже близький до мінімуму",
+  "MFA reset from settings - set it up again": "MFA скинуто в налаштуваннях - налаштуйте її знову",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA скинуто через MFA_RESET - видаліть MFA_RESET з налаштувань контейнера",
+  "MFA enabled": "MFA увімкнено",
+  "MediaScan started": "MediaScan запущено",
+  "New recovery codes created": "Створено нові коди відновлення",
+  "Password changed; other sessions signed out": "Пароль змінено; інші сеанси завершено",
+  "Password set (first time)": "Пароль встановлено (вперше)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Увага: ADMIN_PASSWORD коротший за 10 символів - виберіть надійніший пароль у Налаштуваннях",
+  "part of a DVD/Blu-ray folder": "частина папки DVD/Blu-ray",
+  "folder is in Skip folders": "тека входить до «Теки, що пропускаються»",
+  "file disappeared": "файл зник",
+  "worker restarted - rescheduled": "worker перезапущено - заплановано знову",
+  "worker offline - rescheduled": "worker офлайн - заплановано знову",
+  "retry after worker update": "повтор після оновлення worker",
+  "dvd/blu-ray converted to mkv": "DVD/Blu-ray конвертовано в mkv",
+  "skipped by you": "пропущено вами",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Заміна чекає, поки фільм переглядають, а Plex оновлюється після кожної зміни.",
+  "Confirm with your password and a code from your app.": "Підтвердьте паролем і кодом із застосунку.",
+  "Your old recovery codes will stop working.": "Ваші старі коди відновлення перестануть діяти.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Ваше поточне посилання автентифікатора та коди відновлення перестануть діяти. Ви одразу налаштуєте MFA знову.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Виберіть пароль для панелі. Код налаштування є в журналі контейнера (Container Manager › mediascan › Log, або",
+  "- click to remove": "- натисніть, щоб видалити",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Неправильна адреса, напр. http://192.168.1.10:32400",
+  "Enter a Plex token": "Введіть Plex token",
+  "A password has already been set": "Пароль уже встановлено",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Ключ задано в WORKER_TOKEN (середовище контейнера)",
+  "selection still running - pause or wait until it is done": "вибірка ще виконується - призупиніть або дочекайтеся завершення",
+  "Now running": "Зараз виконується",
+  "Finding the film on the disc": "Пошук фільму на диску",
+  "Converting to one .mkv": "Конвертація в один .mkv",
+  "Checking (duration, tracks)": "Перевірка (тривалість, доріжки)",
+  "Copying to the NAS": "Копіювання на NAS",
+  "Old folder to quarantine": "Стара папка в карантин",
+  "worker has not reported for a while": "worker давно не звітував",
+  "waiting for the worker": "очікування на worker",
+  "Welcome to MediaScan": "Ласкаво просимо до MediaScan",
+  "Setup code": "Код налаштування",
+  "New password (at least 10 characters)": "Новий пароль (щонайменше 10 символів)",
+  "Repeat password": "Повторіть пароль",
+  "Set password": "Встановити пароль",
+  "The passwords do not match": "Паролі не збігаються",
+  "Setup code is wrong - check the container log": "Неправильний код налаштування - перевірте журнал контейнера",
+  "Choose a password of at least 10 characters": "Виберіть пароль щонайменше з 10 символів",
+  "Animation folders": "Папки з анімацією",
+  "Top-level folders with animation: these may use a lower bitrate.": "Папки верхнього рівня з анімацією: для них можна використовувати нижчий бітрейт.",
+  "Where do I find the token?": "Де знайти token?",
+  "Connect": "Підключити",
+  "Disconnect": "Відключити",
+  "Connected": "Підключено",
+  "Not connected": "Не підключено",
+  "+ Add language": "+ Додати мову",
+  "Renew": "Оновити",
+  "Worker version": "Версія worker",
+  "Password": "Пароль",
+  "Other sessions are signed out after a change.": "Після зміни інші сеанси буде завершено.",
+  "Change password": "Змінити пароль",
+  "Other sessions will be signed out.": "Інші сеанси буде завершено.",
+  "Change": "Змінити",
+  "New worker key": "Новий ключ worker",
+  "Create new key": "Створити новий ключ",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Усі workers зупиняться, доки ви не введете новий ключ (запустіть інсталятор знову або змініть worker.ini).",
+  "Repeat new password": "Повторіть новий пароль",
+  "Password changed": "Пароль змінено",
+  "New worker key created": "Створено новий ключ worker",
+  "Disconnect Plex?": "Відключити Plex?",
+  "Plex disconnected": "Plex відключено",
+  "Plex connected": "Plex підключено",
+  "Incorrect password": "Неправильний пароль",
+  "Incorrect code": "Неправильний код",
+  "Incorrect code from your authenticator app": "Неправильний код із застосунку автентифікатора",
+  "Too many attempts - try again in 15 minutes": "Забагато спроб - спробуйте через 15 хвилин",
+  "DVD & Blu-ray": "DVD і Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Папки з VIDEO_TS або BDMV. Конвертація перетворює їх на один .mkv з усім відео, аудіо, субтитрами та розділами.",
+  "Convert to MKV": "Конвертувати в MKV",
+  "Folder": "Папка",
+  "Type": "Тип",
+  "found": "знайдено",
+  "queued": "у черзі",
+  "converting…": "конвертація…",
+  "converted": "конвертовано",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Конвертація копіює все 1:1 в один .mkv: відео (і HDR), усі аудіодоріжки, субтитри та розділи. Для DVD вибирається найдовший title (фільм). Стара папка йде в карантин, тож її можна відновити. Потім .mkv проходить звичайне кодування та субтитри. Dolby Vision Blu-ray стають Dolby Vision profile 8.1 (базовий шар 1:1, додано метадані DV): Plex і ваш телевізор відтворюють їх як Dolby Vision, інші плеєри як HDR10. Такий фільм потім не перекодовується, бо тоді Dolby Vision буде втрачено.",
+  "Compare": "Порівняти",
+  "Delete comparison": "Видалити порівняння",
+  "Comparison deleted": "Порівняння видалено",
+  "comparison": "порівняння",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Оригінал поруч із новою версією: розмір, якість, зображення та субтитри. Ви самі вибираєте фільми.",
+  "Original → new": "Оригінал → новий",
+  "Quality (VMAF)": "Якість (VMAF)",
+  "Comparison": "Порівняння",
+  "View": "Переглянути",
+  "Make comparison": "Створити порівняння",
+  "previous attempt failed": "попередня спроба не вдалася",
+  "Back": "Назад",
+  "Make again": "Створити знову",
+  "New": "Новий",
+  "VMAF whole film": "VMAF усього фільму",
+  "Making the frames… this usually takes less than a minute.": "Створення кадрів… зазвичай це триває менше хвилини.",
+  "There is no picture comparison for this film yet.": "Для цього фільму ще немає порівняння зображення.",
+  "Picture · drag across the image": "Зображення · проведіть по картинці",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "Для цього перегляду HDR перетворено на SDR; ваш телевізор показує його в HDR.",
+  "How the setting was chosen": "Як було вибрано налаштування",
+  "Step": "Крок",
+  "Weakest 5%": "Найгірші 5%",
+  "Bitrate": "Бітрейт",
+  "chosen": "вибрано",
+  "No data.": "Немає даних.",
+  "Nothing needed, all languages were present.": "Нічого не потрібно, усі мови були наявні.",
+  "Not processed yet.": "Ще не оброблено.",
+  "Comparison requested · ready within a minute": "Порівняння запитано · буде готове за хвилину",
+  "Delete this comparison? The film itself stays as it is.": "Видалити це порівняння? Сам фільм залишиться без змін.",
+  "Not possible": "Неможливо",
+  "Slide between original and new": "Пересувайте між оригіналом і новим",
+  "Overview": "Огляд",
+  "Queue": "Черга",
+  "In progress": "Виконується",
+  "No gain": "Без вигоди",
+  "Failed": "Помилки",
+  "Subtitles": "Субтитри",
+  "Recently added": "Нещодавно додані",
+  "Library": "Бібліотека",
+  "Quarantine": "Карантин",
+  "Workers": "Workers",
+  "Activity": "Активність",
+  "Settings": "Налаштування",
+  "Encoding": "Кодування",
+  "System": "Система",
+  "Status of the entire library.": "Стан усієї бібліотеки.",
+  "Selection": "Вибірка",
+  "waiting for worker": "очікує на worker",
+  "In the selection": "У вибірці",
+  "selection": "вибірка",
+  "Selection · encoding": "Вибірка · кодування",
+  "Selection · subtitles": "Вибірка · субтитри",
+  "Close list": "Закрити список",
+  "waiting": "очікує",
+  "nothing needed": "нічого не потрібно",
+  "original kept": "оригінал збережено",
+  "Find, sync or generate missing subtitles.": "Пошук, синхронізація або створення відсутніх субтитрів.",
+  "All videos with their current plan. You can also queue items manually here.": "Усі відео з їхнім поточним планом. Тут також можна вручну ставити елементи в чергу.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Машини, що виконують роботу. Виберіть, що дозволено кожному worker.",
+  "Log of everything that happens.": "Журнал усього, що відбувається.",
+  "Scan now": "Сканувати зараз",
+  "Saved": "Заощаджено",
+  "Free on NAS": "Вільно на NAS",
+  "Progress": "Прогрес",
+  "Saved per day": "Заощаджено за день",
+  "last 14 days": "останні 14 днів",
+  "Per folder": "За папками",
+  "all": "усі",
+  "nothing processed yet": "ще нічого не оброблено",
+  "no measurement yet": "ще немає вимірювань",
+  "No processed files yet": "Ще немає оброблених файлів",
+  "No worker connected yet": "Ще не підключено жодного worker",
+  "no worker": "немає worker",
+  "worker offline": "worker офлайн",
+  "online": "онлайн",
+  "disabled": "вимкнено",
+  "encoding": "кодування",
+  "subtitles": "субтитри",
+  "Search by name or folder…": "Пошук за назвою або папкою…",
+  "Several titles at once: separate them with |": "Кілька назв одночасно: розділяйте їх |",
+  "Nothing to show": "Нічого показати",
+  "File": "Файл",
+  "Source": "Джерело",
+  "Status": "Стан",
+  "Result": "Результат",
+  "Languages": "Мови",
+  "Error": "Помилка",
+  "When": "Коли",
+  "Plan": "План",
+  "Added": "Додано",
+  "Original": "Оригінал",
+  "Size": "Розмір",
+  "Replaced": "Замінено",
+  "estimate": "оцінка",
+  "Name": "Назва",
+  "Done": "Готово",
+  "Nothing found": "Нічого не знайдено",
+  "Process only these": "Обробити лише ці",
+  "Prioritise": "Надати пріоритет",
+  "Skip": "Пропустити",
+  "Retry": "Повторити",
+  "Clear": "Очистити",
+  "Both": "Обидва",
+  "Restore original": "Відновити оригінал",
+  "Find subtitles": "Знайти субтитри",
+  "running": "виконується",
+  "done": "готово",
+  "failed": "помилка",
+  "replacing": "заміна",
+  "no gain": "без вигоди",
+  "skipped": "пропущено",
+  "restored": "відновлено",
+  "cancelled": "скасовано",
+  "nothing found": "нічого не знайдено",
+  "encode": "кодувати",
+  "already efficient": "уже ефективний",
+  "small gain": "мала вигода",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "помилка",
+  "unknown": "невідомо",
+  "All": "Усі",
+  "Already efficient": "Уже ефективні",
+  "Small gain": "Мала вигода",
+  "Restored": "Відновлені",
+  "Video": "Відео",
+  "Duration": "Тривалість",
+  "Audio": "Аудіо",
+  "Encode": "Кодування",
+  "Quality": "Якість",
+  "Encode time": "Час кодування",
+  "Message": "Повідомлення",
+  "Started": "Почато",
+  "Search": "Пошук",
+  "weakest 5%": "найгірші 5%",
+  "video": "відео",
+  "Worker": "Worker",
+  "Hardware": "Обладнання",
+  "Resolution": "Роздільність",
+  "Working on": "Обробляє",
+  "nothing": "нічого",
+  "up to 4K": "до 4K",
+  "up to 1080p": "до 1080p",
+  "up to 720p": "до 720p",
+  "up to SD": "до SD",
+  "Remove": "Видалити",
+  "Add worker": "Додати worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Кожен worker повідомляє, що він уміє (знайдено енкодер, встановлено Whisper). Тут ви вирішуєте, що йому дозволено. Зміни діють з наступного завдання; поточне завдання спершу завершується.",
+  "This machine lacks the hardware or software for this": "На цій машині немає потрібного обладнання або програм",
+  "Quality level": "Рівень якості",
+  "Standard": "Стандартний",
+  "High": "Високий",
+  "Maximum": "Максимальний",
+  "Custom": "Власний",
+  "Custom target": "Власна ціль",
+  "Average VMAF and the weakest 5% of frames.": "Середній VMAF і найгірші 5% кадрів.",
+  "avg.": "сер.",
+  "Minimum saving": "Мінімальна економія",
+  "If a file saves less, the original is kept.": "Якщо файл заощаджує менше, оригінал зберігається.",
+  "Processing": "Обробка",
+  "Storage & safety": "Сховище та безпека",
+  "How long replaced originals can be restored.": "Скільки часу можна відновити замінені оригінали.",
+  "days": "днів",
+  "Above this, the oldest originals are deleted permanently.": "Понад це найстаріші оригінали видаляються назавжди.",
+  "Safety brake": "Запобіжник",
+  "Encoding pauses when the NAS has less free space than this.": "Кодування призупиняється, коли на NAS менше вільного місця, ніж це значення.",
+  "Scanning": "Сканування",
+  "Automatic scan": "Автоматичне сканування",
+  "New files are queued automatically.": "Нові файли автоматично ставляться в чергу.",
+  "Off": "Вимкнено",
+  "Every hour": "Щогодини",
+  "Every 6 hours": "Кожні 6 годин",
+  "Every 12 hours": "Кожні 12 годин",
+  "Daily": "Щодня",
+  "Skip folders": "Пропущені папки",
+  "Comma-separated folder names.": "Назви папок через кому.",
+  "Plex": "Plex",
+  "Dashboard address": "Адреса панелі",
+  "Use the IP address of the NAS, not localhost.": "Використовуйте IP-адресу NAS, а не localhost.",
+  "Worker key": "Ключ worker",
+  "Keep secret: with this key a worker can fetch jobs.": "Тримайте в секреті: з цим ключем worker може отримувати завдання.",
+  "Show": "Показати",
+  "Copy": "Копіювати",
+  "Minimum requirements": "Мінімальні вимоги",
+  "Account & security": "Обліковий запис і безпека",
+  "Two-factor authentication": "Двофакторна автентифікація",
+  "Not active": "Неактивна",
+  "New recovery codes": "Нові коди відновлення",
+  "Reset MFA": "Скинути MFA",
+  "Sessions": "Сеанси",
+  "Sign out everywhere else": "Вийти на всіх інших пристроях",
+  "Sign out": "Вийти",
+  "You have unsaved changes.": "У вас є незбережені зміни.",
+  "Cancel": "Скасувати",
+  "Save": "Зберегти",
+  "Language": "Мова",
+  "Theme": "Тема",
+  "Light": "Світла",
+  "Dark": "Темна",
+  "Auto": "Авто",
+  "Dashboard language.": "Мова панелі.",
+  "Auto follows your system setting.": "Авто відповідає налаштуванню системи.",
+  "Reset": "Скинути",
+  "Create new codes": "Створити нові коди",
+  "Close": "Закрити",
+  "Code from your authenticator app": "Код із застосунку автентифікатора",
+  "Sign in": "Увійти",
+  "Activate": "Активувати",
+  "Set up two-factor authentication": "Налаштувати двофакторну автентифікацію",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Відскануйте QR-код застосунком автентифікатора та введіть 6-значний код.",
+  "Manual:": "Вручну:",
+  "6-digit code": "6-значний код",
+  "123456 or recovery code": "123456 або код відновлення",
+  "Save your recovery codes": "Збережіть коди відновлення",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Загубили телефон? Кожен із цих кодів дає змогу увійти один раз. Вони показуються лише один раз.",
+  "I have saved them": "Я їх зберіг",
+  "Save them now, they are shown only once.": "Збережіть їх зараз, вони показуються лише один раз.",
+  "Server not responding": "Сервер не відповідає",
+  "Sign-in failed": "Не вдалося увійти",
+  "Code is incorrect": "Неправильний код",
+  "Code is incorrect - check the time on your phone": "Неправильний код - перевірте час на телефоні",
+  "Scan started": "Сканування почато",
+  "scan already running": "сканування вже виконується",
+  "Copied": "Скопійовано",
+  "Resumed": "Відновлено",
+  "Paused: a running job will finish first": "Призупинено: поточне завдання спершу завершиться",
+  "Added to the queue": "Додано до черги",
+  "Not applicable": "Не застосовується",
+  "At least one language": "Щонайменше одна мова",
+  "Skip this job?": "Пропустити це завдання?",
+  "Restore the original? The new version will be deleted.": "Відновити оригінал? Нову версію буде видалено.",
+  "on": "увімк.",
+  "off": "вимк.",
+  "Quarantine cleanup": "Очищення карантину",
+  "Background task": "Фонове завдання",
+  "Planning at startup": "Планування під час запуску",
+  "Welcome": "Ласкаво просимо",
+  "Next": "Далі",
+  "Previous": "Назад",
+  "Next (or skip)": "Далі (або пропустити)",
+  "Done, go to the overview": "Готово, перейти до огляду",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan зменшує ваші фільми та серіали без видимої різниці й додає відсутні субтитри. Оригінали замінюються лише після перевірки якості і спершу деякий час зберігаються в карантині.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Шість коротких кроків — і все налаштовано. Усе можна змінити пізніше в Налаштуваннях.",
+  "Your library": "Ваша бібліотека",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan зараз шукає відео у вашій медіапапці. Для великої бібліотеки перше сканування триває довше; можете просто продовжувати.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Папки, яких MediaScan ніколи не торкається, через кому (напр. Music, Downloads).",
+  "Scan again": "Сканувати знову",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Виберіть мови, які має мати кожен файл. MediaScan шукає відсутні на OpenSubtitles. Якщо не вдається, worker створює субтитри сам (розпізнавання мовлення й переклад на вашому ПК).",
+  "Click a language to remove it.": "Натисніть на мову, щоб видалити її.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Кожен фільм вимірюється за допомогою VMAF — оцінки того, як зображення виглядає для людського ока. «Високий» майже для всіх не відрізняється від оригіналу.",
+  "Higher = better picture, less space saved.": "Вище = краще зображення, менша економія місця.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Страховка для зерна й темних сцен. 5 Mbps — гарне значення за замовчуванням; 4K та інші роздільності масштабуються відповідно.",
+  "Plex (optional)": "Plex (необов’язково)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Коли Plex підключено, MediaScan не замінює фільм, поки його хтось дивиться, і оновлює Plex після кожної зміни. Немає Plex? Просто пропустіть цей крок.",
+  "Plex address and token": "Адреса Plex і token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (без змін)",
+  "Add a worker": "Додайте worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Важку роботу виконує ПК або Mac з доброю відеокартою: worker. Встановіть його зараз або пізніше через Workers. Поки немає worker, з вашими файлами нічого не відбувається.",
+  "✓ A worker is connected.": "✓ Worker підключено.",
+  "Done! MediaScan is set up.": "Готово! MediaScan налаштовано.",
+  "Connect the media share on the new machine.": "Підключіть медіа-ресурс на новій машині.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: літера диска або \\\\NAS\\Media · Mac: Finder › Під’єднатися до сервера · Linux: див. інструкцію в пакеті.",
+  "Download the package for that system and unpack it.": "Завантажте пакет для цієї системи та розпакуйте його.",
+  "Run the installer.": "Запустіть інсталятор.",
+  "The installer asks for the details below and tests the connection.": "Інсталятор запитає дані нижче та перевірить з’єднання.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 або новіша, Intel Arc або iGPU 11-го покоління+, AMD RX 6000+ · 4 ядра · 8 GB · 100 GB вільно · дротова мережа. Субтитри: NVIDIA з 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (субтитри: 24 GB+) · 150 GB вільно · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Workers оновлюються самі, коли ця панель має нову версію.",
+  "What the workers are doing now and what is planned next.": "Що workers роблять зараз і що заплановано далі.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Зменшення файлів без видимої втрати якості. Worker обробляє чергу згори донизу.",
+  "select page": "вибрати сторінку",
+  "select": "вибрати",
+  "to encode": "кодувати",
+  "Movie": "Фільм",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Замінені оригінали, що зберігаються деякий час, щоб їх можна було відновити або перекодувати.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Як працює MediaScan: якість, субтитри, сховище та безпека.",
+  "General": "Загальні",
+  "Advanced": "Розширені",
+  "Connection": "Підключення",
+  "Hand out new encode jobs to the workers.": "Видавати workers нові завдання кодування.",
+  "Hand out new subtitle jobs to the workers.": "Видавати workers нові завдання субтитрів.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Наскільки суворим є вимірювання VMAF. Вище = краще зображення, менша економія місця.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Які субтитри має мати кожен файл. Відсутні шукаються або створюються.",
+  "Go to Workers": "Перейти до Workers",
+  "new": "новий",
+  "start": "старт",
+  "Minimum bitrate (4K)": "Мінімальний бітрейт (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Власний поріг для 4K замість 2,5 × значення 1080p. 0 = автоматично. HDR +15% і анімація ×0,6 діють і тут.",
+  "Ready to use in a few steps.": "Готово до роботи за кілька кроків.",
+  "next": "далі",
+  "read error": "помилка читання",
+  "MFA is already enabled": "MFA вже увімкнено",
+  "a .mkv with that name already exists": "файл .mkv з такою назвою вже існує",
+  "a file already exists at the original location": "в оригінальному розташуванні вже є файл",
+  "action not possible in this status": "дія неможлива в цьому статусі",
+  "walking folders": "обхід тек",
+  "planning jobs": "планування завдань",
+  "check on the NAS rejected (duration/tracks)": "перевірку на NAS відхилено (тривалість/доріжки)",
+  "expected a JSON object": "очікувався об'єкт JSON",
+  "ffprobe error": "помилка ffprobe",
+  "invalid resolution": "недійсна роздільна здатність",
+  "invalid worker token": "недійсний токен worker",
+  "job belongs to another worker": "завдання належить іншому worker",
+  "job is no longer active": "завдання більше не активне",
+  "no video track": "немає відеодоріжки",
+  "not JSON": "не JSON",
+  "not signed in": "ви не увійшли",
+  "original disappeared": "оригінал зник",
+  "original has changed in the meantime": "оригінал за цей час змінився",
+  "original is no longer in quarantine": "оригіналу більше немає в карантині",
+  "original no longer available": "оригінал більше недоступний",
+  "request refused": "запит відхилено",
+  "target file already exists": "цільовий файл уже існує",
+  "the original has already been removed from quarantine - comparing is no longer possible": "оригінал уже видалено з карантину - порівняння більше неможливе",
+  "this film has not been replaced yet": "цей фільм ще не замінено",
+  "unknown action": "невідома дія",
+  "worker is still online": "worker досі онлайн",
+  "In use now:": "Зараз використовується:",
+  "longest": "найдовший",
+  "8.1 (from profile 7)": "8.1 (з профілю 7)",
+  "Whisper (transcription)": "Whisper (транскрипція)",
+  "1 day ago": "1 дн. тому",
+  "1 video": "1 відео",
+  "Enter your password to open the dashboard.": "Введіть пароль, щоб відкрити панель.",
+  "No connection to the server - retrying…": "Немає з’єднання із сервером - повторна спроба…",
+  "Are you sure?": "Ви впевнені?",
+  "Restore": "Відновити",
+  "Re-encode": "Перекодувати",
+  "Delete": "Видалити",
+  "Next up": "Далі",
+  "in the queue": "у черзі",
+  "Load older entries": "Завантажити старіші записи",
+  "Folder: all": "Тека: усі",
+  "Resolution: all": "Роздільність: усі",
+  "Codec: all": "Кодек: усі",
+  "More": "Ще",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "фільм(ів) чекають на CPU-кодувальник, але в жодного воркера не ввімкнено кодування на CPU (сторінка Workers).",
+  "Info": "Інфо",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Ваше обладнання, наскільки воно підходить, використовувані інструменти та як працюють налаштування.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Пам’ять",
+  "Software": "Програми",
+  "GPU encoding": "Кодування на GPU",
+  "CPU encoding (x265)": "Кодування на CPU (x265)",
+  "Subtitles (Whisper)": "Субтитри (Whisper)",
+  "Translation (Ollama)": "Переклад (Ollama)",
+  "Server": "Сервер",
+  "Database": "База даних",
+  "Tools in use": "Використовувані інструменти",
+  "Knowledge base": "База знань",
+  "Low": "Низький",
+  "Medium": "Середній",
+  "Ultra": "Ультра",
+  "files": "файлів",
+  "up": "працює",
+  "of": "з",
+  "uses": "використовує",
+  "free": "вільно",
+  "Media share": "Медіатека",
+  "Rating": "Оцінка",
+  "Hardware details appear after this worker has updated itself.": "Відомості про обладнання з’являться після оновлення цього воркера.",
+  "no Whisper": "немає Whisper",
+  "unified memory": "єдина пам’ять",
+  "cores": "ядер",
+  "threads": "потоків",
+  "driver": "драйвер",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Невідомо",
+  "Settings saved": "Налаштування збережено",
+  "Time left": "Залишилось часу",
+  "Queued": "У черзі",
+  "Keep originals for": "Зберігати оригінали",
+  "Quarantine size limit": "Ліміт розміру карантину",
+  "Hide finished items": "Сховати завершені",
+  "Undo skip": "Скасувати пропуск",
+  "not supported here": "тут не підтримується",
+  "CPU encoding": "Кодування на CPU",
+  "Retry on CPU (x265)": "Повторити на CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Закодовано на CPU за допомогою x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 з налаштуванням під зерно на CPU воркера: зберігає зерно набагато ефективніше, але займає години на фільм",
+  "CPU fallback for grainy films": "Резерв на CPU для зернистих фільмів",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Коли GPU не може зберегти якість, не перевищивши бітрейт джерела (кіноплівкове зерно), фільм кодується ще раз на CPU воркера за допомогою x265, який зберігає зерно набагато ефективніше. Займає години на фільм; увімкніть кодування на CPU для воркера на сторінці Workers.",
+  "CPU preset": "Пресет CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: близько 2 годин для 2-годинного фільму 1080p на 8 ядрах. Slow: у 2-3 рази довше заради файлів приблизно на 5-10% менших.",
+  "Medium (faster)": "Medium (швидше)",
+  "Slow (smaller)": "Slow (менше)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Не вдалося завантажити цю сторінку.",
+  "up to 1440p": "до 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "аналіз файлів",
+  "No worker has CPU encodes switched on (Workers page)": "У жодного воркера не ввімкнено кодування на CPU (сторінка Workers)",
+  "the job changed in the meantime": "завдання тим часом змінилося",
+  "Main": "Основна навігація",
+  "Clear search and filters": "Очистити пошук і фільтри",
+  "Compact rows": "Компактні рядки",
+  "Encoding and subtitles are paused.": "Кодування і субтитри призупинено.",
+  "Encoding is paused: no new encode jobs are handed out.": "Кодування призупинено: нові завдання кодування не видаються.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Субтитри призупинено: нові завдання субтитрів не видаються.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Вкажіть і адресу Plex, і токен — або залиште обидва поля порожніми, щоб пропустити крок.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Вільне місце на NAS нижче запобіжника. Кодування автоматично призупинено.",
+  "Loading…": "Завантаження…",
+  "Next film": "Наступний фільм",
+  "Previous film": "Попередній фільм",
+  "Next page": "Наступна сторінка",
+  "Previous page": "Попередня сторінка",
+  "Rows per page": "Рядків на сторінці",
+  "Resume": "Відновити",
+  "Resume encoding": "Відновити кодування",
+  "Resume subtitles": "Відновити субтитри",
+  "Open settings": "Відкрити налаштування",
+  "Open the library": "Відкрити бібліотеку",
+  "Subtitle languages": "Мови субтитрів",
+  "Update": "Оновити",
+  "No results for this search or filter.": "За цим пошуком або фільтром нічого не знайдено.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "У черзі на кодування нічого немає. Нові файли потрапляють у чергу після сканування.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Жодного файлу ще не замінено. Завершені кодування з’являються тут після перевірки якості.",
+  "No files were kept as they are. Films that would save too little end up here.": "Жодного файлу не залишено без змін. Сюди потрапляють фільми, які дали б надто малу економію.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Субтитри не очікують. Файли, в яких бракує мови, потрапляють у чергу після сканування.",
+  "No subtitle job is running right now.": "Зараз не виконується жодне завдання субтитрів.",
+  "No subtitles have been made yet.": "Субтитрів ще не створено.",
+  "Nothing missing: every file got its subtitles so far.": "Нічого не бракує: поки що кожен файл отримав свої субтитри.",
+  "No failed encodes.": "Невдалих кодувань немає.",
+  "No failed subtitle jobs.": "Невдалих завдань субтитрів немає.",
+  "Nothing was added in the last 14 days.": "За останні 14 днів нічого не додано.",
+  "No videos with this plan.": "Немає відео з таким планом.",
+  "The library is being scanned; videos appear as they are found.": "Бібліотека сканується; відео з’являються в міру виявлення.",
+  "No videos found yet. Check the media folder and run a scan.": "Відео поки не знайдено. Перевірте папку з медіа та запустіть сканування.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "У карантині нічого немає. Замінені оригінали зберігаються тут, доки не мине строк зберігання.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "У бібліотеці не знайдено папок DVD або Blu-ray (VIDEO_TS, BDMV).",
+  "1 worker online": "1 worker онлайн",
+  "A worker is busy with this file": "Worker обробляє цей файл",
+  "A worker is grabbing the frames": "Worker знімає кадри",
+  "A worker is searching or making subtitles": "Worker шукає або створює субтитри",
+  "A worker picks up the next job within a few seconds.": "Worker візьме наступне завдання за кілька секунд.",
+  "Above this, the oldest comparisons are deleted automatically.": "Понад цю межу найстаріші порівняння видаляються автоматично.",
+  "All replaced films": "Усі замінені фільми",
+  "Already efficient: encoding would hardly save anything": "Уже ефективний: кодування майже нічого не заощадить",
+  "Automatic comparisons": "Автоматичні порівняння",
+  "Being made…": "Створюється…",
+  "Can be made": "Можна створити",
+  "Can encode on the CPU with x265": "Може кодувати на CPU за допомогою x265",
+  "Comparison storage limit": "Ліміт сховища порівнянь",
+  "Comparisons": "Порівняння",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: не перекодовано, шар DV було б втрачено",
+  "Encoding is paused.": "Кодування призупинено.",
+  "Enlarge": "Збільшити",
+  "Errors": "Помилки",
+  "Flip": "Перемкнути",
+  "Four frames of the original and the new version are stored": "Збережено чотири кадри оригіналу та нової версії",
+  "Full width": "На всю ширину",
+  "GPU encoder found": "Знайдено GPU-кодувальник",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Знімати чотири кадри оригіналу та нової версії для кожного заміненого фільму, щоб завжди можна було перевірити картинку на сторінці «Порівняти». Близько 1–2 MB на фільм.",
+  "Keyboard shortcuts": "Гарячі клавіші",
+  "Leave without saving? Your changes to the settings will be lost.": "Вийти без збереження? Ваші зміни в налаштуваннях буде втрачено.",
+  "Moved to the front": "Переміщено на початок",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Порівнянь ще немає. Створіть його, поки оригінал ще в карантині, або увімкніть автоматичні порівняння в налаштуваннях.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Зараз не можна порівняти жоден фільм: оригінали вийшли з карантину, або ще нічого не замінено.",
+  "No longer possible": "Більше неможливо",
+  "No subtitles found online and none could be made": "Субтитри не знайдено в мережі, і створити їх не вдалося",
+  "Ollama found: can translate subtitles": "Знайдено Ollama: може перекладати субтитри",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Частина папки DVD або Blu-ray; конвертуйте її на сторінці DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Призупинено автоматично: вільного місця на NAS менше за запобіжник.",
+  "Planned for encoding": "Заплановано до кодування",
+  "Queued for the CPU encoder": "У черзі на CPU-кодувальник",
+  "Replaced after the quality check; the original is in quarantine for a while": "Замінено після перевірки якості; оригінал деякий час зберігається в карантині",
+  "Replaced films appear here after their first encode.": "Замінені фільми з’являються тут після першого кодування.",
+  "Search the log…": "Пошук у журналі…",
+  "Show films that can be compared": "Показати фільми, які можна порівняти",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Показувати оригінал і нову версію по черзі: найкращий спосіб помітити зерно та деталі",
+  "Skipped": "Пропущено",
+  "Skipped by you; Retry puts it back in the queue": "Пропущено вами; «Повторити» повертає його в чергу",
+  "Slider back to the middle": "Повзунок у середину",
+  "Smaller": "Зменшити",
+  "Stopped because the file changed or disappeared": "Зупинено: файл змінився або зник",
+  "Stopped with an error; see the message and try again": "Зупинено з помилкою; перегляньте повідомлення та спробуйте ще раз",
+  "Subtitles are paused.": "Субтитри призупинено.",
+  "The file could not be read; see the drawer": "Не вдалося прочитати файл; див. бічну панель",
+  "The new file would save less than the minimum saving, so the original was kept": "Новий файл заощадив би менше за мінімальну економію, тому оригінал залишено",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Нова версія на NAS і буде підмінена, щойно ніхто не дивитиметься",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Оригінал вийшов з карантину, тому кадри більше не можна зняти",
+  "The original is still in quarantine, so the frames can still be grabbed": "Оригінал ще в карантині, тому кадри ще можна зняти",
+  "The original was put back from quarantine": "Оригінал відновлено з карантину",
+  "The queue is empty. New files are queued after a scan.": "Черга порожня. Нові файли потрапляють у чергу після сканування.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Сервер роздає новіші файли worker; worker установить їх після поточного завдання",
+  "Undo": "Скасувати",
+  "Waiting for Plex: someone is watching this film": "Очікування Plex: хтось дивиться цей фільм",
+  "Waiting for a worker; the queue runs from top to bottom": "Очікування worker; черга виконується згори донизу",
+  "Warnings": "Попередження",
+  "Whisper installed: can make subtitles": "Whisper встановлено: може створювати субтитри",
+  "Would save less than the minimum saving": "Заощадив би менше за мінімальну економію",
+  "expires today": "спливає сьогодні",
+  "expires within a day": "спливає протягом дня",
+  "less than a day left": "залишилось менше дня",
+  "waiting for Plex": "очікує Plex",
+  "update pending": "очікується оновлення",
+  "Tap to switch between original and new": "Торкніться, щоб перемкнутися між оригіналом і новою версією",
+  "Repeated": "Повторено",
+  "Search in the current list": "Пошук у поточному списку",
+  "Clear the search, close a drawer or dialog": "Очистити пошук, закрити панель або діалог",
+  "Previous or next film on a comparison": "Попередній або наступний фільм у порівнянні",
+  "Open or switch the focused row, switch or header": "Відкрити або перемкнути виділений рядок, перемикач чи заголовок",
+  "This list": "Цей список",
+  "Nothing in the log matches this.": "У журналі нічого не знайдено.",
+  "Nothing has happened yet.": "Поки нічого не сталося.",
+  "No worker is online, so nothing can run.": "Жоден worker не в мережі, тому ніщо не може виконуватися.",
+  "There is no worker yet. Add one to get started.": "Worker ще немає. Додайте його, щоб почати.",
+  "Open Workers": "Відкрити Workers",
+  "Some values are out of range.": "Деякі значення поза допустимим діапазоном.",
+  "no capabilities reported": "можливості не повідомлено",
+  "Replaced · expires": "Замінено · спливає",
+  "Made": "Створено",
+  "Make": "Створити",
+  "lots of motion": "багато руху",
+  "dark scene": "темна сцена",
+  "a quarter in": "на чверті",
+  "three quarters in": "на трьох чвертях",
+  "Encoded": "Закодовано",
+  "Finished": "Завершено",
+  "later": "пізніше",
+  "Leave": "Вийти",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Порівняння бере 4 кадри з оригіналу та нової версії (разом близько 1–2 МБ). Його можна створити, поки оригінал ще в карантині, і воно зберігається, доки ви його не видалите, навіть коли оригіналу вже немає.",
+  "Retry on CPU": "Повторити на CPU",
+  "Scan": "Сканування"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1старт$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Зараз: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan знайшов $1 відео ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · найгірші 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "найгірші 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Нові ($1 днів)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "План: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Заміна не вдалася ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1}: помилка{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Сканування завершено: $1 відео, $2 нових, $3 змінених, $4 зниклих; додано $5 завдань кодування і $6 завдань субтитрів"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Сканування завершено: $1 відео, $2 нових, $3 змінених, $4 зниклих, $5 у пропущених папках; додано $6 завдань кодування і $7 завдань субтитрів"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Перекодувати $1 фільм(ів) за поточними правилами? Оригінали буде відновлено, а фільми отримають пріоритет у черзі."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 фільм(ів) знову в черзі{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 оригінал(ів) відновлено й знову поставлено в чергу (поточні правила)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Новий: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Замінено: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray конвертовано: $1 ($2 GB); папка диска в карантині"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Оригінал відновлено: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 почав {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 завдань (з усіх $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Вибірку видано - кодування автоматично призупинено"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Вибірку видано - субтитри автоматично призупинено"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Налаштування змінено: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Завдання $1, помилка: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Завдання $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 офлайн: $2 завдань знову в черзі"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 перезапущено: $2 перерваних завдань знову в черзі"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 оновлено до $2: $3 невдалих завдань знову в черзі"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 видалено"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: кодування {t:$2}, субтитри {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Планування оновлено: додано $1 завдань кодування і $2 завдань субтитрів"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 завдань поставлено в чергу вручну"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 завдань: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "Видалено порівнянь: $1"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Завершено $1 інших сеансів"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Вхід за кодом відновлення (залишилось $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Оригінали зберігаються щонайбільше $1 днів і разом ніколи не більше $2. Найстаріші видаляються першими. Відновлення видаляє нову версію."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - натисніть, щоб видалити"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "Буде конвертовано папок: $1 · worker почне протягом пів хвилини"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 аудіо · $2 субтитрів"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Видалити порівнянь: $1? Самі фільми залишаться без змін."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Кадр $1 · на $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Кадр $1 · на $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB як jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Час кодування $1 хв · виміряно на 8 фрагментах, потім перевірено на всьому фільмі."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Наявні зараз: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "найгірші 5% $1 · норма $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "синхронізація $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Не вдалося створити кадри: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "вибірка · далі"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "вибірка · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Зараз:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· потім ще $1 з вибірки"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "оцінка · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 завершено раніше · показати"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 додано до вибірки · worker почне за кілька секунд"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Вибірка {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "створено: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · на $3% менше$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "щойно"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 хв тому"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 год тому"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 дн. тому"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "бачено {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 д $2 год"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 год $2 хв"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 відео"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "карантин $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 за 24 год"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 вигоди"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB вигоди"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "На $1% менше для оброблених файлів"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 онлайн"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "Ще $1 до старту, потім пауза"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 елементів · сторінка $2 з $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "Вибрано: $1"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Вибрати всі результати ($1)"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Сканування: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "Спроб: $1×"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 хв"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Активна · залишилось кодів відновлення: $1"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "Активних сеансів: $1, включно з цим."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 оновлено{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "Завершено інших сеансів: $1"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Обробити лише ці $1? Вони отримають пріоритет, обробка відновиться, а потім знову автоматично призупиниться."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Пропустити завдань: $1?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Відновити оригіналів: $1? Нові версії буде видалено."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Видалити worker $1 зі списку? Якщо він знову з’явиться онлайн, то автоматично повернеться."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "виконується $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 залишилось"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "до $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "обробляє"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex підключено (версія $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex відповідає некоректно: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "помилка: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "заміна не вдалася: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "недійсне значення для $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 має бути від $2 до $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · найгірші 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 год"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU не змогла зберегти якість - у черзі на CPU-кодувальник (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Очищення staging: видалено залишок $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 на сторінці"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 workers онлайн"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · додавання worker, ключ worker і завантаження — на сторінці Workers."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · почнеться через ~{t:$2} · оцінка"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · оцінка"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "залишилось днів: $1"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "спливає через $1 дн."
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Створено · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Можна створити · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · крок $1 з $2 · залишилось ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · крок $1 з $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · залишилось ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "Запитано порівнянь: $1 · будуть готові за кілька хвилин"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Створити порівняння ($1)? Близько 1–2 MB кожне."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Повторено $1 разів"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "від $1 до $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 завдань"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Помилка в $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "Запитано порівнянь: $1"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Порівняння очищено: видалено $1 (понад $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Теку карантину перейменовано на quarantine (оновлено записів: $1)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 видалено: $2 завдань знову в черзі"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Карантин: $1 уже існує, $2 залишено на місці"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Теку карантину перейменовано на quarantine; оновлено записів: $1, але $2 ще не порожня"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Не вдалося перейменувати теку карантину (чи змонтована мережева папка з медіа?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "нова версія відсутня в staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "новий .mkv відсутній у staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "оригінал зник"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "оригінал тим часом змінився"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "оригінал більше недоступний"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "перевірку на NAS не пройдено (тривалість/доріжки)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray перетворено в mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "повтор після оновлення воркера"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "пропущено вами"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "цільовий файл уже існує"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "воркер офлайн - переплановано"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "воркер видалено - переплановано"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "воркер перезапущено - переплановано"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "заміна не вдалася: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "у новому mkv відсутній Dolby Vision"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: не перекодовано (шар DV було б втрачено)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "потік не можна скопіювати в .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg не просувався $1 хвилин (мережева папка недоступна?) - зупинено"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "Одразу відсутні $1 з $2 файлів - мережева папка недоступна? Нічого не позначено як зникле"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "переклад не вдався: немає придатної відповіді для $1 рядка(ів) після повторів"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: помилка сервера"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - завантажте модель (ollama pull <model>) або виправте ollama_model у worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama недоступна за адресою $1 ($2) - запустіть Ollama або перевірте ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama недоступна: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama продовжувала збоїти $2 хвилин"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 тривав довше години - мережева папка з медіа ще доступна?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 відсутній; встановіть його $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF усього фільму $1 неправдоподібний за будь-якого способу зіставлення (вибірки $2); низько на $3. Оригінал збережено; перевірте там джерело"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: не вдається прочитати файл"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: збій"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "на ПК недостатньо вільного місця для цього фільму (потрібно $1 ГБ у $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "недостатньо місця в робочій теці: вільно $1 ГБ, потрібно ~$2 ГБ"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "з мінімальним бітрейтом щонайбільше на $1% менше"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "видобування метаданих із шару розширення"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "завантаження не збігається (sha256) - не використано"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "перевірка: тривалість або кількість потоків відрізняється"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "новий mkv занадто короткий ($1 з $2 хв)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 з $2 готово, очікування на worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "конвертація Dolby Vision у profile 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "вбудовування метаданих у базовий шар"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "перевірка VMAF (друге вимірювання)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "жодне налаштування не досягає цільової якості"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "досягнуто ліміт завантажень - решта пізніше"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "досягнуто денного ліміту OpenSubtitles"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "частково; решта після ліміту завантажень"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 не знайдено після завантаження"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: визначено мову мовлення"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (перекладено з $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "очікування вільного місця на ПК"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "файл субтитрів незвично великий"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "вимірювання самотесту ненадійне"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "спроба перекладу $1 не вдалася"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "очікування: переглядається в Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "очікувано лише на $1% менше"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "завантаження $1 (одноразово)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "перевірка всього фільму нижче цілі"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "не вдається отримати кадр на $1 с"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "весь фільм трохи нижче цілі"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "пошук фільму на диску"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "цільова якість недосяжна"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "контрольне вимірювання ненадійне"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "недійсний шлях від сервера"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "знову: мінімальна вигода тепер 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper працює на GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "на DVD не знайдено жодного заголовка"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "підозрілий шлях в архіві"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "очікування: Plex недоступний"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "обробка $1 з $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles недоступний"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (транскрипція)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "перевірка VMAF усього фільму"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "готово, очікування заміни"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "стара папка в карантин"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "перевірка VMAF $1 занизька"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "читання диска (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "перекладено з англійської"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "готово ($1 з $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "видобування аудіо не вдалося"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "перемикання на CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "виконано вхід в OpenSubtitles"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (з профілю 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "очікування на worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "підозрілий шлях у zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "вбудовані EN нечитабельні"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "найдовший поки що: title"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "синхронізація не збігається"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "лише на $1% менше"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "сегмент $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "оригінал зберігається"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "залишилось завантажень на сьогодні"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "title $1 перевірено"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "очікування заміни"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "копіювання на NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "зберігає оригінал"
+  ],
+  [
+   "translation failed",
+   "g",
+   "переклад не вдався"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "сервер недоступний"
+  ],
+  [
+   "searching quality",
+   "g",
+   "пошук якості"
+  ],
+  [
+   "making references",
+   "g",
+   "створення еталонів"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "конвертація в mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "субтитри зупинено"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "копіювання NAS → ПК"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "копіювання ПК → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "пошук фільму"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "об’єднання в mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "найдовший плейлист"
+  ],
+  [
+   "timing reference",
+   "g",
+   "еталон синхронізації"
+  ],
+  [
+   "speech segments",
+   "g",
+   "фрагменти мовлення"
+  ],
+  [
+   "too little gain",
+   "g",
+   "замала вигода"
+  ],
+  [
+   " not applicable",
+   "g",
+   " не застосовується"
+  ],
+  [
+   "download failed",
+   "g",
+   "завантаження не вдалося"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "після ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "переклад на"
+  ],
+  [
+   "next candidate",
+   "g",
+   "наступний кандидат"
+  ],
+  [
+   "after shifting",
+   "g",
+   "після зсуву"
+  ],
+  [
+   "reading audio",
+   "g",
+   "читання аудіо"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Вибірка · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 очікує"
+  ],
+  [
+   "search failed",
+   "g",
+   "пошук не вдався"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "перекодування"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "title $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " помилок"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 готово"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "субтитри:"
+  ],
+  [
+   "replacing",
+   "g",
+   "заміна"
+  ],
+  [
+   "subtitles",
+   "g",
+   "субтитри"
+  ],
+  [
+   "candidate",
+   "g",
+   "кандидат"
+  ],
+  [
+   "encoding:",
+   "g",
+   "кодування:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "старт"
+  ],
+  [
+   "encoding",
+   "g",
+   "кодування"
+  ],
+  [
+   "checking",
+   "g",
+   "перевірка"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", до "
+  ],
+  [
+   "present",
+   "g",
+   "наявні"
+  ],
+  [
+   "missing",
+   "g",
+   "відсутні"
+  ],
+  [
+   "speed",
+   "g",
+   "швидкість"
+  ],
+  [
+   "saved",
+   "g",
+   "збережено"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU не змогла зберегти якість - у черзі на CPU-кодувальник (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Очищення staging: видалено залишок"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "тека з медіа порожня або не змонтована - нічого не змінено"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "для збереження якості потрібен вищий бітрейт, ніж має джерело"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "потребує вищого бітрейту, ніж джерело"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "воркер перезапускається для оновлення"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "немає відеопотоку (лише обкладинка?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "немає аудіопотоку для транскрибування"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "на ПК недостатньо вільного місця для цього фільму"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "повторна спроба на CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "обхід тек"
+  ],
+  [
+   "analysing files",
+   "g",
+   "аналіз файлів"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "планування завдань"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "Кодування на CPU увімк."
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "Кодування на CPU вимк."
+  ]
+ ]
+}

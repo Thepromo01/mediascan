@@ -1,0 +1,18 @@
+# Quick checks on every push: Python compiles, JavaScript parses, locale files are complete.
+name: checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: python -m py_compile server/app/*.py worker/*.py worker/windows/manager.py tools/*.py
+      - run: for f in server/app/static/*.js; do node -e "new Function(require('fs').readFileSync('$f','utf8'))"; done
+      - run: python tools/check_locales.py
+      - run: bash -n worker/linux/install.sh worker/macos/install.sh docker-entrypoint.sh

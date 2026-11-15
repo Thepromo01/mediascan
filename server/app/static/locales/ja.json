@@ -1,0 +1,2060 @@
+{
+ "name": "日本語",
+ "s": {
+  "Re-encode from original": "元ファイルから再エンコード",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "現在のルールで再エンコードしますか？元ファイルが復元され、この映画が優先されます。",
+  "Back in the queue": "キューに戻しました",
+  "Restore originals": "元ファイルを復元",
+  "Minimum bitrate (1080p)": "最低ビットレート（1080p）",
+  "Extra floor (share of the source)": "追加の下限（ソース比）",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "任意：元の映像ビットレートに対してこの割合以上も維持します。ビットレートが非常に高いソースでのみ有用です。0 = オフ。",
+  "with the minimum bitrate at most": "最低ビットレートでも最大",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "VMAF が許容しても、新しいファイルはこれより下がりません。他の解像度は比例：4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · アニメ ×0.6。",
+  "bitrate already near the minimum": "ビットレートがすでに最低値付近",
+  "MFA reset from settings - set it up again": "設定から MFA をリセットしました - 再設定してください",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA_RESET で MFA をリセットしました - コンテナ設定から MFA_RESET を削除してください",
+  "MFA enabled": "MFA を有効化しました",
+  "MediaScan started": "MediaScan を起動しました",
+  "New recovery codes created": "新しいリカバリーコードを作成しました",
+  "Password changed; other sessions signed out": "パスワードを変更しました。他のセッションはサインアウトされました",
+  "Password set (first time)": "パスワードを設定しました（初回）",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "注意：ADMIN_PASSWORD が 10 文字未満です - 設定でより強力なパスワードを選んでください",
+  "part of a DVD/Blu-ray folder": "DVD/Blu-ray フォルダーの一部",
+  "folder is in Skip folders": "フォルダがスキップ対象に含まれています",
+  "file disappeared": "ファイルが見つかりません",
+  "worker restarted - rescheduled": "Worker が再起動 - 再スケジュール",
+  "worker offline - rescheduled": "Worker がオフライン - 再スケジュール",
+  "retry after worker update": "Worker 更新後に再試行",
+  "dvd/blu-ray converted to mkv": "DVD/Blu-ray を mkv に変換済み",
+  "skipped by you": "あなたがスキップ",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "視聴中は置き換えを待機し、変更のたびに Plex を更新します。",
+  "Confirm with your password and a code from your app.": "パスワードとアプリのコードで確認してください。",
+  "Your old recovery codes will stop working.": "古いリカバリーコードは使えなくなります。",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "現在の認証アプリの連携とリカバリーコードは使えなくなります。すぐに MFA を再設定します。",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "ダッシュボードのパスワードを設定します。セットアップコードはコンテナログにあります（Container Manager › mediascan › ログ、または",
+  "- click to remove": "- クリックで削除",
+  "Invalid address, e.g. http://192.168.1.10:32400": "無効なアドレスです。例：http://192.168.1.10:32400",
+  "Enter a Plex token": "Plex token を入力してください",
+  "A password has already been set": "パスワードはすでに設定されています",
+  "The key is fixed in WORKER_TOKEN (container environment)": "キーは WORKER_TOKEN（コンテナ環境変数）で固定されています",
+  "selection still running - pause or wait until it is done": "選択の処理中です - 一時停止するか完了までお待ちください",
+  "Now running": "実行中",
+  "Finding the film on the disc": "ディスク内の映画を検索中",
+  "Converting to one .mkv": "1 つの .mkv に変換中",
+  "Checking (duration, tracks)": "確認中（長さ、トラック）",
+  "Copying to the NAS": "NAS にコピー中",
+  "Old folder to quarantine": "古いフォルダーを隔離",
+  "worker has not reported for a while": "Worker からしばらく報告がありません",
+  "waiting for the worker": "Worker を待機中",
+  "Welcome to MediaScan": "MediaScan へようこそ",
+  "Setup code": "セットアップコード",
+  "New password (at least 10 characters)": "新しいパスワード（10 文字以上）",
+  "Repeat password": "パスワードを再入力",
+  "Set password": "パスワードを設定",
+  "The passwords do not match": "パスワードが一致しません",
+  "Setup code is wrong - check the container log": "セットアップコードが違います - コンテナログを確認してください",
+  "Choose a password of at least 10 characters": "10 文字以上のパスワードを選んでください",
+  "Animation folders": "アニメフォルダー",
+  "Top-level folders with animation: these may use a lower bitrate.": "アニメを含む最上位フォルダー：低めのビットレートを使用できます。",
+  "Where do I find the token?": "token はどこにありますか？",
+  "Connect": "接続",
+  "Disconnect": "切断",
+  "Connected": "接続済み",
+  "Not connected": "未接続",
+  "+ Add language": "+ 言語を追加",
+  "Renew": "更新",
+  "Worker version": "Worker バージョン",
+  "Password": "パスワード",
+  "Other sessions are signed out after a change.": "変更後、他のセッションはサインアウトされます。",
+  "Change password": "パスワードを変更",
+  "Other sessions will be signed out.": "他のセッションはサインアウトされます。",
+  "Change": "変更",
+  "New worker key": "新しい Worker キー",
+  "Create new key": "新しいキーを作成",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "新しいキーを入力するまで、すべての Worker が停止します（インストーラーを再実行するか worker.ini を編集）。",
+  "Repeat new password": "新しいパスワードを再入力",
+  "Password changed": "パスワードを変更しました",
+  "New worker key created": "新しい Worker キーを作成しました",
+  "Disconnect Plex?": "Plex を切断しますか？",
+  "Plex disconnected": "Plex を切断しました",
+  "Plex connected": "Plex に接続しました",
+  "Incorrect password": "パスワードが違います",
+  "Incorrect code": "コードが違います",
+  "Incorrect code from your authenticator app": "認証アプリのコードが違います",
+  "Too many attempts - try again in 15 minutes": "試行回数が多すぎます - 15 分後に再試行してください",
+  "DVD & Blu-ray": "DVD と Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "VIDEO_TS または BDMV を含むフォルダー。変換すると、すべての映像・音声・字幕・チャプターを含む 1 つの .mkv になります。",
+  "Convert to MKV": "MKV に変換",
+  "Folder": "フォルダー",
+  "Type": "種類",
+  "found": "検出済み",
+  "queued": "キュー済み",
+  "converting…": "変換中…",
+  "converted": "変換済み",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "変換ではすべてを 1:1 で 1 つの .mkv にコピーします：映像（HDR も）、すべての音声トラック、字幕、チャプター。DVD では最も長いタイトル（映画本編）を選びます。古いフォルダーは隔離されるので復元できます。その後 .mkv は通常のエンコードと字幕処理に回ります。Dolby Vision の Blu-ray は Dolby Vision profile 8.1 になります（ベースレイヤー 1:1、DV メタデータを追加）：Plex やテレビでは Dolby Vision、その他のプレーヤーでは HDR10 として再生されます。このような映画は Dolby Vision が失われるため、後で再エンコードされません。",
+  "Compare": "比較",
+  "Delete comparison": "比較を削除",
+  "Comparison deleted": "比較を削除しました",
+  "comparison": "比較",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "元ファイルと新バージョンを並べて表示：サイズ、品質、画像、字幕。映画を選べます。",
+  "Original → new": "元 → 新",
+  "Quality (VMAF)": "品質（VMAF）",
+  "Comparison": "比較",
+  "View": "表示",
+  "Make comparison": "比較を作成",
+  "previous attempt failed": "前回の試行は失敗しました",
+  "Back": "戻る",
+  "Make again": "再作成",
+  "New": "新",
+  "VMAF whole film": "VMAF 全編",
+  "Making the frames… this usually takes less than a minute.": "フレームを作成中… 通常 1 分以内に完了します。",
+  "There is no picture comparison for this film yet.": "この映画の画像比較はまだありません。",
+  "Picture · drag across the image": "画像 · ドラッグして比較",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "この表示では HDR を SDR に変換しています。テレビでは HDR で表示されます。",
+  "How the setting was chosen": "設定の決定過程",
+  "Step": "ステップ",
+  "Weakest 5%": "最低 5%",
+  "Bitrate": "ビットレート",
+  "chosen": "選択",
+  "No data.": "データなし。",
+  "Nothing needed, all languages were present.": "対応不要。すべての言語が揃っています。",
+  "Not processed yet.": "未処理。",
+  "Comparison requested · ready within a minute": "比較をリクエストしました · 1 分以内に完了",
+  "Delete this comparison? The film itself stays as it is.": "この比較を削除しますか？映画自体はそのままです。",
+  "Not possible": "実行できません",
+  "Slide between original and new": "元と新をスライドで比較",
+  "Overview": "概要",
+  "Queue": "キュー",
+  "In progress": "処理中",
+  "No gain": "効果なし",
+  "Failed": "失敗",
+  "Subtitles": "字幕",
+  "Recently added": "最近追加",
+  "Library": "ライブラリ",
+  "Quarantine": "隔離",
+  "Workers": "Worker",
+  "Activity": "アクティビティ",
+  "Settings": "設定",
+  "Encoding": "エンコード",
+  "System": "システム",
+  "Status of the entire library.": "ライブラリ全体の状況。",
+  "Selection": "選択",
+  "waiting for worker": "Worker を待機中",
+  "In the selection": "選択内",
+  "selection": "選択",
+  "Selection · encoding": "選択 · エンコード",
+  "Selection · subtitles": "選択 · 字幕",
+  "Close list": "リストを閉じる",
+  "waiting": "待機中",
+  "nothing needed": "対応不要",
+  "original kept": "元ファイルを保持",
+  "Find, sync or generate missing subtitles.": "不足している字幕を検索・同期・生成します。",
+  "All videos with their current plan. You can also queue items manually here.": "すべての動画と現在の予定。ここで手動でキューに追加することもできます。",
+  "The machines doing the work. Choose what each worker is allowed to do.": "処理を行うマシン。各 Worker に許可する処理を選びます。",
+  "Log of everything that happens.": "すべての出来事のログ。",
+  "Scan now": "今すぐスキャン",
+  "Saved": "削減量",
+  "Free on NAS": "NAS の空き容量",
+  "Progress": "進捗",
+  "Saved per day": "1 日あたりの削減量",
+  "last 14 days": "過去 14 日間",
+  "Per folder": "フォルダー別",
+  "all": "すべて",
+  "nothing processed yet": "まだ何も処理されていません",
+  "no measurement yet": "まだ測定なし",
+  "No processed files yet": "処理済みファイルはまだありません",
+  "No worker connected yet": "まだ Worker が接続されていません",
+  "no worker": "Worker なし",
+  "worker offline": "Worker オフライン",
+  "online": "オンライン",
+  "disabled": "無効",
+  "encoding": "エンコード",
+  "subtitles": "字幕",
+  "Search by name or folder…": "名前やフォルダーで検索…",
+  "Several titles at once: separate them with |": "複数のタイトルを同時に：| で区切ります",
+  "Nothing to show": "表示する項目がありません",
+  "File": "ファイル",
+  "Source": "ソース",
+  "Status": "状態",
+  "Result": "結果",
+  "Languages": "言語",
+  "Error": "エラー",
+  "When": "日時",
+  "Plan": "予定",
+  "Added": "追加日",
+  "Original": "元",
+  "Size": "サイズ",
+  "Replaced": "置き換え日",
+  "estimate": "推定",
+  "Name": "名前",
+  "Done": "完了日",
+  "Nothing found": "見つかりません",
+  "Process only these": "これだけ処理",
+  "Prioritise": "優先",
+  "Skip": "スキップ",
+  "Retry": "再試行",
+  "Clear": "クリア",
+  "Both": "両方",
+  "Restore original": "元ファイルを復元",
+  "Find subtitles": "字幕を検索",
+  "running": "実行中",
+  "done": "完了",
+  "failed": "失敗",
+  "replacing": "置き換え中",
+  "no gain": "効果なし",
+  "skipped": "スキップ",
+  "restored": "復元済み",
+  "cancelled": "キャンセル済み",
+  "nothing found": "見つかりません",
+  "encode": "エンコード",
+  "already efficient": "効率化済み",
+  "small gain": "効果小",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "エラー",
+  "unknown": "不明",
+  "All": "すべて",
+  "Already efficient": "効率化済み",
+  "Small gain": "効果小",
+  "Restored": "復元済み",
+  "Video": "映像",
+  "Duration": "長さ",
+  "Audio": "音声",
+  "Encode": "エンコード",
+  "Quality": "品質",
+  "Encode time": "エンコード時間",
+  "Message": "メッセージ",
+  "Started": "開始",
+  "Search": "検索",
+  "weakest 5%": "最低 5%",
+  "video": "映像",
+  "Worker": "Worker",
+  "Hardware": "ハードウェア",
+  "Resolution": "解像度",
+  "Working on": "処理中",
+  "nothing": "なし",
+  "up to 4K": "4K まで",
+  "up to 1080p": "1080p まで",
+  "up to 720p": "720p まで",
+  "up to SD": "SD まで",
+  "Remove": "削除",
+  "Add worker": "Worker を追加",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "各 Worker は自身の能力（エンコーダーの有無、Whisper のインストール）を報告します。ここで何を許可するかを決めます。変更は次のジョブから適用され、実行中のジョブは先に完了します。",
+  "This machine lacks the hardware or software for this": "このマシンには必要なハードウェアまたはソフトウェアがありません",
+  "Quality level": "品質レベル",
+  "Standard": "標準",
+  "High": "高",
+  "Maximum": "最高",
+  "Custom": "カスタム",
+  "Custom target": "カスタム目標",
+  "Average VMAF and the weakest 5% of frames.": "VMAF の平均と最低 5% のフレーム。",
+  "avg.": "平均",
+  "Minimum saving": "最低削減率",
+  "If a file saves less, the original is kept.": "削減量がこれより少ない場合、元ファイルを保持します。",
+  "Processing": "処理",
+  "Storage & safety": "ストレージと安全",
+  "How long replaced originals can be restored.": "置き換えた元ファイルを復元できる期間。",
+  "days": "日",
+  "Above this, the oldest originals are deleted permanently.": "これを超えると、最も古い元ファイルが完全に削除されます。",
+  "Safety brake": "安全ブレーキ",
+  "Encoding pauses when the NAS has less free space than this.": "NAS の空き容量がこれを下回るとエンコードを一時停止します。",
+  "Scanning": "スキャン",
+  "Automatic scan": "自動スキャン",
+  "New files are queued automatically.": "新しいファイルは自動的にキューに追加されます。",
+  "Off": "オフ",
+  "Every hour": "1 時間ごと",
+  "Every 6 hours": "6 時間ごと",
+  "Every 12 hours": "12 時間ごと",
+  "Daily": "毎日",
+  "Skip folders": "スキップするフォルダー",
+  "Comma-separated folder names.": "カンマ区切りのフォルダー名。",
+  "Plex": "Plex",
+  "Dashboard address": "ダッシュボードのアドレス",
+  "Use the IP address of the NAS, not localhost.": "localhost ではなく NAS の IP アドレスを使用してください。",
+  "Worker key": "Worker キー",
+  "Keep secret: with this key a worker can fetch jobs.": "秘密にしてください：このキーがあれば Worker はジョブを取得できます。",
+  "Show": "表示",
+  "Copy": "コピー",
+  "Minimum requirements": "最小要件",
+  "Account & security": "アカウントとセキュリティ",
+  "Two-factor authentication": "2 要素認証",
+  "Not active": "無効",
+  "New recovery codes": "新しいリカバリーコード",
+  "Reset MFA": "MFA をリセット",
+  "Sessions": "セッション",
+  "Sign out everywhere else": "他のすべてのセッションからサインアウト",
+  "Sign out": "サインアウト",
+  "You have unsaved changes.": "保存されていない変更があります。",
+  "Cancel": "キャンセル",
+  "Save": "保存",
+  "Language": "言語",
+  "Theme": "テーマ",
+  "Light": "ライト",
+  "Dark": "ダーク",
+  "Auto": "自動",
+  "Dashboard language.": "ダッシュボードの言語。",
+  "Auto follows your system setting.": "自動はシステム設定に従います。",
+  "Reset": "リセット",
+  "Create new codes": "新しいコードを作成",
+  "Close": "閉じる",
+  "Code from your authenticator app": "認証アプリのコード",
+  "Sign in": "サインイン",
+  "Activate": "有効化",
+  "Set up two-factor authentication": "2 要素認証を設定",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "認証アプリで QR コードをスキャンし、6 桁のコードを入力してください。",
+  "Manual:": "手動：",
+  "6-digit code": "6 桁のコード",
+  "123456 or recovery code": "123456 またはリカバリーコード",
+  "Save your recovery codes": "リカバリーコードを保存",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "スマートフォンを紛失した場合、各コードで 1 回サインインできます。表示は 1 回だけです。",
+  "I have saved them": "保存しました",
+  "Save them now, they are shown only once.": "今すぐ保存してください。表示は 1 回だけです。",
+  "Server not responding": "サーバーが応答しません",
+  "Sign-in failed": "サインインに失敗しました",
+  "Code is incorrect": "コードが正しくありません",
+  "Code is incorrect - check the time on your phone": "コードが正しくありません - スマートフォンの時刻を確認してください",
+  "Scan started": "スキャンを開始しました",
+  "scan already running": "スキャンはすでに実行中です",
+  "Copied": "コピーしました",
+  "Resumed": "再開しました",
+  "Paused: a running job will finish first": "一時停止：実行中のジョブは先に完了します",
+  "Added to the queue": "キューに追加しました",
+  "Not applicable": "該当なし",
+  "At least one language": "1 つ以上の言語",
+  "Skip this job?": "このジョブをスキップしますか？",
+  "Restore the original? The new version will be deleted.": "元ファイルを復元しますか？新しいバージョンは削除されます。",
+  "on": "オン",
+  "off": "オフ",
+  "Quarantine cleanup": "隔離のクリーンアップ",
+  "Background task": "バックグラウンドタスク",
+  "Planning at startup": "起動時の計画",
+  "Welcome": "ようこそ",
+  "Next": "次へ",
+  "Previous": "戻る",
+  "Next (or skip)": "次へ（またはスキップ）",
+  "Done, go to the overview": "完了、概要へ",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan は、見た目の違いなく映画や番組のサイズを小さくし、不足している字幕を補います。元ファイルは品質チェック後にのみ置き換えられ、しばらく隔離して保持されます。",
+  "Six short steps and you're set up. You can change everything later in Settings.": "6 つの簡単なステップで設定完了です。すべて後から設定で変更できます。",
+  "Your library": "あなたのライブラリ",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan がメディアフォルダー内の動画を検索しています。ライブラリが大きい場合、初回スキャンには時間がかかりますが、そのまま続けられます。",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "MediaScan が一切触れないフォルダー。カンマ区切り（例：Music, Downloads）。",
+  "Scan again": "再スキャン",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "各ファイルに必要な言語を選んでください。MediaScan は不足分を OpenSubtitles で探します。見つからない場合は Worker が字幕を自動生成します（自分の PC で音声認識と翻訳）。",
+  "Click a language to remove it.": "言語をクリックすると削除できます。",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "すべての映画は VMAF で測定されます。これは人間の目に映像がどう見えるかを示すスコアです。「高」はほぼ誰にとっても元ファイルと区別できません。",
+  "Higher = better picture, less space saved.": "高いほど画質が良く、削減量は少なくなります。",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "粒子感や暗いシーンのための安全策。5 Mbps が適切な既定値で、4K などの解像度はそれに応じて調整されます。",
+  "Plex (optional)": "Plex（任意）",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Plex に接続すると、誰かが視聴中の映画の置き換えを待機し、変更のたびに Plex を更新します。Plex がない場合はこのステップをスキップしてください。",
+  "Plex address and token": "Plex のアドレスと token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token（変更なし）",
+  "Add a worker": "Worker を追加",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "重い処理は、高性能なグラフィックカードを搭載した PC または Mac（Worker）で行います。今すぐインストールするか、後で Worker から追加できます。Worker がない間は、ファイルには何も起こりません。",
+  "✓ A worker is connected.": "✓ Worker が接続されました。",
+  "Done! MediaScan is set up.": "完了！MediaScan の設定が終わりました。",
+  "Connect the media share on the new machine.": "新しいマシンでメディア共有を接続します。",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows：ドライブ文字または \\\\NAS\\Media · Mac：Finder › サーバへ接続 · Linux：パッケージ内の説明を参照。",
+  "Download the package for that system and unpack it.": "そのシステム用のパッケージをダウンロードして展開します。",
+  "Run the installer.": "インストーラーを実行します。",
+  "The installer asks for the details below and tests the connection.": "インストーラーが以下の情報を尋ね、接続をテストします。",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 以降、Intel Arc または第 11 世代以降の iGPU、AMD RX 6000+ · 4 コア · 8 GB · 空き 100 GB · 有線ネットワーク。字幕：NVIDIA 8 GB+。",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon（M1+）· macOS 13+ · 16 GB（字幕：24 GB+）· 空き 150 GB · Homebrew。",
+  "Workers update themselves when this dashboard has a new version.": "このダッシュボードに新しいバージョンがあると、Worker は自動的に更新されます。",
+  "What the workers are doing now and what is planned next.": "Worker の現在の処理と次の予定。",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "見た目の品質を落とさずにファイルを小さくします。Worker はキューを上から順に処理します。",
+  "select page": "ページを選択",
+  "select": "選択",
+  "to encode": "エンコード対象",
+  "Movie": "映画",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "置き換えた元ファイル。復元や再エンコードができるよう一定期間保持します。",
+  "How MediaScan works: quality, subtitles, storage and security.": "MediaScan の動作：品質、字幕、ストレージ、セキュリティ。",
+  "General": "一般",
+  "Advanced": "詳細",
+  "Connection": "接続",
+  "Hand out new encode jobs to the workers.": "Worker に新しいエンコードジョブを配布します。",
+  "Hand out new subtitle jobs to the workers.": "Worker に新しい字幕ジョブを配布します。",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "VMAF 測定の厳しさ。高いほど画質が良く、削減量は少なくなります。",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "各ファイルに付ける字幕。不足分は検索し、見つからなければ生成します。",
+  "Go to Workers": "Worker へ移動",
+  "new": "新規",
+  "start": "開始",
+  "Minimum bitrate (4K)": "最小ビットレート (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "1080p の値の 2.5 倍ではなく、4K 専用の下限を設定します。0 = 自動。HDR +15% とアニメ ×0.6 もここに適用されます。",
+  "Ready to use in a few steps.": "数ステップですぐ使えます。",
+  "next": "次へ",
+  "read error": "読み取りエラー",
+  "MFA is already enabled": "MFA はすでに有効です",
+  "a .mkv with that name already exists": "同名の .mkv がすでに存在します",
+  "a file already exists at the original location": "元の場所にすでにファイルがあります",
+  "action not possible in this status": "この状態ではその操作はできません",
+  "walking folders": "フォルダを巡回中",
+  "planning jobs": "ジョブを計画中",
+  "check on the NAS rejected (duration/tracks)": "NAS でのチェックが拒否されました（長さ/トラック）",
+  "expected a JSON object": "JSON オブジェクトが必要です",
+  "ffprobe error": "ffprobe エラー",
+  "invalid resolution": "解像度が無効です",
+  "invalid worker token": "Worker トークンが無効です",
+  "job belongs to another worker": "ジョブは別の Worker のものです",
+  "job is no longer active": "ジョブはすでに有効ではありません",
+  "no video track": "映像トラックがありません",
+  "not JSON": "JSON ではありません",
+  "not signed in": "サインインしていません",
+  "original disappeared": "元ファイルが見つかりません",
+  "original has changed in the meantime": "その間に元ファイルが変更されました",
+  "original is no longer in quarantine": "元ファイルは隔離にありません",
+  "original no longer available": "元ファイルは利用できません",
+  "request refused": "リクエストが拒否されました",
+  "target file already exists": "出力先ファイルがすでに存在します",
+  "the original has already been removed from quarantine - comparing is no longer possible": "元ファイルは隔離から削除済みです - 比較できません",
+  "this film has not been replaced yet": "この映画はまだ置き換えられていません",
+  "unknown action": "不明な操作",
+  "worker is still online": "Worker はまだオンラインです",
+  "In use now:": "使用中：",
+  "longest": "最長",
+  "8.1 (from profile 7)": "8.1（プロファイル 7 から）",
+  "Whisper (transcription)": "Whisper（文字起こし）",
+  "1 day ago": "1 日前",
+  "1 video": "動画 1 本",
+  "Enter your password to open the dashboard.": "ダッシュボードを開くにはパスワードを入力してください。",
+  "No connection to the server - retrying…": "サーバーに接続できません - 再試行中…",
+  "Are you sure?": "本当によろしいですか？",
+  "Restore": "復元",
+  "Re-encode": "再エンコード",
+  "Delete": "削除",
+  "Next up": "次に処理",
+  "in the queue": "待機中",
+  "Load older entries": "古い項目を読み込む",
+  "Folder: all": "フォルダー: すべて",
+  "Resolution: all": "解像度: すべて",
+  "Codec: all": "コーデック: すべて",
+  "More": "その他",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "本の映画がCPUエンコーダーを待っていますが、CPUエンコードが有効なワーカーがありません（Workersページ）。",
+  "Info": "情報",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "お使いのハードウェア、作業への適性、使用ツール、設定の仕組み。",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "メモリ",
+  "Software": "ソフトウェア",
+  "GPU encoding": "GPUエンコード",
+  "CPU encoding (x265)": "CPUエンコード (x265)",
+  "Subtitles (Whisper)": "字幕 (Whisper)",
+  "Translation (Ollama)": "翻訳 (Ollama)",
+  "Server": "サーバー",
+  "Database": "データベース",
+  "Tools in use": "使用中のツール",
+  "Knowledge base": "ナレッジベース",
+  "Low": "低",
+  "Medium": "中",
+  "Ultra": "ウルトラ",
+  "files": "ファイル",
+  "up": "稼働",
+  "of": "/",
+  "uses": "使用",
+  "free": "空き",
+  "Media share": "メディア共有",
+  "Rating": "評価",
+  "Hardware details appear after this worker has updated itself.": "このワーカーが更新されるとハードウェアの詳細が表示されます。",
+  "no Whisper": "Whisperなし",
+  "unified memory": "ユニファイドメモリ",
+  "cores": "コア",
+  "threads": "スレッド",
+  "driver": "ドライバー",
+  "VRAM": "VRAM",
+  "worker": "Worker",
+  "Unknown": "不明",
+  "Settings saved": "設定を保存しました",
+  "Time left": "残り時間",
+  "Queued": "キュー内",
+  "Keep originals for": "元ファイルの保持期間",
+  "Quarantine size limit": "隔離の容量上限",
+  "Hide finished items": "完了した項目を非表示",
+  "Undo skip": "スキップを取り消す",
+  "not supported here": "ここでは非対応",
+  "CPU encoding": "CPU エンコード",
+  "Retry on CPU (x265)": "CPU で再試行 (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "CPU で x265 によりエンコード (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "Worker の CPU でグレイン調整付き x265：フィルムグレインをはるかに効率よく保持しますが、1 本あたり数時間かかります",
+  "CPU fallback for grainy films": "グレインの多い映画向け CPU フォールバック",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "GPU がソースのビットレートを超えずに品質を保てない場合（フィルムグレイン）、映画は Worker の CPU で x265 により再度エンコードされます。x265 はグレインをはるかに効率よく保持します。1 本あたり数時間かかります。Workers ページで Worker の CPU エンコードを有効にしてください。",
+  "CPU preset": "CPU プリセット",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium：8 コアで 2 時間の 1080p 映画に約 2 時間。Slow：2〜3 倍の時間でファイルが約 5〜10% 小さくなります。",
+  "Medium (faster)": "Medium（速い）",
+  "Slow (smaller)": "Slow（小さい）",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux：",
+  "macOS:": "macOS：",
+  "Could not load this page.": "このページを読み込めませんでした。",
+  "up to 1440p": "1440p まで",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "ファイルを解析中",
+  "No worker has CPU encodes switched on (Workers page)": "CPU エンコードが有効な Worker がありません（Workers ページ）",
+  "the job changed in the meantime": "ジョブがその間に変更されました",
+  "Main": "メインナビゲーション",
+  "Clear search and filters": "検索とフィルターをクリア",
+  "Compact rows": "行を詰めて表示",
+  "Encoding and subtitles are paused.": "エンコードと字幕は一時停止中です。",
+  "Encoding is paused: no new encode jobs are handed out.": "エンコードは一時停止中です。新しいエンコードジョブは配布されません。",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "字幕は一時停止中です。新しい字幕ジョブは配布されません。",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Plex のアドレスとトークンを両方入力するか、両方空のままにしてスキップしてください。",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "NAS の空き容量が安全ブレーキを下回りました。エンコードを自動的に一時停止しました。",
+  "Loading…": "読み込み中…",
+  "Next film": "次の映画",
+  "Previous film": "前の映画",
+  "Next page": "次のページ",
+  "Previous page": "前のページ",
+  "Rows per page": "1 ページの行数",
+  "Resume": "再開",
+  "Resume encoding": "エンコードを再開",
+  "Resume subtitles": "字幕を再開",
+  "Open settings": "設定を開く",
+  "Open the library": "ライブラリを開く",
+  "Subtitle languages": "字幕の言語",
+  "Update": "更新",
+  "No results for this search or filter.": "この検索またはフィルターに一致する結果はありません。",
+  "Nothing is queued for encoding. New files are queued after a scan.": "エンコード待ちはありません。新しいファイルはスキャン後にキューに入ります。",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "置き換えたファイルはまだありません。完了したエンコードは品質チェック後にここに表示されます。",
+  "No files were kept as they are. Films that would save too little end up here.": "そのまま残したファイルはありません。節約量が少なすぎる映画がここに入ります。",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "待機中の字幕はありません。言語が不足しているファイルはスキャン後にキューに入ります。",
+  "No subtitle job is running right now.": "現在実行中の字幕ジョブはありません。",
+  "No subtitles have been made yet.": "作成した字幕はまだありません。",
+  "Nothing missing: every file got its subtitles so far.": "不足はありません。これまでのところ、すべてのファイルに字幕が付きました。",
+  "No failed encodes.": "失敗したエンコードはありません。",
+  "No failed subtitle jobs.": "失敗した字幕ジョブはありません。",
+  "Nothing was added in the last 14 days.": "過去 14 日間に追加されたものはありません。",
+  "No videos with this plan.": "このプランの動画はありません。",
+  "The library is being scanned; videos appear as they are found.": "ライブラリをスキャン中です。動画は見つかり次第表示されます。",
+  "No videos found yet. Check the media folder and run a scan.": "動画はまだ見つかっていません。メディアフォルダーを確認してスキャンを実行してください。",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "隔離中のものはありません。置き換えた元ファイルは保持期間が終わるまでここに保管されます。",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "ライブラリに DVD や Blu-ray のフォルダー（VIDEO_TS、BDMV）は見つかりませんでした。",
+  "1 worker online": "Worker 1 台がオンライン",
+  "A worker is busy with this file": "Worker がこのファイルを処理中です",
+  "A worker is grabbing the frames": "Worker がフレームを取得中です",
+  "A worker is searching or making subtitles": "Worker が字幕を検索または作成中です",
+  "A worker picks up the next job within a few seconds.": "Worker が数秒以内に次のジョブを開始します。",
+  "Above this, the oldest comparisons are deleted automatically.": "これを超えると、最も古い比較が自動的に削除されます。",
+  "All replaced films": "置き換えたすべての映画",
+  "Already efficient: encoding would hardly save anything": "すでに効率的: エンコードしてもほとんど削減できません",
+  "Automatic comparisons": "自動比較",
+  "Being made…": "作成中…",
+  "Can be made": "作成可能",
+  "Can encode on the CPU with x265": "CPU で x265 を使ってエンコード可能",
+  "Comparison storage limit": "比較の保存上限",
+  "Comparisons": "比較",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: 再エンコードしません。DV レイヤーが失われるためです",
+  "Encoding is paused.": "エンコードは一時停止中です。",
+  "Enlarge": "拡大",
+  "Errors": "エラー",
+  "Flip": "切り替え",
+  "Four frames of the original and the new version are stored": "元ファイルと新バージョンのフレームが 4 枚ずつ保存されています",
+  "Full width": "全幅",
+  "GPU encoder found": "GPU エンコーダーを検出",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "置き換えた映画ごとに元ファイルと新バージョンからフレームを 4 枚ずつ取得し、比較ページでいつでも画質を確認できるようにします。1 本あたり約 1–2 MB。",
+  "Keyboard shortcuts": "キーボードショートカット",
+  "Leave without saving? Your changes to the settings will be lost.": "保存せずに移動しますか？設定の変更は失われます。",
+  "Moved to the front": "先頭に移動しました",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "比較はまだありません。元ファイルが隔離中のうちに作成するか、設定で自動比較をオンにしてください。",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "現在比較できる映画はありません。元ファイルが隔離から出たか、まだ何も置き換えられていません。",
+  "No longer possible": "作成できません",
+  "No subtitles found online and none could be made": "オンラインで字幕が見つからず、作成もできませんでした",
+  "Ollama found: can translate subtitles": "Ollama を検出: 字幕を翻訳できます",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "DVD または Blu-ray フォルダーの一部です。DVD & Blu-ray ページで変換してください",
+  "Paused automatically: the NAS has less free space than the safety brake.": "自動的に一時停止しました: NAS の空き容量が安全ブレーキを下回っています。",
+  "Planned for encoding": "エンコード予定",
+  "Queued for the CPU encoder": "CPU エンコーダーのキューに追加",
+  "Replaced after the quality check; the original is in quarantine for a while": "品質チェック後に置き換え済み。元ファイルはしばらく隔離されます",
+  "Replaced films appear here after their first encode.": "置き換えた映画は最初のエンコード後にここに表示されます。",
+  "Search the log…": "ログを検索…",
+  "Show films that can be compared": "比較できる映画を表示",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "元ファイルと新バージョンを交互に表示: グレインや細部を見分ける最良の方法",
+  "Skipped": "スキップしました",
+  "Skipped by you; Retry puts it back in the queue": "あなたがスキップしました。「再試行」でキューに戻ります",
+  "Slider back to the middle": "スライダーを中央に戻す",
+  "Smaller": "縮小",
+  "Stopped because the file changed or disappeared": "ファイルが変更または消失したため停止",
+  "Stopped with an error; see the message and try again": "エラーで停止しました。メッセージを確認して再試行してください",
+  "Subtitles are paused.": "字幕は一時停止中です。",
+  "The file could not be read; see the drawer": "ファイルを読み取れませんでした。サイドパネルを確認してください",
+  "The new file would save less than the minimum saving, so the original was kept": "新しいファイルの削減量が最低削減率を下回るため、元ファイルを保持しました",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "新バージョンは NAS 上にあり、誰も視聴していないときに置き換えられます",
+  "The original has left quarantine, so the frames can no longer be grabbed": "元ファイルが隔離から出たため、フレームを取得できなくなりました",
+  "The original is still in quarantine, so the frames can still be grabbed": "元ファイルはまだ隔離中のため、フレームを取得できます",
+  "The original was put back from quarantine": "元ファイルを隔離から復元しました",
+  "The queue is empty. New files are queued after a scan.": "キューは空です。新しいファイルはスキャン後にキューに追加されます。",
+  "The server hands out newer worker files; the worker installs them after its current job": "サーバーが新しい Worker ファイルを配布しています。Worker は現在のジョブの後にインストールします",
+  "Undo": "元に戻す",
+  "Waiting for Plex: someone is watching this film": "Plex を待機中: 誰かがこの映画を視聴しています",
+  "Waiting for a worker; the queue runs from top to bottom": "Worker を待機中。キューは上から順に処理されます",
+  "Warnings": "警告",
+  "Whisper installed: can make subtitles": "Whisper をインストール済み: 字幕を作成できます",
+  "Would save less than the minimum saving": "削減量が最低削減率を下回ります",
+  "expires today": "本日期限切れ",
+  "expires within a day": "1 日以内に期限切れ",
+  "less than a day left": "残り 1 日未満",
+  "waiting for Plex": "Plex を待機中",
+  "update pending": "更新待ち",
+  "Tap to switch between original and new": "タップして元と新を切り替え",
+  "Repeated": "繰り返し",
+  "Search in the current list": "現在のリストを検索",
+  "Clear the search, close a drawer or dialog": "検索をクリア、パネルやダイアログを閉じる",
+  "Previous or next film on a comparison": "比較で前または次の映画へ",
+  "Open or switch the focused row, switch or header": "フォーカス中の行・スイッチ・見出しを開く / 切り替える",
+  "This list": "このリスト",
+  "Nothing in the log matches this.": "ログに一致する項目はありません。",
+  "Nothing has happened yet.": "まだ何も起きていません。",
+  "No worker is online, so nothing can run.": "オンラインの Worker がないため、何も実行できません。",
+  "There is no worker yet. Add one to get started.": "Worker がまだありません。追加して始めましょう。",
+  "Open Workers": "Worker を開く",
+  "Some values are out of range.": "一部の値が範囲外です。",
+  "no capabilities reported": "機能の報告なし",
+  "Replaced · expires": "置き換え日 · 期限",
+  "Made": "作成済み",
+  "Make": "作成",
+  "lots of motion": "動きが多い",
+  "dark scene": "暗いシーン",
+  "a quarter in": "4 分の 1 地点",
+  "three quarters in": "4 分の 3 地点",
+  "Encoded": "エンコード完了",
+  "Finished": "終了",
+  "later": "後",
+  "Leave": "移動する",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "比較では元のファイルと新しいバージョンから4フレームを取り出します（合計約1〜2 MB）。元のファイルがまだ隔離フォルダーにある間に作成でき、元のファイルがなくなった後も削除するまで残ります。",
+  "Retry on CPU": "CPU で再試行",
+  "Scan": "スキャン"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1開始$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "処理中：$1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan は $1 本の動画を検出しました（$2）。"
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · 最低 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "最低 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "新規（$1 日）"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "予定：{t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "置き換えに失敗（$1）：{w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1}に失敗{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "スキャン完了：動画 $1 本、新規 $2、変更 $3、消失 $4。エンコードジョブ $5 件と字幕ジョブ $6 件を追加"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "スキャン完了：動画 $1 本、新規 $2、変更 $3、消失 $4、スキップ対象フォルダー内 $5。エンコードジョブ $6 件と字幕ジョブ $7 件を追加"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "$1 本の映画を現在のルールで再エンコードしますか？元ファイルが復元され、キューで優先されます。"
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 本の映画をキューに戻しました{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 件の元ファイルを復元し、再びキューに追加しました（現在のルール）"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "新規：$1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "置き換え：$1（$2 -> $3 GB、VMAF $4）"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray を変換：$1（$2 GB）。ディスクフォルダーは隔離されています"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "元ファイルを復元：$1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 が{t:$2}を開始：$3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}：$2 件のジョブ（全 $3 件）"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "選択を配布 - エンコードを自動的に一時停止"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "選択を配布 - 字幕を自動的に一時停止"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "設定を変更：$1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "ジョブ $1 エラー：$2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "ジョブ $1：$2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 オフライン：$2 件のジョブをキューに戻しました"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 が再起動：中断された $2 件のジョブをキューに戻しました"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 を $2 に更新：失敗した $3 件のジョブを再びキューに追加"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 を削除しました"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1：エンコード {t:$2}、字幕 {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "計画を更新：エンコードジョブ $1 件と字幕ジョブ $2 件を追加"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 件のジョブを手動でキューに追加"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 件のジョブ：$2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 件の比較を削除しました"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "他の $1 件のセッションからサインアウトしました"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "リカバリーコードでサインイン（残り $1 件）"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1：$2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "元ファイルは最大 $1 日間、合計 $2 以内で保持されます。古いものから削除されます。復元すると新しいバージョンは削除されます。"
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - クリックで削除"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 件のフォルダーを変換します · Worker は 30 秒以内に開始します"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "音声 $1 · 字幕 $2"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "$1 件の比較を削除しますか？映画自体はそのままです。"
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "フレーム $1 · $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "フレーム $1 · $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB（jpg）"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "エンコード時間 $1 分 · 8 つの断片で測定し、その後全編で確認しました。"
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "現在あり：$1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "最低 5% $1 · 基準 $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "タイミング $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "フレームの作成に失敗：$1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "選択 · 次"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "選択 · $1 番目"
+  ],
+  [
+   "^Now:$",
+   "",
+   "処理中："
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· その後、選択からあと $1 件"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "推定 · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "以前に完了 $1 件 · 表示"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 件を選択に追加しました · Worker は数秒以内に開始します"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "選択 {t:$1}：{t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "作成：$1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% 縮小$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "たった今"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 分前"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 時間前"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 日前"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "確認 {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 日 $2 時間"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 時間 $2 分"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "動画 $1 本"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "隔離 $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "24 時間あたり $1"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · 約 $2 削減"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "約 $1 GB 削減"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "処理済みファイルで $1% 縮小"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "Worker $1 オンライン"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "あと $1 件開始後に一時停止"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 件 · $2 / $3 ページ"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 件選択中"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "$1 件の結果をすべて選択"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "スキャン中：{w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1 回試行"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 分"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "有効 · リカバリーコード残り $1 件"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "アクティブなセッション $1 件（このセッションを含む）。"
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 件を更新{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "他の $1 件のセッションをサインアウトしました"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "この $1 件だけ処理しますか？優先され、処理が再開し、完了後に自動的に再び一時停止します。"
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "$1 件のジョブをスキップしますか？"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "$1 件の元ファイルを復元しますか？新しいバージョンは削除されます。"
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Worker $1 をリストから削除しますか？再びオンラインになると自動的に再表示されます。"
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "$1 前から実行中"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "残り約 $1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "$1p まで"
+  ],
+  [
+   "^working on$",
+   "",
+   "処理中"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex に接続しました（バージョン $1）"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex の応答が不正です：$1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "エラー：$1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "置き換えに失敗：$1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "$1 の値が無効です"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 は $2 から $3 の間で指定してください"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · 下位 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 時間"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU が品質を保てませんでした - CPU エンコーダー (x265) のキューに追加"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "ステージングの整理：残留ファイルを削除 $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 件/ページ"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "Worker $1 台がオンライン"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · Worker の追加、Worker キー、ダウンロードは Worker ページにあります。"
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · 約 {t:$2} 後に開始 · 推定"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · 推定"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "残り $1 日"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "$1 日後に期限切れ"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "作成済み · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "作成可能 · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · ステップ $1/$2 · 残り約 {t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · ステップ $1/$2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · 残り約 {t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 件の比較をリクエストしました · 数分で完了します"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "$1 件の比較を作成しますか？1 件あたり約 1–2 MB。"
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "$1 回繰り返し"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "$1 から $2 の間"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}：$2 件のジョブ"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}：$2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "$1 でエラー：{w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 件の比較をリクエストしました"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "比較を整理しました：$1 件を削除（$2 MB 超）"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "隔離フォルダを quarantine に名前変更しました（$1 件のレコードを更新）"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 を削除しました：$2 件のジョブをキューに戻しました"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "隔離：$1 は既に存在するため、$2 はそのままにしました"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "隔離フォルダを quarantine に名前変更しました。$1 件のレコードを更新しましたが、$2 はまだ空ではありません"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "隔離フォルダの名前変更に失敗（メディア共有はマウントされていますか？）：$1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "新しいバージョンが staging にありません"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "新しい .mkv が staging にありません"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "元ファイルが消えました"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "元ファイルがその間に変更されました"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "元ファイルは利用できなくなりました"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "NAS でのチェックで却下（長さ/トラック）"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray を mkv に変換しました"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "Worker 更新後に再試行"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "あなたがスキップしました"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "出力先ファイルが既に存在します"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "Worker がオフライン - 再スケジュール済み"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "Worker が削除されました - 再スケジュール済み"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "Worker が再起動しました - 再スケジュール済み"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "置き換えに失敗：$1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "新しい mkv に Dolby Vision がありません"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision：再エンコードしません（DV レイヤーが失われるため）"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "ストリームを .mkv にコピーできません：$1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg が $1 分間進みませんでした（共有に接続できない？）- 停止しました"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$2 件中 $1 件のファイルが同時に見つかりません - 共有に接続できない？ 何も消失扱いにしていません"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "翻訳に失敗：再試行後も $1 行に使える回答がありません"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1：サーバーエラー"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1：$2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - モデルを取得（ollama pull <model>）するか、worker.ini の ollama_model を修正してください"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "$1 の Ollama に接続できません（$2）- Ollama を起動するか ollama_url を確認してください"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama に接続できません：$1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama が $2 分間失敗し続けました"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 に 1 時間以上かかりました - メディア共有にまだ接続できますか？"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 がありません。インストールしてください $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "全編の VMAF $1 はどのペアリング方法でも妥当ではありません（サンプル $2）。低い箇所：$3。元ファイルを保持しました。その箇所のソースを確認してください"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe：ファイルを読み取れません"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe：失敗"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg：$1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "この映画に必要な空き容量が PC にありません（$2 に $1 GB 必要）"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "作業フォルダの空き容量不足：空き $1 GB、必要 約 $2 GB"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "最低ビットレートでも最大 $1% の縮小"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "拡張レイヤーからメタデータを抽出中"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "ダウンロードが一致しません (sha256) - 使用しません"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "チェック：長さまたはストリーム数が異なります"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "新しい mkv が短すぎます（$1/$2 分）"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$2 件中 $1 件完了、Worker 待ち"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "Dolby Vision を profile 8.1 に変換中"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "ベースレイヤーにメタデータを挿入中"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "VMAF を確認中（2 回目の測定）"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "品質目標を満たす設定がありません"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "ダウンロード上限に達しました - 残りは後で"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "OpenSubtitles の 1 日の上限に到達"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "一部完了。残りはダウンロード上限の後"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "ダウンロード後に $1 が見つかりません"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper：話し言葉を検出"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper（$1 から翻訳）"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "PC の空き容量待ち"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "字幕ファイルが異常に大きい"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "セルフテストの測定が不安定"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "翻訳の $1 回目の試行に失敗"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "待機：Plex で視聴中"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "$1% の縮小にとどまる見込み"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "$1 をダウンロード中（初回のみ）"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "全編チェックが目標未満"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "$1 秒のフレームを取得できません"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "全編がわずかに目標未満"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "ディスク内の映画を検索中"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "品質目標に到達できません"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "チェックの測定が不安定"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "サーバーからのパスが無効"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "再試行：最低効果を 10% に変更"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper を GPU で実行中"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "DVD にタイトルが見つかりません"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "アーカイブ内に不審なパス"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "待機：Plex に接続できません"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "$2 件中 $1 件目を処理中"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles に接続できません"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper（文字起こし）"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "全編の VMAF を確認中"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "完了、置き換え待ち"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "古いフォルダーを隔離"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "VMAF $1 が低すぎます"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "ディスク読み取り中（DV）"
+  ],
+  [
+   "translated from English",
+   "g",
+   "英語から翻訳"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "完了（$2 件中 $1 件）"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "音声の抽出に失敗"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "CPU にフォールバック"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles にサインイン済み"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1（プロファイル 7 から）"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "Worker を待機中"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "zip 内に不審なパス"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "埋め込み EN を読み取れません"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "これまでの最長：タイトル"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "タイミングが一致しません"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "$1% の縮小のみ"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "断片 $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "元ファイルを保持"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "本日の残りダウンロード数"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "タイトル $1 を確認"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "置き換え待ち"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "NAS にコピー中"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "元ファイルを保持"
+  ],
+  [
+   "translation failed",
+   "g",
+   "翻訳に失敗"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "サーバーに接続できません"
+  ],
+  [
+   "searching quality",
+   "g",
+   "品質を探索中"
+  ],
+  [
+   "making references",
+   "g",
+   "リファレンス作成中"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "mkv に変換中"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "字幕を停止"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "コピー中 NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "コピー中 PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "映画を検索中"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "mkv に結合中"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "最長のプレイリスト"
+  ],
+  [
+   "timing reference",
+   "g",
+   "タイミング基準"
+  ],
+  [
+   "speech segments",
+   "g",
+   "音声区間"
+  ],
+  [
+   "too little gain",
+   "g",
+   "削減量が少なすぎます"
+  ],
+  [
+   " not applicable",
+   "g",
+   " 該当なし"
+  ],
+  [
+   "download failed",
+   "g",
+   "ダウンロードに失敗"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "ffsubsync 後"
+  ],
+  [
+   "translating to",
+   "g",
+   "翻訳先"
+  ],
+  [
+   "next candidate",
+   "g",
+   "次の候補"
+  ],
+  [
+   "after shifting",
+   "g",
+   "シフト後"
+  ],
+  [
+   "reading audio",
+   "g",
+   "音声を読み取り中"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "選択 · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 件待機中"
+  ],
+  [
+   "search failed",
+   "g",
+   "検索に失敗"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "再エンコード中"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "タイトル $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " 件のエラー"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 件完了"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "字幕："
+  ],
+  [
+   "replacing",
+   "g",
+   "置き換え中"
+  ],
+  [
+   "subtitles",
+   "g",
+   "字幕"
+  ],
+  [
+   "candidate",
+   "g",
+   "候補"
+  ],
+  [
+   "encoding:",
+   "g",
+   "エンコード："
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "開始"
+  ],
+  [
+   "encoding",
+   "g",
+   "エンコード中"
+  ],
+  [
+   "checking",
+   "g",
+   "確認中"
+  ],
+  [
+   ", up to ",
+   "g",
+   "、最大 "
+  ],
+  [
+   "present",
+   "g",
+   "あり"
+  ],
+  [
+   "missing",
+   "g",
+   "なし"
+  ],
+  [
+   "speed",
+   "g",
+   "速度"
+  ],
+  [
+   "saved",
+   "g",
+   "保存済み"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU が品質を保てませんでした - CPU エンコーダー (x265) のキューに追加"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "ステージングの整理：残留ファイルを削除"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "メディアフォルダが空か未マウントです - 何も変更していません"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "品質を保つにはソースより高いビットレートが必要です"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "ソースより高いビットレートが必要"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "Worker は更新のため再起動中"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "映像ストリームがありません（カバーアートのみ？）"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "文字起こしする音声ストリームがありません"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "この映画に必要な空き容量が PC にありません"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "CPU で再試行中 (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "フォルダを巡回中"
+  ],
+  [
+   "analysing files",
+   "g",
+   "ファイルを解析中"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "ジョブを計画中"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU エンコード オン"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU エンコード オフ"
+  ]
+ ]
+}

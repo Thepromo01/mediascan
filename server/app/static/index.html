@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-v="{{v}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MediaScan</title>
+<link rel="icon" href="/static/logo.svg?v={{v}}" type="image/svg+xml"><link rel="apple-touch-icon" href="/static/logo-256.png?v={{v}}">
+<link rel="stylesheet" href="/static/style.css?v={{v}}">
+<script src="/static/i18n.js?v={{v}}"></script>
+<script src="/static/qrcode.min.js?v={{v}}" defer></script>
+<script src="/static/app.js?v={{v}}" defer></script>
+</head>
+<body>
+<div id="login" style="display:none">
+  <div class="lbox">
+    <div class="lhd"><img class="logo" src="/static/logo.svg?v={{v}}" alt=""><b>MediaScan</b></div>
+    <form id="f-setup" style="display:none">
+      <h2>Welcome to MediaScan</h2>
+      <p class="muted lsub">Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or <code>docker logs mediascan</code>).</p>
+      <div class="field"><label for="s-code">Setup code</label><input id="s-code" autocomplete="off" style="font-family:var(--mono);letter-spacing:.08em"></div>
+      <div class="field"><label for="s-pw">New password (at least 10 characters)</label><input id="s-pw" type="password" autocomplete="new-password"></div>
+      <div class="field"><label for="s-pw2">Repeat password</label><input id="s-pw2" type="password" autocomplete="new-password"></div>
+      <button class="primary">Set password</button>
+    </form>
+    <form id="f-login">
+      <h2>Sign in</h2>
+      <p class="muted lsub">Enter your password to open the dashboard.</p>
+      <div id="pwrow" class="field"><label for="pw">Password</label><input id="pw" type="password" autocomplete="current-password"></div>
+      <div id="coderow" class="field" style="display:none;margin:0 0 14px"><label for="code">Code from your authenticator app</label>
+        <input id="code" inputmode="numeric" autocomplete="one-time-code" placeholder="123456 or recovery code" style="font-family:var(--mono);letter-spacing:.08em"></div>
+      <button class="primary">Sign in</button>
+    </form>
+    <div id="mfasetup" style="display:none">
+      <h2>Set up two-factor authentication</h2>
+      <p class="muted lsub">Scan the QR code with your authenticator app and enter the 6-digit code.</p>
+      <div class="qr" id="qr"></div>
+      <div class="sub" style="text-align:center;word-break:break-all">Manual: <span id="secret" style="font-family:var(--mono)"></span></div>
+      <div class="field"><input id="setupcode" inputmode="numeric" placeholder="6-digit code" style="font-family:var(--mono);letter-spacing:.08em"></div>
+      <button class="primary" id="btn-enable">Activate</button>
+    </div>
+    <div id="mfacodes" style="display:none">
+      <h2>Save your recovery codes</h2>
+      <p class="muted lsub">Lost your phone? Each of these codes signs you in once. They are shown only once.</p>
+      <div class="codes" id="codes"></div>
+      <button class="primary" id="btn-codes-ok">I have saved them</button>
+    </div>
+    <div id="loginerr" class="bad" role="alert"></div>
+    <div class="lft"><span id="lver"></span><div id="loginprefs"></div></div>
+  </div>
+</div>
+
+<div class="layout" id="app" style="display:none">
+  <nav id="nav"></nav>
+  <div class="menu-scrim" id="menu-scrim" data-click='["menu",false]'></div>
+  <div id="tabbar" class="tabbar" role="navigation" aria-label="Main"></div>
+  <main><div id="view"></div></main>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="dr-title" aria-hidden="true">
+  <header><div style="flex:1;min-width:0"><div class="sub" id="dr-sub"></div><h2 id="dr-title"></h2></div><button class="ghost" id="dr-close" aria-label="Close">✕</button></header>
+  <div class="body" id="dr-body"></div>
+</aside>
+
+<div class="modal" id="modal"><div class="card" id="modal-card"></div></div>
+<div id="offline" class="offline" role="alert" hidden></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="loadpill" role="status" hidden>Loading…</div>
+</body>
+</html>

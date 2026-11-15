@@ -1,0 +1,2060 @@
+{
+ "name": "Suomi",
+ "s": {
+  "Re-encode from original": "Koodaa uudelleen alkuperäisestä",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Koodataanko uudelleen nykyisillä säännöillä? Alkuperäinen palautetaan ja elokuva saa etusijan.",
+  "Back in the queue": "Takaisin jonossa",
+  "Restore originals": "Palauta alkuperäiset",
+  "Minimum bitrate (1080p)": "Bittinopeuden minimi (1080p)",
+  "Extra floor (share of the source)": "Lisäalaraja (osuus lähteestä)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Valinnainen: säilytä myös vähintään tämä osuus alkuperäisestä videon bittinopeudesta. Hyödyllinen vain lähteille, joiden bittinopeus on hyvin korkea. 0 = pois.",
+  "with the minimum bitrate at most": "bittinopeuden minimillä enintään",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Uusi tiedosto ei koskaan mene tätä alemmas, vaikka VMAF sallisi sen. Muut resoluutiot skaalautuvat: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animaatio ×0.6.",
+  "bitrate already near the minimum": "bittinopeus jo lähellä minimiä",
+  "MFA reset from settings - set it up again": "MFA nollattu asetuksista - ota se uudelleen käyttöön",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA nollattu MFA_RESET-muuttujalla - poista MFA_RESET taas kontin asetuksista",
+  "MFA enabled": "MFA otettu käyttöön",
+  "MediaScan started": "MediaScan käynnistetty",
+  "New recovery codes created": "Uudet palautuskoodit luotu",
+  "Password changed; other sessions signed out": "Salasana vaihdettu; muut istunnot kirjattu ulos",
+  "Password set (first time)": "Salasana asetettu (ensimmäinen kerta)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Huom: ADMIN_PASSWORD on alle 10 merkkiä - valitse vahvempi salasana Asetuksissa",
+  "part of a DVD/Blu-ray folder": "osa DVD/Blu-ray-kansiota",
+  "folder is in Skip folders": "kansio on Ohita kansiot -listalla",
+  "file disappeared": "tiedosto katosi",
+  "worker restarted - rescheduled": "työkone käynnistettiin uudelleen - ajoitettu uudelleen",
+  "worker offline - rescheduled": "työkone ei yhteydessä - ajoitettu uudelleen",
+  "retry after worker update": "uusi yritys työkoneen päivityksen jälkeen",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray muunnettu mkv:ksi",
+  "skipped by you": "ohitit tämän",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Korvaus odottaa, kun elokuvaa katsotaan, ja Plex päivitetään jokaisen muutoksen jälkeen.",
+  "Confirm with your password and a code from your app.": "Vahvista salasanallasi ja sovelluksesi koodilla.",
+  "Your old recovery codes will stop working.": "Vanhat palautuskoodisi lakkaavat toimimasta.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Nykyinen todennuslinkkisi ja palautuskoodisi lakkaavat toimimasta. Otat MFA:n heti uudelleen käyttöön.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Valitse salasana hallintapaneelille. Asetuskoodi on kontin lokissa (Container Manager › mediascan › Log, tai",
+  "- click to remove": "- poista napsauttamalla",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Virheellinen osoite, esim. http://192.168.1.10:32400",
+  "Enter a Plex token": "Anna Plex-token",
+  "A password has already been set": "Salasana on jo asetettu",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Avain on kiinteä WORKER_TOKEN-muuttujassa (kontin ympäristö)",
+  "selection still running - pause or wait until it is done": "valinta on yhä käynnissä - keskeytä tai odota, kunnes se on valmis",
+  "Now running": "Käynnissä nyt",
+  "Finding the film on the disc": "Etsitään elokuvaa levyltä",
+  "Converting to one .mkv": "Muunnetaan yhdeksi .mkv-tiedostoksi",
+  "Checking (duration, tracks)": "Tarkistetaan (kesto, raidat)",
+  "Copying to the NAS": "Kopioidaan NAS:iin",
+  "Old folder to quarantine": "Vanha kansio karanteeniin",
+  "worker has not reported for a while": "työkone ei ole raportoinut vähään aikaan",
+  "waiting for the worker": "odotetaan työkonetta",
+  "Welcome to MediaScan": "Tervetuloa MediaScaniin",
+  "Setup code": "Asetuskoodi",
+  "New password (at least 10 characters)": "Uusi salasana (vähintään 10 merkkiä)",
+  "Repeat password": "Toista salasana",
+  "Set password": "Aseta salasana",
+  "The passwords do not match": "Salasanat eivät täsmää",
+  "Setup code is wrong - check the container log": "Asetuskoodi on väärä - tarkista kontin loki",
+  "Choose a password of at least 10 characters": "Valitse vähintään 10 merkin salasana",
+  "Animation folders": "Animaatiokansiot",
+  "Top-level folders with animation: these may use a lower bitrate.": "Ylimmän tason kansiot, joissa on animaatiota: näissä voidaan käyttää pienempää bittinopeutta.",
+  "Where do I find the token?": "Mistä löydän tokenin?",
+  "Connect": "Yhdistä",
+  "Disconnect": "Katkaise yhteys",
+  "Connected": "Yhdistetty",
+  "Not connected": "Ei yhdistetty",
+  "+ Add language": "+ Lisää kieli",
+  "Renew": "Uusi",
+  "Worker version": "Työkoneen versio",
+  "Password": "Salasana",
+  "Other sessions are signed out after a change.": "Muut istunnot kirjataan ulos muutoksen jälkeen.",
+  "Change password": "Vaihda salasana",
+  "Other sessions will be signed out.": "Muut istunnot kirjataan ulos.",
+  "Change": "Vaihda",
+  "New worker key": "Uusi työkoneavain",
+  "Create new key": "Luo uusi avain",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Kaikki työkoneet pysähtyvät, kunnes annat uuden avaimen (suorita asennusohjelma uudelleen tai muokkaa worker.ini-tiedostoa).",
+  "Repeat new password": "Toista uusi salasana",
+  "Password changed": "Salasana vaihdettu",
+  "New worker key created": "Uusi työkoneavain luotu",
+  "Disconnect Plex?": "Katkaistaanko yhteys Plexiin?",
+  "Plex disconnected": "Plex-yhteys katkaistu",
+  "Plex connected": "Plex yhdistetty",
+  "Incorrect password": "Väärä salasana",
+  "Incorrect code": "Väärä koodi",
+  "Incorrect code from your authenticator app": "Väärä koodi todennussovelluksesta",
+  "Too many attempts - try again in 15 minutes": "Liian monta yritystä - yritä uudelleen 15 minuutin kuluttua",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Kansiot, joissa on VIDEO_TS tai BDMV. Muunnos yhdistää ne yhdeksi .mkv-tiedostoksi, jossa on kaikki video, ääni, tekstitykset ja kappaleet.",
+  "Convert to MKV": "Muunna MKV:ksi",
+  "Folder": "Kansio",
+  "Type": "Tyyppi",
+  "found": "löydetty",
+  "queued": "jonossa",
+  "converting…": "muunnetaan…",
+  "converted": "muunnettu",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Muunnos kopioi kaiken 1:1 yhteen .mkv-tiedostoon: videon (myös HDR), kaikki ääniraidat, tekstitykset ja kappaleet. DVD:ltä valitaan pisin nimike (elokuva). Vanha kansio siirtyy karanteeniin, joten voit palauttaa sen. Sen jälkeen .mkv käy läpi tavallisen koodauksen ja tekstityksen. Dolby Vision -Blu-raysta tulee Dolby Vision -profiili 8.1 (perustaso 1:1, DV-metatiedot lisätty): Plex ja televisiosi toistavat sen Dolby Visionina, muut soittimet HDR10:nä. Tällaista elokuvaa ei koodata jälkikäteen uudelleen, koska Dolby Vision menetettäisiin.",
+  "Compare": "Vertaa",
+  "Delete comparison": "Poista vertailu",
+  "Comparison deleted": "Vertailu poistettu",
+  "comparison": "vertailu",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Alkuperäinen uuden version vieressä: koko, laatu, kuva ja tekstitykset. Sinä valitset elokuvat.",
+  "Original → new": "Alkuperäinen → uusi",
+  "Quality (VMAF)": "Laatu (VMAF)",
+  "Comparison": "Vertailu",
+  "View": "Näytä",
+  "Make comparison": "Luo vertailu",
+  "previous attempt failed": "edellinen yritys epäonnistui",
+  "Back": "Takaisin",
+  "Make again": "Luo uudelleen",
+  "New": "Uusi",
+  "VMAF whole film": "VMAF koko elokuva",
+  "Making the frames… this usually takes less than a minute.": "Luodaan kuvia… tämä kestää yleensä alle minuutin.",
+  "There is no picture comparison for this film yet.": "Tälle elokuvalle ei ole vielä kuvavertailua.",
+  "Picture · drag across the image": "Kuva · vedä kuvan yli",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR on muunnettu SDR:ksi tätä näkymää varten; televisiosi näyttää sen HDR:nä.",
+  "How the setting was chosen": "Näin asetus valittiin",
+  "Step": "Vaihe",
+  "Weakest 5%": "Heikoin 5%",
+  "Bitrate": "Bittinopeus",
+  "chosen": "valittu",
+  "No data.": "Ei tietoja.",
+  "Nothing needed, all languages were present.": "Ei tarvetta, kaikki kielet olivat jo mukana.",
+  "Not processed yet.": "Ei vielä käsitelty.",
+  "Comparison requested · ready within a minute": "Vertailua pyydetty · valmis minuutin sisällä",
+  "Delete this comparison? The film itself stays as it is.": "Poistetaanko tämä vertailu? Itse elokuva pysyy ennallaan.",
+  "Not possible": "Ei mahdollista",
+  "Slide between original and new": "Liu'uta alkuperäisen ja uuden välillä",
+  "Overview": "Yleiskatsaus",
+  "Queue": "Jono",
+  "In progress": "Käynnissä",
+  "No gain": "Ei hyötyä",
+  "Failed": "Epäonnistuneet",
+  "Subtitles": "Tekstitykset",
+  "Recently added": "Äskettäin lisätyt",
+  "Library": "Kirjasto",
+  "Quarantine": "Karanteeni",
+  "Workers": "Työkoneet",
+  "Activity": "Toiminta",
+  "Settings": "Asetukset",
+  "Encoding": "Koodaus",
+  "System": "Järjestelmä",
+  "Status of the entire library.": "Koko kirjaston tila.",
+  "Selection": "Valinta",
+  "waiting for worker": "odottaa työkonetta",
+  "In the selection": "Valinnassa",
+  "selection": "valinta",
+  "Selection · encoding": "Valinta · koodaus",
+  "Selection · subtitles": "Valinta · tekstitykset",
+  "Close list": "Sulje luettelo",
+  "waiting": "odottaa",
+  "nothing needed": "ei tarvetta",
+  "original kept": "alkuperäinen säilytetty",
+  "Find, sync or generate missing subtitles.": "Etsi, synkronoi tai luo puuttuvat tekstitykset.",
+  "All videos with their current plan. You can also queue items manually here.": "Kaikki videot nykyisine suunnitelmineen. Voit myös lisätä kohteita jonoon täällä käsin.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Työtä tekevät koneet. Valitse, mitä kukin työkone saa tehdä.",
+  "Log of everything that happens.": "Loki kaikesta tapahtuvasta.",
+  "Scan now": "Skannaa nyt",
+  "Saved": "Säästetty",
+  "Free on NAS": "Vapaana NAS:lla",
+  "Progress": "Edistyminen",
+  "Saved per day": "Säästö päivässä",
+  "last 14 days": "viimeiset 14 päivää",
+  "Per folder": "Kansioittain",
+  "all": "kaikki",
+  "nothing processed yet": "ei vielä mitään käsitelty",
+  "no measurement yet": "ei vielä mittausta",
+  "No processed files yet": "Ei vielä käsiteltyjä tiedostoja",
+  "No worker connected yet": "Ei vielä yhdistettyä työkonetta",
+  "no worker": "ei työkonetta",
+  "worker offline": "työkone ei yhteydessä",
+  "online": "yhteydessä",
+  "disabled": "poistettu käytöstä",
+  "encoding": "koodaus",
+  "subtitles": "tekstitykset",
+  "Search by name or folder…": "Hae nimellä tai kansiolla…",
+  "Several titles at once: separate them with |": "Useita nimikkeitä kerralla: erota ne merkillä |",
+  "Nothing to show": "Ei näytettävää",
+  "File": "Tiedosto",
+  "Source": "Lähde",
+  "Status": "Tila",
+  "Result": "Tulos",
+  "Languages": "Kielet",
+  "Error": "Virhe",
+  "When": "Milloin",
+  "Plan": "Suunnitelma",
+  "Added": "Lisätty",
+  "Original": "Alkuperäinen",
+  "Size": "Koko",
+  "Replaced": "Korvattu",
+  "estimate": "arvio",
+  "Name": "Nimi",
+  "Done": "Valmis",
+  "Nothing found": "Mitään ei löytynyt",
+  "Process only these": "Käsittele vain nämä",
+  "Prioritise": "Priorisoi",
+  "Skip": "Ohita",
+  "Retry": "Yritä uudelleen",
+  "Clear": "Tyhjennä",
+  "Both": "Molemmat",
+  "Restore original": "Palauta alkuperäinen",
+  "Find subtitles": "Etsi tekstitykset",
+  "running": "käynnissä",
+  "done": "valmis",
+  "failed": "epäonnistui",
+  "replacing": "korvataan",
+  "no gain": "ei hyötyä",
+  "skipped": "ohitettu",
+  "restored": "palautettu",
+  "cancelled": "peruutettu",
+  "nothing found": "ei löytynyt",
+  "encode": "koodaa",
+  "already efficient": "jo tehokas",
+  "small gain": "pieni hyöty",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "virhe",
+  "unknown": "tuntematon",
+  "All": "Kaikki",
+  "Already efficient": "Jo tehokas",
+  "Small gain": "Pieni hyöty",
+  "Restored": "Palautettu",
+  "Video": "Video",
+  "Duration": "Kesto",
+  "Audio": "Ääni",
+  "Encode": "Koodaa",
+  "Quality": "Laatu",
+  "Encode time": "Koodausaika",
+  "Message": "Viesti",
+  "Started": "Aloitettu",
+  "Search": "Hae",
+  "weakest 5%": "heikoin 5%",
+  "video": "video",
+  "Worker": "Työkone",
+  "Hardware": "Laitteisto",
+  "Resolution": "Resoluutio",
+  "Working on": "Työn alla",
+  "nothing": "ei mitään",
+  "up to 4K": "enintään 4K",
+  "up to 1080p": "enintään 1080p",
+  "up to 720p": "enintään 720p",
+  "up to SD": "enintään SD",
+  "Remove": "Poista",
+  "Add worker": "Lisää työkone",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Jokainen työkone ilmoittaa, mihin se pystyy (kooderi löydetty, Whisper asennettu). Täällä päätät, mitä se saa tehdä. Muutokset koskevat seuraavasta työstä alkaen; käynnissä oleva työ tehdään ensin loppuun.",
+  "This machine lacks the hardware or software for this": "Tältä koneelta puuttuu tähän tarvittava laitteisto tai ohjelmisto",
+  "Quality level": "Laatutaso",
+  "Standard": "Vakio",
+  "High": "Korkea",
+  "Maximum": "Maksimi",
+  "Custom": "Mukautettu",
+  "Custom target": "Mukautettu tavoite",
+  "Average VMAF and the weakest 5% of frames.": "Keskimääräinen VMAF ja heikoimmat 5% kuvista.",
+  "avg.": "ka.",
+  "Minimum saving": "Vähimmäissäästö",
+  "If a file saves less, the original is kept.": "Jos tiedosto säästää vähemmän, alkuperäinen säilytetään.",
+  "Processing": "Käsittely",
+  "Storage & safety": "Tallennus ja turvallisuus",
+  "How long replaced originals can be restored.": "Kuinka kauan korvatut alkuperäiset voidaan palauttaa.",
+  "days": "päivää",
+  "Above this, the oldest originals are deleted permanently.": "Tämän ylittyessä vanhimmat alkuperäiset poistetaan pysyvästi.",
+  "Safety brake": "Turvajarru",
+  "Encoding pauses when the NAS has less free space than this.": "Koodaus keskeytyy, kun NAS:lla on tätä vähemmän vapaata tilaa.",
+  "Scanning": "Skannaus",
+  "Automatic scan": "Automaattinen skannaus",
+  "New files are queued automatically.": "Uudet tiedostot lisätään jonoon automaattisesti.",
+  "Off": "Pois",
+  "Every hour": "Tunnin välein",
+  "Every 6 hours": "6 tunnin välein",
+  "Every 12 hours": "12 tunnin välein",
+  "Daily": "Päivittäin",
+  "Skip folders": "Ohitettavat kansiot",
+  "Comma-separated folder names.": "Pilkuilla erotetut kansioiden nimet.",
+  "Plex": "Plex",
+  "Dashboard address": "Hallintapaneelin osoite",
+  "Use the IP address of the NAS, not localhost.": "Käytä NAS:n IP-osoitetta, älä localhostia.",
+  "Worker key": "Työkoneavain",
+  "Keep secret: with this key a worker can fetch jobs.": "Pidä salassa: tällä avaimella työkone voi hakea töitä.",
+  "Show": "Näytä",
+  "Copy": "Kopioi",
+  "Minimum requirements": "Vähimmäisvaatimukset",
+  "Account & security": "Tili ja tietoturva",
+  "Two-factor authentication": "Kaksivaiheinen tunnistautuminen",
+  "Not active": "Ei käytössä",
+  "New recovery codes": "Uudet palautuskoodit",
+  "Reset MFA": "Nollaa MFA",
+  "Sessions": "Istunnot",
+  "Sign out everywhere else": "Kirjaudu ulos kaikkialta muualta",
+  "Sign out": "Kirjaudu ulos",
+  "You have unsaved changes.": "Sinulla on tallentamattomia muutoksia.",
+  "Cancel": "Peruuta",
+  "Save": "Tallenna",
+  "Language": "Kieli",
+  "Theme": "Teema",
+  "Light": "Vaalea",
+  "Dark": "Tumma",
+  "Auto": "Auto",
+  "Dashboard language.": "Hallintapaneelin kieli.",
+  "Auto follows your system setting.": "Auto seuraa järjestelmäsi asetusta.",
+  "Reset": "Nollaa",
+  "Create new codes": "Luo uudet koodit",
+  "Close": "Sulje",
+  "Code from your authenticator app": "Koodi todennussovelluksesta",
+  "Sign in": "Kirjaudu sisään",
+  "Activate": "Ota käyttöön",
+  "Set up two-factor authentication": "Ota kaksivaiheinen tunnistautuminen käyttöön",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Skannaa QR-koodi todennussovelluksellasi ja anna 6-numeroinen koodi.",
+  "Manual:": "Manuaalisesti:",
+  "6-digit code": "6-numeroinen koodi",
+  "123456 or recovery code": "123456 tai palautuskoodi",
+  "Save your recovery codes": "Tallenna palautuskoodisi",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Hukkasitko puhelimesi? Kukin näistä koodeista kirjaa sinut sisään kerran. Ne näytetään vain kerran.",
+  "I have saved them": "Olen tallentanut ne",
+  "Save them now, they are shown only once.": "Tallenna ne nyt, ne näytetään vain kerran.",
+  "Server not responding": "Palvelin ei vastaa",
+  "Sign-in failed": "Kirjautuminen epäonnistui",
+  "Code is incorrect": "Koodi on väärä",
+  "Code is incorrect - check the time on your phone": "Koodi on väärä - tarkista puhelimesi kellonaika",
+  "Scan started": "Skannaus aloitettu",
+  "scan already running": "skannaus on jo käynnissä",
+  "Copied": "Kopioitu",
+  "Resumed": "Jatkettu",
+  "Paused: a running job will finish first": "Keskeytetty: käynnissä oleva työ tehdään ensin loppuun",
+  "Added to the queue": "Lisätty jonoon",
+  "Not applicable": "Ei sovellettavissa",
+  "At least one language": "Vähintään yksi kieli",
+  "Skip this job?": "Ohitetaanko tämä työ?",
+  "Restore the original? The new version will be deleted.": "Palautetaanko alkuperäinen? Uusi versio poistetaan.",
+  "on": "päällä",
+  "off": "pois",
+  "Quarantine cleanup": "Karanteenin siivous",
+  "Background task": "Taustatehtävä",
+  "Planning at startup": "Suunnittelu käynnistyksessä",
+  "Welcome": "Tervetuloa",
+  "Next": "Seuraava",
+  "Previous": "Edellinen",
+  "Next (or skip)": "Seuraava (tai ohita)",
+  "Done, go to the overview": "Valmis, siirry yleiskatsaukseen",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan pienentää elokuviasi ja sarjojasi ilman näkyvää eroa ja täydentää puuttuvat tekstitykset. Alkuperäiset korvataan vasta laatutarkistuksen jälkeen, ja ne säilytetään ensin jonkin aikaa karanteenissa.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Kuusi lyhyttä vaihetta, niin olet valmis. Voit muuttaa kaikkea myöhemmin Asetuksissa.",
+  "Your library": "Kirjastosi",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan etsii nyt videoita mediakansiostasi. Suuressa kirjastossa ensimmäinen skannaus kestää jonkin aikaa; voit jatkaa normaalisti.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Kansiot, joihin MediaScan ei koskaan koske, pilkuilla erotettuina (esim. Music, Downloads).",
+  "Scan again": "Skannaa uudelleen",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Valitse kielet, jotka jokaisella tiedostolla pitäisi olla. MediaScan etsii puuttuvia OpenSubtitlesista. Jos se ei onnistu, työkone tekee tekstityksen itse (puheentunnistus ja käännös omalla tietokoneellasi).",
+  "Click a language to remove it.": "Poista kieli napsauttamalla sitä.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Jokainen elokuva mitataan VMAF:lla, joka kuvaa, miltä kuva näyttää ihmissilmälle. ”Korkea” on lähes kaikille erottamaton alkuperäisestä.",
+  "Higher = better picture, less space saved.": "Korkeampi = parempi kuva, vähemmän säästöä.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Turvaverkko rakeisuudelle ja tummille kohtauksille. 5 Mbps on hyvä oletus; 4K ja muut resoluutiot skaalautuvat vastaavasti.",
+  "Plex (optional)": "Plex (valinnainen)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Kun Plex on yhdistetty, MediaScan odottaa elokuvan korvaamisen kanssa, kun joku katsoo sitä, ja päivittää Plexin jokaisen muutoksen jälkeen. Ei Plexiä? Ohita tämä vaihe.",
+  "Plex address and token": "Plex-osoite ja token",
+  "Plex token": "Plex-token",
+  "token (unchanged)": "token (ennallaan)",
+  "Add a worker": "Lisää työkone",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Raskas työ tehdään PC:llä tai Macilla, jossa on hyvä näytönohjain: työkoneella. Asenna se nyt tai myöhemmin Työkoneet-sivulta. Niin kauan kuin työkonetta ei ole, tiedostoillesi ei tapahdu mitään.",
+  "✓ A worker is connected.": "✓ Työkone on yhdistetty.",
+  "Done! MediaScan is set up.": "Valmista! MediaScan on määritetty.",
+  "Connect the media share on the new machine.": "Yhdistä mediajako uudella koneella.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: asemakirjain tai \\\\NAS\\Media · Mac: Finder › Yhdistä palvelimeen · Linux: katso ohjeet paketista.",
+  "Download the package for that system and unpack it.": "Lataa paketti kyseiselle järjestelmälle ja pura se.",
+  "Run the installer.": "Suorita asennusohjelma.",
+  "The installer asks for the details below and tests the connection.": "Asennusohjelma kysyy alla olevat tiedot ja testaa yhteyden.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 tai uudempi, Intel Arc tai 11. sukupolven+ iGPU, AMD RX 6000+ · 4 ydintä · 8 GB · 100 GB vapaata · langallinen verkko. Tekstitykset: NVIDIA, 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (tekstitykset: 24 GB+) · 150 GB vapaata · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Työkoneet päivittyvät itsestään, kun tässä hallintapaneelissa on uusi versio.",
+  "What the workers are doing now and what is planned next.": "Mitä työkoneet tekevät nyt ja mitä on suunnitteilla seuraavaksi.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Pienennä tiedostoja ilman näkyvää laadun heikkenemistä. Työkone käy jonon läpi ylhäältä alaspäin.",
+  "select page": "valitse sivu",
+  "select": "valitse",
+  "to encode": "koodattavat",
+  "Movie": "Elokuva",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Korvatut alkuperäiset, säilytetään jonkin aikaa, jotta voit palauttaa ne tai koodata ne uudelleen.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Miten MediaScan toimii: laatu, tekstitykset, tallennustila ja tietoturva.",
+  "General": "Yleiset",
+  "Advanced": "Lisäasetukset",
+  "Connection": "Yhteys",
+  "Hand out new encode jobs to the workers.": "Jaa uusia koodaustöitä työkoneille.",
+  "Hand out new subtitle jobs to the workers.": "Jaa uusia tekstitystöitä työkoneille.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Kuinka tiukka VMAF-mittaus on. Korkeampi = parempi kuva, vähemmän säästöä.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Mitkä tekstitykset jokaisella tiedostolla pitäisi olla. Puuttuvia etsitään, tai muuten ne luodaan.",
+  "Go to Workers": "Siirry Työkoneisiin",
+  "new": "uusi",
+  "start": "aloitus",
+  "Minimum bitrate (4K)": "Vähimmäisbittinopeus (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Oma alaraja 4K:lle 1080p-arvon 2,5-kertaisen sijaan. 0 = automaattinen. HDR +15 % ja animaatio ×0,6 pätevät myös tässä.",
+  "Ready to use in a few steps.": "Käyttövalmis muutamassa vaiheessa.",
+  "next": "seuraava",
+  "read error": "lukuvirhe",
+  "MFA is already enabled": "MFA on jo käytössä",
+  "a .mkv with that name already exists": "samanniminen .mkv on jo olemassa",
+  "a file already exists at the original location": "tiedosto on jo alkuperäisessä sijainnissa",
+  "action not possible in this status": "toiminto ei ole mahdollinen tässä tilassa",
+  "walking folders": "käydään kansioita läpi",
+  "planning jobs": "suunnitellaan töitä",
+  "check on the NAS rejected (duration/tracks)": "NASin tarkistus hylättiin (kesto/raidat)",
+  "expected a JSON object": "odotettiin JSON-objektia",
+  "ffprobe error": "ffprobe-virhe",
+  "invalid resolution": "virheellinen resoluutio",
+  "invalid worker token": "virheellinen worker-tunnus",
+  "job belongs to another worker": "työ kuuluu toiselle workerille",
+  "job is no longer active": "työ ei ole enää aktiivinen",
+  "no video track": "ei videoraitaa",
+  "not JSON": "ei JSON",
+  "not signed in": "ei kirjautunut",
+  "original disappeared": "alkuperäinen katosi",
+  "original has changed in the meantime": "alkuperäinen on muuttunut sillä välin",
+  "original is no longer in quarantine": "alkuperäinen ei ole enää karanteenissa",
+  "original no longer available": "alkuperäinen ei ole enää saatavilla",
+  "request refused": "pyyntö hylättiin",
+  "target file already exists": "kohdetiedosto on jo olemassa",
+  "the original has already been removed from quarantine - comparing is no longer possible": "alkuperäinen on jo poistettu karanteenista - vertailu ei ole enää mahdollista",
+  "this film has not been replaced yet": "tätä elokuvaa ei ole vielä korvattu",
+  "unknown action": "tuntematon toiminto",
+  "worker is still online": "worker on edelleen online-tilassa",
+  "In use now:": "Käytössä nyt:",
+  "longest": "pisin",
+  "8.1 (from profile 7)": "8.1 (profiilista 7)",
+  "Whisper (transcription)": "Whisper (transkriptio)",
+  "1 day ago": "1 päivää sitten",
+  "1 video": "1 videota",
+  "Enter your password to open the dashboard.": "Avaa hallintapaneeli antamalla salasanasi.",
+  "No connection to the server - retrying…": "Ei yhteyttä palvelimeen - yritetään uudelleen…",
+  "Are you sure?": "Oletko varma?",
+  "Restore": "Palauta",
+  "Re-encode": "Koodaa uudelleen",
+  "Delete": "Poista",
+  "Next up": "Seuraavaksi",
+  "in the queue": "jonossa",
+  "Load older entries": "Lataa vanhemmat merkinnät",
+  "Folder: all": "Kansio: kaikki",
+  "Resolution: all": "Tarkkuus: kaikki",
+  "Codec: all": "Koodekki: kaikki",
+  "More": "Lisää",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "elokuva(a) odottaa CPU-koodaajaa, mutta yhdelläkään workerilla ei ole CPU-koodausta päällä (Workers-sivu).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Laitteistosi, kuinka hyvin se sopii työhön, käytetyt työkalut ja miten asetukset toimivat.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Muisti",
+  "Software": "Ohjelmisto",
+  "GPU encoding": "GPU-koodaus",
+  "CPU encoding (x265)": "CPU-koodaus (x265)",
+  "Subtitles (Whisper)": "Tekstitykset (Whisper)",
+  "Translation (Ollama)": "Käännös (Ollama)",
+  "Server": "Palvelin",
+  "Database": "Tietokanta",
+  "Tools in use": "Käytössä olevat työkalut",
+  "Knowledge base": "Tietopankki",
+  "Low": "Matala",
+  "Medium": "Keskitaso",
+  "Ultra": "Ultra",
+  "files": "tiedostoa",
+  "up": "käynnissä",
+  "of": "/",
+  "uses": "käyttää",
+  "free": "vapaana",
+  "Media share": "Mediajako",
+  "Rating": "Arvio",
+  "Hardware details appear after this worker has updated itself.": "Laitteistotiedot näkyvät, kun tämä worker on päivittänyt itsensä.",
+  "no Whisper": "ei Whisperiä",
+  "unified memory": "yhtenäinen muisti",
+  "cores": "ydintä",
+  "threads": "säiettä",
+  "driver": "ajuri",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Tuntematon",
+  "Settings saved": "Asetukset tallennettu",
+  "Time left": "Aikaa jäljellä",
+  "Queued": "Jonossa",
+  "Keep originals for": "Säilytä alkuperäiset",
+  "Quarantine size limit": "Karanteenin kokoraja",
+  "Hide finished items": "Piilota valmistuneet",
+  "Undo skip": "Kumoa ohitus",
+  "not supported here": "ei tuettu tässä",
+  "CPU encoding": "CPU-koodaus",
+  "Retry on CPU (x265)": "Yritä uudelleen CPU:lla (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Koodattu CPU:lla x265:llä (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 grain-säädöllä workerin CPU:lla: säilyttää rakeisuuden paljon tehokkaammin, mutta vie tunteja per elokuva",
+  "CPU fallback for grainy films": "CPU-varakoodaus rakeisille elokuville",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Kun GPU ei pysty säilyttämään laatua ylittämättä lähteen bittinopeutta (filmirae), elokuva koodataan vielä kerran workerin CPU:lla x265:llä, joka säilyttää rakeisuuden paljon tehokkaammin. Vie tunteja per elokuva; kytke CPU-koodaus päälle workerille Workers-sivulla.",
+  "CPU preset": "CPU-esiasetus",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: noin 2 tuntia 2 tunnin 1080p-elokuvalle 8 ytimellä. Slow: 2-3 kertaa pidempi, tiedostot noin 5-10% pienempiä.",
+  "Medium (faster)": "Medium (nopeampi)",
+  "Slow (smaller)": "Slow (pienempi)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Sivua ei voitu ladata.",
+  "up to 1440p": "enintään 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "analysoidaan tiedostoja",
+  "No worker has CPU encodes switched on (Workers page)": "Yhdelläkään workerilla ei ole CPU-koodausta päällä (Workers-sivu)",
+  "the job changed in the meantime": "työ muuttui tällä välin",
+  "Main": "Päänavigointi",
+  "Clear search and filters": "Tyhjennä haku ja suodattimet",
+  "Compact rows": "Tiiviit rivit",
+  "Encoding and subtitles are paused.": "Koodaus ja tekstitykset on keskeytetty.",
+  "Encoding is paused: no new encode jobs are handed out.": "Koodaus on keskeytetty: uusia koodaustöitä ei jaeta.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Tekstitykset on keskeytetty: uusia tekstitystöitä ei jaeta.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Anna sekä Plex-osoite että token, tai jätä molemmat tyhjiksi ohittaaksesi vaiheen.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "NAS:n vapaa tila on turvajarrun alapuolella. Koodaus keskeytettiin automaattisesti.",
+  "Loading…": "Ladataan…",
+  "Next film": "Seuraava elokuva",
+  "Previous film": "Edellinen elokuva",
+  "Next page": "Seuraava sivu",
+  "Previous page": "Edellinen sivu",
+  "Rows per page": "Rivejä sivulla",
+  "Resume": "Jatka",
+  "Resume encoding": "Jatka koodausta",
+  "Resume subtitles": "Jatka tekstityksiä",
+  "Open settings": "Avaa asetukset",
+  "Open the library": "Avaa kirjasto",
+  "Subtitle languages": "Tekstityskielet",
+  "Update": "Päivitä",
+  "No results for this search or filter.": "Ei tuloksia tälle haulle tai suodattimelle.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Koodausjonossa ei ole mitään. Uudet tiedostot lisätään jonoon skannauksen jälkeen.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Tiedostoja ei ole vielä korvattu. Valmiit koodaukset näkyvät tässä laatutarkistuksen jälkeen.",
+  "No files were kept as they are. Films that would save too little end up here.": "Tiedostoja ei ole jätetty ennalleen. Elokuvat, joista säästyisi liian vähän, päätyvät tänne.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Tekstityksiä ei odota jonossa. Tiedostot, joista puuttuu kieli, lisätään jonoon skannauksen jälkeen.",
+  "No subtitle job is running right now.": "Tekstitystyötä ei ole juuri nyt käynnissä.",
+  "No subtitles have been made yet.": "Tekstityksiä ei ole vielä tehty.",
+  "Nothing missing: every file got its subtitles so far.": "Mitään ei puutu: jokainen tiedosto on toistaiseksi saanut tekstityksensä.",
+  "No failed encodes.": "Ei epäonnistuneita koodauksia.",
+  "No failed subtitle jobs.": "Ei epäonnistuneita tekstitystöitä.",
+  "Nothing was added in the last 14 days.": "Viimeisten 14 päivän aikana ei ole lisätty mitään.",
+  "No videos with this plan.": "Ei videoita tällä suunnitelmalla.",
+  "The library is being scanned; videos appear as they are found.": "Kirjastoa skannataan; videot ilmestyvät sitä mukaa kuin niitä löytyy.",
+  "No videos found yet. Check the media folder and run a scan.": "Videoita ei ole vielä löytynyt. Tarkista mediakansio ja käynnistä skannaus.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Karanteenissa ei ole mitään. Korvatut alkuperäiset säilytetään tässä, kunnes säilytysaika päättyy.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Kirjastosta ei löytynyt DVD- tai Blu-ray-kansioita (VIDEO_TS, BDMV).",
+  "1 worker online": "1 työkone online",
+  "A worker is busy with this file": "Työkone käsittelee tätä tiedostoa",
+  "A worker is grabbing the frames": "Työkone poimii kuvia",
+  "A worker is searching or making subtitles": "Työkone etsii tai luo tekstityksiä",
+  "A worker picks up the next job within a few seconds.": "Työkone ottaa seuraavan työn muutamassa sekunnissa.",
+  "Above this, the oldest comparisons are deleted automatically.": "Tämän ylittyessä vanhimmat vertailut poistetaan automaattisesti.",
+  "All replaced films": "Kaikki korvatut elokuvat",
+  "Already efficient: encoding would hardly save anything": "Jo tehokas: koodaus ei säästäisi juuri mitään",
+  "Automatic comparisons": "Automaattiset vertailut",
+  "Being made…": "Luodaan…",
+  "Can be made": "Voidaan luoda",
+  "Can encode on the CPU with x265": "Voi koodata CPU:lla x265:llä",
+  "Comparison storage limit": "Vertailujen tallennusraja",
+  "Comparisons": "Vertailut",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: ei koodattu uudelleen, DV-kerros katoaisi",
+  "Encoding is paused.": "Koodaus on keskeytetty.",
+  "Enlarge": "Suurenna",
+  "Errors": "Virheet",
+  "Flip": "Vaihda",
+  "Four frames of the original and the new version are stored": "Neljä kuvaa alkuperäisestä ja uudesta versiosta on tallennettu",
+  "Full width": "Täysi leveys",
+  "GPU encoder found": "GPU-enkooderi löytyi",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Poimi jokaisesta korvatusta elokuvasta neljä kuvaa alkuperäisestä ja uudesta versiosta, jotta voit aina tarkistaa kuvan Vertaa-sivulla. Noin 1–2 MB per elokuva.",
+  "Keyboard shortcuts": "Pikanäppäimet",
+  "Leave without saving? Your changes to the settings will be lost.": "Poistutaanko tallentamatta? Asetuksiin tekemäsi muutokset menetetään.",
+  "Moved to the front": "Siirretty kärkeen",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Ei vielä vertailuja. Luo sellainen, kun alkuperäinen on vielä karanteenissa, tai ota automaattiset vertailut käyttöön Asetuksissa.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Mitään elokuvaa ei voi nyt verrata: alkuperäiset ovat poistuneet karanteenista, tai mitään ei ole vielä korvattu.",
+  "No longer possible": "Ei enää mahdollista",
+  "No subtitles found online and none could be made": "Tekstityksiä ei löytynyt verkosta eikä niitä voitu luoda",
+  "Ollama found: can translate subtitles": "Ollama löytyi: voi kääntää tekstityksiä",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Osa DVD- tai Blu-ray-kansiota; muunna se DVD & Blu-ray -sivulla",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Keskeytetty automaattisesti: NAS:lla on vähemmän vapaata tilaa kuin turvajarru.",
+  "Planned for encoding": "Suunniteltu koodattavaksi",
+  "Queued for the CPU encoder": "Jonossa CPU-enkooderille",
+  "Replaced after the quality check; the original is in quarantine for a while": "Korvattu laatutarkistuksen jälkeen; alkuperäinen on jonkin aikaa karanteenissa",
+  "Replaced films appear here after their first encode.": "Korvatut elokuvat näkyvät tässä ensimmäisen koodauksen jälkeen.",
+  "Search the log…": "Hae lokista…",
+  "Show films that can be compared": "Näytä elokuvat, joita voi verrata",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Näytä alkuperäinen ja uusi versio vuorotellen: paras tapa huomata rakeisuus ja yksityiskohdat",
+  "Skipped": "Ohitettu",
+  "Skipped by you; Retry puts it back in the queue": "Ohitit tämän; ”Yritä uudelleen” palauttaa sen jonoon",
+  "Slider back to the middle": "Liukusäädin takaisin keskelle",
+  "Smaller": "Pienennä",
+  "Stopped because the file changed or disappeared": "Pysäytetty, koska tiedosto muuttui tai katosi",
+  "Stopped with an error; see the message and try again": "Pysähtyi virheeseen; katso viesti ja yritä uudelleen",
+  "Subtitles are paused.": "Tekstitykset on keskeytetty.",
+  "The file could not be read; see the drawer": "Tiedostoa ei voitu lukea; katso sivupaneeli",
+  "The new file would save less than the minimum saving, so the original was kept": "Uusi tiedosto säästäisi vähemmän kuin vähimmäissäästö, joten alkuperäinen säilytettiin",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Uusi versio on NAS:lla ja vaihdetaan heti, kun kukaan ei katso",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Alkuperäinen on poistunut karanteenista, joten kuvia ei voi enää poimia",
+  "The original is still in quarantine, so the frames can still be grabbed": "Alkuperäinen on vielä karanteenissa, joten kuvat voi yhä poimia",
+  "The original was put back from quarantine": "Alkuperäinen palautettiin karanteenista",
+  "The queue is empty. New files are queued after a scan.": "Jono on tyhjä. Uudet tiedostot lisätään jonoon skannauksen jälkeen.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Palvelin jakaa uudempia työkoneen tiedostoja; työkone asentaa ne nykyisen työn jälkeen",
+  "Undo": "Kumoa",
+  "Waiting for Plex: someone is watching this film": "Odottaa Plexiä: joku katsoo tätä elokuvaa",
+  "Waiting for a worker; the queue runs from top to bottom": "Odottaa työkonetta; jono käsitellään ylhäältä alas",
+  "Warnings": "Varoitukset",
+  "Whisper installed: can make subtitles": "Whisper asennettu: voi luoda tekstityksiä",
+  "Would save less than the minimum saving": "Säästäisi vähemmän kuin vähimmäissäästö",
+  "expires today": "vanhenee tänään",
+  "expires within a day": "vanhenee vuorokauden sisällä",
+  "less than a day left": "alle päivä jäljellä",
+  "waiting for Plex": "odottaa Plexiä",
+  "update pending": "päivitys odottaa",
+  "Tap to switch between original and new": "Napauta vaihtaaksesi alkuperäisen ja uuden välillä",
+  "Repeated": "Toistunut",
+  "Search in the current list": "Hae nykyisestä luettelosta",
+  "Clear the search, close a drawer or dialog": "Tyhjennä haku, sulje paneeli tai valintaikkuna",
+  "Previous or next film on a comparison": "Edellinen tai seuraava elokuva vertailussa",
+  "Open or switch the focused row, switch or header": "Avaa tai vaihda kohdistettu rivi, kytkin tai otsikko",
+  "This list": "Tämä luettelo",
+  "Nothing in the log matches this.": "Lokista ei löydy vastaavaa.",
+  "Nothing has happened yet.": "Mitään ei ole vielä tapahtunut.",
+  "No worker is online, so nothing can run.": "Yhtään työkonetta ei ole yhteydessä, joten mitään ei voi ajaa.",
+  "There is no worker yet. Add one to get started.": "Työkonetta ei ole vielä. Lisää sellainen aloittaaksesi.",
+  "Open Workers": "Avaa Työkoneet",
+  "Some values are out of range.": "Jotkin arvot ovat sallitun alueen ulkopuolella.",
+  "no capabilities reported": "ei ilmoitettuja ominaisuuksia",
+  "Replaced · expires": "Korvattu · vanhenee",
+  "Made": "Luotu",
+  "Make": "Luo",
+  "lots of motion": "paljon liikettä",
+  "dark scene": "tumma kohtaus",
+  "a quarter in": "neljänneksen kohdalla",
+  "three quarters in": "kolmen neljänneksen kohdalla",
+  "Encoded": "Koodattu",
+  "Finished": "Valmis",
+  "later": "myöhemmin",
+  "Leave": "Poistu",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Vertailu ottaa 4 kuvaa alkuperäisestä ja uudesta versiosta (yhteensä noin 1–2 Mt). Sen voi tehdä niin kauan kuin alkuperäinen on vielä karanteenissa, ja se säilyy kunnes poistat sen, myös alkuperäisen poistuttua.",
+  "Retry on CPU": "Yritä uudelleen CPU:lla",
+  "Scan": "Skannaus"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1aloitus$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Nyt: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan löysi $1 videota ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · heikoin 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "heikoin 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Uudet ($1 päivää)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Suunnitelma: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Korvaus epäonnistui ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} epäonnistui{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Skannaus valmis: $1 videota, $2 uutta, $3 muuttunutta, $4 kadonnutta; lisätty $5 koodaustyötä ja $6 tekstitystyötä"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Skannaus valmis: $1 videota, $2 uutta, $3 muuttunutta, $4 kadonnutta, $5 ohitetuissa kansioissa; lisätty $6 koodaustyötä ja $7 tekstitystyötä"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Koodataanko $1 elokuva(a) uudelleen nykyisillä säännöillä? Alkuperäiset palautetaan ja elokuvat saavat etusijan jonossa."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 elokuva(a) takaisin jonossa{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 alkuperäinen/alkuperäistä palautettu ja lisätty uudelleen jonoon (nykyiset säännöt)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Uusi: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Korvattu: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray muunnettu: $1 ($2 GB); levykansio on karanteenissa"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Alkuperäinen palautettu: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 aloitti {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 työ(tä) (kaikki $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Valinta jaettu - koodaus keskeytetty automaattisesti"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Valinta jaettu - tekstitykset keskeytetty automaattisesti"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Asetuksia muutettu: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Työn $1 virhe: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Työ $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Työkone $1 ei yhteydessä: $2 työ(tä) takaisin jonossa"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 käynnistyi uudelleen: $2 keskeytynyttä työtä takaisin jonossa"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 päivitetty versioon $2: $3 epäonnistunutta työtä takaisin jonossa"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Työkone $1 poistettu"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Työkone $1: koodaus {t:$2}, tekstitykset {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Suunnitelma päivitetty: lisätty $1 koodaustyötä ja $2 tekstitystyötä"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 työ(tä) lisätty jonoon käsin"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 työ(tä): $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 vertailu(a) poistettu"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Kirjauduttu ulos $1 muusta istunnosta"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Palautuskoodilla kirjauduttu sisään ($1 jäljellä)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Alkuperäisiä säilytetään enintään $1 päivää ja yhteensä koskaan yli $2. Vanhimmat poistuvat ensin. Palautus poistaa uuden version."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - poista napsauttamalla"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 kansio(ta) muunnetaan · työkone aloittaa puolen minuutin sisällä"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 ääni · $2 tekstitys"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Poistetaanko $1 vertailu(a)? Itse elokuvat pysyvät ennallaan."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Kuva $1 · kohdassa $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Kuva $1 · kohdassa $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB jpg-muodossa"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Koodausaika $1 min · mitattu 8 katkelmasta, sitten tarkistettu koko elokuvasta."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Nyt mukana: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "heikoin 5% $1 · tavoite $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "ajoitus $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Kuvien luonti epäonnistui: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "valinta · seuraava"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "valinta · $1."
+  ],
+  [
+   "^Now:$",
+   "",
+   "Nyt:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· sitten vielä $1 valinnasta"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "arvio · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 aiemmin valmistunutta · näytä"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 lisätty valintaan · työkone aloittaa muutaman sekunnin sisällä"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Valinta {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "luotu: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% pienempi$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "juuri nyt"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 min sitten"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 t sitten"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 päivää sitten"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "nähty {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 pv $2 t"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 t $2 min"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 videota"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "karanteeni $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 / 24 t"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 hyöty"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB hyöty"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% pienempi käsitellyissä tiedostoissa"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "työkone $1 yhteydessä"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "vielä $1 aloitettavana, sitten tauko"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 kohdetta · sivu $2/$3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 valittu"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Valitse kaikki $1 tulosta"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Skannataan: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× yritetty"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 min"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Käytössä · $1 palautuskoodia jäljellä"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 aktiivista istuntoa, mukaan lukien tämä."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 päivitetty{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 muuta istuntoa kirjattu ulos"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Käsitelläänkö vain nämä $1? Ne saavat etusijan, käsittely jatkuu ja keskeytyy taas automaattisesti sen jälkeen."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Ohitetaanko $1 työ(tä)?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Palautetaanko $1 alkuperäinen/alkuperäistä? Uudet versiot poistetaan."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Poistetaanko työkone $1 luettelosta? Jos se palaa verkkoon, se ilmestyy takaisin automaattisesti."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "käynnissä $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 jäljellä"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "enintään $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "työn alla"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex yhdistetty (versio $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex ei vastaa oikein: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "virhe: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "korvaus epäonnistui: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "virheellinen arvo kohteelle $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 on oltava välillä $2–$3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · huonoin 5 % $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 h"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU ei pystynyt säilyttämään laatua - jonossa CPU-koodaajalle (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Staging-siivous: jäänne poistettu $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 sivulla"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 työkonetta online"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · työkoneen lisääminen, työkoneavain ja lataukset löytyvät Työkoneet-sivulta."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · alkaa ~{t:$2} kuluttua · arvio"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · arvio"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 päivää jäljellä"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "vanhenee $1 päivän kuluttua"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Luotu · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Voidaan luoda · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · vaihe $1/$2 · ~{t:$3} jäljellä"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · vaihe $1/$2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · ~{t:$1} jäljellä"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 vertailu(a) pyydetty · valmiina muutamassa minuutissa"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Luodaanko $1 vertailu(a)? Noin 1–2 MB kukin."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Toistunut $1 kertaa"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "välillä $1–$2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 työ(tä)"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Virhe tiedostossa $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 vertailu(a) pyydetty"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Vertailut siivottu: $1 poistettu (yli $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Karanteenikansio nimetty uudelleen quarantine ($1 tietue(tta) päivitetty)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Työkone $1 poistettu: $2 työ(tä) takaisin jonossa"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Karanteeni: $1 on jo olemassa, $2 jätettiin paikalleen"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Karanteenikansio nimetty uudelleen quarantine; $1 tietue(tta) päivitetty, mutta $2 ei ole vielä tyhjä"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Karanteenikansion uudelleennimeäminen epäonnistui (onko mediajako liitetty?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "uusi versio puuttuu stagingista"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "uusi .mkv puuttuu stagingista"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "alkuperäinen on kadonnut"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "alkuperäinen on muuttunut sillä välin"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "alkuperäinen ei ole enää saatavilla"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "tarkistus NAS:illa hylätty (kesto/raidat)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray muunnettu mkv:ksi"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "uusi yritys worker-päivityksen jälkeen"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "ohitit tämän"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "kohdetiedosto on jo olemassa"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker offline - ajoitettu uudelleen"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker poistettu - ajoitettu uudelleen"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker käynnistetty uudelleen - ajoitettu uudelleen"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "korvaus epäonnistui: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision puuttuu uudesta mkv:stä"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: ei uudelleenkoodattu (DV-kerros katoaisi)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "virtaa ei voi kopioida .mkv:hen: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg ei edistynyt $1 minuuttiin (jako ei tavoitettavissa?) - pysäytetty"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 / $2 tiedostoa puuttuu yhtä aikaa - jako ei tavoitettavissa? Mitään ei merkitty kadonneeksi"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "käännös epäonnistui: ei käyttökelpoista vastausta $1 riville uudelleenyritysten jälkeen"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: palvelinvirhe"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - lataa malli (ollama pull <model>) tai korjaa ollama_model worker.ini-tiedostossa"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama ei vastaa osoitteessa $1 ($2) - käynnistä Ollama tai tarkista ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama ei vastaa: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama epäonnistui toistuvasti $2 minuutin ajan"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 kesti yli tunnin - onko mediajako yhä tavoitettavissa?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 puuttuu; asenna se $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "koko elokuvan VMAF $1 ei ole uskottava millään paritusmenetelmällä (näytteet $2); matala kohdissa $3. Alkuperäinen säilytetty; tarkista lähde sieltä"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: tiedostoa ei voi lukea"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: epäonnistui"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "PC:llä ei ole tarpeeksi vapaata tilaa tälle elokuvalle ($1 GB tarvitaan kohteessa $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "työkansiossa ei ole tarpeeksi tilaa: $1 GB vapaana, ~$2 GB tarvitaan"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "bittinopeuden minimillä enintään $1% pienempi"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "puretaan metadata parannuskerroksesta"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "lataus ei täsmää (sha256) - ei käytetä"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "tarkistus: kesto tai virtojen määrä poikkeaa"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "uusi mkv on liian lyhyt ($1 / $2 min)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1/$2 valmis, odottaa työkonetta"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "muunnetaan Dolby Vision profiiliin 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "lisätään metadata peruskerrokseen"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "tarkistetaan VMAF (toinen mittaus)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "mikään asetus ei saavuta laatutavoitetta"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "latausraja saavutettu - loput myöhemmin"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "OpenSubtitlesin päiväraja saavutettu"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "osittain; loput latausrajan jälkeen"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 ei löytynyt latauksen jälkeen"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: tunnistettu puhuttu kieli"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (käännetty kielestä $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "odottaa vapaata tilaa PC:llä"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "tekstitystiedosto on odottamattoman suuri"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "itsetestin mittaus epäluotettava"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "käännösyritys $1 epäonnistui"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "odottaa: katsotaan parhaillaan Plexissä"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "odotettu vain $1% pienempi"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "ladataan $1 (kertaluonteinen)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "koko elokuvan tarkistus alle tavoitteen"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "kuvaa ei voi ottaa kohdassa $1 s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "koko elokuva hieman alle tavoitteen"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "etsitään elokuvaa levyltä"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "laatutavoite ei saavutettavissa"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "tarkistusmittaus epäluotettava"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "virheellinen polku palvelimelta"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "uudelleen: vähimmäishyöty nyt 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper käynnissä GPU:lla"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "DVD:ltä ei löytynyt nimikkeitä"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "epäilyttävä polku arkistossa"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "odottaa: Plex ei tavoitettavissa"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "työn alla $1/$2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles ei vastaa"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (transkriptio)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "tarkistetaan VMAF koko elokuvasta"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "valmis, odottaa korvausta"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "vanha kansio karanteeniin"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "tarkistus VMAF $1 liian matala"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "luetaan levyä (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "käännetty englannista"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "valmis ($1/$2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "äänen purku epäonnistui"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "palataan CPU:hun"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles kirjautunut"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (profiilista 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "odotetaan työkonetta"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "epäilyttävä polku zipissä"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "upotettu EN ei ole luettavissa"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "pisin tähän mennessä: nimike"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "ajoitus ei täsmää"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "vain $1% pienempi"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "katkelma $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "säilytetään alkuperäinen"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "latauksia jäljellä tänään"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "nimike $1 tarkistettu"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "odottaa korvausta"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "kopioidaan NAS:iin"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "alkuperäinen säilyy"
+  ],
+  [
+   "translation failed",
+   "g",
+   "käännös epäonnistui"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "palvelin ei vastaa"
+  ],
+  [
+   "searching quality",
+   "g",
+   "etsitään laatua"
+  ],
+  [
+   "making references",
+   "g",
+   "luodaan vertailukohtia"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "muunnetaan mkv:ksi"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "tekstitys pysäytetty"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "kopioidaan NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "kopioidaan PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "etsitään elokuvaa"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "yhdistetään mkv:ksi"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "pisin soittolista"
+  ],
+  [
+   "timing reference",
+   "g",
+   "ajoitusviite"
+  ],
+  [
+   "speech segments",
+   "g",
+   "puhejaksot"
+  ],
+  [
+   "too little gain",
+   "g",
+   "liian pieni hyöty"
+  ],
+  [
+   " not applicable",
+   "g",
+   " ei sovellettavissa"
+  ],
+  [
+   "download failed",
+   "g",
+   "lataus epäonnistui"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "ffsubsyncin jälkeen"
+  ],
+  [
+   "translating to",
+   "g",
+   "käännetään kielelle"
+  ],
+  [
+   "next candidate",
+   "g",
+   "seuraava ehdokas"
+  ],
+  [
+   "after shifting",
+   "g",
+   "siirron jälkeen"
+  ],
+  [
+   "reading audio",
+   "g",
+   "luetaan ääntä"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Valinta · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 odottaa"
+  ],
+  [
+   "search failed",
+   "g",
+   "haku epäonnistui"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "koodataan uudelleen"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "nimike $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " virhe(ttä)"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 valmis"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "tekstitykset:"
+  ],
+  [
+   "replacing",
+   "g",
+   "korvataan"
+  ],
+  [
+   "subtitles",
+   "g",
+   "tekstitykset"
+  ],
+  [
+   "candidate",
+   "g",
+   "ehdokas"
+  ],
+  [
+   "encoding:",
+   "g",
+   "koodaus:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "aloitus"
+  ],
+  [
+   "encoding",
+   "g",
+   "koodataan"
+  ],
+  [
+   "checking",
+   "g",
+   "tarkistetaan"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", enintään "
+  ],
+  [
+   "present",
+   "g",
+   "mukana"
+  ],
+  [
+   "missing",
+   "g",
+   "puuttuu"
+  ],
+  [
+   "speed",
+   "g",
+   "nopeus"
+  ],
+  [
+   "saved",
+   "g",
+   "tallennettu"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU ei pystynyt säilyttämään laatua - jonossa CPU-koodaajalle (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Staging-siivous: jäänne poistettu"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "mediakansio on tyhjä tai sitä ei ole liitetty - mitään ei muutettu"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "laadun säilyttäminen vaatisi enemmän bittinopeutta kuin lähteessä on"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "vaatii enemmän bittinopeutta kuin lähde"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker käynnistyy uudelleen päivitystä varten"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "ei videoraitaa (vain kansikuva?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "ei ääniraitaa litteroitavaksi"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "PC:llä ei ole tarpeeksi vapaata tilaa tälle elokuvalle"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "yritetään uudelleen CPU:lla (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "käydään kansioita läpi"
+  ],
+  [
+   "analysing files",
+   "g",
+   "analysoidaan tiedostoja"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "suunnitellaan töitä"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU-koodaus päällä"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU-koodaus pois"
+  ]
+ ]
+}

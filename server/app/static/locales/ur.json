@@ -1,0 +1,2060 @@
+{
+ "name": "اردو",
+ "s": {
+  "Re-encode from original": "اصل سے دوبارہ انکوڈ کریں",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "موجودہ اصولوں کے ساتھ دوبارہ انکوڈ کریں؟ اصل فائل بحال ہو جائے گی اور فلم کو ترجیح ملے گی۔",
+  "Back in the queue": "واپس قطار میں",
+  "Restore originals": "اصل فائلیں بحال کریں",
+  "Minimum bitrate (1080p)": "کم از کم بٹ ریٹ (1080p)",
+  "Extra floor (share of the source)": "اضافی کم از کم حد (ماخذ کا حصہ)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "اختیاری: اصل ویڈیو بٹ ریٹ کا کم از کم یہ حصہ بھی رکھیں۔ صرف بہت زیادہ بٹ ریٹ والے ماخذ کے لیے مفید۔ 0 = بند۔",
+  "with the minimum bitrate at most": "کم از کم بٹ ریٹ کے ساتھ زیادہ سے زیادہ",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "نئی فائل اس سے کبھی کم نہیں ہوتی، چاہے VMAF اجازت دے۔ دیگر ریزولوشنز تناسب سے: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · اینیمیشن ×0.6۔",
+  "bitrate already near the minimum": "بٹ ریٹ پہلے ہی کم از کم کے قریب",
+  "MFA reset from settings - set it up again": "ترتیبات سے MFA ری سیٹ - اسے دوبارہ سیٹ کریں",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA_RESET کے ذریعے MFA ری سیٹ - کنٹینر کی ترتیبات سے MFA_RESET دوبارہ ہٹا دیں",
+  "MFA enabled": "MFA فعال",
+  "MediaScan started": "MediaScan شروع ہو گیا",
+  "New recovery codes created": "نئے ریکوری کوڈ بنائے گئے",
+  "Password changed; other sessions signed out": "پاس ورڈ تبدیل ہو گیا؛ دیگر سیشنز سائن آؤٹ کر دیے گئے",
+  "Password set (first time)": "پاس ورڈ سیٹ ہو گیا (پہلی بار)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "نوٹ: ADMIN_PASSWORD 10 حروف سے چھوٹا ہے - ترتیبات میں مضبوط پاس ورڈ منتخب کریں",
+  "part of a DVD/Blu-ray folder": "DVD/Blu-ray فولڈر کا حصہ",
+  "folder is in Skip folders": "فولڈر \"نظرانداز فولڈرز\" میں ہے",
+  "file disappeared": "فائل غائب ہو گئی",
+  "worker restarted - rescheduled": "ورکر دوبارہ شروع ہوا - دوبارہ شیڈول کیا گیا",
+  "worker offline - rescheduled": "ورکر آف لائن - دوبارہ شیڈول کیا گیا",
+  "retry after worker update": "ورکر اپ ڈیٹ کے بعد دوبارہ کوشش",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray کو mkv میں تبدیل کیا گیا",
+  "skipped by you": "آپ نے چھوڑ دیا",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "جب کوئی فلم دیکھی جا رہی ہو تو تبدیلی انتظار کرتی ہے، اور ہر تبدیلی کے بعد Plex ریفریش ہوتا ہے۔",
+  "Confirm with your password and a code from your app.": "اپنے پاس ورڈ اور ایپ کے کوڈ سے تصدیق کریں۔",
+  "Your old recovery codes will stop working.": "آپ کے پرانے ریکوری کوڈ کام کرنا بند کر دیں گے۔",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "آپ کا موجودہ تصدیقی ایپ کا لنک اور ریکوری کوڈ کام کرنا بند کر دیں گے۔ آپ فوراً MFA دوبارہ سیٹ کریں گے۔",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "ڈیش بورڈ کے لیے پاس ورڈ منتخب کریں۔ سیٹ اپ کوڈ کنٹینر لاگ میں ہے (Container Manager › mediascan › Log، یا",
+  "- click to remove": "- ہٹانے کے لیے کلک کریں",
+  "Invalid address, e.g. http://192.168.1.10:32400": "غلط پتہ، مثلاً http://192.168.1.10:32400",
+  "Enter a Plex token": "Plex token درج کریں",
+  "A password has already been set": "پاس ورڈ پہلے ہی سیٹ ہو چکا ہے",
+  "The key is fixed in WORKER_TOKEN (container environment)": "کلید WORKER_TOKEN (کنٹینر environment) میں مقرر ہے",
+  "selection still running - pause or wait until it is done": "انتخاب ابھی جاری ہے - روکیں یا مکمل ہونے کا انتظار کریں",
+  "Now running": "ابھی جاری",
+  "Finding the film on the disc": "ڈسک پر فلم تلاش کی جا رہی ہے",
+  "Converting to one .mkv": "ایک .mkv میں تبدیل کیا جا رہا ہے",
+  "Checking (duration, tracks)": "جانچ (دورانیہ، ٹریکس)",
+  "Copying to the NAS": "NAS پر کاپی کیا جا رہا ہے",
+  "Old folder to quarantine": "پرانا فولڈر قرنطینہ میں",
+  "worker has not reported for a while": "ورکر نے کچھ دیر سے رپورٹ نہیں کیا",
+  "waiting for the worker": "ورکر کا انتظار",
+  "Welcome to MediaScan": "MediaScan میں خوش آمدید",
+  "Setup code": "سیٹ اپ کوڈ",
+  "New password (at least 10 characters)": "نیا پاس ورڈ (کم از کم 10 حروف)",
+  "Repeat password": "پاس ورڈ دہرائیں",
+  "Set password": "پاس ورڈ سیٹ کریں",
+  "The passwords do not match": "پاس ورڈ مماثل نہیں",
+  "Setup code is wrong - check the container log": "سیٹ اپ کوڈ غلط ہے - کنٹینر لاگ دیکھیں",
+  "Choose a password of at least 10 characters": "کم از کم 10 حروف کا پاس ورڈ منتخب کریں",
+  "Animation folders": "اینیمیشن فولڈرز",
+  "Top-level folders with animation: these may use a lower bitrate.": "اینیمیشن والے اوپری سطح کے فولڈرز: ان میں کم بٹ ریٹ استعمال ہو سکتا ہے۔",
+  "Where do I find the token?": "token کہاں ملے گا؟",
+  "Connect": "منسلک کریں",
+  "Disconnect": "منقطع کریں",
+  "Connected": "منسلک",
+  "Not connected": "منسلک نہیں",
+  "+ Add language": "+ زبان شامل کریں",
+  "Renew": "تجدید کریں",
+  "Worker version": "ورکر ورژن",
+  "Password": "پاس ورڈ",
+  "Other sessions are signed out after a change.": "تبدیلی کے بعد دیگر سیشنز سائن آؤٹ ہو جاتے ہیں۔",
+  "Change password": "پاس ورڈ تبدیل کریں",
+  "Other sessions will be signed out.": "دیگر سیشنز سائن آؤٹ ہو جائیں گے۔",
+  "Change": "تبدیل کریں",
+  "New worker key": "نئی ورکر کلید",
+  "Create new key": "نئی کلید بنائیں",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "نئی کلید درج کرنے تک تمام ورکرز رک جائیں گے (انسٹالر دوبارہ چلائیں یا worker.ini میں ترمیم کریں)۔",
+  "Repeat new password": "نیا پاس ورڈ دہرائیں",
+  "Password changed": "پاس ورڈ تبدیل ہو گیا",
+  "New worker key created": "نئی ورکر کلید بن گئی",
+  "Disconnect Plex?": "Plex منقطع کریں؟",
+  "Plex disconnected": "Plex منقطع ہو گیا",
+  "Plex connected": "Plex منسلک ہو گیا",
+  "Incorrect password": "غلط پاس ورڈ",
+  "Incorrect code": "غلط کوڈ",
+  "Incorrect code from your authenticator app": "تصدیقی ایپ کا کوڈ غلط ہے",
+  "Too many attempts - try again in 15 minutes": "بہت زیادہ کوششیں - 15 منٹ بعد دوبارہ کوشش کریں",
+  "DVD & Blu-ray": "DVD اور Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "VIDEO_TS یا BDMV والے فولڈرز۔ تبدیل کرنے پر یہ تمام ویڈیو، آڈیو، سب ٹائٹلز اور چیپٹرز کے ساتھ ایک .mkv بن جاتے ہیں۔",
+  "Convert to MKV": "MKV میں تبدیل کریں",
+  "Folder": "فولڈر",
+  "Type": "قسم",
+  "found": "ملا",
+  "queued": "قطار میں",
+  "converting…": "تبدیل ہو رہا ہے…",
+  "converted": "تبدیل ہو گیا",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "تبدیلی ہر چیز کو 1:1 ایک .mkv میں کاپی کرتی ہے: ویڈیو (HDR بھی)، تمام آڈیو ٹریکس، سب ٹائٹلز اور چیپٹرز۔ DVD کے لیے یہ سب سے لمبا ٹائٹل (فلم) چنتی ہے۔ پرانا فولڈر قرنطینہ میں جاتا ہے، تاکہ آپ اسے بحال کر سکیں۔ پھر .mkv عام انکوڈنگ اور سب ٹائٹلز کے عمل سے گزرتی ہے۔ Dolby Vision Blu-ray، Dolby Vision profile 8.1 بن جاتے ہیں (base layer 1:1، DV میٹا ڈیٹا شامل): Plex اور آپ کا TV اسے Dolby Vision کے طور پر چلاتے ہیں، دیگر پلیئرز HDR10 کے طور پر۔ ایسی فلم بعد میں دوبارہ انکوڈ نہیں ہوتی، کیونکہ اس سے Dolby Vision ختم ہو جائے گا۔",
+  "Compare": "موازنہ کریں",
+  "Delete comparison": "موازنہ حذف کریں",
+  "Comparison deleted": "موازنہ حذف ہو گیا",
+  "comparison": "موازنہ",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "اصل اور نیا ورژن ساتھ ساتھ: سائز، معیار، تصویر اور سب ٹائٹلز۔ فلمیں آپ منتخب کریں۔",
+  "Original → new": "اصل → نیا",
+  "Quality (VMAF)": "معیار (VMAF)",
+  "Comparison": "موازنہ",
+  "View": "دیکھیں",
+  "Make comparison": "موازنہ بنائیں",
+  "previous attempt failed": "پچھلی کوشش ناکام رہی",
+  "Back": "واپس",
+  "Make again": "دوبارہ بنائیں",
+  "New": "نیا",
+  "VMAF whole film": "VMAF پوری فلم",
+  "Making the frames… this usually takes less than a minute.": "فریم بن رہے ہیں… اس میں عموماً ایک منٹ سے کم لگتا ہے۔",
+  "There is no picture comparison for this film yet.": "اس فلم کا ابھی کوئی تصویری موازنہ نہیں ہے۔",
+  "Picture · drag across the image": "تصویر · تصویر پر گھسیٹیں",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "اس منظر کے لیے HDR کو SDR میں تبدیل کیا گیا ہے؛ آپ کا TV اسے HDR میں دکھاتا ہے۔",
+  "How the setting was chosen": "ترتیب کیسے منتخب ہوئی",
+  "Step": "مرحلہ",
+  "Weakest 5%": "کمزور ترین 5%",
+  "Bitrate": "بٹ ریٹ",
+  "chosen": "منتخب",
+  "No data.": "کوئی ڈیٹا نہیں۔",
+  "Nothing needed, all languages were present.": "کچھ درکار نہیں، تمام زبانیں موجود تھیں۔",
+  "Not processed yet.": "ابھی پراسیس نہیں ہوا۔",
+  "Comparison requested · ready within a minute": "موازنے کی درخواست کی گئی · ایک منٹ میں تیار",
+  "Delete this comparison? The film itself stays as it is.": "یہ موازنہ حذف کریں؟ فلم جوں کی توں رہے گی۔",
+  "Not possible": "ممکن نہیں",
+  "Slide between original and new": "اصل اور نئے کے درمیان سلائیڈ کریں",
+  "Overview": "جائزہ",
+  "Queue": "قطار",
+  "In progress": "جاری",
+  "No gain": "کوئی فائدہ نہیں",
+  "Failed": "ناکام",
+  "Subtitles": "سب ٹائٹلز",
+  "Recently added": "حال ہی میں شامل",
+  "Library": "لائبریری",
+  "Quarantine": "قرنطینہ",
+  "Workers": "ورکرز",
+  "Activity": "سرگرمی",
+  "Settings": "ترتیبات",
+  "Encoding": "انکوڈنگ",
+  "System": "سسٹم",
+  "Status of the entire library.": "پوری لائبریری کی صورتحال۔",
+  "Selection": "انتخاب",
+  "waiting for worker": "ورکر کا انتظار",
+  "In the selection": "انتخاب میں",
+  "selection": "انتخاب",
+  "Selection · encoding": "انتخاب · انکوڈنگ",
+  "Selection · subtitles": "انتخاب · سب ٹائٹلز",
+  "Close list": "فہرست بند کریں",
+  "waiting": "منتظر",
+  "nothing needed": "کچھ درکار نہیں",
+  "original kept": "اصل رکھا گیا",
+  "Find, sync or generate missing subtitles.": "غائب سب ٹائٹلز تلاش، ہم آہنگ یا تیار کریں۔",
+  "All videos with their current plan. You can also queue items manually here.": "تمام ویڈیوز ان کے موجودہ منصوبے کے ساتھ۔ آپ یہاں آئٹمز دستی طور پر بھی قطار میں ڈال سکتے ہیں۔",
+  "The machines doing the work. Choose what each worker is allowed to do.": "کام کرنے والی مشینیں۔ منتخب کریں کہ ہر ورکر کیا کر سکتا ہے۔",
+  "Log of everything that happens.": "ہونے والی ہر چیز کا لاگ۔",
+  "Scan now": "ابھی اسکین کریں",
+  "Saved": "بچت",
+  "Free on NAS": "NAS پر خالی",
+  "Progress": "پیش رفت",
+  "Saved per day": "روزانہ بچت",
+  "last 14 days": "پچھلے 14 دن",
+  "Per folder": "فی فولڈر",
+  "all": "تمام",
+  "nothing processed yet": "ابھی کچھ پراسیس نہیں ہوا",
+  "no measurement yet": "ابھی کوئی پیمائش نہیں",
+  "No processed files yet": "ابھی کوئی پراسیس شدہ فائل نہیں",
+  "No worker connected yet": "ابھی کوئی ورکر منسلک نہیں",
+  "no worker": "کوئی ورکر نہیں",
+  "worker offline": "ورکر آف لائن",
+  "online": "آن لائن",
+  "disabled": "غیر فعال",
+  "encoding": "انکوڈنگ",
+  "subtitles": "سب ٹائٹلز",
+  "Search by name or folder…": "نام یا فولڈر سے تلاش کریں…",
+  "Several titles at once: separate them with |": "ایک ساتھ کئی ٹائٹلز: انہیں | سے الگ کریں",
+  "Nothing to show": "دکھانے کو کچھ نہیں",
+  "File": "فائل",
+  "Source": "ماخذ",
+  "Status": "حالت",
+  "Result": "نتیجہ",
+  "Languages": "زبانیں",
+  "Error": "خرابی",
+  "When": "کب",
+  "Plan": "منصوبہ",
+  "Added": "شامل کیا گیا",
+  "Original": "اصل",
+  "Size": "سائز",
+  "Replaced": "تبدیل شدہ",
+  "estimate": "اندازہ",
+  "Name": "نام",
+  "Done": "مکمل",
+  "Nothing found": "کچھ نہیں ملا",
+  "Process only these": "صرف انہیں پراسیس کریں",
+  "Prioritise": "ترجیح دیں",
+  "Skip": "چھوڑیں",
+  "Retry": "دوبارہ کوشش کریں",
+  "Clear": "صاف کریں",
+  "Both": "دونوں",
+  "Restore original": "اصل بحال کریں",
+  "Find subtitles": "سب ٹائٹلز تلاش کریں",
+  "running": "جاری",
+  "done": "مکمل",
+  "failed": "ناکام",
+  "replacing": "تبدیل ہو رہا ہے",
+  "no gain": "کوئی فائدہ نہیں",
+  "skipped": "چھوڑ دیا گیا",
+  "restored": "بحال",
+  "cancelled": "منسوخ",
+  "nothing found": "کچھ نہیں ملا",
+  "encode": "انکوڈ",
+  "already efficient": "پہلے سے مؤثر",
+  "small gain": "کم فائدہ",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "خرابی",
+  "unknown": "نامعلوم",
+  "All": "تمام",
+  "Already efficient": "پہلے سے مؤثر",
+  "Small gain": "کم فائدہ",
+  "Restored": "بحال شدہ",
+  "Video": "ویڈیو",
+  "Duration": "دورانیہ",
+  "Audio": "آڈیو",
+  "Encode": "انکوڈ",
+  "Quality": "معیار",
+  "Encode time": "انکوڈ کا وقت",
+  "Message": "پیغام",
+  "Started": "شروع",
+  "Search": "تلاش",
+  "weakest 5%": "کمزور ترین 5%",
+  "video": "ویڈیو",
+  "Worker": "ورکر",
+  "Hardware": "ہارڈویئر",
+  "Resolution": "ریزولوشن",
+  "Working on": "کام جاری",
+  "nothing": "کچھ نہیں",
+  "up to 4K": "4K تک",
+  "up to 1080p": "1080p تک",
+  "up to 720p": "720p تک",
+  "up to SD": "SD تک",
+  "Remove": "ہٹائیں",
+  "Add worker": "ورکر شامل کریں",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "ہر ورکر بتاتا ہے کہ وہ کیا کر سکتا ہے (انکوڈر ملا، Whisper انسٹال ہے)۔ یہاں آپ طے کرتے ہیں کہ اسے کیا کرنے کی اجازت ہے۔ تبدیلیاں اگلی جاب سے لاگو ہوتی ہیں؛ جاری جاب پہلے مکمل ہوتی ہے۔",
+  "This machine lacks the hardware or software for this": "اس مشین میں اس کے لیے ہارڈویئر یا سافٹ ویئر نہیں ہے",
+  "Quality level": "معیار کی سطح",
+  "Standard": "معیاری",
+  "High": "اعلیٰ",
+  "Maximum": "زیادہ سے زیادہ",
+  "Custom": "حسب ضرورت",
+  "Custom target": "حسب ضرورت ہدف",
+  "Average VMAF and the weakest 5% of frames.": "اوسط VMAF اور کمزور ترین 5% فریم۔",
+  "avg.": "اوسط",
+  "Minimum saving": "کم از کم بچت",
+  "If a file saves less, the original is kept.": "اگر کسی فائل کی بچت اس سے کم ہو تو اصل رکھا جاتا ہے۔",
+  "Processing": "پراسیسنگ",
+  "Storage & safety": "اسٹوریج اور حفاظت",
+  "How long replaced originals can be restored.": "تبدیل شدہ اصل فائلیں کتنی دیر تک بحال کی جا سکتی ہیں۔",
+  "days": "دن",
+  "Above this, the oldest originals are deleted permanently.": "اس سے زیادہ ہونے پر سب سے پرانی اصل فائلیں مستقل طور پر حذف ہو جاتی ہیں۔",
+  "Safety brake": "حفاظتی بریک",
+  "Encoding pauses when the NAS has less free space than this.": "جب NAS پر اس سے کم خالی جگہ ہو تو انکوڈنگ موقوف ہو جاتی ہے۔",
+  "Scanning": "اسکیننگ",
+  "Automatic scan": "خودکار اسکین",
+  "New files are queued automatically.": "نئی فائلیں خودکار طور پر قطار میں ڈالی جاتی ہیں۔",
+  "Off": "بند",
+  "Every hour": "ہر گھنٹے",
+  "Every 6 hours": "ہر 6 گھنٹے",
+  "Every 12 hours": "ہر 12 گھنٹے",
+  "Daily": "روزانہ",
+  "Skip folders": "نظرانداز فولڈرز",
+  "Comma-separated folder names.": "کوما سے الگ فولڈر نام۔",
+  "Plex": "Plex",
+  "Dashboard address": "ڈیش بورڈ کا پتہ",
+  "Use the IP address of the NAS, not localhost.": "NAS کا IP پتہ استعمال کریں، localhost نہیں۔",
+  "Worker key": "ورکر کلید",
+  "Keep secret: with this key a worker can fetch jobs.": "خفیہ رکھیں: اس کلید سے کوئی ورکر جابز لے سکتا ہے۔",
+  "Show": "دکھائیں",
+  "Copy": "کاپی کریں",
+  "Minimum requirements": "کم از کم تقاضے",
+  "Account & security": "اکاؤنٹ اور سیکیورٹی",
+  "Two-factor authentication": "دو مرحلہ تصدیق",
+  "Not active": "غیر فعال",
+  "New recovery codes": "نئے ریکوری کوڈ",
+  "Reset MFA": "MFA ری سیٹ کریں",
+  "Sessions": "سیشنز",
+  "Sign out everywhere else": "باقی ہر جگہ سے سائن آؤٹ کریں",
+  "Sign out": "سائن آؤٹ",
+  "You have unsaved changes.": "آپ کی تبدیلیاں محفوظ نہیں ہوئیں۔",
+  "Cancel": "منسوخ کریں",
+  "Save": "محفوظ کریں",
+  "Language": "زبان",
+  "Theme": "تھیم",
+  "Light": "روشن",
+  "Dark": "تاریک",
+  "Auto": "خودکار",
+  "Dashboard language.": "ڈیش بورڈ کی زبان۔",
+  "Auto follows your system setting.": "خودکار آپ کے سسٹم کی ترتیب کی پیروی کرتا ہے۔",
+  "Reset": "ری سیٹ کریں",
+  "Create new codes": "نئے کوڈ بنائیں",
+  "Close": "بند کریں",
+  "Code from your authenticator app": "تصدیقی ایپ کا کوڈ",
+  "Sign in": "سائن ان کریں",
+  "Activate": "فعال کریں",
+  "Set up two-factor authentication": "دو مرحلہ تصدیق سیٹ کریں",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "اپنی تصدیقی ایپ سے QR کوڈ اسکین کریں اور 6 ہندسوں کا کوڈ درج کریں۔",
+  "Manual:": "دستی:",
+  "6-digit code": "6 ہندسوں کا کوڈ",
+  "123456 or recovery code": "123456 یا ریکوری کوڈ",
+  "Save your recovery codes": "اپنے ریکوری کوڈ محفوظ کریں",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "فون کھو گیا؟ ان میں سے ہر کوڈ سے آپ ایک بار سائن ان کر سکتے ہیں۔ یہ صرف ایک بار دکھائے جاتے ہیں۔",
+  "I have saved them": "میں نے انہیں محفوظ کر لیا",
+  "Save them now, they are shown only once.": "انہیں ابھی محفوظ کریں، یہ صرف ایک بار دکھائے جاتے ہیں۔",
+  "Server not responding": "سرور جواب نہیں دے رہا",
+  "Sign-in failed": "سائن ان ناکام",
+  "Code is incorrect": "کوڈ غلط ہے",
+  "Code is incorrect - check the time on your phone": "کوڈ غلط ہے - اپنے فون کا وقت چیک کریں",
+  "Scan started": "اسکین شروع ہو گیا",
+  "scan already running": "اسکین پہلے سے جاری ہے",
+  "Copied": "کاپی ہو گیا",
+  "Resumed": "دوبارہ شروع",
+  "Paused: a running job will finish first": "موقوف: جاری جاب پہلے مکمل ہوگی",
+  "Added to the queue": "قطار میں شامل کر دیا گیا",
+  "Not applicable": "لاگو نہیں",
+  "At least one language": "کم از کم ایک زبان",
+  "Skip this job?": "یہ جاب چھوڑیں؟",
+  "Restore the original? The new version will be deleted.": "اصل بحال کریں؟ نیا ورژن حذف ہو جائے گا۔",
+  "on": "آن",
+  "off": "آف",
+  "Quarantine cleanup": "قرنطینہ کی صفائی",
+  "Background task": "پس منظر کا کام",
+  "Planning at startup": "آغاز پر منصوبہ بندی",
+  "Welcome": "خوش آمدید",
+  "Next": "اگلا",
+  "Previous": "پچھلا",
+  "Next (or skip)": "اگلا (یا چھوڑیں)",
+  "Done, go to the overview": "ہو گیا، جائزے پر جائیں",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan آپ کی فلموں اور شوز کو بغیر کسی نمایاں فرق کے چھوٹا کرتا ہے، اور غائب سب ٹائٹلز مکمل کرتا ہے۔ اصل فائلیں صرف معیار کی جانچ کے بعد تبدیل ہوتی ہیں، اور پہلے کچھ عرصہ قرنطینہ میں رکھی جاتی ہیں۔",
+  "Six short steps and you're set up. You can change everything later in Settings.": "چھ مختصر مراحل اور آپ تیار ہیں۔ آپ بعد میں ترتیبات میں سب کچھ تبدیل کر سکتے ہیں۔",
+  "Your library": "آپ کی لائبریری",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan اب آپ کے میڈیا فولڈر میں ویڈیوز تلاش کر رہا ہے۔ بڑی لائبریری میں پہلا اسکین کچھ وقت لیتا ہے؛ آپ بلا جھجک آگے بڑھ سکتے ہیں۔",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "وہ فولڈرز جنہیں MediaScan کبھی نہیں چھوتا، کوما سے الگ (مثلاً Music, Downloads)۔",
+  "Scan again": "دوبارہ اسکین کریں",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "وہ زبانیں منتخب کریں جو ہر فائل میں ہونی چاہئیں۔ MediaScan غائب زبانیں OpenSubtitles پر تلاش کرتا ہے۔ اگر یہ ناکام ہو تو ورکر خود سب ٹائٹل بناتا ہے (آپ کے اپنے PC پر اسپیچ ریکگنیشن اور ترجمہ)۔",
+  "Click a language to remove it.": "کسی زبان کو ہٹانے کے لیے اس پر کلک کریں۔",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "ہر فلم کو VMAF سے ناپا جاتا ہے، جو بتاتا ہے کہ تصویر انسانی آنکھ کو کیسی لگتی ہے۔ \"اعلیٰ\" تقریباً ہر کسی کے لیے اصل سے ناقابل امتیاز ہے۔",
+  "Higher = better picture, less space saved.": "زیادہ = بہتر تصویر، کم جگہ کی بچت۔",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "گرین اور تاریک مناظر کے لیے حفاظتی جال۔ 5 Mbps ایک اچھا ڈیفالٹ ہے؛ 4K اور دیگر ریزولوشنز اسی تناسب سے بدلتے ہیں۔",
+  "Plex (optional)": "Plex (اختیاری)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Plex منسلک ہونے پر، جب کوئی فلم دیکھ رہا ہو تو MediaScan اسے تبدیل کرنے کا انتظار کرتا ہے، اور ہر تبدیلی کے بعد Plex ریفریش کرتا ہے۔ Plex نہیں ہے؟ یہ مرحلہ چھوڑ دیں۔",
+  "Plex address and token": "Plex پتہ اور token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (غیر تبدیل شدہ)",
+  "Add a worker": "ورکر شامل کریں",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "بھاری کام اچھے گرافکس کارڈ والے PC یا Mac پر ہوتا ہے: ورکر۔ اسے ابھی انسٹال کریں، یا بعد میں ورکرز کے ذریعے۔ جب تک کوئی ورکر نہیں، آپ کی فائلوں کو کچھ نہیں ہوتا۔",
+  "✓ A worker is connected.": "✓ ایک ورکر منسلک ہے۔",
+  "Done! MediaScan is set up.": "ہو گیا! MediaScan سیٹ ہو گیا ہے۔",
+  "Connect the media share on the new machine.": "نئی مشین پر میڈیا شیئر منسلک کریں۔",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: ڈرائیو لیٹر یا \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: پیکیج میں دی گئی ہدایات دیکھیں۔",
+  "Download the package for that system and unpack it.": "اس سسٹم کا پیکیج ڈاؤن لوڈ کریں اور اسے کھولیں۔",
+  "Run the installer.": "انسٹالر چلائیں۔",
+  "The installer asks for the details below and tests the connection.": "انسٹالر نیچے دی گئی تفصیلات پوچھتا ہے اور کنکشن جانچتا ہے۔",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 یا نیا، Intel Arc یا 11th-gen+ iGPU، AMD RX 6000+ · 4 کورز · 8 GB · 100 GB خالی · وائرڈ نیٹ ورک۔ سب ٹائٹلز: 8 GB+ والا NVIDIA۔",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (سب ٹائٹلز: 24 GB+) · 150 GB خالی · Homebrew۔",
+  "Workers update themselves when this dashboard has a new version.": "جب اس ڈیش بورڈ کا نیا ورژن آئے تو ورکرز خود کو اپ ڈیٹ کر لیتے ہیں۔",
+  "What the workers are doing now and what is planned next.": "ورکرز ابھی کیا کر رہے ہیں اور آگے کیا منصوبہ ہے۔",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "بغیر نمایاں معیار کے نقصان کے فائلیں چھوٹی کریں۔ ورکر قطار کو اوپر سے نیچے تک پراسیس کرتا ہے۔",
+  "select page": "صفحہ منتخب کریں",
+  "select": "منتخب کریں",
+  "to encode": "انکوڈ کرنا ہے",
+  "Movie": "فلم",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "تبدیل شدہ اصل فائلیں، کچھ عرصہ رکھی جاتی ہیں تاکہ آپ انہیں بحال یا دوبارہ انکوڈ کروا سکیں۔",
+  "How MediaScan works: quality, subtitles, storage and security.": "MediaScan کیسے کام کرتا ہے: معیار، سب ٹائٹلز، اسٹوریج اور سیکیورٹی۔",
+  "General": "عمومی",
+  "Advanced": "اعلیٰ درجے",
+  "Connection": "کنکشن",
+  "Hand out new encode jobs to the workers.": "ورکرز کو نئی انکوڈ جابز دیں۔",
+  "Hand out new subtitle jobs to the workers.": "ورکرز کو نئی سب ٹائٹل جابز دیں۔",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "VMAF پیمائش کتنی سخت ہے۔ زیادہ = بہتر تصویر، کم جگہ کی بچت۔",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "ہر فائل میں کون سے سب ٹائٹلز ہونے چاہئیں۔ غائب سب ٹائٹلز تلاش کیے جاتے ہیں، ورنہ تیار کیے جاتے ہیں۔",
+  "Go to Workers": "ورکرز پر جائیں",
+  "new": "نیا",
+  "start": "شروع",
+  "Minimum bitrate (4K)": "کم از کم بٹ ریٹ (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "4K کے لیے اپنی نچلی حد، 1080p قدر کے 2.5 گنا کے بجائے۔ 0 = خودکار۔ HDR ‏+15% اور اینیمیشن ×0.6 یہاں بھی لاگو ہوتے ہیں۔",
+  "Ready to use in a few steps.": "چند مراحل میں استعمال کے لیے تیار۔",
+  "next": "اگلا",
+  "read error": "پڑھنے میں خرابی",
+  "MFA is already enabled": "MFA پہلے سے فعال ہے",
+  "a .mkv with that name already exists": "اس نام کی .mkv پہلے سے موجود ہے",
+  "a file already exists at the original location": "اصل مقام پر پہلے سے ایک فائل موجود ہے",
+  "action not possible in this status": "اس حالت میں یہ کارروائی ممکن نہیں",
+  "walking folders": "فولڈرز کھنگالے جا رہے ہیں",
+  "planning jobs": "جابز کی منصوبہ بندی ہو رہی ہے",
+  "check on the NAS rejected (duration/tracks)": "NAS پر جانچ مسترد (دورانیہ/ٹریکس)",
+  "expected a JSON object": "JSON آبجیکٹ متوقع تھا",
+  "ffprobe error": "ffprobe خرابی",
+  "invalid resolution": "غلط ریزولوشن",
+  "invalid worker token": "غلط worker ٹوکن",
+  "job belongs to another worker": "جاب کسی اور worker کی ہے",
+  "job is no longer active": "جاب اب فعال نہیں ہے",
+  "no video track": "کوئی ویڈیو ٹریک نہیں",
+  "not JSON": "JSON نہیں ہے",
+  "not signed in": "سائن ان نہیں ہیں",
+  "original disappeared": "اصل فائل غائب ہو گئی",
+  "original has changed in the meantime": "اصل فائل اس دوران تبدیل ہو گئی ہے",
+  "original is no longer in quarantine": "اصل فائل اب قرنطینہ میں نہیں ہے",
+  "original no longer available": "اصل فائل اب دستیاب نہیں ہے",
+  "request refused": "درخواست مسترد",
+  "target file already exists": "ہدف فائل پہلے سے موجود ہے",
+  "the original has already been removed from quarantine - comparing is no longer possible": "اصل فائل قرنطینہ سے ہٹائی جا چکی ہے - اب موازنہ ممکن نہیں",
+  "this film has not been replaced yet": "یہ فلم ابھی تبدیل نہیں ہوئی",
+  "unknown action": "نامعلوم کارروائی",
+  "worker is still online": "worker ابھی بھی آن لائن ہے",
+  "In use now:": "ابھی استعمال میں:",
+  "longest": "سب سے طویل",
+  "8.1 (from profile 7)": "8.1 (پروفائل 7 سے)",
+  "Whisper (transcription)": "Whisper (ٹرانسکرپشن)",
+  "1 day ago": "1 دن پہلے",
+  "1 video": "1 ویڈیوز",
+  "Enter your password to open the dashboard.": "ڈیش بورڈ کھولنے کے لیے اپنا پاس ورڈ درج کریں۔",
+  "No connection to the server - retrying…": "سرور سے رابطہ نہیں - دوبارہ کوشش جاری ہے…",
+  "Are you sure?": "کیا آپ کو یقین ہے؟",
+  "Restore": "بحال کریں",
+  "Re-encode": "دوبارہ انکوڈ کریں",
+  "Delete": "حذف کریں",
+  "Next up": "اگلا",
+  "in the queue": "قطار میں",
+  "Load older entries": "پرانی اندراجات لوڈ کریں",
+  "Folder: all": "فولڈر: سب",
+  "Resolution: all": "ریزولوشن: سب",
+  "Codec: all": "کوڈیک: سب",
+  "More": "مزید",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "فلمیں CPU انکوڈر کا انتظار کر رہی ہیں، مگر کسی worker میں CPU انکوڈنگ آن نہیں (Workers صفحہ)۔",
+  "Info": "معلومات",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "آپ کا ہارڈویئر، یہ کام کے لیے کتنا موزوں ہے، استعمال شدہ ٹولز، اور سیٹنگز کیسے کام کرتی ہیں۔",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "میموری",
+  "Software": "سافٹ ویئر",
+  "GPU encoding": "GPU انکوڈنگ",
+  "CPU encoding (x265)": "CPU انکوڈنگ (x265)",
+  "Subtitles (Whisper)": "سب ٹائٹلز (Whisper)",
+  "Translation (Ollama)": "ترجمہ (Ollama)",
+  "Server": "سرور",
+  "Database": "ڈیٹابیس",
+  "Tools in use": "استعمال شدہ ٹولز",
+  "Knowledge base": "نالج بیس",
+  "Low": "کم",
+  "Medium": "درمیانہ",
+  "Ultra": "الٹرا",
+  "files": "فائلیں",
+  "up": "فعال",
+  "of": "میں سے",
+  "uses": "استعمال کرتا ہے",
+  "free": "خالی",
+  "Media share": "میڈیا شیئر",
+  "Rating": "درجہ بندی",
+  "Hardware details appear after this worker has updated itself.": "ہارڈویئر کی تفصیلات اس worker کے اپ ڈیٹ ہونے کے بعد ظاہر ہوں گی۔",
+  "no Whisper": "Whisper نہیں",
+  "unified memory": "یکجا میموری",
+  "cores": "کور",
+  "threads": "تھریڈز",
+  "driver": "ڈرائیور",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "نامعلوم",
+  "Settings saved": "ترتیبات محفوظ ہو گئیں",
+  "Time left": "باقی وقت",
+  "Queued": "قطار میں",
+  "Keep originals for": "اصل فائلیں رکھیں",
+  "Quarantine size limit": "قرنطینہ کے سائز کی حد",
+  "Hide finished items": "مکمل شدہ چھپائیں",
+  "Undo skip": "چھوڑنا واپس لیں",
+  "not supported here": "یہاں معاونت نہیں",
+  "CPU encoding": "CPU انکوڈنگ",
+  "Retry on CPU (x265)": "CPU پر دوبارہ کوشش (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "CPU پر x265 سے انکوڈ کیا گیا (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "ورکر کے CPU پر گرین ٹیونڈ x265: گرین کو کہیں زیادہ مؤثر طریقے سے محفوظ رکھتا ہے، مگر ہر فلم پر گھنٹے لگتے ہیں",
+  "CPU fallback for grainy films": "گرین والی فلموں کے لیے CPU فال بیک",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "جب GPU ماخذ کے بٹ ریٹ سے اوپر جائے بغیر معیار برقرار نہ رکھ سکے (فلم گرین)، تو فلم ایک بار پھر کسی ورکر کے CPU پر x265 سے انکوڈ کی جاتی ہے، جو گرین کو کہیں زیادہ مؤثر طریقے سے محفوظ رکھتا ہے۔ ہر فلم پر گھنٹے لگتے ہیں؛ Workers صفحے پر کسی ورکر کے لیے CPU انکوڈنگ آن کریں۔",
+  "CPU preset": "CPU پری سیٹ",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: 8 کور پر 2 گھنٹے کی 1080p فلم کے لیے تقریباً 2 گھنٹے۔ Slow: تقریباً 5-10% چھوٹی فائلوں کے لیے 2-3 گنا زیادہ وقت۔",
+  "Medium (faster)": "Medium (تیز)",
+  "Slow (smaller)": "Slow (چھوٹا)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "یہ صفحہ لوڈ نہیں ہو سکا۔",
+  "up to 1440p": "1440p تک",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "فائلوں کا تجزیہ ہو رہا ہے",
+  "No worker has CPU encodes switched on (Workers page)": "کسی ورکر میں CPU انکوڈنگ آن نہیں (Workers صفحہ)",
+  "the job changed in the meantime": "جاب اس دوران بدل گئی",
+  "Main": "مرکزی نیویگیشن",
+  "Clear search and filters": "تلاش اور فلٹر صاف کریں",
+  "Compact rows": "گنجان قطاریں",
+  "Encoding and subtitles are paused.": "انکوڈنگ اور سب ٹائٹلز موقوف ہیں۔",
+  "Encoding is paused: no new encode jobs are handed out.": "انکوڈنگ موقوف ہے: نئی انکوڈ جابز نہیں دی جا رہیں۔",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "سب ٹائٹلز موقوف ہیں: نئی سب ٹائٹل جابز نہیں دی جا رہیں۔",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Plex ایڈریس اور ٹوکن دونوں درج کریں، یا چھوڑنے کے لیے دونوں خالی رہنے دیں۔",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "NAS پر خالی جگہ حفاظتی بریک سے کم ہے۔ انکوڈنگ خودکار طور پر موقوف کر دی گئی۔",
+  "Loading…": "لوڈ ہو رہا ہے…",
+  "Next film": "اگلی فلم",
+  "Previous film": "پچھلی فلم",
+  "Next page": "اگلا صفحہ",
+  "Previous page": "پچھلا صفحہ",
+  "Rows per page": "فی صفحہ قطاریں",
+  "Resume": "دوبارہ شروع کریں",
+  "Resume encoding": "انکوڈنگ دوبارہ شروع کریں",
+  "Resume subtitles": "سب ٹائٹلز دوبارہ شروع کریں",
+  "Open settings": "ترتیبات کھولیں",
+  "Open the library": "لائبریری کھولیں",
+  "Subtitle languages": "سب ٹائٹل زبانیں",
+  "Update": "اپ ڈیٹ کریں",
+  "No results for this search or filter.": "اس تلاش یا فلٹر کے لیے کوئی نتیجہ نہیں۔",
+  "Nothing is queued for encoding. New files are queued after a scan.": "انکوڈنگ کی قطار میں کچھ نہیں۔ نئی فائلیں اسکین کے بعد قطار میں آتی ہیں۔",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "ابھی کوئی فائل تبدیل نہیں ہوئی۔ مکمل انکوڈ کوالٹی جانچ کے بعد یہاں دکھائی دیتے ہیں۔",
+  "No files were kept as they are. Films that would save too little end up here.": "کوئی فائل جیسی تھی ویسی نہیں رکھی گئی۔ جو فلمیں بہت کم جگہ بچاتیں، وہ یہاں آتی ہیں۔",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "کوئی سب ٹائٹل انتظار میں نہیں۔ جن فائلوں میں کوئی زبان نہیں، وہ اسکین کے بعد قطار میں آتی ہیں۔",
+  "No subtitle job is running right now.": "ابھی کوئی سب ٹائٹل جاب نہیں چل رہی۔",
+  "No subtitles have been made yet.": "ابھی کوئی سب ٹائٹل نہیں بنایا گیا۔",
+  "Nothing missing: every file got its subtitles so far.": "کچھ نہیں چھوٹا: اب تک ہر فائل کو اس کے سب ٹائٹلز مل گئے۔",
+  "No failed encodes.": "کوئی ناکام انکوڈ نہیں۔",
+  "No failed subtitle jobs.": "کوئی ناکام سب ٹائٹل جاب نہیں۔",
+  "Nothing was added in the last 14 days.": "پچھلے 14 دنوں میں کچھ شامل نہیں ہوا۔",
+  "No videos with this plan.": "اس منصوبے والی کوئی ویڈیو نہیں۔",
+  "The library is being scanned; videos appear as they are found.": "لائبریری اسکین ہو رہی ہے؛ ویڈیوز ملتے ہی دکھائی دیتی ہیں۔",
+  "No videos found yet. Check the media folder and run a scan.": "ابھی کوئی ویڈیو نہیں ملی۔ میڈیا فولڈر چیک کریں اور اسکین چلائیں۔",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "قرنطینہ میں کچھ نہیں۔ تبدیل شدہ اصل فائلیں رکھنے کی مدت ختم ہونے تک یہاں رہتی ہیں۔",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "لائبریری میں کوئی DVD یا Blu-ray فولڈر (VIDEO_TS، BDMV) نہیں ملا۔",
+  "1 worker online": "1 ورکر آن لائن",
+  "A worker is busy with this file": "ایک ورکر اس فائل پر کام کر رہا ہے",
+  "A worker is grabbing the frames": "ایک ورکر فریم لے رہا ہے",
+  "A worker is searching or making subtitles": "ایک ورکر سب ٹائٹلز تلاش یا تیار کر رہا ہے",
+  "A worker picks up the next job within a few seconds.": "ایک ورکر چند سیکنڈ میں اگلا کام اٹھا لیتا ہے۔",
+  "Above this, the oldest comparisons are deleted automatically.": "اس سے زیادہ ہونے پر سب سے پرانے موازنے خودکار طور پر حذف ہو جاتے ہیں۔",
+  "All replaced films": "تمام تبدیل شدہ فلمیں",
+  "Already efficient: encoding would hardly save anything": "پہلے ہی مؤثر: انکوڈنگ سے شاید ہی کوئی بچت ہو",
+  "Automatic comparisons": "خودکار موازنے",
+  "Being made…": "بن رہا ہے…",
+  "Can be made": "بنایا جا سکتا ہے",
+  "Can encode on the CPU with x265": "CPU پر x265 سے انکوڈ کر سکتا ہے",
+  "Comparison storage limit": "موازنوں کی اسٹوریج حد",
+  "Comparisons": "موازنے",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: دوبارہ انکوڈ نہیں کیا گیا، DV لیئر ضائع ہو جاتی",
+  "Encoding is paused.": "انکوڈنگ موقوف ہے۔",
+  "Enlarge": "بڑا کریں",
+  "Errors": "خرابیاں",
+  "Flip": "بدلیں",
+  "Four frames of the original and the new version are stored": "اصل اور نئے ورژن کے چار فریم محفوظ ہیں",
+  "Full width": "پوری چوڑائی",
+  "GPU encoder found": "GPU انکوڈر مل گیا",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "ہر تبدیل شدہ فلم کے لیے اصل اور نئے ورژن کے چار فریم لیں، تاکہ آپ موازنہ صفحے پر ہمیشہ تصویر جانچ سکیں۔ فی فلم تقریباً 1–2 MB۔",
+  "Keyboard shortcuts": "کی بورڈ شارٹ کٹس",
+  "Leave without saving? Your changes to the settings will be lost.": "محفوظ کیے بغیر جائیں؟ ترتیبات میں آپ کی تبدیلیاں ضائع ہو جائیں گی۔",
+  "Moved to the front": "سب سے آگے کر دیا گیا",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "ابھی کوئی موازنہ نہیں۔ جب تک اصل قرنطینہ میں ہے ایک بنائیں، یا ترتیبات میں خودکار موازنے آن کریں۔",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "ابھی کسی فلم کا موازنہ نہیں ہو سکتا: اصل فائلیں قرنطینہ سے نکل گئی ہیں، یا ابھی کچھ تبدیل نہیں ہوا۔",
+  "No longer possible": "اب ممکن نہیں",
+  "No subtitles found online and none could be made": "آن لائن کوئی سب ٹائٹل نہیں ملا اور کوئی بنایا بھی نہ جا سکا",
+  "Ollama found: can translate subtitles": "Ollama مل گیا: سب ٹائٹلز ترجمہ کر سکتا ہے",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "DVD یا Blu-ray فولڈر کا حصہ؛ اسے DVD & Blu-ray صفحے پر تبدیل کریں",
+  "Paused automatically: the NAS has less free space than the safety brake.": "خودکار طور پر موقوف: NAS پر خالی جگہ حفاظتی بریک سے کم ہے۔",
+  "Planned for encoding": "انکوڈنگ کے لیے منصوبہ بند",
+  "Queued for the CPU encoder": "CPU انکوڈر کی قطار میں",
+  "Replaced after the quality check; the original is in quarantine for a while": "کوالٹی چیک کے بعد تبدیل کیا گیا؛ اصل کچھ عرصہ قرنطینہ میں رہتی ہے",
+  "Replaced films appear here after their first encode.": "تبدیل شدہ فلمیں پہلے انکوڈ کے بعد یہاں دکھائی دیتی ہیں۔",
+  "Search the log…": "لاگ میں تلاش کریں…",
+  "Show films that can be compared": "وہ فلمیں دکھائیں جن کا موازنہ ہو سکتا ہے",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "اصل اور نیا ورژن باری باری دکھائیں: گرین اور تفصیل دیکھنے کا بہترین طریقہ",
+  "Skipped": "چھوڑ دیا گیا",
+  "Skipped by you; Retry puts it back in the queue": "آپ نے چھوڑ دیا؛ «دوبارہ کوشش کریں» اسے واپس قطار میں ڈال دیتا ہے",
+  "Slider back to the middle": "سلائیڈر واپس درمیان میں",
+  "Smaller": "چھوٹا کریں",
+  "Stopped because the file changed or disappeared": "رک گیا کیونکہ فائل بدل گئی یا غائب ہو گئی",
+  "Stopped with an error; see the message and try again": "خرابی کے ساتھ رک گیا؛ پیغام دیکھیں اور دوبارہ کوشش کریں",
+  "Subtitles are paused.": "سب ٹائٹلز موقوف ہیں۔",
+  "The file could not be read; see the drawer": "فائل پڑھی نہ جا سکی؛ سائیڈ پینل دیکھیں",
+  "The new file would save less than the minimum saving, so the original was kept": "نئی فائل کم از کم بچت سے کم بچاتی، اس لیے اصل رکھی گئی",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "نیا ورژن NAS پر ہے اور جیسے ہی کوئی نہ دیکھ رہا ہو، بدل دیا جاتا ہے",
+  "The original has left quarantine, so the frames can no longer be grabbed": "اصل قرنطینہ سے نکل گئی ہے، اس لیے اب فریم نہیں لیے جا سکتے",
+  "The original is still in quarantine, so the frames can still be grabbed": "اصل ابھی قرنطینہ میں ہے، اس لیے فریم ابھی لیے جا سکتے ہیں",
+  "The original was put back from quarantine": "اصل کو قرنطینہ سے واپس رکھ دیا گیا",
+  "The queue is empty. New files are queued after a scan.": "قطار خالی ہے۔ نئی فائلیں اسکین کے بعد قطار میں آتی ہیں۔",
+  "The server hands out newer worker files; the worker installs them after its current job": "سرور نئی ورکر فائلیں دے رہا ہے؛ ورکر اپنے موجودہ کام کے بعد انھیں انسٹال کرتا ہے",
+  "Undo": "واپس لیں",
+  "Waiting for Plex: someone is watching this film": "Plex کا انتظار: کوئی یہ فلم دیکھ رہا ہے",
+  "Waiting for a worker; the queue runs from top to bottom": "ورکر کا انتظار؛ قطار اوپر سے نیچے چلتی ہے",
+  "Warnings": "تنبیہات",
+  "Whisper installed: can make subtitles": "Whisper انسٹال ہے: سب ٹائٹلز بنا سکتا ہے",
+  "Would save less than the minimum saving": "کم از کم بچت سے کم بچت ہوتی",
+  "expires today": "آج ختم ہو رہا ہے",
+  "expires within a day": "ایک دن میں ختم ہو رہا ہے",
+  "less than a day left": "ایک دن سے کم باقی",
+  "waiting for Plex": "Plex کا انتظار",
+  "update pending": "اپ ڈیٹ زیر التوا",
+  "Tap to switch between original and new": "اصل اور نئے کے درمیان بدلنے کے لیے ٹیپ کریں",
+  "Repeated": "دہرایا گیا",
+  "Search in the current list": "موجودہ فہرست میں تلاش کریں",
+  "Clear the search, close a drawer or dialog": "تلاش صاف کریں، پینل یا ڈائیلاگ بند کریں",
+  "Previous or next film on a comparison": "موازنے میں پچھلی یا اگلی فلم",
+  "Open or switch the focused row, switch or header": "منتخب قطار، سوئچ یا ہیڈر کھولیں یا بدلیں",
+  "This list": "یہ فہرست",
+  "Nothing in the log matches this.": "لاگ میں اس سے کچھ نہیں ملتا۔",
+  "Nothing has happened yet.": "ابھی کچھ نہیں ہوا۔",
+  "No worker is online, so nothing can run.": "کوئی ورکر آن لائن نہیں، اس لیے کچھ نہیں چل سکتا۔",
+  "There is no worker yet. Add one to get started.": "ابھی کوئی ورکر نہیں۔ شروع کرنے کے لیے ایک شامل کریں۔",
+  "Open Workers": "ورکرز کھولیں",
+  "Some values are out of range.": "کچھ قدریں حد سے باہر ہیں۔",
+  "no capabilities reported": "کوئی صلاحیت رپورٹ نہیں ہوئی",
+  "Replaced · expires": "تبدیل شدہ · میعاد",
+  "Made": "بن گیا",
+  "Make": "بنائیں",
+  "lots of motion": "بہت زیادہ حرکت",
+  "dark scene": "تاریک منظر",
+  "a quarter in": "ایک چوتھائی پر",
+  "three quarters in": "تین چوتھائی پر",
+  "Encoded": "انکوڈ ہوا",
+  "Finished": "مکمل",
+  "later": "بعد میں",
+  "Leave": "جائیں",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "ایک موازنہ اصل اور نئے ورژن سے 4 فریم لیتا ہے (کل تقریباً 1–2 MB)۔ یہ اس وقت تک بنایا جا سکتا ہے جب تک اصل فائل قرنطینہ میں ہے، اور جب تک آپ اسے حذف نہ کریں یہ موجود رہتا ہے، اصل فائل ختم ہونے کے بعد بھی۔",
+  "Retry on CPU": "CPU پر دوبارہ کوشش",
+  "Scan": "اسکین"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1شروع$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "ابھی: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan کو $1 ویڈیوز ملیں ($2)۔"
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · کمزور ترین 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "کمزور ترین 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "نیا ($1 دن)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "منصوبہ: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "تبدیلی ناکام ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} ناکام{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "اسکین مکمل: $1 ویڈیوز، $2 نئی، $3 تبدیل شدہ، $4 غائب؛ $5 انکوڈ اور $6 سب ٹائٹل جابز شامل"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "اسکین مکمل: $1 ویڈیوز، $2 نئی، $3 تبدیل شدہ، $4 غائب، $5 نظرانداز فولڈرز میں؛ $6 انکوڈ اور $7 سب ٹائٹل جابز شامل"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "$1 فلم(یں) موجودہ اصولوں کے ساتھ دوبارہ انکوڈ کریں؟ اصل فائلیں بحال ہوں گی اور فلموں کو قطار میں ترجیح ملے گی۔"
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 فلم(یں) دوبارہ قطار میں{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 اصل فائل(یں) بحال اور دوبارہ قطار میں (موجودہ اصول)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "نیا: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "تبدیل: $1 ($2 -> $3 GB، VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray تبدیل: $1 ($2 GB)؛ ڈسک فولڈر قرنطینہ میں ہے"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "اصل بحال: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 نے {t:$2} شروع کیا: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 جاب(ز) (کل $3 میں سے)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "انتخاب تقسیم ہو گیا - انکوڈنگ خودکار طور پر موقوف"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "انتخاب تقسیم ہو گیا - سب ٹائٹلز خودکار طور پر موقوف"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "ترتیبات تبدیل: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "جاب $1 خرابی: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "جاب $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "ورکر $1 آف لائن: $2 جاب(ز) واپس قطار میں"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 دوبارہ شروع: $2 رکی ہوئی جاب(ز) واپس قطار میں"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 کو $2 پر اپ ڈیٹ کیا گیا: $3 ناکام جاب(ز) واپس قطار میں"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "ورکر $1 ہٹا دیا گیا"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "ورکر $1: انکوڈنگ {t:$2}، سب ٹائٹلز {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "منصوبہ اپ ڈیٹ: $1 انکوڈ اور $2 سب ٹائٹل جابز شامل"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 جاب(ز) دستی طور پر قطار میں ڈالی گئیں"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 جاب(ز): $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 موازنے حذف"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "$1 دیگر سیشن(ز) سے سائن آؤٹ"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "سائن ان کے لیے ریکوری کوڈ استعمال ہوا ($1 باقی)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "اصل فائلیں زیادہ سے زیادہ $1 دن رکھی جاتی ہیں اور مجموعی طور پر کبھی $2 سے زیادہ نہیں۔ سب سے پرانی پہلے جاتی ہیں۔ بحال کرنے پر نیا ورژن حذف ہو جاتا ہے۔"
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - ہٹانے کے لیے کلک کریں"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 فولڈر تبدیل ہوں گے · ورکر آدھے منٹ میں شروع کرے گا"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 آڈیو · $2 سب ٹائٹلز"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "$1 موازنے حذف کریں؟ فلمیں جوں کی توں رہیں گی۔"
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "فریم $1 · $2 پر · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "فریم $1 · $2 پر"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB بطور jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "انکوڈ کا وقت $1 منٹ · 8 حصوں پر ناپا گیا، پھر پوری فلم پر جانچا گیا۔"
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "ابھی موجود: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "کمزور ترین 5% $1 · معیار $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "ٹائمنگ $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "فریم بنانا ناکام: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "انتخاب · اگلا"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "انتخاب · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "ابھی:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· پھر انتخاب سے $1 مزید"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "اندازہ · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 پہلے مکمل · دکھائیں"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 انتخاب میں شامل · ورکر چند سیکنڈ میں شروع کرے گا"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "انتخاب {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "بنایا گیا: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% چھوٹا$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "ابھی ابھی"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 منٹ پہلے"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 گھنٹے پہلے"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 دن پہلے"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "دیکھا گیا {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 دن $2 گھنٹے"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 گھنٹے $2 منٹ"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 ویڈیوز"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "قرنطینہ $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 فی 24 گھنٹے"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 فائدہ"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB فائدہ"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "پراسیس شدہ فائلوں پر $1% چھوٹا"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "ورکر $1 آن لائن"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "مزید $1 شروع ہوں گی، پھر وقفہ"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 آئٹمز · صفحہ $2 از $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 منتخب"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "تمام $1 نتائج منتخب کریں"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "اسکین جاری: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× کوشش کی گئی"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 منٹ"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "فعال · $1 ریکوری کوڈ باقی"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 فعال سیشن(ز)، اس سمیت۔"
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 اپ ڈیٹ ہوئے{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 دیگر سیشن(ز) سائن آؤٹ"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "صرف یہ $1 پراسیس کریں؟ انہیں ترجیح ملے گی، پراسیسنگ دوبارہ شروع ہو گی اور بعد میں خودکار طور پر پھر موقوف ہو جائے گی۔"
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "$1 جاب(ز) چھوڑیں؟"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "$1 اصل فائل(یں) بحال کریں؟ نئے ورژن حذف ہو جائیں گے۔"
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "ورکر $1 کو فہرست سے ہٹائیں؟ اگر یہ دوبارہ آن لائن آیا تو خودکار طور پر پھر ظاہر ہو گا۔"
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "$1 سے جاری"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 باقی"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "$1p تک"
+  ],
+  [
+   "^working on$",
+   "",
+   "کام جاری"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex جڑ گیا (ورژن $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex درست جواب نہیں دے رہا: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "خرابی: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "تبدیلی ناکام: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "$1 کے لیے غلط قدر"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 کو $2 اور $3 کے درمیان ہونا چاہیے"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · بدترین 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 گھنٹے"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU معیار برقرار نہ رکھ سکا - CPU انکوڈر (x265) کے لیے قطار میں"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "اسٹیجنگ صفائی: بچی ہوئی فائل ہٹا دی گئی $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "فی صفحہ $1"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 ورکرز آن لائن"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · ورکر شامل کرنا، ورکر کلید اور ڈاؤن لوڈز ورکرز صفحے پر ہیں۔"
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · ~{t:$2} میں شروع · اندازہ"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · اندازہ"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 دن باقی"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "$1 دن میں ختم ہو رہا ہے"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "بن گیا · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "بنایا جا سکتا ہے · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · مرحلہ $1 از $2 · ~{t:$3} باقی"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · مرحلہ $1 از $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · ~{t:$1} باقی"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 موازنوں کی درخواست · چند منٹ میں تیار"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "$1 موازنے بنائیں؟ ہر ایک تقریباً 1–2 MB۔"
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "$1 بار دہرایا گیا"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "$1 اور $2 کے درمیان"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 جاب(ز)"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "$1 میں خرابی: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 موازنوں کی درخواست"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "موازنے صاف کیے گئے: $1 ہٹائے گئے ($2 MB سے زیادہ)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "قرنطینہ فولڈر کا نام quarantine رکھا گیا ($1 ریکارڈ اپ ڈیٹ)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "ورکر $1 ہٹا دیا گیا: $2 جاب(ز) واپس قطار میں"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "قرنطینہ: $1 پہلے سے موجود ہے، $2 کو وہیں چھوڑ دیا گیا"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "قرنطینہ فولڈر کا نام quarantine رکھا گیا؛ $1 ریکارڈ اپ ڈیٹ، لیکن $2 ابھی خالی نہیں"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "قرنطینہ فولڈر کا نام بدلنا ناکام (کیا میڈیا شیئر ماؤنٹ ہے؟): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "نیا ورژن اسٹیجنگ میں موجود نہیں"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "نئی .mkv اسٹیجنگ میں موجود نہیں"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "اصل فائل غائب ہو گئی"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "اصل فائل اس دوران بدل گئی ہے"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "اصل فائل اب دستیاب نہیں"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "NAS پر جانچ مسترد (دورانیہ/ٹریکس)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray کو mkv میں تبدیل کیا گیا"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "ورکر اپ ڈیٹ کے بعد دوبارہ کوشش"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "آپ نے چھوڑ دیا"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "ہدف فائل پہلے سے موجود ہے"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "ورکر آف لائن - دوبارہ شیڈول کیا گیا"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "ورکر ہٹا دیا گیا - دوبارہ شیڈول کیا گیا"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "ورکر دوبارہ شروع ہوا - دوبارہ شیڈول کیا گیا"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "تبدیلی ناکام: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "نئی mkv میں Dolby Vision موجود نہیں"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: دوبارہ انکوڈ نہیں کیا گیا (DV پرت ضائع ہو جاتی)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "ایک اسٹریم .mkv میں کاپی نہیں ہو سکتی: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg نے $1 منٹ تک کوئی پیش رفت نہیں کی (شیئر ناقابل رسائی؟) - روک دیا گیا"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$2 میں سے $1 فائلیں ایک ساتھ غائب ہیں - شیئر ناقابل رسائی؟ کچھ بھی غائب کے طور پر نشان زد نہیں کیا گیا"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "ترجمہ ناکام: دوبارہ کوششوں کے بعد $1 سطر(وں) کے لیے کوئی قابل استعمال جواب نہیں"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: سرور کی خرابی"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - ماڈل ڈاؤن لوڈ کریں (ollama pull <model>) یا worker.ini میں ollama_model درست کریں"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama $1 پر قابل رسائی نہیں ($2) - Ollama شروع کریں یا ollama_url چیک کریں"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama قابل رسائی نہیں: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama $2 منٹ تک ناکام ہوتا رہا"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 میں ایک گھنٹے سے زیادہ لگا - کیا میڈیا شیئر اب بھی قابل رسائی ہے؟"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 موجود نہیں؛ اسے انسٹال کریں $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "پوری فلم کا VMAF $1 کسی بھی جوڑی طریقے سے قابل اعتبار نہیں (نمونے $2)؛ $3 پر کم۔ اصل فائل رکھی گئی؛ وہاں ماخذ چیک کریں"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: فائل پڑھی نہیں جا سکتی"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: ناکام"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "اس فلم کے لیے PC پر کافی خالی جگہ نہیں ($2 میں $1 GB درکار)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "ورک فولڈر میں کافی جگہ نہیں: $1 GB خالی، ~$2 GB درکار"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "کم از کم بٹ ریٹ کے ساتھ زیادہ سے زیادہ $1% چھوٹا"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "اینہانسمنٹ لیئر سے میٹا ڈیٹا نکالا جا رہا ہے"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "ڈاؤن لوڈ میل نہیں کھاتا (sha256) - استعمال نہیں کیا"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "جانچ: دورانیہ یا اسٹریمز کی تعداد مختلف ہے"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "نئی mkv بہت چھوٹی ہے ($2 میں سے $1 منٹ)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$2 میں سے $1 مکمل، ورکر کا انتظار"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "Dolby Vision کو profile 8.1 میں تبدیل کرنا"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "بیس لیئر میں میٹا ڈیٹا ڈالا جا رہا ہے"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "VMAF جانچ (دوسری پیمائش)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "کوئی ترتیب معیار کا ہدف پورا نہیں کرتی"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "ڈاؤن لوڈ کی حد پوری ہو گئی - باقی بعد میں"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "OpenSubtitles کی یومیہ حد پوری"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "جزوی؛ باقی ڈاؤن لوڈ حد کے بعد"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "ڈاؤن لوڈ کے بعد $1 نہیں ملا"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: بولی جانے والی زبان کی شناخت ہوئی"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper ($1 سے ترجمہ شدہ)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "PC پر خالی جگہ کا انتظار"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "سب ٹائٹل فائل غیر متوقع طور پر بڑی ہے"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "سیلف ٹیسٹ کی پیمائش قابل اعتماد نہیں"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "ترجمے کی کوشش $1 ناکام"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "انتظار: Plex میں دیکھی جا رہی ہے"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "متوقع صرف $1% چھوٹا"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "$1 ڈاؤن لوڈ ہو رہا ہے (ایک بار)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "پوری فلم کی جانچ ہدف سے نیچے"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "$1s پر فریم نہیں لیا جا سکتا"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "پوری فلم ہدف سے ذرا نیچے"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "ڈسک پر فلم کی تلاش"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "معیار کا ہدف ممکن نہیں"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "جانچ کی پیمائش قابل اعتماد نہیں"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "سرور سے غلط پاتھ"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "دوبارہ: کم از کم فائدہ اب 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper GPU پر چل رہا ہے"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "DVD پر کوئی ٹائٹل نہیں ملا"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "آرکائیو میں مشکوک پاتھ"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "انتظار: Plex دستیاب نہیں"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "$2 میں سے $1 پر کام جاری"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles تک رسائی نہیں ہو رہی"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (ٹرانسکرپشن)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "پوری فلم کی VMAF جانچ"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "مکمل، تبدیلی کا انتظار"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "پرانا فولڈر قرنطینہ میں"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "VMAF جانچ $1 بہت کم"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "ڈسک پڑھنا (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "انگریزی سے ترجمہ شدہ"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "مکمل ($2 میں سے $1)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "آڈیو نکالنا ناکام"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "CPU پر واپس جا رہے ہیں"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles میں سائن ان"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (پروفائل 7 سے)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "ورکر کا انتظار"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "zip میں مشکوک پاتھ"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "ایمبیڈڈ EN پڑھا نہیں جا سکا"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "اب تک سب سے لمبا: ٹائٹل"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "ٹائمنگ مطابقت نہیں رکھتی"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "صرف $1% چھوٹا"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "حصہ $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "اصل فائل رکھی جا رہی ہے"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "آج کے باقی ڈاؤن لوڈز"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "ٹائٹل $1 جانچا گیا"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "تبدیلی کا انتظار"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "NAS پر کاپی"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "اصل برقرار"
+  ],
+  [
+   "translation failed",
+   "g",
+   "ترجمہ ناکام"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "سرور تک رسائی نہیں ہو رہی"
+  ],
+  [
+   "searching quality",
+   "g",
+   "معیار کی تلاش"
+  ],
+  [
+   "making references",
+   "g",
+   "حوالہ جات بنانا"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "mkv میں تبدیلی"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "سب ٹائٹلز رک گئے"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "کاپی NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "کاپی PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "فلم کی تلاش"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "mkv میں یکجا کرنا"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "سب سے لمبی playlist"
+  ],
+  [
+   "timing reference",
+   "g",
+   "ٹائمنگ حوالہ"
+  ],
+  [
+   "speech segments",
+   "g",
+   "گفتار کے حصے"
+  ],
+  [
+   "too little gain",
+   "g",
+   "بہت کم فائدہ"
+  ],
+  [
+   " not applicable",
+   "g",
+   " لاگو نہیں"
+  ],
+  [
+   "download failed",
+   "g",
+   "ڈاؤن لوڈ ناکام"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "ffsubsync کے بعد"
+  ],
+  [
+   "translating to",
+   "g",
+   "ترجمہ:"
+  ],
+  [
+   "next candidate",
+   "g",
+   "اگلا امیدوار"
+  ],
+  [
+   "after shifting",
+   "g",
+   "شفٹ کرنے کے بعد"
+  ],
+  [
+   "reading audio",
+   "g",
+   "آڈیو پڑھنا"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "انتخاب · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 منتظر"
+  ],
+  [
+   "search failed",
+   "g",
+   "تلاش ناکام"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "دوبارہ انکوڈنگ"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "ٹائٹل $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " خرابیاں"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 مکمل"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "سب ٹائٹلز:"
+  ],
+  [
+   "replacing",
+   "g",
+   "تبدیلی"
+  ],
+  [
+   "subtitles",
+   "g",
+   "سب ٹائٹلز"
+  ],
+  [
+   "candidate",
+   "g",
+   "امیدوار"
+  ],
+  [
+   "encoding:",
+   "g",
+   "انکوڈنگ:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "شروع"
+  ],
+  [
+   "encoding",
+   "g",
+   "انکوڈنگ"
+  ],
+  [
+   "checking",
+   "g",
+   "جانچ"
+  ],
+  [
+   ", up to ",
+   "g",
+   "، زیادہ سے زیادہ "
+  ],
+  [
+   "present",
+   "g",
+   "موجود"
+  ],
+  [
+   "missing",
+   "g",
+   "غائب"
+  ],
+  [
+   "speed",
+   "g",
+   "رفتار"
+  ],
+  [
+   "saved",
+   "g",
+   "محفوظ"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU معیار برقرار نہ رکھ سکا - CPU انکوڈر (x265) کے لیے قطار میں"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "اسٹیجنگ صفائی: بچی ہوئی فائل ہٹا دی گئی"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "میڈیا فولڈر خالی ہے یا ماؤنٹ نہیں - کچھ نہیں بدلا"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "معیار برقرار رکھنے کے لیے ماخذ سے زیادہ بٹ ریٹ درکار ہوگا"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "ماخذ سے زیادہ بٹ ریٹ درکار ہے"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "ورکر اپ ڈیٹ کے لیے دوبارہ شروع ہو رہا ہے"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "کوئی ویڈیو اسٹریم نہیں (صرف کور آرٹ؟)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "ٹرانسکرائب کرنے کے لیے کوئی آڈیو اسٹریم نہیں"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "اس فلم کے لیے PC پر کافی خالی جگہ نہیں"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "CPU پر دوبارہ کوشش (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "فولڈرز کھنگالے جا رہے ہیں"
+  ],
+  [
+   "analysing files",
+   "g",
+   "فائلوں کا تجزیہ ہو رہا ہے"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "جابز کی منصوبہ بندی ہو رہی ہے"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU انکوڈنگ آن"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU انکوڈنگ آف"
+  ]
+ ]
+}

@@ -1,0 +1,6 @@
+# Pinned (November 2026, no known vulnerabilities). Check with: pip-audit -r server/requirements.txt
+fastapi==0.162.7
+starlette==1.10.0
+uvicorn==0.54.0
+h11==0.16.0
+pydantic==2.14.3

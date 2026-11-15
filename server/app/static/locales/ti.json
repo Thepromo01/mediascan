@@ -1,0 +1,2060 @@
+{
+ "name": "ትግርኛ",
+ "s": {
+  "Re-encode from original": "ካብ መበቆል ዳግማይ ኢንኮድ ግበር",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "ብናይ ሕጂ ሕግታት ዳግማይ ኢንኮድ ይገበር? መበቆል ይምለስ፡ ፊልሚ ድማ ቀዳምነት ይረክብ።",
+  "Back in the queue": "እንደገና ናብ መስርዕ",
+  "Restore originals": "መበቆላት መልስ",
+  "Minimum bitrate (1080p)": "ዝተሓተ bitrate (1080p)",
+  "Extra floor (share of the source)": "ተወሳኺ ዝተሓተ ደረት (ክፋል ካብ ምንጪ)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "ኣማራጺ፦ ብተወሳኺ እዚ ክፋል ካብ ናይ መበቆል ቪድዮ bitrate ብውሑዱ ሓልው። ንምንጪታት ኣዝዩ ልዑል bitrate ዘለዎም ጥራይ ይጠቅም። 0 = ጠፊኡ።",
+  "with the minimum bitrate at most": "ብዝተሓተ bitrate እንተበዝሐ",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "ሓድሽ ፋይል ካብዚ ፈጺሙ ኣይወርድን፡ VMAF እንተተቐበሎ እውን። ካልኦት ረዞሉሽናት ብመጠን፦ 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · ኣኒሜሽን ×0.6።",
+  "bitrate already near the minimum": "bitrate ድሮ ኣብ ጥቓ ዝተሓተ እዩ",
+  "MFA reset from settings - set it up again": "MFA ካብ ቅጥዕታት ዳግም ተጀሚሩ - እንደገና ኣዳሉ",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA ብ MFA_RESET ዳግም ተጀሚሩ - MFA_RESET ካብ ቅጥዕታት ኮንቴይነር ኣልግሶ",
+  "MFA enabled": "MFA ተኸፊቱ",
+  "MediaScan started": "MediaScan ጀሚሩ",
+  "New recovery codes created": "ሓደስቲ ኮዳት ምምላስ ተፈጢሮም",
+  "Password changed; other sessions signed out": "መሕለፊ ቃል ተቐይሩ፤ ካልኦት ክፍለ-ግዜታት ወጺኦም",
+  "Password set (first time)": "መሕለፊ ቃል ተዳልዩ (ናይ መጀመርታ)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "ኣስተውዕል፦ ADMIN_PASSWORD ካብ 10 ፊደላት ይሓጽር - ኣብ ቅጥዕታት ዝሓየለ መሕለፊ ቃል ምረጽ",
+  "part of a DVD/Blu-ray folder": "ክፋል ናይ DVD/Blu-ray ማህደር",
+  "folder is in Skip folders": "ፎልደር ኣብ Skip folders ኣሎ",
+  "file disappeared": "ፋይል ጠፊኡ",
+  "worker restarted - rescheduled": "worker ዳግም ጀሚሩ - እንደገና ተመዲቡ",
+  "worker offline - rescheduled": "worker ኦፍላይን - እንደገና ተመዲቡ",
+  "retry after worker update": "ድሕሪ ምሕዳስ worker እንደገና",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray ናብ mkv ተቐይሩ",
+  "skipped by you": "ብኣኻ ተሓሊፉ",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "ፊልሚ ክርአ ከሎ ምትካእ ይጽበ፡ Plex ድማ ድሕሪ ነፍሲ ወከፍ ለውጢ ይሕደስ።",
+  "Confirm with your password and a code from your app.": "ብመሕለፊ ቃልካን ካብ ኣፕኻ ዝመጸ ኮድን ኣረጋግጽ።",
+  "Your old recovery codes will stop working.": "ናይ ቀደም ኮዳት ምምላስካ ኣይክሰርሑን እዮም።",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "ናይ ሕጂ ምትእስሳር authenticator ከምኡ’ውን ኮዳት ምምላስ ኣይክሰርሑን። ድሕሪኡ MFA ብቕጽበት እንደገና ተዳልዎ።",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "ንዳሽቦርድ መሕለፊ ቃል ምረጽ። ኮድ ምድላው ኣብ መዝገብ ኮንቴይነር ይርከብ (Container Manager › mediascan › Log, ወይ",
+  "- click to remove": "- ንምእላይ ጠውቕ",
+  "Invalid address, e.g. http://192.168.1.10:32400": "ዘይቅቡል ኣድራሻ፡ ንኣብነት http://192.168.1.10:32400",
+  "Enter a Plex token": "Plex token ኣእቱ",
+  "A password has already been set": "መሕለፊ ቃል ድሮ ተዳልዩ ኣሎ",
+  "The key is fixed in WORKER_TOKEN (container environment)": "መፍትሕ ኣብ WORKER_TOKEN ተወሲኑ ኣሎ (ከባቢ ኮንቴይነር)",
+  "selection still running - pause or wait until it is done": "ምርጫ ገና ይቕጽል ኣሎ - ደው ኣብሎ ወይ ክሳብ ዝውዳእ ተጸበ",
+  "Now running": "ሕጂ ይሰርሕ ኣሎ",
+  "Finding the film on the disc": "ፊልሚ ኣብ ዲስክ ምድላይ",
+  "Converting to one .mkv": "ናብ ሓደ .mkv ምቕያር",
+  "Checking (duration, tracks)": "ምፍታሽ (ንውሓት፡ ትራካት)",
+  "Copying to the NAS": "ናብ NAS ምቕዳሕ",
+  "Old folder to quarantine": "ኣረጊት ማህደር ናብ ኳራንቲን",
+  "worker has not reported for a while": "worker ንሓጺር ግዜ ኣይተጸብጸበን",
+  "waiting for the worker": "ንworker ይጽበ",
+  "Welcome to MediaScan": "እንቋዕ ናብ MediaScan ብደሓን መጻእኩም",
+  "Setup code": "ኮድ ምድላው",
+  "New password (at least 10 characters)": "ሓድሽ መሕለፊ ቃል (ብውሑዱ 10 ፊደላት)",
+  "Repeat password": "መሕለፊ ቃል ድገም",
+  "Set password": "መሕለፊ ቃል ኣዳሉ",
+  "The passwords do not match": "መሕለፊ ቃላት ኣይሰማምዑን",
+  "Setup code is wrong - check the container log": "ኮድ ምድላው ጌጋ እዩ - መዝገብ ኮንቴይነር ርአ",
+  "Choose a password of at least 10 characters": "ብውሑዱ 10 ፊደላት ዘለዎ መሕለፊ ቃል ምረጽ",
+  "Animation folders": "ማህደራት ኣኒሜሽን",
+  "Top-level folders with animation: these may use a lower bitrate.": "ቀንዲ ማህደራት ምስ ኣኒሜሽን፦ እዚኣቶም ትሑት bitrate ክጥቀሙ ይኽእሉ።",
+  "Where do I find the token?": "token ኣበይ ይረኽቦ?",
+  "Connect": "ኣራኽብ",
+  "Disconnect": "ፍታሕ",
+  "Connected": "ተራኺቡ",
+  "Not connected": "ኣይተራኸበን",
+  "+ Add language": "+ ቋንቋ ወስኽ",
+  "Renew": "ሓድስ",
+  "Worker version": "ስሪት worker",
+  "Password": "መሕለፊ ቃል",
+  "Other sessions are signed out after a change.": "ድሕሪ ምቕያር ካልኦት ክፍለ-ግዜታት ይወጹ።",
+  "Change password": "መሕለፊ ቃል ቀይር",
+  "Other sessions will be signed out.": "ካልኦት ክፍለ-ግዜታት ክወጹ እዮም።",
+  "Change": "ቀይር",
+  "New worker key": "ሓድሽ መፍትሕ worker",
+  "Create new key": "ሓድሽ መፍትሕ ፍጠር",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "ኩሎም worker ሓድሽ መፍትሕ ክሳብ ተእትዎ ደው ይብሉ (installer እንደገና ኣሰርሕ ወይ worker.ini ኣመዓራሪ)።",
+  "Repeat new password": "ሓድሽ መሕለፊ ቃል ድገም",
+  "Password changed": "መሕለፊ ቃል ተቐይሩ",
+  "New worker key created": "ሓድሽ መፍትሕ worker ተፈጢሩ",
+  "Disconnect Plex?": "Plex ይፈታሕ?",
+  "Plex disconnected": "Plex ተፈቲሑ",
+  "Plex connected": "Plex ተራኺቡ",
+  "Incorrect password": "ጌጋ መሕለፊ ቃል",
+  "Incorrect code": "ጌጋ ኮድ",
+  "Incorrect code from your authenticator app": "ካብ ኣፕ authenticator ጌጋ ኮድ",
+  "Too many attempts - try again in 15 minutes": "ብዙሕ ፈተነታት - ድሕሪ 15 ደቒቕ እንደገና ፈትን",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "ማህደራት ምስ VIDEO_TS ወይ BDMV። ምቕያር ናብ ሓደ .mkv ምስ ኩሉ ምስሊ፡ ድምጺ፡ ንኡስ ጽሑፋትን ምዕራፋትን ይቕይሮም።",
+  "Convert to MKV": "ናብ MKV ቀይር",
+  "Folder": "ማህደር",
+  "Type": "ዓይነት",
+  "found": "ተረኺቡ",
+  "queued": "ኣብ መስርዕ",
+  "converting…": "ይቕየር ኣሎ…",
+  "converted": "ተቐይሩ",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "ምቕያር ኩሉ 1:1 ናብ ሓደ .mkv ይቐድሕ፦ ምስሊ (HDR እውን)፡ ኩሎም ትራካት ድምጺ፡ ንኡስ ጽሑፋትን ምዕራፋትን። ንDVD እቲ ዝነውሐ ኣርእስቲ (ፊልሚ) ይመርጽ። ኣረጊት ማህደር ናብ ኳራንቲን ይኸይድ፡ ስለዚ ክትመልሶ ትኽእል። ድሕሪኡ .mkv ብንቡር ኢንኮዲንግን ንኡስ ጽሑፋትን ይሓልፍ። Blu-ray ምስ Dolby Vision ናብ Dolby Vision profile 8.1 ይቕየር (መሰረታዊ ንብርብር 1:1፡ DV metadata ይውሰኽ)፦ Plexን ቲቪኻን ከም Dolby Vision ይጻወትዎ፡ ካልኦት ተጻወቲ ከም HDR10። ከምዚ ዓይነት ፊልሚ ድሕሪኡ ዳግማይ ኢንኮድ ኣይግበርን፡ እንተዘይኮይኑ Dolby Vision ይጠፍእ።",
+  "Compare": "ኣነጻጽር",
+  "Delete comparison": "ምንጽጻር ደምስስ",
+  "Comparison deleted": "ምንጽጻር ተደምሲሱ",
+  "comparison": "ምንጽጻር",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "መበቆል ጎኒ ሓድሽ ስሪት፦ ዓቐን፡ ጽሬት፡ ምስልን ንኡስ ጽሑፋትን። ዝኾኑ ፊልምታት ባዕልኻ ምረጽ።",
+  "Original → new": "መበቆል → ሓድሽ",
+  "Quality (VMAF)": "ጽሬት (VMAF)",
+  "Comparison": "ምንጽጻር",
+  "View": "ርአ",
+  "Make comparison": "ምንጽጻር ፍጠር",
+  "previous attempt failed": "ዝሓለፈ ፈተነ ኣይተዓወተን",
+  "Back": "ተመለስ",
+  "Make again": "እንደገና ፍጠር",
+  "New": "ሓድሽ",
+  "VMAF whole film": "VMAF ምሉእ ፊልሚ",
+  "Making the frames… this usually takes less than a minute.": "ምስልታት ይፍጠሩ ኣለዉ… እዚ ብልሙድ ካብ ሓንቲ ደቒቕ ዝውሕድ ይወስድ።",
+  "There is no picture comparison for this film yet.": "ንዚ ፊልሚ ገና ምንጽጻር ምስሊ የለን።",
+  "Picture · drag across the image": "ምስሊ · ኣብ ልዕሊ ምስሊ ስሓብ",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR ነዚ ትርኢት ናብ SDR ተቐይሩ፤ ኣብ ቲቪኻ ብHDR ትርእዮ።",
+  "How the setting was chosen": "ቅጥዒ ብኸመይ ተመሪጹ",
+  "Step": "ስጉምቲ",
+  "Weakest 5%": "ዝደኸመ 5%",
+  "Bitrate": "Bitrate",
+  "chosen": "ተመሪጹ",
+  "No data.": "ዳታ የለን።",
+  "Nothing needed, all languages were present.": "ዘድሊ የለን፡ ኩሎም ቋንቋታት ነይሮም።",
+  "Not processed yet.": "ገና ኣይተሰርሐን።",
+  "Comparison requested · ready within a minute": "ምንጽጻር ተሓቲቱ · ኣብ ውሽጢ ሓንቲ ደቒቕ ድሉው",
+  "Delete this comparison? The film itself stays as it is.": "እዚ ምንጽጻር ይደምሰስ? ፊልሚ ባዕሉ ከም ዘለዎ ይተርፍ።",
+  "Not possible": "ኣይከኣልን",
+  "Slide between original and new": "ኣብ መንጎ መበቆልን ሓድሽን ኣንሸራትት",
+  "Overview": "ሓፈሻዊ ትርኢት",
+  "Queue": "መስርዕ",
+  "In progress": "ኣብ መስርሕ",
+  "No gain": "ረብሓ የለን",
+  "Failed": "ኣይተዓወተን",
+  "Subtitles": "ንኡስ ጽሑፋት",
+  "Recently added": "ቀረባ ግዜ ዝተወሰኹ",
+  "Library": "ቤተ-መጻሕፍቲ",
+  "Quarantine": "ኳራንቲን",
+  "Workers": "Workers",
+  "Activity": "ንጥፈታት",
+  "Settings": "ቅጥዕታት",
+  "Encoding": "ኢንኮዲንግ",
+  "System": "ስርዓት",
+  "Status of the entire library.": "ኩነታት ምሉእ ቤተ-መጻሕፍቲ።",
+  "Selection": "ምርጫ",
+  "waiting for worker": "ንworker ይጽበ",
+  "In the selection": "ኣብ ምርጫ ኣሎ",
+  "selection": "ምርጫ",
+  "Selection · encoding": "ምርጫ · ኢንኮዲንግ",
+  "Selection · subtitles": "ምርጫ · ንኡስ ጽሑፋት",
+  "Close list": "ዝርዝር ዕጸው",
+  "waiting": "ይጽበ",
+  "nothing needed": "ዘድሊ የለን",
+  "original kept": "መበቆል ተሪፉ",
+  "Find, sync or generate missing subtitles.": "ዝጎደሉ ንኡስ ጽሑፋት ድለ፡ ኣሰማምዕ ወይ ፍጠር።",
+  "All videos with their current plan. You can also queue items manually here.": "ኩሎም ቪድዮታት ምስ ናይ ሕጂ መደቦም። ኣብዚ ብኢድ ናብ መስርዕ ከተእቱ እውን ትኽእል።",
+  "The machines doing the work. Choose what each worker is allowed to do.": "ነቲ ስራሕ ዝሰርሓ ማሽናት። ነፍሲ ወከፍ worker እንታይ ክገብር ከም ዝፍቀዶ ምረጽ።",
+  "Log of everything that happens.": "መዝገብ ኩሉ ዝፍጸም።",
+  "Scan now": "ሕጂ ፈትሽ",
+  "Saved": "ዝተቖጠበ",
+  "Free on NAS": "ናጻ ኣብ NAS",
+  "Progress": "ምዕባለ",
+  "Saved per day": "ዝተቖጠበ ብመዓልቲ",
+  "last 14 days": "ዝሓለፉ 14 መዓልታት",
+  "Per folder": "ብማህደር",
+  "all": "ኩሉ",
+  "nothing processed yet": "ገና ዝተሰርሐ የለን",
+  "no measurement yet": "ገና ዓቐን የለን",
+  "No processed files yet": "ገና ዝተሰርሑ ፋይላት የለዉን",
+  "No worker connected yet": "ገና worker ኣይተራኸበን",
+  "no worker": "worker የለን",
+  "worker offline": "worker ኦፍላይን",
+  "online": "ኦንላይን",
+  "disabled": "ጠፊኡ",
+  "encoding": "ኢንኮዲንግ",
+  "subtitles": "ንኡስ ጽሑፋት",
+  "Search by name or folder…": "ብስም ወይ ማህደር ድለ…",
+  "Several titles at once: separate them with |": "ብዙሓት ኣርእስትታት ሓንሳብ፦ ብ | ፍለዮም",
+  "Nothing to show": "ዝርአ የለን",
+  "File": "ፋይል",
+  "Source": "ምንጪ",
+  "Status": "ኩነታት",
+  "Result": "ውጽኢት",
+  "Languages": "ቋንቋታት",
+  "Error": "ጌጋ",
+  "When": "መዓስ",
+  "Plan": "መደብ",
+  "Added": "ዝተወሰኸ",
+  "Original": "መበቆል",
+  "Size": "ዓቐን",
+  "Replaced": "ዝተተክአ",
+  "estimate": "ግምት",
+  "Name": "ስም",
+  "Done": "ተዛዚሙ",
+  "Nothing found": "ዝተረኽበ የለን",
+  "Process only these": "ነዚኣቶም ጥራይ ስራሕ",
+  "Prioritise": "ቀዳምነት",
+  "Skip": "ሕለፍ",
+  "Retry": "እንደገና ፈትን",
+  "Clear": "ኣጽሪ",
+  "Both": "ክልቲኡ",
+  "Restore original": "መበቆል መልስ",
+  "Find subtitles": "ንኡስ ጽሑፋት ድለ",
+  "running": "ይሰርሕ",
+  "done": "ተዛዚሙ",
+  "failed": "ኣይተዓወተን",
+  "replacing": "ይትካእ",
+  "no gain": "ረብሓ የለን",
+  "skipped": "ተሓሊፉ",
+  "restored": "ተመሊሱ",
+  "cancelled": "ተሰሪዙ",
+  "nothing found": "ዝተረኽበ የለን",
+  "encode": "encode",
+  "already efficient": "ድሮ ብቑዕ",
+  "small gain": "ንእሽቶ ረብሓ",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "ጌጋ",
+  "unknown": "ዘይፍለጥ",
+  "All": "ኩሉ",
+  "Already efficient": "ድሮ ብቑዕ",
+  "Small gain": "ንእሽቶ ረብሓ",
+  "Restored": "ተመሊሱ",
+  "Video": "ቪድዮ",
+  "Duration": "ንውሓት",
+  "Audio": "ድምጺ",
+  "Encode": "Encode",
+  "Quality": "ጽሬት",
+  "Encode time": "ግዜ ኢንኮድ",
+  "Message": "መልእኽቲ",
+  "Started": "ጀሚሩ",
+  "Search": "ምድላይ",
+  "weakest 5%": "ዝደኸመ 5%",
+  "video": "ቪድዮ",
+  "Worker": "Worker",
+  "Hardware": "ሃርድዌር",
+  "Resolution": "ረዞሉሽን",
+  "Working on": "ዝሰርሖ ዘሎ",
+  "nothing": "ዋላ ሓደ",
+  "up to 4K": "ክሳብ 4K",
+  "up to 1080p": "ክሳብ 1080p",
+  "up to 720p": "ክሳብ 720p",
+  "up to SD": "ክሳብ SD",
+  "Remove": "ኣልግስ",
+  "Add worker": "worker ወስኽ",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "ነፍሲ ወከፍ worker ባዕሉ እንታይ ክገብር ከም ዝኽእል ይሕብር (encoder ተረኺቡ፡ Whisper ተተኺሉ)። ኣብዚ እንታይ ክገብር ከም ዝፍቀዶ ትውስን። ለውጥታት ካብ ዝቕጽል ስራሕ ይጅምሩ፤ ዝቕጽል ዘሎ ስራሕ ቅድም ይውዳእ።",
+  "This machine lacks the hardware or software for this": "እዚ ማሽን ነዚ ዝኸውን ሃርድዌር ወይ ሶፍትዌር የብሉን",
+  "Quality level": "ደረጃ ጽሬት",
+  "Standard": "ልሙድ",
+  "High": "ልዑል",
+  "Maximum": "ዝለዓለ",
+  "Custom": "ብሕታዊ",
+  "Custom target": "ብሕታዊ ዕላማ",
+  "Average VMAF and the weakest 5% of frames.": "ማእከላይ VMAF ከምኡ’ውን ዝደኸመ 5% ምስልታት።",
+  "avg.": "ማእ.",
+  "Minimum saving": "ዝተሓተ ቁጠባ",
+  "If a file saves less, the original is kept.": "ፋይል ውሑድ እንተቖጠበ፡ መበቆል ይተርፍ።",
+  "Processing": "ምስራሕ",
+  "Storage & safety": "ዕቃበ & ድሕነት",
+  "How long replaced originals can be restored.": "ዝተተክኡ መበቆላት ክሳብ መዓስ ክምለሱ ከም ዝኽእሉ።",
+  "days": "መዓልታት",
+  "Above this, the oldest originals are deleted permanently.": "ካብዚ ንላዕሊ፡ እቶም ዝኣረጉ መበቆላት ንሓዋሩ ይድምሰሱ።",
+  "Safety brake": "ፍረን ድሕነት",
+  "Encoding pauses when the NAS has less free space than this.": "NAS ካብዚ ዝውሕድ ናጻ ቦታ ምስ ዝህልዎ ኢንኮዲንግ ደው ይብል።",
+  "Scanning": "ምፍታሽ",
+  "Automatic scan": "ኣውቶማቲክ ምፍታሽ",
+  "New files are queued automatically.": "ሓደስቲ ፋይላት ባዕሎም ናብ መስርዕ ይኣትዉ።",
+  "Off": "ጠፊኡ",
+  "Every hour": "ነፍሲ ወከፍ ሰዓት",
+  "Every 6 hours": "ነፍሲ ወከፍ 6 ሰዓት",
+  "Every 12 hours": "ነፍሲ ወከፍ 12 ሰዓት",
+  "Daily": "መዓልታዊ",
+  "Skip folders": "ዝሕለፉ ማህደራት",
+  "Comma-separated folder names.": "ብኮማ ዝተፈላለዩ ኣስማት ማህደራት።",
+  "Plex": "Plex",
+  "Dashboard address": "ኣድራሻ ዳሽቦርድ",
+  "Use the IP address of the NAS, not localhost.": "ናይ NAS IP ኣድራሻ ተጠቐም፡ localhost ኣይኮነን።",
+  "Worker key": "መፍትሕ worker",
+  "Keep secret: with this key a worker can fetch jobs.": "ብምስጢር ሓዝ፦ በዚ መፍትሕ worker ስራሓት ከምጽእ ይኽእል።",
+  "Show": "ኣርኢ",
+  "Copy": "ቅዳሕ",
+  "Minimum requirements": "ዝተሓተ ጠለባት",
+  "Account & security": "ሕሳብ & ድሕነት",
+  "Two-factor authentication": "ክልተ-ስጉምቲ ምርግጋጽ",
+  "Not active": "ንጡፍ ኣይኮነን",
+  "New recovery codes": "ሓደስቲ ኮዳት ምምላስ",
+  "Reset MFA": "MFA ዳግም ኣዳሉ",
+  "Sessions": "ክፍለ-ግዜታት",
+  "Sign out everywhere else": "ካብ ኩሉ ካልእ ቦታ ውጻእ",
+  "Sign out": "ውጻእ",
+  "You have unsaved changes.": "ዘይተዓቀቡ ለውጥታት ኣለዉኻ።",
+  "Cancel": "ሰርዝ",
+  "Save": "ዓቅብ",
+  "Language": "ቋንቋ",
+  "Theme": "ቴማ",
+  "Light": "ብሩህ",
+  "Dark": "ጸልማት",
+  "Auto": "ኣውቶ",
+  "Dashboard language.": "ቋንቋ ዳሽቦርድ።",
+  "Auto follows your system setting.": "ኣውቶ ቅጥዒ ስርዓትካ ይስዕብ።",
+  "Reset": "ዳግም ኣዳሉ",
+  "Create new codes": "ሓደስቲ ኮዳት ፍጠር",
+  "Close": "ዕጸው",
+  "Code from your authenticator app": "ካብ ኣፕ authenticator ዝመጸ ኮድ",
+  "Sign in": "እቶ",
+  "Activate": "ኣንቅሕ",
+  "Set up two-factor authentication": "ክልተ-ስጉምቲ ምርግጋጽ ኣዳሉ",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "QR ኮድ ብኣፕ authenticator ፈትሽ እሞ 6-ኣሃዝ ኮድ ኣእቱ።",
+  "Manual:": "ብኢድ፦",
+  "6-digit code": "6-ኣሃዝ ኮድ",
+  "123456 or recovery code": "123456 ወይ ኮድ ምምላስ",
+  "Save your recovery codes": "ኮዳት ምምላስካ ዓቅብ",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "ተሌፎንካ ጠፊኡ? ብነፍሲ ወከፍ ካብዞም ኮዳት ሓንሳብ ክትኣቱ ትኽእል። ሓንሳብ ጥራይ እዮም ዝርኣዩ።",
+  "I have saved them": "ዓቂበዮም ኣለኹ",
+  "Save them now, they are shown only once.": "ሕጂ ዓቅቦም፡ ሓንሳብ ጥራይ እዮም ዝርኣዩ።",
+  "Server not responding": "ሰርቨር ኣይምልስን",
+  "Sign-in failed": "ምእታው ኣይተዓወተን",
+  "Code is incorrect": "ኮድ ጌጋ እዩ",
+  "Code is incorrect - check the time on your phone": "ኮድ ጌጋ እዩ - ሰዓት ተሌፎንካ ኣረጋግጽ",
+  "Scan started": "ምፍታሽ ጀሚሩ",
+  "scan already running": "ምፍታሽ ድሮ ይሰርሕ ኣሎ",
+  "Copied": "ተቐዲሑ",
+  "Resumed": "ቀጺሉ",
+  "Paused: a running job will finish first": "ደው ኢሉ፦ ዝሰርሕ ዘሎ ስራሕ ቅድም ይውዳእ",
+  "Added to the queue": "ናብ መስርዕ ተወሲኹ",
+  "Not applicable": "ዘይምልከት",
+  "At least one language": "ብውሑዱ ሓደ ቋንቋ",
+  "Skip this job?": "እዚ ስራሕ ይሕለፍ?",
+  "Restore the original? The new version will be deleted.": "መበቆል ይምለስ? ሓድሽ ስሪት ክድምሰስ እዩ።",
+  "on": "ክፉት",
+  "off": "ጠፊኡ",
+  "Quarantine cleanup": "ምጽራይ ኳራንቲን",
+  "Background task": "ስራሕ ድሕሪ ባይታ",
+  "Planning at startup": "ምድላው መደብ ኣብ ምጅማር",
+  "Welcome": "እንቋዕ ብደሓን መጻእኩም",
+  "Next": "ቀጻሊ",
+  "Previous": "ዝሓለፈ",
+  "Next (or skip)": "ቀጻሊ (ወይ ሕለፍ)",
+  "Done, go to the overview": "ተዛዚሙ፡ ናብ ሓፈሻዊ ትርኢት",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan ፊልምታትካን ተኸታታሊ ፊልምታትካን ብዘይ ዝርአ ፍልልይ የንእሶም፡ ዝጎደሉ ንኡስ ጽሑፋት ድማ ይመልእ። መበቆላት ድሕሪ ምፍታሽ ጽሬት ጥራይ ይትክኡ፡ ቅድም ድማ ንግዜኡ ኣብ ኳራንቲን ይጸንሑ።",
+  "Six short steps and you're set up. You can change everything later in Settings.": "ብሽዱሽተ ሓጸርቲ ስጉምትታት ኩሉ ተዳልዩ። ኩሉ ደሓር ኣብ ቅጥዕታት ክትቅይሮ ትኽእል።",
+  "Your library": "ቤተ-መጻሕፍትኻ",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan ሕጂ ኣብ ማህደር ሚድያኻ ቪድዮታት ይደሊ ኣሎ። ብዓቢ ቤተ-መጻሕፍቲ ቀዳማይ ምፍታሽ ግዜ ይወስድ፤ ክትቅጽል ትኽእል።",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "MediaScan ፈጺሙ ዘይትንክፎም ማህደራት፡ ብኮማ ዝተፈላለዩ (ንኣብነት Music, Downloads)።",
+  "Scan again": "እንደገና ፈትሽ",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "ነፍሲ ወከፍ ፋይል ክህልዎ ዘለዎ ቋንቋታት ምረጽ። MediaScan ዝጎደሉ ኣብ OpenSubtitles ይደሊ። እንተዘይተዓወተ፡ worker ባዕሉ ንኡስ ጽሑፍ ይፈጥር (ምልላይ ዘረባን ትርጉምን ኣብ ናትካ PC)።",
+  "Click a language to remove it.": "ንምእላይ ኣብ ቋንቋ ጠውቕ።",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "ነፍሲ ወከፍ ፊልሚ ብVMAF ይዕቀን፡ ምስሊ ንዓይኒ ሰብ ብኸመይ ከም ዝርአ ዘርኢ መዐቀኒ። \"ልዑል\" ንዳርጋ ኩሉ ሰብ ካብ መበቆል ዘይፍለ እዩ።",
+  "Higher = better picture, less space saved.": "ዝለዓለ = ዝሓሸ ምስሊ፡ ውሑድ ቦታ ይቑጠብ።",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "ንጥራጥሮን ጸልማት ትርኢታትን መርበብ ድሕነት። 5 Mbps ጽቡቕ ልሙድ እዩ፤ 4Kን ካልኦት ረዞሉሽናትን ብመጠን ይስዕቡ።",
+  "Plex (optional)": "Plex (ኣማራጺ)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Plex ምስ ዝራኸብ፡ MediaScan ሓደ ሰብ ፊልሚ ክርኢ ከሎ ምትካእ ይጽበ፡ ድሕሪ ነፍሲ ወከፍ ለውጢ ድማ Plex የሐድስ። Plex የብልካን? ነዚ ስጉምቲ ሕለፎ።",
+  "Plex address and token": "ኣድራሻን token ን Plex",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (ዘይተቐየረ)",
+  "Add a worker": "worker ወስኽ",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "ከቢድ ስራሕ ኣብ PC ወይ Mac ምስ ጽቡቕ ካርድ ግራፊክስ ይካየድ፦ እቲ worker። ሕጂ ተኽሎ፡ ወይ ደሓር ብWorkers። worker ክሳብ ዘየለ፡ ኣብ ፋይላትካ ዝኾነ ነገር ኣይፍጸምን።",
+  "✓ A worker is connected.": "✓ worker ተራኺቡ ኣሎ።",
+  "Done! MediaScan is set up.": "ተዛዚሙ! MediaScan ተዳልዩ።",
+  "Connect the media share on the new machine.": "ኣብቲ ሓድሽ ማሽን ናይ ሚድያ share ኣራኽብ።",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: ፊደል ድራይቭ ወይ \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: ኣብ ጥቕላል ዘሎ መምርሒ ርአ።",
+  "Download the package for that system and unpack it.": "ነቲ ስርዓት ዝኸውን ጥቕላል ኣውርድ እሞ ፍትሖ።",
+  "Run the installer.": "installer ኣሰርሕ።",
+  "The installer asks for the details below and tests the connection.": "installer ነዞም ኣብ ታሕቲ ዘለዉ ሓበሬታታት ይሓትት እሞ ርክብ ይፍትን።",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 ወይ ሓድሽ, Intel Arc ወይ 11ይ ወለዶ+ iGPU, AMD RX 6000+ · 4 ኮር · 8 GB · 100 GB ናጻ · ብገመድ መርበብ። ንኡስ ጽሑፋት: NVIDIA ምስ 8 GB+።",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (ንኡስ ጽሑፋት: 24 GB+) · 150 GB ናጻ · Homebrew።",
+  "Workers update themselves when this dashboard has a new version.": "እዚ ዳሽቦርድ ሓድሽ ስሪት ምስ ዝህልዎ Workers ባዕሎም ይሕደሱ።",
+  "What the workers are doing now and what is planned next.": "Workers ሕጂ እንታይ ይገብሩ ኣለዉን ቀጺሉ እንታይ ተመዲቡ ኣሎን።",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "ብዘይ ዝርአ ምጉዳል ጽሬት ፋይላት ኣንእስ። worker ካብ ላዕሊ ናብ ታሕቲ ነቲ መስርዕ ይሰርሖ።",
+  "select page": "ገጽ ምረጽ",
+  "select": "ምረጽ",
+  "to encode": "ኢንኮድ ክግበር",
+  "Movie": "ፊልሚ",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "ዝተተክኡ መበቆላት፡ ክትመልሶም ወይ ዳግማይ ኢንኮድ ከተግብሮም ምእንቲ ንግዜኡ ዝተዓቀቡ።",
+  "How MediaScan works: quality, subtitles, storage and security.": "MediaScan ብኸመይ ይሰርሕ፦ ጽሬት፡ ንኡስ ጽሑፋት፡ ዕቃበን ድሕነትን።",
+  "General": "ሓፈሻዊ",
+  "Advanced": "ዝማዕበለ",
+  "Connection": "ርክብ",
+  "Hand out new encode jobs to the workers.": "ሓደስቲ ስራሓት ኢንኮድ ንWorkers ዕደል።",
+  "Hand out new subtitle jobs to the workers.": "ሓደስቲ ስራሓት ንኡስ ጽሑፍ ንWorkers ዕደል።",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "መዐቀኒ VMAF ክንደይ ጽኑዕ እዩ። ዝለዓለ = ዝሓሸ ምስሊ፡ ውሑድ ቦታ ይቑጠብ።",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "ነፍሲ ወከፍ ፋይል ክህልዎ ዘለዎ ንኡስ ጽሑፋት። ዝጎደሉ ይድለዩ፡ እንተዘይኮይኑ ይፍጠሩ።",
+  "Go to Workers": "ናብ Workers",
+  "new": "ሓድሽ",
+  "start": "ጀምር",
+  "Minimum bitrate (4K)": "ዝተሓተ bitrate (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "ን 4K ናይ ባዕሉ ዝተሓተ ደረት፣ ኣብ ክንዲ 2.5 × ዋጋ 1080p። 0 = ብዓርሱ። HDR +15% ከምኡ’ውን ኣኒሜሽን ×0.6 ኣብዚ እውን ይሰርሑ።",
+  "Ready to use in a few steps.": "ብዒት ስጉምትታት ድሕሪ ምግባር ንምጥቃም ድሉው እዩ።",
+  "next": "ቀጺሉ",
+  "read error": "ናይ ምንባብ ጌጋ",
+  "MFA is already enabled": "MFA ድሮ ተንቀሳቂሱ ኣሎ",
+  "a .mkv with that name already exists": "ብዚ ስም እዚ ዘሎ .mkv ድሮ ኣሎ",
+  "a file already exists at the original location": "ኣብ ናይ መበቆል ቦታ ፋይል ድሮ ኣሎ",
+  "action not possible in this status": "እዚ ተግባር ኣብዚ ኩነታት ኣይከኣልን",
+  "walking folders": "ፎልደራት ይሰጉ ኣለዉ",
+  "planning jobs": "ስራሓት ይሰርዑ ኣለዉ",
+  "check on the NAS rejected (duration/tracks)": "ኣብ NAS ዝተገበረ ምርመራ ተነጺጉ (ንውሓት/ትራክታት)",
+  "expected a JSON object": "ናይ JSON ኦብጀክት ተጸባዪ ነይሩ",
+  "ffprobe error": "ናይ ffprobe ጌጋ",
+  "invalid resolution": "ዘይኣምር ጽፍሕ (resolution)",
+  "invalid worker token": "ዘይቅኑዕ ናይ worker ቶክን",
+  "job belongs to another worker": "እቲ ስራሕ ናይ ካልእ worker እዩ",
+  "job is no longer active": "እቲ ስራሕ ደሓር ንጡፍ ኣይኰነን",
+  "no video track": "ቪዲዮ ትራክ የለን",
+  "not JSON": "JSON ኣይኰነን",
+  "not signed in": "ኣይተእተወን",
+  "original disappeared": "እቲ መበቆል ጠፊኡ",
+  "original has changed in the meantime": "እቲ መበቆል ኣብዚ ክንዲ ዝሓለፈ ተቐይሩ",
+  "original is no longer in quarantine": "እቲ መበቆል ኣብ ኳራንቲን ደሓር የለን",
+  "original no longer available": "እቲ መበቆል ደሓር ኣይርከብን",
+  "request refused": "ሕቶ ተነጺጉ",
+  "target file already exists": "እቲ ዝዓለመ ፋይል ድሮ ኣሎ",
+  "the original has already been removed from quarantine - comparing is no longer possible": "እቲ መበቆል ድሮ ካብ ኳራንቲን ተኣልዩ - ምንጽጻር ደሓር ኣይከኣልን",
+  "this film has not been replaced yet": "እዚ ፊልም ገና ኣይተተክአን",
+  "unknown action": "ዘይትፈልጥ ተግባር",
+  "worker is still online": "worker ገና ኦንላይን እዩ",
+  "In use now:": "ሕጂ ኣብ ኣጠቓቕማ:",
+  "longest": "ዝነውሐ",
+  "8.1 (from profile 7)": "8.1 (ካብ ፕሮፋይል 7)",
+  "Whisper (transcription)": "Whisper (ናብ ጽሑፍ ምቕያር)",
+  "1 day ago": "ቅድሚ 1 መዓልታት",
+  "1 video": "1 ቪድዮታት",
+  "Enter your password to open the dashboard.": "ዳሽቦርድ ንምኽፋት ፓስዎርድኻ ኣእቱ።",
+  "No connection to the server - retrying…": "ምስ ሰርቨር ርክብ የለን - ከም ብሓድሽ ይፍተን…",
+  "Are you sure?": "ርግጸኛ ዲኻ?",
+  "Restore": "መልስ",
+  "Re-encode": "ዳግም ኮድ ግበር",
+  "Delete": "ሰርዝ",
+  "Next up": "ቀጺሉ",
+  "in the queue": "ኣብ መስርዕ",
+  "Load older entries": "ዝዓበዩ መዝገባት ጽዓን",
+  "Folder: all": "ፎልደር: ኩሉ",
+  "Resolution: all": "ርዝመት ምስሊ: ኩሉ",
+  "Codec: all": "ኮዴክ: ኩሉ",
+  "More": "ተወሳኺ",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "ፊልምታት ንCPU ኮደር ይጽበዩ ኣለዉ፣ ግን ዋላ ሓደ worker CPU ኮዲንግ ኣየብርሀን (ገጽ Workers)።",
+  "Info": "ሓበሬታ",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "ሃርድዌርካ፣ ንስራሕ ክንደይ ከም ዝምጥን፣ ዝጥቀመሎም መሳርሒታት፣ ከምኡውን ኣቀማምጣታት ከመይ ከም ዝሰርሑ።",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "መዘክር",
+  "Software": "ሶፍትዌር",
+  "GPU encoding": "GPU ኮዲንግ",
+  "CPU encoding (x265)": "CPU ኮዲንግ (x265)",
+  "Subtitles (Whisper)": "ትሕተ-ጽሑፍ (Whisper)",
+  "Translation (Ollama)": "ትርጉም (Ollama)",
+  "Server": "ሰርቨር",
+  "Database": "ዳታቤዝ",
+  "Tools in use": "ዝጥቀመሎም መሳርሒታት",
+  "Knowledge base": "ቤት ፍልጠት",
+  "Low": "ትሑት",
+  "Medium": "ማእከላይ",
+  "Ultra": "ኣዝዩ ልዑል",
+  "files": "ፋይላት",
+  "up": "ይሰርሕ",
+  "of": "ካብ",
+  "uses": "ይጥቀም",
+  "free": "ነጻ",
+  "Media share": "ምክፋል ሚድያ",
+  "Rating": "ገምጋም",
+  "Hardware details appear after this worker has updated itself.": "ዝርዝር ሃርድዌር እዚ worker ነብሱ ምስ ኣሐደሰ ይረአ።",
+  "no Whisper": "Whisper የለን",
+  "unified memory": "ሓባራዊ መዘክር",
+  "cores": "ኮራት",
+  "threads": "ትረዳት",
+  "driver": "ድራይቨር",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "ዘይፍለጥ",
+  "Settings saved": "ቅጥዕታት ተዓቂቡ",
+  "Time left": "ዝተረፈ ግዜ",
+  "Queued": "ኣብ መስርዕ",
+  "Keep originals for": "መበቆላውያን ዝዕቀቡሉ ግዜ",
+  "Quarantine size limit": "ዝለዓለ ዓቐን ኳራንቲን",
+  "Hide finished items": "ዝተዛዘሙ ሕባእ",
+  "Undo skip": "ምሕላፍ ምለስ",
+  "not supported here": "ኣብዚ ኣይድገፍን",
+  "CPU encoding": "CPU ኢንኮዲንግ",
+  "Retry on CPU (x265)": "ኣብ CPU እንደገና ፈትን (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "ኣብ CPU ብ x265 ተኣንኮደ (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 ምስ grain ምትዕርራይ ኣብ CPU ናይ worker: grain ብዝበለጸ ብቕዓት ይዕቅብ፣ ግን ንነፍሲ ወከፍ ፊልም ሰዓታት ይወስድ",
+  "CPU fallback for grainy films": "CPU መተካእታ ንgrain ዘለዎም ፊልምታት",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "GPU ካብ bitrate ናይ መበቆል ከይሓለፈ ጽሬት ክዕቅብ ምስ ዘይክእል (grain ፊልም)፣ እቲ ፊልም ኣብ CPU ናይ ሓደ worker ብ x265 እንደገና ይኣንኮድ፣ እዚ grain ብዝበለጸ ብቕዓት ይዕቅብ። ንነፍሲ ወከፍ ፊልም ሰዓታት ይወስድ፤ ኣብ ገጽ Workers ንሓደ worker CPU ኢንኮዲንግ ኣብርህ።",
+  "CPU preset": "CPU ቅድመ-ቅጥዒ",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: ን2 ሰዓት 1080p ፊልም ኣብ 8 ኮር ኣስታት 2 ሰዓት። Slow: 2-3 ዕጽፊ ዝነውሐ ንኣስታት 5-10% ዝነኣሱ ፋይላት።",
+  "Medium (faster)": "Medium (ዝቐልጠፈ)",
+  "Slow (smaller)": "Slow (ዝነኣሰ)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "እዛ ገጽ ክትጽዓን ኣይከኣለትን።",
+  "up to 1440p": "ክሳብ 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "ፋይላት ይጽናዕ ኣሎ",
+  "No worker has CPU encodes switched on (Workers page)": "ዋላ ሓደ worker CPU ኢንኮዲንግ ኣየብርሀን (ገጽ Workers)",
+  "the job changed in the meantime": "እቲ ስራሕ ኣብ መንጎ ተቐይሩ",
+  "Main": "ቀንዲ ኣሰሳ",
+  "Clear search and filters": "ድላይን መጻረይታትን ኣጽሪ",
+  "Compact rows": "ጽዑቕ መስርዓት",
+  "Encoding and subtitles are paused.": "ኢንኮዲንግን ንኡስ ጽሑፋትን ደው ኢሎም ኣለዉ።",
+  "Encoding is paused: no new encode jobs are handed out.": "ኢንኮዲንግ ደው ኢሉ ኣሎ፦ ሓደስቲ ስራሓት ኢንኮድ ኣይዕደሉን።",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "ንኡስ ጽሑፋት ደው ኢሎም ኣለዉ፦ ሓደስቲ ስራሓት ንኡስ ጽሑፍ ኣይዕደሉን።",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "ኣድራሻ Plex ን ቶከንን ክልቲኡ ኣእቱ፡ ወይ ንምስጋር ክልቲኡ ባዶ ግደፎ።",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "ናጻ ቦታ ኣብ NAS ትሕቲ ፍረን ድሕነት እዩ። ኢንኮዲንግ ብኣውቶ ደው ኢሉ።",
+  "Loading…": "ይጽዓን ኣሎ…",
+  "Next film": "ዝቕጽል ፊልም",
+  "Previous film": "ዝሓለፈ ፊልም",
+  "Next page": "ዝቕጽል ገጽ",
+  "Previous page": "ዝሓለፈ ገጽ",
+  "Rows per page": "መስርዓት ኣብ ነፍሲ ወከፍ ገጽ",
+  "Resume": "ቀጽል",
+  "Resume encoding": "ኢንኮዲንግ ቀጽል",
+  "Resume subtitles": "ንኡስ ጽሑፋት ቀጽል",
+  "Open settings": "ቅጥዕታት ክፈት",
+  "Open the library": "ቤተ-መጻሕፍቲ ክፈት",
+  "Subtitle languages": "ቋንቋታት ንኡስ ጽሑፍ",
+  "Update": "ኣሐድስ",
+  "No results for this search or filter.": "ነዚ ድላይ ወይ መጻረዪ ውጽኢት የለን።",
+  "Nothing is queued for encoding. New files are queued after a scan.": "ኣብ መስርዕ ኢንኮዲንግ ዋላ ሓደ የለን። ሓደስቲ ፋይላት ድሕሪ ምፍታሽ ኣብ መስርዕ ይኣትዉ።",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "ገና ዝተተክአ ፋይል የለን። ዝተወድኡ ኢንኮድ ድሕሪ ምቁጽጻር ጽሬት ኣብዚ ይርአዩ።",
+  "No files were kept as they are. Films that would save too little end up here.": "ከምዘለዎ ዝተረፈ ፋይል የለን። ኣዝዩ ውሑድ ቦታ ዘቑጥቡ ፊልምታት ኣብዚ ይኣትዉ።",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "ዝጽበ ንኡስ ጽሑፍ የለን። ቋንቋ ዝጎድሎም ፋይላት ድሕሪ ምፍታሽ ኣብ መስርዕ ይኣትዉ።",
+  "No subtitle job is running right now.": "ሕጂ ዝሰርሕ ስራሕ ንኡስ ጽሑፍ የለን።",
+  "No subtitles have been made yet.": "ገና ዝተሰርሐ ንኡስ ጽሑፍ የለን።",
+  "Nothing missing: every file got its subtitles so far.": "ዝጎደለ የለን፦ ክሳብ ሕጂ ነፍሲ ወከፍ ፋይል ንኡስ ጽሑፋቱ ረኺቡ።",
+  "No failed encodes.": "ዘይተዓወተ ኢንኮድ የለን።",
+  "No failed subtitle jobs.": "ዘይተዓወተ ስራሕ ንኡስ ጽሑፍ የለን።",
+  "Nothing was added in the last 14 days.": "ኣብ ዝሓለፈ 14 መዓልታት ዝተወሰኸ የለን።",
+  "No videos with this plan.": "በዚ መደብ ቪድዮ የለን።",
+  "The library is being scanned; videos appear as they are found.": "ቤተ-መጻሕፍቲ ይፍተሽ ኣሎ፤ ቪድዮታት ምስ ተረኽቡ ይርአዩ።",
+  "No videos found yet. Check the media folder and run a scan.": "ገና ቪድዮ ኣይተረኽበን። ማህደር ሚድያ ኣረጋግጽን ምፍታሽ ጀምርን።",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "ኣብ ሓጹር ዋላ ሓደ የለን። ዝተተክኡ መበቆላውያን ግዜ ዕቃበ ክሳብ ዝውዳእ ኣብዚ ይዕቀቡ።",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "ኣብ ቤተ-መጻሕፍቲ ማህደራት DVD ወይ Blu-ray (VIDEO_TS, BDMV) ኣይተረኽቡን።",
+  "1 worker online": "1 worker ኦንላይን",
+  "A worker is busy with this file": "ሓደ worker ኣብዚ ፋይል ይሰርሕ ኣሎ",
+  "A worker is grabbing the frames": "ሓደ worker ምስልታት ይወስድ ኣሎ",
+  "A worker is searching or making subtitles": "ሓደ worker ንኡስ ጽሑፋት ይደሊ ወይ ይፍጥር ኣሎ",
+  "A worker picks up the next job within a few seconds.": "ሓደ worker ኣብ ውሽጢ ቁሩብ ካልኢታት ዝቕጽል ስራሕ ይወስድ።",
+  "Above this, the oldest comparisons are deleted automatically.": "ካብዚ ንላዕሊ፡ ዝኣረጉ ምንጽጻራት ብኣውቶ ይድምሰሱ።",
+  "All replaced films": "ኩሎም ዝተተክኡ ፊልምታት",
+  "Already efficient: encoding would hardly save anything": "ድሮ ብቑዕ እዩ፡ ኢንኮዲንግ ዳርጋ ዋላ ሓንቲ ኣይቁጥብን",
+  "Automatic comparisons": "ኣውቶማቲክ ምንጽጻራት",
+  "Being made…": "ይስራሕ ኣሎ…",
+  "Can be made": "ክስራሕ ይከኣል",
+  "Can encode on the CPU with x265": "ኣብ CPU ብ x265 ኢንኮድ ክገብር ይኽእል",
+  "Comparison storage limit": "ደረት መኽዘን ምንጽጻራት",
+  "Comparisons": "ምንጽጻራት",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: እንደገና ኢንኮድ ኣይተገብረን፡ ናይ DV ንብርብር ምጠፍአ ነይሩ",
+  "Encoding is paused.": "ኢንኮዲንግ ደው ኢሉ ኣሎ።",
+  "Enlarge": "ኣዕቢ",
+  "Errors": "ጌጋታት",
+  "Flip": "ቀይር",
+  "Four frames of the original and the new version are stored": "ኣርባዕተ ምስልታት መበቆልን ሓድሽ ስሪትን ተዓቂቦም ኣለዉ",
+  "Full width": "ምሉእ ስፍሓት",
+  "GPU encoder found": "GPU ኢንኮደር ተረኺቡ",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "ንነፍሲ ወከፍ ዝተተክአ ፊልም ኣርባዕተ ምስልታት መበቆልን ሓድሽ ስሪትን ውሰድ፡ ስእሊ ኩሉ ግዜ ኣብ ገጽ ኣነጻጽር ክትፍትሽ ምእንቲ። ኣስታት 1–2 MB ንፊልም።",
+  "Keyboard shortcuts": "ኣቋራጺ መፍትሕታት",
+  "Leave without saving? Your changes to the settings will be lost.": "ከይዓቀብካ ክትወጽእ? ለውጥታትካ ኣብ ቅጥዕታት ክጠፍኡ እዮም።",
+  "Moved to the front": "ናብ ቅድሚት ተሰጋጊሩ",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "ገና ምንጽጻር የለን። መበቆል ገና ኣብ ኳራንቲን እንከሎ ሓደ ስራሕ፡ ወይ ኣብ ቅጥዕታት ኣውቶማቲክ ምንጽጻራት ኣብርህ።",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "ሕጂ ዝነጻጸር ፊልም የለን፡ መበቆላት ካብ ኳራንቲን ወጺኦም፡ ወይ ገና ዋላ ሓንቲ ኣይተተክአን።",
+  "No longer possible": "ድሕሪ ሕጂ ኣይከኣልን",
+  "No subtitles found online and none could be made": "ኣብ ኦንላይን ንኡስ ጽሑፍ ኣይተረኽበን፡ ክፍጠርን ኣይተኻእለን",
+  "Ollama found: can translate subtitles": "Ollama ተረኺቡ፡ ንኡስ ጽሑፋት ክተርጉም ይኽእል",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "ክፋል ናይ DVD ወይ Blu-ray ፎልደር እዩ፤ ኣብ ገጽ DVD & Blu-ray ቀይሮ",
+  "Paused automatically: the NAS has less free space than the safety brake.": "ብኣውቶ ደው ኢሉ፡ NAS ካብ ፍረን ድሕነት ዝውሕድ ናጻ ቦታ ኣለዎ።",
+  "Planned for encoding": "ንኢንኮዲንግ ተመዲቡ",
+  "Queued for the CPU encoder": "ኣብ መስርዕ ናይ CPU ኢንኮደር",
+  "Replaced after the quality check; the original is in quarantine for a while": "ድሕሪ ምርመራ ጽሬት ተተኪኡ፤ መበቆል ንቑሩብ ግዜ ኣብ ኳራንቲን ኣሎ",
+  "Replaced films appear here after their first encode.": "ዝተተክኡ ፊልምታት ድሕሪ ናይ መጀመርታ ኢንኮድ ኣብዚ ይርአዩ።",
+  "Search the log…": "ኣብ መዝገብ ድለ…",
+  "Show films that can be compared": "ክነጻጸሩ ዝኽእሉ ፊልምታት ኣርኢ",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "መበቆልን ሓድሽ ስሪትን ተራ ብተራ ኣርኢ፡ ዝበለጸ መንገዲ ንምርኣይ ግሬይንን ዝርዝርን",
+  "Skipped": "ተሓሊፉ",
+  "Skipped by you; Retry puts it back in the queue": "ብኣኻ ተሓሊፉ፤ «እንደገና ፈትን» ናብ መስርዕ ይመልሶ",
+  "Slider back to the middle": "መንሸራተቲ ናብ ማእከል ምለስ",
+  "Smaller": "ኣንእስ",
+  "Stopped because the file changed or disappeared": "ፋይል ስለ ዝተለወጠ ወይ ዝጠፍአ ደው ኢሉ",
+  "Stopped with an error; see the message and try again": "ብጌጋ ደው ኢሉ፤ መልእኽቲ ርአ እሞ እንደገና ፈትን",
+  "Subtitles are paused.": "ንኡስ ጽሑፋት ደው ኢሎም ኣለዉ።",
+  "The file could not be read; see the drawer": "ፋይል ክንበብ ኣይተኻእለን፤ ጎድናዊ ፓነል ርአ",
+  "The new file would save less than the minimum saving, so the original was kept": "ሓድሽ ፋይል ካብ ዝተሓተ ቁጠባ ዝውሕድ ምቖጠበ ነይሩ፡ ስለዚ መበቆል ተዓቂቡ",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "ሓድሽ ስሪት ኣብ NAS ኣሎ፡ ዋላ ሓደ ዘይርኢ ምስ ኮነ ይትካእ",
+  "The original has left quarantine, so the frames can no longer be grabbed": "መበቆል ካብ ኳራንቲን ወጺኡ፡ ስለዚ ምስልታት ድሕሪ ሕጂ ክውሰዱ ኣይከኣልን",
+  "The original is still in quarantine, so the frames can still be grabbed": "መበቆል ገና ኣብ ኳራንቲን ኣሎ፡ ስለዚ ምስልታት ገና ክውሰዱ ይከኣል",
+  "The original was put back from quarantine": "መበቆል ካብ ኳራንቲን ተመሊሱ",
+  "The queue is empty. New files are queued after a scan.": "መስርዕ ጥራዩ እዩ። ሓደስቲ ፋይላት ድሕሪ ስካን ናብ መስርዕ ይኣትዉ።",
+  "The server hands out newer worker files; the worker installs them after its current job": "ሰርቨር ሓደስቲ worker ፋይላት ይዕድል ኣሎ፤ worker ድሕሪ ናይ ሕጂ ስራሑ ይጽዕኖም",
+  "Undo": "ምለስ",
+  "Waiting for Plex: someone is watching this film": "Plex ይጽበ ኣሎ፡ ሓደ ሰብ እዚ ፊልም ይርኢ ኣሎ",
+  "Waiting for a worker; the queue runs from top to bottom": "worker ይጽበ ኣሎ፤ መስርዕ ካብ ላዕሊ ናብ ታሕቲ ይኸይድ",
+  "Warnings": "መጠንቀቕታታት",
+  "Whisper installed: can make subtitles": "Whisper ተጻዒኑ፡ ንኡስ ጽሑፋት ክፍጥር ይኽእል",
+  "Would save less than the minimum saving": "ካብ ዝተሓተ ቁጠባ ዝውሕድ ምቖጠበ",
+  "expires today": "ሎሚ የብቅዕ",
+  "expires within a day": "ኣብ ውሽጢ ሓደ መዓልቲ የብቅዕ",
+  "less than a day left": "ካብ ሓደ መዓልቲ ዝውሕድ ተሪፉ",
+  "waiting for Plex": "Plex ይጽበ",
+  "update pending": "ምሕዳስ ይጽበ",
+  "Tap to switch between original and new": "ኣብ መንጎ መበቆልን ሓድሽን ንምቕያር ጠውቕ",
+  "Repeated": "ተደጋጊሙ",
+  "Search in the current list": "ኣብ ናይ ሕጂ ዝርዝር ድለ",
+  "Clear the search, close a drawer or dialog": "ድለያ ኣጽሪ፡ ፓነል ወይ ዝርርብ ዕጾ",
+  "Previous or next film on a comparison": "ዝሓለፈ ወይ ዝቕጽል ፊልም ኣብ ምንጽጻር",
+  "Open or switch the focused row, switch or header": "ዝተመርጸ መስመር፡ መቐየሪ ወይ ኣርእስቲ ክፈት ወይ ቀይር",
+  "This list": "እዚ ዝርዝር",
+  "Nothing in the log matches this.": "ኣብ መዝገብ ምስዚ ዝሰማማዕ የለን።",
+  "Nothing has happened yet.": "ገና ዋላ ሓንቲ ኣይተፈጸመን።",
+  "No worker is online, so nothing can run.": "ዋላ ሓደ worker ኦንላይን የለን፡ ስለዚ ዋላ ሓንቲ ክሰርሕ ኣይክእልን።",
+  "There is no worker yet. Add one to get started.": "ገና worker የለን። ንምጅማር ሓደ ወስኽ።",
+  "Open Workers": "Workers ክፈት",
+  "Some values are out of range.": "ገለ ዋጋታት ካብ ደረት ወጻኢ እዮም።",
+  "no capabilities reported": "ዓቕምታት ኣይተሓበሩን",
+  "Replaced · expires": "ዝተተክአ · የብቅዕ",
+  "Made": "ተሰሪሑ",
+  "Make": "ስራሕ",
+  "lots of motion": "ብዙሕ ምንቅስቓስ",
+  "dark scene": "ጸልማት ትርኢት",
+  "a quarter in": "ኣብ ርብዒ",
+  "three quarters in": "ኣብ ሰለስተ ርብዒ",
+  "Encoded": "ኢንኮድ ተገይሩ",
+  "Finished": "ተወዲኡ",
+  "later": "ድሒሩ",
+  "Leave": "ውጻእ",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "ሓደ ምንጽጻር ካብቲ መበቆላዊን ካብቲ ሓድሽ ስሪትን 4 ፍሬማት ይወስድ (ብድምር ከባቢ 1–2 MB)። እቲ መበቆላዊ ገና ኣብ ቀይዲ ኣብ ዘሎሉ እዋን ክስራሕ ይኽእል፡ ክሳብ እትድምስሶ ድማ ይጸንሕ፡ እቲ መበቆላዊ ድሕሪ ምጥፋኡ እውን።",
+  "Retry on CPU": "ኣብ CPU እንደገና ፈትን",
+  "Scan": "ምፍታሽ"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1ጀምር$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "ሕጂ: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan $1 ቪድዮታት ረኺቡ ($2)።"
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · ዝኸፍአ 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "ዝኸፍአ 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "ሓድሽ ($1 መዓልታት)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "መደብ: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "ምትካእ ኣይተዓወተን ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} ኣይተዓወተን{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "ምፍታሽ ተዛዚሙ: $1 ቪድዮታት፡ $2 ሓደስቲ፡ $3 ዝተቐየሩ፡ $4 ዝጠፍኡ፤ $5 ስራሓት ኢንኮድን $6 ስራሓት ንኡስ ጽሑፍን ተወሲኾም"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "ምፍታሽ ተዛዚሙ: $1 ቪድዮታት፡ $2 ሓደስቲ፡ $3 ዝተቐየሩ፡ $4 ዝጠፍኡ፡ $5 ኣብ ዝሕለፉ ማህደራት፤ $6 ስራሓት ኢንኮድን $7 ስራሓት ንኡስ ጽሑፍን ተወሲኾም"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "$1 ፊልም(ታት) ብናይ ሕጂ ሕግታት ዳግማይ ኢንኮድ ይገበሩ? መበቆላት ይምለሱ፡ ፊልምታት ድማ ኣብ መስርዕ ቀዳምነት ይረኽቡ።"
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 ፊልም(ታት) እንደገና ኣብ መስርዕ{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 መበቆል(ታት) ተመሊሶም እንደገና ናብ መስርዕ ኣትዮም (ናይ ሕጂ ሕግታት)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "ሓድሽ: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "ተተኪኡ: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray ተቐይሩ: $1 ($2 GB)፤ ማህደር ዲስክ ኣብ ኳራንቲን ኣሎ"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "መበቆል ተመሊሱ: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 {t:$2} ጀሚሩ: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 ስራሕ(ታት) (ካብ ኩሎም $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "ምርጫ ተዓዲሉ - ኢንኮዲንግ ብኣውቶ ደው ኢሉ"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "ምርጫ ተዓዲሉ - ንኡስ ጽሑፋት ብኣውቶ ደው ኢሎም"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "ቅጥዕታት ተቐይሮም: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "ስራሕ $1 ጌጋ: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "ስራሕ $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 ኦፍላይን: $2 ስራሕ(ታት) እንደገና ኣብ መስርዕ"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 ዳግም ጀሚሩ: $2 ዝተቛረጹ ስራሓት እንደገና ኣብ መስርዕ"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 ናብ $2 ተሓዲሱ: $3 ዝፈሸሉ ስራሓት እንደገና ኣብ መስርዕ"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 ተኣልዩ"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: ኢንኮዲንግ {t:$2}፡ ንኡስ ጽሑፋት {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "መደብ ተሓዲሱ: $1 ስራሓት ኢንኮድን $2 ስራሓት ንኡስ ጽሑፍን ተወሲኾም"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 ስራሕ(ታት) ብኢድ ናብ መስርዕ ኣትዮም"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 ስራሕ(ታት): $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 ምንጽጻር(ታት) ተደምሲሶም"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "ካብ $1 ካልኦት ክፍለ-ግዜታት ተወጺኡ"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "ብኮድ ምምላስ ተኣትዩ ($1 ተሪፎም)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "መበቆላት እንተበዝሐ $1 መዓልታት ይዕቀቡ፡ ብድምር ድማ ካብ $2 ፈጺሞም ኣይበዝሑን። እቶም ዝኣረጉ ቅድም ይኸዱ። ምምላስ ንሓድሽ ስሪት ይድምስሶ።"
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - ንምእላይ ጠውቕ"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 ማህደር(ታት) ክቕየሩ እዮም · worker ኣብ ውሽጢ ፍርቂ ደቒቕ ይጅምር"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 ድምጺ · $2 ንኡስ ጽሑፋት"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "$1 ምንጽጻር(ታት) ይደምሰሱ? ፊልምታት ባዕሎም ከም ዘለዉ ይተርፉ።"
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "ምስሊ $1 · ኣብ $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "ምስሊ $1 · ኣብ $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB ከም jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "ግዜ ኢንኮድ $1 ደቒቕ · ኣብ 8 ክፋላት ተዓቂኑ፡ ድሕሪኡ ኣብ ምሉእ ፊልሚ ተፈቲሹ።"
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "ሕጂ ዘሎ: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "ዝደኸመ 5% $1 · ደረጃ $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "ግዜ $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "ምፍጣር ምስልታት ኣይተዓወተን: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "ምርጫ · ቀጻሊ"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "ምርጫ · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "ሕጂ:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· ድሕሪኡ ካብ ምርጫ $1 ተወሰኽቲ"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "ግምት · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 ቀደም ተዛዚሞም · ኣርኢ"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 ናብ ምርጫ ተወሲኾም · worker ኣብ ውሽጢ ቁሩብ ካልኢታት ይጅምር"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "ምርጫ {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "ተፈጢሩ: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% ዝነኣሰ$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "ሕጂ"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "ቅድሚ $1 ደቒቕ"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "ቅድሚ $1 ሰዓት"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "ቅድሚ $1 መዓልታት"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "ዝተራእየ {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 መ $2 ሰ"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 ሰ $2 ደ"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 ቪድዮታት"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "ኳራንቲን $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 ኣብ 24 ሰ"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 ረብሓ"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB ረብሓ"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "ኣብ ዝተሰርሑ ፋይላት $1% ዝነኣሰ"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 ኦንላይን"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "ክጅምሩ $1 ተወሰኽቲ፡ ድሕሪኡ ደው"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 ኣቕሑ · ገጽ $2 ካብ $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 ተመሪጾም"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "ኩሎም $1 ውጽኢታት ምረጽ"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "ምፍታሽ: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× ተፈቲኑ"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 ደቒቕ"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "ንጡፍ · $1 ኮድ(ታት) ምምላስ ተሪፎም"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 ንጡፋት ክፍለ-ግዜታት፡ እዚ ሓዊሱ።"
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 ተሓዲሱ{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 ካልኦት ክፍለ-ግዜታት ወጺኦም"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "ነዞም $1 ጥራይ ይሰርሑ? ቀዳምነት ይረኽቡ፡ ምስራሕ ይቕጽል ድሕሪኡ ድማ ብኣውቶ እንደገና ደው ይብል።"
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "$1 ስራሕ(ታት) ይሕለፉ?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "$1 መበቆል(ታት) ይምለሱ? ሓደስቲ ስሪታት ክድምሰሱ እዮም።"
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Worker $1 ካብ ዝርዝር ይእለ? እንደገና ኦንላይን እንተመጺኡ ባዕሉ ይርአ።"
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "ን$1 ይሰርሕ ኣሎ"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 ተሪፉ"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "ክሳብ $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "ዝሰርሖ ዘሎ"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex ተተሓሒዙ (ዕትም $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex ብቕኑዕ ኣይምላሽን ኣሎ: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "ጌጋ: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "ምትካእ ኣይተዓወተን: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "ንዚ $1 ዘይቅኑዕ ዋጋ"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 ኣብ መንጎ $2 ከምኡውን $3 ክኸውን ኣለዎ"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · እቲ ዝኸፍአ 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 ሰዓት"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU ጽሬት ክዕቅብ ኣይከኣለን - ንCPU ኮደር (x265) ኣብ መስርዕ ኣትዩ"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "ምጽራይ staging: ተረፍ ፋይል ተኣልዩ $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 ኣብ ነፍሲ ወከፍ ገጽ"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 workers ኦንላይን"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · worker ምውሳኽ፡ መፍትሕ worker ከምኡ’ውን ምውራዳት ኣብ ገጽ Workers ይርከቡ።"
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · ድሕሪ ~{t:$2} ይጅምር · ግምት"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · ግምት"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 መዓልታት ተሪፉ"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "ድሕሪ $1 መዓልታት የብቅዕ"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "ተሰሪሑ · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "ክስራሕ ይከኣል · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · ስጉምቲ $1 ካብ $2 · ~{t:$3} ተሪፉ"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · ስጉምቲ $1 ካብ $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · ~{t:$1} ተሪፉ"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 ምንጽጻር(ታት) ተሓቲቱ · ኣብ ውሽጢ ቁሩብ ደቓይቕ ድሉው"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "$1 ምንጽጻር(ታት) ይስራሕ? ነፍሲ ወከፍ ኣስታት 1–2 MB።"
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "$1 ግዜ ተደጋጊሙ"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "ኣብ መንጎ $1ን $2ን"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 ስራሕ(ታት)"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "ጌጋ ኣብ $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 ምንጽጻር(ታት) ተሓቲቱ"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "ምንጽጻራት ተጸርዩ: $1 ተኣልዮም (ልዕሊ $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "ፎልደር ኳራንቲን ናብ quarantine ተቐይሩ ($1 መዝገብ(ታት) ተሓዲሱ)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 ተኣልዩ: $2 ስራሕ(ታት) እንደገና ኣብ መስርዕ"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "ኳራንቲን: $1 ድሮ ኣሎ፣ $2 ኣብ ቦታኡ ተሪፉ"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "ፎልደር ኳራንቲን ናብ quarantine ተቐይሩ፤ $1 መዝገብ(ታት) ተሓዲሱ፣ ግን $2 ገና ባዶ ኣይኮነን"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "ምቕያር ስም ፎልደር ኳራንቲን ኣይተዓወተን (share ሚድያ ተሰርዑ'ዩ?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "ሓዲሽ ስሪት ኣብ staging የለን"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "ሓዲሽ .mkv ኣብ staging የለን"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "መበቆል ጠፊኡ"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "መበቆል ኣብ መንጎ ተቐይሩ"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "መበቆል ድሕሪ ሕጂ ኣይርከብን"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "ኣብ NAS ዝተገብረ ምርመራ ተነጺጉ (ንውሓት/ትራክታት)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray ናብ mkv ተቐይሩ"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "ድሕሪ ምሕዳስ worker እንደገና ፈተነ"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "ብኣኻ ተሓሊፉ"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "ዒላማ ፋይል ድሮ ኣሎ"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker ኣብ መስመር ኣይኮነን - እንደገና ተመዲቡ"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker ተኣልዩ - እንደገና ተመዲቡ"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker እንደገና ጀሚሩ - እንደገና ተመዲቡ"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "ምትካእ ኣይተዓወተን: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision ኣብ ሓዲሽ mkv የለን"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: እንደገና ኣይተኾደን (ደረጃ DV ምጠፍአ ነይሩ)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "ሓደ ስትሪም ናብ .mkv ክቕዳሕ ኣይክእልን: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg ን$1 ደቒቕ ገስጋስ ኣይገበረን (share ኣይርከብን?) - ደው ኢሉ"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "ካብ $2 ፋይላት $1 ብሓንሳብ ጠፊኦም - share ኣይርከብን? ዋላ ሓንቲ ከም ዝጠፍአ ኣይተመልከተን"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "ትርጉም ኣይተዓወተን: ድሕሪ ዳግም ፈተነታት ን$1 መስመር ዝጠቅም መልሲ የለን"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: ጌጋ ሰርቨር"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - ሞዴል ኣውርድ (ollama pull <model>) ወይ ollama_model ኣብ worker.ini ኣርም"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama ኣብ $1 ኣይርከብን ($2) - Ollama ጀምር ወይ ollama_url ፈትሽ"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama ኣይርከብን: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama ን$2 ደቒቕ ቀጻሊ ተዓንቂፉ"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 ልዕሊ ሓደ ሰዓት ወሲዱ - share ሚድያ ገና ይርከብ ድዩ?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 የለን; ኢንስቶል ግበሮ $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF ምሉእ ፊልሚ $1 ብዝኾነ ኣገባብ ምጽማድ ዘይእመን (ናሙናታት $2); ትሑት ኣብ $3። መበቆል ተታሒዙ; ኣብኡ ምንጪ ፈትሽ"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: ፋይል ክንበብ ኣይከኣለን"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: ኣይተዓወተን"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "ነዛ ፊልም ኣብ PC ዝኣክል ናጻ ቦታ የለን ($1 GB ኣብ $2 የድሊ)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "ኣብ ፎልደር ስራሕ ዝኣኽል ቦታ የለን: $1 GB ባዶ, ~$2 GB የድሊ"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "ብዝተሓተ bitrate እንተበዝሐ $1% ዝነኣሰ"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "ሜታዳታ ካብ ናይ ምውሳኽ ደርቢ ይውጸእ ኣሎ"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "እቲ ዝወረደ ኣይሰማማዕን (sha256) - ኣይተጠቕመሉን"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "ምርመራ: ንውሓት ወይ ብዝሒ ስትሪምስ ይፈላለ"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "ሓዲሽ mkv ኣዝዩ ሓጺር እዩ ($1 ካብ $2 ደቒቕ)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 ካብ $2 ተዛዚሙ፡ ንworker ይጽበ"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "Dolby Vision ናብ profile 8.1 ምቕያር"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "ሜታዳታ ናብ መሰረታዊ ደርቢ ይኣቱ ኣሎ"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "ምፍታሽ VMAF (ካልኣይ ዓቐን)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "ዝኾነ ቅጥዒ ደረጃ ጽሬት ኣየማልእን"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "ወሰን ምውራድ በጺሑ - እቲ ዝተረፈ ደሓር"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "መዓልታዊ ደረት OpenSubtitles በጺሑ"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "ብኸፊል፤ እቲ ዝተረፈ ድሕሪ ደረት ምውራድ"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 ድሕሪ ምውራድ ኣይተረኽበን"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: ዝተዘርበ ቋንቋ ተረኺቡ"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (ካብ $1 ዝተተርጎመ)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "ኣብ PC ናጻ ቦታ ይጽበ"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "ፋይል ትርጉም ኣብ ዘይልሙድ ደረጃ ዓቢ እዩ"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "ናይ ባዕሉ ፈተና ልክዒ ዘይእሙን እዩ"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "$1 ግዜ ዝተፈተነ ትርጉም ኣይተዓወተን"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "ይጽበ: ሕጂ ኣብ Plex ይርአ ኣሎ"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "$1% ጥራይ ዝነኣሰ ይጽበ"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "$1 ይወርድ ኣሎ (ሓንሳብ)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "ምፍታሽ ምሉእ ፊልሚ ትሕቲ ዕላማ"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "ኣብ ካልኣይ $1 ፍሬም ምሓዝ ኣይከኣልን"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "ምሉእ ፊልሚ ቁሩብ ትሕቲ ዕላማ"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "ፊልሚ ኣብ ዲስክ ምድላይ"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "ደረጃ ጽሬት ዘይብጻሕ"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "ናይ ምርመራ ልክዒ ዘይእሙን እዩ"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "ካብ ሰርቨር ዘይቅኑዕ መንገዲ"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "እንደገና: ዝተሓተ ረብሓ ሕጂ 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper ኣብ GPU ይሰርሕ"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "ኣብ DVD ዝኾነ ኣርእስቲ ኣይተረኽበን"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "ኣብ ኣርካይቭ ጥርጡር መንገዲ"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "ይጽበ: Plex ኣይብጻሕን"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "$1 ካብ $2 ይሰርሕ ኣሎ"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles ኣይርከብን"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (ናብ ጽሑፍ ምቕያር)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "ምፍታሽ VMAF ምሉእ ፊልሚ"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "ተዛዚሙ፡ ንምትካእ ይጽበ"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "ኣረጊት ማህደር ናብ ኳራንቲን"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "ምፍታሽ VMAF $1 ኣዝዩ ትሑት"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "ዲስክ ምንባብ (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "ካብ እንግሊዝኛ ተተርጒሙ"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "ተዛዚሙ ($1 ካብ $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "ድምጺ ምውጻእ ኣይተዓወተን"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "ናብ CPU ይምለስ ኣሎ"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles ኣቲኻ ኣለኻ"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (ካብ ፕሮፋይል 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "ንworker ይጽበ"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "ኣብ zip ጥርጡር መንገዲ"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "ዝተጻሕፈ EN ክንበብ ኣይከኣለን"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "ክሳብ ሕጂ ዝነውሐ: ኣርእስቲ"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "ግዜ ኣይሰማማዕን"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "$1% ጥራይ ዝነኣሰ"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "ክፋል $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "መበቆል ይሕዝ ኣሎ"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "ሎሚ ዝተረፉ ምውራዳት"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "ኣርእስቲ $1 ተፈቲሹ"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "ንምትካእ ይጽበ"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "ናብ NAS ምቕዳሕ"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "መበቆል ይተርፍ"
+  ],
+  [
+   "translation failed",
+   "g",
+   "ትርጉም ኣይተዓወተን"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "ሰርቨር ኣይርከብን"
+  ],
+  [
+   "searching quality",
+   "g",
+   "ጽሬት ይድለ ኣሎ"
+  ],
+  [
+   "making references",
+   "g",
+   "መወከሲታት ይፍጠሩ ኣለዉ"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "ናብ mkv ምቕያር"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "ንኡስ ጽሑፋት ደው ኢሎም"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "ምቕዳሕ NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "ምቕዳሕ PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "ፊልሚ ምድላይ"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "ናብ mkv ምጥማር"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "ዝነውሐ playlist"
+  ],
+  [
+   "timing reference",
+   "g",
+   "መወከሲ ግዜ"
+  ],
+  [
+   "speech segments",
+   "g",
+   "ክፋላት ዘረባ"
+  ],
+  [
+   "too little gain",
+   "g",
+   "ኣዝዩ ውሑድ ረብሓ"
+  ],
+  [
+   " not applicable",
+   "g",
+   " ዘይምልከት"
+  ],
+  [
+   "download failed",
+   "g",
+   "ምውራድ ኣይተዓወተን"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "ድሕሪ ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "ምትርጓም ናብ"
+  ],
+  [
+   "next candidate",
+   "g",
+   "ዝቕጽል ሕጩ"
+  ],
+  [
+   "after shifting",
+   "g",
+   "ድሕሪ ምቕያር"
+  ],
+  [
+   "reading audio",
+   "g",
+   "ድምጺ ምንባብ"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "ምርጫ · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 ይጽበዩ"
+  ],
+  [
+   "search failed",
+   "g",
+   "ድላይ ኣይተዓወተን"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "ዳግማይ ኢንኮድ"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "ኣርእስቲ $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " ጌጋ(ታት)"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 ተዛዚሞም"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "ንኡስ ጽሑፋት:"
+  ],
+  [
+   "replacing",
+   "g",
+   "ይትካእ"
+  ],
+  [
+   "subtitles",
+   "g",
+   "ንኡስ ጽሑፋት"
+  ],
+  [
+   "candidate",
+   "g",
+   "ሕጩ"
+  ],
+  [
+   "encoding:",
+   "g",
+   "ኢንኮዲንግ:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "ጀምር"
+  ],
+  [
+   "encoding",
+   "g",
+   "ኢንኮዲንግ"
+  ],
+  [
+   "checking",
+   "g",
+   "ምፍታሽ"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", ክሳብ "
+  ],
+  [
+   "present",
+   "g",
+   "ኣሎ"
+  ],
+  [
+   "missing",
+   "g",
+   "ጎዲሉ"
+  ],
+  [
+   "speed",
+   "g",
+   "ፍጥነት"
+  ],
+  [
+   "saved",
+   "g",
+   "ተዓቂቡ"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU ጽሬት ክዕቅብ ኣይከኣለን - ንCPU ኮደር (x265) ኣብ መስርዕ ኣትዩ"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "ምጽራይ staging: ተረፍ ፋይል ተኣልዩ"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "ፎልደር ሚድያ ባዶ እዩ ወይ ኣይተሰርዐን - ዋላ ሓንቲ ኣይተቐየረን"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "ጽሬት ምዕቃብ ካብ መበቆል ዝለዓለ bitrate ይሓትት"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "ካብ መበቆል ዝለዓለ bitrate ይሓትት"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker ንምሕዳስ እንደገና ይጅምር ኣሎ"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "ናይ ቪድዮ ስትሪም የለን (ስእሊ ሽፋን ጥራይ?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "ዝጽሓፍ ናይ ድምጺ ስትሪም የለን"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "ነዛ ፊልም ኣብ PC ዝኣክል ናጻ ቦታ የለን"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "ኣብ CPU እንደገና ይፍተን ኣሎ (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "ፎልደራት ይሰጉ ኣለዉ"
+  ],
+  [
+   "analysing files",
+   "g",
+   "ፋይላት ይጽናዕ ኣሎ"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "ስራሓት ይሰርዑ ኣለዉ"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU ኢንኮዲንግ ክፉት"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU ኢንኮዲንግ ጠፊኡ"
+  ]
+ ]
+}

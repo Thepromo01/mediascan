@@ -1,0 +1,2060 @@
+{
+ "name": "Nederlands",
+ "s": {
+  "Re-encode from original": "Opnieuw encoden vanaf origineel",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Opnieuw encoden met de huidige regels? Het origineel wordt teruggezet en de film krijgt voorrang.",
+  "Back in the queue": "Opnieuw in de wachtrij",
+  "Restore originals": "Originelen terugzetten",
+  "Minimum bitrate (1080p)": "Minimale bitrate (1080p)",
+  "Extra floor (share of the source)": "Extra ondergrens (deel van de bron)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Optioneel: houd daarnaast minstens dit deel van de oorspronkelijke videobitrate. Alleen nuttig voor bronnen met een heel hoge bitrate. 0 = uit.",
+  "with the minimum bitrate at most": "met de minimale bitrate hooguit",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Lager gaat het nieuwe bestand nooit, ook als VMAF het goed vindt. Andere resoluties naar verhouding: 4K ×2,5 · 720p ×0,55 · SD ×0,3 · HDR +15% · animatie ×0,6.",
+  "bitrate already near the minimum": "bitrate al rond de ondergrens",
+  "MFA reset from settings - set it up again": "MFA gereset vanuit instellingen - opnieuw instellen vereist",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA gereset via MFA_RESET - haal MFA_RESET weer weg uit de instellingen van de container",
+  "MFA enabled": "MFA ingeschakeld",
+  "MediaScan started": "MediaScan gestart",
+  "New recovery codes created": "Nieuwe herstelcodes aangemaakt",
+  "Password changed; other sessions signed out": "Wachtwoord gewijzigd; andere sessies uitgelogd",
+  "Password set (first time)": "Wachtwoord ingesteld (eerste keer)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Let op: ADMIN_PASSWORD is korter dan 10 tekens - kies in Instellingen een sterker wachtwoord",
+  "part of a DVD/Blu-ray folder": "onderdeel van dvd/blu-ray-map",
+  "folder is in Skip folders": "map staat in Mappen overslaan",
+  "file disappeared": "bestand is verdwenen",
+  "worker restarted - rescheduled": "worker herstart - opnieuw ingepland",
+  "worker offline - rescheduled": "worker offline - opnieuw ingepland",
+  "retry after worker update": "opnieuw na worker-update",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray omgezet naar mkv",
+  "skipped by you": "door jou overgeslagen",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Vervangen wacht als een film op dat moment bekeken wordt, en Plex ververst na elke wijziging.",
+  "Confirm with your password and a code from your app.": "Bevestig met je wachtwoord en een code uit je app.",
+  "Your old recovery codes will stop working.": "Je oude herstelcodes vervallen.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Je huidige authenticator-koppeling en herstelcodes vervallen. Daarna stel je MFA direct opnieuw in.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Kies een wachtwoord voor het dashboard. De setupcode staat in het logboek van de container (Container Manager › mediascan › Logboek, of",
+  "- click to remove": "- klik om te verwijderen",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Ongeldig adres, bv. http://192.168.1.10:32400",
+  "Enter a Plex token": "Vul een Plex-token in",
+  "A password has already been set": "Er is al een wachtwoord ingesteld",
+  "The key is fixed in WORKER_TOKEN (container environment)": "De sleutel staat vast in WORKER_TOKEN (omgeving van de container)",
+  "selection still running - pause or wait until it is done": "selectie loopt nog - pauzeer of wacht tot hij klaar is",
+  "Now running": "Nu bezig",
+  "Finding the film on the disc": "Film zoeken op de schijf",
+  "Converting to one .mkv": "Omzetten naar één .mkv",
+  "Checking (duration, tracks)": "Controleren (duur, sporen)",
+  "Copying to the NAS": "Naar de NAS kopiëren",
+  "Old folder to quarantine": "Oude map naar de quarantaine",
+  "worker has not reported for a while": "worker meldt zich al even niet",
+  "waiting for the worker": "wacht op de worker",
+  "Welcome to MediaScan": "Welkom bij MediaScan",
+  "Setup code": "Setupcode",
+  "New password (at least 10 characters)": "Nieuw wachtwoord (minstens 10 tekens)",
+  "Repeat password": "Herhaal wachtwoord",
+  "Set password": "Wachtwoord instellen",
+  "The passwords do not match": "De wachtwoorden zijn niet gelijk",
+  "Setup code is wrong - check the container log": "Setupcode klopt niet - kijk in het logboek van de container",
+  "Choose a password of at least 10 characters": "Kies een wachtwoord van minstens 10 tekens",
+  "Animation folders": "Animatiemappen",
+  "Top-level folders with animation: these may use a lower bitrate.": "Hoofdmappen met animatie: die mogen een lagere bitrate hebben.",
+  "Where do I find the token?": "Waar vind ik de token?",
+  "Connect": "Koppelen",
+  "Disconnect": "Ontkoppelen",
+  "Connected": "Gekoppeld",
+  "Not connected": "Niet gekoppeld",
+  "+ Add language": "+ Taal toevoegen",
+  "Renew": "Vernieuwen",
+  "Worker version": "Workerversie",
+  "Password": "Wachtwoord",
+  "Other sessions are signed out after a change.": "Na het wijzigen worden andere sessies uitgelogd.",
+  "Change password": "Wachtwoord wijzigen",
+  "Other sessions will be signed out.": "Andere sessies worden uitgelogd.",
+  "Change": "Wijzigen",
+  "New worker key": "Nieuwe worker-sleutel",
+  "Create new key": "Nieuwe sleutel maken",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Alle workers stoppen tot je de nieuwe sleutel invult (installer opnieuw draaien of worker.ini aanpassen).",
+  "Repeat new password": "Herhaal nieuw wachtwoord",
+  "Password changed": "Wachtwoord gewijzigd",
+  "New worker key created": "Nieuwe worker-sleutel gemaakt",
+  "Disconnect Plex?": "Plex ontkoppelen?",
+  "Plex disconnected": "Plex ontkoppeld",
+  "Plex connected": "Plex gekoppeld",
+  "Incorrect password": "Onjuist wachtwoord",
+  "Incorrect code": "Onjuiste code",
+  "Incorrect code from your authenticator app": "Onjuiste code uit je authenticator-app",
+  "Too many attempts - try again in 15 minutes": "Te veel pogingen - probeer het over 15 minuten opnieuw",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Mappen met VIDEO_TS of BDMV. Omzetten maakt er één .mkv van met alle beeld, geluid, ondertitels en hoofdstukken.",
+  "Convert to MKV": "Omzetten naar MKV",
+  "Folder": "Map",
+  "Type": "Soort",
+  "found": "gevonden",
+  "queued": "in de rij",
+  "converting…": "wordt omgezet…",
+  "converted": "omgezet",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Omzetten kopieert alles 1-op-1 naar één .mkv: beeld (ook HDR), alle audiosporen, ondertitels en hoofdstukken. Bij een dvd kiest hij de langste titel (de film). De oude map gaat naar de quarantaine, dus terugzetten kan. Daarna gaat de .mkv gewoon door het normale encoden en de ondertitels. Blu-rays met Dolby Vision worden Dolby Vision profiel 8.1 (basislaag 1-op-1, DV-metadata erbij): Plex en je tv spelen dat als Dolby Vision, andere spelers als HDR10. Zo'n film wordt daarna niet opnieuw geëncodeerd, want dan gaat Dolby Vision verloren.",
+  "Compare": "Vergelijken",
+  "Delete comparison": "Vergelijking verwijderen",
+  "Comparison deleted": "Vergelijking verwijderd",
+  "comparison": "vergelijking",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Origineel naast de nieuwe versie: grootte, kwaliteit, beeld en ondertitels. Kies zelf welke films.",
+  "Original → new": "Origineel → nieuw",
+  "Quality (VMAF)": "Kwaliteit (VMAF)",
+  "Comparison": "Vergelijking",
+  "View": "Bekijken",
+  "Make comparison": "Vergelijking maken",
+  "previous attempt failed": "vorige poging mislukt",
+  "Back": "Terug",
+  "Make again": "Opnieuw maken",
+  "New": "Nieuw",
+  "VMAF whole film": "VMAF hele film",
+  "Making the frames… this usually takes less than a minute.": "De beelden worden gemaakt… dit duurt meestal minder dan een minuut.",
+  "There is no picture comparison for this film yet.": "Er is nog geen beeldvergelijking voor deze film.",
+  "Picture · drag across the image": "Beeld · sleep over het beeld",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR is voor deze weergave omgezet naar gewoon beeld; op je tv zie je het in HDR.",
+  "How the setting was chosen": "Hoe de instelling gekozen is",
+  "Step": "Stap",
+  "Weakest 5%": "Zwakste 5%",
+  "Bitrate": "Bitrate",
+  "chosen": "gekozen",
+  "No data.": "Geen gegevens.",
+  "Nothing needed, all languages were present.": "Niets nodig, alle talen waren er al.",
+  "Not processed yet.": "Nog niet verwerkt.",
+  "Comparison requested · ready within a minute": "Vergelijking aangevraagd · klaar binnen een minuut",
+  "Delete this comparison? The film itself stays as it is.": "Deze vergelijking verwijderen? De film zelf blijft zoals hij is.",
+  "Not possible": "Kan niet",
+  "Slide between original and new": "Schuif tussen origineel en nieuw",
+  "Overview": "Overzicht",
+  "Queue": "Wachtrij",
+  "In progress": "Bezig",
+  "No gain": "Geen winst",
+  "Failed": "Mislukt",
+  "Subtitles": "Ondertitels",
+  "Recently added": "Nieuw toegevoegd",
+  "Library": "Bibliotheek",
+  "Quarantine": "Quarantaine",
+  "Workers": "Workers",
+  "Activity": "Activiteit",
+  "Settings": "Instellingen",
+  "Encoding": "Encoden",
+  "System": "Systeem",
+  "Status of the entire library.": "Stand van zaken van de hele bibliotheek.",
+  "Selection": "Selectie",
+  "waiting for worker": "wacht op worker",
+  "In the selection": "Zit in de selectie",
+  "selection": "selectie",
+  "Selection · encoding": "Selectie · encoden",
+  "Selection · subtitles": "Selectie · ondertitels",
+  "Close list": "Lijst sluiten",
+  "waiting": "wacht",
+  "nothing needed": "niets nodig",
+  "original kept": "origineel behouden",
+  "Find, sync or generate missing subtitles.": "Ontbrekende ondertitels zoeken, synchroniseren of laten maken.",
+  "All videos with their current plan. You can also queue items manually here.": "Alle video's met hun huidige plan. Zet hier ook handmatig iets in de wachtrij.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "De machines die het werk doen. Kies per worker wat hij mag doen.",
+  "Log of everything that happens.": "Logboek van alles wat er gebeurt.",
+  "Scan now": "Nu scannen",
+  "Saved": "Bespaard",
+  "Free on NAS": "Vrij op NAS",
+  "Progress": "Voortgang",
+  "Saved per day": "Bespaard per dag",
+  "last 14 days": "laatste 14 dagen",
+  "Per folder": "Per map",
+  "all": "alles",
+  "nothing processed yet": "nog niets verwerkt",
+  "no measurement yet": "nog geen meting",
+  "No processed files yet": "Nog geen verwerkte bestanden",
+  "No worker connected yet": "Nog geen worker verbonden",
+  "no worker": "geen worker",
+  "worker offline": "worker offline",
+  "online": "online",
+  "disabled": "staat uit",
+  "encoding": "encoden",
+  "subtitles": "ondertitels",
+  "Search by name or folder…": "Zoek op naam of map…",
+  "Several titles at once: separate them with |": "Meerdere titels tegelijk: scheid ze met |",
+  "Nothing to show": "Niets te tonen",
+  "File": "Bestand",
+  "Source": "Bron",
+  "Status": "Status",
+  "Result": "Resultaat",
+  "Languages": "Talen",
+  "Error": "Fout",
+  "When": "Wanneer",
+  "Plan": "Plan",
+  "Added": "Toegevoegd",
+  "Original": "Origineel",
+  "Size": "Grootte",
+  "Replaced": "Vervangen",
+  "estimate": "schatting",
+  "Name": "Naam",
+  "Done": "Klaar",
+  "Nothing found": "Niets gevonden",
+  "Process only these": "Alleen deze verwerken",
+  "Prioritise": "Voorrang geven",
+  "Skip": "Overslaan",
+  "Retry": "Opnieuw proberen",
+  "Clear": "Wissen",
+  "Both": "Beide",
+  "Restore original": "Origineel terugzetten",
+  "Find subtitles": "Ondertitels zoeken",
+  "running": "bezig",
+  "done": "klaar",
+  "failed": "mislukt",
+  "replacing": "vervangen",
+  "no gain": "geen winst",
+  "skipped": "overgeslagen",
+  "restored": "teruggezet",
+  "cancelled": "geannuleerd",
+  "nothing found": "niets gevonden",
+  "encode": "encoden",
+  "already efficient": "al efficiënt",
+  "small gain": "kleine winst",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "Dvd/blu-ray",
+  "error": "fout",
+  "unknown": "onbekend",
+  "All": "Alle",
+  "Already efficient": "Al efficiënt",
+  "Small gain": "Kleine winst",
+  "Restored": "Teruggezet",
+  "Video": "Video",
+  "Duration": "Duur",
+  "Audio": "Audio",
+  "Encode": "Encoden",
+  "Quality": "Kwaliteit",
+  "Encode time": "Encodetijd",
+  "Message": "Melding",
+  "Started": "Gestart",
+  "Search": "Zoektocht",
+  "weakest 5%": "zwakste 5%",
+  "video": "video",
+  "Worker": "Worker",
+  "Hardware": "Hardware",
+  "Resolution": "Resolutie",
+  "Working on": "Bezig met",
+  "nothing": "niets",
+  "up to 4K": "tot 4K",
+  "up to 1080p": "tot 1080p",
+  "up to 720p": "tot 720p",
+  "up to SD": "tot SD",
+  "Remove": "Verwijderen",
+  "Add worker": "Worker toevoegen",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Een worker meldt zelf wat hij kan (encoder gevonden, Whisper aanwezig). Hier bepaal je wat hij mag. Wijzigingen gelden vanaf de volgende job; een lopende job maakt hij af.",
+  "This machine lacks the hardware or software for this": "Deze machine heeft hier niet de juiste hardware of software voor",
+  "Quality level": "Kwaliteitsniveau",
+  "Standard": "Standaard",
+  "High": "Hoog",
+  "Maximum": "Maximaal",
+  "Custom": "Eigen",
+  "Custom target": "Eigen norm",
+  "Average VMAF and the weakest 5% of frames.": "Gemiddelde VMAF en de zwakste 5% van de beelden.",
+  "avg.": "gem.",
+  "Minimum saving": "Minimale besparing",
+  "If a file saves less, the original is kept.": "Levert een bestand minder op, dan blijft het origineel staan.",
+  "Processing": "Verwerking",
+  "Storage & safety": "Opslag & veiligheid",
+  "How long replaced originals can be restored.": "Hoe lang vervangen originelen terug te zetten zijn.",
+  "days": "dagen",
+  "Above this, the oldest originals are deleted permanently.": "Daarboven gaan de oudste originelen definitief weg.",
+  "Safety brake": "Veiligheidsrem",
+  "Encoding pauses when the NAS has less free space than this.": "Encoden pauzeert als de NAS minder vrije ruimte heeft dan dit.",
+  "Scanning": "Scannen",
+  "Automatic scan": "Automatisch scannen",
+  "New files are queued automatically.": "Nieuwe bestanden komen vanzelf in de wachtrij.",
+  "Off": "Uit",
+  "Every hour": "Elk uur",
+  "Every 6 hours": "Elke 6 uur",
+  "Every 12 hours": "Elke 12 uur",
+  "Daily": "Dagelijks",
+  "Skip folders": "Mappen overslaan",
+  "Comma-separated folder names.": "Komma-gescheiden mapnamen.",
+  "Plex": "Plex",
+  "Dashboard address": "Dashboard-adres",
+  "Use the IP address of the NAS, not localhost.": "Gebruik het IP-adres van de NAS, niet localhost.",
+  "Worker key": "Worker-sleutel",
+  "Keep secret: with this key a worker can fetch jobs.": "Geheim houden: met deze sleutel kan een worker jobs ophalen.",
+  "Show": "Tonen",
+  "Copy": "Kopiëren",
+  "Minimum requirements": "Minimale eisen",
+  "Account & security": "Account & beveiliging",
+  "Two-factor authentication": "Tweestapsverificatie",
+  "Not active": "Niet actief",
+  "New recovery codes": "Nieuwe herstelcodes",
+  "Reset MFA": "MFA opnieuw instellen",
+  "Sessions": "Sessies",
+  "Sign out everywhere else": "Overal anders uitloggen",
+  "Sign out": "Uitloggen",
+  "You have unsaved changes.": "Je hebt niet-opgeslagen wijzigingen.",
+  "Cancel": "Annuleren",
+  "Save": "Opslaan",
+  "Language": "Taal",
+  "Theme": "Thema",
+  "Light": "Licht",
+  "Dark": "Donker",
+  "Auto": "Auto",
+  "Dashboard language.": "Taal van het dashboard.",
+  "Auto follows your system setting.": "Auto volgt de instelling van je systeem.",
+  "Reset": "Opnieuw instellen",
+  "Create new codes": "Nieuwe codes maken",
+  "Close": "Sluiten",
+  "Code from your authenticator app": "Code uit je authenticator-app",
+  "Sign in": "Inloggen",
+  "Activate": "Activeren",
+  "Set up two-factor authentication": "Tweestapsverificatie instellen",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Scan de QR-code met je authenticator-app en vul de 6-cijferige code in.",
+  "Manual:": "Handmatig:",
+  "6-digit code": "6-cijferige code",
+  "123456 or recovery code": "123456 of herstelcode",
+  "Save your recovery codes": "Bewaar je herstelcodes",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Telefoon kwijt? Met elk van deze codes kun je één keer inloggen. Ze worden maar één keer getoond.",
+  "I have saved them": "Ik heb ze bewaard",
+  "Save them now, they are shown only once.": "Bewaar ze nu, ze worden maar één keer getoond.",
+  "Server not responding": "Server reageert niet",
+  "Sign-in failed": "Inloggen mislukt",
+  "Code is incorrect": "Code klopt niet",
+  "Code is incorrect - check the time on your phone": "Code klopt niet - controleer de tijd op je telefoon",
+  "Scan started": "Scan gestart",
+  "scan already running": "scan loopt al",
+  "Copied": "Gekopieerd",
+  "Resumed": "Hervat",
+  "Paused: a running job will finish first": "Gepauzeerd: een lopende job maakt zijn werk af",
+  "Added to the queue": "In de wachtrij gezet",
+  "Not applicable": "Niet van toepassing",
+  "At least one language": "Minstens één taal",
+  "Skip this job?": "Deze job overslaan?",
+  "Restore the original? The new version will be deleted.": "Origineel terugzetten? De nieuwe versie wordt verwijderd.",
+  "on": "aan",
+  "off": "uit",
+  "Quarantine cleanup": "Quarantaine opruimen",
+  "Background task": "Achtergrondtaak",
+  "Planning at startup": "Plannen bij het opstarten",
+  "Welcome": "Welkom",
+  "Next": "Volgende",
+  "Previous": "Vorige",
+  "Next (or skip)": "Volgende (of overslaan)",
+  "Done, go to the overview": "Klaar, naar het overzicht",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan maakt je films en series kleiner zonder dat je het verschil ziet, en vult ontbrekende ondertitels aan. Originelen worden pas vervangen na een kwaliteitscontrole en blijven eerst een tijd in de quarantaine staan.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "In zes korte stappen stel je alles in. Je kunt alles later aanpassen bij Instellingen.",
+  "Your library": "Je bibliotheek",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan zoekt nu naar video's in je mediamap. Bij een grote bibliotheek duurt de eerste scan een tijdje; je kunt gewoon doorgaan.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Mappen die MediaScan nooit aanraakt, gescheiden door komma's (bv. Music, Downloads).",
+  "Scan again": "Opnieuw scannen",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Kies de talen die elk bestand moet hebben. Wat ontbreekt zoekt MediaScan op OpenSubtitles. Lukt dat niet, dan maakt de worker de ondertitel zelf (spraakherkenning en vertaling op je eigen pc).",
+  "Click a language to remove it.": "Klik op een taal om hem weg te halen.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Elke film wordt gemeten met VMAF, een maat voor hoe het beeld er voor het oog uitziet. \"Hoog\" is voor bijna iedereen niet van het origineel te onderscheiden.",
+  "Higher = better picture, less space saved.": "Hoger = beter beeld, minder ruimtewinst.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Een vangnet voor korrel en donkere scènes. 5 Mbps is een goede standaard; 4K en andere resoluties volgen naar verhouding.",
+  "Plex (optional)": "Plex (optioneel)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Met Plex gekoppeld wacht MediaScan met vervangen als iemand die film op dat moment kijkt, en ververst Plex na elke wijziging. Geen Plex? Sla deze stap gewoon over.",
+  "Plex address and token": "Plex-adres en token",
+  "Plex token": "Plex-token",
+  "token (unchanged)": "token (ongewijzigd)",
+  "Add a worker": "Een worker toevoegen",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Het zware werk gebeurt op een pc of Mac met een goede videokaart: de worker. Installeer hem nu, of later via Workers. Zolang er geen worker is, gebeurt er nog niets met je bestanden.",
+  "✓ A worker is connected.": "✓ Er is een worker verbonden.",
+  "Done! MediaScan is set up.": "Klaar! MediaScan is ingesteld.",
+  "Connect the media share on the new machine.": "Koppel de media-share op de nieuwe machine.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: stationsletter of \\\\NAS\\Media · Mac: Finder › Verbind met server · Linux: zie de uitleg in het pakket.",
+  "Download the package for that system and unpack it.": "Download het pakket voor dat systeem en pak het uit.",
+  "Run the installer.": "Start de installer.",
+  "The installer asks for the details below and tests the connection.": "De installer vraagt onderstaande gegevens en test de verbinding.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 of nieuwer, Intel Arc of iGPU 11e gen+, AMD RX 6000+ · 4 kernen · 8 GB · 100 GB vrij · bekabeld netwerk. Ondertitels: NVIDIA met 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (ondertitels: 24 GB+) · 150 GB vrij · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Workers werken zichzelf bij als dit dashboard een nieuwe versie heeft.",
+  "What the workers are doing now and what is planned next.": "Wat de workers nu doen en wat er nog gepland staat.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Bestanden kleiner maken zonder zichtbaar kwaliteitsverlies. De worker pakt de wachtrij van boven naar beneden.",
+  "select page": "selecteer pagina",
+  "select": "selecteer",
+  "to encode": "te encoden",
+  "Movie": "Film",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Vervangen originelen, tijdelijk bewaard zodat je ze kunt terugzetten of opnieuw laten encoden.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Hoe MediaScan werkt: kwaliteit, ondertitels, opslag en beveiliging.",
+  "General": "Algemeen",
+  "Advanced": "Geavanceerd",
+  "Connection": "Koppeling",
+  "Hand out new encode jobs to the workers.": "Nieuwe encode-jobs uitdelen aan de workers.",
+  "Hand out new subtitle jobs to the workers.": "Nieuwe ondertitel-jobs uitdelen aan de workers.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Hoe streng de VMAF-meting is. Hoger = beter beeld, minder ruimtewinst.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Welke ondertitels elk bestand moet krijgen. Wat ontbreekt wordt gezocht, en anders gemaakt.",
+  "Go to Workers": "Naar Workers",
+  "new": "nieuw",
+  "start": "start",
+  "Minimum bitrate (4K)": "Minimale bitrate (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Eigen ondergrens voor 4K, in plaats van 2,5 × de 1080p-waarde. 0 = automatisch. HDR +15% en animatie ×0,6 gelden ook hier.",
+  "Ready to use in a few steps.": "In een paar stappen klaar voor gebruik.",
+  "next": "volgende",
+  "read error": "leesfout",
+  "MFA is already enabled": "MFA is al ingeschakeld",
+  "a .mkv with that name already exists": "er bestaat al een .mkv met die naam",
+  "a file already exists at the original location": "op de oorspronkelijke locatie staat al een bestand",
+  "action not possible in this status": "actie niet mogelijk in deze status",
+  "walking folders": "mappen doorlopen",
+  "planning jobs": "taken plannen",
+  "check on the NAS rejected (duration/tracks)": "controle op de NAS afgekeurd (duur/sporen)",
+  "expected a JSON object": "JSON-object verwacht",
+  "ffprobe error": "ffprobe-fout",
+  "invalid resolution": "ongeldige resolutie",
+  "invalid worker token": "ongeldig worker-token",
+  "job belongs to another worker": "taak hoort bij een andere worker",
+  "job is no longer active": "taak is niet meer actief",
+  "no video track": "geen videospoor",
+  "not JSON": "geen JSON",
+  "not signed in": "niet ingelogd",
+  "original disappeared": "origineel is verdwenen",
+  "original has changed in the meantime": "origineel is intussen gewijzigd",
+  "original is no longer in quarantine": "origineel staat niet meer in quarantaine",
+  "original no longer available": "origineel niet meer beschikbaar",
+  "request refused": "verzoek geweigerd",
+  "target file already exists": "doelbestand bestaat al",
+  "the original has already been removed from quarantine - comparing is no longer possible": "het origineel is al uit quarantaine verwijderd - vergelijken is niet meer mogelijk",
+  "this film has not been replaced yet": "deze film is nog niet vervangen",
+  "unknown action": "onbekende actie",
+  "worker is still online": "worker is nog online",
+  "In use now:": "Nu in gebruik:",
+  "longest": "langste",
+  "8.1 (from profile 7)": "8.1 (van profiel 7)",
+  "Whisper (transcription)": "Whisper (transcriptie)",
+  "1 day ago": "1 dag geleden",
+  "1 video": "1 video",
+  "Enter your password to open the dashboard.": "Voer je wachtwoord in om het dashboard te openen.",
+  "No connection to the server - retrying…": "Geen verbinding met de server - opnieuw proberen…",
+  "Are you sure?": "Weet je het zeker?",
+  "Restore": "Terugzetten",
+  "Re-encode": "Opnieuw encoden",
+  "Delete": "Verwijderen",
+  "Next up": "Hierna",
+  "in the queue": "in de wachtrij",
+  "Load older entries": "Oudere regels laden",
+  "Folder: all": "Map: alle",
+  "Resolution: all": "Resolutie: alle",
+  "Codec: all": "Codec: alle",
+  "More": "Meer",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "film(s) wachten op de CPU-encoder, maar geen enkele worker heeft CPU-encode aan (pagina Workers).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Je hardware, hoe goed die bij het werk past, de gebruikte tools, en hoe de instellingen werken.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Geheugen",
+  "Software": "Software",
+  "GPU encoding": "GPU-encoderen",
+  "CPU encoding (x265)": "CPU-encoderen (x265)",
+  "Subtitles (Whisper)": "Ondertitels (Whisper)",
+  "Translation (Ollama)": "Vertaling (Ollama)",
+  "Server": "Server",
+  "Database": "Database",
+  "Tools in use": "Gebruikte tools",
+  "Knowledge base": "Kennisbank",
+  "Low": "Laag",
+  "Medium": "Gemiddeld",
+  "Ultra": "Ultra",
+  "files": "bestanden",
+  "up": "actief",
+  "of": "van",
+  "uses": "gebruikt",
+  "free": "vrij",
+  "Media share": "Mediashare",
+  "Rating": "Beoordeling",
+  "Hardware details appear after this worker has updated itself.": "Hardwaregegevens verschijnen zodra deze worker zichzelf heeft bijgewerkt.",
+  "no Whisper": "geen Whisper",
+  "unified memory": "gedeeld geheugen",
+  "cores": "kernen",
+  "threads": "threads",
+  "driver": "driver",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Onbekend",
+  "Settings saved": "Instellingen opgeslagen",
+  "Time left": "Resterende tijd",
+  "Queued": "In de wachtrij",
+  "Keep originals for": "Originelen bewaren voor",
+  "Quarantine size limit": "Maximale grootte quarantaine",
+  "Hide finished items": "Afgeronde items verbergen",
+  "Undo skip": "Overslaan ongedaan maken",
+  "not supported here": "hier niet ondersteund",
+  "CPU encoding": "CPU-encoden",
+  "Retry on CPU (x265)": "Opnieuw op CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Op de CPU geëncodeerd met x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 met grain-tuning op de CPU van de worker: bewaart korrel veel efficiënter, maar duurt uren per film",
+  "CPU fallback for grainy films": "CPU-fallback voor korrelige films",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Als de GPU de kwaliteit niet kan halen zonder boven de bitrate van het origineel uit te komen (filmkorrel), wordt de film nog eens geëncodeerd op de CPU van een worker met x265, dat korrel veel efficiënter bewaart. Duurt uren per film; zet CPU-encoden aan voor een worker op de pagina Workers.",
+  "CPU preset": "CPU-preset",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: ongeveer 2 uur voor een film van 2 uur in 1080p op 8 kernen. Slow: 2-3 keer langer voor ongeveer 5-10% kleinere bestanden.",
+  "Medium (faster)": "Medium (sneller)",
+  "Slow (smaller)": "Slow (kleiner)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Deze pagina kon niet worden geladen.",
+  "up to 1440p": "tot 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "bestanden analyseren",
+  "No worker has CPU encodes switched on (Workers page)": "Geen enkele worker heeft CPU-encoden aan (pagina Workers)",
+  "the job changed in the meantime": "de job is ondertussen veranderd",
+  "Main": "Hoofdmenu",
+  "Clear search and filters": "Zoekopdracht en filters wissen",
+  "Compact rows": "Compacte rijen",
+  "Encoding and subtitles are paused.": "Encoden en ondertitels zijn gepauzeerd.",
+  "Encoding is paused: no new encode jobs are handed out.": "Encoden is gepauzeerd: er worden geen nieuwe encode-jobs uitgedeeld.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Ondertitels zijn gepauzeerd: er worden geen nieuwe ondertiteljobs uitgedeeld.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Vul zowel het Plex-adres als het token in, of laat beide leeg om over te slaan.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Vrije ruimte op de NAS is onder de veiligheidsrem. Encoden is automatisch gepauzeerd.",
+  "Loading…": "Laden…",
+  "Next film": "Volgende film",
+  "Previous film": "Vorige film",
+  "Next page": "Volgende pagina",
+  "Previous page": "Vorige pagina",
+  "Rows per page": "Rijen per pagina",
+  "Resume": "Hervatten",
+  "Resume encoding": "Encoden hervatten",
+  "Resume subtitles": "Ondertitels hervatten",
+  "Open settings": "Instellingen openen",
+  "Open the library": "Bibliotheek openen",
+  "Subtitle languages": "Ondertiteltalen",
+  "Update": "Bijwerken",
+  "No results for this search or filter.": "Geen resultaten voor deze zoekopdracht of dit filter.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Niets in de wachtrij voor encoden. Nieuwe bestanden komen na een scan in de wachtrij.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Nog geen bestanden vervangen. Afgeronde encodes verschijnen hier na de kwaliteitscontrole.",
+  "No files were kept as they are. Films that would save too little end up here.": "Geen bestanden ongewijzigd gelaten. Films die te weinig zouden besparen komen hier terecht.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Geen ondertitels in de wachtrij. Bestanden waar een taal ontbreekt komen na een scan in de wachtrij.",
+  "No subtitle job is running right now.": "Er loopt nu geen ondertiteljob.",
+  "No subtitles have been made yet.": "Nog geen ondertitels gemaakt.",
+  "Nothing missing: every file got its subtitles so far.": "Niets ontbreekt: elk bestand heeft tot nu toe zijn ondertitels gekregen.",
+  "No failed encodes.": "Geen mislukte encodes.",
+  "No failed subtitle jobs.": "Geen mislukte ondertiteljobs.",
+  "Nothing was added in the last 14 days.": "De laatste 14 dagen is er niets toegevoegd.",
+  "No videos with this plan.": "Geen video's met dit plan.",
+  "The library is being scanned; videos appear as they are found.": "De bibliotheek wordt gescand; video's verschijnen zodra ze gevonden zijn.",
+  "No videos found yet. Check the media folder and run a scan.": "Nog geen video's gevonden. Controleer de mediamap en start een scan.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Niets in quarantaine. Vervangen originelen blijven hier tot de bewaartijd voorbij is.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Geen dvd- of Blu-ray-mappen (VIDEO_TS, BDMV) gevonden in de bibliotheek.",
+  "1 worker online": "1 worker online",
+  "A worker is busy with this file": "Een worker is bezig met dit bestand",
+  "A worker is grabbing the frames": "Een worker haalt de beelden op",
+  "A worker is searching or making subtitles": "Een worker zoekt of maakt ondertitels",
+  "A worker picks up the next job within a few seconds.": "Een worker pakt binnen een paar seconden de volgende job op.",
+  "Above this, the oldest comparisons are deleted automatically.": "Daarboven worden de oudste vergelijkingen automatisch verwijderd.",
+  "All replaced films": "Alle vervangen films",
+  "Already efficient: encoding would hardly save anything": "Al efficiënt: encoden zou nauwelijks iets besparen",
+  "Automatic comparisons": "Automatische vergelijkingen",
+  "Being made…": "Wordt gemaakt…",
+  "Can be made": "Nog te maken",
+  "Can encode on the CPU with x265": "Kan op de CPU encoden met x265",
+  "Comparison storage limit": "Opslaglimiet vergelijkingen",
+  "Comparisons": "Vergelijkingen",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: niet opnieuw geëncodeerd, de DV-laag zou verloren gaan",
+  "Encoding is paused.": "Encoden is gepauzeerd.",
+  "Enlarge": "Vergroten",
+  "Errors": "Fouten",
+  "Flip": "Wisselen",
+  "Four frames of the original and the new version are stored": "Vier beelden van het origineel en de nieuwe versie zijn opgeslagen",
+  "Full width": "Volledige breedte",
+  "GPU encoder found": "GPU-encoder gevonden",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Haal van elke vervangen film vier beelden van het origineel en de nieuwe versie op, zodat je het beeld altijd kunt controleren op de pagina Vergelijken. Ongeveer 1–2 MB per film.",
+  "Keyboard shortcuts": "Sneltoetsen",
+  "Leave without saving? Your changes to the settings will be lost.": "Weggaan zonder op te slaan? Je wijzigingen in de instellingen gaan verloren.",
+  "Moved to the front": "Naar voren gezet",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Nog geen vergelijkingen. Maak er een zolang het origineel nog in quarantaine staat, of zet automatische vergelijkingen aan bij Instellingen.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Er kan nu geen film vergeleken worden: de originelen zijn uit quarantaine, of er is nog niets vervangen.",
+  "No longer possible": "Niet meer mogelijk",
+  "No subtitles found online and none could be made": "Geen ondertitels online gevonden en er konden geen gemaakt worden",
+  "Ollama found: can translate subtitles": "Ollama gevonden: kan ondertitels vertalen",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Onderdeel van een dvd- of blu-raymap; zet die om op de pagina DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Automatisch gepauzeerd: de NAS heeft minder vrije ruimte dan de veiligheidsrem.",
+  "Planned for encoding": "Gepland om te encoden",
+  "Queued for the CPU encoder": "In de wachtrij voor de CPU-encoder",
+  "Replaced after the quality check; the original is in quarantine for a while": "Vervangen na de kwaliteitscontrole; het origineel staat nog een tijdje in quarantaine",
+  "Replaced films appear here after their first encode.": "Vervangen films verschijnen hier na hun eerste encode.",
+  "Search the log…": "Zoek in het logboek…",
+  "Show films that can be compared": "Toon films die vergeleken kunnen worden",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Toon het origineel en de nieuwe versie om en om: de beste manier om korrel en detail te zien",
+  "Skipped": "Overgeslagen",
+  "Skipped by you; Retry puts it back in the queue": "Door jou overgeslagen; Opnieuw proberen zet hem terug in de wachtrij",
+  "Slider back to the middle": "Schuif terug naar het midden",
+  "Smaller": "Kleiner",
+  "Stopped because the file changed or disappeared": "Gestopt omdat het bestand veranderd of verdwenen is",
+  "Stopped with an error; see the message and try again": "Gestopt met een fout; bekijk de melding en probeer het opnieuw",
+  "Subtitles are paused.": "Ondertitels zijn gepauzeerd.",
+  "The file could not be read; see the drawer": "Het bestand kon niet gelezen worden; zie het zijpaneel",
+  "The new file would save less than the minimum saving, so the original was kept": "Het nieuwe bestand zou minder besparen dan de minimale besparing, dus het origineel is bewaard",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "De nieuwe versie staat op de NAS en wordt ingewisseld zodra niemand kijkt",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Het origineel is uit quarantaine, dus de beelden kunnen niet meer opgehaald worden",
+  "The original is still in quarantine, so the frames can still be grabbed": "Het origineel staat nog in quarantaine, dus de beelden kunnen nog opgehaald worden",
+  "The original was put back from quarantine": "Het origineel is teruggezet uit quarantaine",
+  "The queue is empty. New files are queued after a scan.": "De wachtrij is leeg. Nieuwe bestanden komen na een scan in de wachtrij.",
+  "The server hands out newer worker files; the worker installs them after its current job": "De server deelt nieuwere workerbestanden uit; de worker installeert ze na zijn huidige job",
+  "Undo": "Ongedaan maken",
+  "Waiting for Plex: someone is watching this film": "Wacht op Plex: iemand kijkt deze film",
+  "Waiting for a worker; the queue runs from top to bottom": "Wacht op een worker; de wachtrij loopt van boven naar beneden",
+  "Warnings": "Waarschuwingen",
+  "Whisper installed: can make subtitles": "Whisper geïnstalleerd: kan ondertitels maken",
+  "Would save less than the minimum saving": "Zou minder besparen dan de minimale besparing",
+  "expires today": "verloopt vandaag",
+  "expires within a day": "verloopt binnen een dag",
+  "less than a day left": "minder dan een dag over",
+  "waiting for Plex": "wacht op Plex",
+  "update pending": "update staat klaar",
+  "Tap to switch between original and new": "Tik om te wisselen tussen origineel en nieuw",
+  "Repeated": "Herhaald",
+  "Search in the current list": "Zoeken in de huidige lijst",
+  "Clear the search, close a drawer or dialog": "Zoekopdracht wissen, zijpaneel of dialoog sluiten",
+  "Previous or next film on a comparison": "Vorige of volgende film bij een vergelijking",
+  "Open or switch the focused row, switch or header": "Gefocuste rij, schakelaar of kolomkop openen of omschakelen",
+  "This list": "Deze lijst",
+  "Nothing in the log matches this.": "Niets in het logboek komt hiermee overeen.",
+  "Nothing has happened yet.": "Er is nog niets gebeurd.",
+  "No worker is online, so nothing can run.": "Er is geen worker online, dus er kan niets draaien.",
+  "There is no worker yet. Add one to get started.": "Er is nog geen worker. Voeg er een toe om te beginnen.",
+  "Open Workers": "Workers openen",
+  "Some values are out of range.": "Sommige waarden vallen buiten het bereik.",
+  "no capabilities reported": "geen mogelijkheden gemeld",
+  "Replaced · expires": "Vervangen · verloopt",
+  "Made": "Gemaakt",
+  "Make": "Maken",
+  "lots of motion": "veel beweging",
+  "dark scene": "donkere scène",
+  "a quarter in": "op een kwart",
+  "three quarters in": "op driekwart",
+  "Encoded": "Geëncodeerd",
+  "Finished": "Afgerond",
+  "later": "later",
+  "Leave": "Weggaan",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Een vergelijking neemt 4 frames uit het origineel en de nieuwe versie (in totaal ongeveer 1–2 MB). Je kunt hem maken zolang het origineel nog in quarantaine staat, en hij blijft bewaard tot je hem verwijdert, ook als het origineel al weg is.",
+  "Retry on CPU": "Opnieuw op CPU",
+  "Scan": "Scan"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1start$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Nu bezig: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan heeft $1 video's gevonden ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · zwakste 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "zwakste 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Nieuw ($1 dagen)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Plan: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Vervangen mislukt ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} mislukt{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Scan klaar: $1 video's, $2 nieuw, $3 gewijzigd, $4 verdwenen; $5 encode- en $6 ondertiteljobs toegevoegd"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Scan klaar: $1 video's, $2 nieuw, $3 gewijzigd, $4 verdwenen, $5 in overgeslagen mappen; $6 encode- en $7 ondertiteljobs toegevoegd"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "$1 film(s) opnieuw encoden met de huidige regels? De originelen worden teruggezet en de films krijgen voorrang in de wachtrij."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 film(s) opnieuw in de wachtrij{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 originele bestand(en) teruggezet en opnieuw in de wachtrij (huidige regels)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Nieuw toegevoegd: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Vervangen: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "Dvd/blu-ray omgezet: $1 ($2 GB); de schijfmap staat in de quarantaine"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Origineel teruggezet: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 is begonnen met {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 job(s) (alle $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Selectie uitgedeeld - encoden automatisch gepauzeerd"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Selectie uitgedeeld - ondertitels automatisch gepauzeerd"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Instellingen gewijzigd: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Job $1 fout: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Job $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 offline: $2 job(s) terug in de wachtrij"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 herstart: $2 onderbroken job(s) terug in de wachtrij"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 bijgewerkt naar $2: $3 mislukte job(s) opnieuw in de wachtrij"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 verwijderd"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: encoden {t:$2}, ondertitels {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Planning bijgewerkt: $1 encode- en $2 ondertiteljobs toegevoegd"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 job(s) handmatig in de wachtrij gezet"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 job(s): $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 vergelijking(en) verwijderd"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Uitgelogd op $1 andere sessie(s)"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Herstelcode gebruikt om in te loggen ($1 over)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "Dvd/blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Originelen blijven maximaal $1 dagen bewaard en samen nooit meer dan $2. De oudste gaan eerst. Terugzetten verwijdert de nieuwe versie."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - klik om te verwijderen"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 map(pen) worden omgezet · de worker begint binnen een halve minuut"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 audio · $2 ondertitels"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "$1 vergelijking(en) verwijderen? De films zelf blijven zoals ze zijn."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Beeld $1 · op $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Beeld $1 · op $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB als jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Encodetijd $1 min · gemeten op 8 fragmenten, daarna gecontroleerd over de hele film."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Nu aanwezig: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "zwakste 5% $1 · norm $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "timing $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Beelden maken mislukt: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "selectie · volgende"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "selectie · $1e"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Nu bezig:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· daarna nog $1 uit de selectie"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "schatting · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 eerder afgerond · tonen"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 toegevoegd aan de selectie · de worker begint binnen een paar seconden"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Selectie {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "gemaakt: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% kleiner$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "zojuist"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 min geleden"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 uur geleden"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 dagen geleden"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "gezien {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 d $2 u"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 u $2 m"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 video's"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "quarantaine $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 per 24 uur"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 winst"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB winst"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% kleiner op verwerkte bestanden"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 online"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "nog $1 te starten, daarna pauze"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 items · pagina $2 van $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 geselecteerd"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Alle $1 resultaten selecteren"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Scan bezig: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× geprobeerd"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 min"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Actief · nog $1 herstelcode(s) over"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 actieve sessie(s), inclusief deze."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 bijgewerkt{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 andere sessie(s) uitgelogd"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Alleen deze $1 verwerken? Ze krijgen voorrang, verwerken wordt hervat en daarna automatisch weer gepauzeerd."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "$1 job(s) overslaan?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "$1 originele bestand(en) terugzetten? De nieuwe versies worden verwijderd."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Worker $1 verwijderen uit de lijst? Komt hij weer online, dan verschijnt hij vanzelf opnieuw."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "bezig sinds $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "nog ~$1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "tot $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "bezig met"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex verbonden (versie $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex reageert niet goed: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "fout: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "vervangen mislukt: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "ongeldige waarde voor $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 moet tussen $2 en $3 liggen"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · zwakste 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 u"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU kon de kwaliteit niet halen - in de wachtrij voor de CPU-encoder (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Opruimen staging: restant verwijderd $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 per pagina"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 workers online"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · worker toevoegen, sleutel en downloads staan bij Workers."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · start over ~{t:$2} · schatting"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · schatting"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "nog $1 dagen"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "verloopt over $1 dagen"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Gemaakt · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Nog te maken · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · stap $1 van $2 · nog ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · stap $1 van $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · nog ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 vergelijking(en) aangevraagd · binnen een paar minuten klaar"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "$1 vergelijking(en) maken? Ongeveer 1–2 MB per stuk."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "$1 keer herhaald"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "tussen $1 en $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 job(s)"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Fout in $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 vergelijking(en) aangevraagd"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Vergelijkingen opgeruimd: $1 verwijderd (meer dan $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Quarantainemap hernoemd naar quarantine ($1 record(s) bijgewerkt)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 verwijderd: $2 job(s) terug in de wachtrij"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Quarantaine: $1 bestaat al, $2 is blijven staan"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Quarantainemap hernoemd naar quarantine; $1 record(s) bijgewerkt, maar $2 is nog niet leeg"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Hernoemen van de quarantainemap mislukt (is de mediashare gekoppeld?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "nieuwe versie ontbreekt in staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "nieuwe .mkv ontbreekt in staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "origineel is verdwenen"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "origineel is intussen gewijzigd"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "origineel niet meer beschikbaar"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "controle op de NAS afgekeurd (duur/sporen)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray omgezet naar mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "opnieuw na worker-update"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "door jou overgeslagen"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "doelbestand bestaat al"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker offline - opnieuw ingepland"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker verwijderd - opnieuw ingepland"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker herstart - opnieuw ingepland"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "vervangen mislukt: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision ontbreekt in de nieuwe mkv"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: niet opnieuw gecodeerd (de DV-laag zou verloren gaan)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "een spoor kan niet naar .mkv worden gekopieerd: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg maakte $1 minuten geen voortgang (share onbereikbaar?) - gestopt"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 van $2 bestanden zijn tegelijk weg - share onbereikbaar? Niets als verdwenen gemarkeerd"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "vertalen mislukt: geen bruikbaar antwoord voor $1 regel(s) na herhaalde pogingen"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: serverfout"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - haal het model op (ollama pull <model>) of corrigeer ollama_model in worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama is niet bereikbaar op $1 ($2) - start Ollama of controleer ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama onbereikbaar: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama bleef $2 minuten falen"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 duurde langer dan een uur - is de mediashare nog bereikbaar?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 ontbreekt; installeer het $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF hele film $1 niet plausibel met elke koppelmethode (samples $2); laag bij $3. Origineel bewaard; controleer daar de bron"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: kan het bestand niet lezen"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: mislukt"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "te weinig vrije ruimte op de PC voor deze film ($1 GB nodig in $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "te weinig ruimte in de werkmap: $1 GB vrij, ~$2 GB nodig"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "met de minimale bitrate hooguit $1% kleiner"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "metadata uit de enhancement layer halen"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "download komt niet overeen (sha256) - niet gebruikt"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "controle: duur of aantal streams verschilt"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "nieuwe mkv is te kort ($1 van $2 min)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 van $2 klaar, wacht op worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "Dolby Vision omzetten naar profiel 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "metadata in de base layer injecteren"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "controle VMAF (tweede meting)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "geen instelling haalt de kwaliteitsnorm"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "downloadlimiet bereikt - rest later"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "OpenSubtitles daglimiet bereikt"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "deels; rest na downloadlimiet"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 niet gevonden na het downloaden"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: gesproken taal gedetecteerd"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (vertaald uit $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "wacht op vrije ruimte op de PC"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "ondertitelbestand onverwacht groot"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "meting van de zelftest onbetrouwbaar"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "vertaalpoging $1 mislukt"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "wacht: wordt nu bekeken in Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "verwacht maar $1% kleiner"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "$1 downloaden (eenmalig)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "controle over hele film onder de norm"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "kan geen frame ophalen op $1s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "hele film net onder de norm"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "film zoeken op de schijf"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "kwaliteitsnorm niet haalbaar"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "meting van de controle onbetrouwbaar"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "ongeldig pad van de server"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "opnieuw: minimale winst nu 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper draait op de GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "geen titels gevonden op de DVD"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "verdacht pad in archief"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "wacht: Plex niet bereikbaar"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "bezig met $1 van $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles niet bereikbaar"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (transcriptie)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "controle VMAF hele film"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "klaar, wacht op vervangen"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "oude map naar de quarantaine"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "controle VMAF $1 te laag"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "schijf uitlezen (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "vertaald uit Engels"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "klaar ($1 van $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "audio uitpakken mislukt"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "terugvallen op de CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles ingelogd"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (van profiel 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "wacht op de worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "verdacht pad in zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "ingebedde EN onleesbaar"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "langste tot nu: titel"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "timing klopt niet"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "maar $1% kleiner"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "fragment $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "origineel bewaren"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "downloads over vandaag"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "titel $1 bekeken"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "wacht op vervangen"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "naar de NAS kopiëren"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "blijft het origineel"
+  ],
+  [
+   "translation failed",
+   "g",
+   "vertalen mislukt"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "server niet bereikbaar"
+  ],
+  [
+   "searching quality",
+   "g",
+   "kwaliteit zoeken"
+  ],
+  [
+   "making references",
+   "g",
+   "referenties maken"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "omzetten naar mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "ondertitels gestopt"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "kopiëren NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "kopiëren PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "film zoeken"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "samenvoegen tot mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "langste playlist"
+  ],
+  [
+   "timing reference",
+   "g",
+   "timing-referentie"
+  ],
+  [
+   "speech segments",
+   "g",
+   "spraakstukken"
+  ],
+  [
+   "too little gain",
+   "g",
+   "te weinig winst"
+  ],
+  [
+   " not applicable",
+   "g",
+   " niet van toepassing"
+  ],
+  [
+   "download failed",
+   "g",
+   "downloaden mislukt"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "na ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "vertalen naar"
+  ],
+  [
+   "next candidate",
+   "g",
+   "volgende kandidaat"
+  ],
+  [
+   "after shifting",
+   "g",
+   "na verschuiven"
+  ],
+  [
+   "reading audio",
+   "g",
+   "audio uitlezen"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Selectie · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 wachten"
+  ],
+  [
+   "search failed",
+   "g",
+   "zoeken mislukt"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "opnieuw encoden"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "titel $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " fout(en)"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 klaar"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "ondertitels:"
+  ],
+  [
+   "replacing",
+   "g",
+   "vervangen"
+  ],
+  [
+   "subtitles",
+   "g",
+   "ondertitels"
+  ],
+  [
+   "candidate",
+   "g",
+   "kandidaat"
+  ],
+  [
+   "encoding:",
+   "g",
+   "encoden:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "start"
+  ],
+  [
+   "encoding",
+   "g",
+   "encoden"
+  ],
+  [
+   "checking",
+   "g",
+   "controleren"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", tot "
+  ],
+  [
+   "present",
+   "g",
+   "aanwezig"
+  ],
+  [
+   "missing",
+   "g",
+   "ontbreekt"
+  ],
+  [
+   "speed",
+   "g",
+   "snelheid"
+  ],
+  [
+   "saved",
+   "g",
+   "opgeslagen"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU kon de kwaliteit niet halen - in de wachtrij voor de CPU-encoder (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Opruimen staging: restant verwijderd"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "mediamap is leeg of niet gekoppeld - niets gewijzigd"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "de kwaliteit behouden zou meer bitrate vragen dan het origineel heeft"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "heeft meer bitrate nodig dan het origineel"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker herstart voor een update"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "geen videostream (alleen hoesafbeelding?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "geen audiostream om te transcriberen"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "te weinig vrije ruimte op de PC voor deze film"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "opnieuw op de CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "mappen doorlopen"
+  ],
+  [
+   "analysing files",
+   "g",
+   "bestanden analyseren"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "taken plannen"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU-encoden aan"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU-encoden uit"
+  ]
+ ]
+}

@@ -1,0 +1,2060 @@
+{
+ "name": "Tiếng Việt",
+ "s": {
+  "Re-encode from original": "Mã hóa lại từ bản gốc",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Mã hóa lại theo quy tắc hiện tại? Bản gốc được khôi phục và phim được ưu tiên.",
+  "Back in the queue": "Trở lại hàng đợi",
+  "Restore originals": "Khôi phục bản gốc",
+  "Minimum bitrate (1080p)": "Bitrate tối thiểu (1080p)",
+  "Extra floor (share of the source)": "Ngưỡng sàn bổ sung (tỷ lệ so với nguồn)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Tùy chọn: giữ thêm ít nhất tỷ lệ này của bitrate video gốc. Chỉ hữu ích với nguồn có bitrate rất cao. 0 = tắt.",
+  "with the minimum bitrate at most": "với bitrate tối thiểu, nhỏ hơn tối đa",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Tệp mới không bao giờ thấp hơn mức này, kể cả khi VMAF cho phép. Các độ phân giải khác tính theo tỷ lệ: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · hoạt hình ×0.6.",
+  "bitrate already near the minimum": "bitrate đã gần mức tối thiểu",
+  "MFA reset from settings - set it up again": "Đã đặt lại MFA từ cài đặt - hãy thiết lập lại",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "Đã đặt lại MFA qua MFA_RESET - hãy xóa MFA_RESET khỏi cài đặt container",
+  "MFA enabled": "Đã bật MFA",
+  "MediaScan started": "MediaScan đã khởi động",
+  "New recovery codes created": "Đã tạo mã khôi phục mới",
+  "Password changed; other sessions signed out": "Đã đổi mật khẩu; các phiên khác đã bị đăng xuất",
+  "Password set (first time)": "Đã đặt mật khẩu (lần đầu)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Lưu ý: ADMIN_PASSWORD ngắn hơn 10 ký tự - hãy chọn mật khẩu mạnh hơn trong Cài đặt",
+  "part of a DVD/Blu-ray folder": "thuộc thư mục DVD/Blu-ray",
+  "folder is in Skip folders": "thư mục nằm trong danh sách Bỏ qua thư mục",
+  "file disappeared": "tệp đã biến mất",
+  "worker restarted - rescheduled": "worker đã khởi động lại - lên lịch lại",
+  "worker offline - rescheduled": "worker ngoại tuyến - lên lịch lại",
+  "retry after worker update": "thử lại sau khi cập nhật worker",
+  "dvd/blu-ray converted to mkv": "đã chuyển dvd/blu-ray sang mkv",
+  "skipped by you": "bạn đã bỏ qua",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Việc thay thế sẽ chờ khi phim đang được xem, và Plex được làm mới sau mỗi thay đổi.",
+  "Confirm with your password and a code from your app.": "Xác nhận bằng mật khẩu và mã từ ứng dụng của bạn.",
+  "Your old recovery codes will stop working.": "Các mã khôi phục cũ sẽ không còn dùng được.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Liên kết ứng dụng xác thực và mã khôi phục hiện tại sẽ không còn dùng được. Bạn sẽ thiết lập lại MFA ngay.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Chọn mật khẩu cho bảng điều khiển. Mã thiết lập nằm trong nhật ký container (Container Manager › mediascan › Log, hoặc",
+  "- click to remove": "- nhấp để xóa",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Địa chỉ không hợp lệ, ví dụ http://192.168.1.10:32400",
+  "Enter a Plex token": "Nhập token Plex",
+  "A password has already been set": "Mật khẩu đã được đặt",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Khóa được cố định trong WORKER_TOKEN (môi trường container)",
+  "selection still running - pause or wait until it is done": "lựa chọn vẫn đang chạy - tạm dừng hoặc chờ đến khi xong",
+  "Now running": "Đang chạy",
+  "Finding the film on the disc": "Đang tìm phim trên đĩa",
+  "Converting to one .mkv": "Đang chuyển thành một tệp .mkv",
+  "Checking (duration, tracks)": "Đang kiểm tra (thời lượng, track)",
+  "Copying to the NAS": "Đang sao chép sang NAS",
+  "Old folder to quarantine": "Thư mục cũ vào khu cách ly",
+  "worker has not reported for a while": "worker đã lâu không báo cáo",
+  "waiting for the worker": "đang chờ worker",
+  "Welcome to MediaScan": "Chào mừng đến với MediaScan",
+  "Setup code": "Mã thiết lập",
+  "New password (at least 10 characters)": "Mật khẩu mới (ít nhất 10 ký tự)",
+  "Repeat password": "Nhập lại mật khẩu",
+  "Set password": "Đặt mật khẩu",
+  "The passwords do not match": "Mật khẩu không khớp",
+  "Setup code is wrong - check the container log": "Mã thiết lập sai - hãy kiểm tra nhật ký container",
+  "Choose a password of at least 10 characters": "Chọn mật khẩu có ít nhất 10 ký tự",
+  "Animation folders": "Thư mục hoạt hình",
+  "Top-level folders with animation: these may use a lower bitrate.": "Thư mục cấp cao nhất chứa hoạt hình: có thể dùng bitrate thấp hơn.",
+  "Where do I find the token?": "Tìm token ở đâu?",
+  "Connect": "Kết nối",
+  "Disconnect": "Ngắt kết nối",
+  "Connected": "Đã kết nối",
+  "Not connected": "Chưa kết nối",
+  "+ Add language": "+ Thêm ngôn ngữ",
+  "Renew": "Gia hạn",
+  "Worker version": "Phiên bản worker",
+  "Password": "Mật khẩu",
+  "Other sessions are signed out after a change.": "Các phiên khác sẽ bị đăng xuất sau khi thay đổi.",
+  "Change password": "Đổi mật khẩu",
+  "Other sessions will be signed out.": "Các phiên khác sẽ bị đăng xuất.",
+  "Change": "Đổi",
+  "New worker key": "Khóa worker mới",
+  "Create new key": "Tạo khóa mới",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Tất cả worker sẽ dừng cho đến khi bạn nhập khóa mới (chạy lại trình cài đặt hoặc sửa worker.ini).",
+  "Repeat new password": "Nhập lại mật khẩu mới",
+  "Password changed": "Đã đổi mật khẩu",
+  "New worker key created": "Đã tạo khóa worker mới",
+  "Disconnect Plex?": "Ngắt kết nối Plex?",
+  "Plex disconnected": "Đã ngắt kết nối Plex",
+  "Plex connected": "Đã kết nối Plex",
+  "Incorrect password": "Mật khẩu không đúng",
+  "Incorrect code": "Mã không đúng",
+  "Incorrect code from your authenticator app": "Mã từ ứng dụng xác thực không đúng",
+  "Too many attempts - try again in 15 minutes": "Quá nhiều lần thử - hãy thử lại sau 15 phút",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Thư mục có VIDEO_TS hoặc BDMV. Chuyển đổi sẽ gộp chúng thành một tệp .mkv với toàn bộ video, âm thanh, phụ đề và chương.",
+  "Convert to MKV": "Chuyển sang MKV",
+  "Folder": "Thư mục",
+  "Type": "Loại",
+  "found": "tìm thấy",
+  "queued": "trong hàng đợi",
+  "converting…": "đang chuyển đổi…",
+  "converted": "đã chuyển đổi",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Chuyển đổi sao chép mọi thứ 1:1 vào một tệp .mkv: video (cả HDR), tất cả track âm thanh, phụ đề và chương. Với DVD, tiêu đề dài nhất (bộ phim) được chọn. Thư mục cũ được chuyển vào khu cách ly để bạn có thể khôi phục. Sau đó tệp .mkv đi qua quy trình mã hóa và phụ đề thông thường. Blu-ray Dolby Vision trở thành Dolby Vision profile 8.1 (lớp nền 1:1, thêm metadata DV): Plex và TV của bạn phát dưới dạng Dolby Vision, các trình phát khác dưới dạng HDR10. Phim như vậy sẽ không được mã hóa lại sau đó, vì sẽ mất Dolby Vision.",
+  "Compare": "So sánh",
+  "Delete comparison": "Xóa so sánh",
+  "Comparison deleted": "Đã xóa so sánh",
+  "comparison": "so sánh",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Bản gốc cạnh bản mới: dung lượng, chất lượng, hình ảnh và phụ đề. Bạn chọn phim nào.",
+  "Original → new": "Gốc → mới",
+  "Quality (VMAF)": "Chất lượng (VMAF)",
+  "Comparison": "So sánh",
+  "View": "Xem",
+  "Make comparison": "Tạo so sánh",
+  "previous attempt failed": "lần thử trước thất bại",
+  "Back": "Quay lại",
+  "Make again": "Tạo lại",
+  "New": "Mới",
+  "VMAF whole film": "VMAF toàn phim",
+  "Making the frames… this usually takes less than a minute.": "Đang tạo khung hình… thường mất chưa đến một phút.",
+  "There is no picture comparison for this film yet.": "Chưa có so sánh hình ảnh cho phim này.",
+  "Picture · drag across the image": "Hình ảnh · kéo ngang qua ảnh",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR đã được chuyển sang SDR cho chế độ xem này; TV của bạn hiển thị ở HDR.",
+  "How the setting was chosen": "Cách chọn thiết lập",
+  "Step": "Bước",
+  "Weakest 5%": "5% kém nhất",
+  "Bitrate": "Bitrate",
+  "chosen": "đã chọn",
+  "No data.": "Không có dữ liệu.",
+  "Nothing needed, all languages were present.": "Không cần làm gì, đã có đủ ngôn ngữ.",
+  "Not processed yet.": "Chưa xử lý.",
+  "Comparison requested · ready within a minute": "Đã yêu cầu so sánh · sẵn sàng trong vòng một phút",
+  "Delete this comparison? The film itself stays as it is.": "Xóa so sánh này? Bản thân phim vẫn giữ nguyên.",
+  "Not possible": "Không thể",
+  "Slide between original and new": "Trượt giữa bản gốc và bản mới",
+  "Overview": "Tổng quan",
+  "Queue": "Hàng đợi",
+  "In progress": "Đang xử lý",
+  "No gain": "Không giảm được",
+  "Failed": "Thất bại",
+  "Subtitles": "Phụ đề",
+  "Recently added": "Mới thêm",
+  "Library": "Thư viện",
+  "Quarantine": "Khu cách ly",
+  "Workers": "Worker",
+  "Activity": "Hoạt động",
+  "Settings": "Cài đặt",
+  "Encoding": "Mã hóa",
+  "System": "Hệ thống",
+  "Status of the entire library.": "Trạng thái của toàn bộ thư viện.",
+  "Selection": "Lựa chọn",
+  "waiting for worker": "đang chờ worker",
+  "In the selection": "Trong lựa chọn",
+  "selection": "lựa chọn",
+  "Selection · encoding": "Lựa chọn · mã hóa",
+  "Selection · subtitles": "Lựa chọn · phụ đề",
+  "Close list": "Đóng danh sách",
+  "waiting": "đang chờ",
+  "nothing needed": "không cần làm gì",
+  "original kept": "đã giữ bản gốc",
+  "Find, sync or generate missing subtitles.": "Tìm, đồng bộ hoặc tạo phụ đề còn thiếu.",
+  "All videos with their current plan. You can also queue items manually here.": "Tất cả video cùng kế hoạch hiện tại. Bạn cũng có thể đưa mục vào hàng đợi thủ công tại đây.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Các máy thực hiện công việc. Chọn những gì mỗi worker được phép làm.",
+  "Log of everything that happens.": "Nhật ký mọi hoạt động.",
+  "Scan now": "Quét ngay",
+  "Saved": "Đã tiết kiệm",
+  "Free on NAS": "Trống trên NAS",
+  "Progress": "Tiến độ",
+  "Saved per day": "Tiết kiệm mỗi ngày",
+  "last 14 days": "14 ngày qua",
+  "Per folder": "Theo thư mục",
+  "all": "tất cả",
+  "nothing processed yet": "chưa xử lý gì",
+  "no measurement yet": "chưa có số đo",
+  "No processed files yet": "Chưa có tệp nào được xử lý",
+  "No worker connected yet": "Chưa có worker nào kết nối",
+  "no worker": "không có worker",
+  "worker offline": "worker ngoại tuyến",
+  "online": "trực tuyến",
+  "disabled": "đã tắt",
+  "encoding": "mã hóa",
+  "subtitles": "phụ đề",
+  "Search by name or folder…": "Tìm theo tên hoặc thư mục…",
+  "Several titles at once: separate them with |": "Nhiều tiêu đề cùng lúc: phân tách bằng |",
+  "Nothing to show": "Không có gì để hiển thị",
+  "File": "Tệp",
+  "Source": "Nguồn",
+  "Status": "Trạng thái",
+  "Result": "Kết quả",
+  "Languages": "Ngôn ngữ",
+  "Error": "Lỗi",
+  "When": "Thời điểm",
+  "Plan": "Kế hoạch",
+  "Added": "Đã thêm",
+  "Original": "Gốc",
+  "Size": "Dung lượng",
+  "Replaced": "Đã thay thế",
+  "estimate": "ước tính",
+  "Name": "Tên",
+  "Done": "Xong",
+  "Nothing found": "Không tìm thấy gì",
+  "Process only these": "Chỉ xử lý các mục này",
+  "Prioritise": "Ưu tiên",
+  "Skip": "Bỏ qua",
+  "Retry": "Thử lại",
+  "Clear": "Xóa",
+  "Both": "Cả hai",
+  "Restore original": "Khôi phục bản gốc",
+  "Find subtitles": "Tìm phụ đề",
+  "running": "đang chạy",
+  "done": "xong",
+  "failed": "thất bại",
+  "replacing": "đang thay thế",
+  "no gain": "không giảm được",
+  "skipped": "đã bỏ qua",
+  "restored": "đã khôi phục",
+  "cancelled": "đã hủy",
+  "nothing found": "không tìm thấy",
+  "encode": "mã hóa",
+  "already efficient": "đã tối ưu",
+  "small gain": "giảm ít",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "lỗi",
+  "unknown": "không rõ",
+  "All": "Tất cả",
+  "Already efficient": "Đã tối ưu",
+  "Small gain": "Giảm ít",
+  "Restored": "Đã khôi phục",
+  "Video": "Video",
+  "Duration": "Thời lượng",
+  "Audio": "Âm thanh",
+  "Encode": "Mã hóa",
+  "Quality": "Chất lượng",
+  "Encode time": "Thời gian mã hóa",
+  "Message": "Thông báo",
+  "Started": "Bắt đầu",
+  "Search": "Tìm kiếm",
+  "weakest 5%": "5% kém nhất",
+  "video": "video",
+  "Worker": "Worker",
+  "Hardware": "Phần cứng",
+  "Resolution": "Độ phân giải",
+  "Working on": "Đang xử lý",
+  "nothing": "không có",
+  "up to 4K": "tối đa 4K",
+  "up to 1080p": "tối đa 1080p",
+  "up to 720p": "tối đa 720p",
+  "up to SD": "tối đa SD",
+  "Remove": "Xóa",
+  "Add worker": "Thêm worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Mỗi worker báo cáo khả năng của nó (tìm thấy bộ mã hóa, đã cài Whisper). Tại đây bạn quyết định nó được làm gì. Thay đổi áp dụng từ tác vụ tiếp theo; tác vụ đang chạy sẽ được hoàn tất trước.",
+  "This machine lacks the hardware or software for this": "Máy này thiếu phần cứng hoặc phần mềm cho việc này",
+  "Quality level": "Mức chất lượng",
+  "Standard": "Tiêu chuẩn",
+  "High": "Cao",
+  "Maximum": "Tối đa",
+  "Custom": "Tùy chỉnh",
+  "Custom target": "Mục tiêu tùy chỉnh",
+  "Average VMAF and the weakest 5% of frames.": "VMAF trung bình và 5% khung hình kém nhất.",
+  "avg.": "TB",
+  "Minimum saving": "Tiết kiệm tối thiểu",
+  "If a file saves less, the original is kept.": "Nếu tệp tiết kiệm ít hơn mức này, bản gốc được giữ lại.",
+  "Processing": "Xử lý",
+  "Storage & safety": "Lưu trữ & an toàn",
+  "How long replaced originals can be restored.": "Thời gian có thể khôi phục bản gốc đã bị thay thế.",
+  "days": "ngày",
+  "Above this, the oldest originals are deleted permanently.": "Vượt quá mức này, các bản gốc cũ nhất sẽ bị xóa vĩnh viễn.",
+  "Safety brake": "Phanh an toàn",
+  "Encoding pauses when the NAS has less free space than this.": "Mã hóa tạm dừng khi dung lượng trống trên NAS ít hơn mức này.",
+  "Scanning": "Quét",
+  "Automatic scan": "Quét tự động",
+  "New files are queued automatically.": "Tệp mới được tự động đưa vào hàng đợi.",
+  "Off": "Tắt",
+  "Every hour": "Mỗi giờ",
+  "Every 6 hours": "Mỗi 6 giờ",
+  "Every 12 hours": "Mỗi 12 giờ",
+  "Daily": "Hằng ngày",
+  "Skip folders": "Thư mục bỏ qua",
+  "Comma-separated folder names.": "Tên thư mục, phân tách bằng dấu phẩy.",
+  "Plex": "Plex",
+  "Dashboard address": "Địa chỉ bảng điều khiển",
+  "Use the IP address of the NAS, not localhost.": "Dùng địa chỉ IP của NAS, không dùng localhost.",
+  "Worker key": "Khóa worker",
+  "Keep secret: with this key a worker can fetch jobs.": "Giữ bí mật: với khóa này, worker có thể lấy tác vụ.",
+  "Show": "Hiện",
+  "Copy": "Sao chép",
+  "Minimum requirements": "Yêu cầu tối thiểu",
+  "Account & security": "Tài khoản & bảo mật",
+  "Two-factor authentication": "Xác thực hai yếu tố",
+  "Not active": "Chưa bật",
+  "New recovery codes": "Mã khôi phục mới",
+  "Reset MFA": "Đặt lại MFA",
+  "Sessions": "Phiên",
+  "Sign out everywhere else": "Đăng xuất ở mọi nơi khác",
+  "Sign out": "Đăng xuất",
+  "You have unsaved changes.": "Bạn có thay đổi chưa lưu.",
+  "Cancel": "Hủy",
+  "Save": "Lưu",
+  "Language": "Ngôn ngữ",
+  "Theme": "Chủ đề",
+  "Light": "Sáng",
+  "Dark": "Tối",
+  "Auto": "Tự động",
+  "Dashboard language.": "Ngôn ngữ của bảng điều khiển.",
+  "Auto follows your system setting.": "Tự động theo cài đặt hệ thống.",
+  "Reset": "Đặt lại",
+  "Create new codes": "Tạo mã mới",
+  "Close": "Đóng",
+  "Code from your authenticator app": "Mã từ ứng dụng xác thực",
+  "Sign in": "Đăng nhập",
+  "Activate": "Kích hoạt",
+  "Set up two-factor authentication": "Thiết lập xác thực hai yếu tố",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Quét mã QR bằng ứng dụng xác thực và nhập mã 6 chữ số.",
+  "Manual:": "Thủ công:",
+  "6-digit code": "Mã 6 chữ số",
+  "123456 or recovery code": "123456 hoặc mã khôi phục",
+  "Save your recovery codes": "Lưu mã khôi phục",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Mất điện thoại? Mỗi mã này cho phép đăng nhập một lần. Chúng chỉ hiển thị một lần.",
+  "I have saved them": "Tôi đã lưu",
+  "Save them now, they are shown only once.": "Hãy lưu ngay, chúng chỉ hiển thị một lần.",
+  "Server not responding": "Máy chủ không phản hồi",
+  "Sign-in failed": "Đăng nhập thất bại",
+  "Code is incorrect": "Mã không đúng",
+  "Code is incorrect - check the time on your phone": "Mã không đúng - hãy kiểm tra giờ trên điện thoại",
+  "Scan started": "Đã bắt đầu quét",
+  "scan already running": "đang quét",
+  "Copied": "Đã sao chép",
+  "Resumed": "Đã tiếp tục",
+  "Paused: a running job will finish first": "Đã tạm dừng: tác vụ đang chạy sẽ hoàn tất trước",
+  "Added to the queue": "Đã thêm vào hàng đợi",
+  "Not applicable": "Không áp dụng",
+  "At least one language": "Ít nhất một ngôn ngữ",
+  "Skip this job?": "Bỏ qua tác vụ này?",
+  "Restore the original? The new version will be deleted.": "Khôi phục bản gốc? Bản mới sẽ bị xóa.",
+  "on": "bật",
+  "off": "tắt",
+  "Quarantine cleanup": "Dọn khu cách ly",
+  "Background task": "Tác vụ nền",
+  "Planning at startup": "Lập kế hoạch khi khởi động",
+  "Welcome": "Chào mừng",
+  "Next": "Tiếp",
+  "Previous": "Trước",
+  "Next (or skip)": "Tiếp (hoặc bỏ qua)",
+  "Done, go to the overview": "Xong, đến trang tổng quan",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan làm phim và chương trình của bạn nhỏ hơn mà không có khác biệt nhìn thấy được, đồng thời bổ sung phụ đề còn thiếu. Bản gốc chỉ được thay thế sau khi kiểm tra chất lượng, và được giữ trong khu cách ly một thời gian trước.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Sáu bước ngắn là xong. Bạn có thể thay đổi mọi thứ sau này trong Cài đặt.",
+  "Your library": "Thư viện của bạn",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan đang tìm video trong thư mục media của bạn. Với thư viện lớn, lần quét đầu tiên sẽ mất một lúc; bạn cứ tiếp tục.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Các thư mục MediaScan không bao giờ động đến, phân tách bằng dấu phẩy (ví dụ Music, Downloads).",
+  "Scan again": "Quét lại",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Chọn các ngôn ngữ mà mọi tệp cần có. MediaScan tìm phụ đề còn thiếu trên OpenSubtitles. Nếu không được, worker tự tạo phụ đề (nhận dạng giọng nói và dịch ngay trên PC của bạn).",
+  "Click a language to remove it.": "Nhấp vào một ngôn ngữ để xóa.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Mỗi phim được đo bằng VMAF, điểm số thể hiện hình ảnh trông thế nào với mắt người. \"Cao\" gần như không thể phân biệt với bản gốc đối với hầu hết mọi người.",
+  "Higher = better picture, less space saved.": "Cao hơn = hình ảnh đẹp hơn, tiết kiệm ít dung lượng hơn.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Lưới an toàn cho hạt nhiễu và cảnh tối. 5 Mbps là mặc định tốt; 4K và các độ phân giải khác tính theo tỷ lệ tương ứng.",
+  "Plex (optional)": "Plex (tùy chọn)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Khi kết nối Plex, MediaScan sẽ chờ thay thế phim khi có người đang xem, và làm mới Plex sau mỗi thay đổi. Không dùng Plex? Cứ bỏ qua bước này.",
+  "Plex address and token": "Địa chỉ và token Plex",
+  "Plex token": "Token Plex",
+  "token (unchanged)": "token (không đổi)",
+  "Add a worker": "Thêm worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Phần việc nặng diễn ra trên PC hoặc Mac có card đồ họa tốt: worker. Cài đặt ngay, hoặc sau qua trang Worker. Khi chưa có worker, tệp của bạn không bị động đến.",
+  "✓ A worker is connected.": "✓ Đã kết nối một worker.",
+  "Done! MediaScan is set up.": "Xong! MediaScan đã được thiết lập.",
+  "Connect the media share on the new machine.": "Kết nối thư mục chia sẻ media trên máy mới.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: ký tự ổ đĩa hoặc \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: xem hướng dẫn trong gói.",
+  "Download the package for that system and unpack it.": "Tải gói cho hệ điều hành đó và giải nén.",
+  "Run the installer.": "Chạy trình cài đặt.",
+  "The installer asks for the details below and tests the connection.": "Trình cài đặt hỏi các thông tin bên dưới và kiểm tra kết nối.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 trở lên, Intel Arc hoặc iGPU thế hệ 11+, AMD RX 6000+ · 4 nhân · 8 GB · trống 100 GB · mạng có dây. Phụ đề: NVIDIA với 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (phụ đề: 24 GB+) · trống 150 GB · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Worker tự cập nhật khi bảng điều khiển này có phiên bản mới.",
+  "What the workers are doing now and what is planned next.": "Những gì worker đang làm và kế hoạch tiếp theo.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Làm tệp nhỏ hơn mà không giảm chất lượng nhìn thấy được. Worker xử lý hàng đợi từ trên xuống.",
+  "select page": "chọn trang",
+  "select": "chọn",
+  "to encode": "cần mã hóa",
+  "Movie": "Phim",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Các bản gốc đã bị thay thế, được giữ một thời gian để bạn có thể khôi phục hoặc mã hóa lại.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Cách MediaScan hoạt động: chất lượng, phụ đề, lưu trữ và bảo mật.",
+  "General": "Chung",
+  "Advanced": "Nâng cao",
+  "Connection": "Kết nối",
+  "Hand out new encode jobs to the workers.": "Giao tác vụ mã hóa mới cho các worker.",
+  "Hand out new subtitle jobs to the workers.": "Giao tác vụ phụ đề mới cho các worker.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Phép đo VMAF nghiêm ngặt đến mức nào. Cao hơn = hình ảnh đẹp hơn, tiết kiệm ít dung lượng hơn.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Phụ đề mà mọi tệp cần có. Phụ đề thiếu sẽ được tìm, hoặc được tạo.",
+  "Go to Workers": "Đến trang Worker",
+  "new": "mới",
+  "start": "bắt đầu",
+  "Minimum bitrate (4K)": "Bitrate tối thiểu (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Ngưỡng riêng cho 4K, thay vì 2,5 × giá trị 1080p. 0 = tự động. HDR +15% và hoạt hình ×0,6 cũng áp dụng ở đây.",
+  "Ready to use in a few steps.": "Sẵn sàng sử dụng sau vài bước.",
+  "next": "tiếp",
+  "read error": "lỗi đọc",
+  "MFA is already enabled": "MFA đã được bật",
+  "a .mkv with that name already exists": "đã có tệp .mkv cùng tên",
+  "a file already exists at the original location": "đã có tệp tại vị trí gốc",
+  "action not possible in this status": "không thể thực hiện hành động ở trạng thái này",
+  "walking folders": "đang duyệt thư mục",
+  "planning jobs": "đang lập kế hoạch tác vụ",
+  "check on the NAS rejected (duration/tracks)": "NAS từ chối kiểm tra (thời lượng/track)",
+  "expected a JSON object": "cần một đối tượng JSON",
+  "ffprobe error": "lỗi ffprobe",
+  "invalid resolution": "độ phân giải không hợp lệ",
+  "invalid worker token": "token worker không hợp lệ",
+  "job belongs to another worker": "tác vụ thuộc về worker khác",
+  "job is no longer active": "tác vụ không còn hoạt động",
+  "no video track": "không có track video",
+  "not JSON": "không phải JSON",
+  "not signed in": "chưa đăng nhập",
+  "original disappeared": "bản gốc đã biến mất",
+  "original has changed in the meantime": "bản gốc đã thay đổi trong lúc đó",
+  "original is no longer in quarantine": "bản gốc không còn trong khu cách ly",
+  "original no longer available": "bản gốc không còn khả dụng",
+  "request refused": "yêu cầu bị từ chối",
+  "target file already exists": "tệp đích đã tồn tại",
+  "the original has already been removed from quarantine - comparing is no longer possible": "bản gốc đã bị xóa khỏi khu cách ly - không thể so sánh nữa",
+  "this film has not been replaced yet": "phim này chưa được thay thế",
+  "unknown action": "thao tác không xác định",
+  "worker is still online": "worker vẫn đang trực tuyến",
+  "In use now:": "Đang sử dụng:",
+  "longest": "dài nhất",
+  "8.1 (from profile 7)": "8.1 (từ hồ sơ 7)",
+  "Whisper (transcription)": "Whisper (phiên âm)",
+  "1 day ago": "1 ngày trước",
+  "1 video": "1 video",
+  "Enter your password to open the dashboard.": "Nhập mật khẩu để mở bảng điều khiển.",
+  "No connection to the server - retrying…": "Không kết nối được máy chủ - đang thử lại…",
+  "Are you sure?": "Bạn có chắc không?",
+  "Restore": "Khôi phục",
+  "Re-encode": "Mã hóa lại",
+  "Delete": "Xóa",
+  "Next up": "Tiếp theo",
+  "in the queue": "trong hàng đợi",
+  "Load older entries": "Tải các mục cũ hơn",
+  "Folder: all": "Thư mục: tất cả",
+  "Resolution: all": "Độ phân giải: tất cả",
+  "Codec: all": "Codec: tất cả",
+  "More": "Thêm",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "phim đang chờ bộ mã hóa CPU, nhưng không worker nào bật mã hóa bằng CPU (trang Workers).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Phần cứng của bạn, mức độ phù hợp với công việc, công cụ đang dùng và cách các cài đặt hoạt động.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Bộ nhớ",
+  "Software": "Phần mềm",
+  "GPU encoding": "Mã hóa bằng GPU",
+  "CPU encoding (x265)": "Mã hóa bằng CPU (x265)",
+  "Subtitles (Whisper)": "Phụ đề (Whisper)",
+  "Translation (Ollama)": "Dịch (Ollama)",
+  "Server": "Máy chủ",
+  "Database": "Cơ sở dữ liệu",
+  "Tools in use": "Công cụ đang dùng",
+  "Knowledge base": "Cơ sở kiến thức",
+  "Low": "Thấp",
+  "Medium": "Trung bình",
+  "Ultra": "Ultra",
+  "files": "tệp",
+  "up": "hoạt động",
+  "of": "trên",
+  "uses": "dùng",
+  "free": "trống",
+  "Media share": "Chia sẻ media",
+  "Rating": "Đánh giá",
+  "Hardware details appear after this worker has updated itself.": "Chi tiết phần cứng sẽ hiện sau khi worker này tự cập nhật.",
+  "no Whisper": "không có Whisper",
+  "unified memory": "bộ nhớ hợp nhất",
+  "cores": "nhân",
+  "threads": "luồng",
+  "driver": "trình điều khiển",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Không rõ",
+  "Settings saved": "Đã lưu cài đặt",
+  "Time left": "Thời gian còn lại",
+  "Queued": "Trong hàng đợi",
+  "Keep originals for": "Giữ bản gốc trong",
+  "Quarantine size limit": "Giới hạn dung lượng khu cách ly",
+  "Hide finished items": "Ẩn mục đã xong",
+  "Undo skip": "Hủy bỏ qua",
+  "not supported here": "không hỗ trợ ở đây",
+  "CPU encoding": "Mã hóa bằng CPU",
+  "Retry on CPU (x265)": "Thử lại trên CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Đã mã hóa trên CPU bằng x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 tinh chỉnh cho hạt phim trên CPU của worker: giữ hạt phim hiệu quả hơn nhiều, nhưng mất nhiều giờ mỗi phim",
+  "CPU fallback for grainy films": "Dự phòng CPU cho phim nhiều hạt",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Khi GPU không giữ được chất lượng mà không vượt bitrate của nguồn (hạt phim), phim được mã hóa thêm một lần trên CPU của worker bằng x265, vốn giữ hạt phim hiệu quả hơn nhiều. Mất nhiều giờ mỗi phim; bật mã hóa bằng CPU cho một worker ở trang Workers.",
+  "CPU preset": "Preset CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: khoảng 2 giờ cho phim 1080p dài 2 giờ trên 8 nhân. Slow: lâu hơn 2-3 lần để tệp nhỏ hơn khoảng 5-10%.",
+  "Medium (faster)": "Medium (nhanh hơn)",
+  "Slow (smaller)": "Slow (nhỏ hơn)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Không thể tải trang này.",
+  "up to 1440p": "tối đa 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "đang phân tích tệp",
+  "No worker has CPU encodes switched on (Workers page)": "Không worker nào bật mã hóa bằng CPU (trang Workers)",
+  "the job changed in the meantime": "tác vụ đã thay đổi trong lúc đó",
+  "Main": "Điều hướng chính",
+  "Clear search and filters": "Xóa tìm kiếm và bộ lọc",
+  "Compact rows": "Hàng gọn",
+  "Encoding and subtitles are paused.": "Mã hóa và phụ đề đang tạm dừng.",
+  "Encoding is paused: no new encode jobs are handed out.": "Mã hóa đang tạm dừng: không giao tác vụ mã hóa mới.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Phụ đề đang tạm dừng: không giao tác vụ phụ đề mới.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Nhập cả địa chỉ Plex và token, hoặc để trống cả hai để bỏ qua.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Dung lượng trống trên NAS thấp hơn phanh an toàn. Mã hóa đã tự động tạm dừng.",
+  "Loading…": "Đang tải…",
+  "Next film": "Phim tiếp theo",
+  "Previous film": "Phim trước",
+  "Next page": "Trang tiếp theo",
+  "Previous page": "Trang trước",
+  "Rows per page": "Số hàng mỗi trang",
+  "Resume": "Tiếp tục",
+  "Resume encoding": "Tiếp tục mã hóa",
+  "Resume subtitles": "Tiếp tục phụ đề",
+  "Open settings": "Mở cài đặt",
+  "Open the library": "Mở thư viện",
+  "Subtitle languages": "Ngôn ngữ phụ đề",
+  "Update": "Cập nhật",
+  "No results for this search or filter.": "Không có kết quả cho tìm kiếm hoặc bộ lọc này.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Không có gì trong hàng đợi mã hóa. Tệp mới được xếp vào hàng đợi sau khi quét.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Chưa có tệp nào được thay thế. Các bản mã hóa hoàn tất xuất hiện ở đây sau khi kiểm tra chất lượng.",
+  "No files were kept as they are. Films that would save too little end up here.": "Không có tệp nào được giữ nguyên. Những phim tiết kiệm quá ít sẽ nằm ở đây.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Không có phụ đề nào đang chờ. Tệp thiếu ngôn ngữ được xếp vào hàng đợi sau khi quét.",
+  "No subtitle job is running right now.": "Hiện không có tác vụ phụ đề nào đang chạy.",
+  "No subtitles have been made yet.": "Chưa tạo phụ đề nào.",
+  "Nothing missing: every file got its subtitles so far.": "Không thiếu gì: đến giờ mọi tệp đều đã có phụ đề.",
+  "No failed encodes.": "Không có bản mã hóa thất bại.",
+  "No failed subtitle jobs.": "Không có tác vụ phụ đề thất bại.",
+  "Nothing was added in the last 14 days.": "Không có gì được thêm trong 14 ngày qua.",
+  "No videos with this plan.": "Không có video nào với kế hoạch này.",
+  "The library is being scanned; videos appear as they are found.": "Thư viện đang được quét; video xuất hiện khi được tìm thấy.",
+  "No videos found yet. Check the media folder and run a scan.": "Chưa tìm thấy video nào. Kiểm tra thư mục media và chạy quét.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Không có gì trong khu cách ly. Bản gốc đã thay thế được giữ ở đây đến khi hết thời gian lưu.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Không tìm thấy thư mục DVD hoặc Blu-ray (VIDEO_TS, BDMV) trong thư viện.",
+  "1 worker online": "1 worker trực tuyến",
+  "A worker is busy with this file": "Một worker đang xử lý tệp này",
+  "A worker is grabbing the frames": "Một worker đang lấy khung hình",
+  "A worker is searching or making subtitles": "Một worker đang tìm hoặc tạo phụ đề",
+  "A worker picks up the next job within a few seconds.": "Một worker sẽ nhận công việc tiếp theo trong vài giây.",
+  "Above this, the oldest comparisons are deleted automatically.": "Vượt mức này, các so sánh cũ nhất sẽ tự động bị xóa.",
+  "All replaced films": "Tất cả phim đã thay thế",
+  "Already efficient: encoding would hardly save anything": "Đã hiệu quả: mã hóa hầu như không tiết kiệm được gì",
+  "Automatic comparisons": "So sánh tự động",
+  "Being made…": "Đang tạo…",
+  "Can be made": "Có thể tạo",
+  "Can encode on the CPU with x265": "Có thể mã hóa trên CPU bằng x265",
+  "Comparison storage limit": "Giới hạn dung lượng so sánh",
+  "Comparisons": "So sánh",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: không mã hóa lại, lớp DV sẽ bị mất",
+  "Encoding is paused.": "Mã hóa đang tạm dừng.",
+  "Enlarge": "Phóng to",
+  "Errors": "Lỗi",
+  "Flip": "Đổi",
+  "Four frames of the original and the new version are stored": "Đã lưu bốn khung hình của bản gốc và bản mới",
+  "Full width": "Toàn chiều rộng",
+  "GPU encoder found": "Đã tìm thấy bộ mã hóa GPU",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Lấy bốn khung hình của bản gốc và bản mới cho mỗi phim đã thay thế, để bạn luôn có thể kiểm tra hình ảnh ở trang So sánh. Khoảng 1–2 MB mỗi phim.",
+  "Keyboard shortcuts": "Phím tắt",
+  "Leave without saving? Your changes to the settings will be lost.": "Rời đi mà không lưu? Các thay đổi cài đặt của bạn sẽ bị mất.",
+  "Moved to the front": "Đã chuyển lên đầu",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Chưa có so sánh nào. Hãy tạo một so sánh khi bản gốc còn trong khu cách ly, hoặc bật so sánh tự động trong Cài đặt.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Hiện không có phim nào để so sánh: bản gốc đã rời khu cách ly, hoặc chưa có gì được thay thế.",
+  "No longer possible": "Không còn khả thi",
+  "No subtitles found online and none could be made": "Không tìm thấy phụ đề trực tuyến và không tạo được phụ đề",
+  "Ollama found: can translate subtitles": "Đã tìm thấy Ollama: có thể dịch phụ đề",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Thuộc một thư mục DVD hoặc Blu-ray; hãy chuyển đổi ở trang DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Tự động tạm dừng: NAS có ít dung lượng trống hơn phanh an toàn.",
+  "Planned for encoding": "Đã lên kế hoạch mã hóa",
+  "Queued for the CPU encoder": "Trong hàng đợi cho bộ mã hóa CPU",
+  "Replaced after the quality check; the original is in quarantine for a while": "Đã thay thế sau kiểm tra chất lượng; bản gốc nằm trong khu cách ly một thời gian",
+  "Replaced films appear here after their first encode.": "Phim đã thay thế xuất hiện ở đây sau lần mã hóa đầu tiên.",
+  "Search the log…": "Tìm trong nhật ký…",
+  "Show films that can be compared": "Hiện các phim có thể so sánh",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Hiện bản gốc và bản mới lần lượt: cách tốt nhất để nhận ra hạt nhiễu và chi tiết",
+  "Skipped": "Đã bỏ qua",
+  "Skipped by you; Retry puts it back in the queue": "Bạn đã bỏ qua; \"Thử lại\" sẽ đưa nó trở lại hàng đợi",
+  "Slider back to the middle": "Thanh trượt về giữa",
+  "Smaller": "Thu nhỏ",
+  "Stopped because the file changed or disappeared": "Đã dừng vì tệp thay đổi hoặc biến mất",
+  "Stopped with an error; see the message and try again": "Đã dừng do lỗi; xem thông báo và thử lại",
+  "Subtitles are paused.": "Phụ đề đang tạm dừng.",
+  "The file could not be read; see the drawer": "Không đọc được tệp; xem bảng bên",
+  "The new file would save less than the minimum saving, so the original was kept": "Tệp mới tiết kiệm ít hơn mức tiết kiệm tối thiểu, nên bản gốc được giữ lại",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Bản mới đã ở trên NAS và sẽ được thay vào ngay khi không ai đang xem",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Bản gốc đã rời khu cách ly, nên không thể lấy khung hình nữa",
+  "The original is still in quarantine, so the frames can still be grabbed": "Bản gốc vẫn trong khu cách ly, nên vẫn có thể lấy khung hình",
+  "The original was put back from quarantine": "Bản gốc đã được khôi phục từ khu cách ly",
+  "The queue is empty. New files are queued after a scan.": "Hàng đợi trống. Tệp mới được xếp hàng sau khi quét.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Máy chủ phân phối tệp worker mới hơn; worker sẽ cài đặt sau công việc hiện tại",
+  "Undo": "Hoàn tác",
+  "Waiting for Plex: someone is watching this film": "Đang chờ Plex: có người đang xem phim này",
+  "Waiting for a worker; the queue runs from top to bottom": "Đang chờ worker; hàng đợi chạy từ trên xuống dưới",
+  "Warnings": "Cảnh báo",
+  "Whisper installed: can make subtitles": "Đã cài Whisper: có thể tạo phụ đề",
+  "Would save less than the minimum saving": "Sẽ tiết kiệm ít hơn mức tiết kiệm tối thiểu",
+  "expires today": "hết hạn hôm nay",
+  "expires within a day": "hết hạn trong một ngày",
+  "less than a day left": "còn chưa đến một ngày",
+  "waiting for Plex": "đang chờ Plex",
+  "update pending": "chờ cập nhật",
+  "Tap to switch between original and new": "Nhấn để chuyển giữa bản gốc và bản mới",
+  "Repeated": "Lặp lại",
+  "Search in the current list": "Tìm trong danh sách hiện tại",
+  "Clear the search, close a drawer or dialog": "Xóa tìm kiếm, đóng bảng bên hoặc hộp thoại",
+  "Previous or next film on a comparison": "Phim trước hoặc sau trong một so sánh",
+  "Open or switch the focused row, switch or header": "Mở hoặc chuyển hàng, công tắc hoặc tiêu đề đang được chọn",
+  "This list": "Danh sách này",
+  "Nothing in the log matches this.": "Không có gì trong nhật ký khớp với điều này.",
+  "Nothing has happened yet.": "Chưa có gì xảy ra.",
+  "No worker is online, so nothing can run.": "Không có worker nào trực tuyến, nên không gì chạy được.",
+  "There is no worker yet. Add one to get started.": "Chưa có worker nào. Thêm một worker để bắt đầu.",
+  "Open Workers": "Mở Worker",
+  "Some values are out of range.": "Một số giá trị nằm ngoài phạm vi.",
+  "no capabilities reported": "chưa báo cáo khả năng",
+  "Replaced · expires": "Đã thay thế · hết hạn",
+  "Made": "Đã tạo",
+  "Make": "Tạo",
+  "lots of motion": "nhiều chuyển động",
+  "dark scene": "cảnh tối",
+  "a quarter in": "ở một phần tư",
+  "three quarters in": "ở ba phần tư",
+  "Encoded": "Đã mã hóa",
+  "Finished": "Đã kết thúc",
+  "later": "sau đó",
+  "Leave": "Rời đi",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Một so sánh lấy 4 khung hình từ bản gốc và bản mới (tổng cộng khoảng 1–2 MB). Có thể tạo khi bản gốc vẫn còn trong khu cách ly, và được giữ lại cho đến khi bạn xóa, kể cả khi bản gốc đã không còn.",
+  "Retry on CPU": "Thử lại trên CPU",
+  "Scan": "Quét"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1bắt đầu$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Hiện tại: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan đã tìm thấy $1 video ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · 5% kém nhất $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "5% kém nhất $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Mới ($1 ngày)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Kế hoạch: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Thay thế thất bại ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} thất bại{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Quét xong: $1 video, $2 mới, $3 thay đổi, $4 biến mất; đã thêm $5 tác vụ mã hóa và $6 tác vụ phụ đề"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Quét xong: $1 video, $2 mới, $3 thay đổi, $4 biến mất, $5 trong thư mục bỏ qua; đã thêm $6 tác vụ mã hóa và $7 tác vụ phụ đề"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Mã hóa lại $1 phim theo quy tắc hiện tại? Bản gốc được khôi phục và phim được ưu tiên trong hàng đợi."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 phim đã trở lại hàng đợi{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "Đã khôi phục $1 bản gốc và đưa lại vào hàng đợi (quy tắc hiện tại)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Mới: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Đã thay thế: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "Đã chuyển đổi DVD/Blu-ray: $1 ($2 GB); thư mục đĩa nằm trong khu cách ly"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Đã khôi phục bản gốc: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 bắt đầu {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 tác vụ (trong tổng số $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Đã giao lựa chọn - mã hóa tự động tạm dừng"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Đã giao lựa chọn - phụ đề tự động tạm dừng"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Đã thay đổi cài đặt: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Tác vụ $1 lỗi: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Tác vụ $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 ngoại tuyến: $2 tác vụ trở lại hàng đợi"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 đã khởi động lại: $2 tác vụ bị gián đoạn trở lại hàng đợi"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 đã cập nhật lên $2: $3 tác vụ thất bại trở lại hàng đợi"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Đã xóa worker $1"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: mã hóa {t:$2}, phụ đề {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Đã cập nhật kế hoạch: thêm $1 tác vụ mã hóa và $2 tác vụ phụ đề"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "Đã thêm thủ công $1 tác vụ vào hàng đợi"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 tác vụ: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "Đã xóa $1 so sánh"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Đã đăng xuất $1 phiên khác"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Đã dùng mã khôi phục để đăng nhập (còn $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Bản gốc được giữ tối đa $1 ngày và tổng cộng không quá $2. Bản cũ nhất bị xóa trước. Khôi phục sẽ xóa bản mới."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - nhấp để xóa"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "Sẽ chuyển đổi $1 thư mục · worker bắt đầu trong vòng nửa phút"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 âm thanh · $2 phụ đề"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Xóa $1 so sánh? Bản thân phim vẫn giữ nguyên."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Khung hình $1 · tại $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Khung hình $1 · tại $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB dạng jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Thời gian mã hóa $1 phút · đo trên 8 đoạn, sau đó kiểm tra trên toàn phim."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Hiện có: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "5% kém nhất $1 · chuẩn $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "đồng bộ thời gian $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Tạo khung hình thất bại: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "lựa chọn · tiếp theo"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "lựa chọn · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Hiện tại:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· sau đó thêm $1 mục từ lựa chọn"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "ước tính · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 đã xong trước đó · hiện"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "Đã thêm $1 vào lựa chọn · worker bắt đầu trong vài giây"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Lựa chọn {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "đã tạo: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · nhỏ hơn $3%$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "vừa xong"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 phút trước"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 giờ trước"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 ngày trước"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "thấy lần cuối {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 ngày $2 giờ"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 giờ $2 phút"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 video"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "cách ly $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 mỗi 24 giờ"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · tiết kiệm ~$2"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "tiết kiệm ~$1 GB"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "nhỏ hơn $1% trên các tệp đã xử lý"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 trực tuyến"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "còn $1 mục để bắt đầu, sau đó tạm dừng"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 mục · trang $2/$3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "Đã chọn $1"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Chọn tất cả $1 kết quả"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Đang quét: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "Đã thử $1×"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 phút"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Đang bật · còn $1 mã khôi phục"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 phiên đang hoạt động, bao gồm phiên này."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "Đã cập nhật $1{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "Đã đăng xuất $1 phiên khác"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Chỉ xử lý $1 mục này? Chúng được ưu tiên, quá trình xử lý tiếp tục rồi tự động tạm dừng lại sau đó."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Bỏ qua $1 tác vụ?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Khôi phục $1 bản gốc? Các bản mới sẽ bị xóa."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Xóa worker $1 khỏi danh sách? Nếu nó trực tuyến trở lại, nó sẽ tự động xuất hiện lại."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "đã chạy $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "còn ~$1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "tối đa $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "đang xử lý"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Đã kết nối Plex (phiên bản $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex phản hồi không đúng: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "lỗi: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "thay thế thất bại: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "giá trị không hợp lệ cho $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 phải nằm trong khoảng $2 đến $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · 5% tệ nhất $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 giờ"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU không giữ được chất lượng - đã xếp hàng cho bộ mã hóa CPU (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Dọn staging: đã xóa tệp còn sót $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 mỗi trang"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 worker trực tuyến"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · thêm worker, khóa worker và tệp tải xuống nằm ở trang Worker."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · bắt đầu sau ~{t:$2} · ước tính"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · ước tính"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "còn $1 ngày"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "hết hạn sau $1 ngày"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Đã tạo · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Có thể tạo · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · bước $1/$2 · còn ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · bước $1/$2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · còn ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "Đã yêu cầu $1 so sánh · sẵn sàng trong vài phút"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Tạo $1 so sánh? Khoảng 1–2 MB mỗi cái."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Lặp lại $1 lần"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "từ $1 đến $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 tác vụ"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Lỗi ở $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "Đã yêu cầu $1 so sánh"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Đã dọn dẹp so sánh: đã xóa $1 (trên $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Thư mục cách ly đã được đổi tên thành quarantine ($1 bản ghi đã cập nhật)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Đã xóa worker $1: $2 tác vụ trở lại hàng đợi"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Khu cách ly: $1 đã tồn tại, $2 được giữ nguyên tại chỗ"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Thư mục cách ly đã được đổi tên thành quarantine; $1 bản ghi đã cập nhật, nhưng $2 vẫn chưa trống"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Đổi tên thư mục cách ly thất bại (thư mục chia sẻ media đã được gắn chưa?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "thiếu phiên bản mới trong staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "thiếu .mkv mới trong staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "bản gốc đã biến mất"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "bản gốc đã thay đổi trong lúc đó"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "bản gốc không còn khả dụng"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "kiểm tra trên NAS bị từ chối (thời lượng/luồng)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray đã chuyển sang mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "thử lại sau khi cập nhật worker"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "bạn đã bỏ qua"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "tệp đích đã tồn tại"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker ngoại tuyến - đã lên lịch lại"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker đã bị gỡ - đã lên lịch lại"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker đã khởi động lại - đã lên lịch lại"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "thay thế thất bại: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "thiếu Dolby Vision trong mkv mới"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: không mã hóa lại (lớp DV sẽ bị mất)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "không thể sao chép một luồng vào .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg không tiến triển trong $1 phút (không truy cập được thư mục chia sẻ?) - đã dừng"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 trong $2 tệp bị thiếu cùng lúc - không truy cập được thư mục chia sẻ? Không có gì được đánh dấu là đã mất"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "dịch thất bại: không có câu trả lời dùng được cho $1 dòng sau khi thử lại"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: lỗi máy chủ"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - tải mô hình (ollama pull <model>) hoặc sửa ollama_model trong worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "không kết nối được Ollama tại $1 ($2) - khởi động Ollama hoặc kiểm tra ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "không kết nối được Ollama: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama liên tục thất bại trong $2 phút"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 mất hơn một giờ - thư mục chia sẻ media còn truy cập được không?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "thiếu $1; hãy cài đặt $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF toàn phim $1 không hợp lý với mọi phương pháp ghép cặp (mẫu $2); thấp tại $3. Giữ bản gốc; kiểm tra nguồn tại đó"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: không đọc được tệp"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: thất bại"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "không đủ dung lượng trống trên PC cho phim này (cần $1 GB trong $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "không đủ dung lượng trong thư mục làm việc: trống $1 GB, cần ~$2 GB"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "với bitrate tối thiểu, nhỏ hơn tối đa $1%"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "đang trích xuất metadata từ lớp nâng cao"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "bản tải xuống không khớp (sha256) - không sử dụng"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "kiểm tra: thời lượng hoặc số luồng khác nhau"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "mkv mới quá ngắn ($1/$2 phút)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "xong $1/$2, đang chờ worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "đang chuyển Dolby Vision sang profile 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "đang chèn metadata vào lớp cơ sở"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "đang kiểm tra VMAF (lần đo thứ hai)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "không có thiết lập nào đạt mục tiêu chất lượng"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "đã đạt giới hạn tải xuống - phần còn lại để sau"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "đã đạt giới hạn hằng ngày của OpenSubtitles"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "một phần; phần còn lại sau giới hạn tải xuống"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "không tìm thấy $1 sau khi tải xuống"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: đã nhận diện ngôn ngữ nói"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (dịch từ $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "đang chờ dung lượng trống trên PC"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "tệp phụ đề lớn bất thường"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "phép đo tự kiểm tra không đáng tin"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "lần dịch thứ $1 thất bại"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "đang chờ: đang được xem trên Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "dự kiến chỉ nhỏ hơn $1%"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "đang tải xuống $1 (một lần)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "kiểm tra toàn phim dưới mục tiêu"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "không lấy được khung hình tại $1 giây"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "toàn phim hơi dưới mục tiêu"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "đang tìm phim trên đĩa"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "không thể đạt mục tiêu chất lượng"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "phép đo kiểm tra không đáng tin"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "đường dẫn không hợp lệ từ máy chủ"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "lại: mức giảm tối thiểu nay là 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper đang chạy trên GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "không tìm thấy tiêu đề nào trên DVD"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "đường dẫn đáng ngờ trong kho lưu trữ"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "đang chờ: không kết nối được Plex"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "đang xử lý $1/$2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "không kết nối được OpenSubtitles"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (phiên âm)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "đang kiểm tra VMAF toàn phim"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "xong, đang chờ thay thế"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "thư mục cũ vào khu cách ly"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "kiểm tra VMAF $1 quá thấp"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "đang đọc đĩa (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "dịch từ tiếng Anh"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "xong ($1/$2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "trích xuất âm thanh thất bại"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "chuyển sang dùng CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "đã đăng nhập OpenSubtitles"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (từ hồ sơ 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "đang chờ worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "đường dẫn đáng ngờ trong zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "không đọc được EN nhúng"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "dài nhất đến giờ: tiêu đề"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "thời gian không khớp"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "chỉ nhỏ hơn $1%"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "đoạn $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "giữ bản gốc"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "lượt tải còn lại hôm nay"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "đã kiểm tra tiêu đề $1"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "đang chờ thay thế"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "đang sao chép sang NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "giữ bản gốc"
+  ],
+  [
+   "translation failed",
+   "g",
+   "dịch thất bại"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "không kết nối được máy chủ"
+  ],
+  [
+   "searching quality",
+   "g",
+   "đang tìm chất lượng"
+  ],
+  [
+   "making references",
+   "g",
+   "đang tạo tham chiếu"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "đang chuyển sang mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "đã dừng phụ đề"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "đang sao chép NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "đang sao chép PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "đang tìm phim"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "đang gộp thành mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "playlist dài nhất"
+  ],
+  [
+   "timing reference",
+   "g",
+   "tham chiếu thời gian"
+  ],
+  [
+   "speech segments",
+   "g",
+   "đoạn giọng nói"
+  ],
+  [
+   "too little gain",
+   "g",
+   "tiết kiệm quá ít"
+  ],
+  [
+   " not applicable",
+   "g",
+   " không áp dụng"
+  ],
+  [
+   "download failed",
+   "g",
+   "tải xuống thất bại"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "sau ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "đang dịch sang"
+  ],
+  [
+   "next candidate",
+   "g",
+   "ứng viên tiếp theo"
+  ],
+  [
+   "after shifting",
+   "g",
+   "sau khi dịch chuyển"
+  ],
+  [
+   "reading audio",
+   "g",
+   "đang đọc âm thanh"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Lựa chọn · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 đang chờ"
+  ],
+  [
+   "search failed",
+   "g",
+   "tìm kiếm thất bại"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "đang mã hóa lại"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "tiêu đề $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " lỗi"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 xong"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "phụ đề:"
+  ],
+  [
+   "replacing",
+   "g",
+   "đang thay thế"
+  ],
+  [
+   "subtitles",
+   "g",
+   "phụ đề"
+  ],
+  [
+   "candidate",
+   "g",
+   "ứng viên"
+  ],
+  [
+   "encoding:",
+   "g",
+   "mã hóa:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "bắt đầu"
+  ],
+  [
+   "encoding",
+   "g",
+   "đang mã hóa"
+  ],
+  [
+   "checking",
+   "g",
+   "đang kiểm tra"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", tối đa "
+  ],
+  [
+   "present",
+   "g",
+   "có sẵn"
+  ],
+  [
+   "missing",
+   "g",
+   "thiếu"
+  ],
+  [
+   "speed",
+   "g",
+   "tốc độ"
+  ],
+  [
+   "saved",
+   "g",
+   "đã lưu"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU không giữ được chất lượng - đã xếp hàng cho bộ mã hóa CPU (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Dọn staging: đã xóa tệp còn sót"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "thư mục media trống hoặc chưa được gắn - không có gì thay đổi"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "giữ chất lượng sẽ cần bitrate cao hơn nguồn có"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "cần bitrate cao hơn nguồn"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker đang khởi động lại để cập nhật"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "không có luồng video (chỉ có ảnh bìa?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "không có luồng âm thanh để chuyển thành văn bản"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "không đủ dung lượng trống trên PC cho phim này"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "đang thử lại trên CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "đang duyệt thư mục"
+  ],
+  [
+   "analysing files",
+   "g",
+   "đang phân tích tệp"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "đang lập kế hoạch tác vụ"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "Mã hóa bằng CPU bật"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "Mã hóa bằng CPU tắt"
+  ]
+ ]
+}

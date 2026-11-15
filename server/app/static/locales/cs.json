@@ -1,0 +1,2060 @@
+{
+ "name": "Čeština",
+ "s": {
+  "Re-encode from original": "Překódovat z originálu",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Překódovat podle aktuálních pravidel? Originál bude obnoven a film dostane přednost.",
+  "Back in the queue": "Zpět ve frontě",
+  "Restore originals": "Obnovit originály",
+  "Minimum bitrate (1080p)": "Minimální datový tok (1080p)",
+  "Extra floor (share of the source)": "Další spodní mez (podíl zdroje)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Volitelné: zachovat také alespoň tento podíl datového toku původního videa. Užitečné jen pro zdroje s velmi vysokým datovým tokem. 0 = vypnuto.",
+  "with the minimum bitrate at most": "s minimálním datovým tokem nejvýše",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Nový soubor nikdy neklesne níž, i když by to VMAF dovolil. Ostatní rozlišení se škálují: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animace ×0.6.",
+  "bitrate already near the minimum": "datový tok už je blízko minima",
+  "MFA reset from settings - set it up again": "MFA resetováno v nastavení - nastavte ho znovu",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA resetováno přes MFA_RESET - odstraňte MFA_RESET znovu z nastavení kontejneru",
+  "MFA enabled": "MFA zapnuto",
+  "MediaScan started": "MediaScan spuštěn",
+  "New recovery codes created": "Vytvořeny nové záchranné kódy",
+  "Password changed; other sessions signed out": "Heslo změněno; ostatní relace odhlášeny",
+  "Password set (first time)": "Heslo nastaveno (poprvé)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Pozor: ADMIN_PASSWORD je kratší než 10 znaků - zvolte silnější heslo v Nastavení",
+  "part of a DVD/Blu-ray folder": "součást složky DVD/Blu-ray",
+  "folder is in Skip folders": "složka je v Přeskakovaných složkách",
+  "file disappeared": "soubor zmizel",
+  "worker restarted - rescheduled": "worker restartován - znovu naplánováno",
+  "worker offline - rescheduled": "worker offline - znovu naplánováno",
+  "retry after worker update": "opakování po aktualizaci workeru",
+  "dvd/blu-ray converted to mkv": "DVD/Blu-ray převedeno na mkv",
+  "skipped by you": "přeskočeno vámi",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Nahrazení čeká, dokud se film přehrává, a Plex se po každé změně obnoví.",
+  "Confirm with your password and a code from your app.": "Potvrďte heslem a kódem z aplikace.",
+  "Your old recovery codes will stop working.": "Vaše staré záchranné kódy přestanou fungovat.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Vaše současné propojení s ověřovací aplikací a záchranné kódy přestanou fungovat. MFA hned nastavíte znovu.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Zvolte heslo pro dashboard. Instalační kód je v logu kontejneru (Container Manager › mediascan › Log, nebo",
+  "- click to remove": "- kliknutím odstraníte",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Neplatná adresa, např. http://192.168.1.10:32400",
+  "Enter a Plex token": "Zadejte Plex token",
+  "A password has already been set": "Heslo už bylo nastaveno",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Klíč je pevně nastaven ve WORKER_TOKEN (prostředí kontejneru)",
+  "selection still running - pause or wait until it is done": "výběr ještě běží - pozastavte nebo počkejte na dokončení",
+  "Now running": "Právě běží",
+  "Finding the film on the disc": "Hledání filmu na disku",
+  "Converting to one .mkv": "Převod do jednoho .mkv",
+  "Checking (duration, tracks)": "Kontrola (délka, stopy)",
+  "Copying to the NAS": "Kopírování na NAS",
+  "Old folder to quarantine": "Stará složka do karantény",
+  "worker has not reported for a while": "worker se delší dobu neozval",
+  "waiting for the worker": "čeká se na workera",
+  "Welcome to MediaScan": "Vítejte v MediaScan",
+  "Setup code": "Instalační kód",
+  "New password (at least 10 characters)": "Nové heslo (alespoň 10 znaků)",
+  "Repeat password": "Zopakujte heslo",
+  "Set password": "Nastavit heslo",
+  "The passwords do not match": "Hesla se neshodují",
+  "Setup code is wrong - check the container log": "Instalační kód je chybný - zkontrolujte log kontejneru",
+  "Choose a password of at least 10 characters": "Zvolte heslo o délce alespoň 10 znaků",
+  "Animation folders": "Složky s animací",
+  "Top-level folders with animation: these may use a lower bitrate.": "Složky nejvyšší úrovně s animací: mohou používat nižší datový tok.",
+  "Where do I find the token?": "Kde najdu token?",
+  "Connect": "Připojit",
+  "Disconnect": "Odpojit",
+  "Connected": "Připojeno",
+  "Not connected": "Nepřipojeno",
+  "+ Add language": "+ Přidat jazyk",
+  "Renew": "Obnovit",
+  "Worker version": "Verze workeru",
+  "Password": "Heslo",
+  "Other sessions are signed out after a change.": "Po změně se ostatní relace odhlásí.",
+  "Change password": "Změnit heslo",
+  "Other sessions will be signed out.": "Ostatní relace budou odhlášeny.",
+  "Change": "Změnit",
+  "New worker key": "Nový klíč workeru",
+  "Create new key": "Vytvořit nový klíč",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Všechny workery se zastaví, dokud nezadáte nový klíč (spusťte znovu instalátor nebo upravte worker.ini).",
+  "Repeat new password": "Zopakujte nové heslo",
+  "Password changed": "Heslo změněno",
+  "New worker key created": "Vytvořen nový klíč workeru",
+  "Disconnect Plex?": "Odpojit Plex?",
+  "Plex disconnected": "Plex odpojen",
+  "Plex connected": "Plex připojen",
+  "Incorrect password": "Nesprávné heslo",
+  "Incorrect code": "Nesprávný kód",
+  "Incorrect code from your authenticator app": "Nesprávný kód z ověřovací aplikace",
+  "Too many attempts - try again in 15 minutes": "Příliš mnoho pokusů - zkuste to znovu za 15 minut",
+  "DVD & Blu-ray": "DVD a Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Složky s VIDEO_TS nebo BDMV. Převod z nich udělá jeden .mkv se vším videem, zvukem, titulky a kapitolami.",
+  "Convert to MKV": "Převést na MKV",
+  "Folder": "Složka",
+  "Type": "Typ",
+  "found": "nalezeno",
+  "queued": "ve frontě",
+  "converting…": "převádí se…",
+  "converted": "převedeno",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Převod zkopíruje vše 1:1 do jednoho .mkv: video (i HDR), všechny zvukové stopy, titulky a kapitoly. U DVD vybere nejdelší titul (film). Stará složka jde do karantény, takže ji můžete obnovit. Soubor .mkv pak projde běžným kódováním a titulky. Z Dolby Vision Blu-ray se stane Dolby Vision profile 8.1 (základní vrstva 1:1, přidána metadata DV): Plex a váš televizor jej přehrají jako Dolby Vision, ostatní přehrávače jako HDR10. Takový film se poté nepřekóduje, protože by se Dolby Vision ztratilo.",
+  "Compare": "Porovnat",
+  "Delete comparison": "Smazat porovnání",
+  "Comparison deleted": "Porovnání smazáno",
+  "comparison": "porovnání",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Originál vedle nové verze: velikost, kvalita, obraz a titulky. Filmy si vyberete sami.",
+  "Original → new": "Originál → nový",
+  "Quality (VMAF)": "Kvalita (VMAF)",
+  "Comparison": "Porovnání",
+  "View": "Zobrazit",
+  "Make comparison": "Vytvořit porovnání",
+  "previous attempt failed": "předchozí pokus selhal",
+  "Back": "Zpět",
+  "Make again": "Vytvořit znovu",
+  "New": "Nový",
+  "VMAF whole film": "VMAF celého filmu",
+  "Making the frames… this usually takes less than a minute.": "Vytváření snímků… obvykle to trvá méně než minutu.",
+  "There is no picture comparison for this film yet.": "Pro tento film zatím neexistuje porovnání obrazu.",
+  "Picture · drag across the image": "Obraz · táhněte přes obrázek",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR bylo pro toto zobrazení převedeno na SDR; váš televizor jej zobrazí v HDR.",
+  "How the setting was chosen": "Jak bylo nastavení zvoleno",
+  "Step": "Krok",
+  "Weakest 5%": "Nejhorších 5%",
+  "Bitrate": "Datový tok",
+  "chosen": "zvoleno",
+  "No data.": "Žádná data.",
+  "Nothing needed, all languages were present.": "Nic není potřeba, všechny jazyky byly k dispozici.",
+  "Not processed yet.": "Zatím nezpracováno.",
+  "Comparison requested · ready within a minute": "Porovnání vyžádáno · hotovo do minuty",
+  "Delete this comparison? The film itself stays as it is.": "Smazat toto porovnání? Samotný film zůstane beze změny.",
+  "Not possible": "Není možné",
+  "Slide between original and new": "Posuňte mezi originálem a novým",
+  "Overview": "Přehled",
+  "Queue": "Fronta",
+  "In progress": "Probíhá",
+  "No gain": "Bez úspory",
+  "Failed": "Selhalo",
+  "Subtitles": "Titulky",
+  "Recently added": "Nedávno přidané",
+  "Library": "Knihovna",
+  "Quarantine": "Karanténa",
+  "Workers": "Workery",
+  "Activity": "Aktivita",
+  "Settings": "Nastavení",
+  "Encoding": "Kódování",
+  "System": "Systém",
+  "Status of the entire library.": "Stav celé knihovny.",
+  "Selection": "Výběr",
+  "waiting for worker": "čeká na workera",
+  "In the selection": "Ve výběru",
+  "selection": "výběr",
+  "Selection · encoding": "Výběr · kódování",
+  "Selection · subtitles": "Výběr · titulky",
+  "Close list": "Zavřít seznam",
+  "waiting": "čeká",
+  "nothing needed": "nic není potřeba",
+  "original kept": "originál ponechán",
+  "Find, sync or generate missing subtitles.": "Vyhledat, synchronizovat nebo vytvořit chybějící titulky.",
+  "All videos with their current plan. You can also queue items manually here.": "Všechna videa s jejich aktuálním plánem. Zde můžete položky také ručně zařadit do fronty.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Stroje, které odvádějí práci. Zvolte, co smí každý worker dělat.",
+  "Log of everything that happens.": "Záznam všeho, co se děje.",
+  "Scan now": "Skenovat teď",
+  "Saved": "Ušetřeno",
+  "Free on NAS": "Volné na NAS",
+  "Progress": "Průběh",
+  "Saved per day": "Ušetřeno za den",
+  "last 14 days": "posledních 14 dní",
+  "Per folder": "Podle složky",
+  "all": "vše",
+  "nothing processed yet": "zatím nic nezpracováno",
+  "no measurement yet": "zatím žádné měření",
+  "No processed files yet": "Zatím žádné zpracované soubory",
+  "No worker connected yet": "Zatím není připojen žádný worker",
+  "no worker": "žádný worker",
+  "worker offline": "worker offline",
+  "online": "online",
+  "disabled": "vypnuto",
+  "encoding": "kódování",
+  "subtitles": "titulky",
+  "Search by name or folder…": "Hledat podle názvu nebo složky…",
+  "Several titles at once: separate them with |": "Více názvů najednou: oddělte je znakem |",
+  "Nothing to show": "Nic k zobrazení",
+  "File": "Soubor",
+  "Source": "Zdroj",
+  "Status": "Stav",
+  "Result": "Výsledek",
+  "Languages": "Jazyky",
+  "Error": "Chyba",
+  "When": "Kdy",
+  "Plan": "Plán",
+  "Added": "Přidáno",
+  "Original": "Originál",
+  "Size": "Velikost",
+  "Replaced": "Nahrazeno",
+  "estimate": "odhad",
+  "Name": "Název",
+  "Done": "Hotovo",
+  "Nothing found": "Nic nenalezeno",
+  "Process only these": "Zpracovat jen tyto",
+  "Prioritise": "Upřednostnit",
+  "Skip": "Přeskočit",
+  "Retry": "Zkusit znovu",
+  "Clear": "Vymazat",
+  "Both": "Obojí",
+  "Restore original": "Obnovit originál",
+  "Find subtitles": "Najít titulky",
+  "running": "běží",
+  "done": "hotovo",
+  "failed": "selhalo",
+  "replacing": "nahrazuje se",
+  "no gain": "bez úspory",
+  "skipped": "přeskočeno",
+  "restored": "obnoveno",
+  "cancelled": "zrušeno",
+  "nothing found": "nic nenalezeno",
+  "encode": "kódovat",
+  "already efficient": "už efektivní",
+  "small gain": "malá úspora",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "chyba",
+  "unknown": "neznámé",
+  "All": "Vše",
+  "Already efficient": "Už efektivní",
+  "Small gain": "Malá úspora",
+  "Restored": "Obnovené",
+  "Video": "Video",
+  "Duration": "Délka",
+  "Audio": "Zvuk",
+  "Encode": "Kódování",
+  "Quality": "Kvalita",
+  "Encode time": "Doba kódování",
+  "Message": "Zpráva",
+  "Started": "Spuštěno",
+  "Search": "Hledat",
+  "weakest 5%": "nejhorších 5%",
+  "video": "video",
+  "Worker": "Worker",
+  "Hardware": "Hardware",
+  "Resolution": "Rozlišení",
+  "Working on": "Pracuje na",
+  "nothing": "nic",
+  "up to 4K": "do 4K",
+  "up to 1080p": "do 1080p",
+  "up to 720p": "do 720p",
+  "up to SD": "do SD",
+  "Remove": "Odebrat",
+  "Add worker": "Přidat workera",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Každý worker hlásí, co umí (nalezen enkodér, nainstalován Whisper). Zde rozhodujete, co smí dělat. Změny platí od další úlohy; běžící úloha se nejprve dokončí.",
+  "This machine lacks the hardware or software for this": "Tento stroj nemá potřebný hardware nebo software",
+  "Quality level": "Úroveň kvality",
+  "Standard": "Standardní",
+  "High": "Vysoká",
+  "Maximum": "Maximální",
+  "Custom": "Vlastní",
+  "Custom target": "Vlastní cíl",
+  "Average VMAF and the weakest 5% of frames.": "Průměrné VMAF a nejhorších 5% snímků.",
+  "avg.": "prům.",
+  "Minimum saving": "Minimální úspora",
+  "If a file saves less, the original is kept.": "Pokud soubor ušetří méně, originál se ponechá.",
+  "Processing": "Zpracování",
+  "Storage & safety": "Úložiště a bezpečnost",
+  "How long replaced originals can be restored.": "Jak dlouho lze nahrazené originály obnovit.",
+  "days": "dní",
+  "Above this, the oldest originals are deleted permanently.": "Nad touto hodnotou se nejstarší originály trvale smažou.",
+  "Safety brake": "Bezpečnostní brzda",
+  "Encoding pauses when the NAS has less free space than this.": "Kódování se pozastaví, když má NAS méně volného místa než tato hodnota.",
+  "Scanning": "Skenování",
+  "Automatic scan": "Automatické skenování",
+  "New files are queued automatically.": "Nové soubory se automaticky zařadí do fronty.",
+  "Off": "Vypnuto",
+  "Every hour": "Každou hodinu",
+  "Every 6 hours": "Každých 6 hodin",
+  "Every 12 hours": "Každých 12 hodin",
+  "Daily": "Denně",
+  "Skip folders": "Přeskočené složky",
+  "Comma-separated folder names.": "Názvy složek oddělené čárkou.",
+  "Plex": "Plex",
+  "Dashboard address": "Adresa dashboardu",
+  "Use the IP address of the NAS, not localhost.": "Použijte IP adresu NAS, ne localhost.",
+  "Worker key": "Klíč workeru",
+  "Keep secret: with this key a worker can fetch jobs.": "Uchovejte v tajnosti: s tímto klíčem si worker může stahovat úlohy.",
+  "Show": "Zobrazit",
+  "Copy": "Kopírovat",
+  "Minimum requirements": "Minimální požadavky",
+  "Account & security": "Účet a zabezpečení",
+  "Two-factor authentication": "Dvoufázové ověření",
+  "Not active": "Neaktivní",
+  "New recovery codes": "Nové záchranné kódy",
+  "Reset MFA": "Resetovat MFA",
+  "Sessions": "Relace",
+  "Sign out everywhere else": "Odhlásit všude jinde",
+  "Sign out": "Odhlásit se",
+  "You have unsaved changes.": "Máte neuložené změny.",
+  "Cancel": "Zrušit",
+  "Save": "Uložit",
+  "Language": "Jazyk",
+  "Theme": "Motiv",
+  "Light": "Světlý",
+  "Dark": "Tmavý",
+  "Auto": "Auto",
+  "Dashboard language.": "Jazyk dashboardu.",
+  "Auto follows your system setting.": "Auto se řídí nastavením systému.",
+  "Reset": "Resetovat",
+  "Create new codes": "Vytvořit nové kódy",
+  "Close": "Zavřít",
+  "Code from your authenticator app": "Kód z ověřovací aplikace",
+  "Sign in": "Přihlásit se",
+  "Activate": "Aktivovat",
+  "Set up two-factor authentication": "Nastavit dvoufázové ověření",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Naskenujte QR kód ověřovací aplikací a zadejte 6místný kód.",
+  "Manual:": "Ručně:",
+  "6-digit code": "6místný kód",
+  "123456 or recovery code": "123456 nebo záchranný kód",
+  "Save your recovery codes": "Uložte si záchranné kódy",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Ztratili jste telefon? Každý z těchto kódů vás jednou přihlásí. Zobrazí se jen jednou.",
+  "I have saved them": "Uložil(a) jsem je",
+  "Save them now, they are shown only once.": "Uložte si je hned, zobrazí se jen jednou.",
+  "Server not responding": "Server neodpovídá",
+  "Sign-in failed": "Přihlášení selhalo",
+  "Code is incorrect": "Kód je nesprávný",
+  "Code is incorrect - check the time on your phone": "Kód je nesprávný - zkontrolujte čas v telefonu",
+  "Scan started": "Skenování spuštěno",
+  "scan already running": "skenování už běží",
+  "Copied": "Zkopírováno",
+  "Resumed": "Obnoveno",
+  "Paused: a running job will finish first": "Pozastaveno: běžící úloha se nejprve dokončí",
+  "Added to the queue": "Přidáno do fronty",
+  "Not applicable": "Nelze použít",
+  "At least one language": "Alespoň jeden jazyk",
+  "Skip this job?": "Přeskočit tuto úlohu?",
+  "Restore the original? The new version will be deleted.": "Obnovit originál? Nová verze bude smazána.",
+  "on": "zap.",
+  "off": "vyp.",
+  "Quarantine cleanup": "Úklid karantény",
+  "Background task": "Úloha na pozadí",
+  "Planning at startup": "Plánování při spuštění",
+  "Welcome": "Vítejte",
+  "Next": "Další",
+  "Previous": "Předchozí",
+  "Next (or skip)": "Další (nebo přeskočit)",
+  "Done, go to the overview": "Hotovo, přejít na přehled",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan zmenší vaše filmy a seriály bez viditelného rozdílu a doplní chybějící titulky. Originály se nahrazují až po kontrole kvality a nejprve se nějakou dobu uchovávají v karanténě.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Šest krátkých kroků a máte hotovo. Vše můžete později změnit v Nastavení.",
+  "Your library": "Vaše knihovna",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan nyní hledá videa ve vaší složce médií. U velké knihovny trvá první skenování déle; můžete klidně pokračovat.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Složky, na které MediaScan nikdy nesáhne, oddělené čárkou (např. Music, Downloads).",
+  "Scan again": "Skenovat znovu",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Zvolte jazyky, které má mít každý soubor. MediaScan hledá chybějící na OpenSubtitles. Pokud to selže, worker vytvoří titulky sám (rozpoznávání řeči a překlad na vašem PC).",
+  "Click a language to remove it.": "Kliknutím na jazyk jej odeberete.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Každý film se měří pomocí VMAF, skóre toho, jak obraz vypadá pro lidské oko. „Vysoká“ je pro téměř každého k nerozeznání od originálu.",
+  "Higher = better picture, less space saved.": "Vyšší = lepší obraz, menší úspora místa.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Pojistka pro zrno a tmavé scény. 5 Mbps je dobrá výchozí hodnota; 4K a ostatní rozlišení se škálují odpovídajícím způsobem.",
+  "Plex (optional)": "Plex (volitelné)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "S připojeným Plexem MediaScan s nahrazením filmu počká, dokud ho někdo sleduje, a po každé změně Plex obnoví. Nemáte Plex? Tento krok přeskočte.",
+  "Plex address and token": "Adresa Plexu a token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (beze změny)",
+  "Add a worker": "Přidejte workera",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Těžkou práci odvádí PC nebo Mac s dobrou grafickou kartou: worker. Nainstalujte ho teď, nebo později přes Workery. Dokud žádný worker není, s vašimi soubory se nic neděje.",
+  "✓ A worker is connected.": "✓ Worker je připojen.",
+  "Done! MediaScan is set up.": "Hotovo! MediaScan je nastaven.",
+  "Connect the media share on the new machine.": "Připojte mediální sdílenou složku na novém stroji.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: písmeno jednotky nebo \\\\NAS\\Media · Mac: Finder › Připojit k serveru · Linux: viz pokyny v balíčku.",
+  "Download the package for that system and unpack it.": "Stáhněte balíček pro daný systém a rozbalte ho.",
+  "Run the installer.": "Spusťte instalátor.",
+  "The installer asks for the details below and tests the connection.": "Instalátor si vyžádá údaje níže a otestuje připojení.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 nebo novější, Intel Arc nebo iGPU 11. generace+, AMD RX 6000+ · 4 jádra · 8 GB · 100 GB volného místa · kabelová síť. Titulky: NVIDIA s 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (titulky: 24 GB+) · 150 GB volného místa · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Workery se samy aktualizují, když má tento dashboard novou verzi.",
+  "What the workers are doing now and what is planned next.": "Co workery dělají teď a co je naplánováno dál.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Zmenšete soubory bez viditelné ztráty kvality. Worker zpracovává frontu shora dolů.",
+  "select page": "vybrat stránku",
+  "select": "vybrat",
+  "to encode": "ke kódování",
+  "Movie": "Film",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Nahrazené originály, uchovávané po nějakou dobu, abyste je mohli obnovit nebo nechat překódovat.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Jak MediaScan funguje: kvalita, titulky, úložiště a zabezpečení.",
+  "General": "Obecné",
+  "Advanced": "Pokročilé",
+  "Connection": "Připojení",
+  "Hand out new encode jobs to the workers.": "Přidělovat workerům nové úlohy kódování.",
+  "Hand out new subtitle jobs to the workers.": "Přidělovat workerům nové úlohy titulků.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Jak přísné je měření VMAF. Vyšší = lepší obraz, menší úspora místa.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Jaké titulky má mít každý soubor. Chybějící se vyhledají, nebo vytvoří.",
+  "Go to Workers": "Přejít na Workery",
+  "new": "nový",
+  "start": "start",
+  "Minimum bitrate (4K)": "Minimální datový tok (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Vlastní spodní hranice pro 4K místo 2,5 × hodnoty 1080p. 0 = automaticky. HDR +15 % a animace ×0,6 platí i zde.",
+  "Ready to use in a few steps.": "Připraveno k použití za pár kroků.",
+  "next": "další",
+  "read error": "chyba čtení",
+  "MFA is already enabled": "MFA je již zapnuto",
+  "a .mkv with that name already exists": "soubor .mkv s tímto názvem již existuje",
+  "a file already exists at the original location": "na původním místě již existuje soubor",
+  "action not possible in this status": "akce v tomto stavu není možná",
+  "walking folders": "procházím složky",
+  "planning jobs": "plánuji úlohy",
+  "check on the NAS rejected (duration/tracks)": "kontrola na NAS zamítnuta (délka/stopy)",
+  "expected a JSON object": "očekáván objekt JSON",
+  "ffprobe error": "chyba ffprobe",
+  "invalid resolution": "neplatné rozlišení",
+  "invalid worker token": "neplatný token workeru",
+  "job belongs to another worker": "úloha patří jinému workeru",
+  "job is no longer active": "úloha již není aktivní",
+  "no video track": "žádná video stopa",
+  "not JSON": "není JSON",
+  "not signed in": "nejste přihlášeni",
+  "original disappeared": "originál zmizel",
+  "original has changed in the meantime": "originál se mezitím změnil",
+  "original is no longer in quarantine": "originál již není v karanténě",
+  "original no longer available": "originál již není k dispozici",
+  "request refused": "požadavek odmítnut",
+  "target file already exists": "cílový soubor již existuje",
+  "the original has already been removed from quarantine - comparing is no longer possible": "originál již byl z karantény odstraněn - porovnání již není možné",
+  "this film has not been replaced yet": "tento film ještě nebyl nahrazen",
+  "unknown action": "neznámá akce",
+  "worker is still online": "worker je stále online",
+  "In use now:": "Nyní používáno:",
+  "longest": "nejdelší",
+  "8.1 (from profile 7)": "8.1 (z profilu 7)",
+  "Whisper (transcription)": "Whisper (přepis)",
+  "1 day ago": "před 1 dny",
+  "1 video": "1 videí",
+  "Enter your password to open the dashboard.": "Zadejte heslo pro otevření panelu.",
+  "No connection to the server - retrying…": "Žádné spojení se serverem - zkouším znovu…",
+  "Are you sure?": "Opravdu?",
+  "Restore": "Obnovit",
+  "Re-encode": "Překódovat",
+  "Delete": "Smazat",
+  "Next up": "Následuje",
+  "in the queue": "ve frontě",
+  "Load older entries": "Načíst starší záznamy",
+  "Folder: all": "Složka: vše",
+  "Resolution: all": "Rozlišení: vše",
+  "Codec: all": "Kodek: vše",
+  "More": "Více",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "film(y) čekají na kodér CPU, ale žádný worker nemá kódování na CPU zapnuté (stránka Workers).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Váš hardware, jak dobře se hodí na práci, používané nástroje a jak fungují nastavení.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Paměť",
+  "Software": "Software",
+  "GPU encoding": "Kódování na GPU",
+  "CPU encoding (x265)": "Kódování na CPU (x265)",
+  "Subtitles (Whisper)": "Titulky (Whisper)",
+  "Translation (Ollama)": "Překlad (Ollama)",
+  "Server": "Server",
+  "Database": "Databáze",
+  "Tools in use": "Používané nástroje",
+  "Knowledge base": "Znalostní báze",
+  "Low": "Nízký",
+  "Medium": "Střední",
+  "Ultra": "Ultra",
+  "files": "souborů",
+  "up": "běží",
+  "of": "z",
+  "uses": "používá",
+  "free": "volné",
+  "Media share": "Sdílení médií",
+  "Rating": "Hodnocení",
+  "Hardware details appear after this worker has updated itself.": "Podrobnosti o hardwaru se zobrazí, až se tento worker aktualizuje.",
+  "no Whisper": "bez Whisper",
+  "unified memory": "sdílená paměť",
+  "cores": "jader",
+  "threads": "vláken",
+  "driver": "ovladač",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Neznámé",
+  "Settings saved": "Nastavení uloženo",
+  "Time left": "Zbývající čas",
+  "Queued": "Ve frontě",
+  "Keep originals for": "Uchovávat originály po dobu",
+  "Quarantine size limit": "Limit velikosti karantény",
+  "Hide finished items": "Skrýt dokončené",
+  "Undo skip": "Zrušit přeskočení",
+  "not supported here": "zde nepodporováno",
+  "CPU encoding": "Kódování na CPU",
+  "Retry on CPU (x265)": "Zkusit znovu na CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Zakódováno na CPU pomocí x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 s laděním na zrno na CPU workeru: zachová zrno mnohem efektivněji, ale trvá hodiny na film",
+  "CPU fallback for grainy films": "Záložní kódování na CPU pro zrnité filmy",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Když GPU nedokáže udržet kvalitu bez překročení bitrate zdroje (filmové zrno), film se zakóduje ještě jednou na CPU workeru pomocí x265, které zachová zrno mnohem efektivněji. Trvá hodiny na film; zapněte kódování na CPU pro worker na stránce Workers.",
+  "CPU preset": "Preset CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: asi 2 hodiny pro 2hodinový film v 1080p na 8 jádrech. Slow: 2-3krát déle pro soubory asi o 5-10% menší.",
+  "Medium (faster)": "Medium (rychlejší)",
+  "Slow (smaller)": "Slow (menší)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Tuto stránku se nepodařilo načíst.",
+  "up to 1440p": "do 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "analyzuji soubory",
+  "No worker has CPU encodes switched on (Workers page)": "Žádný worker nemá kódování na CPU zapnuté (stránka Workers)",
+  "the job changed in the meantime": "úloha se mezitím změnila",
+  "Main": "Hlavní navigace",
+  "Clear search and filters": "Vymazat hledání a filtry",
+  "Compact rows": "Kompaktní řádky",
+  "Encoding and subtitles are paused.": "Kódování i titulky jsou pozastaveny.",
+  "Encoding is paused: no new encode jobs are handed out.": "Kódování je pozastaveno: nepřidělují se nové úlohy kódování.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Titulky jsou pozastaveny: nepřidělují se nové úlohy titulků.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Zadejte adresu Plexu i token, nebo nechte obě pole prázdná a krok přeskočte.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Volné místo na NAS je pod bezpečnostní brzdou. Kódování bylo automaticky pozastaveno.",
+  "Loading…": "Načítání…",
+  "Next film": "Další film",
+  "Previous film": "Předchozí film",
+  "Next page": "Další stránka",
+  "Previous page": "Předchozí stránka",
+  "Rows per page": "Řádků na stránku",
+  "Resume": "Pokračovat",
+  "Resume encoding": "Pokračovat v kódování",
+  "Resume subtitles": "Pokračovat v titulcích",
+  "Open settings": "Otevřít nastavení",
+  "Open the library": "Otevřít knihovnu",
+  "Subtitle languages": "Jazyky titulků",
+  "Update": "Aktualizovat",
+  "No results for this search or filter.": "Pro toto hledání nebo filtr nejsou žádné výsledky.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Ve frontě na kódování nic není. Nové soubory se do fronty dostanou po skenování.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Zatím nebyl nahrazen žádný soubor. Dokončená kódování se tu objeví po kontrole kvality.",
+  "No files were kept as they are. Films that would save too little end up here.": "Žádný soubor nebyl ponechán beze změny. Filmy, které by ušetřily příliš málo, skončí tady.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Žádné titulky nečekají. Soubory, kterým chybí jazyk, se do fronty dostanou po skenování.",
+  "No subtitle job is running right now.": "Právě neběží žádná úloha titulků.",
+  "No subtitles have been made yet.": "Zatím nebyly vytvořeny žádné titulky.",
+  "Nothing missing: every file got its subtitles so far.": "Nic nechybí: každý soubor zatím své titulky dostal.",
+  "No failed encodes.": "Žádná neúspěšná kódování.",
+  "No failed subtitle jobs.": "Žádné neúspěšné úlohy titulků.",
+  "Nothing was added in the last 14 days.": "Za posledních 14 dní nebylo nic přidáno.",
+  "No videos with this plan.": "Žádná videa s tímto plánem.",
+  "The library is being scanned; videos appear as they are found.": "Knihovna se skenuje; videa se objevují, jak jsou nalezena.",
+  "No videos found yet. Check the media folder and run a scan.": "Zatím nebyla nalezena žádná videa. Zkontrolujte složku s médii a spusťte skenování.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "V karanténě nic není. Nahrazené originály tu zůstávají, dokud neuplyne doba uchování.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "V knihovně nebyly nalezeny žádné složky DVD ani Blu-ray (VIDEO_TS, BDMV).",
+  "1 worker online": "1 worker online",
+  "A worker is busy with this file": "Worker pracuje na tomto souboru",
+  "A worker is grabbing the frames": "Worker pořizuje snímky",
+  "A worker is searching or making subtitles": "Worker hledá nebo vytváří titulky",
+  "A worker picks up the next job within a few seconds.": "Worker si během několika sekund vezme další úlohu.",
+  "Above this, the oldest comparisons are deleted automatically.": "Nad tímto limitem se nejstarší porovnání automaticky mažou.",
+  "All replaced films": "Všechny nahrazené filmy",
+  "Already efficient: encoding would hardly save anything": "Už je efektivní: kódování by téměř nic neušetřilo",
+  "Automatic comparisons": "Automatická porovnání",
+  "Being made…": "Vytváří se…",
+  "Can be made": "Lze vytvořit",
+  "Can encode on the CPU with x265": "Umí kódovat na CPU pomocí x265",
+  "Comparison storage limit": "Limit místa pro porovnání",
+  "Comparisons": "Porovnání",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: nepřekódováno, vrstva DV by se ztratila",
+  "Encoding is paused.": "Kódování je pozastaveno.",
+  "Enlarge": "Zvětšit",
+  "Errors": "Chyby",
+  "Flip": "Přepnout",
+  "Four frames of the original and the new version are stored": "Jsou uloženy čtyři snímky originálu a nové verze",
+  "Full width": "Plná šířka",
+  "GPU encoder found": "Nalezen GPU enkodér",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "U každého nahrazeného filmu pořídit čtyři snímky originálu a nové verze, abys mohl obraz kdykoli zkontrolovat na stránce Porovnat. Asi 1–2 MB na film.",
+  "Keyboard shortcuts": "Klávesové zkratky",
+  "Leave without saving? Your changes to the settings will be lost.": "Odejít bez uložení? Tvoje změny v nastavení se ztratí.",
+  "Moved to the front": "Přesunuto dopředu",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Zatím žádná porovnání. Vytvoř je, dokud je originál ještě v karanténě, nebo zapni automatická porovnání v Nastavení.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Momentálně nelze porovnat žádný film: originály opustily karanténu, nebo ještě nebylo nic nahrazeno.",
+  "No longer possible": "Už to není možné",
+  "No subtitles found online and none could be made": "Online nebyly nalezeny žádné titulky a žádné se nepodařilo vytvořit",
+  "Ollama found: can translate subtitles": "Nalezena Ollama: umí překládat titulky",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Součást složky DVD nebo Blu-ray; převeď ji na stránce DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Automaticky pozastaveno: NAS má méně volného místa než bezpečnostní brzda.",
+  "Planned for encoding": "Naplánováno ke kódování",
+  "Queued for the CPU encoder": "Ve frontě pro CPU enkodér",
+  "Replaced after the quality check; the original is in quarantine for a while": "Nahrazeno po kontrole kvality; originál je nějakou dobu v karanténě",
+  "Replaced films appear here after their first encode.": "Nahrazené filmy se tu objeví po prvním kódování.",
+  "Search the log…": "Hledat v protokolu…",
+  "Show films that can be compared": "Zobrazit filmy, které lze porovnat",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Střídavě zobrazovat originál a novou verzi: nejlepší způsob, jak rozpoznat zrno a detaily",
+  "Skipped": "Přeskočeno",
+  "Skipped by you; Retry puts it back in the queue": "Přeskočeno tebou; „Zkusit znovu“ ho vrátí do fronty",
+  "Slider back to the middle": "Posuvník zpět na střed",
+  "Smaller": "Zmenšit",
+  "Stopped because the file changed or disappeared": "Zastaveno, protože se soubor změnil nebo zmizel",
+  "Stopped with an error; see the message and try again": "Zastaveno s chybou; podívej se na zprávu a zkus to znovu",
+  "Subtitles are paused.": "Titulky jsou pozastaveny.",
+  "The file could not be read; see the drawer": "Soubor nelze přečíst; viz boční panel",
+  "The new file would save less than the minimum saving, so the original was kept": "Nový soubor by ušetřil méně než minimální úsporu, proto byl ponechán originál",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Nová verze je na NAS a vymění se, jakmile se nikdo nedívá",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Originál opustil karanténu, snímky už nelze pořídit",
+  "The original is still in quarantine, so the frames can still be grabbed": "Originál je ještě v karanténě, snímky lze stále pořídit",
+  "The original was put back from quarantine": "Originál byl obnoven z karantény",
+  "The queue is empty. New files are queued after a scan.": "Fronta je prázdná. Nové soubory se do fronty zařadí po skenu.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Server rozdává novější soubory workera; worker je nainstaluje po aktuální úloze",
+  "Undo": "Zpět",
+  "Waiting for Plex: someone is watching this film": "Čeká na Plex: někdo tento film sleduje",
+  "Waiting for a worker; the queue runs from top to bottom": "Čeká na workera; fronta se zpracovává odshora dolů",
+  "Warnings": "Varování",
+  "Whisper installed: can make subtitles": "Whisper nainstalován: umí vytvářet titulky",
+  "Would save less than the minimum saving": "Ušetřilo by méně než minimální úsporu",
+  "expires today": "vyprší dnes",
+  "expires within a day": "vyprší do jednoho dne",
+  "less than a day left": "zbývá méně než den",
+  "waiting for Plex": "čeká na Plex",
+  "update pending": "čeká aktualizace",
+  "Tap to switch between original and new": "Klepnutím přepneš mezi originálem a novou verzí",
+  "Repeated": "Opakováno",
+  "Search in the current list": "Hledat v aktuálním seznamu",
+  "Clear the search, close a drawer or dialog": "Vymazat hledání, zavřít panel nebo dialog",
+  "Previous or next film on a comparison": "Předchozí nebo další film v porovnání",
+  "Open or switch the focused row, switch or header": "Otevřít nebo přepnout vybraný řádek, přepínač nebo záhlaví",
+  "This list": "Tento seznam",
+  "Nothing in the log matches this.": "V protokolu tomu nic neodpovídá.",
+  "Nothing has happened yet.": "Zatím se nic nestalo.",
+  "No worker is online, so nothing can run.": "Žádný worker není online, takže nic nemůže běžet.",
+  "There is no worker yet. Add one to get started.": "Zatím není žádný worker. Přidej ho a začni.",
+  "Open Workers": "Otevřít Workery",
+  "Some values are out of range.": "Některé hodnoty jsou mimo rozsah.",
+  "no capabilities reported": "nenahlášeny žádné schopnosti",
+  "Replaced · expires": "Nahrazeno · vyprší",
+  "Made": "Vytvořeno",
+  "Make": "Vytvořit",
+  "lots of motion": "hodně pohybu",
+  "dark scene": "tmavá scéna",
+  "a quarter in": "ve čtvrtině",
+  "three quarters in": "ve třech čtvrtinách",
+  "Encoded": "Zakódováno",
+  "Finished": "Dokončeno",
+  "later": "později",
+  "Leave": "Odejít",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Porovnání vezme 4 snímky z originálu a nové verze (celkem asi 1–2 MB). Lze ho vytvořit, dokud je originál ještě v karanténě, a zůstane, dokud ho nesmažeš – i poté, co originál zmizí.",
+  "Retry on CPU": "Zkusit znovu na CPU",
+  "Scan": "Skenování"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1start$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Teď: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan našel $1 videí ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · nejhorších 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "nejhorších 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Nové ($1 dní)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Plán: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Nahrazení selhalo ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} selhalo{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Skenování dokončeno: $1 videí, $2 nových, $3 změněných, $4 zmizelých; přidáno $5 úloh kódování a $6 úloh titulků"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Skenování dokončeno: $1 videí, $2 nových, $3 změněných, $4 zmizelých, $5 v přeskočených složkách; přidáno $6 úloh kódování a $7 úloh titulků"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Překódovat $1 film(ů) podle aktuálních pravidel? Originály budou obnoveny a filmy dostanou ve frontě přednost."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 film(ů) zpět ve frontě{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 originál(ů) obnoveno a znovu zařazeno do fronty (aktuální pravidla)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Nové: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Nahrazeno: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray převedeno: $1 ($2 GB); složka disku je v karanténě"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Originál obnoven: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 zahájil {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 úloh (ze všech $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Výběr přidělen - kódování automaticky pozastaveno"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Výběr přidělen - titulky automaticky pozastaveny"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Nastavení změněno: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Úloha $1, chyba: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Úloha $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 offline: $2 úloh zpět ve frontě"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 restartován: $2 přerušených úloh zpět ve frontě"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 aktualizován na $2: $3 neúspěšných úloh zpět ve frontě"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 odebrán"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: kódování {t:$2}, titulky {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Plánování aktualizováno: přidáno $1 úloh kódování a $2 úloh titulků"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 úloh ručně zařazeno do fronty"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 úloh: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "Smazáno porovnání: $1"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Odhlášeno z $1 jiných relací"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Přihlášení záchranným kódem (zbývá $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Originály se uchovávají nejvýše $1 dní a dohromady nikdy víc než $2. Nejstarší jdou první. Obnovení smaže novou verzi."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - kliknutím odstraníte"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "Bude převedeno složek: $1 · worker začne do půl minuty"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 zvuk · $2 titulky"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Smazat porovnání ($1)? Samotné filmy zůstanou beze změny."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Snímek $1 · v čase $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Snímek $1 · v čase $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB jako jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Doba kódování $1 min · měřeno na 8 úsecích, poté ověřeno na celém filmu."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Nyní k dispozici: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "nejhorších 5% $1 · norma $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "časování $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Vytvoření snímků selhalo: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "výběr · další"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "výběr · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Teď:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· pak ještě $1 z výběru"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "odhad · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 dokončeno dříve · zobrazit"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 přidáno do výběru · worker začne během pár sekund"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Výběr {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "vytvořeno: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · o $3% menší$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "právě teď"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "před $1 min"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "před $1 h"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "před $1 dny"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "viděno {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 d $2 h"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 h $2 m"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 videí"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "karanténa $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 za 24 h"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 úspora"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB úspora"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "O $1% menší u zpracovaných souborů"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 online"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "Ještě $1 ke spuštění, pak pauza"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 položek · stránka $2 z $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "Vybráno: $1"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Vybrat všech $1 výsledků"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Skenování: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× zkoušeno"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 min"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Aktivní · zbývá záchranných kódů: $1"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "Aktivních relací: $1, včetně této."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 aktualizováno{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "Odhlášeno jiných relací: $1"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Zpracovat jen těchto $1? Dostanou přednost, zpracování se obnoví a poté se znovu automaticky pozastaví."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Přeskočit úlohy ($1)?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Obnovit originály ($1)? Nové verze budou smazány."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Odebrat workera $1 ze seznamu? Pokud se znovu připojí, automaticky se objeví."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "běží $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 zbývá"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "do $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "pracuje na"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex připojen (verze $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex neodpovídá správně: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "chyba: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "nahrazení selhalo: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "neplatná hodnota pro $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 musí být mezi $2 a $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · nejhorších 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 h"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU nedokázalo udržet kvalitu - ve frontě pro kodér CPU (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Úklid stagingu: odstraněn zbytek $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 na stránku"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 workerů online"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · přidání workera, klíč workeru a stažení najdete na stránce Workery."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · začne za ~{t:$2} · odhad"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · odhad"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "zbývá $1 dní"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "vyprší za $1 dní"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Vytvořeno · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Lze vytvořit · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · krok $1 z $2 · zbývá ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · krok $1 z $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · zbývá ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "Vyžádáno porovnání: $1 · hotovo během několika minut"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Vytvořit porovnání ($1)? Asi 1–2 MB každé."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Opakováno $1×"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "mezi $1 a $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 úloh"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Chyba v $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "Vyžádáno porovnání: $1"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Porovnání uklizena: odstraněno $1 (přes $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Složka karantény přejmenována na quarantine (aktualizováno záznamů: $1)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 odebrán: $2 úloh zpět ve frontě"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Karanténa: $1 už existuje, $2 ponecháno na místě"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Složka karantény přejmenována na quarantine; aktualizováno záznamů: $1, ale $2 ještě není prázdná"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Přejmenování složky karantény selhalo (je sdílení médií připojeno?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "nová verze chybí ve stagingu"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "nový .mkv chybí ve stagingu"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "originál zmizel"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "originál se mezitím změnil"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "originál už není dostupný"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "kontrola na NAS zamítnuta (délka/stopy)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray převedeno na mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "nový pokus po aktualizaci workeru"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "přeskočeno tebou"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "cílový soubor už existuje"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker offline - znovu naplánováno"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker odebrán - znovu naplánováno"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker restartován - znovu naplánováno"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "nahrazení selhalo: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "v novém mkv chybí Dolby Vision"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: nepřekódováno (vrstva DV by se ztratila)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "stream nelze zkopírovat do .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg $1 minut nepokročil (sdílení nedostupné?) - zastaveno"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "Chybí $1 z $2 souborů najednou - sdílení nedostupné? Nic nebylo označeno jako zmizelé"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "překlad selhal: žádná použitelná odpověď pro $1 řádek/řádků po opakovaných pokusech"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: chyba serveru"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - stáhni model (ollama pull <model>) nebo oprav ollama_model ve worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama není dostupná na $1 ($2) - spusť Ollama nebo zkontroluj ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama nedostupná: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama selhávala $2 minut"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 trvalo déle než hodinu - je sdílení médií stále dostupné?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 chybí; nainstaluj ho $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF celého filmu $1 není věrohodný při žádné metodě párování (vzorky $2); nízko v $3. Originál ponechán; zkontroluj tam zdroj"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: soubor nelze přečíst"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: selhalo"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "na PC není dost volného místa pro tento film ($1 GB potřeba v $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "nedostatek místa v pracovní složce: volných $1 GB, potřeba ~$2 GB"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "s minimálním datovým tokem nejvýše o $1% menší"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "extrahuji metadata z rozšiřující vrstvy"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "stažený soubor nesouhlasí (sha256) - nepoužit"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "kontrola: délka nebo počet streamů se liší"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "nový mkv je příliš krátký ($1 z $2 min)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 z $2 hotovo, čeká na workera"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "převod Dolby Vision na profile 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "vkládám metadata do základní vrstvy"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "kontrola VMAF (druhé měření)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "žádné nastavení nesplňuje cíl kvality"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "dosažen limit stahování - zbytek později"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "dosažen denní limit OpenSubtitles"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "částečně; zbytek po limitu stahování"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 nenalezen po stažení"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: zjištěn mluvený jazyk"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (přeloženo z $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "čeká na volné místo na PC"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "soubor titulků je neobvykle velký"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "měření autotestu je nespolehlivé"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "pokus o překlad $1 selhal"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "čeká: přehrává se v Plexu"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "očekáváno jen o $1% menší"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "stahuji $1 (jednorázově)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "kontrola celého filmu pod cílem"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "nelze získat snímek v $1 s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "celý film těsně pod cílem"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "hledání filmu na disku"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "cíl kvality nelze dosáhnout"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "kontrolní měření je nespolehlivé"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "neplatná cesta ze serveru"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "znovu: minimální úspora nyní 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper běží na GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "na DVD nebyly nalezeny žádné tituly"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "podezřelá cesta v archivu"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "čeká: Plex nedostupný"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "pracuje na $1 z $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles nedostupné"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (přepis)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "kontrola VMAF celého filmu"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "hotovo, čeká na nahrazení"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "stará složka do karantény"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "kontrola VMAF $1 příliš nízko"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "čtení disku (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "přeloženo z angličtiny"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "hotovo ($1 z $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "extrakce zvuku selhala"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "přepínám na CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "přihlášeno k OpenSubtitles"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (z profilu 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "čeká se na workera"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "podezřelá cesta v zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "vložené EN nečitelné"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "zatím nejdelší: titul"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "časování nesedí"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "jen o $1% menší"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "segment $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "ponechávám originál"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "dnes zbývá stažení"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "titul $1 zkontrolován"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "čeká na nahrazení"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "kopírování na NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "ponechá originál"
+  ],
+  [
+   "translation failed",
+   "g",
+   "překlad selhal"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "server nedostupný"
+  ],
+  [
+   "searching quality",
+   "g",
+   "hledání kvality"
+  ],
+  [
+   "making references",
+   "g",
+   "vytváření referencí"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "převod na mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "titulky zastaveny"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "kopírování NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "kopírování PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "hledání filmu"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "slučování do mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "nejdelší playlist"
+  ],
+  [
+   "timing reference",
+   "g",
+   "reference časování"
+  ],
+  [
+   "speech segments",
+   "g",
+   "úseky řeči"
+  ],
+  [
+   "too little gain",
+   "g",
+   "příliš malá úspora"
+  ],
+  [
+   " not applicable",
+   "g",
+   " nelze použít"
+  ],
+  [
+   "download failed",
+   "g",
+   "stahování selhalo"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "po ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "překlad do"
+  ],
+  [
+   "next candidate",
+   "g",
+   "další kandidát"
+  ],
+  [
+   "after shifting",
+   "g",
+   "po posunutí"
+  ],
+  [
+   "reading audio",
+   "g",
+   "čtení zvuku"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Výběr · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 čeká"
+  ],
+  [
+   "search failed",
+   "g",
+   "hledání selhalo"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "překódování"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "titul $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " chyb(a)"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 hotovo"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "titulky:"
+  ],
+  [
+   "replacing",
+   "g",
+   "nahrazování"
+  ],
+  [
+   "subtitles",
+   "g",
+   "titulky"
+  ],
+  [
+   "candidate",
+   "g",
+   "kandidát"
+  ],
+  [
+   "encoding:",
+   "g",
+   "kódování:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "start"
+  ],
+  [
+   "encoding",
+   "g",
+   "kódování"
+  ],
+  [
+   "checking",
+   "g",
+   "kontrola"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", do "
+  ],
+  [
+   "present",
+   "g",
+   "k dispozici"
+  ],
+  [
+   "missing",
+   "g",
+   "chybí"
+  ],
+  [
+   "speed",
+   "g",
+   "rychlost"
+  ],
+  [
+   "saved",
+   "g",
+   "uloženo"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU nedokázalo udržet kvalitu - ve frontě pro kodér CPU (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Úklid stagingu: odstraněn zbytek"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "složka s médii je prázdná nebo nepřipojená - nic se nezměnilo"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "udržení kvality by vyžadovalo vyšší bitrate, než má zdroj"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "vyžaduje vyšší bitrate než zdroj"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker se restartuje kvůli aktualizaci"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "žádná video stopa (jen obal?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "žádná zvuková stopa k přepisu"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "na PC není dost volného místa pro tento film"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "nový pokus na CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "procházím složky"
+  ],
+  [
+   "analysing files",
+   "g",
+   "analyzuji soubory"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "plánuji úlohy"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "Kódování na CPU zap."
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "Kódování na CPU vyp."
+  ]
+ ]
+}

@@ -1,0 +1,2060 @@
+{
+ "name": "Kurdî (Kurmancî)",
+ "s": {
+  "Re-encode from original": "Ji orîjînalê ji nû ve encode bike",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Bi rêzikên niha ji nû ve encode bike? Orîjînal tê vegerandin û fîlm pêşanî digire.",
+  "Back in the queue": "Dîsa di rêzê de",
+  "Restore originals": "Orîjînalan vegerîne",
+  "Minimum bitrate (1080p)": "Bitrateya kêmtirîn (1080p)",
+  "Extra floor (share of the source)": "Sînorê jêrîn ê zêde (para çavkaniyê)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Vebijarkî: herwiha bi kêmanî ev para bitrateya vîdyoyê ya orîjînal biparêze. Tenê ji bo çavkaniyên bi bitrateya pir bilind bikêr e. 0 = girtî.",
+  "with the minimum bitrate at most": "bi bitrateya kêmtirîn herî zêde",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Pelê nû qet ji vê kêmtir nabe, heta ku VMAF qebûl bike jî. Rezolûsyonên din bi rêjeyê: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · anîmasyon ×0.6.",
+  "bitrate already near the minimum": "bitrate jixwe nêzî kêmtirîn e",
+  "MFA reset from settings - set it up again": "MFA ji mîhengan hate sifirkirin - dîsa saz bike",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA bi MFA_RESET hate sifirkirin - MFA_RESET dîsa ji mîhengên konteynerê rake",
+  "MFA enabled": "MFA çalak bû",
+  "MediaScan started": "MediaScan dest pê kir",
+  "New recovery codes created": "Kodên vegerandinê yên nû hatin çêkirin",
+  "Password changed; other sessions signed out": "Şîfre hate guhertin; danişînên din hatin derxistin",
+  "Password set (first time)": "Şîfre hate danîn (cara yekem)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Bala xwe bidê: ADMIN_PASSWORD ji 10 tîpan kurttir e - di Mîhengan de şîfreyeke xurttir hilbijêre",
+  "part of a DVD/Blu-ray folder": "beşek ji peldankeke DVD/Blu-ray",
+  "folder is in Skip folders": "peldank di Skip folders de ye",
+  "file disappeared": "pel winda bû",
+  "worker restarted - rescheduled": "worker ji nû ve dest pê kir - dîsa hate plankirin",
+  "worker offline - rescheduled": "worker negirêdayî ye - dîsa hate plankirin",
+  "retry after worker update": "dîsa piştî nûkirina worker",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray bû mkv",
+  "skipped by you": "ji aliyê te ve hate derbaskirin",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Guhertin li bendê dimîne dema fîlmek tê temaşekirin, û Plex piştî her guhertinê nû dibe.",
+  "Confirm with your password and a code from your app.": "Bi şîfreya xwe û kodeke ji sepana xwe piştrast bike.",
+  "Your old recovery codes will stop working.": "Kodên te yên vegerandinê yên kevn dê nexebitin.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Girêdana te ya authenticator û kodên vegerandinê dê nexebitin. Paşê tu yekser MFA dîsa saz dikî.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Ji bo dashboardê şîfreyekê hilbijêre. Koda sazkirinê di qeyda konteynerê de ye (Container Manager › mediascan › Log, an",
+  "- click to remove": "- ji bo rakirinê bitikîne",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Navnîşana nederbasdar, mînak http://192.168.1.10:32400",
+  "Enter a Plex token": "Tokena Plex binivîse",
+  "A password has already been set": "Şîfre jixwe hatiye danîn",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Kilît di WORKER_TOKEN de sabît e (hawirdora konteynerê)",
+  "selection still running - pause or wait until it is done": "hilbijartin hê didome - rawestîne an li bendê bimîne heta biqede",
+  "Now running": "Niha dixebite",
+  "Finding the film on the disc": "Lêgerîna fîlmê li ser dîskê",
+  "Converting to one .mkv": "Veguhertin bo yek .mkv",
+  "Checking (duration, tracks)": "Kontrol (dirêjahî, rêç)",
+  "Copying to the NAS": "Kopîkirin bo NAS",
+  "Old folder to quarantine": "Peldanka kevn bo karantînayê",
+  "worker has not reported for a while": "worker demek e xwe nade nasîn",
+  "waiting for the worker": "li benda worker",
+  "Welcome to MediaScan": "Bi xêr hatî MediaScan",
+  "Setup code": "Koda sazkirinê",
+  "New password (at least 10 characters)": "Şîfreya nû (bi kêmanî 10 tîp)",
+  "Repeat password": "Şîfreyê dubare bike",
+  "Set password": "Şîfreyê deyne",
+  "The passwords do not match": "Şîfre li hev nayên",
+  "Setup code is wrong - check the container log": "Koda sazkirinê şaş e - li qeyda konteynerê binêre",
+  "Choose a password of at least 10 characters": "Şîfreyeke bi kêmanî 10 tîpan hilbijêre",
+  "Animation folders": "Peldankên anîmasyonê",
+  "Top-level folders with animation: these may use a lower bitrate.": "Peldankên sereke yên bi anîmasyon: ev dikarin bitrateya kêmtir bikar bînin.",
+  "Where do I find the token?": "Ez tokenê li ku bibînim?",
+  "Connect": "Girêde",
+  "Disconnect": "Girêdanê qut bike",
+  "Connected": "Girêdayî",
+  "Not connected": "Ne girêdayî",
+  "+ Add language": "+ Ziman lê zêde bike",
+  "Renew": "Nû bike",
+  "Worker version": "Guhertoya worker",
+  "Password": "Şîfre",
+  "Other sessions are signed out after a change.": "Piştî guhertinê danişînên din tên derxistin.",
+  "Change password": "Şîfreyê biguherîne",
+  "Other sessions will be signed out.": "Danişînên din dê bên derxistin.",
+  "Change": "Biguherîne",
+  "New worker key": "Kilîta worker a nû",
+  "Create new key": "Kilîta nû çêke",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Hemû worker radiwestin heta ku tu kilîta nû binivîsî (sazkerê dîsa bixebitîne an worker.ini biguherîne).",
+  "Repeat new password": "Şîfreya nû dubare bike",
+  "Password changed": "Şîfre hate guhertin",
+  "New worker key created": "Kilîta worker a nû hate çêkirin",
+  "Disconnect Plex?": "Girêdana Plex qut bike?",
+  "Plex disconnected": "Girêdana Plex hate qutkirin",
+  "Plex connected": "Plex hate girêdan",
+  "Incorrect password": "Şîfre şaş e",
+  "Incorrect code": "Kod şaş e",
+  "Incorrect code from your authenticator app": "Koda ji sepana authenticator şaş e",
+  "Too many attempts - try again in 15 minutes": "Gelek hewldan - piştî 15 deqeyan dîsa biceribîne",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Peldankên bi VIDEO_TS an BDMV. Veguhertin wan dike yek .mkv bi hemû vîdyo, deng, binnivîs û beşan.",
+  "Convert to MKV": "Veguherîne MKV",
+  "Folder": "Peldank",
+  "Type": "Cure",
+  "found": "hate dîtin",
+  "queued": "di rêzê de",
+  "converting…": "tê veguhertin…",
+  "converted": "hate veguhertin",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Veguhertin her tiştî 1:1 kopî dike nav yek .mkv: vîdyo (HDR jî), hemû rêçên deng, binnivîs û beş. Ji bo DVD sernavê herî dirêj (fîlm) hildibijêre. Peldanka kevn diçe karantînayê, ji ber vê tu dikarî wê vegerînî. Paşê .mkv di encodkirin û binnivîsên asayî re derbas dibe. Blu-rayên bi Dolby Vision dibin Dolby Vision profîla 8.1 (qata bingehîn 1:1, metadata DV lê zêde dibe): Plex û TVya te wê wekî Dolby Vision dilîzin, lîstikvanên din wekî HDR10. Fîlmek wiha paşê ji nû ve nayê encodkirin, ji ber ku wê demê Dolby Vision winda dibe.",
+  "Compare": "Berhev bike",
+  "Delete comparison": "Berhevdanê jê bibe",
+  "Comparison deleted": "Berhevdan hate jêbirin",
+  "comparison": "berhevdan",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Orîjînal li tenişta guhertoya nû: mezinahî, kalîte, wêne û binnivîs. Tu bixwe fîlman hildibijêrî.",
+  "Original → new": "Orîjînal → nû",
+  "Quality (VMAF)": "Kalîte (VMAF)",
+  "Comparison": "Berhevdan",
+  "View": "Binêre",
+  "Make comparison": "Berhevdanê çêke",
+  "previous attempt failed": "hewldana berê têk çû",
+  "Back": "Vegere",
+  "Make again": "Dîsa çêke",
+  "New": "Nû",
+  "VMAF whole film": "VMAF tevahiya fîlmê",
+  "Making the frames… this usually takes less than a minute.": "Wêne tên çêkirin… ev bi gelemperî ji deqeyekê kêmtir dikişîne.",
+  "There is no picture comparison for this film yet.": "Ji bo vî fîlmî hê berhevdana wêneyan tune.",
+  "Picture · drag across the image": "Wêne · li ser wêneyê bikişîne",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "Ji bo vê dîtinê HDR bû SDR; li ser TVya xwe tu wê bi HDR dibînî.",
+  "How the setting was chosen": "Mîheng çawa hate hilbijartin",
+  "Step": "Gav",
+  "Weakest 5%": "5%ê herî qels",
+  "Bitrate": "Bitrate",
+  "chosen": "hate hilbijartin",
+  "No data.": "Dane tune.",
+  "Nothing needed, all languages were present.": "Tiştek ne pêwîst e, hemû ziman hebûn.",
+  "Not processed yet.": "Hê nehatiye pêvajokirin.",
+  "Comparison requested · ready within a minute": "Berhevdan hate xwestin · di deqeyekê de amade ye",
+  "Delete this comparison? The film itself stays as it is.": "Vê berhevdanê jê bibe? Fîlm bixwe wekî xwe dimîne.",
+  "Not possible": "Nabe",
+  "Slide between original and new": "Di navbera orîjînal û nû de bişemitîne",
+  "Overview": "Nihêrîn",
+  "Queue": "Rêz",
+  "In progress": "Di pêvajoyê de",
+  "No gain": "Bê qezenc",
+  "Failed": "Têk çû",
+  "Subtitles": "Binnivîs",
+  "Recently added": "Nû hatine zêdekirin",
+  "Library": "Pirtûkxane",
+  "Quarantine": "Karantîna",
+  "Workers": "Worker",
+  "Activity": "Çalakî",
+  "Settings": "Mîheng",
+  "Encoding": "Encodkirin",
+  "System": "Pergal",
+  "Status of the entire library.": "Rewşa tevahiya pirtûkxaneyê.",
+  "Selection": "Hilbijartin",
+  "waiting for worker": "li benda worker",
+  "In the selection": "Di hilbijartinê de",
+  "selection": "hilbijartin",
+  "Selection · encoding": "Hilbijartin · encodkirin",
+  "Selection · subtitles": "Hilbijartin · binnivîs",
+  "Close list": "Lîsteyê bigire",
+  "waiting": "li bendê",
+  "nothing needed": "ne pêwîst",
+  "original kept": "orîjînal ma",
+  "Find, sync or generate missing subtitles.": "Binnivîsên kêm bibîne, hevdem bike an çêke.",
+  "All videos with their current plan. You can also queue items manually here.": "Hemû vîdyo bi plana xwe ya niha. Tu dikarî li vir bi destan jî tiştan têxî rêzê.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Makîneyên ku kar dikin. Ji bo her worker hilbijêre ka çi dikare bike.",
+  "Log of everything that happens.": "Qeyda her tiştê ku diqewime.",
+  "Scan now": "Niha venêre",
+  "Saved": "Teserûf",
+  "Free on NAS": "Vala li ser NAS",
+  "Progress": "Pêşketin",
+  "Saved per day": "Teserûf rojane",
+  "last 14 days": "14 rojên dawî",
+  "Per folder": "Li gor peldankê",
+  "all": "hemû",
+  "nothing processed yet": "hê tiştek nehatiye pêvajokirin",
+  "no measurement yet": "hê pîvan tune",
+  "No processed files yet": "Hê pelên pêvajokirî tune",
+  "No worker connected yet": "Hê worker nehatiye girêdan",
+  "no worker": "worker tune",
+  "worker offline": "worker negirêdayî",
+  "online": "serhêl",
+  "disabled": "girtî",
+  "encoding": "encodkirin",
+  "subtitles": "binnivîs",
+  "Search by name or folder…": "Li gor nav an peldankê bigere…",
+  "Several titles at once: separate them with |": "Çend sernav bi carekê: bi | wan veqetîne",
+  "Nothing to show": "Tiştek ji bo nîşandanê tune",
+  "File": "Pel",
+  "Source": "Çavkanî",
+  "Status": "Rewş",
+  "Result": "Encam",
+  "Languages": "Ziman",
+  "Error": "Çewtî",
+  "When": "Kengî",
+  "Plan": "Plan",
+  "Added": "Hate zêdekirin",
+  "Original": "Orîjînal",
+  "Size": "Mezinahî",
+  "Replaced": "Hate guhertin",
+  "estimate": "texmîn",
+  "Name": "Nav",
+  "Done": "Qediya",
+  "Nothing found": "Tiştek nehate dîtin",
+  "Process only these": "Tenê van pêvajo bike",
+  "Prioritise": "Pêşanî bide",
+  "Skip": "Derbas bike",
+  "Retry": "Dîsa biceribîne",
+  "Clear": "Paqij bike",
+  "Both": "Herdu",
+  "Restore original": "Orîjînalê vegerîne",
+  "Find subtitles": "Binnivîsan bibîne",
+  "running": "dixebite",
+  "done": "qediya",
+  "failed": "têk çû",
+  "replacing": "tê guhertin",
+  "no gain": "bê qezenc",
+  "skipped": "hate derbaskirin",
+  "restored": "hate vegerandin",
+  "cancelled": "hate betalkirin",
+  "nothing found": "tiştek nehate dîtin",
+  "encode": "encode",
+  "already efficient": "jixwe karîger",
+  "small gain": "qezenca biçûk",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "çewtî",
+  "unknown": "nenas",
+  "All": "Hemû",
+  "Already efficient": "Jixwe karîger",
+  "Small gain": "Qezenca biçûk",
+  "Restored": "Hate vegerandin",
+  "Video": "Vîdyo",
+  "Duration": "Dirêjahî",
+  "Audio": "Deng",
+  "Encode": "Encode",
+  "Quality": "Kalîte",
+  "Encode time": "Dema encodkirinê",
+  "Message": "Peyam",
+  "Started": "Dest pê kir",
+  "Search": "Lêgerîn",
+  "weakest 5%": "5%ê herî qels",
+  "video": "vîdyo",
+  "Worker": "Worker",
+  "Hardware": "Hardware",
+  "Resolution": "Rezolûsyon",
+  "Working on": "Li ser dixebite",
+  "nothing": "tiştek",
+  "up to 4K": "heta 4K",
+  "up to 1080p": "heta 1080p",
+  "up to 720p": "heta 720p",
+  "up to SD": "heta SD",
+  "Remove": "Rake",
+  "Add worker": "Worker lê zêde bike",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Her worker bixwe dibêje ka çi dikare bike (encoder hate dîtin, Whisper sazkirî ye). Li vir tu biryar didî ka çi dikare bike. Guhertin ji karê din ve derbas dibin; karê didome pêşî diqede.",
+  "This machine lacks the hardware or software for this": "Hardware an nermalava vê makîneyê ji bo vê tune",
+  "Quality level": "Asta kalîteyê",
+  "Standard": "Standard",
+  "High": "Bilind",
+  "Maximum": "Herî zêde",
+  "Custom": "Taybet",
+  "Custom target": "Armanca taybet",
+  "Average VMAF and the weakest 5% of frames.": "VMAF a navîn û 5%ê herî qels ê wêneyan.",
+  "avg.": "nav.",
+  "Minimum saving": "Teserûfa kêmtirîn",
+  "If a file saves less, the original is kept.": "Heke pelek kêmtir teserûf bike, orîjînal dimîne.",
+  "Processing": "Pêvajo",
+  "Storage & safety": "Hilanîn & ewlehî",
+  "How long replaced originals can be restored.": "Orîjînalên guhertî çiqas dem dikarin bên vegerandin.",
+  "days": "roj",
+  "Above this, the oldest originals are deleted permanently.": "Ji vê zêdetir, orîjînalên herî kevn bi temamî tên jêbirin.",
+  "Safety brake": "Frena ewlehiyê",
+  "Encoding pauses when the NAS has less free space than this.": "Encodkirin radiweste dema cihê vala yê NAS ji vê kêmtir be.",
+  "Scanning": "Venêrîn",
+  "Automatic scan": "Venêrîna bixweber",
+  "New files are queued automatically.": "Pelên nû bixweber dikevin rêzê.",
+  "Off": "Girtî",
+  "Every hour": "Her saet",
+  "Every 6 hours": "Her 6 saetan",
+  "Every 12 hours": "Her 12 saetan",
+  "Daily": "Rojane",
+  "Skip folders": "Peldankên derbaskirî",
+  "Comma-separated folder names.": "Navên peldankan bi bêhnok veqetandî.",
+  "Plex": "Plex",
+  "Dashboard address": "Navnîşana dashboardê",
+  "Use the IP address of the NAS, not localhost.": "Navnîşana IP ya NAS bikar bîne, ne localhost.",
+  "Worker key": "Kilîta worker",
+  "Keep secret: with this key a worker can fetch jobs.": "Veşartî bihêle: bi vê kilîtê worker dikare karan bigire.",
+  "Show": "Nîşan bide",
+  "Copy": "Kopî bike",
+  "Minimum requirements": "Pêdiviyên kêmtirîn",
+  "Account & security": "Hesab & ewlehî",
+  "Two-factor authentication": "Piştrastkirina du-gavî",
+  "Not active": "Ne çalak",
+  "New recovery codes": "Kodên vegerandinê yên nû",
+  "Reset MFA": "MFA ji nû ve saz bike",
+  "Sessions": "Danişîn",
+  "Sign out everywhere else": "Li hemû cihên din derkeve",
+  "Sign out": "Derkeve",
+  "You have unsaved changes.": "Guhertinên te yên netomarkirî hene.",
+  "Cancel": "Betal bike",
+  "Save": "Tomar bike",
+  "Language": "Ziman",
+  "Theme": "Tema",
+  "Light": "Ronî",
+  "Dark": "Tarî",
+  "Auto": "Otomatîk",
+  "Dashboard language.": "Zimanê dashboardê.",
+  "Auto follows your system setting.": "Otomatîk mîhenga pergala te dişopîne.",
+  "Reset": "Ji nû ve saz bike",
+  "Create new codes": "Kodên nû çêke",
+  "Close": "Bigire",
+  "Code from your authenticator app": "Koda ji sepana authenticator",
+  "Sign in": "Têkeve",
+  "Activate": "Çalak bike",
+  "Set up two-factor authentication": "Piştrastkirina du-gavî saz bike",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Koda QR bi sepana authenticator venêre û koda 6-reqemî binivîse.",
+  "Manual:": "Bi destan:",
+  "6-digit code": "Koda 6-reqemî",
+  "123456 or recovery code": "123456 an koda vegerandinê",
+  "Save your recovery codes": "Kodên xwe yên vegerandinê tomar bike",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Telefona te winda bû? Bi her yek ji van kodan tu carekê dikarî têkevî. Ew tenê carekê tên nîşandan.",
+  "I have saved them": "Min ew tomar kirin",
+  "Save them now, they are shown only once.": "Niha wan tomar bike, ew tenê carekê tên nîşandan.",
+  "Server not responding": "Server bersiv nade",
+  "Sign-in failed": "Têketin têk çû",
+  "Code is incorrect": "Kod şaş e",
+  "Code is incorrect - check the time on your phone": "Kod şaş e - demjimêra telefona xwe kontrol bike",
+  "Scan started": "Venêrîn dest pê kir",
+  "scan already running": "venêrîn jixwe didome",
+  "Copied": "Hate kopîkirin",
+  "Resumed": "Dewam kir",
+  "Paused: a running job will finish first": "Rawestiya: karê didome pêşî diqede",
+  "Added to the queue": "Kete rêzê",
+  "Not applicable": "Ne têkildar e",
+  "At least one language": "Bi kêmanî yek ziman",
+  "Skip this job?": "Vî karî derbas bike?",
+  "Restore the original? The new version will be deleted.": "Orîjînalê vegerîne? Guhertoya nû dê bê jêbirin.",
+  "on": "vekirî",
+  "off": "girtî",
+  "Quarantine cleanup": "Paqijkirina karantînayê",
+  "Background task": "Karê paşxaneyê",
+  "Planning at startup": "Plankirin di destpêkê de",
+  "Welcome": "Bi xêr hatî",
+  "Next": "Pêş",
+  "Previous": "Paş",
+  "Next (or skip)": "Pêş (an derbas bike)",
+  "Done, go to the overview": "Qediya, here nihêrînê",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan fîlm û rêzefîlmên te piçûktir dike bêyî ku cudahî xuya bibe, û binnivîsên kêm temam dike. Orîjînal tenê piştî kontrola kalîteyê tên guhertin, û pêşî demekê di karantînayê de dimînin.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Bi şeş gavên kurt her tişt saz dibe. Tu dikarî paşê her tiştî di Mîhengan de biguherînî.",
+  "Your library": "Pirtûkxaneya te",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan niha di peldanka te ya medyayê de li vîdyoyan digere. Bi pirtûkxaneyeke mezin venêrîna yekem demekê dikişîne; tu dikarî bi rehetî berdewam bikî.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Peldankên ku MediaScan qet dest nade wan, bi bêhnok veqetandî (mînak Music, Downloads).",
+  "Scan again": "Dîsa venêre",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Zimanên ku divê her pel hebin hilbijêre. MediaScan yên kêm li OpenSubtitles digere. Heke ew neyê, worker binnivîsê bixwe çêdike (naskirina axaftinê û wergerandin li ser PCya te bixwe).",
+  "Click a language to remove it.": "Ji bo rakirinê li zimanekî bitikîne.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Her fîlm bi VMAF tê pîvandin, pîvanek ji bo ka wêne ji çavê mirov re çawa xuya dike. \"Bilind\" ji bo hema her kesî ji orîjînalê nayê cudakirin.",
+  "Higher = better picture, less space saved.": "Bilindtir = wêneyê çêtir, kêmtir cih tê teserûfkirin.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Torek ewlehiyê ji bo dendik û dîmenên tarî. 5 Mbps standardeke baş e; 4K û rezolûsyonên din bi rêjeyê tên guhertin.",
+  "Plex (optional)": "Plex (vebijarkî)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Bi Plex girêdayî, MediaScan li bendê dimîne ku fîlmekê biguherîne dema kesek wê temaşe dike, û piştî her guhertinê Plex nû dike. Plex tune? Vê gavê bi rehetî derbas bike.",
+  "Plex address and token": "Navnîşan û tokena Plex",
+  "Plex token": "Tokena Plex",
+  "token (unchanged)": "token (neguhertî)",
+  "Add a worker": "Workerekî lê zêde bike",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Karê giran li ser PC an Macekê bi karta grafîkê ya baş tê kirin: worker. Wê niha saz bike, an paşê bi rêya Worker. Heta ku worker tune be, tiştek bi pelên te nayê kirin.",
+  "✓ A worker is connected.": "✓ Workerek girêdayî ye.",
+  "Done! MediaScan is set up.": "Qediya! MediaScan hate sazkirin.",
+  "Connect the media share on the new machine.": "Parvekirina medyayê li ser makîneya nû girêde.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: tîpa ajokerê an \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: rêberiya di pakêtê de bibîne.",
+  "Download the package for that system and unpack it.": "Pakêta ji bo wê pergalê daxe û veke.",
+  "Run the installer.": "Sazkerê bixebitîne.",
+  "The installer asks for the details below and tests the connection.": "Sazker agahiyên li jêr dipirse û girêdanê diceribîne.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 an nûtir, Intel Arc an iGPU nifşa 11+, AMD RX 6000+ · 4 core · 8 GB · 100 GB vala · tora bi kablo. Binnivîs: NVIDIA bi 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (binnivîs: 24 GB+) · 150 GB vala · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Worker xwe nû dikin dema vê dashboardê guhertoyeke nû hebe.",
+  "What the workers are doing now and what is planned next.": "Worker niha çi dikin û paşê çi hatiye plankirin.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Pelan bêyî windabûna kalîteyê ya xuya piçûktir bike. Worker rêzê ji jor ber bi jêr ve dimeşîne.",
+  "select page": "rûpelê hilbijêre",
+  "select": "hilbijêre",
+  "to encode": "ji bo encodkirinê",
+  "Movie": "Fîlm",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Orîjînalên guhertî, demekê tên parastin da ku tu wan vegerînî an dîsa encode bikî.",
+  "How MediaScan works: quality, subtitles, storage and security.": "MediaScan çawa dixebite: kalîte, binnivîs, hilanîn û ewlehî.",
+  "General": "Giştî",
+  "Advanced": "Pêşketî",
+  "Connection": "Girêdan",
+  "Hand out new encode jobs to the workers.": "Karên encode yên nû bide worker.",
+  "Hand out new subtitle jobs to the workers.": "Karên binnivîsê yên nû bide worker.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Pîvana VMAF çiqas hişk e. Bilindtir = wêneyê çêtir, kêmtir cih tê teserûfkirin.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Her pel divê kîjan binnivîsan hebin. Yên kêm tên lêgerîn, an na tên çêkirin.",
+  "Go to Workers": "Here Worker",
+  "new": "nû",
+  "start": "destpêk",
+  "Minimum bitrate (4K)": "Bitrateya herî kêm (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Sînorê jêrîn ê taybet ji bo 4K, li şûna 2,5 × nirxa 1080p. 0 = otomatîk. HDR +15% û anîmasyon ×0,6 li vir jî derbas dibin.",
+  "Ready to use in a few steps.": "Bi çend gavan amade ye.",
+  "next": "pêş",
+  "read error": "çewtiya xwendinê",
+  "MFA is already enabled": "MFA jixwe çalak e",
+  "a .mkv with that name already exists": "pelek .mkv bi vî navî jixwe heye",
+  "a file already exists at the original location": "pelek jixwe li cihê eslî heye",
+  "action not possible in this status": "ev kirin di vê rewşê de ne mimkun e",
+  "walking folders": "peldank têne gerîn",
+  "planning jobs": "kar têne plankirin",
+  "check on the NAS rejected (duration/tracks)": "kontrola li ser NAS hate redkirin (dem/rêçik)",
+  "expected a JSON object": "objeyek JSON dihat hêvîkirin",
+  "ffprobe error": "çewtiya ffprobe",
+  "invalid resolution": "çareserî ne derbasdar e",
+  "invalid worker token": "nîşana worker ne derbasdar e",
+  "job belongs to another worker": "kar ya worker-ekî din e",
+  "job is no longer active": "kar êdî çalak nîne",
+  "no video track": "rêçika vîdyoyê tune ye",
+  "not JSON": "ne JSON e",
+  "not signed in": "têketin nehatiye kirin",
+  "original disappeared": "ya eslî winda bû",
+  "original has changed in the meantime": "ya eslî di vê navberê de hate guhertin",
+  "original is no longer in quarantine": "ya eslî êdî di karantînayê de nîne",
+  "original no longer available": "ya eslî êdî tune ye",
+  "request refused": "daxwaz hate redkirin",
+  "target file already exists": "pela armanc jixwe heye",
+  "the original has already been removed from quarantine - comparing is no longer possible": "ya eslî jixwe ji karantînayê hate rakirin - berawirdkirin êdî nabe",
+  "this film has not been replaced yet": "ev fîlm hê nehatiye guhertin",
+  "unknown action": "kiryara nenas",
+  "worker is still online": "worker hê jî online e",
+  "In use now:": "Niha tê bikaranîn:",
+  "longest": "dirêjtirîn",
+  "8.1 (from profile 7)": "8.1 (ji profîla 7)",
+  "Whisper (transcription)": "Whisper (transkrîpsiyon)",
+  "1 day ago": "1 roj berê",
+  "1 video": "1 vîdyo",
+  "Enter your password to open the dashboard.": "Ji bo vekirina panelê şîfreya xwe binivîse.",
+  "No connection to the server - retrying…": "Girêdan bi serverê re tune - dîsa tê ceribandin…",
+  "Are you sure?": "Tu piştrast î?",
+  "Restore": "Vegerîne",
+  "Re-encode": "Ji nû ve kod bike",
+  "Delete": "Jê bibe",
+  "Next up": "Yê din",
+  "in the queue": "di rêzê de",
+  "Load older entries": "Tomarên kevntir bar bike",
+  "Folder: all": "Peldank: hemû",
+  "Resolution: all": "Rêjeya wêneyê: hemû",
+  "Codec: all": "Kodek: hemû",
+  "More": "Zêdetir",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "fîlm li benda kodkerê CPU ne, lê tu worker kodkirina CPU venekiriye (rûpela Workers).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Hardware ya te, çiqas li kar tê, amûrên bikaranîn û sazkarî çawa dixebitin.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Bîr",
+  "Software": "Nermalav",
+  "GPU encoding": "Kodkirina GPU",
+  "CPU encoding (x265)": "Kodkirina CPU (x265)",
+  "Subtitles (Whisper)": "Jêrnivîs (Whisper)",
+  "Translation (Ollama)": "Werger (Ollama)",
+  "Server": "Server",
+  "Database": "Databas",
+  "Tools in use": "Amûrên bikaranîn",
+  "Knowledge base": "Bingeha zanînê",
+  "Low": "Nizm",
+  "Medium": "Navîn",
+  "Ultra": "Ultra",
+  "files": "pel",
+  "up": "çalak",
+  "of": "ji",
+  "uses": "bikar tîne",
+  "free": "vala",
+  "Media share": "Parvekirina medyayê",
+  "Rating": "Nirxandin",
+  "Hardware details appear after this worker has updated itself.": "Hûrguliyên hardware piştî ku ev worker xwe nû kir xuya dibin.",
+  "no Whisper": "Whisper tune",
+  "unified memory": "bîra yekbûyî",
+  "cores": "kakil",
+  "threads": "thread",
+  "driver": "ajokar",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Nenas",
+  "Settings saved": "Mîheng hatin tomarkirin",
+  "Time left": "Dema mayî",
+  "Queued": "Di rêzê de",
+  "Keep originals for": "Orîjînalan biparêze bo",
+  "Quarantine size limit": "Sînorê mezinahiya karantînayê",
+  "Hide finished items": "Yên qediyayî veşêre",
+  "Undo skip": "Derbaskirinê vegerîne",
+  "not supported here": "li vir nayê piştgirîkirin",
+  "CPU encoding": "Encodkirina CPU",
+  "Retry on CPU (x265)": "Li ser CPU dîsa biceribîne (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Li ser CPU bi x265 hate encodkirin (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 bi mîhenga grain li ser CPUya workerê: grain pir bikêrhatîtir diparêze, lê ji bo her fîlmekê bi saetan digire",
+  "CPU fallback for grainy films": "Vegera CPU ji bo fîlmên grainî",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Dema GPU nikare kalîteyê bêyî derbaskirina bitrateya çavkaniyê biparêze (grainê fîlmê), fîlm careke din li ser CPUya workerekê bi x265 tê encodkirin, ku grain pir bikêrhatîtir diparêze. Ji bo her fîlmekê bi saetan digire; li rûpela Workers encodkirina CPU ji bo workerekê veke.",
+  "CPU preset": "Preseta CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: nêzîkî 2 saet ji bo fîlmeke 1080p a 2 saetan li ser 8 kakilan. Slow: 2-3 car dirêjtir ji bo pelên nêzîkî 5-10% biçûktir.",
+  "Medium (faster)": "Medium (zûtir)",
+  "Slow (smaller)": "Slow (biçûktir)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Ev rûpel nehate barkirin.",
+  "up to 1440p": "heta 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "pel têne analîzkirin",
+  "No worker has CPU encodes switched on (Workers page)": "Tu worker encodkirina CPU venekiriye (rûpela Workers)",
+  "the job changed in the meantime": "kar di vê navberê de guherî",
+  "Main": "Gerîna sereke",
+  "Clear search and filters": "Lêgerîn û fîlteran paqij bike",
+  "Compact rows": "Rêzên kompakt",
+  "Encoding and subtitles are paused.": "Encodkirin û binnivîs rawestiyane.",
+  "Encoding is paused: no new encode jobs are handed out.": "Encodkirin rawestiyaye: karên encode yên nû nayên dayîn.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Binnivîs rawestiyane: karên binnivîsê yên nû nayên dayîn.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Hem navnîşana Plex hem jî token binivîse, an herduyan vala bihêle da ku derbas bibe.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Cihê vala li ser NAS di binê frena ewlehiyê de ye. Encodkirin bixweber hate rawestandin.",
+  "Loading…": "Tê barkirin…",
+  "Next film": "Fîlma pêş",
+  "Previous film": "Fîlma paş",
+  "Next page": "Rûpela pêş",
+  "Previous page": "Rûpela paş",
+  "Rows per page": "Rêz di her rûpelê de",
+  "Resume": "Dewam bike",
+  "Resume encoding": "Encodkirinê dewam bike",
+  "Resume subtitles": "Binnivîsan dewam bike",
+  "Open settings": "Mîhengan veke",
+  "Open the library": "Pirtûkxaneyê veke",
+  "Subtitle languages": "Zimanên binnivîsê",
+  "Update": "Nûve bike",
+  "No results for this search or filter.": "Ji bo vê lêgerînê an fîlterê encam tune.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Tiştek di rêzê de ji bo encodkirinê tune. Pelên nû piştî venêrînê dikevin rêzê.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Hê tu pel nehatiye guhertin. Encodkirinên qediyayî piştî kontrola kalîteyê li vir xuya dibin.",
+  "No files were kept as they are. Films that would save too little end up here.": "Tu pel wekî xwe nehatiye hiştin. Fîlmên ku pir hindik cih bidin tomar kirin li vir dikevin.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Tu binnivîs li benda nîne. Pelên ku zimanek kêm e piştî venêrînê dikevin rêzê.",
+  "No subtitle job is running right now.": "Niha tu karê binnivîsê naxebite.",
+  "No subtitles have been made yet.": "Hê tu binnivîs nehatiye çêkirin.",
+  "Nothing missing: every file got its subtitles so far.": "Tiştek kêm nîne: heta niha her pel binnivîsên xwe wergirtine.",
+  "No failed encodes.": "Encodkirinên têkçûyî tune.",
+  "No failed subtitle jobs.": "Karên binnivîsê yên têkçûyî tune.",
+  "Nothing was added in the last 14 days.": "Di 14 rojên dawî de tiştek nehatiye zêdekirin.",
+  "No videos with this plan.": "Vîdyo bi vê planê tune.",
+  "The library is being scanned; videos appear as they are found.": "Pirtûkxane tê venêrîn; vîdyo gava têne dîtin xuya dibin.",
+  "No videos found yet. Check the media folder and run a scan.": "Hê tu vîdyo nehatiye dîtin. Peldanka medyayê kontrol bike û venêrînek bide destpêkirin.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Tiştek di karantînayê de tune. Orîjînalên guhertî heta dema parastinê biqede li vir têne hilanîn.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Di pirtûkxaneyê de peldankên DVD an Blu-ray (VIDEO_TS, BDMV) nehatin dîtin.",
+  "1 worker online": "1 worker serhêl",
+  "A worker is busy with this file": "Workerek bi vê pelê re mijûl e",
+  "A worker is grabbing the frames": "Workerek wêneyan digire",
+  "A worker is searching or making subtitles": "Workerek li binnivîsan digere an çêdike",
+  "A worker picks up the next job within a few seconds.": "Workerek di nav çend çirkeyan de karê din digire.",
+  "Above this, the oldest comparisons are deleted automatically.": "Ji vê zêdetir, berhevdanên herî kevn bixweber tên jêbirin.",
+  "All replaced films": "Hemû fîlmên guhertî",
+  "Already efficient: encoding would hardly save anything": "Jixwe bikêr e: encodkirin dê hema bêje tiştek teserûf neke",
+  "Automatic comparisons": "Berhevdanên bixweber",
+  "Being made…": "Tê çêkirin…",
+  "Can be made": "Dikare bê çêkirin",
+  "Can encode on the CPU with x265": "Dikare li ser CPU bi x265 encode bike",
+  "Comparison storage limit": "Sînorê hilanîna berhevdanan",
+  "Comparisons": "Berhevdan",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: ji nû ve nehat encodekirin, tebeqeya DV dê winda bibûya",
+  "Encoding is paused.": "Encodkirin rawestiyaye.",
+  "Enlarge": "Mezin bike",
+  "Errors": "Çewtî",
+  "Flip": "Biguherîne",
+  "Four frames of the original and the new version are stored": "Çar wêneyên orîjînal û guhertoya nû hatine hilanîn",
+  "Full width": "Firehiya tam",
+  "GPU encoder found": "Encodera GPU hat dîtin",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Ji her fîlmeke guhertî çar wêneyên orîjînal û guhertoya nû bigire, da ku tu her dem wêneyê li rûpela Berhev bike kontrol bikî. Nêzî 1–2 MB ji bo her fîlmekê.",
+  "Keyboard shortcuts": "Kurteriyên klavyeyê",
+  "Leave without saving? Your changes to the settings will be lost.": "Bêyî tomarkirinê derkevî? Guhertinên te di mîhengan de dê winda bibin.",
+  "Moved to the front": "Hate pêş",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Hîn berhevdan tune. Dema orîjînal hîn di karantînayê de ye yekê çêke, an berhevdanên bixweber di Mîhengan de veke.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Niha tu fîlm nayê berhevkirin: orîjînal ji karantînayê derketine, an hîn tiştek nehatiye guhertin.",
+  "No longer possible": "Êdî ne mimkun e",
+  "No subtitles found online and none could be made": "Binnivîs li ser înternetê nehatin dîtin û nehatin çêkirin",
+  "Ollama found: can translate subtitles": "Ollama hat dîtin: dikare binnivîsan wergerîne",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Beşek ji peldankeke DVD an Blu-ray e; li rûpela DVD & Blu-ray veguherîne",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Bixweber rawestiya: cihê vala yê NAS ji frena ewlehiyê kêmtir e.",
+  "Planned for encoding": "Ji bo encodkirinê plankirî",
+  "Queued for the CPU encoder": "Di rêzê de ji bo encodera CPU",
+  "Replaced after the quality check; the original is in quarantine for a while": "Piştî kontrola kalîteyê hate guhertin; orîjînal demekê di karantînayê de ye",
+  "Replaced films appear here after their first encode.": "Fîlmên guhertî piştî encodkirina yekem li vir xuya dibin.",
+  "Search the log…": "Di tomarê de bigere…",
+  "Show films that can be compared": "Fîlmên ku dikarin bên berhevkirin nîşan bide",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Orîjînal û guhertoya nû li pey hev nîşan bide: riya herî baş ji bo dîtina dendik û hûrgiliyan",
+  "Skipped": "Hate derbaskirin",
+  "Skipped by you; Retry puts it back in the queue": "Ji aliyê te ve hate derbaskirin; «Dîsa biceribîne» wê vedigerîne rêzê",
+  "Slider back to the middle": "Xêzik vegere navîn",
+  "Smaller": "Biçûk bike",
+  "Stopped because the file changed or disappeared": "Rawestiya ji ber ku pel guherî an winda bû",
+  "Stopped with an error; see the message and try again": "Bi çewtiyekê rawestiya; peyamê bibîne û dîsa biceribîne",
+  "Subtitles are paused.": "Binnivîs rawestiyane.",
+  "The file could not be read; see the drawer": "Pel nehat xwendin; panela kêlekê bibîne",
+  "The new file would save less than the minimum saving, so the original was kept": "Pelê nû dê ji teserûfa kêmtirîn kêmtir teserûf bikira, loma orîjînal hate parastin",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Guhertoya nû li ser NAS e û gava kes temaşe neke tê guhertin",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Orîjînal ji karantînayê derketiye, loma wêne êdî nayên girtin",
+  "The original is still in quarantine, so the frames can still be grabbed": "Orîjînal hîn di karantînayê de ye, loma wêne hîn dikarin bên girtin",
+  "The original was put back from quarantine": "Orîjînal ji karantînayê hate vegerandin",
+  "The queue is empty. New files are queued after a scan.": "Rêz vala ye. Pelên nû piştî skanekê dikevin rêzê.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Server pelên worker ên nûtir belav dike; worker piştî karê xwe yê niha wan saz dike",
+  "Undo": "Vegerîne",
+  "Waiting for Plex: someone is watching this film": "Li benda Plex: kesek vê fîlmê temaşe dike",
+  "Waiting for a worker; the queue runs from top to bottom": "Li benda workerekê; rêz ji jor ber bi jêr dimeşe",
+  "Warnings": "Hişyarî",
+  "Whisper installed: can make subtitles": "Whisper sazkirî ye: dikare binnivîsan çêke",
+  "Would save less than the minimum saving": "Dê ji teserûfa kêmtirîn kêmtir teserûf bike",
+  "expires today": "îro diqede",
+  "expires within a day": "di nav rojekê de diqede",
+  "less than a day left": "ji rojekê kêmtir maye",
+  "waiting for Plex": "li benda Plex",
+  "update pending": "nûkirin li bendê",
+  "Tap to switch between original and new": "Bitikîne da ku di navbera orîjînal û nû de biguherînî",
+  "Repeated": "Dubare bû",
+  "Search in the current list": "Di lîsteya niha de bigere",
+  "Clear the search, close a drawer or dialog": "Lêgerînê paqij bike, panel an diyalogê bigire",
+  "Previous or next film on a comparison": "Fîlma berê an a din di berhevdanekê de",
+  "Open or switch the focused row, switch or header": "Rêza, pêlkêşa an sernavê hilbijartî veke an biguherîne",
+  "This list": "Ev lîste",
+  "Nothing in the log matches this.": "Di tomarê de tiştek li gorî vê tune.",
+  "Nothing has happened yet.": "Hîn tiştek nebûye.",
+  "No worker is online, so nothing can run.": "Tu worker ne girêdayî ye, loma tiştek nikare bimeşe.",
+  "There is no worker yet. Add one to get started.": "Hîn worker tune. Yekê lê zêde bike da ku dest pê bikî.",
+  "Open Workers": "Workeran veke",
+  "Some values are out of range.": "Hin nirx li derveyî sînor in.",
+  "no capabilities reported": "tu şiyan nehatin ragihandin",
+  "Replaced · expires": "Hate guhertin · diqede",
+  "Made": "Çêkirî",
+  "Make": "Çêke",
+  "lots of motion": "gelek tevger",
+  "dark scene": "dîmena tarî",
+  "a quarter in": "li çaryekê",
+  "three quarters in": "li sê çaryekan",
+  "Encoded": "Hate encodekirin",
+  "Finished": "Qediya",
+  "later": "paşê",
+  "Leave": "Derkeve",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Berawirdek 4 çarçove ji ya resen û ji guhertoya nû digire (bi tevahî nêzîkî 1–2 MB). Dikare were çêkirin heta ku ya resen hîn di karantînê de be, û dimîne heta ku tu wê jê bibî, tevî ku ya resen êdî tune be.",
+  "Retry on CPU": "Li ser CPU dîsa biceribîne",
+  "Scan": "Venêrîn"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1destpêk$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Niha: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan $1 vîdyo dîtin ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · 5%ê herî xirab $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "5%ê herî xirab $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Nû ($1 roj)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Plan: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Guhertin têk çû ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} têk çû{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Venêrîn qediya: $1 vîdyo, $2 nû, $3 guherî, $4 winda; $5 karên encode û $6 karên binnivîsê hatin zêdekirin"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Venêrîn qediya: $1 vîdyo, $2 nû, $3 guherî, $4 winda, $5 di peldankên derbaskirî de; $6 karên encode û $7 karên binnivîsê hatin zêdekirin"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "$1 fîlm bi rêzikên niha ji nû ve encode bike? Orîjînal tên vegerandin û fîlm di rêzê de pêşanî digirin."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 fîlm dîsa di rêzê de{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 orîjînal hatin vegerandin û dîsa ketin rêzê (rêzikên niha)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Nû: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Hate guhertin: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray hate veguhertin: $1 ($2 GB); peldanka dîskê di karantînayê de ye"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Orîjînal hate vegerandin: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 dest bi {t:$2} kir: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 kar (ji hemû $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Hilbijartin hate dayîn - encodkirin bixweber rawestiya"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Hilbijartin hate dayîn - binnivîs bixweber rawestiyan"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Mîheng hatin guhertin: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Kar $1 çewtî: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Kar $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 negirêdayî: $2 kar dîsa di rêzê de"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 ji nû ve dest pê kir: $2 karên qutbûyî dîsa di rêzê de"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 bû $2: $3 karên têkçûyî dîsa di rêzê de"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 hate rakirin"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: encodkirin {t:$2}, binnivîs {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Plankirin hate nûkirin: $1 karên encode û $2 karên binnivîsê hatin zêdekirin"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 kar bi destan ketin rêzê"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 kar: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 berhevdan hatin jêbirin"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Ji $1 danişînên din hate derketin"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Bi koda vegerandinê hate têketin ($1 man)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Orîjînal herî zêde $1 roj tên parastin û bi hev re qet ji $2 zêdetir nabin. Yên herî kevn pêşî diçin. Vegerandin guhertoya nû jê dibe."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - ji bo rakirinê bitikîne"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 peldank dê bên veguhertin · worker di nîv deqeyê de dest pê dike"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 deng · $2 binnivîs"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "$1 berhevdan jê bibe? Fîlm bixwe wekî xwe dimînin."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Wêne $1 · li $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Wêne $1 · li $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB wekî jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Dema encodkirinê $1 deq · li ser 8 parçeyan hate pîvandin, paşê li ser tevahiya fîlmê hate kontrolkirin."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Niha heye: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "5%ê herî qels $1 · norm $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "hevdemî $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Çêkirina wêneyan têk çû: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "hilbijartin · pêş"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "hilbijartin · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Niha:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· paşê $1 din ji hilbijartinê"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "texmîn · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 berê qediyan · nîşan bide"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 ketin hilbijartinê · worker di çend çirkeyan de dest pê dike"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Hilbijartin {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "hate çêkirin: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% piçûktir$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "niha"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 deq berê"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 saet berê"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 roj berê"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "dîtî {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 r $2 s"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 s $2 d"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 vîdyo"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "karantîna $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 di 24 s de"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 qezenc"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB qezenc"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% piçûktir li ser pelên pêvajokirî"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 serhêl"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "$1 din ji bo destpêkirinê, paşê rawestîne"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 tişt · rûpel $2 ji $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 hatin hilbijartin"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Hemû $1 encaman hilbijêre"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Venêrîn: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× hate ceribandin"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 deq"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Çalak · $1 kodên vegerandinê man"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 danişînên çalak, bi vê re."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 hate nûkirin{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 danişînên din hatin derxistin"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Tenê van $1 pêvajo bike? Ew pêşanî digirin, pêvajo dewam dike û paşê bixweber dîsa radiweste."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "$1 kar derbas bike?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "$1 orîjînal vegerîne? Guhertoyên nû dê bên jêbirin."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Worker $1 ji lîsteyê rake? Heke dîsa serhêl bibe, bixweber dîsa xuya dibe."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "ji $1 ve dixebite"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 maye"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "heta $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "li ser dixebite"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex ve girêdayî ye (guhertoya $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex rast bersiv nade: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "çewtî: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "guhertin têk çû: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "nirxa $1 ne derbasdar e"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 divê di navbera $2 û $3 de be"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · 5% ya herî xirab $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 saet"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU nikaribû kalîteyê biparêze - di rêzê de ji bo encoderê CPU (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Paqijkirina staging: pelê mayî hate rakirin $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 di her rûpelê de"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 worker serhêl"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · zêdekirina worker, kilîta worker û daxistin di rûpela Worker de ne."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · piştî ~{t:$2} dest pê dike · texmîn"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · texmîn"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 roj mane"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "piştî $1 rojan diqede"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Çêkirî · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Dikare bê çêkirin · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · gav $1 ji $2 · ~{t:$3} maye"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · gav $1 ji $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · ~{t:$1} maye"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 berhevdan hatin xwestin · di nav çend deqeyan de amade"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "$1 berhevdan bên çêkirin? Nêzî 1–2 MB her yek."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "$1 caran dubare bû"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "di navbera $1 û $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 kar"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Çewtî di $1 de: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 berhevdan hatin xwestin"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Berhevdan hatin paqijkirin: $1 hatin rakirin (ji $2 MB zêdetir)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Peldanka karantînayê bû quarantine ($1 tomar hatin nûkirin)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 hate rakirin: $2 kar dîsa di rêzê de"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Karantîna: $1 jixwe heye, $2 li cihê xwe hate hiştin"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Peldanka karantînayê bû quarantine; $1 tomar hatin nûkirin, lê $2 hîn vala nîne"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Navguhertina peldanka karantînayê têk çû (share-a medyayê mountkirî ye?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "guhertoya nû di staging de tune"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   ".mkv ya nû di staging de tune"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "ya eslî winda bû"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "ya eslî di navberê de hate guhertin"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "ya eslî êdî ne berdest e"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "kontrola li ser NAS hate redkirin (dem/şopan)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray bo mkv hate veguhertin"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "ceribandina dîsa piştî nûvekirina worker"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "ji aliyê te ve hate derbaskirin"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "pelê armanc jixwe heye"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker offline - ji nû ve hate plankirin"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker hate rakirin - ji nû ve hate plankirin"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker ji nû ve dest pê kir - ji nû ve hate plankirin"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "guhertin têk çû: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision di mkv ya nû de tune"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: ji nû ve nehate kodkirin (tebeqa DV dê winda bibûya)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "streamek nikare bo .mkv were kopîkirin: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg $1 deqe pêş neçû (share nayê gihîştin?) - hate rawestandin"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 ji $2 pelan bi hev re kêm in - share nayê gihîştin? Tiştek wekî windabûyî nehate nîşankirin"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "wergerandin têk çû: piştî ceribandinan ji bo $1 rêz(an) bersiva bikêr tune"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: çewtiya serverê"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - modelê daxe (ollama pull <model>) an ollama_model di worker.ini de rast bike"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama li $1 nayê gihîştin ($2) - Ollama dest pê bike an ollama_url kontrol bike"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama nayê gihîştin: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama $2 deqe berdewam têk çû"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 ji saetekê zêdetir kişand - share ya medyayê hîn tê gihîştin?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 tune; wê saz bike $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF tevahiya fîlmê $1 bi tu rêbaza cotkirinê ne pêbawer e (nimûne $2); nizm li $3. Ya eslî hate hiştin; çavkaniyê li wir kontrol bike"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: pel nayê xwendin"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: têk çû"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "li ser PC cihê vala yê têr ji bo vê fîlmê tune ($1 GB pêwîst e di $2 de)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "cihê vala di peldanka xebatê de têr nake: $1 GB vala, ~$2 GB pêwist"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "bi bitrateya kêmtirîn herî zêde $1% piçûktir"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "metadata ji qata zêdekirî tê derxistin"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "daxistin li hev nake (sha256) - nehat bikaranîn"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "kontrol: dem an hejmara herikan cuda ye"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "mkv ya nû pir kurt e ($1 ji $2 deqe)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 ji $2 qediyan, li benda worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "Dolby Vision bo profîla 8.1 tê veguhertin"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "metadata di qata bingehîn de tê danîn"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "kontrola VMAF (pîvana duyem)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "tu mîheng nagihîje armanca kalîteyê"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "sînorê daxistinê gihîşt - yên mayî paşê"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "sînorê rojane yê OpenSubtitles gihîşt"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "beşek; yên mayî piştî sînorê daxistinê"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 piştî daxistinê nehat dîtin"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: zimanê axaftinê hate tespîtkirin"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (ji $1 hatiye wergerandin)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "li benda cihê vala li ser PC"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "pelê binnivîsê ne asayî mezin e"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "pîvandina testa xwe ne pêbawer e"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "hewldana wergerandinê ya $1 têk çû"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "li bendê: niha di Plex de tê temaşekirin"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "tenê $1% piçûktir tê hêvîkirin"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "$1 tê daxistin (carekê)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "kontrola tevahiya fîlmê di binê armancê de"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "di saniyeya $1 de nikare çarçoveyek bigire"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "tevahiya fîlmê hinekî di binê armancê de"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "lêgerîna fîlmê li ser dîskê"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "armanca kalîteyê nayê gihîştin"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "pîvandina kontrolê ne pêbawer e"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "rêyek nederbasdar ji serverê"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "dîsa: qezenca kêmtirîn niha 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper li ser GPU dixebite"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "tu sernav li ser DVD nehatin dîtin"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "rêyek gumanbar di arşîvê de"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "li bendê: Plex nayê gihîştin"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "li ser $1 ji $2 dixebite"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles nayê gihîştin"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (transkrîpsiyon)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "kontrola VMAF tevahiya fîlmê"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "qediya, li benda guhertinê"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "peldanka kevn bo karantînayê"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "kontrola VMAF $1 pir kêm"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "xwendina dîskê (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "ji Îngilîzî hate wergerandin"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "qediya ($1 ji $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "derxistina deng têk çû"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "vedigere ser CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles têketin çêbû"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (ji profîla 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "li benda worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "rêyek gumanbar di zip de"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "EN-ya hundirîn nayê xwendin"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "heta niha ya herî dirêj: sernav"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "dem li hev nayê"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "tenê $1% piçûktir"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "parçe $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "ya eslî tê hiştin"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "daxistinên mayî îro"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "sernav $1 hate kontrolkirin"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "li benda guhertinê"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "kopîkirin bo NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "orîjînal dimîne"
+  ],
+  [
+   "translation failed",
+   "g",
+   "wergerandin têk çû"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "server nayê gihîştin"
+  ],
+  [
+   "searching quality",
+   "g",
+   "li kalîteyê digere"
+  ],
+  [
+   "making references",
+   "g",
+   "referans tên çêkirin"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "veguhertin bo mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "binnivîs rawestiyan"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "kopîkirin NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "kopîkirin PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "lêgerîna fîlmê"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "yekkirin bo mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "playlista herî dirêj"
+  ],
+  [
+   "timing reference",
+   "g",
+   "referansa demê"
+  ],
+  [
+   "speech segments",
+   "g",
+   "parçeyên axaftinê"
+  ],
+  [
+   "too little gain",
+   "g",
+   "qezenc pir kêm e"
+  ],
+  [
+   " not applicable",
+   "g",
+   " ne têkildar e"
+  ],
+  [
+   "download failed",
+   "g",
+   "daxistin têk çû"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "piştî ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "wergerandin bo"
+  ],
+  [
+   "next candidate",
+   "g",
+   "berendamê din"
+  ],
+  [
+   "after shifting",
+   "g",
+   "piştî guhastinê"
+  ],
+  [
+   "reading audio",
+   "g",
+   "xwendina deng"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Hilbijartin · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 li bendê"
+  ],
+  [
+   "search failed",
+   "g",
+   "lêgerîn têk çû"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "ji nû ve tê encodkirin"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "sernav $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " çewtî"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 qediyan"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "binnivîs:"
+  ],
+  [
+   "replacing",
+   "g",
+   "tê guhertin"
+  ],
+  [
+   "subtitles",
+   "g",
+   "binnivîs"
+  ],
+  [
+   "candidate",
+   "g",
+   "berendam"
+  ],
+  [
+   "encoding:",
+   "g",
+   "encodkirin:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "destpêk"
+  ],
+  [
+   "encoding",
+   "g",
+   "tê encodkirin"
+  ],
+  [
+   "checking",
+   "g",
+   "kontrol"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", heta "
+  ],
+  [
+   "present",
+   "g",
+   "heye"
+  ],
+  [
+   "missing",
+   "g",
+   "kêm e"
+  ],
+  [
+   "speed",
+   "g",
+   "lez"
+  ],
+  [
+   "saved",
+   "g",
+   "hate tomarkirin"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU nikaribû kalîteyê biparêze - di rêzê de ji bo encoderê CPU (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Paqijkirina staging: pelê mayî hate rakirin"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "peldanka medyayê vala ye an nehatiye mountkirin - tiştek nehate guhertin"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "parastina kalîteyê bitrateyeke ji ya çavkaniyê zêdetir dixwaze"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "bitrateyeke ji çavkaniyê zêdetir dixwaze"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker ji bo nûvekirinê ji nû ve dest pê dike"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "streama vîdyoyê tune (tenê wêneyê bergê?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "streama dengê ji bo transkrîpsiyonê tune"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "li ser PC cihê vala yê têr ji bo vê fîlmê tune"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "li ser CPU dîsa tê ceribandin (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "peldank têne gerîn"
+  ],
+  [
+   "analysing files",
+   "g",
+   "pel têne analîzkirin"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "kar têne plankirin"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "Encodkirina CPU vekirî"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "Encodkirina CPU girtî"
+  ]
+ ]
+}

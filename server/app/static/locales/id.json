@@ -1,0 +1,2060 @@
+{
+ "name": "Bahasa Indonesia",
+ "s": {
+  "Re-encode from original": "Encode ulang dari asli",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Encode ulang dengan aturan saat ini? File asli dipulihkan dan film mendapat prioritas.",
+  "Back in the queue": "Kembali ke antrean",
+  "Restore originals": "Pulihkan file asli",
+  "Minimum bitrate (1080p)": "Bitrate minimum (1080p)",
+  "Extra floor (share of the source)": "Batas bawah tambahan (porsi dari sumber)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Opsional: pertahankan juga setidaknya porsi ini dari bitrate video asli. Hanya berguna untuk sumber dengan bitrate sangat tinggi. 0 = nonaktif.",
+  "with the minimum bitrate at most": "dengan bitrate minimum paling banyak",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "File baru tidak pernah lebih rendah dari ini, meskipun VMAF mengizinkan. Resolusi lain diskalakan: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animasi ×0.6.",
+  "bitrate already near the minimum": "bitrate sudah mendekati minimum",
+  "MFA reset from settings - set it up again": "MFA direset dari pengaturan - siapkan lagi",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA direset via MFA_RESET - hapus lagi MFA_RESET dari pengaturan kontainer",
+  "MFA enabled": "MFA diaktifkan",
+  "MediaScan started": "MediaScan dimulai",
+  "New recovery codes created": "Kode pemulihan baru dibuat",
+  "Password changed; other sessions signed out": "Kata sandi diubah; sesi lain dikeluarkan",
+  "Password set (first time)": "Kata sandi diatur (pertama kali)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Catatan: ADMIN_PASSWORD kurang dari 10 karakter - pilih kata sandi yang lebih kuat di Pengaturan",
+  "part of a DVD/Blu-ray folder": "bagian dari folder DVD/Blu-ray",
+  "folder is in Skip folders": "folder ada di Folder yang dilewati",
+  "file disappeared": "file menghilang",
+  "worker restarted - rescheduled": "worker dimulai ulang - dijadwalkan ulang",
+  "worker offline - rescheduled": "worker offline - dijadwalkan ulang",
+  "retry after worker update": "coba lagi setelah pembaruan worker",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray dikonversi ke mkv",
+  "skipped by you": "dilewati oleh Anda",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Penggantian menunggu selama film sedang ditonton, dan Plex disegarkan setelah setiap perubahan.",
+  "Confirm with your password and a code from your app.": "Konfirmasi dengan kata sandi dan kode dari aplikasi Anda.",
+  "Your old recovery codes will stop working.": "Kode pemulihan lama Anda tidak akan berfungsi lagi.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Tautan autentikator dan kode pemulihan Anda saat ini tidak akan berfungsi lagi. Anda akan langsung menyiapkan MFA lagi.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Pilih kata sandi untuk dasbor. Kode penyiapan ada di log kontainer (Container Manager › mediascan › Log, atau",
+  "- click to remove": "- klik untuk menghapus",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Alamat tidak valid, mis. http://192.168.1.10:32400",
+  "Enter a Plex token": "Masukkan token Plex",
+  "A password has already been set": "Kata sandi sudah diatur",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Kunci ditetapkan di WORKER_TOKEN (environment kontainer)",
+  "selection still running - pause or wait until it is done": "pilihan masih berjalan - jeda atau tunggu hingga selesai",
+  "Now running": "Sedang berjalan",
+  "Finding the film on the disc": "Mencari film di disk",
+  "Converting to one .mkv": "Mengonversi ke satu .mkv",
+  "Checking (duration, tracks)": "Memeriksa (durasi, trek)",
+  "Copying to the NAS": "Menyalin ke NAS",
+  "Old folder to quarantine": "Folder lama ke karantina",
+  "worker has not reported for a while": "worker sudah lama tidak melapor",
+  "waiting for the worker": "menunggu worker",
+  "Welcome to MediaScan": "Selamat datang di MediaScan",
+  "Setup code": "Kode penyiapan",
+  "New password (at least 10 characters)": "Kata sandi baru (minimal 10 karakter)",
+  "Repeat password": "Ulangi kata sandi",
+  "Set password": "Atur kata sandi",
+  "The passwords do not match": "Kata sandi tidak cocok",
+  "Setup code is wrong - check the container log": "Kode penyiapan salah - periksa log kontainer",
+  "Choose a password of at least 10 characters": "Pilih kata sandi minimal 10 karakter",
+  "Animation folders": "Folder animasi",
+  "Top-level folders with animation: these may use a lower bitrate.": "Folder tingkat atas berisi animasi: boleh memakai bitrate lebih rendah.",
+  "Where do I find the token?": "Di mana menemukan token?",
+  "Connect": "Hubungkan",
+  "Disconnect": "Putuskan",
+  "Connected": "Terhubung",
+  "Not connected": "Tidak terhubung",
+  "+ Add language": "+ Tambah bahasa",
+  "Renew": "Perbarui",
+  "Worker version": "Versi worker",
+  "Password": "Kata sandi",
+  "Other sessions are signed out after a change.": "Sesi lain dikeluarkan setelah perubahan.",
+  "Change password": "Ubah kata sandi",
+  "Other sessions will be signed out.": "Sesi lain akan dikeluarkan.",
+  "Change": "Ubah",
+  "New worker key": "Kunci worker baru",
+  "Create new key": "Buat kunci baru",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Semua worker berhenti hingga Anda memasukkan kunci baru (jalankan installer lagi atau edit worker.ini).",
+  "Repeat new password": "Ulangi kata sandi baru",
+  "Password changed": "Kata sandi diubah",
+  "New worker key created": "Kunci worker baru dibuat",
+  "Disconnect Plex?": "Putuskan Plex?",
+  "Plex disconnected": "Plex diputuskan",
+  "Plex connected": "Plex terhubung",
+  "Incorrect password": "Kata sandi salah",
+  "Incorrect code": "Kode salah",
+  "Incorrect code from your authenticator app": "Kode dari aplikasi autentikator salah",
+  "Too many attempts - try again in 15 minutes": "Terlalu banyak percobaan - coba lagi dalam 15 menit",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Folder dengan VIDEO_TS atau BDMV. Konversi mengubahnya menjadi satu .mkv dengan semua video, audio, subtitle, dan bab.",
+  "Convert to MKV": "Konversi ke MKV",
+  "Folder": "Folder",
+  "Type": "Jenis",
+  "found": "ditemukan",
+  "queued": "dalam antrean",
+  "converting…": "mengonversi…",
+  "converted": "dikonversi",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Konversi menyalin semuanya 1:1 ke satu .mkv: video (termasuk HDR), semua trek audio, subtitle, dan bab. Untuk DVD dipilih judul terpanjang (filmnya). Folder lama masuk karantina, jadi Anda bisa memulihkannya. Setelah itu .mkv melalui encoding dan subtitle seperti biasa. Blu-ray Dolby Vision menjadi Dolby Vision profile 8.1 (base layer 1:1, metadata DV ditambahkan): Plex dan TV Anda memutarnya sebagai Dolby Vision, pemutar lain sebagai HDR10. Film seperti ini tidak di-encode ulang setelahnya, karena Dolby Vision akan hilang.",
+  "Compare": "Bandingkan",
+  "Delete comparison": "Hapus perbandingan",
+  "Comparison deleted": "Perbandingan dihapus",
+  "comparison": "perbandingan",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Asli di samping versi baru: ukuran, kualitas, gambar, dan subtitle. Anda yang memilih filmnya.",
+  "Original → new": "Asli → baru",
+  "Quality (VMAF)": "Kualitas (VMAF)",
+  "Comparison": "Perbandingan",
+  "View": "Lihat",
+  "Make comparison": "Buat perbandingan",
+  "previous attempt failed": "percobaan sebelumnya gagal",
+  "Back": "Kembali",
+  "Make again": "Buat ulang",
+  "New": "Baru",
+  "VMAF whole film": "VMAF seluruh film",
+  "Making the frames… this usually takes less than a minute.": "Membuat frame… biasanya kurang dari satu menit.",
+  "There is no picture comparison for this film yet.": "Belum ada perbandingan gambar untuk film ini.",
+  "Picture · drag across the image": "Gambar · geser melintasi gambar",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR dikonversi ke SDR untuk tampilan ini; TV Anda menampilkannya dalam HDR.",
+  "How the setting was chosen": "Cara pengaturan dipilih",
+  "Step": "Langkah",
+  "Weakest 5%": "5% terlemah",
+  "Bitrate": "Bitrate",
+  "chosen": "dipilih",
+  "No data.": "Tidak ada data.",
+  "Nothing needed, all languages were present.": "Tidak perlu apa-apa, semua bahasa sudah ada.",
+  "Not processed yet.": "Belum diproses.",
+  "Comparison requested · ready within a minute": "Perbandingan diminta · siap dalam satu menit",
+  "Delete this comparison? The film itself stays as it is.": "Hapus perbandingan ini? Filmnya sendiri tetap seperti semula.",
+  "Not possible": "Tidak memungkinkan",
+  "Slide between original and new": "Geser antara asli dan baru",
+  "Overview": "Ringkasan",
+  "Queue": "Antrean",
+  "In progress": "Sedang diproses",
+  "No gain": "Tanpa penghematan",
+  "Failed": "Gagal",
+  "Subtitles": "Subtitle",
+  "Recently added": "Baru ditambahkan",
+  "Library": "Pustaka",
+  "Quarantine": "Karantina",
+  "Workers": "Worker",
+  "Activity": "Aktivitas",
+  "Settings": "Pengaturan",
+  "Encoding": "Encoding",
+  "System": "Sistem",
+  "Status of the entire library.": "Status seluruh pustaka.",
+  "Selection": "Pilihan",
+  "waiting for worker": "menunggu worker",
+  "In the selection": "Dalam pilihan",
+  "selection": "pilihan",
+  "Selection · encoding": "Pilihan · encoding",
+  "Selection · subtitles": "Pilihan · subtitle",
+  "Close list": "Tutup daftar",
+  "waiting": "menunggu",
+  "nothing needed": "tidak perlu apa-apa",
+  "original kept": "asli dipertahankan",
+  "Find, sync or generate missing subtitles.": "Cari, sinkronkan, atau buat subtitle yang hilang.",
+  "All videos with their current plan. You can also queue items manually here.": "Semua video dengan rencananya saat ini. Anda juga bisa memasukkan item ke antrean secara manual di sini.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Mesin yang mengerjakan tugas. Pilih apa yang boleh dilakukan setiap worker.",
+  "Log of everything that happens.": "Log semua yang terjadi.",
+  "Scan now": "Pindai sekarang",
+  "Saved": "Dihemat",
+  "Free on NAS": "Kosong di NAS",
+  "Progress": "Progres",
+  "Saved per day": "Dihemat per hari",
+  "last 14 days": "14 hari terakhir",
+  "Per folder": "Per folder",
+  "all": "semua",
+  "nothing processed yet": "belum ada yang diproses",
+  "no measurement yet": "belum ada pengukuran",
+  "No processed files yet": "Belum ada file yang diproses",
+  "No worker connected yet": "Belum ada worker yang terhubung",
+  "no worker": "tidak ada worker",
+  "worker offline": "worker offline",
+  "online": "online",
+  "disabled": "nonaktif",
+  "encoding": "encoding",
+  "subtitles": "subtitle",
+  "Search by name or folder…": "Cari menurut nama atau folder…",
+  "Several titles at once: separate them with |": "Beberapa judul sekaligus: pisahkan dengan |",
+  "Nothing to show": "Tidak ada yang ditampilkan",
+  "File": "File",
+  "Source": "Sumber",
+  "Status": "Status",
+  "Result": "Hasil",
+  "Languages": "Bahasa",
+  "Error": "Galat",
+  "When": "Kapan",
+  "Plan": "Rencana",
+  "Added": "Ditambahkan",
+  "Original": "Asli",
+  "Size": "Ukuran",
+  "Replaced": "Diganti",
+  "estimate": "perkiraan",
+  "Name": "Nama",
+  "Done": "Selesai",
+  "Nothing found": "Tidak ditemukan",
+  "Process only these": "Proses hanya ini",
+  "Prioritise": "Prioritaskan",
+  "Skip": "Lewati",
+  "Retry": "Coba lagi",
+  "Clear": "Bersihkan",
+  "Both": "Keduanya",
+  "Restore original": "Pulihkan asli",
+  "Find subtitles": "Cari subtitle",
+  "running": "berjalan",
+  "done": "selesai",
+  "failed": "gagal",
+  "replacing": "mengganti",
+  "no gain": "tanpa penghematan",
+  "skipped": "dilewati",
+  "restored": "dipulihkan",
+  "cancelled": "dibatalkan",
+  "nothing found": "tidak ditemukan",
+  "encode": "encode",
+  "already efficient": "sudah efisien",
+  "small gain": "penghematan kecil",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "galat",
+  "unknown": "tidak diketahui",
+  "All": "Semua",
+  "Already efficient": "Sudah efisien",
+  "Small gain": "Penghematan kecil",
+  "Restored": "Dipulihkan",
+  "Video": "Video",
+  "Duration": "Durasi",
+  "Audio": "Audio",
+  "Encode": "Encode",
+  "Quality": "Kualitas",
+  "Encode time": "Waktu encode",
+  "Message": "Pesan",
+  "Started": "Dimulai",
+  "Search": "Cari",
+  "weakest 5%": "5% terlemah",
+  "video": "video",
+  "Worker": "Worker",
+  "Hardware": "Perangkat keras",
+  "Resolution": "Resolusi",
+  "Working on": "Sedang mengerjakan",
+  "nothing": "tidak ada",
+  "up to 4K": "hingga 4K",
+  "up to 1080p": "hingga 1080p",
+  "up to 720p": "hingga 720p",
+  "up to SD": "hingga SD",
+  "Remove": "Hapus",
+  "Add worker": "Tambah worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Setiap worker melaporkan kemampuannya (encoder ditemukan, Whisper terpasang). Di sini Anda menentukan apa yang boleh dilakukannya. Perubahan berlaku mulai tugas berikutnya; tugas yang sedang berjalan diselesaikan dulu.",
+  "This machine lacks the hardware or software for this": "Mesin ini tidak memiliki perangkat keras atau perangkat lunak untuk ini",
+  "Quality level": "Tingkat kualitas",
+  "Standard": "Standar",
+  "High": "Tinggi",
+  "Maximum": "Maksimum",
+  "Custom": "Kustom",
+  "Custom target": "Target kustom",
+  "Average VMAF and the weakest 5% of frames.": "VMAF rata-rata dan 5% frame terlemah.",
+  "avg.": "rata-rata",
+  "Minimum saving": "Penghematan minimum",
+  "If a file saves less, the original is kept.": "Jika penghematan file lebih kecil, file asli dipertahankan.",
+  "Processing": "Pemrosesan",
+  "Storage & safety": "Penyimpanan & keamanan",
+  "How long replaced originals can be restored.": "Berapa lama file asli yang diganti bisa dipulihkan.",
+  "days": "hari",
+  "Above this, the oldest originals are deleted permanently.": "Di atas batas ini, file asli terlama dihapus permanen.",
+  "Safety brake": "Rem pengaman",
+  "Encoding pauses when the NAS has less free space than this.": "Encoding dijeda jika ruang kosong NAS kurang dari ini.",
+  "Scanning": "Pemindaian",
+  "Automatic scan": "Pindai otomatis",
+  "New files are queued automatically.": "File baru otomatis masuk antrean.",
+  "Off": "Nonaktif",
+  "Every hour": "Setiap jam",
+  "Every 6 hours": "Setiap 6 jam",
+  "Every 12 hours": "Setiap 12 jam",
+  "Daily": "Harian",
+  "Skip folders": "Folder yang dilewati",
+  "Comma-separated folder names.": "Nama folder dipisahkan koma.",
+  "Plex": "Plex",
+  "Dashboard address": "Alamat dasbor",
+  "Use the IP address of the NAS, not localhost.": "Gunakan alamat IP NAS, bukan localhost.",
+  "Worker key": "Kunci worker",
+  "Keep secret: with this key a worker can fetch jobs.": "Rahasiakan: dengan kunci ini worker bisa mengambil tugas.",
+  "Show": "Tampilkan",
+  "Copy": "Salin",
+  "Minimum requirements": "Persyaratan minimum",
+  "Account & security": "Akun & keamanan",
+  "Two-factor authentication": "Autentikasi dua faktor",
+  "Not active": "Tidak aktif",
+  "New recovery codes": "Kode pemulihan baru",
+  "Reset MFA": "Reset MFA",
+  "Sessions": "Sesi",
+  "Sign out everywhere else": "Keluar di semua tempat lain",
+  "Sign out": "Keluar",
+  "You have unsaved changes.": "Ada perubahan yang belum disimpan.",
+  "Cancel": "Batal",
+  "Save": "Simpan",
+  "Language": "Bahasa",
+  "Theme": "Tema",
+  "Light": "Terang",
+  "Dark": "Gelap",
+  "Auto": "Otomatis",
+  "Dashboard language.": "Bahasa dasbor.",
+  "Auto follows your system setting.": "Otomatis mengikuti pengaturan sistem Anda.",
+  "Reset": "Reset",
+  "Create new codes": "Buat kode baru",
+  "Close": "Tutup",
+  "Code from your authenticator app": "Kode dari aplikasi autentikator",
+  "Sign in": "Masuk",
+  "Activate": "Aktifkan",
+  "Set up two-factor authentication": "Siapkan autentikasi dua faktor",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Pindai kode QR dengan aplikasi autentikator Anda dan masukkan kode 6 digit.",
+  "Manual:": "Manual:",
+  "6-digit code": "Kode 6 digit",
+  "123456 or recovery code": "123456 atau kode pemulihan",
+  "Save your recovery codes": "Simpan kode pemulihan Anda",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Kehilangan ponsel? Setiap kode ini bisa dipakai masuk satu kali. Kode hanya ditampilkan sekali.",
+  "I have saved them": "Sudah saya simpan",
+  "Save them now, they are shown only once.": "Simpan sekarang, kode hanya ditampilkan sekali.",
+  "Server not responding": "Server tidak merespons",
+  "Sign-in failed": "Gagal masuk",
+  "Code is incorrect": "Kode salah",
+  "Code is incorrect - check the time on your phone": "Kode salah - periksa jam di ponsel Anda",
+  "Scan started": "Pemindaian dimulai",
+  "scan already running": "pemindaian sudah berjalan",
+  "Copied": "Disalin",
+  "Resumed": "Dilanjutkan",
+  "Paused: a running job will finish first": "Dijeda: tugas yang berjalan diselesaikan dulu",
+  "Added to the queue": "Ditambahkan ke antrean",
+  "Not applicable": "Tidak berlaku",
+  "At least one language": "Minimal satu bahasa",
+  "Skip this job?": "Lewati tugas ini?",
+  "Restore the original? The new version will be deleted.": "Pulihkan file asli? Versi baru akan dihapus.",
+  "on": "aktif",
+  "off": "nonaktif",
+  "Quarantine cleanup": "Pembersihan karantina",
+  "Background task": "Tugas latar belakang",
+  "Planning at startup": "Perencanaan saat mulai",
+  "Welcome": "Selamat datang",
+  "Next": "Berikutnya",
+  "Previous": "Sebelumnya",
+  "Next (or skip)": "Berikutnya (atau lewati)",
+  "Done, go to the overview": "Selesai, ke ringkasan",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan memperkecil film dan acara Anda tanpa perbedaan yang terlihat, dan melengkapi subtitle yang hilang. File asli hanya diganti setelah pemeriksaan kualitas, dan disimpan dulu di karantina untuk sementara.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Enam langkah singkat dan semuanya siap. Anda bisa mengubah semuanya nanti di Pengaturan.",
+  "Your library": "Pustaka Anda",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan sekarang mencari video di folder media Anda. Dengan pustaka besar, pemindaian pertama butuh waktu; Anda bisa lanjut saja.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Folder yang tidak pernah disentuh MediaScan, dipisahkan koma (mis. Music, Downloads).",
+  "Scan again": "Pindai lagi",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Pilih bahasa yang harus dimiliki setiap file. MediaScan mencari yang hilang di OpenSubtitles. Jika gagal, worker membuat subtitle sendiri (pengenalan suara dan terjemahan di PC Anda sendiri).",
+  "Click a language to remove it.": "Klik bahasa untuk menghapusnya.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Setiap film diukur dengan VMAF, skor seberapa bagus gambar terlihat bagi mata manusia. \"Tinggi\" tidak bisa dibedakan dari aslinya bagi hampir semua orang.",
+  "Higher = better picture, less space saved.": "Lebih tinggi = gambar lebih baik, lebih sedikit ruang dihemat.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Jaring pengaman untuk grain dan adegan gelap. 5 Mbps adalah default yang baik; 4K dan resolusi lain diskalakan sesuai.",
+  "Plex (optional)": "Plex (opsional)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Dengan Plex terhubung, MediaScan menunggu untuk mengganti film selama ada yang menontonnya, dan menyegarkan Plex setelah setiap perubahan. Tidak pakai Plex? Lewati saja langkah ini.",
+  "Plex address and token": "Alamat dan token Plex",
+  "Plex token": "Token Plex",
+  "token (unchanged)": "token (tidak berubah)",
+  "Add a worker": "Tambah worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Pekerjaan berat dilakukan di PC atau Mac dengan kartu grafis yang bagus: worker. Pasang sekarang, atau nanti lewat Worker. Selama belum ada worker, tidak ada yang terjadi pada file Anda.",
+  "✓ A worker is connected.": "✓ Worker terhubung.",
+  "Done! MediaScan is set up.": "Selesai! MediaScan sudah siap.",
+  "Connect the media share on the new machine.": "Hubungkan share media di mesin baru.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: huruf drive atau \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: lihat petunjuk di paket.",
+  "Download the package for that system and unpack it.": "Unduh paket untuk sistem tersebut dan ekstrak.",
+  "Run the installer.": "Jalankan installer.",
+  "The installer asks for the details below and tests the connection.": "Installer meminta detail di bawah dan menguji koneksi.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 atau lebih baru, Intel Arc atau iGPU gen-11+, AMD RX 6000+ · 4 core · 8 GB · 100 GB kosong · jaringan kabel. Subtitle: NVIDIA dengan 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitle: 24 GB+) · 150 GB kosong · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Worker memperbarui diri saat dasbor ini punya versi baru.",
+  "What the workers are doing now and what is planned next.": "Apa yang sedang dikerjakan worker dan apa yang direncanakan berikutnya.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Perkecil file tanpa penurunan kualitas yang terlihat. Worker memproses antrean dari atas ke bawah.",
+  "select page": "pilih halaman",
+  "select": "pilih",
+  "to encode": "perlu di-encode",
+  "Movie": "Film",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "File asli yang diganti, disimpan sementara agar Anda bisa memulihkannya atau meng-encode ulang.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Cara kerja MediaScan: kualitas, subtitle, penyimpanan, dan keamanan.",
+  "General": "Umum",
+  "Advanced": "Lanjutan",
+  "Connection": "Koneksi",
+  "Hand out new encode jobs to the workers.": "Bagikan tugas encode baru ke worker.",
+  "Hand out new subtitle jobs to the workers.": "Bagikan tugas subtitle baru ke worker.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Seberapa ketat pengukuran VMAF. Lebih tinggi = gambar lebih baik, lebih sedikit ruang dihemat.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Subtitle apa yang harus dimiliki setiap file. Yang hilang dicari, atau jika tidak ada, dibuat.",
+  "Go to Workers": "Ke Worker",
+  "new": "baru",
+  "start": "mulai",
+  "Minimum bitrate (4K)": "Bitrate minimum (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Batas bawah sendiri untuk 4K, bukan 2,5 × nilai 1080p. 0 = otomatis. HDR +15% dan animasi ×0,6 juga berlaku di sini.",
+  "Ready to use in a few steps.": "Siap digunakan dalam beberapa langkah.",
+  "next": "berikutnya",
+  "read error": "kesalahan baca",
+  "MFA is already enabled": "MFA sudah aktif",
+  "a .mkv with that name already exists": "file .mkv dengan nama itu sudah ada",
+  "a file already exists at the original location": "sudah ada file di lokasi asli",
+  "action not possible in this status": "tindakan tidak mungkin dalam status ini",
+  "walking folders": "menelusuri folder",
+  "planning jobs": "merencanakan tugas",
+  "check on the NAS rejected (duration/tracks)": "pemeriksaan di NAS ditolak (durasi/track)",
+  "expected a JSON object": "diharapkan objek JSON",
+  "ffprobe error": "kesalahan ffprobe",
+  "invalid resolution": "resolusi tidak valid",
+  "invalid worker token": "token worker tidak valid",
+  "job belongs to another worker": "tugas milik worker lain",
+  "job is no longer active": "tugas tidak aktif lagi",
+  "no video track": "tidak ada track video",
+  "not JSON": "bukan JSON",
+  "not signed in": "belum masuk",
+  "original disappeared": "file asli menghilang",
+  "original has changed in the meantime": "file asli telah berubah sementara itu",
+  "original is no longer in quarantine": "file asli tidak lagi dikarantina",
+  "original no longer available": "file asli tidak tersedia lagi",
+  "request refused": "permintaan ditolak",
+  "target file already exists": "file tujuan sudah ada",
+  "the original has already been removed from quarantine - comparing is no longer possible": "file asli sudah dihapus dari karantina - perbandingan tidak lagi dimungkinkan",
+  "this film has not been replaced yet": "film ini belum diganti",
+  "unknown action": "tindakan tidak dikenal",
+  "worker is still online": "worker masih online",
+  "In use now:": "Sedang digunakan:",
+  "longest": "terpanjang",
+  "8.1 (from profile 7)": "8.1 (dari profil 7)",
+  "Whisper (transcription)": "Whisper (transkripsi)",
+  "1 day ago": "1 hari lalu",
+  "1 video": "1 video",
+  "Enter your password to open the dashboard.": "Masukkan kata sandi untuk membuka dasbor.",
+  "No connection to the server - retrying…": "Tidak ada koneksi ke server - mencoba lagi…",
+  "Are you sure?": "Apakah Anda yakin?",
+  "Restore": "Pulihkan",
+  "Re-encode": "Enkode ulang",
+  "Delete": "Hapus",
+  "Next up": "Berikutnya",
+  "in the queue": "dalam antrean",
+  "Load older entries": "Muat entri lama",
+  "Folder: all": "Folder: semua",
+  "Resolution: all": "Resolusi: semua",
+  "Codec: all": "Codec: semua",
+  "More": "Lainnya",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "film menunggu enkoder CPU, tetapi tidak ada worker yang mengaktifkan enkode CPU (halaman Workers).",
+  "Info": "Info",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Perangkat keras Anda, seberapa cocok untuk pekerjaan ini, alat yang dipakai, dan cara kerja pengaturan.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Memori",
+  "Software": "Perangkat lunak",
+  "GPU encoding": "Enkode GPU",
+  "CPU encoding (x265)": "Enkode CPU (x265)",
+  "Subtitles (Whisper)": "Subtitel (Whisper)",
+  "Translation (Ollama)": "Terjemahan (Ollama)",
+  "Server": "Server",
+  "Database": "Basis data",
+  "Tools in use": "Alat yang dipakai",
+  "Knowledge base": "Basis pengetahuan",
+  "Low": "Rendah",
+  "Medium": "Sedang",
+  "Ultra": "Ultra",
+  "files": "berkas",
+  "up": "aktif",
+  "of": "dari",
+  "uses": "memakai",
+  "free": "kosong",
+  "Media share": "Berbagi media",
+  "Rating": "Penilaian",
+  "Hardware details appear after this worker has updated itself.": "Detail perangkat keras muncul setelah worker ini memperbarui dirinya.",
+  "no Whisper": "tanpa Whisper",
+  "unified memory": "memori terpadu",
+  "cores": "inti",
+  "threads": "utas",
+  "driver": "driver",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Tidak diketahui",
+  "Settings saved": "Pengaturan disimpan",
+  "Time left": "Sisa waktu",
+  "Queued": "Dalam antrean",
+  "Keep originals for": "Simpan file asli selama",
+  "Quarantine size limit": "Batas ukuran karantina",
+  "Hide finished items": "Sembunyikan yang selesai",
+  "Undo skip": "Batalkan lewati",
+  "not supported here": "tidak didukung di sini",
+  "CPU encoding": "Encoding CPU",
+  "Retry on CPU (x265)": "Coba lagi di CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Di-encode di CPU dengan x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 dengan penyetelan grain di CPU worker: mempertahankan grain jauh lebih efisien, tetapi butuh berjam-jam per film",
+  "CPU fallback for grainy films": "Cadangan CPU untuk film bergrain",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Saat GPU tidak bisa menjaga kualitas tanpa melebihi bitrate sumber (grain film), film di-encode sekali lagi di CPU worker dengan x265, yang mempertahankan grain jauh lebih efisien. Butuh berjam-jam per film; aktifkan encoding CPU untuk worker di halaman Workers.",
+  "CPU preset": "Preset CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: sekitar 2 jam untuk film 1080p berdurasi 2 jam pada 8 core. Slow: 2-3 kali lebih lama untuk file sekitar 5-10% lebih kecil.",
+  "Medium (faster)": "Medium (lebih cepat)",
+  "Slow (smaller)": "Slow (lebih kecil)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Halaman ini tidak dapat dimuat.",
+  "up to 1440p": "hingga 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "menganalisis file",
+  "No worker has CPU encodes switched on (Workers page)": "Tidak ada worker yang mengaktifkan encoding CPU (halaman Workers)",
+  "the job changed in the meantime": "tugas berubah sementara itu",
+  "Main": "Navigasi utama",
+  "Clear search and filters": "Hapus pencarian dan filter",
+  "Compact rows": "Baris ringkas",
+  "Encoding and subtitles are paused.": "Encoding dan subtitle dijeda.",
+  "Encoding is paused: no new encode jobs are handed out.": "Encoding dijeda: tugas encode baru tidak dibagikan.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Subtitle dijeda: tugas subtitle baru tidak dibagikan.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Isi alamat Plex dan token sekaligus, atau biarkan keduanya kosong untuk melewati.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Ruang kosong di NAS di bawah rem pengaman. Encoding dijeda otomatis.",
+  "Loading…": "Memuat…",
+  "Next film": "Film berikutnya",
+  "Previous film": "Film sebelumnya",
+  "Next page": "Halaman berikutnya",
+  "Previous page": "Halaman sebelumnya",
+  "Rows per page": "Baris per halaman",
+  "Resume": "Lanjutkan",
+  "Resume encoding": "Lanjutkan encoding",
+  "Resume subtitles": "Lanjutkan subtitle",
+  "Open settings": "Buka pengaturan",
+  "Open the library": "Buka pustaka",
+  "Subtitle languages": "Bahasa subtitle",
+  "Update": "Perbarui",
+  "No results for this search or filter.": "Tidak ada hasil untuk pencarian atau filter ini.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Tidak ada antrean untuk encoding. File baru masuk antrean setelah pemindaian.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Belum ada file yang diganti. Encode yang selesai muncul di sini setelah pemeriksaan kualitas.",
+  "No files were kept as they are. Films that would save too little end up here.": "Tidak ada file yang dibiarkan apa adanya. Film yang penghematannya terlalu kecil berakhir di sini.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Tidak ada subtitle yang menunggu. File yang kekurangan bahasa masuk antrean setelah pemindaian.",
+  "No subtitle job is running right now.": "Saat ini tidak ada tugas subtitle yang berjalan.",
+  "No subtitles have been made yet.": "Belum ada subtitle yang dibuat.",
+  "Nothing missing: every file got its subtitles so far.": "Tidak ada yang kurang: sampai sekarang setiap file sudah mendapat subtitle-nya.",
+  "No failed encodes.": "Tidak ada encode yang gagal.",
+  "No failed subtitle jobs.": "Tidak ada tugas subtitle yang gagal.",
+  "Nothing was added in the last 14 days.": "Tidak ada yang ditambahkan dalam 14 hari terakhir.",
+  "No videos with this plan.": "Tidak ada video dengan rencana ini.",
+  "The library is being scanned; videos appear as they are found.": "Pustaka sedang dipindai; video muncul saat ditemukan.",
+  "No videos found yet. Check the media folder and run a scan.": "Belum ada video ditemukan. Periksa folder media dan jalankan pemindaian.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Tidak ada yang dikarantina. File asli yang diganti disimpan di sini sampai masa simpan berakhir.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Tidak ditemukan folder DVD atau Blu-ray (VIDEO_TS, BDMV) di pustaka.",
+  "1 worker online": "1 worker online",
+  "A worker is busy with this file": "Sebuah worker sedang memproses file ini",
+  "A worker is grabbing the frames": "Sebuah worker sedang mengambil frame",
+  "A worker is searching or making subtitles": "Sebuah worker sedang mencari atau membuat subtitle",
+  "A worker picks up the next job within a few seconds.": "Sebuah worker mengambil tugas berikutnya dalam beberapa detik.",
+  "Above this, the oldest comparisons are deleted automatically.": "Di atas batas ini, perbandingan tertua dihapus otomatis.",
+  "All replaced films": "Semua film yang diganti",
+  "Already efficient: encoding would hardly save anything": "Sudah efisien: encoding hampir tidak menghemat apa pun",
+  "Automatic comparisons": "Perbandingan otomatis",
+  "Being made…": "Sedang dibuat…",
+  "Can be made": "Bisa dibuat",
+  "Can encode on the CPU with x265": "Bisa encode di CPU dengan x265",
+  "Comparison storage limit": "Batas penyimpanan perbandingan",
+  "Comparisons": "Perbandingan",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: tidak di-encode ulang, lapisan DV akan hilang",
+  "Encoding is paused.": "Encoding dijeda.",
+  "Enlarge": "Perbesar",
+  "Errors": "Kesalahan",
+  "Flip": "Tukar",
+  "Four frames of the original and the new version are stored": "Empat frame dari versi asli dan baru tersimpan",
+  "Full width": "Lebar penuh",
+  "GPU encoder found": "Encoder GPU ditemukan",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Ambil empat frame dari versi asli dan baru untuk setiap film yang diganti, agar Anda selalu bisa memeriksa gambarnya di halaman Bandingkan. Sekitar 1–2 MB per film.",
+  "Keyboard shortcuts": "Pintasan keyboard",
+  "Leave without saving? Your changes to the settings will be lost.": "Keluar tanpa menyimpan? Perubahan pengaturan Anda akan hilang.",
+  "Moved to the front": "Dipindahkan ke depan",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Belum ada perbandingan. Buat satu selagi versi asli masih di karantina, atau aktifkan perbandingan otomatis di Pengaturan.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Tidak ada film yang bisa dibandingkan sekarang: versi asli sudah keluar dari karantina, atau belum ada yang diganti.",
+  "No longer possible": "Tidak lagi bisa",
+  "No subtitles found online and none could be made": "Tidak ada subtitle ditemukan online dan tidak ada yang bisa dibuat",
+  "Ollama found: can translate subtitles": "Ollama ditemukan: bisa menerjemahkan subtitle",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Bagian dari folder DVD atau Blu-ray; konversi di halaman DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Dijeda otomatis: ruang kosong NAS lebih kecil dari rem pengaman.",
+  "Planned for encoding": "Direncanakan untuk encoding",
+  "Queued for the CPU encoder": "Dalam antrean untuk encoder CPU",
+  "Replaced after the quality check; the original is in quarantine for a while": "Diganti setelah pemeriksaan kualitas; versi asli berada di karantina untuk sementara",
+  "Replaced films appear here after their first encode.": "Film yang diganti muncul di sini setelah encode pertamanya.",
+  "Search the log…": "Cari di log…",
+  "Show films that can be compared": "Tampilkan film yang bisa dibandingkan",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Tampilkan versi asli dan baru bergantian: cara terbaik melihat grain dan detail",
+  "Skipped": "Dilewati",
+  "Skipped by you; Retry puts it back in the queue": "Dilewati oleh Anda; \"Coba lagi\" mengembalikannya ke antrean",
+  "Slider back to the middle": "Slider kembali ke tengah",
+  "Smaller": "Perkecil",
+  "Stopped because the file changed or disappeared": "Berhenti karena file berubah atau hilang",
+  "Stopped with an error; see the message and try again": "Berhenti dengan kesalahan; lihat pesannya dan coba lagi",
+  "Subtitles are paused.": "Subtitle dijeda.",
+  "The file could not be read; see the drawer": "File tidak bisa dibaca; lihat panel samping",
+  "The new file would save less than the minimum saving, so the original was kept": "File baru akan menghemat kurang dari penghematan minimum, jadi versi asli dipertahankan",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Versi baru ada di NAS dan akan ditukar segera setelah tidak ada yang menonton",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Versi asli sudah keluar dari karantina, jadi frame tidak bisa diambil lagi",
+  "The original is still in quarantine, so the frames can still be grabbed": "Versi asli masih di karantina, jadi frame masih bisa diambil",
+  "The original was put back from quarantine": "Versi asli dikembalikan dari karantina",
+  "The queue is empty. New files are queued after a scan.": "Antrean kosong. File baru masuk antrean setelah pemindaian.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Server membagikan file worker yang lebih baru; worker memasangnya setelah tugas saat ini",
+  "Undo": "Urungkan",
+  "Waiting for Plex: someone is watching this film": "Menunggu Plex: seseorang sedang menonton film ini",
+  "Waiting for a worker; the queue runs from top to bottom": "Menunggu worker; antrean berjalan dari atas ke bawah",
+  "Warnings": "Peringatan",
+  "Whisper installed: can make subtitles": "Whisper terpasang: bisa membuat subtitle",
+  "Would save less than the minimum saving": "Akan menghemat kurang dari penghematan minimum",
+  "expires today": "berakhir hari ini",
+  "expires within a day": "berakhir dalam sehari",
+  "less than a day left": "sisa kurang dari sehari",
+  "waiting for Plex": "menunggu Plex",
+  "update pending": "pembaruan tertunda",
+  "Tap to switch between original and new": "Ketuk untuk beralih antara asli dan baru",
+  "Repeated": "Berulang",
+  "Search in the current list": "Cari di daftar saat ini",
+  "Clear the search, close a drawer or dialog": "Hapus pencarian, tutup panel atau dialog",
+  "Previous or next film on a comparison": "Film sebelumnya atau berikutnya pada perbandingan",
+  "Open or switch the focused row, switch or header": "Buka atau alihkan baris, sakelar, atau header yang difokuskan",
+  "This list": "Daftar ini",
+  "Nothing in the log matches this.": "Tidak ada di log yang cocok dengan ini.",
+  "Nothing has happened yet.": "Belum ada yang terjadi.",
+  "No worker is online, so nothing can run.": "Tidak ada worker yang online, jadi tidak ada yang bisa berjalan.",
+  "There is no worker yet. Add one to get started.": "Belum ada worker. Tambahkan satu untuk memulai.",
+  "Open Workers": "Buka Worker",
+  "Some values are out of range.": "Beberapa nilai di luar rentang.",
+  "no capabilities reported": "tidak ada kemampuan yang dilaporkan",
+  "Replaced · expires": "Diganti · berakhir",
+  "Made": "Dibuat",
+  "Make": "Buat",
+  "lots of motion": "banyak gerakan",
+  "dark scene": "adegan gelap",
+  "a quarter in": "di seperempat",
+  "three quarters in": "di tiga perempat",
+  "Encoded": "Di-encode",
+  "Finished": "Selesai",
+  "later": "kemudian",
+  "Leave": "Keluar",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Perbandingan mengambil 4 frame dari file asli dan versi baru (total sekitar 1–2 MB). Dapat dibuat selama file asli masih di karantina, dan tetap tersimpan sampai Anda menghapusnya, bahkan setelah file asli hilang.",
+  "Retry on CPU": "Coba lagi di CPU",
+  "Scan": "Pemindaian"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1mulai$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Sekarang: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan menemukan $1 video ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · 5% terlemah $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "5% terlemah $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Baru ($1 hari)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Rencana: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Penggantian gagal ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} gagal{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Pemindaian selesai: $1 video, $2 baru, $3 berubah, $4 hilang; $5 tugas encode dan $6 tugas subtitle ditambahkan"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Pemindaian selesai: $1 video, $2 baru, $3 berubah, $4 hilang, $5 di folder yang dilewati; $6 tugas encode dan $7 tugas subtitle ditambahkan"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Encode ulang $1 film dengan aturan saat ini? File asli dipulihkan dan film mendapat prioritas di antrean."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 film kembali ke antrean{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 file asli dipulihkan dan masuk antrean lagi (aturan saat ini)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Baru: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Diganti: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray dikonversi: $1 ($2 GB); folder disk ada di karantina"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Asli dipulihkan: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 mulai {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 tugas (dari total $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Pilihan dibagikan - encoding dijeda otomatis"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Pilihan dibagikan - subtitle dijeda otomatis"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Pengaturan diubah: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Galat tugas $1: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Tugas $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 offline: $2 tugas kembali ke antrean"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 dimulai ulang: $2 tugas terputus kembali ke antrean"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 diperbarui ke $2: $3 tugas gagal kembali ke antrean"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 dihapus"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: encoding {t:$2}, subtitle {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Perencanaan diperbarui: $1 tugas encode dan $2 tugas subtitle ditambahkan"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 tugas dimasukkan ke antrean secara manual"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 tugas: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 perbandingan dihapus"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Keluar dari $1 sesi lain"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Kode pemulihan dipakai untuk masuk (sisa $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "File asli disimpan paling lama $1 hari dan totalnya tidak pernah lebih dari $2. Yang terlama dihapus lebih dulu. Memulihkan akan menghapus versi baru."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - klik untuk menghapus"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 folder akan dikonversi · worker mulai dalam setengah menit"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 audio · $2 subtitle"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Hapus $1 perbandingan? Filmnya sendiri tetap seperti semula."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Frame $1 · pada $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Frame $1 · pada $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB sebagai jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Waktu encode $1 mnt · diukur pada 8 fragmen, lalu diperiksa di seluruh film."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Tersedia sekarang: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "5% terlemah $1 · norma $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "timing $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Gagal membuat frame: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "pilihan · berikutnya"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "pilihan · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Sekarang:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· lalu $1 lagi dari pilihan"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "perkiraan · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 selesai sebelumnya · tampilkan"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 ditambahkan ke pilihan · worker mulai dalam beberapa detik"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Pilihan {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "dibuat: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% lebih kecil$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "baru saja"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 mnt lalu"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 jam lalu"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 hari lalu"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "dilihat {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 hr $2 j"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 j $2 m"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 video"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "karantina $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 per 24 jam"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 hemat"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB hemat"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% lebih kecil pada file yang diproses"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 online"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "$1 lagi akan dimulai, lalu jeda"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 item · halaman $2 dari $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 dipilih"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Pilih semua $1 hasil"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Memindai: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× dicoba"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 mnt"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Aktif · sisa $1 kode pemulihan"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 sesi aktif, termasuk sesi ini."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 diperbarui{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 sesi lain dikeluarkan"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Proses hanya $1 ini? Item ini mendapat prioritas, pemrosesan dilanjutkan lalu dijeda lagi secara otomatis setelahnya."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Lewati $1 tugas?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Pulihkan $1 file asli? Versi baru akan dihapus."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Hapus worker $1 dari daftar? Jika online lagi, worker akan muncul kembali secara otomatis."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "berjalan sejak $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "sisa ~$1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "hingga $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "sedang mengerjakan"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex terhubung (versi $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex tidak merespons dengan benar: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "kesalahan: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "penggantian gagal: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "nilai tidak valid untuk $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 harus antara $2 dan $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · terburuk 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 j"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU tidak bisa menjaga kualitas - masuk antrean untuk encoder CPU (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Pembersihan staging: sisa dihapus $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 per halaman"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 worker online"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · menambah worker, kunci worker, dan unduhan ada di halaman Worker."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · mulai dalam ~{t:$2} · perkiraan"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · perkiraan"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "sisa $1 hari"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "berakhir dalam $1 hari"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Dibuat · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Bisa dibuat · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · langkah $1 dari $2 · sisa ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · langkah $1 dari $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · sisa ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 perbandingan diminta · siap dalam beberapa menit"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Buat $1 perbandingan? Sekitar 1–2 MB masing-masing."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Berulang $1 kali"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "antara $1 dan $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 tugas"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Galat di $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 perbandingan diminta"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Perbandingan dibersihkan: $1 dihapus (lebih dari $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Folder karantina diubah namanya menjadi quarantine ($1 catatan diperbarui)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 dihapus: $2 tugas kembali ke antrean"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Karantina: $1 sudah ada, $2 dibiarkan di tempatnya"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Folder karantina diubah namanya menjadi quarantine; $1 catatan diperbarui, tetapi $2 belum kosong"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Mengubah nama folder karantina gagal (apakah share media sudah ter-mount?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "versi baru tidak ada di staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   ".mkv baru tidak ada di staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "file asli menghilang"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "file asli telah berubah sementara itu"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "file asli tidak lagi tersedia"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "pemeriksaan di NAS ditolak (durasi/trek)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray dikonversi ke mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "coba lagi setelah pembaruan worker"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "dilewati oleh Anda"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "file tujuan sudah ada"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker offline - dijadwalkan ulang"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker dihapus - dijadwalkan ulang"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker dimulai ulang - dijadwalkan ulang"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "penggantian gagal: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision tidak ada di mkv baru"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: tidak dienkode ulang (lapisan DV akan hilang)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "sebuah stream tidak dapat disalin ke .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg tidak ada kemajuan selama $1 menit (share tidak dapat dijangkau?) - dihentikan"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 dari $2 file hilang sekaligus - share tidak dapat dijangkau? Tidak ada yang ditandai hilang"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "terjemahan gagal: tidak ada jawaban yang dapat digunakan untuk $1 baris setelah percobaan ulang"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: kesalahan server"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - unduh model (ollama pull <model>) atau perbaiki ollama_model di worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama tidak dapat dijangkau di $1 ($2) - jalankan Ollama atau periksa ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama tidak dapat dijangkau: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama terus gagal selama $2 menit"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 memakan waktu lebih dari satu jam - apakah share media masih dapat dijangkau?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 tidak ada; instal $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF seluruh film $1 tidak masuk akal dengan semua metode pemasangan (sampel $2); rendah di $3. File asli dipertahankan; periksa sumbernya di sana"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: tidak dapat membaca file"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: gagal"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "ruang kosong di PC tidak cukup untuk film ini ($1 GB diperlukan di $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "ruang di folder kerja tidak cukup: $1 GB tersisa, butuh ~$2 GB"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "dengan bitrate minimum paling banyak $1% lebih kecil"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "mengekstrak metadata dari enhancement layer"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "unduhan tidak cocok (sha256) - tidak dipakai"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "pemeriksaan: durasi atau jumlah stream berbeda"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "mkv baru terlalu pendek ($1 dari $2 mnt)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 dari $2 selesai, menunggu worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "mengonversi Dolby Vision ke profile 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "menyisipkan metadata ke base layer"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "memeriksa VMAF (pengukuran kedua)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "tidak ada pengaturan yang memenuhi target kualitas"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "batas unduhan tercapai - sisanya nanti"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "batas harian OpenSubtitles tercapai"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "sebagian; sisanya setelah batas unduhan"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 tidak ditemukan setelah diunduh"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: bahasa lisan terdeteksi"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (diterjemahkan dari $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "menunggu ruang kosong di PC"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "file subtitle luar biasa besar"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "pengukuran uji mandiri tidak andal"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "percobaan terjemahan $1 gagal"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "menunggu: sedang ditonton di Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "diperkirakan hanya $1% lebih kecil"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "mengunduh $1 (sekali saja)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "pemeriksaan seluruh film di bawah target"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "tidak dapat mengambil frame pada $1s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "seluruh film sedikit di bawah target"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "mencari film di disk"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "target kualitas tidak tercapai"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "pengukuran pemeriksaan tidak andal"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "path tidak valid dari server"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "lagi: penghematan minimum kini 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper berjalan di GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "tidak ada judul ditemukan di DVD"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "path mencurigakan di arsip"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "menunggu: Plex tidak terjangkau"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "mengerjakan $1 dari $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles tidak dapat dijangkau"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (transkripsi)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "memeriksa VMAF seluruh film"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "selesai, menunggu penggantian"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "folder lama ke karantina"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "pemeriksaan VMAF $1 terlalu rendah"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "membaca disk (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "diterjemahkan dari bahasa Inggris"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "selesai ($1 dari $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "ekstraksi audio gagal"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "beralih ke CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles sudah masuk"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (dari profil 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "menunggu worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "path mencurigakan di zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "EN tertanam tidak dapat dibaca"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "terpanjang sejauh ini: judul"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "timing tidak cocok"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "hanya $1% lebih kecil"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "segmen $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "file asli dipertahankan"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "sisa unduhan hari ini"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "judul $1 diperiksa"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "menunggu penggantian"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "menyalin ke NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "mempertahankan file asli"
+  ],
+  [
+   "translation failed",
+   "g",
+   "terjemahan gagal"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "server tidak dapat dijangkau"
+  ],
+  [
+   "searching quality",
+   "g",
+   "mencari kualitas"
+  ],
+  [
+   "making references",
+   "g",
+   "membuat referensi"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "mengonversi ke mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "subtitle dihentikan"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "menyalin NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "menyalin PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "mencari film"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "menggabungkan ke mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "playlist terpanjang"
+  ],
+  [
+   "timing reference",
+   "g",
+   "referensi timing"
+  ],
+  [
+   "speech segments",
+   "g",
+   "segmen ucapan"
+  ],
+  [
+   "too little gain",
+   "g",
+   "penghematan terlalu kecil"
+  ],
+  [
+   " not applicable",
+   "g",
+   " tidak berlaku"
+  ],
+  [
+   "download failed",
+   "g",
+   "unduhan gagal"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "setelah ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "menerjemahkan ke"
+  ],
+  [
+   "next candidate",
+   "g",
+   "kandidat berikutnya"
+  ],
+  [
+   "after shifting",
+   "g",
+   "setelah digeser"
+  ],
+  [
+   "reading audio",
+   "g",
+   "membaca audio"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Pilihan · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 menunggu"
+  ],
+  [
+   "search failed",
+   "g",
+   "pencarian gagal"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "encode ulang"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "judul $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " galat"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 selesai"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "subtitle:"
+  ],
+  [
+   "replacing",
+   "g",
+   "mengganti"
+  ],
+  [
+   "subtitles",
+   "g",
+   "subtitle"
+  ],
+  [
+   "candidate",
+   "g",
+   "kandidat"
+  ],
+  [
+   "encoding:",
+   "g",
+   "encoding:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "mulai"
+  ],
+  [
+   "encoding",
+   "g",
+   "encoding"
+  ],
+  [
+   "checking",
+   "g",
+   "memeriksa"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", hingga "
+  ],
+  [
+   "present",
+   "g",
+   "ada"
+  ],
+  [
+   "missing",
+   "g",
+   "hilang"
+  ],
+  [
+   "speed",
+   "g",
+   "kecepatan"
+  ],
+  [
+   "saved",
+   "g",
+   "disimpan"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU tidak bisa menjaga kualitas - masuk antrean untuk encoder CPU (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Pembersihan staging: sisa dihapus"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "folder media kosong atau belum ter-mount - tidak ada yang berubah"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "menjaga kualitas akan butuh bitrate lebih tinggi daripada yang dimiliki sumber"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "butuh bitrate lebih tinggi daripada sumber"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker dimulai ulang untuk pembaruan"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "tidak ada stream video (hanya gambar sampul?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "tidak ada stream audio untuk ditranskripsi"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "ruang kosong di PC tidak cukup untuk film ini"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "mencoba lagi di CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "menelusuri folder"
+  ],
+  [
+   "analysing files",
+   "g",
+   "menganalisis file"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "merencanakan tugas"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "Encoding CPU aktif"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "Encoding CPU nonaktif"
+  ]
+ ]
+}

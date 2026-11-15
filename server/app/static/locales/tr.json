@@ -1,0 +1,2060 @@
+{
+ "name": "Türkçe",
+ "s": {
+  "Re-encode from original": "Orijinalden yeniden kodla",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Mevcut kurallarla yeniden kodlansın mı? Orijinal geri yüklenir ve film öncelik alır.",
+  "Back in the queue": "Yeniden kuyrukta",
+  "Restore originals": "Orijinalleri geri yükle",
+  "Minimum bitrate (1080p)": "Minimum bit hızı (1080p)",
+  "Extra floor (share of the source)": "Ek alt sınır (kaynağın payı)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "İsteğe bağlı: ayrıca orijinal video bit hızının en az bu payını koru. Yalnızca çok yüksek bit hızlı kaynaklar için yararlıdır. 0 = kapalı.",
+  "with the minimum bitrate at most": "minimum bit hızıyla en fazla",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Yeni dosya, VMAF uygun bulsa bile asla bunun altına inmez. Diğer çözünürlükler orantılı: 4K ×2,5 · 720p ×0,55 · SD ×0,3 · HDR +%15 · animasyon ×0,6.",
+  "bitrate already near the minimum": "bit hızı zaten alt sınıra yakın",
+  "MFA reset from settings - set it up again": "MFA ayarlardan sıfırlandı - yeniden kurun",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA, MFA_RESET ile sıfırlandı - MFA_RESET'i container ayarlarından tekrar kaldırın",
+  "MFA enabled": "MFA etkinleştirildi",
+  "MediaScan started": "MediaScan başlatıldı",
+  "New recovery codes created": "Yeni kurtarma kodları oluşturuldu",
+  "Password changed; other sessions signed out": "Parola değiştirildi; diğer oturumlar kapatıldı",
+  "Password set (first time)": "Parola belirlendi (ilk kez)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Dikkat: ADMIN_PASSWORD 10 karakterden kısa - Ayarlar'da daha güçlü bir parola seçin",
+  "part of a DVD/Blu-ray folder": "bir DVD/Blu-ray klasörünün parçası",
+  "folder is in Skip folders": "klasör Atlanacak klasörler listesinde",
+  "file disappeared": "dosya kayboldu",
+  "worker restarted - rescheduled": "worker yeniden başladı - yeniden planlandı",
+  "worker offline - rescheduled": "worker çevrimdışı - yeniden planlandı",
+  "retry after worker update": "worker güncellemesinden sonra yeniden deneme",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray mkv'ye dönüştürüldü",
+  "skipped by you": "sizin tarafınızdan atlandı",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Bir film izlenirken değiştirme bekler ve her değişiklikten sonra Plex yenilenir.",
+  "Confirm with your password and a code from your app.": "Parolanız ve uygulamanızdan bir kodla onaylayın.",
+  "Your old recovery codes will stop working.": "Eski kurtarma kodlarınız geçersiz olacak.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Mevcut doğrulayıcı bağlantınız ve kurtarma kodlarınız geçersiz olacak. Ardından MFA'yı hemen yeniden kuracaksınız.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Panel için bir parola seçin. Kurulum kodu container günlüğünde bulunur (Container Manager › mediascan › Log veya",
+  "- click to remove": "- kaldırmak için tıklayın",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Geçersiz adres, örn. http://192.168.1.10:32400",
+  "Enter a Plex token": "Bir Plex token'ı girin",
+  "A password has already been set": "Zaten bir parola belirlenmiş",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Anahtar WORKER_TOKEN içinde sabit (container ortamı)",
+  "selection still running - pause or wait until it is done": "seçim hâlâ çalışıyor - duraklatın veya bitmesini bekleyin",
+  "Now running": "Şu an çalışıyor",
+  "Finding the film on the disc": "Diskte film aranıyor",
+  "Converting to one .mkv": "Tek bir .mkv'ye dönüştürülüyor",
+  "Checking (duration, tracks)": "Kontrol ediliyor (süre, parçalar)",
+  "Copying to the NAS": "NAS'a kopyalanıyor",
+  "Old folder to quarantine": "Eski klasör karantinaya",
+  "worker has not reported for a while": "worker bir süredir bildirim yapmadı",
+  "waiting for the worker": "worker bekleniyor",
+  "Welcome to MediaScan": "MediaScan'e hoş geldiniz",
+  "Setup code": "Kurulum kodu",
+  "New password (at least 10 characters)": "Yeni parola (en az 10 karakter)",
+  "Repeat password": "Parolayı tekrarla",
+  "Set password": "Parolayı belirle",
+  "The passwords do not match": "Parolalar eşleşmiyor",
+  "Setup code is wrong - check the container log": "Kurulum kodu yanlış - container günlüğüne bakın",
+  "Choose a password of at least 10 characters": "En az 10 karakterlik bir parola seçin",
+  "Animation folders": "Animasyon klasörleri",
+  "Top-level folders with animation: these may use a lower bitrate.": "Animasyon içeren ana klasörler: bunlar daha düşük bit hızı kullanabilir.",
+  "Where do I find the token?": "Token'ı nerede bulurum?",
+  "Connect": "Bağla",
+  "Disconnect": "Bağlantıyı kes",
+  "Connected": "Bağlı",
+  "Not connected": "Bağlı değil",
+  "+ Add language": "+ Dil ekle",
+  "Renew": "Yenile",
+  "Worker version": "Worker sürümü",
+  "Password": "Parola",
+  "Other sessions are signed out after a change.": "Değişiklikten sonra diğer oturumlar kapatılır.",
+  "Change password": "Parolayı değiştir",
+  "Other sessions will be signed out.": "Diğer oturumlar kapatılacak.",
+  "Change": "Değiştir",
+  "New worker key": "Yeni worker anahtarı",
+  "Create new key": "Yeni anahtar oluştur",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Yeni anahtarı girene kadar tüm worker'lar durur (installer'ı yeniden çalıştırın veya worker.ini'yi düzenleyin).",
+  "Repeat new password": "Yeni parolayı tekrarla",
+  "Password changed": "Parola değiştirildi",
+  "New worker key created": "Yeni worker anahtarı oluşturuldu",
+  "Disconnect Plex?": "Plex bağlantısı kesilsin mi?",
+  "Plex disconnected": "Plex bağlantısı kesildi",
+  "Plex connected": "Plex bağlandı",
+  "Incorrect password": "Yanlış parola",
+  "Incorrect code": "Yanlış kod",
+  "Incorrect code from your authenticator app": "Doğrulayıcı uygulamasından gelen kod yanlış",
+  "Too many attempts - try again in 15 minutes": "Çok fazla deneme - 15 dakika sonra tekrar deneyin",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "VIDEO_TS veya BDMV içeren klasörler. Dönüştürme, bunları tüm görüntü, ses, altyazı ve bölümleriyle tek bir .mkv yapar.",
+  "Convert to MKV": "MKV'ye dönüştür",
+  "Folder": "Klasör",
+  "Type": "Tür",
+  "found": "bulundu",
+  "queued": "kuyrukta",
+  "converting…": "dönüştürülüyor…",
+  "converted": "dönüştürüldü",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Dönüştürme her şeyi 1:1 tek bir .mkv'ye kopyalar: görüntü (HDR dahil), tüm ses parçaları, altyazılar ve bölümler. DVD'de en uzun başlığı (filmi) seçer. Eski klasör karantinaya gider, yani geri yükleyebilirsiniz. Ardından .mkv normal kodlama ve altyazı sürecinden geçer. Dolby Vision Blu-ray'ler Dolby Vision profil 8.1 olur (temel katman 1:1, DV meta verileri eklenir): Plex ve TV'niz bunu Dolby Vision, diğer oynatıcılar HDR10 olarak oynatır. Böyle bir film sonradan yeniden kodlanmaz, çünkü Dolby Vision kaybolur.",
+  "Compare": "Karşılaştır",
+  "Delete comparison": "Karşılaştırmayı sil",
+  "Comparison deleted": "Karşılaştırma silindi",
+  "comparison": "karşılaştırma",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Orijinal ve yeni sürüm yan yana: boyut, kalite, görüntü ve altyazılar. Hangi filmlerin olacağını siz seçin.",
+  "Original → new": "Orijinal → yeni",
+  "Quality (VMAF)": "Kalite (VMAF)",
+  "Comparison": "Karşılaştırma",
+  "View": "Görüntüle",
+  "Make comparison": "Karşılaştırma oluştur",
+  "previous attempt failed": "önceki deneme başarısız",
+  "Back": "Geri",
+  "Make again": "Yeniden oluştur",
+  "New": "Yeni",
+  "VMAF whole film": "VMAF tüm film",
+  "Making the frames… this usually takes less than a minute.": "Kareler oluşturuluyor… bu genellikle bir dakikadan kısa sürer.",
+  "There is no picture comparison for this film yet.": "Bu film için henüz görüntü karşılaştırması yok.",
+  "Picture · drag across the image": "Görüntü · görüntü üzerinde sürükleyin",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR bu görünüm için SDR'ye dönüştürüldü; TV'nizde HDR olarak görürsünüz.",
+  "How the setting was chosen": "Ayar nasıl seçildi",
+  "Step": "Adım",
+  "Weakest 5%": "En zayıf %5",
+  "Bitrate": "Bit hızı",
+  "chosen": "seçildi",
+  "No data.": "Veri yok.",
+  "Nothing needed, all languages were present.": "Gerek yok, tüm diller zaten mevcuttu.",
+  "Not processed yet.": "Henüz işlenmedi.",
+  "Comparison requested · ready within a minute": "Karşılaştırma istendi · bir dakika içinde hazır",
+  "Delete this comparison? The film itself stays as it is.": "Bu karşılaştırma silinsin mi? Filmin kendisi olduğu gibi kalır.",
+  "Not possible": "Mümkün değil",
+  "Slide between original and new": "Orijinal ile yeni arasında kaydırın",
+  "Overview": "Genel bakış",
+  "Queue": "Kuyruk",
+  "In progress": "İşleniyor",
+  "No gain": "Kazanç yok",
+  "Failed": "Başarısız",
+  "Subtitles": "Altyazılar",
+  "Recently added": "Yeni eklenenler",
+  "Library": "Kitaplık",
+  "Quarantine": "Karantina",
+  "Workers": "Worker'lar",
+  "Activity": "Etkinlik",
+  "Settings": "Ayarlar",
+  "Encoding": "Kodlama",
+  "System": "Sistem",
+  "Status of the entire library.": "Tüm kitaplığın durumu.",
+  "Selection": "Seçim",
+  "waiting for worker": "worker bekleniyor",
+  "In the selection": "Seçimde",
+  "selection": "seçim",
+  "Selection · encoding": "Seçim · kodlama",
+  "Selection · subtitles": "Seçim · altyazılar",
+  "Close list": "Listeyi kapat",
+  "waiting": "bekliyor",
+  "nothing needed": "gerek yok",
+  "original kept": "orijinal korundu",
+  "Find, sync or generate missing subtitles.": "Eksik altyazıları bulun, eşitleyin veya oluşturun.",
+  "All videos with their current plan. You can also queue items manually here.": "Mevcut planlarıyla tüm videolar. Burada öğeleri elle de kuyruğa ekleyebilirsiniz.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "İşi yapan makineler. Her worker'ın neler yapabileceğini seçin.",
+  "Log of everything that happens.": "Olan her şeyin günlüğü.",
+  "Scan now": "Şimdi tara",
+  "Saved": "Tasarruf",
+  "Free on NAS": "NAS'ta boş",
+  "Progress": "İlerleme",
+  "Saved per day": "Günlük tasarruf",
+  "last 14 days": "son 14 gün",
+  "Per folder": "Klasöre göre",
+  "all": "tümü",
+  "nothing processed yet": "henüz bir şey işlenmedi",
+  "no measurement yet": "henüz ölçüm yok",
+  "No processed files yet": "Henüz işlenmiş dosya yok",
+  "No worker connected yet": "Henüz bağlı worker yok",
+  "no worker": "worker yok",
+  "worker offline": "worker çevrimdışı",
+  "online": "çevrimiçi",
+  "disabled": "kapalı",
+  "encoding": "kodlama",
+  "subtitles": "altyazılar",
+  "Search by name or folder…": "Ada veya klasöre göre ara…",
+  "Several titles at once: separate them with |": "Aynı anda birden çok başlık: | ile ayırın",
+  "Nothing to show": "Gösterilecek bir şey yok",
+  "File": "Dosya",
+  "Source": "Kaynak",
+  "Status": "Durum",
+  "Result": "Sonuç",
+  "Languages": "Diller",
+  "Error": "Hata",
+  "When": "Ne zaman",
+  "Plan": "Plan",
+  "Added": "Eklendi",
+  "Original": "Orijinal",
+  "Size": "Boyut",
+  "Replaced": "Değiştirildi",
+  "estimate": "tahmin",
+  "Name": "Ad",
+  "Done": "Bitti",
+  "Nothing found": "Hiçbir şey bulunamadı",
+  "Process only these": "Yalnızca bunları işle",
+  "Prioritise": "Öncelik ver",
+  "Skip": "Atla",
+  "Retry": "Yeniden dene",
+  "Clear": "Temizle",
+  "Both": "Her ikisi",
+  "Restore original": "Orijinali geri yükle",
+  "Find subtitles": "Altyazı bul",
+  "running": "çalışıyor",
+  "done": "bitti",
+  "failed": "başarısız",
+  "replacing": "değiştiriliyor",
+  "no gain": "kazanç yok",
+  "skipped": "atlandı",
+  "restored": "geri yüklendi",
+  "cancelled": "iptal edildi",
+  "nothing found": "bulunamadı",
+  "encode": "kodla",
+  "already efficient": "zaten verimli",
+  "small gain": "küçük kazanç",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "hata",
+  "unknown": "bilinmiyor",
+  "All": "Tümü",
+  "Already efficient": "Zaten verimli",
+  "Small gain": "Küçük kazanç",
+  "Restored": "Geri yüklendi",
+  "Video": "Video",
+  "Duration": "Süre",
+  "Audio": "Ses",
+  "Encode": "Kodlama",
+  "Quality": "Kalite",
+  "Encode time": "Kodlama süresi",
+  "Message": "Mesaj",
+  "Started": "Başladı",
+  "Search": "Arama",
+  "weakest 5%": "en zayıf %5",
+  "video": "video",
+  "Worker": "Worker",
+  "Hardware": "Donanım",
+  "Resolution": "Çözünürlük",
+  "Working on": "Üzerinde çalışıyor",
+  "nothing": "hiçbir şey",
+  "up to 4K": "4K'ya kadar",
+  "up to 1080p": "1080p'ye kadar",
+  "up to 720p": "720p'ye kadar",
+  "up to SD": "SD'ye kadar",
+  "Remove": "Kaldır",
+  "Add worker": "Worker ekle",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Her worker neler yapabildiğini kendisi bildirir (encoder bulundu, Whisper kurulu). Burada neye izin verildiğine siz karar verirsiniz. Değişiklikler bir sonraki işten itibaren geçerlidir; çalışan bir iş önce tamamlanır.",
+  "This machine lacks the hardware or software for this": "Bu makinede bunun için gereken donanım veya yazılım yok",
+  "Quality level": "Kalite seviyesi",
+  "Standard": "Standart",
+  "High": "Yüksek",
+  "Maximum": "Maksimum",
+  "Custom": "Özel",
+  "Custom target": "Özel hedef",
+  "Average VMAF and the weakest 5% of frames.": "Ortalama VMAF ve karelerin en zayıf %5'i.",
+  "avg.": "ort.",
+  "Minimum saving": "Minimum tasarruf",
+  "If a file saves less, the original is kept.": "Bir dosya daha az tasarruf sağlarsa orijinal korunur.",
+  "Processing": "İşleme",
+  "Storage & safety": "Depolama ve güvenlik",
+  "How long replaced originals can be restored.": "Değiştirilen orijinallerin ne kadar süre geri yüklenebileceği.",
+  "days": "gün",
+  "Above this, the oldest originals are deleted permanently.": "Bunun üzerinde en eski orijinaller kalıcı olarak silinir.",
+  "Safety brake": "Güvenlik freni",
+  "Encoding pauses when the NAS has less free space than this.": "NAS'ta bundan az boş alan kaldığında kodlama duraklar.",
+  "Scanning": "Tarama",
+  "Automatic scan": "Otomatik tarama",
+  "New files are queued automatically.": "Yeni dosyalar otomatik olarak kuyruğa eklenir.",
+  "Off": "Kapalı",
+  "Every hour": "Saatte bir",
+  "Every 6 hours": "6 saatte bir",
+  "Every 12 hours": "12 saatte bir",
+  "Daily": "Günlük",
+  "Skip folders": "Atlanacak klasörler",
+  "Comma-separated folder names.": "Virgülle ayrılmış klasör adları.",
+  "Plex": "Plex",
+  "Dashboard address": "Panel adresi",
+  "Use the IP address of the NAS, not localhost.": "localhost değil, NAS'ın IP adresini kullanın.",
+  "Worker key": "Worker anahtarı",
+  "Keep secret: with this key a worker can fetch jobs.": "Gizli tutun: bu anahtarla bir worker iş alabilir.",
+  "Show": "Göster",
+  "Copy": "Kopyala",
+  "Minimum requirements": "Minimum gereksinimler",
+  "Account & security": "Hesap ve güvenlik",
+  "Two-factor authentication": "İki adımlı doğrulama",
+  "Not active": "Etkin değil",
+  "New recovery codes": "Yeni kurtarma kodları",
+  "Reset MFA": "MFA'yı sıfırla",
+  "Sessions": "Oturumlar",
+  "Sign out everywhere else": "Diğer tüm oturumları kapat",
+  "Sign out": "Oturumu kapat",
+  "You have unsaved changes.": "Kaydedilmemiş değişiklikleriniz var.",
+  "Cancel": "İptal",
+  "Save": "Kaydet",
+  "Language": "Dil",
+  "Theme": "Tema",
+  "Light": "Açık",
+  "Dark": "Koyu",
+  "Auto": "Otomatik",
+  "Dashboard language.": "Panel dili.",
+  "Auto follows your system setting.": "Otomatik, sistem ayarınızı izler.",
+  "Reset": "Sıfırla",
+  "Create new codes": "Yeni kodlar oluştur",
+  "Close": "Kapat",
+  "Code from your authenticator app": "Doğrulayıcı uygulamanızdaki kod",
+  "Sign in": "Giriş yap",
+  "Activate": "Etkinleştir",
+  "Set up two-factor authentication": "İki adımlı doğrulamayı kur",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "QR kodunu doğrulayıcı uygulamanızla tarayın ve 6 haneli kodu girin.",
+  "Manual:": "Elle:",
+  "6-digit code": "6 haneli kod",
+  "123456 or recovery code": "123456 veya kurtarma kodu",
+  "Save your recovery codes": "Kurtarma kodlarınızı saklayın",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Telefonunuzu mu kaybettiniz? Bu kodların her biriyle bir kez giriş yapabilirsiniz. Yalnızca bir kez gösterilirler.",
+  "I have saved them": "Sakladım",
+  "Save them now, they are shown only once.": "Şimdi saklayın, yalnızca bir kez gösterilirler.",
+  "Server not responding": "Sunucu yanıt vermiyor",
+  "Sign-in failed": "Giriş başarısız",
+  "Code is incorrect": "Kod yanlış",
+  "Code is incorrect - check the time on your phone": "Kod yanlış - telefonunuzdaki saati kontrol edin",
+  "Scan started": "Tarama başladı",
+  "scan already running": "tarama zaten çalışıyor",
+  "Copied": "Kopyalandı",
+  "Resumed": "Sürdürüldü",
+  "Paused: a running job will finish first": "Duraklatıldı: çalışan bir iş önce tamamlanır",
+  "Added to the queue": "Kuyruğa eklendi",
+  "Not applicable": "Uygulanamaz",
+  "At least one language": "En az bir dil",
+  "Skip this job?": "Bu iş atlansın mı?",
+  "Restore the original? The new version will be deleted.": "Orijinal geri yüklensin mi? Yeni sürüm silinecek.",
+  "on": "açık",
+  "off": "kapalı",
+  "Quarantine cleanup": "Karantina temizliği",
+  "Background task": "Arka plan görevi",
+  "Planning at startup": "Başlangıçta planlama",
+  "Welcome": "Hoş geldiniz",
+  "Next": "İleri",
+  "Previous": "Geri",
+  "Next (or skip)": "İleri (veya atla)",
+  "Done, go to the overview": "Bitti, genel bakışa git",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan, filmlerinizi ve dizilerinizi görünür bir fark olmadan küçültür ve eksik altyazıları tamamlar. Orijinaller yalnızca kalite kontrolünden sonra değiştirilir ve önce bir süre karantinada tutulur.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Altı kısa adımda her şey hazır. Her şeyi daha sonra Ayarlar'dan değiştirebilirsiniz.",
+  "Your library": "Kitaplığınız",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan şimdi medya klasörünüzde video arıyor. Büyük bir kitaplıkta ilk tarama biraz sürer; siz devam edebilirsiniz.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "MediaScan'in asla dokunmadığı klasörler, virgülle ayrılmış (örn. Music, Downloads).",
+  "Scan again": "Yeniden tara",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Her dosyada olması gereken dilleri seçin. MediaScan eksik olanları OpenSubtitles'ta arar. Bulamazsa worker altyazıyı kendisi oluşturur (kendi bilgisayarınızda konuşma tanıma ve çeviri).",
+  "Click a language to remove it.": "Kaldırmak için bir dile tıklayın.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Her film, görüntünün insan gözüne nasıl göründüğünü ölçen VMAF ile ölçülür. \"Yüksek\", neredeyse herkes için orijinalden ayırt edilemez.",
+  "Higher = better picture, less space saved.": "Daha yüksek = daha iyi görüntü, daha az alan tasarrufu.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Gren ve karanlık sahneler için bir güvenlik ağı. 5 Mbps iyi bir varsayılandır; 4K ve diğer çözünürlükler orantılı olarak ayarlanır.",
+  "Plex (optional)": "Plex (isteğe bağlı)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Plex bağlıyken MediaScan, biri bir filmi izlerken onu değiştirmeyi bekler ve her değişiklikten sonra Plex'i yeniler. Plex yok mu? Bu adımı atlayın.",
+  "Plex address and token": "Plex adresi ve token",
+  "Plex token": "Plex token'ı",
+  "token (unchanged)": "token (değişmedi)",
+  "Add a worker": "Worker ekle",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Ağır iş, iyi bir ekran kartına sahip bir PC veya Mac'te yapılır: worker. Şimdi kurun ya da daha sonra Worker'lar üzerinden. Worker olmadığı sürece dosyalarınıza hiçbir şey olmaz.",
+  "✓ A worker is connected.": "✓ Bir worker bağlı.",
+  "Done! MediaScan is set up.": "Bitti! MediaScan kuruldu.",
+  "Connect the media share on the new machine.": "Yeni makinede medya paylaşımını bağlayın.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: sürücü harfi veya \\\\NAS\\Media · Mac: Finder › Sunucuya Bağlan · Linux: paketteki açıklamalara bakın.",
+  "Download the package for that system and unpack it.": "O sistem için paketi indirin ve arşivden çıkarın.",
+  "Run the installer.": "Installer'ı başlatın.",
+  "The installer asks for the details below and tests the connection.": "Installer aşağıdaki bilgileri sorar ve bağlantıyı test eder.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 veya daha yeni, Intel Arc veya 11. nesil+ iGPU, AMD RX 6000+ · 4 çekirdek · 8 GB · 100 GB boş · kablolu ağ. Altyazılar: 8 GB+ NVIDIA.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (altyazılar: 24 GB+) · 150 GB boş · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Bu panelde yeni sürüm olduğunda worker'lar kendilerini günceller.",
+  "What the workers are doing now and what is planned next.": "Worker'ların şu an yaptıkları ve sırada olanlar.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Görünür kalite kaybı olmadan dosyaları küçültün. Worker kuyruğu yukarıdan aşağıya işler.",
+  "select page": "sayfayı seç",
+  "select": "seç",
+  "to encode": "kodlanacak",
+  "Movie": "Film",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Değiştirilen orijinaller, geri yükleyebilmeniz veya yeniden kodlatabilmeniz için bir süre saklanır.",
+  "How MediaScan works: quality, subtitles, storage and security.": "MediaScan nasıl çalışır: kalite, altyazılar, depolama ve güvenlik.",
+  "General": "Genel",
+  "Advanced": "Gelişmiş",
+  "Connection": "Bağlantı",
+  "Hand out new encode jobs to the workers.": "Worker'lara yeni kodlama işleri dağıt.",
+  "Hand out new subtitle jobs to the workers.": "Worker'lara yeni altyazı işleri dağıt.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "VMAF ölçümünün ne kadar katı olduğu. Daha yüksek = daha iyi görüntü, daha az alan tasarrufu.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Her dosyanın hangi altyazılara sahip olması gerektiği. Eksik olanlar aranır, bulunamazsa oluşturulur.",
+  "Go to Workers": "Worker'lara git",
+  "new": "yeni",
+  "start": "başlangıç",
+  "Minimum bitrate (4K)": "Minimum bit hızı (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "4K için 1080p değerinin 2,5 katı yerine kendi alt sınırı. 0 = otomatik. HDR +%15 ve animasyon ×0,6 burada da geçerlidir.",
+  "Ready to use in a few steps.": "Birkaç adımda kullanıma hazır.",
+  "next": "sonraki",
+  "read error": "okuma hatası",
+  "MFA is already enabled": "MFA zaten etkin",
+  "a .mkv with that name already exists": "bu adla bir .mkv zaten var",
+  "a file already exists at the original location": "orijinal konumda zaten bir dosya var",
+  "action not possible in this status": "bu durumda işlem yapılamaz",
+  "walking folders": "klasörler taranıyor",
+  "planning jobs": "işler planlanıyor",
+  "check on the NAS rejected (duration/tracks)": "NAS üzerindeki kontrol reddedildi (süre/parçalar)",
+  "expected a JSON object": "JSON nesnesi bekleniyordu",
+  "ffprobe error": "ffprobe hatası",
+  "invalid resolution": "geçersiz çözünürlük",
+  "invalid worker token": "geçersiz worker token'ı",
+  "job belongs to another worker": "iş başka bir worker’a ait",
+  "job is no longer active": "iş artık etkin değil",
+  "no video track": "video parçası yok",
+  "not JSON": "JSON değil",
+  "not signed in": "oturum açılmadı",
+  "original disappeared": "orijinal dosya kayboldu",
+  "original has changed in the meantime": "orijinal dosya bu arada değişti",
+  "original is no longer in quarantine": "orijinal dosya artık karantinada değil",
+  "original no longer available": "orijinal dosya artık mevcut değil",
+  "request refused": "istek reddedildi",
+  "target file already exists": "hedef dosya zaten var",
+  "the original has already been removed from quarantine - comparing is no longer possible": "orijinal dosya karantinadan zaten kaldırıldı - karşılaştırma artık mümkün değil",
+  "this film has not been replaced yet": "bu film henüz değiştirilmedi",
+  "unknown action": "bilinmeyen işlem",
+  "worker is still online": "worker hâlâ çevrimiçi",
+  "In use now:": "Şu an kullanımda:",
+  "longest": "en uzun",
+  "8.1 (from profile 7)": "8.1 (profil 7’den)",
+  "Whisper (transcription)": "Whisper (transkripsiyon)",
+  "1 day ago": "1 gün önce",
+  "1 video": "1 video",
+  "Enter your password to open the dashboard.": "Paneli açmak için parolanızı girin.",
+  "No connection to the server - retrying…": "Sunucuya bağlanılamıyor - yeniden deneniyor…",
+  "Are you sure?": "Emin misiniz?",
+  "Restore": "Geri yükle",
+  "Re-encode": "Yeniden kodla",
+  "Delete": "Sil",
+  "Next up": "Sırada",
+  "in the queue": "kuyrukta",
+  "Load older entries": "Daha eski kayıtları yükle",
+  "Folder: all": "Klasör: tümü",
+  "Resolution: all": "Çözünürlük: tümü",
+  "Codec: all": "Kodek: tümü",
+  "More": "Daha fazla",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "film CPU kodlayıcıyı bekliyor ama hiçbir worker'da CPU kodlama açık değil (Workers sayfası).",
+  "Info": "Bilgi",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Donanımınız, işe ne kadar uygun olduğu, kullanılan araçlar ve ayarların nasıl çalıştığı.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Bellek",
+  "Software": "Yazılım",
+  "GPU encoding": "GPU kodlama",
+  "CPU encoding (x265)": "CPU kodlama (x265)",
+  "Subtitles (Whisper)": "Altyazılar (Whisper)",
+  "Translation (Ollama)": "Çeviri (Ollama)",
+  "Server": "Sunucu",
+  "Database": "Veritabanı",
+  "Tools in use": "Kullanılan araçlar",
+  "Knowledge base": "Bilgi bankası",
+  "Low": "Düşük",
+  "Medium": "Orta",
+  "Ultra": "Ultra",
+  "files": "dosya",
+  "up": "çalışıyor",
+  "of": "/",
+  "uses": "kullanıyor",
+  "free": "boş",
+  "Media share": "Medya paylaşımı",
+  "Rating": "Değerlendirme",
+  "Hardware details appear after this worker has updated itself.": "Donanım ayrıntıları bu worker kendini güncelledikten sonra görünür.",
+  "no Whisper": "Whisper yok",
+  "unified memory": "birleşik bellek",
+  "cores": "çekirdek",
+  "threads": "iş parçacığı",
+  "driver": "sürücü",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Bilinmiyor",
+  "Settings saved": "Ayarlar kaydedildi",
+  "Time left": "Kalan süre",
+  "Queued": "Kuyrukta",
+  "Keep originals for": "Orijinalleri saklama süresi",
+  "Quarantine size limit": "Karantina boyut sınırı",
+  "Hide finished items": "Bitenleri gizle",
+  "Undo skip": "Atlamayı geri al",
+  "not supported here": "burada desteklenmiyor",
+  "CPU encoding": "CPU kodlama",
+  "Retry on CPU (x265)": "CPU'da yeniden dene (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "CPU'da x265 ile kodlandı (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "Worker'ın CPU'sunda gren ayarlı x265: greni çok daha verimli korur ama film başına saatler sürer",
+  "CPU fallback for grainy films": "Grenli filmler için CPU'ya geri dönüş",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "GPU, kaynağın bit hızını aşmadan kaliteyi koruyamazsa (film greni), film bir worker'ın CPU'sunda x265 ile bir kez daha kodlanır; x265 greni çok daha verimli korur. Film başına saatler sürer; Workers sayfasından bir worker için CPU kodlamayı açın.",
+  "CPU preset": "CPU ön ayarı",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: 8 çekirdekte 2 saatlik bir 1080p film için yaklaşık 2 saat. Slow: yaklaşık %5-10 daha küçük dosyalar için 2-3 kat daha uzun.",
+  "Medium (faster)": "Medium (daha hızlı)",
+  "Slow (smaller)": "Slow (daha küçük)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Bu sayfa yüklenemedi.",
+  "up to 1440p": "1440p'ye kadar",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "dosyalar analiz ediliyor",
+  "No worker has CPU encodes switched on (Workers page)": "Hiçbir worker'da CPU kodlama açık değil (Workers sayfası)",
+  "the job changed in the meantime": "iş bu arada değişti",
+  "Main": "Ana gezinme",
+  "Clear search and filters": "Aramayı ve filtreleri temizle",
+  "Compact rows": "Sıkışık satırlar",
+  "Encoding and subtitles are paused.": "Kodlama ve altyazılar duraklatıldı.",
+  "Encoding is paused: no new encode jobs are handed out.": "Kodlama duraklatıldı: yeni kodlama işi dağıtılmıyor.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Altyazılar duraklatıldı: yeni altyazı işi dağıtılmıyor.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Hem Plex adresini hem de token'ı girin ya da atlamak için ikisini de boş bırakın.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "NAS'taki boş alan güvenlik freninin altında. Kodlama otomatik olarak duraklatıldı.",
+  "Loading…": "Yükleniyor…",
+  "Next film": "Sonraki film",
+  "Previous film": "Önceki film",
+  "Next page": "Sonraki sayfa",
+  "Previous page": "Önceki sayfa",
+  "Rows per page": "Sayfa başına satır",
+  "Resume": "Sürdür",
+  "Resume encoding": "Kodlamayı sürdür",
+  "Resume subtitles": "Altyazıları sürdür",
+  "Open settings": "Ayarları aç",
+  "Open the library": "Kitaplığı aç",
+  "Subtitle languages": "Altyazı dilleri",
+  "Update": "Güncelle",
+  "No results for this search or filter.": "Bu arama veya filtre için sonuç yok.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Kodlama kuyruğunda bir şey yok. Yeni dosyalar bir taramadan sonra kuyruğa eklenir.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Henüz hiçbir dosya değiştirilmedi. Tamamlanan kodlamalar kalite kontrolünden sonra burada görünür.",
+  "No files were kept as they are. Films that would save too little end up here.": "Olduğu gibi bırakılan dosya yok. Çok az yer kazandıracak filmler burada toplanır.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Bekleyen altyazı yok. Bir dili eksik olan dosyalar bir taramadan sonra kuyruğa eklenir.",
+  "No subtitle job is running right now.": "Şu an çalışan bir altyazı işi yok.",
+  "No subtitles have been made yet.": "Henüz altyazı oluşturulmadı.",
+  "Nothing missing: every file got its subtitles so far.": "Eksik yok: şimdiye kadar her dosya altyazılarını aldı.",
+  "No failed encodes.": "Başarısız kodlama yok.",
+  "No failed subtitle jobs.": "Başarısız altyazı işi yok.",
+  "Nothing was added in the last 14 days.": "Son 14 günde hiçbir şey eklenmedi.",
+  "No videos with this plan.": "Bu plana sahip video yok.",
+  "The library is being scanned; videos appear as they are found.": "Kitaplık taranıyor; videolar bulundukça görünür.",
+  "No videos found yet. Check the media folder and run a scan.": "Henüz video bulunamadı. Medya klasörünü kontrol edin ve bir tarama başlatın.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Karantinada bir şey yok. Değiştirilen orijinaller saklama süresi bitene kadar burada tutulur.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "Kitaplıkta DVD veya Blu-ray klasörü (VIDEO_TS, BDMV) bulunamadı.",
+  "1 worker online": "1 worker çevrimiçi",
+  "A worker is busy with this file": "Bir worker bu dosyayla meşgul",
+  "A worker is grabbing the frames": "Bir worker kareleri alıyor",
+  "A worker is searching or making subtitles": "Bir worker altyazı arıyor veya oluşturuyor",
+  "A worker picks up the next job within a few seconds.": "Bir worker birkaç saniye içinde sonraki işi alır.",
+  "Above this, the oldest comparisons are deleted automatically.": "Bunun üzerinde en eski karşılaştırmalar otomatik olarak silinir.",
+  "All replaced films": "Değiştirilen tüm filmler",
+  "Already efficient: encoding would hardly save anything": "Zaten verimli: kodlama neredeyse hiç yer kazandırmaz",
+  "Automatic comparisons": "Otomatik karşılaştırmalar",
+  "Being made…": "Oluşturuluyor…",
+  "Can be made": "Oluşturulabilir",
+  "Can encode on the CPU with x265": "CPU'da x265 ile kodlayabilir",
+  "Comparison storage limit": "Karşılaştırma depolama sınırı",
+  "Comparisons": "Karşılaştırmalar",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: yeniden kodlanmadı, DV katmanı kaybolurdu",
+  "Encoding is paused.": "Kodlama duraklatıldı.",
+  "Enlarge": "Büyüt",
+  "Errors": "Hatalar",
+  "Flip": "Değiştir",
+  "Four frames of the original and the new version are stored": "Orijinalin ve yeni sürümün dört karesi saklanıyor",
+  "Full width": "Tam genişlik",
+  "GPU encoder found": "GPU kodlayıcı bulundu",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Değiştirilen her film için orijinalden ve yeni sürümden dört kare alın; böylece görüntüyü Karşılaştır sayfasında her zaman kontrol edebilirsiniz. Film başına yaklaşık 1–2 MB.",
+  "Keyboard shortcuts": "Klavye kısayolları",
+  "Leave without saving? Your changes to the settings will be lost.": "Kaydetmeden çıkılsın mı? Ayarlardaki değişiklikleriniz kaybolacak.",
+  "Moved to the front": "En öne alındı",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Henüz karşılaştırma yok. Orijinal hâlâ karantinadayken bir tane oluşturun veya Ayarlar'da otomatik karşılaştırmaları açın.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Şu anda hiçbir film karşılaştırılamıyor: orijinaller karantinadan çıktı veya henüz hiçbir şey değiştirilmedi.",
+  "No longer possible": "Artık mümkün değil",
+  "No subtitles found online and none could be made": "Çevrimiçi altyazı bulunamadı ve hiçbiri oluşturulamadı",
+  "Ollama found: can translate subtitles": "Ollama bulundu: altyazıları çevirebilir",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Bir DVD veya Blu-ray klasörünün parçası; DVD & Blu-ray sayfasında dönüştürün",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Otomatik olarak duraklatıldı: NAS'taki boş alan güvenlik freninin altında.",
+  "Planned for encoding": "Kodlama için planlandı",
+  "Queued for the CPU encoder": "CPU kodlayıcı için kuyrukta",
+  "Replaced after the quality check; the original is in quarantine for a while": "Kalite kontrolünden sonra değiştirildi; orijinal bir süre karantinada kalır",
+  "Replaced films appear here after their first encode.": "Değiştirilen filmler ilk kodlamalarından sonra burada görünür.",
+  "Search the log…": "Günlükte ara…",
+  "Show films that can be compared": "Karşılaştırılabilecek filmleri göster",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Orijinali ve yeni sürümü sırayla göster: gren ve ayrıntıyı fark etmenin en iyi yolu",
+  "Skipped": "Atlandı",
+  "Skipped by you; Retry puts it back in the queue": "Sizin tarafınızdan atlandı; \"Yeniden dene\" kuyruğa geri koyar",
+  "Slider back to the middle": "Kaydırıcıyı ortaya al",
+  "Smaller": "Küçült",
+  "Stopped because the file changed or disappeared": "Dosya değiştiği veya kaybolduğu için durduruldu",
+  "Stopped with an error; see the message and try again": "Bir hatayla durdu; mesaja bakın ve yeniden deneyin",
+  "Subtitles are paused.": "Altyazılar duraklatıldı.",
+  "The file could not be read; see the drawer": "Dosya okunamadı; yan panele bakın",
+  "The new file would save less than the minimum saving, so the original was kept": "Yeni dosya minimum tasarruftan daha az yer kazandıracaktı, bu yüzden orijinal korundu",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Yeni sürüm NAS'ta ve kimse izlemediği anda yerine konur",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Orijinal karantinadan çıktı, kareler artık alınamaz",
+  "The original is still in quarantine, so the frames can still be grabbed": "Orijinal hâlâ karantinada, kareler hâlâ alınabilir",
+  "The original was put back from quarantine": "Orijinal karantinadan geri alındı",
+  "The queue is empty. New files are queued after a scan.": "Kuyruk boş. Yeni dosyalar bir taramadan sonra kuyruğa eklenir.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Sunucu daha yeni worker dosyaları dağıtıyor; worker bunları mevcut işinden sonra kurar",
+  "Undo": "Geri al",
+  "Waiting for Plex: someone is watching this film": "Plex bekleniyor: biri bu filmi izliyor",
+  "Waiting for a worker; the queue runs from top to bottom": "Bir worker bekleniyor; kuyruk yukarıdan aşağıya işlenir",
+  "Warnings": "Uyarılar",
+  "Whisper installed: can make subtitles": "Whisper kurulu: altyazı oluşturabilir",
+  "Would save less than the minimum saving": "Minimum tasarruftan daha az yer kazandırırdı",
+  "expires today": "bugün sona eriyor",
+  "expires within a day": "bir gün içinde sona eriyor",
+  "less than a day left": "bir günden az kaldı",
+  "waiting for Plex": "Plex bekleniyor",
+  "update pending": "güncelleme bekliyor",
+  "Tap to switch between original and new": "Orijinal ile yeni arasında geçiş için dokunun",
+  "Repeated": "Tekrarlandı",
+  "Search in the current list": "Geçerli listede ara",
+  "Clear the search, close a drawer or dialog": "Aramayı temizle, yan paneli veya iletişim kutusunu kapat",
+  "Previous or next film on a comparison": "Bir karşılaştırmada önceki veya sonraki film",
+  "Open or switch the focused row, switch or header": "Odaklanılan satırı, anahtarı veya başlığı aç ya da değiştir",
+  "This list": "Bu liste",
+  "Nothing in the log matches this.": "Günlükte buna uyan bir şey yok.",
+  "Nothing has happened yet.": "Henüz bir şey olmadı.",
+  "No worker is online, so nothing can run.": "Çevrimiçi worker yok, bu yüzden hiçbir şey çalışamaz.",
+  "There is no worker yet. Add one to get started.": "Henüz worker yok. Başlamak için bir tane ekleyin.",
+  "Open Workers": "Worker'ları aç",
+  "Some values are out of range.": "Bazı değerler aralık dışında.",
+  "no capabilities reported": "bildirilen özellik yok",
+  "Replaced · expires": "Değiştirildi · sona erme",
+  "Made": "Oluşturuldu",
+  "Make": "Oluştur",
+  "lots of motion": "çok hareket",
+  "dark scene": "karanlık sahne",
+  "a quarter in": "çeyreğinde",
+  "three quarters in": "dörtte üçünde",
+  "Encoded": "Kodlandı",
+  "Finished": "Bitti",
+  "later": "sonra",
+  "Leave": "Çık",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Bir karşılaştırma, orijinal ve yeni sürümden 4 kare alır (toplam yaklaşık 1–2 MB). Orijinal hâlâ karantinadayken oluşturulabilir ve siz silene kadar kalır; orijinal kaldırılmış olsa bile.",
+  "Retry on CPU": "CPU'da yeniden dene",
+  "Scan": "Tarama"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1başlangıç$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Şimdi: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan $1 video buldu ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · en kötü %5 $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "en kötü %5 $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Yeni ($1 gün)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "Plan: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Değiştirme başarısız ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} başarısız{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Tarama bitti: $1 video, $2 yeni, $3 değişmiş, $4 kaybolmuş; $5 kodlama ve $6 altyazı işi eklendi"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Tarama bitti: $1 video, $2 yeni, $3 değişmiş, $4 kaybolmuş, $5 atlanan klasörlerde; $6 kodlama ve $7 altyazı işi eklendi"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "$1 film mevcut kurallarla yeniden kodlansın mı? Orijinaller geri yüklenir ve filmler kuyrukta öncelik alır."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 film yeniden kuyrukta{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 orijinal geri yüklendi ve yeniden kuyruğa alındı (mevcut kurallar)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Yeni: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Değiştirildi: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray dönüştürüldü: $1 ($2 GB); disk klasörü karantinada"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Orijinal geri yüklendi: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1, {t:$2} işlemini başlattı: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 iş (toplam $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Seçim dağıtıldı - kodlama otomatik olarak duraklatıldı"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Seçim dağıtıldı - altyazılar otomatik olarak duraklatıldı"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Ayarlar değiştirildi: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "İş $1 hatası: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "İş $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 çevrimdışı: $2 iş yeniden kuyrukta"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 yeniden başladı: yarıda kalan $2 iş yeniden kuyrukta"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1, $2 sürümüne güncellendi: başarısız $3 iş yeniden kuyrukta"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Worker $1 kaldırıldı"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: kodlama {t:$2}, altyazılar {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Planlama güncellendi: $1 kodlama ve $2 altyazı işi eklendi"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 iş elle kuyruğa alındı"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 iş: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 karşılaştırma silindi"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Diğer $1 oturum kapatıldı"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Giriş için kurtarma kodu kullanıldı ($1 kaldı)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Orijinaller en fazla $1 gün ve toplamda asla $2 üzerinde saklanmaz. Önce en eskiler silinir. Geri yükleme yeni sürümü siler."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - kaldırmak için tıklayın"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 klasör dönüştürülecek · worker yarım dakika içinde başlar"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 ses · $2 altyazı"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "$1 karşılaştırma silinsin mi? Filmlerin kendisi olduğu gibi kalır."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Kare $1 · $2 konumunda · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Kare $1 · $2 konumunda"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB (jpg)"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Kodlama süresi $1 dk · 8 parça üzerinde ölçüldü, ardından tüm filmde kontrol edildi."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Şu an mevcut: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "en zayıf %5 $1 · hedef $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "zamanlama %$1"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Kare oluşturma başarısız: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "seçim · sonraki"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "seçim · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Şimdi:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· ardından seçimden $1 tane daha"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "tahmin · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "Önceden biten $1 · göster"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 seçime eklendi · worker birkaç saniye içinde başlar"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Seçim {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "oluşturuldu: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · %$3 daha küçük$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "az önce"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 dk önce"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 sa önce"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 gün önce"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "son görülme: {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 g $2 sa"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 sa $2 dk"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 video"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "karantina $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "24 saatte $1"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 kazanç"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB kazanç"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "İşlenen dosyalarda %$1 daha küçük"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "worker $1 çevrimiçi"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "başlatılacak $1 tane daha, sonra duraklat"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 öğe · sayfa $2 / $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 seçildi"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "$1 sonucun tümünü seç"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Taranıyor: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× denendi"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 dk"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Etkin · $1 kurtarma kodu kaldı"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "Bu dahil $1 etkin oturum."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 güncellendi{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "Diğer $1 oturum kapatıldı"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Yalnızca bu $1 öğe işlensin mi? Öncelik alırlar; işleme devam eder ve sonra otomatik olarak yeniden duraklar."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "$1 iş atlansın mı?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "$1 orijinal geri yüklensin mi? Yeni sürümler silinecek."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Worker $1 listeden kaldırılsın mı? Yeniden çevrimiçi olursa otomatik olarak tekrar görünür."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "$1 süredir çalışıyor"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "~$1 kaldı"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "$1p'ye kadar"
+  ],
+  [
+   "^working on$",
+   "",
+   "üzerinde çalışıyor"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex bağlandı (sürüm $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex düzgün yanıt vermiyor: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "hata: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "değiştirme başarısız: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "$1 için geçersiz değer"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1, $2 ile $3 arasında olmalı"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · en kötü %5 $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 sa"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU kaliteyi koruyamadı - CPU kodlayıcı (x265) için kuyruğa alındı"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Staging temizliği: artık dosya silindi $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "Sayfa başına $1"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 worker çevrimiçi"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · worker ekleme, worker anahtarı ve indirmeler Worker'lar sayfasındadır."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · ~{t:$2} içinde başlar · tahmin"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · tahmin"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 gün kaldı"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "$1 gün içinde sona eriyor"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Oluşturuldu · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Oluşturulabilir · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · adım $1/$2 · ~{t:$3} kaldı"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · adım $1/$2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · ~{t:$1} kaldı"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "$1 karşılaştırma istendi · birkaç dakika içinde hazır"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "$1 karşılaştırma oluşturulsun mu? Her biri yaklaşık 1–2 MB."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "$1 kez tekrarlandı"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "$1 ile $2 arasında"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 iş"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "$1 dosyasında hata: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "$1 karşılaştırma istendi"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Karşılaştırmalar temizlendi: $1 kaldırıldı ($2 MB üzeri)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Karantina klasörü quarantine olarak yeniden adlandırıldı ($1 kayıt güncellendi)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 kaldırıldı: $2 iş yeniden kuyrukta"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Karantina: $1 zaten var, $2 olduğu yerde bırakıldı"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Karantina klasörü quarantine olarak yeniden adlandırıldı; $1 kayıt güncellendi, ancak $2 henüz boş değil"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Karantina klasörü yeniden adlandırılamadı (medya paylaşımı bağlı mı?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "yeni sürüm staging'de eksik"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "yeni .mkv staging'de eksik"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "orijinal kayboldu"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "orijinal bu arada değişti"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "orijinal artık mevcut değil"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "NAS'taki kontrol reddedildi (süre/parçalar)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray mkv'ye dönüştürüldü"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "worker güncellemesinden sonra yeniden deneme"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "sizin tarafınızdan atlandı"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "hedef dosya zaten var"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker çevrimdışı - yeniden planlandı"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker kaldırıldı - yeniden planlandı"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker yeniden başlatıldı - yeniden planlandı"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "değiştirme başarısız: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "yeni mkv'de Dolby Vision eksik"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: yeniden kodlanmadı (DV katmanı kaybolurdu)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "bir akış .mkv'ye kopyalanamıyor: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg $1 dakika ilerleme kaydetmedi (paylaşım erişilemez mi?) - durduruldu"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$2 dosyadan $1 tanesi aynı anda eksik - paylaşım erişilemez mi? Hiçbir şey kayıp olarak işaretlenmedi"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "çeviri başarısız: yeniden denemelere rağmen $1 satır için kullanılabilir yanıt yok"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: sunucu hatası"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - modeli indirin (ollama pull <model>) veya worker.ini içindeki ollama_model'i düzeltin"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama'ya $1 adresinden ulaşılamıyor ($2) - Ollama'yı başlatın veya ollama_url'yi kontrol edin"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama'ya ulaşılamıyor: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama $2 dakika boyunca başarısız olmaya devam etti"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 bir saatten uzun sürdü - medya paylaşımı hâlâ erişilebilir mi?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 eksik; kurun $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "tüm film VMAF $1 hiçbir eşleştirme yöntemiyle makul değil (örnekler $2); düşük: $3. Orijinal korundu; oradaki kaynağı kontrol edin"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: dosya okunamıyor"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: başarısız"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "bu film için PC'de yeterli boş alan yok ($1 GB gerekli, $2 içinde)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "çalışma klasöründe yeterli alan yok: $1 GB boş, ~$2 GB gerekli"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "minimum bit hızıyla en fazla %$1 daha küçük"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "geliştirme katmanından üstveri çıkarılıyor"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "indirilen dosya eşleşmiyor (sha256) - kullanılmadı"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "kontrol: süre veya akış sayısı farklı"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "yeni mkv çok kısa ($1 / $2 dk)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 / $2 bitti, worker bekleniyor"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "Dolby Vision profil 8.1'e dönüştürülüyor"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "üstveri temel katmana ekleniyor"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "VMAF kontrolü (ikinci ölçüm)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "hiçbir ayar kalite hedefini karşılamıyor"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "indirme sınırına ulaşıldı - kalanı sonra"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "OpenSubtitles günlük sınırına ulaşıldı"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "kısmen; kalanı indirme sınırından sonra"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "indirmeden sonra $1 bulunamadı"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: konuşulan dil algılandı"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper ($1 dilinden çevrildi)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "PC'de boş alan bekleniyor"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "altyazı dosyası beklenmedik şekilde büyük"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "öz sınama ölçümü güvenilmez"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "$1. çeviri denemesi başarısız"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "bekliyor: Plex'te izleniyor"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "yalnızca %$1 daha küçük bekleniyor"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "$1 indiriliyor (tek seferlik)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "tüm film kontrolü hedefin altında"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "$1s konumunda kare alınamıyor"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "tüm film hedefin hemen altında"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "diskte film aranıyor"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "kalite hedefine ulaşılamıyor"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "kontrol ölçümü güvenilmez"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "sunucudan geçersiz yol geldi"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "yeniden: minimum kazanç artık %10"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper GPU'da çalışıyor"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "DVD’de başlık bulunamadı"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "arşivde şüpheli yol"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "bekliyor: Plex'e ulaşılamıyor"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "işleniyor: $1 / $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles’a ulaşılamıyor"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (transkripsiyon)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "tüm filmde VMAF kontrolü"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "bitti, değiştirme bekleniyor"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "eski klasör karantinaya"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "VMAF kontrolü $1 çok düşük"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "disk okunuyor (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "İngilizceden çevrildi"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "bitti ($1 / $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "ses çıkarma başarısız"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "CPU’ya geri dönülüyor"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles oturumu açıldı"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (profil 7’den)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "worker bekleniyor"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "zip içinde şüpheli yol"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "gömülü EN okunamıyor"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "şimdiye kadarki en uzun: başlık"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "zamanlama uyuşmuyor"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "yalnızca %$1 daha küçük"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "parça $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "orijinal dosya korunuyor"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "bugün kalan indirme"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "başlık $1 incelendi"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "değiştirme bekleniyor"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "NAS'a kopyalanıyor"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "orijinal korunuyor"
+  ],
+  [
+   "translation failed",
+   "g",
+   "çeviri başarısız"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "sunucuya ulaşılamıyor"
+  ],
+  [
+   "searching quality",
+   "g",
+   "kalite aranıyor"
+  ],
+  [
+   "making references",
+   "g",
+   "referanslar oluşturuluyor"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "mkv'ye dönüştürülüyor"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "altyazılar durduruldu"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "kopyalanıyor NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "kopyalanıyor PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "film aranıyor"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "mkv olarak birleştiriliyor"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "en uzun playlist"
+  ],
+  [
+   "timing reference",
+   "g",
+   "zamanlama referansı"
+  ],
+  [
+   "speech segments",
+   "g",
+   "konuşma parçaları"
+  ],
+  [
+   "too little gain",
+   "g",
+   "kazanç çok az"
+  ],
+  [
+   " not applicable",
+   "g",
+   " uygulanamaz"
+  ],
+  [
+   "download failed",
+   "g",
+   "indirme başarısız"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "ffsubsync sonrası"
+  ],
+  [
+   "translating to",
+   "g",
+   "çeviri:"
+  ],
+  [
+   "next candidate",
+   "g",
+   "sonraki aday"
+  ],
+  [
+   "after shifting",
+   "g",
+   "kaydırma sonrası"
+  ],
+  [
+   "reading audio",
+   "g",
+   "ses okunuyor"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Seçim · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 bekliyor"
+  ],
+  [
+   "search failed",
+   "g",
+   "arama başarısız"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "yeniden kodlanıyor"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "başlık $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " hata"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 bitti"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "altyazılar:"
+  ],
+  [
+   "replacing",
+   "g",
+   "değiştiriliyor"
+  ],
+  [
+   "subtitles",
+   "g",
+   "altyazılar"
+  ],
+  [
+   "candidate",
+   "g",
+   "aday"
+  ],
+  [
+   "encoding:",
+   "g",
+   "kodlama:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "başlangıç"
+  ],
+  [
+   "encoding",
+   "g",
+   "kodlanıyor"
+  ],
+  [
+   "checking",
+   "g",
+   "kontrol ediliyor"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", en fazla "
+  ],
+  [
+   "present",
+   "g",
+   "mevcut"
+  ],
+  [
+   "missing",
+   "g",
+   "eksik"
+  ],
+  [
+   "speed",
+   "g",
+   "hız"
+  ],
+  [
+   "saved",
+   "g",
+   "kaydedildi"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU kaliteyi koruyamadı - CPU kodlayıcı (x265) için kuyruğa alındı"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Staging temizliği: artık dosya silindi"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "medya klasörü boş veya bağlı değil - hiçbir şey değişmedi"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "kaliteyi korumak kaynağın sahip olduğundan daha fazla bit hızı gerektirir"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "kaynaktan daha fazla bit hızı gerektiriyor"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker bir güncelleme için yeniden başlıyor"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "video akışı yok (yalnızca kapak resmi mi?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "yazıya dökülecek ses akışı yok"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "bu film için PC'de yeterli boş alan yok"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "CPU'da yeniden deneniyor (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "klasörler taranıyor"
+  ],
+  [
+   "analysing files",
+   "g",
+   "dosyalar analiz ediliyor"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "işler planlanıyor"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "CPU kodlama açık"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "CPU kodlama kapalı"
+  ]
+ ]
+}

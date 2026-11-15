@@ -1,0 +1,2060 @@
+{
+ "name": "العربية",
+ "s": {
+  "Re-encode from original": "إعادة الترميز من الأصل",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "إعادة الترميز بالقواعد الحالية؟ ستتم استعادة الأصل وسيحصل الفيلم على الأولوية.",
+  "Back in the queue": "عاد إلى قائمة الانتظار",
+  "Restore originals": "استعادة الأصول",
+  "Minimum bitrate (1080p)": "الحد الأدنى لمعدل البت (1080p)",
+  "Extra floor (share of the source)": "حد إضافي (نسبة من المصدر)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "اختياري: احتفظ أيضًا بهذه النسبة على الأقل من معدل بت الفيديو الأصلي. مفيد فقط للمصادر ذات معدل البت المرتفع جدًا. 0 = إيقاف.",
+  "with the minimum bitrate at most": "مع الحد الأدنى لمعدل البت بحد أقصى",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "لا ينخفض الملف الجديد أبدًا عن ذلك، حتى لو سمح VMAF بذلك. تتغير الدقات الأخرى بالتناسب: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · رسوم متحركة ×0.6.",
+  "bitrate already near the minimum": "معدل البت قريب بالفعل من الحد الأدنى",
+  "MFA reset from settings - set it up again": "تمت إعادة تعيين MFA من الإعدادات - أعد إعدادها",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "تمت إعادة تعيين MFA عبر MFA_RESET - أزل MFA_RESET من إعدادات الحاوية",
+  "MFA enabled": "تم تفعيل MFA",
+  "MediaScan started": "تم تشغيل MediaScan",
+  "New recovery codes created": "تم إنشاء رموز استرداد جديدة",
+  "Password changed; other sessions signed out": "تم تغيير كلمة المرور؛ تم تسجيل خروج الجلسات الأخرى",
+  "Password set (first time)": "تم تعيين كلمة المرور (أول مرة)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "ملاحظة: ADMIN_PASSWORD أقصر من 10 أحرف - اختر كلمة مرور أقوى في الإعدادات",
+  "part of a DVD/Blu-ray folder": "جزء من مجلد DVD/Blu-ray",
+  "folder is in Skip folders": "المجلد ضمن «تخطي المجلدات»",
+  "file disappeared": "اختفى الملف",
+  "worker restarted - rescheduled": "أُعيد تشغيل Worker - أُعيدت الجدولة",
+  "worker offline - rescheduled": "Worker غير متصل - أُعيدت الجدولة",
+  "retry after worker update": "إعادة المحاولة بعد تحديث Worker",
+  "dvd/blu-ray converted to mkv": "تم تحويل dvd/blu-ray إلى mkv",
+  "skipped by you": "تخطيته أنت",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "ينتظر الاستبدال أثناء مشاهدة فيلم، ويتم تحديث Plex بعد كل تغيير.",
+  "Confirm with your password and a code from your app.": "أكّد بكلمة المرور ورمز من تطبيقك.",
+  "Your old recovery codes will stop working.": "ستتوقف رموز الاسترداد القديمة عن العمل.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "سيتوقف ربط تطبيق المصادقة الحالي ورموز الاسترداد عن العمل. ستعيد إعداد MFA فورًا.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "اختر كلمة مرور للوحة التحكم. رمز الإعداد موجود في سجل الحاوية (Container Manager › mediascan › Log، أو",
+  "- click to remove": "- انقر للإزالة",
+  "Invalid address, e.g. http://192.168.1.10:32400": "عنوان غير صالح، مثل http://192.168.1.10:32400",
+  "Enter a Plex token": "أدخل token الخاص بـ Plex",
+  "A password has already been set": "تم تعيين كلمة مرور بالفعل",
+  "The key is fixed in WORKER_TOKEN (container environment)": "المفتاح محدد في WORKER_TOKEN (بيئة الحاوية)",
+  "selection still running - pause or wait until it is done": "التحديد لا يزال قيد التشغيل - أوقفه مؤقتًا أو انتظر حتى ينتهي",
+  "Now running": "قيد التشغيل الآن",
+  "Finding the film on the disc": "البحث عن الفيلم على القرص",
+  "Converting to one .mkv": "التحويل إلى ملف .mkv واحد",
+  "Checking (duration, tracks)": "الفحص (المدة، المسارات)",
+  "Copying to the NAS": "النسخ إلى NAS",
+  "Old folder to quarantine": "المجلد القديم إلى الحجر",
+  "worker has not reported for a while": "لم يُبلغ Worker منذ مدة",
+  "waiting for the worker": "بانتظار Worker",
+  "Welcome to MediaScan": "مرحبًا بك في MediaScan",
+  "Setup code": "رمز الإعداد",
+  "New password (at least 10 characters)": "كلمة مرور جديدة (10 أحرف على الأقل)",
+  "Repeat password": "كرر كلمة المرور",
+  "Set password": "تعيين كلمة المرور",
+  "The passwords do not match": "كلمتا المرور غير متطابقتين",
+  "Setup code is wrong - check the container log": "رمز الإعداد خاطئ - تحقق من سجل الحاوية",
+  "Choose a password of at least 10 characters": "اختر كلمة مرور من 10 أحرف على الأقل",
+  "Animation folders": "مجلدات الرسوم المتحركة",
+  "Top-level folders with animation: these may use a lower bitrate.": "مجلدات المستوى الأعلى التي تحتوي على رسوم متحركة: يمكن أن تستخدم معدل بت أقل.",
+  "Where do I find the token?": "أين أجد token؟",
+  "Connect": "اتصال",
+  "Disconnect": "قطع الاتصال",
+  "Connected": "متصل",
+  "Not connected": "غير متصل",
+  "+ Add language": "+ إضافة لغة",
+  "Renew": "تجديد",
+  "Worker version": "إصدار Worker",
+  "Password": "كلمة المرور",
+  "Other sessions are signed out after a change.": "يتم تسجيل خروج الجلسات الأخرى بعد التغيير.",
+  "Change password": "تغيير كلمة المرور",
+  "Other sessions will be signed out.": "سيتم تسجيل خروج الجلسات الأخرى.",
+  "Change": "تغيير",
+  "New worker key": "مفتاح Worker جديد",
+  "Create new key": "إنشاء مفتاح جديد",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "تتوقف جميع أجهزة Worker حتى تُدخل المفتاح الجديد (شغّل المثبّت مجددًا أو عدّل worker.ini).",
+  "Repeat new password": "كرر كلمة المرور الجديدة",
+  "Password changed": "تم تغيير كلمة المرور",
+  "New worker key created": "تم إنشاء مفتاح Worker جديد",
+  "Disconnect Plex?": "قطع الاتصال بـ Plex؟",
+  "Plex disconnected": "تم قطع الاتصال بـ Plex",
+  "Plex connected": "تم الاتصال بـ Plex",
+  "Incorrect password": "كلمة مرور غير صحيحة",
+  "Incorrect code": "رمز غير صحيح",
+  "Incorrect code from your authenticator app": "رمز غير صحيح من تطبيق المصادقة",
+  "Too many attempts - try again in 15 minutes": "محاولات كثيرة جدًا - حاول مجددًا بعد 15 دقيقة",
+  "DVD & Blu-ray": "DVD وBlu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "مجلدات تحتوي على VIDEO_TS أو BDMV. يحوّلها التحويل إلى ملف .mkv واحد يضم كل الفيديو والصوت والترجمات والفصول.",
+  "Convert to MKV": "تحويل إلى MKV",
+  "Folder": "المجلد",
+  "Type": "النوع",
+  "found": "موجود",
+  "queued": "في الانتظار",
+  "converting…": "جارٍ التحويل…",
+  "converted": "تم التحويل",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "ينسخ التحويل كل شيء 1:1 إلى ملف .mkv واحد: الفيديو (بما في ذلك HDR) وجميع مسارات الصوت والترجمات والفصول. بالنسبة إلى DVD يختار أطول عنوان (الفيلم). ينتقل المجلد القديم إلى الحجر، فيمكنك استعادته. ثم يمر ملف .mkv بالترميز العادي والترجمات. تصبح أقراص Blu-ray بتقنية Dolby Vision بصيغة Dolby Vision profile 8.1 (الطبقة الأساسية 1:1، مع إضافة بيانات DV الوصفية): يعرضها Plex وتلفازك كـ Dolby Vision، وتعرضها المشغلات الأخرى كـ HDR10. لا تتم إعادة ترميز مثل هذا الفيلم لاحقًا، لأن ذلك سيفقده Dolby Vision.",
+  "Compare": "مقارنة",
+  "Delete comparison": "حذف المقارنة",
+  "Comparison deleted": "تم حذف المقارنة",
+  "comparison": "مقارنة",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "الأصل بجانب النسخة الجديدة: الحجم والجودة والصورة والترجمات. أنت تختار الأفلام.",
+  "Original → new": "الأصل → الجديد",
+  "Quality (VMAF)": "الجودة (VMAF)",
+  "Comparison": "المقارنة",
+  "View": "عرض",
+  "Make comparison": "إنشاء مقارنة",
+  "previous attempt failed": "فشلت المحاولة السابقة",
+  "Back": "رجوع",
+  "Make again": "إنشاء مجددًا",
+  "New": "جديد",
+  "VMAF whole film": "VMAF الفيلم كاملًا",
+  "Making the frames… this usually takes less than a minute.": "جارٍ إنشاء الإطارات… يستغرق ذلك عادةً أقل من دقيقة.",
+  "There is no picture comparison for this film yet.": "لا توجد مقارنة صور لهذا الفيلم بعد.",
+  "Picture · drag across the image": "الصورة · اسحب عبر الصورة",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "تم تحويل HDR إلى SDR لهذا العرض؛ يعرضه تلفازك بتقنية HDR.",
+  "How the setting was chosen": "كيف تم اختيار الإعداد",
+  "Step": "الخطوة",
+  "Weakest 5%": "أضعف 5%",
+  "Bitrate": "معدل البت",
+  "chosen": "المختار",
+  "No data.": "لا توجد بيانات.",
+  "Nothing needed, all languages were present.": "لا حاجة لشيء، جميع اللغات كانت موجودة.",
+  "Not processed yet.": "لم تتم المعالجة بعد.",
+  "Comparison requested · ready within a minute": "تم طلب المقارنة · جاهزة خلال دقيقة",
+  "Delete this comparison? The film itself stays as it is.": "حذف هذه المقارنة؟ يبقى الفيلم نفسه كما هو.",
+  "Not possible": "غير ممكن",
+  "Slide between original and new": "حرّك بين الأصل والجديد",
+  "Overview": "نظرة عامة",
+  "Queue": "قائمة الانتظار",
+  "In progress": "قيد التنفيذ",
+  "No gain": "بلا مكسب",
+  "Failed": "فشل",
+  "Subtitles": "الترجمات",
+  "Recently added": "أُضيف مؤخرًا",
+  "Library": "المكتبة",
+  "Quarantine": "الحجر",
+  "Workers": "Workers",
+  "Activity": "النشاط",
+  "Settings": "الإعدادات",
+  "Encoding": "الترميز",
+  "System": "النظام",
+  "Status of the entire library.": "حالة المكتبة بأكملها.",
+  "Selection": "التحديد",
+  "waiting for worker": "بانتظار Worker",
+  "In the selection": "في التحديد",
+  "selection": "التحديد",
+  "Selection · encoding": "التحديد · الترميز",
+  "Selection · subtitles": "التحديد · الترجمات",
+  "Close list": "إغلاق القائمة",
+  "waiting": "في الانتظار",
+  "nothing needed": "لا حاجة لشيء",
+  "original kept": "تم الاحتفاظ بالأصل",
+  "Find, sync or generate missing subtitles.": "ابحث عن الترجمات المفقودة أو زامنها أو أنشئها.",
+  "All videos with their current plan. You can also queue items manually here.": "جميع الفيديوهات مع خطتها الحالية. يمكنك هنا أيضًا إضافة عناصر إلى قائمة الانتظار يدويًا.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "الأجهزة التي تؤدي العمل. اختر ما يُسمح لكل Worker بفعله.",
+  "Log of everything that happens.": "سجل بكل ما يحدث.",
+  "Scan now": "فحص الآن",
+  "Saved": "الموفَّر",
+  "Free on NAS": "المساحة الحرة على NAS",
+  "Progress": "التقدم",
+  "Saved per day": "التوفير يوميًا",
+  "last 14 days": "آخر 14 يومًا",
+  "Per folder": "حسب المجلد",
+  "all": "الكل",
+  "nothing processed yet": "لم تتم معالجة شيء بعد",
+  "no measurement yet": "لا قياس بعد",
+  "No processed files yet": "لا توجد ملفات معالجة بعد",
+  "No worker connected yet": "لا يوجد Worker متصل بعد",
+  "no worker": "لا يوجد Worker",
+  "worker offline": "Worker غير متصل",
+  "online": "متصل",
+  "disabled": "معطّل",
+  "encoding": "ترميز",
+  "subtitles": "ترجمات",
+  "Search by name or folder…": "ابحث بالاسم أو المجلد…",
+  "Several titles at once: separate them with |": "عدة عناوين في آن واحد: افصل بينها بـ |",
+  "Nothing to show": "لا شيء لعرضه",
+  "File": "الملف",
+  "Source": "المصدر",
+  "Status": "الحالة",
+  "Result": "النتيجة",
+  "Languages": "اللغات",
+  "Error": "خطأ",
+  "When": "متى",
+  "Plan": "الخطة",
+  "Added": "أُضيف",
+  "Original": "الأصل",
+  "Size": "الحجم",
+  "Replaced": "استُبدل",
+  "estimate": "تقدير",
+  "Name": "الاسم",
+  "Done": "تم",
+  "Nothing found": "لم يُعثر على شيء",
+  "Process only these": "معالجة هذه فقط",
+  "Prioritise": "منح الأولوية",
+  "Skip": "تخطي",
+  "Retry": "إعادة المحاولة",
+  "Clear": "مسح",
+  "Both": "كلاهما",
+  "Restore original": "استعادة الأصل",
+  "Find subtitles": "البحث عن ترجمات",
+  "running": "قيد التشغيل",
+  "done": "تم",
+  "failed": "فشل",
+  "replacing": "جارٍ الاستبدال",
+  "no gain": "بلا مكسب",
+  "skipped": "تم التخطي",
+  "restored": "تمت الاستعادة",
+  "cancelled": "أُلغي",
+  "nothing found": "لم يُعثر على شيء",
+  "encode": "للترميز",
+  "already efficient": "فعّال بالفعل",
+  "small gain": "مكسب صغير",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "خطأ",
+  "unknown": "غير معروف",
+  "All": "الكل",
+  "Already efficient": "فعّال بالفعل",
+  "Small gain": "مكسب صغير",
+  "Restored": "مستعاد",
+  "Video": "الفيديو",
+  "Duration": "المدة",
+  "Audio": "الصوت",
+  "Encode": "الترميز",
+  "Quality": "الجودة",
+  "Encode time": "مدة الترميز",
+  "Message": "الرسالة",
+  "Started": "البدء",
+  "Search": "بحث",
+  "weakest 5%": "أضعف 5%",
+  "video": "فيديو",
+  "Worker": "Worker",
+  "Hardware": "العتاد",
+  "Resolution": "الدقة",
+  "Working on": "يعمل على",
+  "nothing": "لا شيء",
+  "up to 4K": "حتى 4K",
+  "up to 1080p": "حتى 1080p",
+  "up to 720p": "حتى 720p",
+  "up to SD": "حتى SD",
+  "Remove": "إزالة",
+  "Add worker": "إضافة Worker",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "يُبلغ كل Worker بما يستطيع فعله (تم العثور على مرمِّز، Whisper مثبت). هنا تقرر ما يُسمح له بفعله. تسري التغييرات من المهمة التالية؛ وتُستكمل المهمة الجارية أولًا.",
+  "This machine lacks the hardware or software for this": "يفتقر هذا الجهاز إلى العتاد أو البرنامج اللازم لذلك",
+  "Quality level": "مستوى الجودة",
+  "Standard": "قياسي",
+  "High": "عالٍ",
+  "Maximum": "أقصى",
+  "Custom": "مخصص",
+  "Custom target": "هدف مخصص",
+  "Average VMAF and the weakest 5% of frames.": "متوسط VMAF وأضعف 5% من الإطارات.",
+  "avg.": "متوسط",
+  "Minimum saving": "الحد الأدنى للتوفير",
+  "If a file saves less, the original is kept.": "إذا وفّر الملف أقل من ذلك، يُحتفظ بالأصل.",
+  "Processing": "المعالجة",
+  "Storage & safety": "التخزين والأمان",
+  "How long replaced originals can be restored.": "المدة التي يمكن خلالها استعادة الأصول المستبدلة.",
+  "days": "أيام",
+  "Above this, the oldest originals are deleted permanently.": "فوق هذا الحد، تُحذف أقدم الأصول نهائيًا.",
+  "Safety brake": "مكبح الأمان",
+  "Encoding pauses when the NAS has less free space than this.": "يتوقف الترميز مؤقتًا عندما تقل المساحة الحرة على NAS عن هذه القيمة.",
+  "Scanning": "الفحص",
+  "Automatic scan": "فحص تلقائي",
+  "New files are queued automatically.": "تُضاف الملفات الجديدة إلى قائمة الانتظار تلقائيًا.",
+  "Off": "إيقاف",
+  "Every hour": "كل ساعة",
+  "Every 6 hours": "كل 6 ساعات",
+  "Every 12 hours": "كل 12 ساعة",
+  "Daily": "يوميًا",
+  "Skip folders": "المجلدات المتخطاة",
+  "Comma-separated folder names.": "أسماء مجلدات مفصولة بفواصل.",
+  "Plex": "Plex",
+  "Dashboard address": "عنوان لوحة التحكم",
+  "Use the IP address of the NAS, not localhost.": "استخدم عنوان IP الخاص بـ NAS، وليس localhost.",
+  "Worker key": "مفتاح Worker",
+  "Keep secret: with this key a worker can fetch jobs.": "احتفظ به سرًا: بهذا المفتاح يمكن لأي Worker جلب المهام.",
+  "Show": "إظهار",
+  "Copy": "نسخ",
+  "Minimum requirements": "الحد الأدنى من المتطلبات",
+  "Account & security": "الحساب والأمان",
+  "Two-factor authentication": "المصادقة الثنائية",
+  "Not active": "غير مفعّلة",
+  "New recovery codes": "رموز استرداد جديدة",
+  "Reset MFA": "إعادة تعيين MFA",
+  "Sessions": "الجلسات",
+  "Sign out everywhere else": "تسجيل الخروج من كل مكان آخر",
+  "Sign out": "تسجيل الخروج",
+  "You have unsaved changes.": "لديك تغييرات غير محفوظة.",
+  "Cancel": "إلغاء",
+  "Save": "حفظ",
+  "Language": "اللغة",
+  "Theme": "السمة",
+  "Light": "فاتح",
+  "Dark": "داكن",
+  "Auto": "تلقائي",
+  "Dashboard language.": "لغة لوحة التحكم.",
+  "Auto follows your system setting.": "يتبع الوضع التلقائي إعدادات نظامك.",
+  "Reset": "إعادة تعيين",
+  "Create new codes": "إنشاء رموز جديدة",
+  "Close": "إغلاق",
+  "Code from your authenticator app": "رمز من تطبيق المصادقة",
+  "Sign in": "تسجيل الدخول",
+  "Activate": "تفعيل",
+  "Set up two-factor authentication": "إعداد المصادقة الثنائية",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "امسح رمز QR بتطبيق المصادقة وأدخل الرمز المكون من 6 أرقام.",
+  "Manual:": "يدويًا:",
+  "6-digit code": "رمز من 6 أرقام",
+  "123456 or recovery code": "123456 أو رمز استرداد",
+  "Save your recovery codes": "احفظ رموز الاسترداد",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "فقدت هاتفك؟ كل رمز من هذه الرموز يسجّل دخولك مرة واحدة. تُعرض مرة واحدة فقط.",
+  "I have saved them": "لقد حفظتها",
+  "Save them now, they are shown only once.": "احفظها الآن، فهي تُعرض مرة واحدة فقط.",
+  "Server not responding": "الخادم لا يستجيب",
+  "Sign-in failed": "فشل تسجيل الدخول",
+  "Code is incorrect": "الرمز غير صحيح",
+  "Code is incorrect - check the time on your phone": "الرمز غير صحيح - تحقق من الوقت على هاتفك",
+  "Scan started": "بدأ الفحص",
+  "scan already running": "الفحص قيد التشغيل بالفعل",
+  "Copied": "تم النسخ",
+  "Resumed": "تم الاستئناف",
+  "Paused: a running job will finish first": "متوقف مؤقتًا: ستكتمل المهمة الجارية أولًا",
+  "Added to the queue": "أُضيف إلى قائمة الانتظار",
+  "Not applicable": "غير قابل للتطبيق",
+  "At least one language": "لغة واحدة على الأقل",
+  "Skip this job?": "تخطي هذه المهمة؟",
+  "Restore the original? The new version will be deleted.": "استعادة الأصل؟ سيتم حذف النسخة الجديدة.",
+  "on": "تشغيل",
+  "off": "إيقاف",
+  "Quarantine cleanup": "تنظيف الحجر",
+  "Background task": "مهمة في الخلفية",
+  "Planning at startup": "التخطيط عند البدء",
+  "Welcome": "مرحبًا",
+  "Next": "التالي",
+  "Previous": "السابق",
+  "Next (or skip)": "التالي (أو تخطي)",
+  "Done, go to the overview": "تم، انتقل إلى النظرة العامة",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "يجعل MediaScan أفلامك ومسلسلاتك أصغر حجمًا دون فرق مرئي، ويكمل الترجمات المفقودة. لا تُستبدل الأصول إلا بعد فحص الجودة، وتُحفظ أولًا في الحجر لفترة.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "ست خطوات قصيرة وتنتهي من الإعداد. يمكنك تغيير كل شيء لاحقًا في الإعدادات.",
+  "Your library": "مكتبتك",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "يبحث MediaScan الآن عن الفيديوهات في مجلد الوسائط. مع مكتبة كبيرة يستغرق الفحص الأول بعض الوقت؛ يمكنك المتابعة ببساطة.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "مجلدات لا يلمسها MediaScan أبدًا، مفصولة بفواصل (مثل Music, Downloads).",
+  "Scan again": "فحص مجددًا",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "اختر اللغات التي يجب أن يحتوي عليها كل ملف. يبحث MediaScan عن المفقود منها في OpenSubtitles. إذا فشل ذلك، ينشئ Worker الترجمة بنفسه (التعرف على الكلام والترجمة على جهازك).",
+  "Click a language to remove it.": "انقر على لغة لإزالتها.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "يُقاس كل فيلم باستخدام VMAF، وهو مقياس لكيفية ظهور الصورة للعين البشرية. مستوى «عالٍ» لا يمكن تمييزه عن الأصل لدى الجميع تقريبًا.",
+  "Higher = better picture, less space saved.": "أعلى = صورة أفضل وتوفير أقل في المساحة.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "شبكة أمان للحبيبات والمشاهد المظلمة. 5 Mbps قيمة افتراضية جيدة؛ وتتغير 4K والدقات الأخرى بالتناسب.",
+  "Plex (optional)": "Plex (اختياري)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "عند ربط Plex، ينتظر MediaScan قبل استبدال فيلم أثناء مشاهدة أحدهم له، ويحدّث Plex بعد كل تغيير. لا تستخدم Plex؟ تخطَّ هذه الخطوة ببساطة.",
+  "Plex address and token": "عنوان Plex وtoken",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (بدون تغيير)",
+  "Add a worker": "إضافة Worker",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "يتم العمل الثقيل على حاسوب PC أو Mac ببطاقة رسومات جيدة: Worker. ثبّته الآن، أو لاحقًا عبر صفحة Workers. ما دام لا يوجد Worker، لا يحدث شيء لملفاتك.",
+  "✓ A worker is connected.": "✓ يوجد Worker متصل.",
+  "Done! MediaScan is set up.": "تم! تم إعداد MediaScan.",
+  "Connect the media share on the new machine.": "اربط مجلد الوسائط المشترك على الجهاز الجديد.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: حرف محرك أو \\\\NAS\\Media · Mac: Finder › الاتصال بالخادم · Linux: راجع التعليمات في الحزمة.",
+  "Download the package for that system and unpack it.": "نزّل الحزمة لهذا النظام وفك ضغطها.",
+  "Run the installer.": "شغّل المثبّت.",
+  "The installer asks for the details below and tests the connection.": "يطلب المثبّت البيانات أدناه ويختبر الاتصال.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 أو أحدث، Intel Arc أو iGPU من الجيل 11+، AMD RX 6000+ · 4 أنوية · 8 GB · 100 GB مساحة حرة · شبكة سلكية. الترجمات: NVIDIA مع 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (الترجمات: 24 GB+) · 150 GB مساحة حرة · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "تُحدّث أجهزة Worker نفسها عندما يتوفر إصدار جديد من لوحة التحكم هذه.",
+  "What the workers are doing now and what is planned next.": "ما تفعله أجهزة Worker الآن وما هو مخطط له تاليًا.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "صغّر الملفات دون فقدان مرئي للجودة. يعالج Worker قائمة الانتظار من الأعلى إلى الأسفل.",
+  "select page": "تحديد الصفحة",
+  "select": "تحديد",
+  "to encode": "للترميز",
+  "Movie": "فيلم",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "الأصول المستبدلة، محفوظة لفترة كي تتمكن من استعادتها أو إعادة ترميزها.",
+  "How MediaScan works: quality, subtitles, storage and security.": "كيف يعمل MediaScan: الجودة والترجمات والتخزين والأمان.",
+  "General": "عام",
+  "Advanced": "متقدم",
+  "Connection": "الاتصال",
+  "Hand out new encode jobs to the workers.": "توزيع مهام ترميز جديدة على أجهزة Worker.",
+  "Hand out new subtitle jobs to the workers.": "توزيع مهام ترجمة جديدة على أجهزة Worker.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "مدى صرامة قياس VMAF. أعلى = صورة أفضل وتوفير أقل في المساحة.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "الترجمات التي يجب أن يحتوي عليها كل ملف. يُبحث عن المفقود منها، وإلا يتم إنشاؤه.",
+  "Go to Workers": "الانتقال إلى Workers",
+  "new": "جديد",
+  "start": "بدء",
+  "Minimum bitrate (4K)": "الحد الأدنى لمعدل البت (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "حد أدنى خاص بـ 4K بدلًا من 2.5 × قيمة 1080p. ‏0 = تلقائي. ينطبق HDR +15% والرسوم المتحركة ×0.6 هنا أيضًا.",
+  "Ready to use in a few steps.": "جاهز للاستخدام في بضع خطوات.",
+  "next": "التالي",
+  "read error": "خطأ في القراءة",
+  "MFA is already enabled": "MFA مفعّلة بالفعل",
+  "a .mkv with that name already exists": "يوجد ملف .mkv بهذا الاسم بالفعل",
+  "a file already exists at the original location": "يوجد ملف في الموقع الأصلي بالفعل",
+  "action not possible in this status": "الإجراء غير ممكن في هذه الحالة",
+  "walking folders": "جارٍ استعراض المجلدات",
+  "planning jobs": "جارٍ تخطيط المهام",
+  "check on the NAS rejected (duration/tracks)": "تم رفض الفحص على NAS (المدة/المسارات)",
+  "expected a JSON object": "كان متوقعًا كائن JSON",
+  "ffprobe error": "خطأ ffprobe",
+  "invalid resolution": "دقة غير صالحة",
+  "invalid worker token": "رمز Worker غير صالح",
+  "job belongs to another worker": "المهمة تابعة لـ Worker آخر",
+  "job is no longer active": "المهمة لم تعد نشطة",
+  "no video track": "لا يوجد مسار فيديو",
+  "not JSON": "ليس JSON",
+  "not signed in": "لم يتم تسجيل الدخول",
+  "original disappeared": "اختفى الأصل",
+  "original has changed in the meantime": "تغيّر الأصل في هذه الأثناء",
+  "original is no longer in quarantine": "الأصل لم يعد في الحجر",
+  "original no longer available": "الأصل لم يعد متاحًا",
+  "request refused": "تم رفض الطلب",
+  "target file already exists": "الملف الهدف موجود بالفعل",
+  "the original has already been removed from quarantine - comparing is no longer possible": "تمت إزالة الأصل من الحجر بالفعل - لم تعد المقارنة ممكنة",
+  "this film has not been replaced yet": "لم يتم استبدال هذا الفيلم بعد",
+  "unknown action": "إجراء غير معروف",
+  "worker is still online": "Worker لا يزال متصلًا",
+  "In use now:": "قيد الاستخدام الآن:",
+  "longest": "الأطول",
+  "8.1 (from profile 7)": "8.1 (من الملف الشخصي 7)",
+  "Whisper (transcription)": "Whisper (نسخ صوتي)",
+  "1 day ago": "منذ 1 يوم",
+  "1 video": "1 فيديو",
+  "Enter your password to open the dashboard.": "أدخل كلمة المرور لفتح لوحة التحكم.",
+  "No connection to the server - retrying…": "لا يوجد اتصال بالخادم - تجري إعادة المحاولة…",
+  "Are you sure?": "هل أنت متأكد؟",
+  "Restore": "استعادة",
+  "Re-encode": "إعادة الترميز",
+  "Delete": "حذف",
+  "Next up": "التالي",
+  "in the queue": "في قائمة الانتظار",
+  "Load older entries": "تحميل الإدخالات الأقدم",
+  "Folder: all": "المجلد: الكل",
+  "Resolution: all": "الدقة: الكل",
+  "Codec: all": "الترميز: الكل",
+  "More": "المزيد",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "فيلم/أفلام بانتظار مرمّز المعالج، لكن لا يوجد Worker مفعّل فيه الترميز بالمعالج (صفحة Workers).",
+  "Info": "معلومات",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "عتادك، ومدى ملاءمته للعمل، والأدوات المستخدمة، وكيف تعمل الإعدادات.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "الذاكرة",
+  "Software": "البرمجيات",
+  "GPU encoding": "ترميز بمعالج الرسوميات",
+  "CPU encoding (x265)": "ترميز بالمعالج (x265)",
+  "Subtitles (Whisper)": "الترجمات (Whisper)",
+  "Translation (Ollama)": "الترجمة (Ollama)",
+  "Server": "الخادم",
+  "Database": "قاعدة البيانات",
+  "Tools in use": "الأدوات المستخدمة",
+  "Knowledge base": "قاعدة المعرفة",
+  "Low": "منخفض",
+  "Medium": "متوسط",
+  "Ultra": "فائق",
+  "files": "ملفات",
+  "up": "يعمل منذ",
+  "of": "من",
+  "uses": "يستخدم",
+  "free": "متاح",
+  "Media share": "مشاركة الوسائط",
+  "Rating": "التقييم",
+  "Hardware details appear after this worker has updated itself.": "تظهر تفاصيل العتاد بعد أن يحدّث هذا الـ Worker نفسه.",
+  "no Whisper": "بدون Whisper",
+  "unified memory": "ذاكرة موحدة",
+  "cores": "أنوية",
+  "threads": "خيوط",
+  "driver": "تعريف",
+  "VRAM": "VRAM",
+  "worker": "Worker",
+  "Unknown": "غير معروف",
+  "Settings saved": "تم حفظ الإعدادات",
+  "Time left": "الوقت المتبقي",
+  "Queued": "في الانتظار",
+  "Keep originals for": "الاحتفاظ بالأصول لمدة",
+  "Quarantine size limit": "حد حجم الحجر",
+  "Hide finished items": "إخفاء المنتهية",
+  "Undo skip": "إلغاء التخطي",
+  "not supported here": "غير مدعوم هنا",
+  "CPU encoding": "الترميز بالمعالج",
+  "Retry on CPU (x265)": "إعادة المحاولة على المعالج (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "رُمِّز على المعالج بـ x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 مع ضبط الحبيبات على معالج Worker: يحافظ على الحبيبات بكفاءة أعلى بكثير، لكنه يستغرق ساعات لكل فيلم",
+  "CPU fallback for grainy films": "الرجوع إلى المعالج للأفلام الحبيبية",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "عندما لا تستطيع بطاقة الرسوميات الحفاظ على الجودة دون تجاوز معدل بت المصدر (حبيبات الفيلم)، يُرمَّز الفيلم مرة أخرى على معالج أحد أجهزة Worker بـ x265، الذي يحافظ على الحبيبات بكفاءة أعلى بكثير. يستغرق ساعات لكل فيلم؛ فعّل الترميز بالمعالج لجهاز Worker في صفحة Workers.",
+  "CPU preset": "إعداد المعالج المسبق",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: نحو ساعتين لفيلم 1080p مدته ساعتان على 8 أنوية. Slow: أطول بمرتين إلى ثلاث مرات لملفات أصغر بنحو 5-10%.",
+  "Medium (faster)": "Medium (أسرع)",
+  "Slow (smaller)": "Slow (أصغر)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "تعذر تحميل هذه الصفحة.",
+  "up to 1440p": "حتى 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "جارٍ تحليل الملفات",
+  "No worker has CPU encodes switched on (Workers page)": "لا يوجد Worker مفعّل فيه الترميز بالمعالج (صفحة Workers)",
+  "the job changed in the meantime": "تغيرت المهمة في هذه الأثناء",
+  "Main": "التنقل الرئيسي",
+  "Clear search and filters": "مسح البحث والفلاتر",
+  "Compact rows": "صفوف مضغوطة",
+  "Encoding and subtitles are paused.": "الترميز والترجمات متوقفان مؤقتًا.",
+  "Encoding is paused: no new encode jobs are handed out.": "الترميز متوقف مؤقتًا: لا تُوزَّع مهام ترميز جديدة.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "الترجمات متوقفة مؤقتًا: لا تُوزَّع مهام ترجمة جديدة.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "أدخل عنوان Plex والرمز معًا، أو اترك الحقلين فارغين للتخطي.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "المساحة الحرة على NAS أقل من مكبح الأمان. تم إيقاف الترميز مؤقتًا تلقائيًا.",
+  "Loading…": "جارٍ التحميل…",
+  "Next film": "الفيلم التالي",
+  "Previous film": "الفيلم السابق",
+  "Next page": "الصفحة التالية",
+  "Previous page": "الصفحة السابقة",
+  "Rows per page": "عدد الصفوف في الصفحة",
+  "Resume": "استئناف",
+  "Resume encoding": "استئناف الترميز",
+  "Resume subtitles": "استئناف الترجمات",
+  "Open settings": "فتح الإعدادات",
+  "Open the library": "فتح المكتبة",
+  "Subtitle languages": "لغات الترجمة",
+  "Update": "تحديث",
+  "No results for this search or filter.": "لا توجد نتائج لهذا البحث أو الفلتر.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "لا شيء في الانتظار للترميز. تدخل الملفات الجديدة قائمة الانتظار بعد الفحص.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "لم يُستبدل أي ملف بعد. تظهر عمليات الترميز المنتهية هنا بعد فحص الجودة.",
+  "No files were kept as they are. Films that would save too little end up here.": "لم يُترك أي ملف كما هو. الأفلام التي توفر مساحة قليلة جدًا تنتهي هنا.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "لا توجد ترجمات في الانتظار. الملفات التي تفتقد لغة تدخل قائمة الانتظار بعد الفحص.",
+  "No subtitle job is running right now.": "لا توجد مهمة ترجمة قيد التشغيل الآن.",
+  "No subtitles have been made yet.": "لم تُنشأ أي ترجمات بعد.",
+  "Nothing missing: every file got its subtitles so far.": "لا شيء مفقود: حصل كل ملف على ترجماته حتى الآن.",
+  "No failed encodes.": "لا توجد عمليات ترميز فاشلة.",
+  "No failed subtitle jobs.": "لا توجد مهام ترجمة فاشلة.",
+  "Nothing was added in the last 14 days.": "لم يُضَف شيء خلال آخر 14 يومًا.",
+  "No videos with this plan.": "لا توجد فيديوهات بهذه الخطة.",
+  "The library is being scanned; videos appear as they are found.": "يتم فحص المكتبة؛ تظهر الفيديوهات عند العثور عليها.",
+  "No videos found yet. Check the media folder and run a scan.": "لم يُعثر على فيديوهات بعد. تحقق من مجلد الوسائط وشغّل فحصًا.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "لا شيء في الحجر. تُحفظ الأصول المستبدلة هنا حتى انتهاء مدة الاحتفاظ.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "لم يُعثر على مجلدات DVD أو Blu-ray (VIDEO_TS، BDMV) في المكتبة.",
+  "1 worker online": "1 Worker متصل",
+  "A worker is busy with this file": "Worker يعمل على هذا الملف",
+  "A worker is grabbing the frames": "Worker يلتقط الإطارات",
+  "A worker is searching or making subtitles": "Worker يبحث عن ترجمات أو ينشئها",
+  "A worker picks up the next job within a few seconds.": "يتولى Worker المهمة التالية خلال ثوانٍ قليلة.",
+  "Above this, the oldest comparisons are deleted automatically.": "فوق هذا الحد تُحذف أقدم المقارنات تلقائيًا.",
+  "All replaced films": "كل الأفلام المستبدلة",
+  "Already efficient: encoding would hardly save anything": "فعّال بالفعل: الترميز لن يوفّر شيئًا يُذكر",
+  "Automatic comparisons": "مقارنات تلقائية",
+  "Being made…": "قيد الإنشاء…",
+  "Can be made": "يمكن إنشاؤها",
+  "Can encode on the CPU with x265": "يمكنه الترميز على المعالج CPU باستخدام x265",
+  "Comparison storage limit": "حد تخزين المقارنات",
+  "Comparisons": "المقارنات",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: لم يُعاد ترميزه، فطبقة DV ستُفقد",
+  "Encoding is paused.": "الترميز متوقف مؤقتًا.",
+  "Enlarge": "تكبير",
+  "Errors": "أخطاء",
+  "Flip": "تبديل",
+  "Four frames of the original and the new version are stored": "أربعة إطارات من الأصل والنسخة الجديدة محفوظة",
+  "Full width": "العرض الكامل",
+  "GPU encoder found": "تم العثور على مرمّز GPU",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "التقاط أربعة إطارات من الأصل والنسخة الجديدة لكل فيلم مستبدل، لتتمكن دائمًا من فحص الصورة في صفحة المقارنة. نحو 1–2 MB لكل فيلم.",
+  "Keyboard shortcuts": "اختصارات لوحة المفاتيح",
+  "Leave without saving? Your changes to the settings will be lost.": "المغادرة دون حفظ؟ ستُفقد تغييراتك في الإعدادات.",
+  "Moved to the front": "نُقل إلى المقدمة",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "لا مقارنات بعد. أنشئ واحدة ما دام الأصل في الحجر، أو فعّل المقارنات التلقائية في الإعدادات.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "لا يمكن مقارنة أي فيلم الآن: الأصول خرجت من الحجر، أو لم يُستبدل شيء بعد.",
+  "No longer possible": "لم يعد ممكنًا",
+  "No subtitles found online and none could be made": "لم يتم العثور على ترجمات عبر الإنترنت ولم يمكن إنشاء أي منها",
+  "Ollama found: can translate subtitles": "تم العثور على Ollama: يمكنه ترجمة الترجمات",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "جزء من مجلد DVD أو Blu-ray؛ حوّله في صفحة DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "توقف تلقائيًا: المساحة الحرة على NAS أقل من مكبح الأمان.",
+  "Planned for encoding": "مخطط للترميز",
+  "Queued for the CPU encoder": "في قائمة انتظار مرمّز CPU",
+  "Replaced after the quality check; the original is in quarantine for a while": "استُبدل بعد فحص الجودة؛ الأصل في الحجر لفترة",
+  "Replaced films appear here after their first encode.": "تظهر الأفلام المستبدلة هنا بعد أول ترميز لها.",
+  "Search the log…": "البحث في السجل…",
+  "Show films that can be compared": "عرض الأفلام التي يمكن مقارنتها",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "عرض الأصل والنسخة الجديدة بالتناوب: أفضل طريقة لرصد الحبيبات والتفاصيل",
+  "Skipped": "تم التخطي",
+  "Skipped by you; Retry puts it back in the queue": "تخطّيته أنت؛ «إعادة المحاولة» تعيده إلى قائمة الانتظار",
+  "Slider back to the middle": "إعادة المنزلق إلى المنتصف",
+  "Smaller": "تصغير",
+  "Stopped because the file changed or disappeared": "توقف لأن الملف تغيّر أو اختفى",
+  "Stopped with an error; see the message and try again": "توقف بخطأ؛ راجع الرسالة وحاول مجددًا",
+  "Subtitles are paused.": "الترجمات متوقفة مؤقتًا.",
+  "The file could not be read; see the drawer": "تعذّر قراءة الملف؛ انظر اللوحة الجانبية",
+  "The new file would save less than the minimum saving, so the original was kept": "الملف الجديد كان سيوفّر أقل من الحد الأدنى للتوفير، لذا احتُفظ بالأصل",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "النسخة الجديدة على NAS وتُستبدل فور ألا يشاهد أحد",
+  "The original has left quarantine, so the frames can no longer be grabbed": "خرج الأصل من الحجر، فلم يعد بالإمكان التقاط الإطارات",
+  "The original is still in quarantine, so the frames can still be grabbed": "الأصل ما زال في الحجر، فلا يزال بالإمكان التقاط الإطارات",
+  "The original was put back from quarantine": "أُعيد الأصل من الحجر",
+  "The queue is empty. New files are queued after a scan.": "قائمة الانتظار فارغة. تُضاف الملفات الجديدة بعد الفحص.",
+  "The server hands out newer worker files; the worker installs them after its current job": "الخادم يوزّع ملفات worker أحدث؛ يثبّتها Worker بعد مهمته الحالية",
+  "Undo": "تراجع",
+  "Waiting for Plex: someone is watching this film": "في انتظار Plex: شخص ما يشاهد هذا الفيلم",
+  "Waiting for a worker; the queue runs from top to bottom": "في انتظار Worker؛ تُعالج قائمة الانتظار من الأعلى إلى الأسفل",
+  "Warnings": "تحذيرات",
+  "Whisper installed: can make subtitles": "Whisper مثبّت: يمكنه إنشاء ترجمات",
+  "Would save less than the minimum saving": "سيوفّر أقل من الحد الأدنى للتوفير",
+  "expires today": "تنتهي اليوم",
+  "expires within a day": "تنتهي خلال يوم",
+  "less than a day left": "أقل من يوم متبقٍ",
+  "waiting for Plex": "في انتظار Plex",
+  "update pending": "تحديث معلّق",
+  "Tap to switch between original and new": "انقر للتبديل بين الأصل والجديد",
+  "Repeated": "متكرر",
+  "Search in the current list": "البحث في القائمة الحالية",
+  "Clear the search, close a drawer or dialog": "مسح البحث، إغلاق لوحة أو مربع حوار",
+  "Previous or next film on a comparison": "الفيلم السابق أو التالي في مقارنة",
+  "Open or switch the focused row, switch or header": "فتح أو تبديل الصف أو المفتاح أو العنوان المحدد",
+  "This list": "هذه القائمة",
+  "Nothing in the log matches this.": "لا شيء في السجل يطابق هذا.",
+  "Nothing has happened yet.": "لم يحدث شيء بعد.",
+  "No worker is online, so nothing can run.": "لا يوجد Worker متصل، لذا لا يمكن تشغيل شيء.",
+  "There is no worker yet. Add one to get started.": "لا يوجد Worker بعد. أضف واحدًا للبدء.",
+  "Open Workers": "فتح Workers",
+  "Some values are out of range.": "بعض القيم خارج النطاق.",
+  "no capabilities reported": "لم يتم الإبلاغ عن قدرات",
+  "Replaced · expires": "استُبدل · تنتهي",
+  "Made": "تم الإنشاء",
+  "Make": "إنشاء",
+  "lots of motion": "حركة كثيرة",
+  "dark scene": "مشهد مظلم",
+  "a quarter in": "عند الربع",
+  "three quarters in": "عند ثلاثة الأرباع",
+  "Encoded": "تم الترميز",
+  "Finished": "انتهى",
+  "later": "لاحقًا",
+  "Leave": "مغادرة",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "تأخذ المقارنة 4 إطارات من الأصل ومن النسخة الجديدة (نحو 1–2 ميغابايت إجمالاً). يمكن إنشاؤها ما دام الأصل في الحجر، وتبقى حتى تحذفها، حتى بعد زوال الأصل.",
+  "Retry on CPU": "إعادة المحاولة على المعالج",
+  "Scan": "الفحص"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1بدء$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "الآن: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "عثر MediaScan على $1 فيديو ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · أسوأ 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "أسوأ 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "جديد ($1 أيام)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "الخطة: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "فشل الاستبدال ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "فشل {t:$1}{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "اكتمل الفحص: $1 فيديو، $2 جديد، $3 متغير، $4 مفقود؛ أُضيفت $5 مهمة ترميز و$6 مهمة ترجمة"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "اكتمل الفحص: $1 فيديو، $2 جديد، $3 متغير، $4 مفقود، $5 في المجلدات المتخطاة؛ أُضيفت $6 مهمة ترميز و$7 مهمة ترجمة"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "إعادة ترميز $1 فيلم بالقواعد الحالية؟ ستتم استعادة الأصول وستحصل الأفلام على الأولوية في قائمة الانتظار."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "عاد $1 فيلم إلى قائمة الانتظار{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "تمت استعادة $1 أصل وإعادته إلى قائمة الانتظار (القواعد الحالية)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "جديد: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "استُبدل: $1 ($2 -> $3 GB، VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "تم تحويل DVD/Blu-ray: $1 ($2 GB)؛ مجلد القرص في الحجر"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "تمت استعادة الأصل: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "بدأ $1 {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 مهمة (من أصل $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "تم توزيع التحديد - أُوقف الترميز مؤقتًا تلقائيًا"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "تم توزيع التحديد - أُوقفت الترجمات مؤقتًا تلقائيًا"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "تم تغيير الإعدادات: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "خطأ في المهمة $1: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "المهمة $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Worker $1 غير متصل: عادت $2 مهمة إلى قائمة الانتظار"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "أُعيد تشغيل $1: عادت $2 مهمة مقاطعة إلى قائمة الانتظار"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "تم تحديث $1 إلى $2: عادت $3 مهمة فاشلة إلى قائمة الانتظار"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "تمت إزالة Worker $1"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Worker $1: الترميز {t:$2}، الترجمات {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "تم تحديث التخطيط: أُضيفت $1 مهمة ترميز و$2 مهمة ترجمة"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "أُضيفت $1 مهمة إلى قائمة الانتظار يدويًا"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 مهمة: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "تم حذف $1 مقارنة"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "تم تسجيل الخروج من $1 جلسة أخرى"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "تم استخدام رمز استرداد لتسجيل الدخول (المتبقي $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "تُحفظ الأصول لمدة أقصاها $1 يومًا وبإجمالي لا يتجاوز $2 أبدًا. تُحذف الأقدم أولًا. الاستعادة تحذف النسخة الجديدة."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - انقر للإزالة"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "سيتم تحويل $1 مجلد · يبدأ Worker خلال نصف دقيقة"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "الصوت: $1 · الترجمات: $2"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "حذف $1 مقارنة؟ تبقى الأفلام نفسها كما هي."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "الإطار $1 · عند $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "الإطار $1 · عند $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB بصيغة jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "مدة الترميز $1 دقيقة · قيست على 8 مقاطع، ثم فُحصت على الفيلم كاملًا."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "موجود الآن: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "أضعف 5% $1 · المعيار $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "التزامن $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "فشل إنشاء الإطارات: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "التحديد · التالي"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "التحديد · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "الآن:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· ثم $1 أخرى من التحديد"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "تقدير · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 انتهت سابقًا · عرض"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "أُضيف $1 إلى التحديد · يبدأ Worker خلال ثوانٍ"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "التحديد {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "أُنشئ: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · أصغر بنسبة $3%$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "الآن"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "منذ $1 دقيقة"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "منذ $1 ساعة"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "منذ $1 يوم"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "آخر ظهور {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 يوم $2 ساعة"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 س $2 د"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 فيديو"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "الحجر $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 لكل 24 ساعة"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · مكسب ~$2"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "مكسب ~$1 GB"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "أصغر بنسبة $1% للملفات المعالجة"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "Worker $1 متصل"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "$1 أخرى للبدء، ثم إيقاف مؤقت"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 عنصر · الصفحة $2 من $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "تم تحديد $1"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "تحديد جميع النتائج ($1)"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "جارٍ الفحص: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× محاولات"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 دقيقة"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "مفعّلة · المتبقي $1 رمز استرداد"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 جلسة نشطة، بما فيها هذه."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "تم تحديث $1{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "تم تسجيل خروج $1 جلسة أخرى"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "معالجة هذه الـ $1 فقط؟ ستحصل على الأولوية، وتُستأنف المعالجة ثم تتوقف مؤقتًا تلقائيًا بعد ذلك."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "تخطي $1 مهمة؟"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "استعادة $1 أصل؟ سيتم حذف النسخ الجديدة."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "إزالة Worker $1 من القائمة؟ إذا عاد متصلًا فسيظهر مجددًا تلقائيًا."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "قيد التشغيل منذ $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "المتبقي ~$1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "حتى $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "يعمل على"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "تم الاتصال بـ Plex (الإصدار $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex لا يستجيب بشكل صحيح: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "خطأ: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "فشل الاستبدال: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "قيمة غير صالحة لـ $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "يجب أن تكون قيمة $1 بين $2 و$3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · أسوأ 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 س"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: لم تستطع بطاقة الرسوميات الحفاظ على الجودة - في الانتظار لمرمّز المعالج (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "تنظيف staging: أُزيل ملف متبقٍ $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 في الصفحة"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 Workers متصلون"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · إضافة Worker ومفتاح Worker والتنزيلات موجودة في صفحة Workers."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · يبدأ خلال ~{t:$2} · تقدير"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · تقدير"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "$1 أيام متبقية"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "تنتهي خلال $1 أيام"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "تم الإنشاء · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "يمكن إنشاؤها · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · الخطوة $1 من $2 · المتبقي ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · الخطوة $1 من $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · المتبقي ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "تم طلب $1 مقارنة · جاهزة خلال بضع دقائق"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "إنشاء $1 مقارنة؟ نحو 1–2 MB لكل منها."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "تكرر $1 مرات"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "بين $1 و$2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 مهمة"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "خطأ في $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "تم طلب $1 مقارنة"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "تم تنظيف المقارنات: أُزيلت $1 (أكثر من $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "تمت إعادة تسمية مجلد الحجر إلى quarantine (تم تحديث $1 سجل)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "تمت إزالة Worker $1: عادت $2 مهمة إلى قائمة الانتظار"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "الحجر: $1 موجود بالفعل، تم ترك $2 في مكانه"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "تمت إعادة تسمية مجلد الحجر إلى quarantine؛ تم تحديث $1 سجل، لكن $2 ليس فارغًا بعد"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "فشلت إعادة تسمية مجلد الحجر (هل مشاركة الوسائط مُركَّبة؟): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "الإصدار الجديد مفقود من staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "ملف .mkv الجديد مفقود من staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "الأصل اختفى"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "الأصل تغيّر في هذه الأثناء"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "الأصل لم يعد متاحًا"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "رُفض الفحص على NAS (المدة/المسارات)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "تم تحويل dvd/blu-ray إلى mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "إعادة المحاولة بعد تحديث Worker"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "تخطّيته أنت"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "الملف الهدف موجود بالفعل"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "Worker غير متصل - أُعيدت جدولته"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "أُزيل Worker - أُعيدت جدولته"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "أُعيد تشغيل Worker - أُعيدت جدولته"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "فشل الاستبدال: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "Dolby Vision مفقود من ملف mkv الجديد"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: لم يُعاد ترميزه (ستُفقد طبقة DV)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "لا يمكن نسخ مسار إلى .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "لم يحقق ffmpeg أي تقدم لمدة $1 دقيقة (المشاركة غير قابلة للوصول؟) - تم الإيقاف"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 من $2 ملفًا مفقودة في الوقت نفسه - المشاركة غير قابلة للوصول؟ لم يُعلَّم أي شيء كمفقود"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "فشلت الترجمة: لا توجد إجابة صالحة لـ $1 سطر بعد إعادة المحاولات"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: خطأ في الخادم"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - نزّل النموذج (ollama pull <model>) أو صحّح ollama_model في worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama غير قابل للوصول على $1 ($2) - شغّل Ollama أو تحقق من ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama غير قابل للوصول: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - استمر Ollama في الفشل لمدة $2 دقيقة"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "استغرق $1 أكثر من ساعة - هل لا تزال مشاركة الوسائط قابلة للوصول؟"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 مفقود؛ ثبّته $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF للفيلم كاملًا $1 غير معقول بكل طرق المطابقة (العينات $2)؛ منخفض عند $3. تم الإبقاء على الأصل؛ تحقق من المصدر هناك"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: تعذّر قراءة الملف"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: فشل"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "لا توجد مساحة حرة كافية على PC لهذا الفيلم (يلزم $1 GB في $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "مساحة غير كافية في مجلد العمل: $1 GB متاحة، ~$2 GB مطلوبة"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "مع الحد الأدنى لمعدل البت أصغر بنسبة $1% على الأكثر"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "جارٍ استخراج البيانات الوصفية من طبقة التحسين"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "التنزيل غير مطابق (sha256) - لم يُستخدم"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "الفحص: المدة أو عدد المسارات مختلف"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "ملف mkv الجديد قصير جدًا ($1 من $2 دقيقة)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "اكتمل $1 من $2، بانتظار Worker"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "تحويل Dolby Vision إلى profile 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "جارٍ حقن البيانات الوصفية في الطبقة الأساسية"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "فحص VMAF (قياس ثانٍ)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "لا يوجد إعداد يحقق معيار الجودة"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "تم بلوغ حد التنزيل - الباقي لاحقًا"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "تم بلوغ الحد اليومي لـ OpenSubtitles"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "جزئيًا؛ الباقي بعد حد التنزيل"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "لم يتم العثور على $1 بعد التنزيل"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: تم اكتشاف اللغة المنطوقة"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (مترجم من $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "بانتظار مساحة حرة على PC"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "ملف الترجمة كبير بشكل غير متوقع"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "قياس الاختبار الذاتي غير موثوق"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "فشلت محاولة الترجمة $1"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "انتظار: تتم المشاهدة الآن في Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "متوقع أصغر بنسبة $1% فقط"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "جارٍ تنزيل $1 (مرة واحدة)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "فحص الفيلم كاملًا أقل من المعيار"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "تعذّر التقاط إطار عند $1s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "الفيلم كاملًا أقل بقليل من المعيار"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "البحث عن الفيلم على القرص"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "معيار الجودة غير قابل للتحقيق"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "قياس الفحص غير موثوق"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "مسار غير صالح من الخادم"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "مجددًا: الحد الأدنى للمكسب الآن 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper يعمل على GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "لم يتم العثور على عناوين في DVD"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "مسار مشبوه في الأرشيف"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "انتظار: Plex غير متاح"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "يعمل على $1 من $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles غير قابل للوصول"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (نسخ صوتي)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "فحص VMAF للفيلم كاملًا"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "تم، بانتظار الاستبدال"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "المجلد القديم إلى الحجر"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "فحص VMAF $1 منخفض جدًا"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "قراءة القرص (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "مترجم من الإنجليزية"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "تم ($1 من $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "فشل استخراج الصوت"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "الرجوع إلى CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "تم تسجيل الدخول إلى OpenSubtitles"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (من الملف الشخصي 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "بانتظار Worker"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "مسار مشبوه في zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "EN المضمّن غير قابل للقراءة"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "الأطول حتى الآن: العنوان"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "التزامن غير مطابق"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "أصغر بنسبة $1% فقط"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "مقطع $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "الإبقاء على الأصل"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "التنزيلات المتبقية اليوم"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "تم فحص العنوان $1"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "بانتظار الاستبدال"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "النسخ إلى NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "يبقى الأصل"
+  ],
+  [
+   "translation failed",
+   "g",
+   "فشلت الترجمة"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "الخادم غير قابل للوصول"
+  ],
+  [
+   "searching quality",
+   "g",
+   "البحث عن الجودة"
+  ],
+  [
+   "making references",
+   "g",
+   "إنشاء المراجع"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "التحويل إلى mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "توقفت الترجمات"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "النسخ NAS → PC"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "النسخ PC → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "البحث عن الفيلم"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "الدمج في mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "أطول قائمة تشغيل"
+  ],
+  [
+   "timing reference",
+   "g",
+   "مرجع التزامن"
+  ],
+  [
+   "speech segments",
+   "g",
+   "مقاطع الكلام"
+  ],
+  [
+   "too little gain",
+   "g",
+   "مكسب قليل جدًا"
+  ],
+  [
+   " not applicable",
+   "g",
+   " غير قابل للتطبيق"
+  ],
+  [
+   "download failed",
+   "g",
+   "فشل التنزيل"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "بعد ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "الترجمة إلى"
+  ],
+  [
+   "next candidate",
+   "g",
+   "المرشّح التالي"
+  ],
+  [
+   "after shifting",
+   "g",
+   "بعد الإزاحة"
+  ],
+  [
+   "reading audio",
+   "g",
+   "قراءة الصوت"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "التحديد · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 في الانتظار"
+  ],
+  [
+   "search failed",
+   "g",
+   "فشل البحث"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "إعادة الترميز"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "العنوان $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " أخطاء"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " اكتمل $1"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "الترجمات:"
+  ],
+  [
+   "replacing",
+   "g",
+   "الاستبدال"
+  ],
+  [
+   "subtitles",
+   "g",
+   "الترجمات"
+  ],
+  [
+   "candidate",
+   "g",
+   "مرشّح"
+  ],
+  [
+   "encoding:",
+   "g",
+   "الترميز:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "بدء"
+  ],
+  [
+   "encoding",
+   "g",
+   "الترميز"
+  ],
+  [
+   "checking",
+   "g",
+   "الفحص"
+  ],
+  [
+   ", up to ",
+   "g",
+   "، حتى "
+  ],
+  [
+   "present",
+   "g",
+   "موجود"
+  ],
+  [
+   "missing",
+   "g",
+   "مفقود"
+  ],
+  [
+   "speed",
+   "g",
+   "السرعة"
+  ],
+  [
+   "saved",
+   "g",
+   "تم الحفظ"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "لم تستطع بطاقة الرسوميات الحفاظ على الجودة - في الانتظار لمرمّز المعالج (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "تنظيف staging: أُزيل ملف متبقٍ"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "مجلد الوسائط فارغ أو غير مُركَّب - لم يتغير شيء"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "الحفاظ على الجودة يحتاج معدل بت أعلى مما لدى المصدر"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "يحتاج معدل بت أعلى من المصدر"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "يُعاد تشغيل Worker من أجل تحديث"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "لا يوجد مسار فيديو (صورة الغلاف فقط؟)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "لا يوجد مسار صوت لتحويله إلى نص"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "لا توجد مساحة حرة كافية على PC لهذا الفيلم"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "إعادة المحاولة على المعالج (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "جارٍ استعراض المجلدات"
+  ],
+  [
+   "analysing files",
+   "g",
+   "جارٍ تحليل الملفات"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "جارٍ تخطيط المهام"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "الترميز بالمعالج تشغيل"
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "الترميز بالمعالج إيقاف"
+  ]
+ ]
+}

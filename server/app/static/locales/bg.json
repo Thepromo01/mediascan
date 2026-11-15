@@ -1,0 +1,2060 @@
+{
+ "name": "Български",
+ "s": {
+  "Re-encode from original": "Повторно кодиране от оригинала",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Повторно кодиране с текущите правила? Оригиналът се възстановява и филмът получава приоритет.",
+  "Back in the queue": "Отново в опашката",
+  "Restore originals": "Възстановяване на оригиналите",
+  "Minimum bitrate (1080p)": "Минимален битрейт (1080p)",
+  "Extra floor (share of the source)": "Допълнителен минимум (дял от източника)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "По избор: запазва и поне този дял от оригиналния видео битрейт. Полезно само за източници с много висок битрейт. 0 = изкл.",
+  "with the minimum bitrate at most": "с минималния битрейт най-много",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Новият файл никога не пада под това, дори ако VMAF го допуска. Други резолюции пропорционално: 4K ×2,5 · 720p ×0,55 · SD ×0,3 · HDR +15% · анимация ×0,6.",
+  "bitrate already near the minimum": "битрейтът вече е близо до минимума",
+  "MFA reset from settings - set it up again": "MFA е нулиран от настройките - настройте го отново",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA е нулиран чрез MFA_RESET - премахнете MFA_RESET от настройките на контейнера",
+  "MFA enabled": "MFA е включен",
+  "MediaScan started": "MediaScan стартира",
+  "New recovery codes created": "Създадени са нови кодове за възстановяване",
+  "Password changed; other sessions signed out": "Паролата е сменена; другите сесии са излезли",
+  "Password set (first time)": "Паролата е зададена (първи път)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Внимание: ADMIN_PASSWORD е по-къса от 10 знака - изберете по-силна парола в Настройки",
+  "part of a DVD/Blu-ray folder": "част от DVD/Blu-ray папка",
+  "folder is in Skip folders": "папката е в Пропускани папки",
+  "file disappeared": "файлът изчезна",
+  "worker restarted - rescheduled": "работникът рестартира - пренасрочено",
+  "worker offline - rescheduled": "работникът е офлайн - пренасрочено",
+  "retry after worker update": "повторно след обновяване на работника",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray преобразуван в mkv",
+  "skipped by you": "пропуснато от вас",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Замяната изчаква, докато филмът се гледа, а Plex се опреснява след всяка промяна.",
+  "Confirm with your password and a code from your app.": "Потвърдете с паролата си и код от приложението.",
+  "Your old recovery codes will stop working.": "Старите ви кодове за възстановяване стават невалидни.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Текущата връзка с приложението за удостоверяване и кодовете за възстановяване стават невалидни. След това веднага настройвате MFA отново.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Изберете парола за таблото. Кодът за настройка е в лога на контейнера (Container Manager › mediascan › Лог, или",
+  "- click to remove": "- щракнете за премахване",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Невалиден адрес, напр. http://192.168.1.10:32400",
+  "Enter a Plex token": "Въведете Plex token",
+  "A password has already been set": "Вече е зададена парола",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Ключът е фиксиран в WORKER_TOKEN (средата на контейнера)",
+  "selection still running - pause or wait until it is done": "изборът още се изпълнява - поставете на пауза или изчакайте да приключи",
+  "Now running": "В момента",
+  "Finding the film on the disc": "Търсене на филма на диска",
+  "Converting to one .mkv": "Преобразуване в един .mkv",
+  "Checking (duration, tracks)": "Проверка (продължителност, писти)",
+  "Copying to the NAS": "Копиране към NAS",
+  "Old folder to quarantine": "Старата папка в карантина",
+  "worker has not reported for a while": "работникът не се е обаждал от известно време",
+  "waiting for the worker": "изчаква работника",
+  "Welcome to MediaScan": "Добре дошли в MediaScan",
+  "Setup code": "Код за настройка",
+  "New password (at least 10 characters)": "Нова парола (поне 10 знака)",
+  "Repeat password": "Повторете паролата",
+  "Set password": "Задаване на парола",
+  "The passwords do not match": "Паролите не съвпадат",
+  "Setup code is wrong - check the container log": "Грешен код за настройка - вижте лога на контейнера",
+  "Choose a password of at least 10 characters": "Изберете парола от поне 10 знака",
+  "Animation folders": "Папки с анимация",
+  "Top-level folders with animation: these may use a lower bitrate.": "Основни папки с анимация: те може да имат по-нисък битрейт.",
+  "Where do I find the token?": "Къде да намеря token?",
+  "Connect": "Свързване",
+  "Disconnect": "Прекъсване на връзката",
+  "Connected": "Свързан",
+  "Not connected": "Не е свързан",
+  "+ Add language": "+ Добавяне на език",
+  "Renew": "Подновяване",
+  "Worker version": "Версия на работника",
+  "Password": "Парола",
+  "Other sessions are signed out after a change.": "След промяна другите сесии излизат.",
+  "Change password": "Смяна на паролата",
+  "Other sessions will be signed out.": "Другите сесии ще излязат.",
+  "Change": "Промяна",
+  "New worker key": "Нов ключ за работник",
+  "Create new key": "Създаване на нов ключ",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Всички работници спират, докато не въведете новия ключ (стартирайте инсталатора отново или редактирайте worker.ini).",
+  "Repeat new password": "Повторете новата парола",
+  "Password changed": "Паролата е сменена",
+  "New worker key created": "Създаден е нов ключ за работник",
+  "Disconnect Plex?": "Прекъсване на връзката с Plex?",
+  "Plex disconnected": "Връзката с Plex е прекъсната",
+  "Plex connected": "Plex е свързан",
+  "Incorrect password": "Грешна парола",
+  "Incorrect code": "Грешен код",
+  "Incorrect code from your authenticator app": "Грешен код от приложението за удостоверяване",
+  "Too many attempts - try again in 15 minutes": "Твърде много опити - опитайте отново след 15 минути",
+  "DVD & Blu-ray": "DVD & Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Папки с VIDEO_TS или BDMV. Преобразуването ги прави един .mkv с цялото видео, аудио, субтитри и глави.",
+  "Convert to MKV": "Преобразуване в MKV",
+  "Folder": "Папка",
+  "Type": "Вид",
+  "found": "намерено",
+  "queued": "в опашката",
+  "converting…": "преобразува се…",
+  "converted": "преобразувано",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Преобразуването копира всичко 1:1 в един .mkv: видео (включително HDR), всички аудио писти, субтитри и глави. При DVD се избира най-дългото заглавие (филмът). Старата папка отива в карантина, така че можете да я възстановите. След това .mkv минава през нормалното кодиране и субтитрите. Blu-ray дискове с Dolby Vision стават Dolby Vision профил 8.1 (базов слой 1:1, добавени DV метаданни): Plex и телевизорът ви го възпроизвеждат като Dolby Vision, други плейъри като HDR10. Такъв филм не се прекодира след това, защото Dolby Vision би се загубил.",
+  "Compare": "Сравняване",
+  "Delete comparison": "Изтриване на сравнението",
+  "Comparison deleted": "Сравнението е изтрито",
+  "comparison": "сравнение",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Оригиналът до новата версия: размер, качество, картина и субтитри. Вие избирате кои филми.",
+  "Original → new": "Оригинал → нов",
+  "Quality (VMAF)": "Качество (VMAF)",
+  "Comparison": "Сравнение",
+  "View": "Преглед",
+  "Make comparison": "Създаване на сравнение",
+  "previous attempt failed": "предишният опит е неуспешен",
+  "Back": "Назад",
+  "Make again": "Създаване отново",
+  "New": "Нов",
+  "VMAF whole film": "VMAF за целия филм",
+  "Making the frames… this usually takes less than a minute.": "Кадрите се създават… обикновено отнема по-малко от минута.",
+  "There is no picture comparison for this film yet.": "Все още няма сравнение на картината за този филм.",
+  "Picture · drag across the image": "Картина · плъзнете по изображението",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "HDR е преобразуван в SDR за този изглед; телевизорът ви го показва в HDR.",
+  "How the setting was chosen": "Как е избрана настройката",
+  "Step": "Стъпка",
+  "Weakest 5%": "Най-слабите 5%",
+  "Bitrate": "Битрейт",
+  "chosen": "избрано",
+  "No data.": "Няма данни.",
+  "Nothing needed, all languages were present.": "Не е нужно нищо, всички езици вече бяха налице.",
+  "Not processed yet.": "Още не е обработено.",
+  "Comparison requested · ready within a minute": "Сравнението е заявено · готово до минута",
+  "Delete this comparison? The film itself stays as it is.": "Да се изтрие ли това сравнение? Самият филм остава непроменен.",
+  "Not possible": "Не е възможно",
+  "Slide between original and new": "Плъзнете между оригинал и нов",
+  "Overview": "Обзор",
+  "Queue": "Опашка",
+  "In progress": "В процес",
+  "No gain": "Без икономия",
+  "Failed": "Неуспешни",
+  "Subtitles": "Субтитри",
+  "Recently added": "Наскоро добавени",
+  "Library": "Библиотека",
+  "Quarantine": "Карантина",
+  "Workers": "Работници",
+  "Activity": "Активност",
+  "Settings": "Настройки",
+  "Encoding": "Кодиране",
+  "System": "Система",
+  "Status of the entire library.": "Състояние на цялата библиотека.",
+  "Selection": "Избор",
+  "waiting for worker": "чака работник",
+  "In the selection": "В избора",
+  "selection": "избор",
+  "Selection · encoding": "Избор · кодиране",
+  "Selection · subtitles": "Избор · субтитри",
+  "Close list": "Затваряне на списъка",
+  "waiting": "чака",
+  "nothing needed": "не е нужно нищо",
+  "original kept": "оригиналът е запазен",
+  "Find, sync or generate missing subtitles.": "Търсене, синхронизиране или създаване на липсващи субтитри.",
+  "All videos with their current plan. You can also queue items manually here.": "Всички видеа с текущия им план. Тук можете и ръчно да добавяте в опашката.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Машините, които вършат работата. Изберете какво може да прави всеки работник.",
+  "Log of everything that happens.": "Журнал на всичко, което се случва.",
+  "Scan now": "Сканирай сега",
+  "Saved": "Спестено",
+  "Free on NAS": "Свободно на NAS",
+  "Progress": "Напредък",
+  "Saved per day": "Спестено на ден",
+  "last 14 days": "последните 14 дни",
+  "Per folder": "По папки",
+  "all": "всички",
+  "nothing processed yet": "още нищо не е обработено",
+  "no measurement yet": "още няма измерване",
+  "No processed files yet": "Още няма обработени файлове",
+  "No worker connected yet": "Още няма свързан работник",
+  "no worker": "няма работник",
+  "worker offline": "работникът е офлайн",
+  "online": "онлайн",
+  "disabled": "изключено",
+  "encoding": "кодиране",
+  "subtitles": "субтитри",
+  "Search by name or folder…": "Търсене по име или папка…",
+  "Several titles at once: separate them with |": "Няколко заглавия наведнъж: разделете ги с |",
+  "Nothing to show": "Няма какво да се покаже",
+  "File": "Файл",
+  "Source": "Източник",
+  "Status": "Статус",
+  "Result": "Резултат",
+  "Languages": "Езици",
+  "Error": "Грешка",
+  "When": "Кога",
+  "Plan": "План",
+  "Added": "Добавено",
+  "Original": "Оригинал",
+  "Size": "Размер",
+  "Replaced": "Заменен",
+  "estimate": "приблизително",
+  "Name": "Име",
+  "Done": "Готово",
+  "Nothing found": "Нищо не е намерено",
+  "Process only these": "Обработи само тези",
+  "Prioritise": "Приоритет",
+  "Skip": "Пропусни",
+  "Retry": "Повторен опит",
+  "Clear": "Изчисти",
+  "Both": "И двете",
+  "Restore original": "Възстанови оригинала",
+  "Find subtitles": "Търси субтитри",
+  "running": "изпълнява се",
+  "done": "готово",
+  "failed": "неуспешно",
+  "replacing": "заменя се",
+  "no gain": "без икономия",
+  "skipped": "пропуснато",
+  "restored": "възстановено",
+  "cancelled": "отменено",
+  "nothing found": "нищо не е намерено",
+  "encode": "кодиране",
+  "already efficient": "вече ефективен",
+  "small gain": "малка икономия",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "грешка",
+  "unknown": "неизвестно",
+  "All": "Всички",
+  "Already efficient": "Вече ефективни",
+  "Small gain": "Малка икономия",
+  "Restored": "Възстановени",
+  "Video": "Видео",
+  "Duration": "Продължителност",
+  "Audio": "Аудио",
+  "Encode": "Кодиране",
+  "Quality": "Качество",
+  "Encode time": "Време за кодиране",
+  "Message": "Съобщение",
+  "Started": "Стартирано",
+  "Search": "Търсене",
+  "weakest 5%": "най-слабите 5%",
+  "video": "видео",
+  "Worker": "Работник",
+  "Hardware": "Хардуер",
+  "Resolution": "Резолюция",
+  "Working on": "Работи по",
+  "nothing": "нищо",
+  "up to 4K": "до 4K",
+  "up to 1080p": "до 1080p",
+  "up to 720p": "до 720p",
+  "up to SD": "до SD",
+  "Remove": "Премахни",
+  "Add worker": "Добавяне на работник",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Всеки работник съобщава какво може (намерен енкодер, инсталиран Whisper). Тук решавате какво му е позволено. Промените важат от следващата задача; текущата задача се довършва.",
+  "This machine lacks the hardware or software for this": "Тази машина няма нужния хардуер или софтуер за това",
+  "Quality level": "Ниво на качество",
+  "Standard": "Стандартно",
+  "High": "Високо",
+  "Maximum": "Максимално",
+  "Custom": "Персонализирано",
+  "Custom target": "Собствена цел",
+  "Average VMAF and the weakest 5% of frames.": "Среден VMAF и най-слабите 5% от кадрите.",
+  "avg.": "ср.",
+  "Minimum saving": "Минимална икономия",
+  "If a file saves less, the original is kept.": "Ако файлът спести по-малко, оригиналът се запазва.",
+  "Processing": "Обработка",
+  "Storage & safety": "Съхранение и безопасност",
+  "How long replaced originals can be restored.": "Колко дълго заменените оригинали могат да се възстановят.",
+  "days": "дни",
+  "Above this, the oldest originals are deleted permanently.": "Над това най-старите оригинали се изтриват окончателно.",
+  "Safety brake": "Предпазна спирачка",
+  "Encoding pauses when the NAS has less free space than this.": "Кодирането спира, когато свободното място на NAS е под това.",
+  "Scanning": "Сканиране",
+  "Automatic scan": "Автоматично сканиране",
+  "New files are queued automatically.": "Новите файлове се добавят в опашката автоматично.",
+  "Off": "Изкл.",
+  "Every hour": "Всеки час",
+  "Every 6 hours": "На всеки 6 часа",
+  "Every 12 hours": "На всеки 12 часа",
+  "Daily": "Ежедневно",
+  "Skip folders": "Пропускани папки",
+  "Comma-separated folder names.": "Имена на папки, разделени със запетая.",
+  "Plex": "Plex",
+  "Dashboard address": "Адрес на таблото",
+  "Use the IP address of the NAS, not localhost.": "Използвайте IP адреса на NAS, не localhost.",
+  "Worker key": "Ключ за работник",
+  "Keep secret: with this key a worker can fetch jobs.": "Пазете в тайна: с този ключ работник може да взема задачи.",
+  "Show": "Покажи",
+  "Copy": "Копирай",
+  "Minimum requirements": "Минимални изисквания",
+  "Account & security": "Акаунт и сигурност",
+  "Two-factor authentication": "Двуфакторно удостоверяване",
+  "Not active": "Неактивно",
+  "New recovery codes": "Нови кодове за възстановяване",
+  "Reset MFA": "Нулиране на MFA",
+  "Sessions": "Сесии",
+  "Sign out everywhere else": "Изход от всички други места",
+  "Sign out": "Изход",
+  "You have unsaved changes.": "Имате незапазени промени.",
+  "Cancel": "Отказ",
+  "Save": "Запази",
+  "Language": "Език",
+  "Theme": "Тема",
+  "Light": "Светла",
+  "Dark": "Тъмна",
+  "Auto": "Авто",
+  "Dashboard language.": "Език на таблото.",
+  "Auto follows your system setting.": "Авто следва системната ви настройка.",
+  "Reset": "Нулиране",
+  "Create new codes": "Създаване на нови кодове",
+  "Close": "Затвори",
+  "Code from your authenticator app": "Код от приложението за удостоверяване",
+  "Sign in": "Вход",
+  "Activate": "Активирай",
+  "Set up two-factor authentication": "Настройване на двуфакторно удостоверяване",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Сканирайте QR кода с приложението за удостоверяване и въведете 6-цифрения код.",
+  "Manual:": "Ръчно:",
+  "6-digit code": "6-цифрен код",
+  "123456 or recovery code": "123456 или код за възстановяване",
+  "Save your recovery codes": "Запазете кодовете си за възстановяване",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Загубен телефон? С всеки от тези кодове можете да влезете веднъж. Показват се само веднъж.",
+  "I have saved them": "Запазих ги",
+  "Save them now, they are shown only once.": "Запазете ги сега, показват се само веднъж.",
+  "Server not responding": "Сървърът не отговаря",
+  "Sign-in failed": "Неуспешен вход",
+  "Code is incorrect": "Грешен код",
+  "Code is incorrect - check the time on your phone": "Грешен код - проверете часа на телефона си",
+  "Scan started": "Сканирането започна",
+  "scan already running": "сканирането вече тече",
+  "Copied": "Копирано",
+  "Resumed": "Възобновено",
+  "Paused: a running job will finish first": "На пауза: текущата задача ще бъде довършена",
+  "Added to the queue": "Добавено в опашката",
+  "Not applicable": "Не е приложимо",
+  "At least one language": "Поне един език",
+  "Skip this job?": "Да се пропусне ли тази задача?",
+  "Restore the original? The new version will be deleted.": "Да се възстанови ли оригиналът? Новата версия ще бъде изтрита.",
+  "on": "вкл.",
+  "off": "изкл.",
+  "Quarantine cleanup": "Почистване на карантината",
+  "Background task": "Фонова задача",
+  "Planning at startup": "Планиране при стартиране",
+  "Welcome": "Добре дошли",
+  "Next": "Напред",
+  "Previous": "Назад",
+  "Next (or skip)": "Напред (или пропусни)",
+  "Done, go to the overview": "Готово, към обзора",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan прави филмите и сериалите ви по-малки без видима разлика и добавя липсващи субтитри. Оригиналите се заменят само след проверка на качеството и първо остават известно време в карантина.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Шест кратки стъпки и всичко е готово. Можете да промените всичко по-късно в Настройки.",
+  "Your library": "Вашата библиотека",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan търси видеа в медийната ви папка. При голяма библиотека първото сканиране отнема време; можете спокойно да продължите.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Папки, които MediaScan никога не докосва, разделени със запетаи (напр. Music, Downloads).",
+  "Scan again": "Сканирай отново",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Изберете езиците, които трябва да има всеки файл. Липсващите MediaScan търси в OpenSubtitles. Ако не успее, работникът създава субтитрите сам (разпознаване на реч и превод на вашия компютър).",
+  "Click a language to remove it.": "Щракнете върху език, за да го премахнете.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Всеки филм се измерва с VMAF – оценка за това как картината изглежда за човешкото око. „Високо“ е неразличимо от оригинала за почти всеки.",
+  "Higher = better picture, less space saved.": "По-високо = по-добра картина, по-малко спестено място.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Предпазна мрежа за зърното и тъмните сцени. 5 Mbps е добра стойност по подразбиране; 4K и другите резолюции се мащабират пропорционално.",
+  "Plex (optional)": "Plex (по избор)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Със свързан Plex MediaScan изчаква със замяната, докато някой гледа филма, и опреснява Plex след всяка промяна. Нямате Plex? Просто пропуснете тази стъпка.",
+  "Plex address and token": "Plex адрес и token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (непроменен)",
+  "Add a worker": "Добавяне на работник",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Тежката работа се върши на PC или Mac с добра видеокарта: работникът. Инсталирайте го сега или по-късно от Работници. Докато няма работник, с файловете ви не се случва нищо.",
+  "✓ A worker is connected.": "✓ Има свързан работник.",
+  "Done! MediaScan is set up.": "Готово! MediaScan е настроен.",
+  "Connect the media share on the new machine.": "Свържете мрежовата папка с медия на новата машина.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: буква на устройство или \\\\NAS\\Media · Mac: Finder › Свързване със сървър · Linux: вижте инструкциите в пакета.",
+  "Download the package for that system and unpack it.": "Изтеглете пакета за тази система и го разархивирайте.",
+  "Run the installer.": "Стартирайте инсталатора.",
+  "The installer asks for the details below and tests the connection.": "Инсталаторът пита за данните по-долу и тества връзката.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 или по-нова, Intel Arc или iGPU 11-о пок.+, AMD RX 6000+ · 4 ядра · 8 GB · 100 GB свободни · кабелна мрежа. Субтитри: NVIDIA с 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (субтитри: 24 GB+) · 150 GB свободни · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Работниците се обновяват сами, когато това табло има нова версия.",
+  "What the workers are doing now and what is planned next.": "Какво правят работниците сега и какво предстои.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Намаляване на файловете без видима загуба на качество. Работникът обработва опашката отгоре надолу.",
+  "select page": "избери страницата",
+  "select": "избери",
+  "to encode": "за кодиране",
+  "Movie": "Филм",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Заменени оригинали, пазени временно, за да можете да ги възстановите или прекодирате.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Как работи MediaScan: качество, субтитри, съхранение и сигурност.",
+  "General": "Общи",
+  "Advanced": "Разширени",
+  "Connection": "Връзка",
+  "Hand out new encode jobs to the workers.": "Раздаване на нови задачи за кодиране на работниците.",
+  "Hand out new subtitle jobs to the workers.": "Раздаване на нови задачи за субтитри на работниците.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Колко строго е измерването с VMAF. По-високо = по-добра картина, по-малко спестено място.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Какви субтитри трябва да има всеки файл. Липсващите се търсят, а иначе се създават.",
+  "Go to Workers": "Към Работници",
+  "new": "нов",
+  "start": "старт",
+  "Minimum bitrate (4K)": "Минимален битрейт (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Собствена долна граница за 4K вместо 2,5 × стойността за 1080p. 0 = автоматично. HDR +15% и анимация ×0,6 важат и тук.",
+  "Ready to use in a few steps.": "Готово за употреба с няколко стъпки.",
+  "next": "напред",
+  "read error": "грешка при четене",
+  "MFA is already enabled": "MFA вече е включена",
+  "a .mkv with that name already exists": "вече съществува .mkv с това име",
+  "a file already exists at the original location": "на първоначалното място вече има файл",
+  "action not possible in this status": "действието не е възможно в този статус",
+  "walking folders": "обхождане на папките",
+  "planning jobs": "планиране на задачите",
+  "check on the NAS rejected (duration/tracks)": "проверката в NAS отхвърли (продължителност/пътеки)",
+  "expected a JSON object": "очакван е JSON обект",
+  "ffprobe error": "грешка на ffprobe",
+  "invalid resolution": "невалидна резолюция",
+  "invalid worker token": "невалиден токен на worker",
+  "job belongs to another worker": "задачата принадлежи на друг worker",
+  "job is no longer active": "задачата вече не е активна",
+  "no video track": "няма видеопътека",
+  "not JSON": "не е JSON",
+  "not signed in": "не сте влезли",
+  "original disappeared": "оригиналът изчезна",
+  "original has changed in the meantime": "оригиналът междувременно е променен",
+  "original is no longer in quarantine": "оригиналът вече не е в карантина",
+  "original no longer available": "оригиналът вече не е наличен",
+  "request refused": "заявката е отказана",
+  "target file already exists": "целевият файл вече съществува",
+  "the original has already been removed from quarantine - comparing is no longer possible": "оригиналът вече е премахнат от карантината - сравнението не е възможно",
+  "this film has not been replaced yet": "този филм още не е заменен",
+  "unknown action": "непознато действие",
+  "worker is still online": "worker все още е онлайн",
+  "In use now:": "В момента се използва:",
+  "longest": "най-дълъг",
+  "8.1 (from profile 7)": "8.1 (от профил 7)",
+  "Whisper (transcription)": "Whisper (транскрипция)",
+  "1 day ago": "преди 1 дни",
+  "1 video": "1 видеа",
+  "Enter your password to open the dashboard.": "Въведете паролата си, за да отворите таблото.",
+  "No connection to the server - retrying…": "Няма връзка със сървъра - повторен опит…",
+  "Are you sure?": "Сигурни ли сте?",
+  "Restore": "Възстанови",
+  "Re-encode": "Прекодирай",
+  "Delete": "Изтрий",
+  "Next up": "Следва",
+  "in the queue": "в опашката",
+  "Load older entries": "Зареди по-стари записи",
+  "Folder: all": "Папка: всички",
+  "Resolution: all": "Резолюция: всички",
+  "Codec: all": "Кодек: всички",
+  "More": "Още",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "филм(а) чакат CPU кодера, но никой worker няма включено кодиране на CPU (страница Workers).",
+  "Info": "Инфо",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Вашият хардуер, доколко е подходящ, използваните инструменти и как работят настройките.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Памет",
+  "Software": "Софтуер",
+  "GPU encoding": "Кодиране на GPU",
+  "CPU encoding (x265)": "Кодиране на CPU (x265)",
+  "Subtitles (Whisper)": "Субтитри (Whisper)",
+  "Translation (Ollama)": "Превод (Ollama)",
+  "Server": "Сървър",
+  "Database": "База данни",
+  "Tools in use": "Използвани инструменти",
+  "Knowledge base": "База знания",
+  "Low": "Нисък",
+  "Medium": "Среден",
+  "Ultra": "Ултра",
+  "files": "файла",
+  "up": "работи",
+  "of": "от",
+  "uses": "използва",
+  "free": "свободно",
+  "Media share": "Медийна папка",
+  "Rating": "Оценка",
+  "Hardware details appear after this worker has updated itself.": "Данните за хардуера се появяват след като този worker се обнови.",
+  "no Whisper": "няма Whisper",
+  "unified memory": "обща памет",
+  "cores": "ядра",
+  "threads": "нишки",
+  "driver": "драйвер",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Неизвестно",
+  "Settings saved": "Настройките са запазени",
+  "Time left": "Оставащо време",
+  "Queued": "На опашка",
+  "Keep originals for": "Пазене на оригиналите за",
+  "Quarantine size limit": "Лимит за размера на карантината",
+  "Hide finished items": "Скриване на приключилите",
+  "Undo skip": "Отмяна на пропускането",
+  "not supported here": "не се поддържа тук",
+  "CPU encoding": "Кодиране на CPU",
+  "Retry on CPU (x265)": "Повторен опит на CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Кодирано на CPU с x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 с настройка за зърно на CPU на worker-а: запазва зърното много по-ефективно, но отнема часове на филм",
+  "CPU fallback for grainy films": "Резервно кодиране на CPU за зърнести филми",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Когато GPU не може да запази качеството, без да надхвърли битрейта на източника (филмово зърно), филмът се кодира още веднъж на CPU на worker с x265, който запазва зърното много по-ефективно. Отнема часове на филм; включете кодирането на CPU за worker на страницата Workers.",
+  "CPU preset": "Пресет за CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: около 2 часа за 2-часов филм 1080p на 8 ядра. Slow: 2-3 пъти по-дълго за файлове с около 5-10% по-малки.",
+  "Medium (faster)": "Medium (по-бързо)",
+  "Slow (smaller)": "Slow (по-малко)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Страницата не можа да се зареди.",
+  "up to 1440p": "до 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "анализиране на файловете",
+  "No worker has CPU encodes switched on (Workers page)": "Никой worker няма включено кодиране на CPU (страница Workers)",
+  "the job changed in the meantime": "задачата междувременно се промени",
+  "Main": "Основна навигация",
+  "Clear search and filters": "Изчистване на търсенето и филтрите",
+  "Compact rows": "Компактни редове",
+  "Encoding and subtitles are paused.": "Кодирането и субтитрите са на пауза.",
+  "Encoding is paused: no new encode jobs are handed out.": "Кодирането е на пауза: не се раздават нови задачи за кодиране.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Субтитрите са на пауза: не се раздават нови задачи за субтитри.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Въведете и адреса на Plex, и токена, или оставете и двете празни, за да пропуснете.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Свободното място на NAS е под предпазната спирачка. Кодирането е спряно автоматично.",
+  "Loading…": "Зареждане…",
+  "Next film": "Следващ филм",
+  "Previous film": "Предишен филм",
+  "Next page": "Следваща страница",
+  "Previous page": "Предишна страница",
+  "Rows per page": "Редове на страница",
+  "Resume": "Възобнови",
+  "Resume encoding": "Възобнови кодирането",
+  "Resume subtitles": "Възобнови субтитрите",
+  "Open settings": "Отвори настройките",
+  "Open the library": "Отвори библиотеката",
+  "Subtitle languages": "Езици на субтитрите",
+  "Update": "Обнови",
+  "No results for this search or filter.": "Няма резултати за това търсене или филтър.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "Нищо не чака за кодиране. Новите файлове влизат в опашката след сканиране.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Още няма заменени файлове. Завършените кодирания се появяват тук след проверката на качеството.",
+  "No files were kept as they are. Films that would save too little end up here.": "Няма файлове, оставени без промяна. Тук попадат филмите, които биха спестили твърде малко.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Няма чакащи субтитри. Файловете, на които липсва език, влизат в опашката след сканиране.",
+  "No subtitle job is running right now.": "В момента не се изпълнява задача за субтитри.",
+  "No subtitles have been made yet.": "Още не са направени субтитри.",
+  "Nothing missing: every file got its subtitles so far.": "Нищо не липсва: досега всеки файл е получил субтитрите си.",
+  "No failed encodes.": "Няма неуспешни кодирания.",
+  "No failed subtitle jobs.": "Няма неуспешни задачи за субтитри.",
+  "Nothing was added in the last 14 days.": "Нищо не е добавено през последните 14 дни.",
+  "No videos with this plan.": "Няма видеа с този план.",
+  "The library is being scanned; videos appear as they are found.": "Библиотеката се сканира; видеата се появяват, когато бъдат намерени.",
+  "No videos found yet. Check the media folder and run a scan.": "Още няма намерени видеа. Проверете медийната папка и пуснете сканиране.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "Нищо в карантина. Заменените оригинали се пазят тук, докато изтече срокът за пазене.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "В библиотеката не са намерени папки на DVD или Blu-ray (VIDEO_TS, BDMV).",
+  "1 worker online": "1 работник онлайн",
+  "A worker is busy with this file": "Работник обработва този файл",
+  "A worker is grabbing the frames": "Работник взема кадрите",
+  "A worker is searching or making subtitles": "Работник търси или създава субтитри",
+  "A worker picks up the next job within a few seconds.": "Работник поема следващата задача в рамките на няколко секунди.",
+  "Above this, the oldest comparisons are deleted automatically.": "Над това най-старите сравнения се изтриват автоматично.",
+  "All replaced films": "Всички заменени филми",
+  "Already efficient: encoding would hardly save anything": "Вече е ефективен: кодирането почти няма да спести нищо",
+  "Automatic comparisons": "Автоматични сравнения",
+  "Being made…": "Създава се…",
+  "Can be made": "Може да се създаде",
+  "Can encode on the CPU with x265": "Може да кодира на CPU с x265",
+  "Comparison storage limit": "Лимит за съхранение на сравнения",
+  "Comparisons": "Сравнения",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: не е прекодиран, DV слоят би се загубил",
+  "Encoding is paused.": "Кодирането е на пауза.",
+  "Enlarge": "Увеличи",
+  "Errors": "Грешки",
+  "Flip": "Превключи",
+  "Four frames of the original and the new version are stored": "Съхранени са четири кадъра от оригинала и новата версия",
+  "Full width": "Пълна ширина",
+  "GPU encoder found": "Намерен GPU енкодер",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Взимане на четири кадъра от оригинала и новата версия за всеки заменен филм, за да можете винаги да проверите картината на страницата Сравняване. Около 1–2 MB на филм.",
+  "Keyboard shortcuts": "Клавишни комбинации",
+  "Leave without saving? Your changes to the settings will be lost.": "Излизане без запазване? Промените ви в настройките ще бъдат загубени.",
+  "Moved to the front": "Преместен напред",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Още няма сравнения. Направете едно, докато оригиналът е още в карантина, или включете автоматичните сравнения в Настройки.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "В момента не може да се сравни нито един филм: оригиналите са излезли от карантина или още нищо не е заменено.",
+  "No longer possible": "Вече не е възможно",
+  "No subtitles found online and none could be made": "Не са намерени субтитри онлайн и не можаха да бъдат създадени",
+  "Ollama found: can translate subtitles": "Намерен Ollama: може да превежда субтитри",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Част от DVD или Blu-ray папка; конвертирайте я на страницата DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Спряно автоматично: NAS има по-малко свободно място от предпазната спирачка.",
+  "Planned for encoding": "Планиран за кодиране",
+  "Queued for the CPU encoder": "На опашка за CPU енкодера",
+  "Replaced after the quality check; the original is in quarantine for a while": "Заменен след проверката на качеството; оригиналът е известно време в карантина",
+  "Replaced films appear here after their first encode.": "Заменените филми се появяват тук след първото кодиране.",
+  "Search the log…": "Търсене в дневника…",
+  "Show films that can be compared": "Покажи филмите, които могат да се сравнят",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Показване на оригинала и новата версия поред: най-добрият начин да забележите зърно и детайли",
+  "Skipped": "Пропуснато",
+  "Skipped by you; Retry puts it back in the queue": "Пропуснато от вас; „Повторен опит“ го връща в опашката",
+  "Slider back to the middle": "Плъзгачът обратно в средата",
+  "Smaller": "По-малко",
+  "Stopped because the file changed or disappeared": "Спряно, защото файлът е променен или изчезнал",
+  "Stopped with an error; see the message and try again": "Спряно с грешка; вижте съобщението и опитайте отново",
+  "Subtitles are paused.": "Субтитрите са на пауза.",
+  "The file could not be read; see the drawer": "Файлът не можа да бъде прочетен; вижте страничния панел",
+  "The new file would save less than the minimum saving, so the original was kept": "Новият файл би спестил по-малко от минималната икономия, затова оригиналът е запазен",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Новата версия е на NAS и ще бъде подменена, щом никой не гледа",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Оригиналът е излязъл от карантина, така че кадрите вече не могат да се вземат",
+  "The original is still in quarantine, so the frames can still be grabbed": "Оригиналът е още в карантина, така че кадрите все още могат да се вземат",
+  "The original was put back from quarantine": "Оригиналът е възстановен от карантината",
+  "The queue is empty. New files are queued after a scan.": "Опашката е празна. Новите файлове се добавят в опашката след сканиране.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Сървърът раздава по-нови файлове за работника; работникът ги инсталира след текущата задача",
+  "Undo": "Отмяна",
+  "Waiting for Plex: someone is watching this film": "Изчакване на Plex: някой гледа този филм",
+  "Waiting for a worker; the queue runs from top to bottom": "Изчакване на работник; опашката се обработва отгоре надолу",
+  "Warnings": "Предупреждения",
+  "Whisper installed: can make subtitles": "Whisper е инсталиран: може да създава субтитри",
+  "Would save less than the minimum saving": "Би спестил по-малко от минималната икономия",
+  "expires today": "изтича днес",
+  "expires within a day": "изтича до един ден",
+  "less than a day left": "остава по-малко от ден",
+  "waiting for Plex": "чака Plex",
+  "update pending": "чака актуализация",
+  "Tap to switch between original and new": "Докоснете за превключване между оригинал и нова версия",
+  "Repeated": "Повторено",
+  "Search in the current list": "Търсене в текущия списък",
+  "Clear the search, close a drawer or dialog": "Изчистване на търсенето, затваряне на панел или диалог",
+  "Previous or next film on a comparison": "Предишен или следващ филм в сравнение",
+  "Open or switch the focused row, switch or header": "Отваряне или превключване на фокусирания ред, превключвател или заглавие",
+  "This list": "Този списък",
+  "Nothing in the log matches this.": "Нищо в дневника не съвпада с това.",
+  "Nothing has happened yet.": "Още нищо не се е случило.",
+  "No worker is online, so nothing can run.": "Няма работник онлайн, затова нищо не може да се изпълнява.",
+  "There is no worker yet. Add one to get started.": "Още няма работник. Добавете един, за да започнете.",
+  "Open Workers": "Отвори Работници",
+  "Some values are out of range.": "Някои стойности са извън диапазона.",
+  "no capabilities reported": "няма съобщени възможности",
+  "Replaced · expires": "Заменен · изтича",
+  "Made": "Създадено",
+  "Make": "Създай",
+  "lots of motion": "много движение",
+  "dark scene": "тъмна сцена",
+  "a quarter in": "на една четвърт",
+  "three quarters in": "на три четвърти",
+  "Encoded": "Кодирано",
+  "Finished": "Приключено",
+  "later": "по-късно",
+  "Leave": "Излез",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Сравнението взема 4 кадъра от оригинала и новата версия (общо около 1–2 МБ). Може да се направи, докато оригиналът е още в карантина, и се пази, докато не го изтриете, дори след като оригиналът изчезне.",
+  "Retry on CPU": "Повторен опит на CPU",
+  "Scan": "Сканиране"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1старт$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Сега: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan намери $1 видеа ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · най-слаби 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "най-слаби 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Нови ($1 дни)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "План: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Замяната е неуспешна ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1} неуспешно{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Сканирането приключи: $1 видеа, $2 нови, $3 променени, $4 изчезнали; добавени $5 задачи за кодиране и $6 за субтитри"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Сканирането приключи: $1 видеа, $2 нови, $3 променени, $4 изчезнали, $5 в пропуснати папки; добавени $6 задачи за кодиране и $7 за субтитри"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Повторно кодиране на $1 филм(а) с текущите правила? Оригиналите се възстановяват и филмите получават приоритет в опашката."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "$1 филм(а) отново в опашката{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "$1 оригинал(а) възстановени и отново в опашката (текущи правила)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Нов: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Заменен: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray преобразуван: $1 ($2 GB); папката на диска е в карантина"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Оригиналът е възстановен: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 започна {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 задачи (от всички $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Изборът е раздаден - кодирането е спряно автоматично"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Изборът е раздаден - субтитрите са спрени автоматично"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Променени настройки: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Задача $1 грешка: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Задача $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Работник $1 офлайн: $2 задачи отново в опашката"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 рестартира: $2 прекъснати задачи отново в опашката"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 обновен до $2: $3 неуспешни задачи отново в опашката"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Работник $1 е премахнат"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Работник $1: кодиране {t:$2}, субтитри {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Планирането е обновено: добавени $1 задачи за кодиране и $2 за субтитри"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "$1 задачи добавени ръчно в опашката"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "$1 задачи: $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "$1 сравнения изтрити"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Изход от $1 други сесии"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Вход с код за възстановяване (остават $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Оригиналите се пазят най-много $1 дни и общо никога повече от $2. Първо се изтриват най-старите. Възстановяването изтрива новата версия."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - щракнете за премахване"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "$1 папки ще бъдат преобразувани · работникът започва до половин минута"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "$1 аудио · $2 субтитри"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Да се изтрият ли $1 сравнения? Самите филми остават непроменени."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Кадър $1 · на $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Кадър $1 · на $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB като jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Време за кодиране $1 мин · измерено на 8 фрагмента, после проверено за целия филм."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Налични сега: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "най-слабите 5% $1 · норма $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "синхрон $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Създаването на кадри е неуспешно: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "избор · следващ"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "избор · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Сега:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· след това още $1 от избора"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "приблизително · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "$1 приключили по-рано · покажи"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "$1 добавени към избора · работникът започва до няколко секунди"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Избор {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "създадено: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · $3% по-малък$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "току-що"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "преди $1 мин"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "преди $1 ч"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "преди $1 дни"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "видян {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 д $2 ч"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 ч $2 мин"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "$1 видеа"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "карантина $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 за 24 ч"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 икономия"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB икономия"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "$1% по-малки обработени файлове"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "работник $1 онлайн"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "още $1 за стартиране, после пауза"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "$1 елемента · страница $2 от $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "$1 избрани"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Избери всички $1 резултата"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Сканиране: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "$1× опит"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 мин"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Активно · остават $1 кода за възстановяване"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "$1 активни сесии, включително тази."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "$1 обновени{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "$1 други сесии излязоха"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Да се обработят само тези $1? Те получават приоритет, обработката се възобновява и после отново спира автоматично."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Да се пропуснат ли $1 задачи?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Да се възстановят ли $1 оригинала? Новите версии ще бъдат изтрити."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Да се премахне ли работник $1 от списъка? Ако се появи отново онлайн, ще бъде добавен автоматично."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "работи от $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "остават ~$1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "до $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "работи по"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex е свързан (версия $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex не отговаря правилно: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "грешка: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "замяната е неуспешна: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "невалидна стойност за $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 трябва да е между $2 и $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · най-лоши 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 ч"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU не успя да запази качеството - на опашка за CPU кодера (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Почистване на staging: премахнат остатък $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 на страница"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 работници онлайн"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · добавянето на работник, ключът и изтеглянията са на страница Работници."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · започва след ~{t:$2} · приблизително"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · приблизително"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "остават $1 дни"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "изтича след $1 дни"
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Създадено · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Може да се създаде · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · стъпка $1 от $2 · остават ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · стъпка $1 от $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · остават ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "Заявени $1 сравнения · готови след няколко минути"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Да се създадат ли $1 сравнения? Около 1–2 MB всяко."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Повторено $1 пъти"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "между $1 и $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 задачи"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Грешка в $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "Заявени $1 сравнения"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Сравненията са почистени: $1 премахнати (над $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Папката за карантина е преименувана на quarantine ($1 записа обновени)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Работник $1 е премахнат: $2 задачи отново в опашката"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Карантина: $1 вече съществува, $2 е оставено на мястото му"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Папката за карантина е преименувана на quarantine; $1 записа обновени, но $2 още не е празна"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Преименуването на папката за карантина е неуспешно (монтирана ли е споделената папка с медии?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "новата версия липсва в staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "новият .mkv липсва в staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "оригиналът е изчезнал"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "оригиналът междувременно е променен"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "оригиналът вече не е наличен"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "проверката на NAS е отхвърлена (продължителност/пътеки)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray преобразуван в mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "повторен опит след обновяване на worker-а"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "пропуснато от вас"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "целевият файл вече съществува"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "worker офлайн - пренасрочено"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "worker премахнат - пренасрочено"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "worker рестартиран - пренасрочено"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "замяната е неуспешна: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "в новия mkv липсва Dolby Vision"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: не е прекодирано (слоят DV би се загубил)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "поток не може да се копира в .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg не напредна $1 минути (споделената папка недостъпна?) - спряно"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "$1 от $2 файла липсват едновременно - споделената папка недостъпна? Нищо не е отбелязано като изчезнало"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "преводът е неуспешен: няма използваем отговор за $1 ред(а) след повторни опити"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: грешка на сървъра"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - изтеглете модела (ollama pull <model>) или поправете ollama_model в worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama не е достъпна на $1 ($2) - стартирайте Ollama или проверете ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama недостъпна: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama продължи да дава грешки $2 минути"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 отне повече от час - достъпна ли е още споделената медийна папка?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 липсва; инсталирайте го $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF на целия филм $1 не е правдоподобен при никой метод на съпоставяне (проби $2); ниско при $3. Оригиналът е запазен; проверете там източника"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: файлът не може да се прочете"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: неуспешно"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "няма достатъчно свободно място на компютъра за този филм ($1 GB са нужни в $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "няма достатъчно място в работната папка: $1 GB свободни, нужни са ~$2 GB"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "с минималния битрейт най-много $1% по-малък"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "извличане на метаданни от слоя за подобрение"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "изтеглянето не съвпада (sha256) - не се използва"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "проверка: продължителността или броят потоци се различават"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "новият mkv е твърде кратък ($1 от $2 мин)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 от $2 готови, изчаква работник"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "преобразуване на Dolby Vision в профил 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "вмъкване на метаданни в базовия слой"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "проверка VMAF (второ измерване)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "нито една настройка не достига нормата за качество"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "достигнат лимит за изтегляне - остатъкът по-късно"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "дневният лимит на OpenSubtitles е достигнат"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "частично; останалото след лимита за изтегляне"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 не е намерен след изтеглянето"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: разпознат говорим език"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (преведено от $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "изчаква свободно място на компютъра"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "файлът със субтитри е необичайно голям"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "измерването при самотеста е ненадеждно"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "опит $1 за превод неуспешен"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "изчаква: гледа се в Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "очаквано само $1% по-малък"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "изтегляне на $1 (еднократно)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "проверката на целия филм е под нормата"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "не може да се вземе кадър при $1s"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "целият филм малко под нормата"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "търсене на филма на диска"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "нормата за качество е непостижима"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "измерването при проверката е ненадеждно"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "невалиден път от сървъра"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "повторно: минимална икономия вече 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper работи на GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "не са намерени заглавия на DVD"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "подозрителен път в архива"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "изчаква: Plex не е достъпен"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "работи по $1 от $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles е недостъпен"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (транскрипция)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "проверка VMAF на целия филм"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "готово, изчаква замяна"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "старата папка в карантина"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "проверка VMAF $1 твърде ниско"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "четене на диска (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "преведено от английски"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "готово ($1 от $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "извличането на аудио е неуспешно"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "връщане към CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "OpenSubtitles: влязохте"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (от профил 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "изчаква работника"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "подозрителен път в zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "вграденият EN не може да се прочете"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "най-дълго досега: заглавие"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "синхронът не съвпада"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "само $1% по-малък"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "фрагмент $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "оригиналът се запазва"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "оставащи изтегляния днес"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "заглавие $1 проверено"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "изчаква замяна"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "копиране към NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "оригиналът се запазва"
+  ],
+  [
+   "translation failed",
+   "g",
+   "преводът е неуспешен"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "сървърът е недостъпен"
+  ],
+  [
+   "searching quality",
+   "g",
+   "търсене на качество"
+  ],
+  [
+   "making references",
+   "g",
+   "създаване на референции"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "преобразуване в mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "субтитрите са спрени"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "копиране NAS → компютър"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "копиране компютър → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "търсене на филма"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "обединяване в mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "най-дълъг плейлист"
+  ],
+  [
+   "timing reference",
+   "g",
+   "референция за синхрон"
+  ],
+  [
+   "speech segments",
+   "g",
+   "речеви фрагменти"
+  ],
+  [
+   "too little gain",
+   "g",
+   "твърде малка икономия"
+  ],
+  [
+   " not applicable",
+   "g",
+   " не е приложимо"
+  ],
+  [
+   "download failed",
+   "g",
+   "изтеглянето е неуспешно"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "след ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "превод на"
+  ],
+  [
+   "next candidate",
+   "g",
+   "следващ кандидат"
+  ],
+  [
+   "after shifting",
+   "g",
+   "след изместване"
+  ],
+  [
+   "reading audio",
+   "g",
+   "четене на аудио"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Избор · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 чакат"
+  ],
+  [
+   "search failed",
+   "g",
+   "търсенето е неуспешно"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "повторно кодиране"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "заглавие $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " грешка(и)"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 готови"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "субтитри:"
+  ],
+  [
+   "replacing",
+   "g",
+   "замяна"
+  ],
+  [
+   "subtitles",
+   "g",
+   "субтитри"
+  ],
+  [
+   "candidate",
+   "g",
+   "кандидат"
+  ],
+  [
+   "encoding:",
+   "g",
+   "кодиране:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "старт"
+  ],
+  [
+   "encoding",
+   "g",
+   "кодиране"
+  ],
+  [
+   "checking",
+   "g",
+   "проверка"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", до "
+  ],
+  [
+   "present",
+   "g",
+   "налични"
+  ],
+  [
+   "missing",
+   "g",
+   "липсват"
+  ],
+  [
+   "speed",
+   "g",
+   "скорост"
+  ],
+  [
+   "saved",
+   "g",
+   "запазено"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU не успя да запази качеството - на опашка за CPU кодера (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Почистване на staging: премахнат остатък"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "папката с медии е празна или не е монтирана - нищо не е променено"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "запазването на качеството би изисквало по-висок битрейт, отколкото има източникът"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "изисква по-висок битрейт от източника"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "worker-ът се рестартира за обновяване"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "няма видеопоток (само обложка?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "няма аудиопоток за транскрибиране"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "няма достатъчно свободно място на компютъра за този филм"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "повторен опит на CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "обхождане на папките"
+  ],
+  [
+   "analysing files",
+   "g",
+   "анализиране на файловете"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "планиране на задачите"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "Кодиране на CPU вкл."
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "Кодиране на CPU изкл."
+  ]
+ ]
+}

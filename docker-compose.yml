@@ -1,0 +1,28 @@
+# MediaScan server (dashboard + API)
+# Works with Docker Compose, Synology Container Manager, Unraid, Portainer and TrueNAS.
+#
+#   1. Change the two lines marked  <-  below.
+#   2. Start:  docker compose up -d
+#   3. Open  http://<your-server>:8780  and follow the setup (the setup code is in the container log).
+#
+# Keep this folder out of shared folders other people can read: the database lives in ./data.
+services:
+  mediascan:
+    image: ghcr.io/thepromo01/mediascan:latest
+    # build: .                  # or build the image yourself from this folder (then remove the image line)
+    container_name: mediascan
+    restart: unless-stopped
+    ports:
+      - "8780:8780"             # your own network only - do not forward this port in your router
+    volumes:
+      - /volume1/Media:/media   # <- the folder with your movies and series (read and write)
+      - ./data:/data            #    database and settings
+    environment:
+      PUID: "1026"              # <- user/group that may write to your media folder (Synology: run `id <user>` over SSH)
+      PGID: "100"
+      TZ: "Europe/Amsterdam"
+      # More options (admin password, fixed worker key, ...): see docs/configuration.md
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    cap_add: [CHOWN, SETUID, SETGID, DAC_OVERRIDE, FOWNER]   # needed to switch to PUID/PGID at start

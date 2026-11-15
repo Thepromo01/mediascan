@@ -1,0 +1,2060 @@
+{
+ "name": "Русский",
+ "s": {
+  "Re-encode from original": "Перекодировать из оригинала",
+  "Re-encode with the current rules? The original is restored and the film gets priority.": "Перекодировать по текущим правилам? Оригинал будет восстановлен, а фильм получит приоритет.",
+  "Back in the queue": "Снова в очереди",
+  "Restore originals": "Восстановить оригиналы",
+  "Minimum bitrate (1080p)": "Минимальный битрейт (1080p)",
+  "Extra floor (share of the source)": "Доп. порог (доля исходника)",
+  "Optional: also keep at least this share of the original video bitrate. Only useful for sources with a very high bitrate. 0 = off.": "Необязательно: также сохранять не менее этой доли битрейта исходного видео. Полезно только для источников с очень высоким битрейтом. 0 = выкл.",
+  "with the minimum bitrate at most": "при минимальном битрейте не более",
+  "The new file never goes lower, even if VMAF is fine with it. Other resolutions scale: 4K ×2.5 · 720p ×0.55 · SD ×0.3 · HDR +15% · animation ×0.6.": "Новый файл никогда не опускается ниже, даже если VMAF это допускает. Другие разрешения масштабируются: 4K ×2,5 · 720p ×0,55 · SD ×0,3 · HDR +15% · анимация ×0,6.",
+  "bitrate already near the minimum": "битрейт уже близок к минимуму",
+  "MFA reset from settings - set it up again": "MFA сброшена в настройках - настройте её заново",
+  "MFA reset via MFA_RESET - remove MFA_RESET from the container settings again": "MFA сброшена через MFA_RESET - удалите MFA_RESET из настроек контейнера",
+  "MFA enabled": "MFA включена",
+  "MediaScan started": "MediaScan запущен",
+  "New recovery codes created": "Созданы новые коды восстановления",
+  "Password changed; other sessions signed out": "Пароль изменён; другие сеансы завершены",
+  "Password set (first time)": "Пароль задан (впервые)",
+  "Note: ADMIN_PASSWORD is shorter than 10 characters - choose a stronger password in Settings": "Внимание: ADMIN_PASSWORD короче 10 символов - выберите более надёжный пароль в настройках",
+  "part of a DVD/Blu-ray folder": "часть папки DVD/Blu-ray",
+  "folder is in Skip folders": "папка входит в «Пропускаемые папки»",
+  "file disappeared": "файл исчез",
+  "worker restarted - rescheduled": "воркер перезапущен - запланировано заново",
+  "worker offline - rescheduled": "воркер не в сети - запланировано заново",
+  "retry after worker update": "повтор после обновления воркера",
+  "dvd/blu-ray converted to mkv": "dvd/blu-ray преобразован в mkv",
+  "skipped by you": "пропущено вами",
+  "Replacing waits while a film is being watched, and Plex refreshes after every change.": "Замена ждёт, пока фильм смотрят, а Plex обновляется после каждого изменения.",
+  "Confirm with your password and a code from your app.": "Подтвердите паролем и кодом из приложения.",
+  "Your old recovery codes will stop working.": "Ваши старые коды восстановления перестанут работать.",
+  "Your current authenticator link and recovery codes will stop working. You will set up MFA again right away.": "Текущая привязка к приложению-аутентификатору и коды восстановления перестанут работать. Вы сразу же настроите MFA заново.",
+  "Choose a password for the dashboard. The setup code is in the container log (Container Manager › mediascan › Log, or": "Выберите пароль для панели. Код настройки находится в журнале контейнера (Container Manager › mediascan › Log или",
+  "- click to remove": "- нажмите, чтобы удалить",
+  "Invalid address, e.g. http://192.168.1.10:32400": "Неверный адрес, например http://192.168.1.10:32400",
+  "Enter a Plex token": "Введите Plex token",
+  "A password has already been set": "Пароль уже задан",
+  "The key is fixed in WORKER_TOKEN (container environment)": "Ключ задан в WORKER_TOKEN (окружение контейнера)",
+  "selection still running - pause or wait until it is done": "подборка ещё выполняется - приостановите или дождитесь завершения",
+  "Now running": "Выполняется сейчас",
+  "Finding the film on the disc": "Поиск фильма на диске",
+  "Converting to one .mkv": "Преобразование в один .mkv",
+  "Checking (duration, tracks)": "Проверка (длительность, дорожки)",
+  "Copying to the NAS": "Копирование на NAS",
+  "Old folder to quarantine": "Старая папка в карантин",
+  "worker has not reported for a while": "воркер давно не выходил на связь",
+  "waiting for the worker": "ожидание воркера",
+  "Welcome to MediaScan": "Добро пожаловать в MediaScan",
+  "Setup code": "Код настройки",
+  "New password (at least 10 characters)": "Новый пароль (не менее 10 символов)",
+  "Repeat password": "Повторите пароль",
+  "Set password": "Задать пароль",
+  "The passwords do not match": "Пароли не совпадают",
+  "Setup code is wrong - check the container log": "Неверный код настройки - проверьте журнал контейнера",
+  "Choose a password of at least 10 characters": "Выберите пароль не короче 10 символов",
+  "Animation folders": "Папки с анимацией",
+  "Top-level folders with animation: these may use a lower bitrate.": "Папки верхнего уровня с анимацией: для них допустим более низкий битрейт.",
+  "Where do I find the token?": "Где найти token?",
+  "Connect": "Подключить",
+  "Disconnect": "Отключить",
+  "Connected": "Подключено",
+  "Not connected": "Не подключено",
+  "+ Add language": "+ Добавить язык",
+  "Renew": "Обновить",
+  "Worker version": "Версия воркера",
+  "Password": "Пароль",
+  "Other sessions are signed out after a change.": "После изменения другие сеансы будут завершены.",
+  "Change password": "Сменить пароль",
+  "Other sessions will be signed out.": "Другие сеансы будут завершены.",
+  "Change": "Изменить",
+  "New worker key": "Новый ключ воркера",
+  "Create new key": "Создать новый ключ",
+  "All workers stop until you enter the new key (run the installer again or edit worker.ini).": "Все воркеры остановятся, пока вы не введёте новый ключ (запустите установщик снова или измените worker.ini).",
+  "Repeat new password": "Повторите новый пароль",
+  "Password changed": "Пароль изменён",
+  "New worker key created": "Создан новый ключ воркера",
+  "Disconnect Plex?": "Отключить Plex?",
+  "Plex disconnected": "Plex отключён",
+  "Plex connected": "Plex подключён",
+  "Incorrect password": "Неверный пароль",
+  "Incorrect code": "Неверный код",
+  "Incorrect code from your authenticator app": "Неверный код из приложения-аутентификатора",
+  "Too many attempts - try again in 15 minutes": "Слишком много попыток - повторите через 15 минут",
+  "DVD & Blu-ray": "DVD и Blu-ray",
+  "Folders with VIDEO_TS or BDMV. Converting turns them into one .mkv with all video, audio, subtitles and chapters.": "Папки с VIDEO_TS или BDMV. Преобразование превращает их в один .mkv со всем видео, аудио, субтитрами и главами.",
+  "Convert to MKV": "Преобразовать в MKV",
+  "Folder": "Папка",
+  "Type": "Тип",
+  "found": "найдено",
+  "queued": "в очереди",
+  "converting…": "преобразование…",
+  "converted": "преобразовано",
+  "Converting copies everything 1:1 into one .mkv: video (HDR too), all audio tracks, subtitles and chapters. For a DVD it picks the longest title (the film). The old folder goes to quarantine, so you can restore it. The .mkv then goes through normal encoding and subtitles. Dolby Vision Blu-rays become Dolby Vision profile 8.1 (base layer 1:1, DV metadata added): Plex and your TV play it as Dolby Vision, other players as HDR10. Such a film is not re-encoded afterwards, since that would lose Dolby Vision.": "Преобразование копирует всё 1:1 в один .mkv: видео (в том числе HDR), все аудиодорожки, субтитры и главы. Для DVD выбирается самый длинный титул (фильм). Старая папка отправляется в карантин, так что её можно восстановить. Затем .mkv проходит обычное кодирование и субтитры. Blu-ray с Dolby Vision становятся Dolby Vision профиля 8.1 (базовый слой 1:1, добавлены метаданные DV): Plex и ваш телевизор воспроизводят их как Dolby Vision, другие плееры — как HDR10. Такой фильм затем не перекодируется, иначе Dolby Vision будет потерян.",
+  "Compare": "Сравнить",
+  "Delete comparison": "Удалить сравнение",
+  "Comparison deleted": "Сравнение удалено",
+  "comparison": "сравнение",
+  "Original next to the new version: size, quality, picture and subtitles. You choose which films.": "Оригинал рядом с новой версией: размер, качество, изображение и субтитры. Фильмы выбираете вы.",
+  "Original → new": "Оригинал → новый",
+  "Quality (VMAF)": "Качество (VMAF)",
+  "Comparison": "Сравнение",
+  "View": "Открыть",
+  "Make comparison": "Создать сравнение",
+  "previous attempt failed": "предыдущая попытка не удалась",
+  "Back": "Назад",
+  "Make again": "Создать заново",
+  "New": "Новый",
+  "VMAF whole film": "VMAF всего фильма",
+  "Making the frames… this usually takes less than a minute.": "Создание кадров… обычно это занимает меньше минуты.",
+  "There is no picture comparison for this film yet.": "Для этого фильма ещё нет сравнения изображения.",
+  "Picture · drag across the image": "Изображение · проведите по картинке",
+  "HDR has been converted to SDR for this view; your TV shows it in HDR.": "Для этого просмотра HDR преобразован в SDR; телевизор показывает его в HDR.",
+  "How the setting was chosen": "Как была выбрана настройка",
+  "Step": "Шаг",
+  "Weakest 5%": "Худшие 5%",
+  "Bitrate": "Битрейт",
+  "chosen": "выбрано",
+  "No data.": "Нет данных.",
+  "Nothing needed, all languages were present.": "Ничего не требуется, все языки уже были.",
+  "Not processed yet.": "Ещё не обработано.",
+  "Comparison requested · ready within a minute": "Сравнение запрошено · будет готово в течение минуты",
+  "Delete this comparison? The film itself stays as it is.": "Удалить это сравнение? Сам фильм останется без изменений.",
+  "Not possible": "Невозможно",
+  "Slide between original and new": "Сдвиньте между оригиналом и новым",
+  "Overview": "Обзор",
+  "Queue": "Очередь",
+  "In progress": "В работе",
+  "No gain": "Без выигрыша",
+  "Failed": "Ошибки",
+  "Subtitles": "Субтитры",
+  "Recently added": "Недавно добавленные",
+  "Library": "Библиотека",
+  "Quarantine": "Карантин",
+  "Workers": "Воркеры",
+  "Activity": "Активность",
+  "Settings": "Настройки",
+  "Encoding": "Кодирование",
+  "System": "Система",
+  "Status of the entire library.": "Состояние всей библиотеки.",
+  "Selection": "Подборка",
+  "waiting for worker": "ожидание воркера",
+  "In the selection": "В подборке",
+  "selection": "подборка",
+  "Selection · encoding": "Подборка · кодирование",
+  "Selection · subtitles": "Подборка · субтитры",
+  "Close list": "Закрыть список",
+  "waiting": "ожидание",
+  "nothing needed": "ничего не требуется",
+  "original kept": "оригинал сохранён",
+  "Find, sync or generate missing subtitles.": "Поиск, синхронизация или создание недостающих субтитров.",
+  "All videos with their current plan. You can also queue items manually here.": "Все видео с текущим планом. Здесь также можно вручную ставить элементы в очередь.",
+  "The machines doing the work. Choose what each worker is allowed to do.": "Машины, выполняющие работу. Выберите, что разрешено каждому воркеру.",
+  "Log of everything that happens.": "Журнал всех событий.",
+  "Scan now": "Сканировать",
+  "Saved": "Сэкономлено",
+  "Free on NAS": "Свободно на NAS",
+  "Progress": "Прогресс",
+  "Saved per day": "Экономия в день",
+  "last 14 days": "последние 14 дней",
+  "Per folder": "По папкам",
+  "all": "все",
+  "nothing processed yet": "пока ничего не обработано",
+  "no measurement yet": "измерений пока нет",
+  "No processed files yet": "Обработанных файлов пока нет",
+  "No worker connected yet": "Воркеры пока не подключены",
+  "no worker": "нет воркера",
+  "worker offline": "воркер не в сети",
+  "online": "в сети",
+  "disabled": "отключён",
+  "encoding": "кодирование",
+  "subtitles": "субтитры",
+  "Search by name or folder…": "Поиск по имени или папке…",
+  "Several titles at once: separate them with |": "Несколько названий сразу: разделяйте их символом |",
+  "Nothing to show": "Нечего показать",
+  "File": "Файл",
+  "Source": "Источник",
+  "Status": "Статус",
+  "Result": "Результат",
+  "Languages": "Языки",
+  "Error": "Ошибка",
+  "When": "Когда",
+  "Plan": "План",
+  "Added": "Добавлено",
+  "Original": "Оригинал",
+  "Size": "Размер",
+  "Replaced": "Заменено",
+  "estimate": "оценка",
+  "Name": "Имя",
+  "Done": "Готово",
+  "Nothing found": "Ничего не найдено",
+  "Process only these": "Обработать только эти",
+  "Prioritise": "Повысить приоритет",
+  "Skip": "Пропустить",
+  "Retry": "Повторить",
+  "Clear": "Очистить",
+  "Both": "Оба",
+  "Restore original": "Восстановить оригинал",
+  "Find subtitles": "Найти субтитры",
+  "running": "выполняется",
+  "done": "готово",
+  "failed": "ошибка",
+  "replacing": "замена",
+  "no gain": "без выигрыша",
+  "skipped": "пропущено",
+  "restored": "восстановлено",
+  "cancelled": "отменено",
+  "nothing found": "ничего не найдено",
+  "encode": "кодировать",
+  "already efficient": "уже эффективен",
+  "small gain": "малый выигрыш",
+  "Dolby Vision": "Dolby Vision",
+  "DVD/Blu-ray": "DVD/Blu-ray",
+  "error": "ошибка",
+  "unknown": "неизвестно",
+  "All": "Все",
+  "Already efficient": "Уже эффективные",
+  "Small gain": "Малый выигрыш",
+  "Restored": "Восстановленные",
+  "Video": "Видео",
+  "Duration": "Длительность",
+  "Audio": "Аудио",
+  "Encode": "Кодирование",
+  "Quality": "Качество",
+  "Encode time": "Время кодирования",
+  "Message": "Сообщение",
+  "Started": "Начато",
+  "Search": "Поиск",
+  "weakest 5%": "худшие 5%",
+  "video": "видео",
+  "Worker": "Воркер",
+  "Hardware": "Оборудование",
+  "Resolution": "Разрешение",
+  "Working on": "Работает над",
+  "nothing": "ничего",
+  "up to 4K": "до 4K",
+  "up to 1080p": "до 1080p",
+  "up to 720p": "до 720p",
+  "up to SD": "до SD",
+  "Remove": "Удалить",
+  "Add worker": "Добавить воркер",
+  "Each worker reports what it can do (encoder found, Whisper installed). Here you decide what it may do. Changes apply from the next job; a running job is finished first.": "Каждый воркер сообщает, что он умеет (найден кодировщик, установлен Whisper). Здесь вы решаете, что ему можно делать. Изменения применяются со следующего задания; текущее задание сначала завершится.",
+  "This machine lacks the hardware or software for this": "На этой машине нет нужного оборудования или ПО",
+  "Quality level": "Уровень качества",
+  "Standard": "Стандартный",
+  "High": "Высокий",
+  "Maximum": "Максимальный",
+  "Custom": "Свой",
+  "Custom target": "Своя цель",
+  "Average VMAF and the weakest 5% of frames.": "Средний VMAF и худшие 5% кадров.",
+  "avg.": "сред.",
+  "Minimum saving": "Минимальная экономия",
+  "If a file saves less, the original is kept.": "Если файл экономит меньше, оригинал сохраняется.",
+  "Processing": "Обработка",
+  "Storage & safety": "Хранение и безопасность",
+  "How long replaced originals can be restored.": "Как долго можно восстановить заменённые оригиналы.",
+  "days": "дн.",
+  "Above this, the oldest originals are deleted permanently.": "Сверх этого самые старые оригиналы удаляются безвозвратно.",
+  "Safety brake": "Защитный тормоз",
+  "Encoding pauses when the NAS has less free space than this.": "Кодирование приостанавливается, когда свободного места на NAS меньше этого значения.",
+  "Scanning": "Сканирование",
+  "Automatic scan": "Автосканирование",
+  "New files are queued automatically.": "Новые файлы ставятся в очередь автоматически.",
+  "Off": "Выкл.",
+  "Every hour": "Каждый час",
+  "Every 6 hours": "Каждые 6 часов",
+  "Every 12 hours": "Каждые 12 часов",
+  "Daily": "Ежедневно",
+  "Skip folders": "Пропускать папки",
+  "Comma-separated folder names.": "Имена папок через запятую.",
+  "Plex": "Plex",
+  "Dashboard address": "Адрес панели",
+  "Use the IP address of the NAS, not localhost.": "Используйте IP-адрес NAS, а не localhost.",
+  "Worker key": "Ключ воркера",
+  "Keep secret: with this key a worker can fetch jobs.": "Храните в секрете: с этим ключом воркер может получать задания.",
+  "Show": "Показать",
+  "Copy": "Копировать",
+  "Minimum requirements": "Минимальные требования",
+  "Account & security": "Аккаунт и безопасность",
+  "Two-factor authentication": "Двухфакторная аутентификация",
+  "Not active": "Не активна",
+  "New recovery codes": "Новые коды восстановления",
+  "Reset MFA": "Сбросить MFA",
+  "Sessions": "Сеансы",
+  "Sign out everywhere else": "Выйти на всех других устройствах",
+  "Sign out": "Выйти",
+  "You have unsaved changes.": "Есть несохранённые изменения.",
+  "Cancel": "Отмена",
+  "Save": "Сохранить",
+  "Language": "Язык",
+  "Theme": "Тема",
+  "Light": "Светлая",
+  "Dark": "Тёмная",
+  "Auto": "Авто",
+  "Dashboard language.": "Язык панели.",
+  "Auto follows your system setting.": "«Авто» следует настройке системы.",
+  "Reset": "Сбросить",
+  "Create new codes": "Создать новые коды",
+  "Close": "Закрыть",
+  "Code from your authenticator app": "Код из приложения-аутентификатора",
+  "Sign in": "Войти",
+  "Activate": "Активировать",
+  "Set up two-factor authentication": "Настройка двухфакторной аутентификации",
+  "Scan the QR code with your authenticator app and enter the 6-digit code.": "Отсканируйте QR-код приложением-аутентификатором и введите 6-значный код.",
+  "Manual:": "Вручную:",
+  "6-digit code": "6-значный код",
+  "123456 or recovery code": "123456 или код восстановления",
+  "Save your recovery codes": "Сохраните коды восстановления",
+  "Lost your phone? Each of these codes signs you in once. They are shown only once.": "Потеряли телефон? Каждый из этих кодов позволяет войти один раз. Они показываются только один раз.",
+  "I have saved them": "Я их сохранил",
+  "Save them now, they are shown only once.": "Сохраните их сейчас, они показываются только один раз.",
+  "Server not responding": "Сервер не отвечает",
+  "Sign-in failed": "Не удалось войти",
+  "Code is incorrect": "Неверный код",
+  "Code is incorrect - check the time on your phone": "Неверный код - проверьте время на телефоне",
+  "Scan started": "Сканирование запущено",
+  "scan already running": "сканирование уже выполняется",
+  "Copied": "Скопировано",
+  "Resumed": "Возобновлено",
+  "Paused: a running job will finish first": "Приостановлено: текущее задание сначала завершится",
+  "Added to the queue": "Добавлено в очередь",
+  "Not applicable": "Неприменимо",
+  "At least one language": "Хотя бы один язык",
+  "Skip this job?": "Пропустить это задание?",
+  "Restore the original? The new version will be deleted.": "Восстановить оригинал? Новая версия будет удалена.",
+  "on": "вкл.",
+  "off": "выкл.",
+  "Quarantine cleanup": "Очистка карантина",
+  "Background task": "Фоновая задача",
+  "Planning at startup": "Планирование при запуске",
+  "Welcome": "Добро пожаловать",
+  "Next": "Далее",
+  "Previous": "Назад",
+  "Next (or skip)": "Далее (или пропустить)",
+  "Done, go to the overview": "Готово, перейти к обзору",
+  "MediaScan makes your movies and shows smaller without a visible difference, and fills in missing subtitles. Originals are only replaced after a quality check, and are first kept in quarantine for a while.": "MediaScan уменьшает ваши фильмы и сериалы без видимой разницы и добавляет недостающие субтитры. Оригиналы заменяются только после проверки качества и сначала некоторое время хранятся в карантине.",
+  "Six short steps and you're set up. You can change everything later in Settings.": "Шесть коротких шагов — и всё готово. Всё можно изменить позже в настройках.",
+  "Your library": "Ваша библиотека",
+  "MediaScan is now looking for videos in your media folder. With a large library the first scan takes a while; you can simply carry on.": "MediaScan сейчас ищет видео в вашей медиапапке. При большой библиотеке первое сканирование займёт время; можно спокойно продолжать.",
+  "Folders MediaScan never touches, separated by commas (e.g. Music, Downloads).": "Папки, которые MediaScan никогда не трогает, через запятую (например, Music, Downloads).",
+  "Scan again": "Сканировать снова",
+  "Choose the languages every file should have. MediaScan looks for missing ones on OpenSubtitles. If that fails, the worker makes the subtitle itself (speech recognition and translation on your own PC).": "Выберите языки, которые должны быть у каждого файла. MediaScan ищет недостающие на OpenSubtitles. Если не получится, воркер сам создаст субтитры (распознавание речи и перевод на вашем ПК).",
+  "Click a language to remove it.": "Нажмите на язык, чтобы удалить его.",
+  "Every movie is measured with VMAF, a score for how the picture looks to the human eye. \"High\" is indistinguishable from the original for almost everyone.": "Каждый фильм измеряется с помощью VMAF — оценки того, как изображение воспринимается человеческим глазом. «Высокий» почти для всех неотличим от оригинала.",
+  "Higher = better picture, less space saved.": "Выше = лучше изображение, меньше экономия места.",
+  "A safety net for grain and dark scenes. 5 Mbps is a good default; 4K and other resolutions scale accordingly.": "Страховка для зерна и тёмных сцен. 5 Mbps — хорошее значение по умолчанию; 4K и другие разрешения масштабируются соответственно.",
+  "Plex (optional)": "Plex (необязательно)",
+  "With Plex connected, MediaScan waits to replace a movie while someone is watching it, and refreshes Plex after every change. No Plex? Just skip this step.": "Когда Plex подключён, MediaScan не заменяет фильм, пока его кто-то смотрит, и обновляет Plex после каждого изменения. Нет Plex? Просто пропустите этот шаг.",
+  "Plex address and token": "Адрес Plex и token",
+  "Plex token": "Plex token",
+  "token (unchanged)": "token (без изменений)",
+  "Add a worker": "Добавьте воркер",
+  "The heavy lifting happens on a PC or Mac with a good graphics card: the worker. Install it now, or later via Workers. As long as there is no worker, nothing happens to your files.": "Основную работу выполняет ПК или Mac с хорошей видеокартой — воркер. Установите его сейчас или позже в разделе «Воркеры». Пока воркера нет, с вашими файлами ничего не происходит.",
+  "✓ A worker is connected.": "✓ Воркер подключён.",
+  "Done! MediaScan is set up.": "Готово! MediaScan настроен.",
+  "Connect the media share on the new machine.": "Подключите сетевую папку с медиа на новой машине.",
+  "Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.": "Windows: буква диска или \\\\NAS\\Media · Mac: Finder › Подключение к серверу · Linux: см. инструкции в пакете.",
+  "Download the package for that system and unpack it.": "Скачайте пакет для этой системы и распакуйте его.",
+  "Run the installer.": "Запустите установщик.",
+  "The installer asks for the details below and tests the connection.": "Установщик запросит данные ниже и проверит подключение.",
+  "NVIDIA GTX 1660 Super/RTX 2060 or newer, Intel Arc or 11th-gen+ iGPU, AMD RX 6000+ · 4 cores · 8 GB · 100 GB free · wired network. Subtitles: NVIDIA with 8 GB+.": "NVIDIA GTX 1660 Super/RTX 2060 или новее, Intel Arc или iGPU 11-го пок.+, AMD RX 6000+ · 4 ядра · 8 GB · 100 GB свободно · проводная сеть. Субтитры: NVIDIA с 8 GB+.",
+  "Apple Silicon (M1+) · macOS 13+ · 16 GB (subtitles: 24 GB+) · 150 GB free · Homebrew.": "Apple Silicon (M1+) · macOS 13+ · 16 GB (субтитры: 24 GB+) · 150 GB свободно · Homebrew.",
+  "Workers update themselves when this dashboard has a new version.": "Воркеры обновляются сами, когда на этой панели появляется новая версия.",
+  "What the workers are doing now and what is planned next.": "Что воркеры делают сейчас и что запланировано дальше.",
+  "Make files smaller without visible quality loss. The worker works through the queue from top to bottom.": "Уменьшайте файлы без видимой потери качества. Воркер обрабатывает очередь сверху вниз.",
+  "select page": "выбрать страницу",
+  "select": "выбрать",
+  "to encode": "к кодированию",
+  "Movie": "Фильм",
+  "Replaced originals, kept for a while so you can restore them or have them re-encoded.": "Заменённые оригиналы, хранятся некоторое время, чтобы их можно было восстановить или перекодировать.",
+  "How MediaScan works: quality, subtitles, storage and security.": "Как работает MediaScan: качество, субтитры, хранение и безопасность.",
+  "General": "Общие",
+  "Advanced": "Дополнительно",
+  "Connection": "Подключение",
+  "Hand out new encode jobs to the workers.": "Выдавать воркерам новые задания кодирования.",
+  "Hand out new subtitle jobs to the workers.": "Выдавать воркерам новые задания субтитров.",
+  "How strict the VMAF measurement is. Higher = better picture, less space saved.": "Насколько строго измерение VMAF. Выше = лучше изображение, меньше экономия места.",
+  "Which subtitles every file should have. Missing ones are searched for, or else generated.": "Какие субтитры должны быть у каждого файла. Недостающие ищутся, а иначе создаются.",
+  "Go to Workers": "К воркерам",
+  "new": "новый",
+  "start": "старт",
+  "Minimum bitrate (4K)": "Минимальный битрейт (4K)",
+  "Own floor for 4K, instead of 2.5 × the 1080p value. 0 = automatic. HDR +15% and animation ×0.6 apply here too.": "Собственный порог для 4K вместо 2,5 × значения 1080p. 0 = автоматически. HDR +15% и анимация ×0,6 действуют и здесь.",
+  "Ready to use in a few steps.": "Готово к работе за несколько шагов.",
+  "next": "далее",
+  "read error": "ошибка чтения",
+  "MFA is already enabled": "MFA уже включена",
+  "a .mkv with that name already exists": "файл .mkv с таким именем уже существует",
+  "a file already exists at the original location": "в исходном расположении уже есть файл",
+  "action not possible in this status": "действие невозможно в этом статусе",
+  "walking folders": "обход папок",
+  "planning jobs": "планирование задач",
+  "check on the NAS rejected (duration/tracks)": "проверка на NAS отклонена (длительность/дорожки)",
+  "expected a JSON object": "ожидался объект JSON",
+  "ffprobe error": "ошибка ffprobe",
+  "invalid resolution": "недопустимое разрешение",
+  "invalid worker token": "недействительный токен worker",
+  "job belongs to another worker": "задача принадлежит другому worker",
+  "job is no longer active": "задача больше не активна",
+  "no video track": "нет видеодорожки",
+  "not JSON": "не JSON",
+  "not signed in": "вы не вошли",
+  "original disappeared": "оригинал исчез",
+  "original has changed in the meantime": "оригинал изменился за это время",
+  "original is no longer in quarantine": "оригинала больше нет в карантине",
+  "original no longer available": "оригинал больше недоступен",
+  "request refused": "запрос отклонён",
+  "target file already exists": "целевой файл уже существует",
+  "the original has already been removed from quarantine - comparing is no longer possible": "оригинал уже удалён из карантина - сравнение больше невозможно",
+  "this film has not been replaced yet": "этот фильм ещё не заменён",
+  "unknown action": "неизвестное действие",
+  "worker is still online": "worker всё ещё онлайн",
+  "In use now:": "Сейчас используется:",
+  "longest": "самый длинный",
+  "8.1 (from profile 7)": "8.1 (из профиля 7)",
+  "Whisper (transcription)": "Whisper (транскрипция)",
+  "1 day ago": "1 дн. назад",
+  "1 video": "видео: 1",
+  "Enter your password to open the dashboard.": "Введите пароль, чтобы открыть панель.",
+  "No connection to the server - retrying…": "Нет соединения с сервером - повторная попытка…",
+  "Are you sure?": "Вы уверены?",
+  "Restore": "Восстановить",
+  "Re-encode": "Перекодировать",
+  "Delete": "Удалить",
+  "Next up": "Далее",
+  "in the queue": "в очереди",
+  "Load older entries": "Загрузить более старые записи",
+  "Folder: all": "Папка: все",
+  "Resolution: all": "Разрешение: все",
+  "Codec: all": "Кодек: все",
+  "More": "Ещё",
+  "film(s) wait for the CPU encoder, but no worker has CPU encode switched on (Workers page).": "фильм(ов) ждут CPU-кодировщик, но ни у одного воркера не включено кодирование на CPU (страница Workers).",
+  "Info": "Инфо",
+  "Your hardware, how well it fits the work, the tools in use, and how the settings work.": "Ваше оборудование, насколько оно подходит, используемые инструменты и как работают настройки.",
+  "CPU": "CPU",
+  "GPU": "GPU",
+  "Memory": "Память",
+  "Software": "Программы",
+  "GPU encoding": "Кодирование на GPU",
+  "CPU encoding (x265)": "Кодирование на CPU (x265)",
+  "Subtitles (Whisper)": "Субтитры (Whisper)",
+  "Translation (Ollama)": "Перевод (Ollama)",
+  "Server": "Сервер",
+  "Database": "База данных",
+  "Tools in use": "Используемые инструменты",
+  "Knowledge base": "База знаний",
+  "Low": "Низкий",
+  "Medium": "Средний",
+  "Ultra": "Ультра",
+  "files": "файлов",
+  "up": "работает",
+  "of": "из",
+  "uses": "использует",
+  "free": "свободно",
+  "Media share": "Медиапапка",
+  "Rating": "Оценка",
+  "Hardware details appear after this worker has updated itself.": "Сведения об оборудовании появятся после обновления этого воркера.",
+  "no Whisper": "нет Whisper",
+  "unified memory": "единая память",
+  "cores": "ядер",
+  "threads": "потоков",
+  "driver": "драйвер",
+  "VRAM": "VRAM",
+  "worker": "worker",
+  "Unknown": "Неизвестно",
+  "Settings saved": "Настройки сохранены",
+  "Time left": "Осталось времени",
+  "Queued": "В очереди",
+  "Keep originals for": "Хранить оригиналы",
+  "Quarantine size limit": "Лимит размера карантина",
+  "Hide finished items": "Скрыть завершённые",
+  "Undo skip": "Отменить пропуск",
+  "not supported here": "здесь не поддерживается",
+  "CPU encoding": "Кодирование на CPU",
+  "Retry on CPU (x265)": "Повторить на CPU (x265)",
+  "Encoded on the CPU with x265 (tune grain)": "Закодировано на CPU с помощью x265 (tune grain)",
+  "x265 with grain tuning on the worker's CPU: keeps grain far more efficiently, but takes hours per film": "x265 с настройкой под зерно на CPU воркера: сохраняет зерно гораздо эффективнее, но занимает часы на фильм",
+  "CPU fallback for grainy films": "Резерв на CPU для зернистых фильмов",
+  "When the GPU cannot keep the quality without exceeding the source bitrate (film grain), the film is encoded once more on a worker's CPU with x265, which keeps grain far more efficiently. Takes hours per film; switch on CPU encode for a worker on the Workers page.": "Когда GPU не может сохранить качество, не превысив битрейт исходника (киноплёночное зерно), фильм кодируется ещё раз на CPU воркера с помощью x265, который сохраняет зерно гораздо эффективнее. Занимает часы на фильм; включите кодирование на CPU для воркера на странице Workers.",
+  "CPU preset": "Пресет CPU",
+  "Medium: about 2 hours for a 2-hour 1080p film on 8 cores. Slow: 2-3 times longer for roughly 5-10% smaller files.": "Medium: около 2 часов для 2-часового фильма 1080p на 8 ядрах. Slow: в 2-3 раза дольше ради файлов примерно на 5-10% меньше.",
+  "Medium (faster)": "Medium (быстрее)",
+  "Slow (smaller)": "Slow (меньше)",
+  "Windows: Install-Worker.bat · Mac/Linux: bash install.sh": "Windows: Install-Worker.bat · Mac/Linux: bash install.sh",
+  "Windows/Linux:": "Windows/Linux:",
+  "macOS:": "macOS:",
+  "Could not load this page.": "Не удалось загрузить эту страницу.",
+  "up to 1440p": "до 1440p",
+  "Blu-ray → MKV": "Blu-ray → MKV",
+  "DVD → MKV": "DVD → MKV",
+  "analysing files": "анализ файлов",
+  "No worker has CPU encodes switched on (Workers page)": "Ни у одного воркера не включено кодирование на CPU (страница Workers)",
+  "the job changed in the meantime": "задание за это время изменилось",
+  "Main": "Основная навигация",
+  "Clear search and filters": "Сбросить поиск и фильтры",
+  "Compact rows": "Компактные строки",
+  "Encoding and subtitles are paused.": "Кодирование и субтитры приостановлены.",
+  "Encoding is paused: no new encode jobs are handed out.": "Кодирование приостановлено: новые задания кодирования не выдаются.",
+  "Subtitles are paused: no new subtitle jobs are handed out.": "Субтитры приостановлены: новые задания субтитров не выдаются.",
+  "Enter both the Plex address and the token, or leave both empty to skip.": "Укажите и адрес Plex, и токен — или оставьте оба поля пустыми, чтобы пропустить шаг.",
+  "Free space on the NAS is below the safety brake. Encoding was paused automatically.": "Свободное место на NAS ниже защитного тормоза. Кодирование автоматически приостановлено.",
+  "Loading…": "Загрузка…",
+  "Next film": "Следующий фильм",
+  "Previous film": "Предыдущий фильм",
+  "Next page": "Следующая страница",
+  "Previous page": "Предыдущая страница",
+  "Rows per page": "Строк на странице",
+  "Resume": "Возобновить",
+  "Resume encoding": "Возобновить кодирование",
+  "Resume subtitles": "Возобновить субтитры",
+  "Open settings": "Открыть настройки",
+  "Open the library": "Открыть библиотеку",
+  "Subtitle languages": "Языки субтитров",
+  "Update": "Обновить",
+  "No results for this search or filter.": "По этому запросу или фильтру ничего не найдено.",
+  "Nothing is queued for encoding. New files are queued after a scan.": "В очереди на кодирование ничего нет. Новые файлы попадают в очередь после сканирования.",
+  "No files have been replaced yet. Finished encodes appear here after the quality check.": "Ни один файл ещё не заменён. Завершённые кодирования появляются здесь после проверки качества.",
+  "No files were kept as they are. Films that would save too little end up here.": "Ни один файл не оставлен без изменений. Сюда попадают фильмы, которые дали бы слишком малую экономию.",
+  "No subtitles are waiting. Files missing a language are queued after a scan.": "Субтитры не ожидают. Файлы, в которых не хватает языка, попадают в очередь после сканирования.",
+  "No subtitle job is running right now.": "Сейчас не выполняется ни одно задание субтитров.",
+  "No subtitles have been made yet.": "Субтитры ещё не создавались.",
+  "Nothing missing: every file got its subtitles so far.": "Ничего не пропущено: пока каждый файл получил свои субтитры.",
+  "No failed encodes.": "Неудачных кодирований нет.",
+  "No failed subtitle jobs.": "Неудачных заданий субтитров нет.",
+  "Nothing was added in the last 14 days.": "За последние 14 дней ничего не добавлено.",
+  "No videos with this plan.": "Нет видео с таким планом.",
+  "The library is being scanned; videos appear as they are found.": "Библиотека сканируется; видео появляются по мере обнаружения.",
+  "No videos found yet. Check the media folder and run a scan.": "Видео пока не найдены. Проверьте папку с медиа и запустите сканирование.",
+  "Nothing in quarantine. Replaced originals are kept here until the keep time is over.": "В карантине ничего нет. Заменённые оригиналы хранятся здесь, пока не истечёт срок хранения.",
+  "No DVD or Blu-ray folders (VIDEO_TS, BDMV) were found in the library.": "В библиотеке не найдено папок DVD или Blu-ray (VIDEO_TS, BDMV).",
+  "1 worker online": "1 воркер в сети",
+  "A worker is busy with this file": "Воркер обрабатывает этот файл",
+  "A worker is grabbing the frames": "Воркер снимает кадры",
+  "A worker is searching or making subtitles": "Воркер ищет или создаёт субтитры",
+  "A worker picks up the next job within a few seconds.": "Воркер возьмёт следующее задание через несколько секунд.",
+  "Above this, the oldest comparisons are deleted automatically.": "Выше этого предела самые старые сравнения удаляются автоматически.",
+  "All replaced films": "Все заменённые фильмы",
+  "Already efficient: encoding would hardly save anything": "Уже эффективен: кодирование почти ничего не сэкономит",
+  "Automatic comparisons": "Автоматические сравнения",
+  "Being made…": "Создаётся…",
+  "Can be made": "Можно создать",
+  "Can encode on the CPU with x265": "Может кодировать на CPU с помощью x265",
+  "Comparison storage limit": "Лимит хранения сравнений",
+  "Comparisons": "Сравнения",
+  "Dolby Vision: not re-encoded, the DV layer would be lost": "Dolby Vision: не перекодирован, слой DV был бы потерян",
+  "Encoding is paused.": "Кодирование приостановлено.",
+  "Enlarge": "Увеличить",
+  "Errors": "Ошибки",
+  "Flip": "Переключить",
+  "Four frames of the original and the new version are stored": "Сохранены четыре кадра оригинала и новой версии",
+  "Full width": "Во всю ширину",
+  "GPU encoder found": "Найден GPU-кодировщик",
+  "Grab four frames of the original and the new version for every replaced film, so you can always check the picture on the Compare page. About 1–2 MB per film.": "Снимать четыре кадра оригинала и новой версии для каждого заменённого фильма, чтобы всегда можно было проверить картинку на странице «Сравнить». Около 1–2 MB на фильм.",
+  "Keyboard shortcuts": "Горячие клавиши",
+  "Leave without saving? Your changes to the settings will be lost.": "Выйти без сохранения? Ваши изменения в настройках будут потеряны.",
+  "Moved to the front": "Перемещено в начало",
+  "No comparisons yet. Make one while the original is still in quarantine, or switch on automatic comparisons in Settings.": "Сравнений пока нет. Создайте его, пока оригинал ещё в карантине, или включите автоматические сравнения в настройках.",
+  "No film can be compared right now: the originals have left quarantine, or nothing has been replaced yet.": "Сейчас нельзя сравнить ни один фильм: оригиналы покинули карантин, или ещё ничего не заменено.",
+  "No longer possible": "Больше невозможно",
+  "No subtitles found online and none could be made": "Субтитры не найдены в сети, и создать их не удалось",
+  "Ollama found: can translate subtitles": "Найден Ollama: может переводить субтитры",
+  "Part of a DVD or Blu-ray folder; convert it on the DVD & Blu-ray page": "Часть папки DVD или Blu-ray; конвертируйте её на странице DVD & Blu-ray",
+  "Paused automatically: the NAS has less free space than the safety brake.": "Приостановлено автоматически: свободного места на NAS меньше защитного тормоза.",
+  "Planned for encoding": "Запланировано к кодированию",
+  "Queued for the CPU encoder": "В очереди на CPU-кодировщик",
+  "Replaced after the quality check; the original is in quarantine for a while": "Заменён после проверки качества; оригинал некоторое время хранится в карантине",
+  "Replaced films appear here after their first encode.": "Заменённые фильмы появляются здесь после первого кодирования.",
+  "Search the log…": "Поиск в журнале…",
+  "Show films that can be compared": "Показать фильмы, которые можно сравнить",
+  "Show the original and the new version in turn: the best way to spot grain and detail": "Показывать оригинал и новую версию по очереди: лучший способ заметить зерно и детали",
+  "Skipped": "Пропущено",
+  "Skipped by you; Retry puts it back in the queue": "Пропущено вами; «Повторить» возвращает его в очередь",
+  "Slider back to the middle": "Ползунок в середину",
+  "Smaller": "Уменьшить",
+  "Stopped because the file changed or disappeared": "Остановлено: файл изменился или исчез",
+  "Stopped with an error; see the message and try again": "Остановлено с ошибкой; посмотрите сообщение и попробуйте снова",
+  "Subtitles are paused.": "Субтитры приостановлены.",
+  "The file could not be read; see the drawer": "Не удалось прочитать файл; см. боковую панель",
+  "The new file would save less than the minimum saving, so the original was kept": "Новый файл сэкономил бы меньше минимальной экономии, поэтому оригинал оставлен",
+  "The new version is on the NAS and is swapped in as soon as nobody is watching": "Новая версия на NAS и будет подменена, как только никто не будет смотреть",
+  "The original has left quarantine, so the frames can no longer be grabbed": "Оригинал покинул карантин, поэтому кадры больше нельзя снять",
+  "The original is still in quarantine, so the frames can still be grabbed": "Оригинал ещё в карантине, поэтому кадры ещё можно снять",
+  "The original was put back from quarantine": "Оригинал восстановлен из карантина",
+  "The queue is empty. New files are queued after a scan.": "Очередь пуста. Новые файлы попадают в очередь после сканирования.",
+  "The server hands out newer worker files; the worker installs them after its current job": "Сервер раздаёт новые файлы воркера; воркер установит их после текущего задания",
+  "Undo": "Отменить",
+  "Waiting for Plex: someone is watching this film": "Ожидание Plex: кто-то смотрит этот фильм",
+  "Waiting for a worker; the queue runs from top to bottom": "Ожидание воркера; очередь выполняется сверху вниз",
+  "Warnings": "Предупреждения",
+  "Whisper installed: can make subtitles": "Whisper установлен: может создавать субтитры",
+  "Would save less than the minimum saving": "Сэкономил бы меньше минимальной экономии",
+  "expires today": "истекает сегодня",
+  "expires within a day": "истекает в течение дня",
+  "less than a day left": "осталось меньше дня",
+  "waiting for Plex": "ожидание Plex",
+  "update pending": "ожидается обновление",
+  "Tap to switch between original and new": "Нажмите, чтобы переключиться между оригиналом и новой версией",
+  "Repeated": "Повторено",
+  "Search in the current list": "Поиск в текущем списке",
+  "Clear the search, close a drawer or dialog": "Очистить поиск, закрыть панель или диалог",
+  "Previous or next film on a comparison": "Предыдущий или следующий фильм в сравнении",
+  "Open or switch the focused row, switch or header": "Открыть или переключить выделенную строку, переключатель или заголовок",
+  "This list": "Этот список",
+  "Nothing in the log matches this.": "В журнале ничего не найдено.",
+  "Nothing has happened yet.": "Пока ничего не произошло.",
+  "No worker is online, so nothing can run.": "Ни один воркер не в сети, поэтому ничего не может выполняться.",
+  "There is no worker yet. Add one to get started.": "Воркера пока нет. Добавьте его, чтобы начать.",
+  "Open Workers": "Открыть воркеры",
+  "Some values are out of range.": "Некоторые значения вне допустимого диапазона.",
+  "no capabilities reported": "возможности не сообщены",
+  "Replaced · expires": "Заменено · истекает",
+  "Made": "Создано",
+  "Make": "Создать",
+  "lots of motion": "много движения",
+  "dark scene": "тёмная сцена",
+  "a quarter in": "на четверти",
+  "three quarters in": "на трёх четвертях",
+  "Encoded": "Закодировано",
+  "Finished": "Завершено",
+  "later": "позже",
+  "Leave": "Выйти",
+  "A comparison takes 4 frames from the original and the new version (about 1–2 MB in total). It can be made while the original is still in quarantine, and stays until you delete it, even after the original is gone.": "Сравнение берёт 4 кадра из оригинала и новой версии (всего около 1–2 МБ). Его можно создать, пока оригинал ещё в карантине, и оно хранится, пока вы его не удалите, даже после удаления оригинала.",
+  "Retry on CPU": "Повторить на CPU",
+  "Scan": "Сканирование"
+ },
+ "rx": [
+  [
+   "^(· )?start( · | )?(\\d+%)?( ·)?$",
+   "",
+   "$1старт$2$3$4"
+  ],
+  [
+   "^Now: (.+)$",
+   "",
+   "Сейчас: $1"
+  ],
+  [
+   "^(\\d)\\. (Welcome|Library|Subtitles|Quality|Plex|Worker)$",
+   "",
+   "$1. {t:$2}"
+  ],
+  [
+   "^MediaScan found ([\\d.,]+) videos? \\((.+)\\)\\.$",
+   "",
+   "MediaScan нашёл видео: $1 ($2)."
+  ],
+  [
+   "^VMAF ([\\d.,–-]+) · worst 5% ([\\d.,–-]+)$",
+   "",
+   "VMAF $1 · худшие 5% $2"
+  ],
+  [
+   "^worst 5% (.+)$",
+   "",
+   "худшие 5% $1"
+  ],
+  [
+   "^New \\((\\d+) days\\)$",
+   "",
+   "Новые ($1 дн.)"
+  ],
+  [
+   "^Plan: (.+)$",
+   "",
+   "План: {t:$1}"
+  ],
+  [
+   "^Replace failed \\((.+)\\): (.+)$",
+   "",
+   "Замена не удалась ($1): {w:$2}"
+  ],
+  [
+   "^(Scan|Replace|Quarantine cleanup|Background task|Planning at startup) failed(.*)$",
+   "",
+   "{t:$1}: ошибка{w:$2}"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Сканирование завершено: видео $1, новых $2, изменено $3, исчезло $4; добавлено заданий кодирования: $5, субтитров: $6"
+  ],
+  [
+   "^Scan done: ([\\d.,]+) videos, (\\d+) new, (\\d+) changed, (\\d+) gone, (\\d+) in skipped folders; (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Сканирование завершено: видео $1, новых $2, изменено $3, исчезло $4, в пропускаемых папках $5; добавлено заданий кодирования: $6, субтитров: $7"
+  ],
+  [
+   "^Re-encode (\\d+) film\\(s\\) with the current rules\\? The originals are restored and the films get priority in the queue\\.$",
+   "",
+   "Перекодировать фильмы ($1) по текущим правилам? Оригиналы будут восстановлены, а фильмы получат приоритет в очереди."
+  ],
+  [
+   "^(\\d+) film\\(s\\) back in the queue(.*)$",
+   "",
+   "Фильмов снова в очереди: $1{w:$2}"
+  ],
+  [
+   "^(\\d+) original\\(s\\) restored and queued again \\(current rules\\)$",
+   "",
+   "Оригиналов восстановлено и снова поставлено в очередь: $1 (текущие правила)"
+  ],
+  [
+   "^New: (.+)$",
+   "",
+   "Новое: $1"
+  ],
+  [
+   "^Replaced: (.+) \\(([\\d.]+) -> ([\\d.]+) GB, VMAF (.+)\\)$",
+   "",
+   "Заменено: $1 ($2 -> $3 GB, VMAF $4)"
+  ],
+  [
+   "^DVD\\/Blu-ray converted: (.+) \\(([\\d.]+) GB\\); the disc folder is in quarantine$",
+   "",
+   "DVD/Blu-ray преобразован: $1 ($2 GB); папка диска в карантине"
+  ],
+  [
+   "^Original restored: (.+)$",
+   "",
+   "Оригинал восстановлен: $1"
+  ],
+  [
+   "^(.+?) started (encoding|CPU encoding|subtitles): (.+)$",
+   "",
+   "$1 начал {t:$2}: $3"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\) \\(all (\\d+)\\)$",
+   "",
+   "{t:$1}: $2 заданий (из всех $3)"
+  ],
+  [
+   "^Selection handed out - encoding paused automatically$",
+   "",
+   "Подборка выдана - кодирование автоматически приостановлено"
+  ],
+  [
+   "^Selection handed out - subtitles paused automatically$",
+   "",
+   "Подборка выдана - субтитры автоматически приостановлены"
+  ],
+  [
+   "^Settings changed: (.+)$",
+   "",
+   "Настройки изменены: $1"
+  ],
+  [
+   "^Job (\\d+) error: (.+)$",
+   "",
+   "Задание $1, ошибка: $2"
+  ],
+  [
+   "^Job (\\d+): (\\w+)$",
+   "",
+   "Задание $1: $2"
+  ],
+  [
+   "^Worker (.+) offline: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Воркер $1 не в сети: заданий возвращено в очередь: $2"
+  ],
+  [
+   "^(.+) restarted: (\\d+) interrupted job\\(s\\) back in the queue$",
+   "",
+   "$1 перезапущен: прерванных заданий возвращено в очередь: $2"
+  ],
+  [
+   "^(.+) updated to (.+): (\\d+) failed job\\(s\\) back in the queue$",
+   "",
+   "$1 обновлён до $2: неудачных заданий возвращено в очередь: $3"
+  ],
+  [
+   "^Worker (.+) removed$",
+   "",
+   "Воркер $1 удалён"
+  ],
+  [
+   "^Worker (.+): encoding (on|off), subtitles (on|off)(.*)$",
+   "",
+   "Воркер $1: кодирование {t:$2}, субтитры {t:$3}{w:$4}"
+  ],
+  [
+   "^Planning updated: (\\d+) encode and (\\d+) subtitle jobs added$",
+   "",
+   "Планирование обновлено: добавлено заданий кодирования: $1, субтитров: $2"
+  ],
+  [
+   "^(\\d+) job\\(s\\) queued manually$",
+   "",
+   "Вручную поставлено в очередь заданий: $1"
+  ],
+  [
+   "^(\\d+) job\\(s\\): (\\w+)$",
+   "",
+   "Задания ($1): $2"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) deleted$",
+   "",
+   "Удалено сравнений: $1"
+  ],
+  [
+   "^Signed out of (\\d+) other session\\(s\\)$",
+   "",
+   "Завершено других сеансов: $1"
+  ],
+  [
+   "^Recovery code used to sign in \\((\\d+) left\\)$",
+   "",
+   "Вход по коду восстановления (осталось $1)"
+  ],
+  [
+   "^DVD\\/Blu-ray (.+?): (.+)$",
+   "",
+   "DVD/Blu-ray $1: $2"
+  ],
+  [
+   "^Originals are kept for at most (.+) days and together never more than (.+)\\. The oldest go first\\. Restoring deletes the new version\\.$",
+   "",
+   "Оригиналы хранятся не более $1 дн. и в сумме никогда не больше $2. Самые старые удаляются первыми. Восстановление удаляет новую версию."
+  ],
+  [
+   "^(\\S+) - click to remove$",
+   "",
+   "$1 - нажмите, чтобы удалить"
+  ],
+  [
+   "^([\\d.,]+) folder\\(s\\) will be converted · the worker starts within half a minute$",
+   "",
+   "Будет преобразовано папок: $1 · воркер начнёт в течение полуминуты"
+  ],
+  [
+   "^(\\d+) audio · (\\d+) subtitles$",
+   "",
+   "аудио: $1 · субтитры: $2"
+  ],
+  [
+   "^Delete (\\d+) comparison\\(s\\)\\? The films themselves stay as they are\\.$",
+   "",
+   "Удалить сравнения ($1)? Сами фильмы останутся без изменений."
+  ],
+  [
+   "^([\\d.,]+) MB$",
+   "",
+   "$1 MB"
+  ],
+  [
+   "^Frame (\\d+) · at ([\\d:]+) · (.+)$",
+   "",
+   "Кадр $1 · на $2 · {t:$3}"
+  ],
+  [
+   "^Frame (\\d+) · at (.+)$",
+   "",
+   "Кадр $1 · на $2"
+  ],
+  [
+   "^(\\d+) kB → (\\d+) kB as jpg$",
+   "",
+   "$1 kB → $2 kB в jpg"
+  ],
+  [
+   "^Encode time (.+) min · measured on 8 fragments, then checked over the whole film\\.$",
+   "",
+   "Время кодирования $1 мин · измерено на 8 фрагментах, затем проверено по всему фильму."
+  ],
+  [
+   "^Present now: (.*)$",
+   "",
+   "Сейчас есть: $1"
+  ],
+  [
+   "^weakest 5% (.+) · norm (.+)$",
+   "",
+   "худшие 5% $1 · норма $2"
+  ],
+  [
+   "^timing (\\d+)%$",
+   "",
+   "синхронизация $1%"
+  ],
+  [
+   "^Making frames failed: (.*)$",
+   "",
+   "Не удалось создать кадры: $1"
+  ],
+  [
+   "^selection · next$",
+   "",
+   "подборка · следующий"
+  ],
+  [
+   "^selection · #(\\d+)$",
+   "",
+   "подборка · #$1"
+  ],
+  [
+   "^Now:$",
+   "",
+   "Сейчас:"
+  ],
+  [
+   "^· then (\\d+) more from the selection$",
+   "",
+   "· затем ещё $1 из подборки"
+  ],
+  [
+   "^estimate · (.+)$",
+   "",
+   "оценка · {t:$1}"
+  ],
+  [
+   "^(\\d+) finished earlier · show$",
+   "",
+   "Завершено ранее: $1 · показать"
+  ],
+  [
+   "^([\\d.,]+) added to the selection · the worker starts within a few seconds$",
+   "",
+   "Добавлено в подборку: $1 · воркер начнёт через несколько секунд"
+  ],
+  [
+   "^Selection (encoding|subtitles): (.+)$",
+   "",
+   "Подборка {t:$1}: {t:$2}"
+  ],
+  [
+   "^made: (.+)$",
+   "",
+   "создано: $1"
+  ],
+  [
+   "^(.+) → (.+) · (\\d+)% smaller(.*)$",
+   "",
+   "$1 → $2 · на $3% меньше$4"
+  ],
+  [
+   "^just now$",
+   "",
+   "только что"
+  ],
+  [
+   "^(\\d+) min ago$",
+   "",
+   "$1 мин назад"
+  ],
+  [
+   "^(\\d+) h ago$",
+   "",
+   "$1 ч назад"
+  ],
+  [
+   "^(\\d+) days ago$",
+   "",
+   "$1 дн. назад"
+  ],
+  [
+   "^seen (.+)$",
+   "",
+   "был в сети {t:$1}"
+  ],
+  [
+   "^(\\d+) d (\\d+) h$",
+   "",
+   "$1 д $2 ч"
+  ],
+  [
+   "^(\\d+) h (\\d+) m$",
+   "",
+   "$1 ч $2 мин"
+  ],
+  [
+   "^([\\d.,]+) videos$",
+   "",
+   "видео: $1"
+  ],
+  [
+   "^quarantine (.+)$",
+   "",
+   "карантин $1"
+  ],
+  [
+   "^(.+) per 24 h$",
+   "",
+   "$1 за 24 ч"
+  ],
+  [
+   "^(.+) · ~(.+) gain$",
+   "",
+   "$1 · ~$2 выигрыш"
+  ],
+  [
+   "^~(.+) GB gain$",
+   "",
+   "~$1 GB выигрыш"
+  ],
+  [
+   "^(\\d+)% smaller on processed files$",
+   "",
+   "на $1% меньше по обработанным файлам"
+  ],
+  [
+   "^worker (.+) online$",
+   "",
+   "воркер $1 в сети"
+  ],
+  [
+   "^([\\d.,]+) more to start, then pause$",
+   "",
+   "ещё $1 к запуску, затем пауза"
+  ],
+  [
+   "^([\\d.,]+) items · page (\\d+) of (\\d+)$",
+   "",
+   "Элементов: $1 · стр. $2 из $3"
+  ],
+  [
+   "^([\\d.,]+) selected$",
+   "",
+   "Выбрано: $1"
+  ],
+  [
+   "^Select all ([\\d.,]+) results$",
+   "",
+   "Выбрать все результаты ($1)"
+  ],
+  [
+   "^Scanning: (.+)$",
+   "",
+   "Сканирование: {w:$1}"
+  ],
+  [
+   "^(\\d+)× tried$",
+   "",
+   "Попыток: $1×"
+  ],
+  [
+   "^(\\d+) min$",
+   "",
+   "$1 мин"
+  ],
+  [
+   "^Active · (\\d+) recovery code\\(s\\) left$",
+   "",
+   "Активна · осталось кодов восстановления: $1"
+  ],
+  [
+   "^(\\d+) active session\\(s\\), including this one\\.$",
+   "",
+   "Активных сеансов: $1, включая этот."
+  ],
+  [
+   "^([\\d.,]+) updated(.*)$",
+   "",
+   "Обновлено: $1{w:$2}"
+  ],
+  [
+   "^(\\d+) other session\\(s\\) signed out$",
+   "",
+   "Завершено других сеансов: $1"
+  ],
+  [
+   "^Process only these (\\d+)\\? They get priority, processing resumes and pauses again automatically afterwards\\.$",
+   "",
+   "Обработать только эти ($1)? Они получат приоритет, обработка возобновится, а затем снова автоматически приостановится."
+  ],
+  [
+   "^Skip (\\d+) job\\(s\\)\\?$",
+   "",
+   "Пропустить задания ($1)?"
+  ],
+  [
+   "^Restore (\\d+) original\\(s\\)\\? The new versions will be deleted\\.$",
+   "",
+   "Восстановить оригиналы ($1)? Новые версии будут удалены."
+  ],
+  [
+   "^Remove worker (.+) from the list\\? If it comes back online it reappears automatically\\.$",
+   "",
+   "Удалить воркер $1 из списка? Если он снова появится в сети, то будет добавлен автоматически."
+  ],
+  [
+   "^running for (.+)$",
+   "",
+   "работает $1"
+  ],
+  [
+   "^~(.+) left$",
+   "",
+   "осталось ~$1"
+  ],
+  [
+   "^up to (\\d+)p$",
+   "",
+   "до $1p"
+  ],
+  [
+   "^working on$",
+   "",
+   "работает над"
+  ],
+  [
+   "^(Selection · )?((encoding|subtitles): )?(working on \\S+ of \\d+|\\d+ of \\d+ done, waiting for a worker|done \\(\\d+ of \\d+\\))",
+   "",
+   "{w:$0}"
+  ],
+  [
+   "^Plex connected \\(version (.+)\\)$",
+   "",
+   "Plex подключён (версия $1)"
+  ],
+  [
+   "^Plex is not responding properly: (.+)$",
+   "",
+   "Plex отвечает некорректно: $1"
+  ],
+  [
+   "^error: (.+)$",
+   "",
+   "ошибка: $1"
+  ],
+  [
+   "^replace failed: (.+)$",
+   "",
+   "замена не удалась: $1"
+  ],
+  [
+   "^invalid value for (.+)$",
+   "",
+   "недопустимое значение для $1"
+  ],
+  [
+   "^(\\S+) must be between (.+) and (.+)$",
+   "",
+   "$1 должно быть от $2 до $3"
+  ],
+  [
+   "^VMAF (\\S+) · worst 5% (\\S+) · cq (\\S+)$",
+   "",
+   "VMAF $1 · худшие 5% $2 · cq $3"
+  ],
+  [
+   "^([\\d.,]+) h$",
+   "",
+   "$1 ч"
+  ],
+  [
+   "^(.+): GPU could not keep the quality - queued for the CPU encoder \\(x265\\)$",
+   "",
+   "$1: GPU не смог сохранить качество - в очереди на CPU-кодировщик (x265)"
+  ],
+  [
+   "^Staging cleanup: removed leftover (.+)$",
+   "",
+   "Очистка staging: удалён остаток $1"
+  ],
+  [
+   "^(\\d+) per page$",
+   "",
+   "$1 на странице"
+  ],
+  [
+   "^(\\d+) workers online$",
+   "",
+   "$1 воркеров в сети"
+  ],
+  [
+   "^(1 worker online|[\\d.,]+ workers online) · adding a worker, the worker key and the downloads are on the Workers page\\.$",
+   "",
+   "{t:$1} · добавление воркера, ключ воркера и загрузки находятся на странице «Воркеры»."
+  ],
+  [
+   "^#([\\d.,]+) · starts in ~(.+?) · estimate",
+   "",
+   "#$1 · начнётся через ~{t:$2} · оценка"
+  ],
+  [
+   "^#([\\d.,]+) · estimate",
+   "",
+   "#$1 · оценка"
+  ],
+  [
+   "^(\\d+) days left$",
+   "",
+   "осталось дней: $1"
+  ],
+  [
+   "^expires in (\\d+) days$",
+   "",
+   "истекает через $1 дн."
+  ],
+  [
+   "^Made · ([\\d.,]+) MB$",
+   "",
+   "Создано · $1 MB"
+  ],
+  [
+   "^Can be made · (.+)$",
+   "",
+   "Можно создать · {t:$1}"
+  ],
+  [
+   " · step (\\d+) of (\\d+) · ~(.+) left$",
+   "",
+   " · шаг $1 из $2 · осталось ~{t:$3}"
+  ],
+  [
+   " · step (\\d+) of (\\d+)$",
+   "",
+   " · шаг $1 из $2"
+  ],
+  [
+   " · ~(.+) left$",
+   "",
+   " · осталось ~{t:$1}"
+  ],
+  [
+   "^([\\d.,]+) comparison\\(s\\) requested · ready within a few minutes$",
+   "",
+   "Запрошено сравнений: $1 · будут готовы через несколько минут"
+  ],
+  [
+   "^Make (\\d+) comparison\\(s\\)\\? About 1–2 MB each\\.$",
+   "",
+   "Создать сравнения ($1)? Около 1–2 MB каждое."
+  ],
+  [
+   "^Repeated (\\d+) times$",
+   "",
+   "Повторено $1 раз"
+  ],
+  [
+   "^between (\\S+) and (\\S+)$",
+   "",
+   "от $1 до $2"
+  ],
+  [
+   " · (\\d+ d \\d+ h|\\d+ h \\d+ m) (waiting|later)$",
+   "",
+   " · {t:$1} {t:$2}"
+  ],
+  [
+   "^(online|seen .+?) · (.+)$",
+   "",
+   "{t:$1} · $2"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (\\d+) job\\(s\\)$",
+   "",
+   "{t:$1}: $2 заданий"
+  ],
+  [
+   "^(Retry|Retry on CPU|Prioritise|Skip|Process only these): (.+)$",
+   "",
+   "{t:$1}: $2"
+  ],
+  [
+   "^Error in (.+?): (.+)$",
+   "",
+   "Ошибка в $1: {w:$2}"
+  ],
+  [
+   "^(\\d+) comparison\\(s\\) requested$",
+   "",
+   "Запрошено сравнений: $1"
+  ],
+  [
+   "^Comparisons cleaned up: (\\d+) removed \\(over (\\S+) MB\\)$",
+   "",
+   "Сравнения очищены: удалено $1 (свыше $2 MB)"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine \\((\\d+) record\\(s\\) updated\\)$",
+   "",
+   "Папка карантина переименована в quarantine (обновлено записей: $1)"
+  ],
+  [
+   "^Worker (.+) removed: (\\d+) job\\(s\\) back in the queue$",
+   "",
+   "Воркер $1 удалён: заданий возвращено в очередь: $2"
+  ],
+  [
+   "^Quarantine: (.+) already exists, (.+) was left where it is$",
+   "",
+   "Карантин: $1 уже существует, $2 оставлено на месте"
+  ],
+  [
+   "^Quarantine folder renamed to quarantine; (\\d+) record\\(s\\) updated, but (.+) is not empty yet$",
+   "",
+   "Папка карантина переименована в quarantine; обновлено записей: $1, но $2 ещё не пуста"
+  ],
+  [
+   "^Renaming the quarantine folder failed \\(is the media share mounted\\?\\): (.+)$",
+   "",
+   "Не удалось переименовать папку карантина (смонтирована ли сетевая папка с медиа?): $1"
+  ]
+ ],
+ "w": [
+  [
+   "new version missing from staging",
+   "g",
+   "новая версия отсутствует в staging"
+  ],
+  [
+   "new \\.mkv missing from staging",
+   "g",
+   "новый .mkv отсутствует в staging"
+  ],
+  [
+   "original disappeared",
+   "g",
+   "оригинал исчез"
+  ],
+  [
+   "original has changed in the meantime",
+   "g",
+   "оригинал за это время изменился"
+  ],
+  [
+   "original no longer available",
+   "g",
+   "оригинал больше недоступен"
+  ],
+  [
+   "check on the NAS rejected \\(duration/tracks\\)",
+   "g",
+   "проверка на NAS не пройдена (длительность/дорожки)"
+  ],
+  [
+   "dvd/blu-ray converted to mkv",
+   "g",
+   "dvd/blu-ray преобразован в mkv"
+  ],
+  [
+   "retry after worker update",
+   "g",
+   "повтор после обновления воркера"
+  ],
+  [
+   "skipped by you",
+   "g",
+   "пропущено вами"
+  ],
+  [
+   "target file already exists",
+   "g",
+   "целевой файл уже существует"
+  ],
+  [
+   "worker offline - rescheduled",
+   "g",
+   "воркер офлайн - перепланировано"
+  ],
+  [
+   "worker removed - rescheduled",
+   "g",
+   "воркер удалён - перепланировано"
+  ],
+  [
+   "worker restarted - rescheduled",
+   "g",
+   "воркер перезапущен - перепланировано"
+  ],
+  [
+   "replace failed: (.*)",
+   "g",
+   "замена не удалась: $1"
+  ],
+  [
+   "Dolby Vision is missing from the new mkv",
+   "g",
+   "в новом mkv отсутствует Dolby Vision"
+  ],
+  [
+   "Dolby Vision: not re-encoded \\(the DV layer would be lost\\)",
+   "g",
+   "Dolby Vision: не перекодировано (слой DV был бы потерян)"
+  ],
+  [
+   "a stream cannot be copied into \\.mkv: (.*)",
+   "g",
+   "поток нельзя скопировать в .mkv: $1"
+  ],
+  [
+   "ffmpeg made no progress for (\\d+) minutes \\(share unreachable\\?\\) - stopped",
+   "g",
+   "ffmpeg не продвигался $1 минут (сетевая папка недоступна?) - остановлено"
+  ],
+  [
+   "(\\d+) of (\\d+) files are missing at once - share unreachable\\? Nothing marked gone",
+   "g",
+   "Сразу отсутствуют $1 из $2 файлов - сетевая папка недоступна? Ничего не отмечено как исчезнувшее"
+  ],
+  [
+   "translation failed: no usable answer for (\\d+) line\\(s\\) after retries",
+   "g",
+   "перевод не удался: нет пригодного ответа для $1 строк(и) после повторов"
+  ],
+  [
+   "Ollama HTTP (\\d+): server error",
+   "g",
+   "Ollama HTTP $1: ошибка сервера"
+  ],
+  [
+   "Ollama HTTP (\\d+): (.*)",
+   "g",
+   "Ollama HTTP $1: $2"
+  ],
+  [
+   " - pull the model \\(ollama pull <model>\\) or fix ollama_model in worker\\.ini",
+   "g",
+   " - загрузите модель (ollama pull <model>) или исправьте ollama_model в worker.ini"
+  ],
+  [
+   "Ollama is not reachable at (\\S+) \\((.*)\\) - start Ollama or check ollama_url",
+   "g",
+   "Ollama недоступна по адресу $1 ($2) - запустите Ollama или проверьте ollama_url"
+  ],
+  [
+   "Ollama unreachable: (.*)",
+   "g",
+   "Ollama недоступна: $1"
+  ],
+  [
+   "(.*) - Ollama kept failing for (\\d+) minutes",
+   "g",
+   "$1 - Ollama продолжала сбоить $2 минут"
+  ],
+  [
+   "(\\S+) took longer than an hour - is the media share still reachable\\?",
+   "g",
+   "$1 выполнялся дольше часа - сетевая папка с медиа ещё доступна?"
+  ],
+  [
+   "(\\S+) is missing; install it (.*)",
+   "g",
+   "$1 отсутствует; установите его $2"
+  ],
+  [
+   "whole-film VMAF (\\S+) not plausible with every pairing method \\(samples (\\S+)\\); low at (.*)\\. Original kept; check the source there",
+   "g",
+   "VMAF всего фильма $1 неправдоподобен при любом способе сопоставления (выборки $2); низко на $3. Оригинал сохранён; проверьте там исходник"
+  ],
+  [
+   "^ffprobe: cannot read the file$",
+   "",
+   "ffprobe: не удаётся прочитать файл"
+  ],
+  [
+   "^ffprobe: failed$",
+   "",
+   "ffprobe: сбой"
+  ],
+  [
+   "^ffmpeg: ([\\s\\S]*)$",
+   "",
+   "ffmpeg: $1"
+  ],
+  [
+   "not enough free space on the PC for this film \\((\\S+) GB needed in (.*)\\)",
+   "g",
+   "на ПК недостаточно свободного места для этого фильма (нужно $1 ГБ в $2)"
+  ],
+  [
+   "not enough space in the work folder: (\\S+) GB free, ~(\\S+) GB needed",
+   "g",
+   "недостаточно места в рабочей папке: свободно $1 ГБ, нужно ~$2 ГБ"
+  ],
+  [
+   "with the minimum bitrate at most (-?\\d+)% smaller",
+   "g",
+   "при минимальном битрейте не более чем на $1% меньше"
+  ],
+  [
+   "extracting metadata from the enhancement layer",
+   "g",
+   "извлечение метаданных из слоя расширения"
+  ],
+  [
+   "download does not match \\(sha256\\) - not used",
+   "g",
+   "загрузка не совпадает (sha256) - не используется"
+  ],
+  [
+   "check: duration or number of streams differs",
+   "g",
+   "проверка: длительность или число потоков отличается"
+  ],
+  [
+   "new mkv is too short \\((\\S+) of (\\S+) min\\)",
+   "g",
+   "новый mkv слишком короткий ($1 из $2 мин)"
+  ],
+  [
+   "(\\d+) of (\\d+) done, waiting for a worker",
+   "g",
+   "$1 из $2 готово, ожидание воркера"
+  ],
+  [
+   "converting Dolby Vision to profile 8\\.1",
+   "g",
+   "преобразование Dolby Vision в профиль 8.1"
+  ],
+  [
+   "injecting metadata into the base layer",
+   "g",
+   "внедрение метаданных в базовый слой"
+  ],
+  [
+   "checking VMAF \\(second measurement\\)",
+   "g",
+   "проверка VMAF (второе измерение)"
+  ],
+  [
+   "no setting meets the quality target",
+   "g",
+   "ни одна настройка не достигает нормы качества"
+  ],
+  [
+   "download limit reached - rest later",
+   "g",
+   "достигнут лимит загрузок - остальное позже"
+  ],
+  [
+   "OpenSubtitles daily limit reached",
+   "g",
+   "достигнут дневной лимит OpenSubtitles"
+  ],
+  [
+   "partly; rest after download limit",
+   "g",
+   "частично; остальное после лимита загрузок"
+  ],
+  [
+   "(\\S+) not found after downloading",
+   "g",
+   "$1 не найден после загрузки"
+  ],
+  [
+   "Whisper: detected spoken language",
+   "g",
+   "Whisper: определён язык речи"
+  ],
+  [
+   "Whisper \\(translated from (\\S+)\\)",
+   "g",
+   "Whisper (переведено с $1)"
+  ],
+  [
+   "waiting for free space on the PC",
+   "g",
+   "ожидание свободного места на ПК"
+  ],
+  [
+   "subtitle file unexpectedly large",
+   "g",
+   "файл субтитров необычно большой"
+  ],
+  [
+   "self-test measurement unreliable",
+   "g",
+   "измерение самотеста ненадёжно"
+  ],
+  [
+   "translation attempt (\\d+) failed",
+   "g",
+   "попытка перевода $1 не удалась"
+  ],
+  [
+   "waiting: being watched in Plex",
+   "g",
+   "ожидание: сейчас смотрят в Plex"
+  ],
+  [
+   "expected only (-?\\d+)% smaller",
+   "g",
+   "ожидается лишь на $1% меньше"
+  ],
+  [
+   "downloading (\\S+) \\(one-time\\)",
+   "g",
+   "загрузка $1 (однократно)"
+  ],
+  [
+   "whole-film check below target",
+   "g",
+   "проверка всего фильма ниже нормы"
+  ],
+  [
+   "cannot grab a frame at (\\S+)s",
+   "g",
+   "не удаётся получить кадр на $1 с"
+  ],
+  [
+   "whole film just below target",
+   "g",
+   "весь фильм чуть ниже нормы"
+  ],
+  [
+   "finding the film on the disc",
+   "g",
+   "поиск фильма на диске"
+  ],
+  [
+   "quality target not reachable",
+   "g",
+   "норма качества недостижима"
+  ],
+  [
+   "check measurement unreliable",
+   "g",
+   "контрольное измерение ненадёжно"
+  ],
+  [
+   "invalid path from the server",
+   "g",
+   "недопустимый путь от сервера"
+  ],
+  [
+   "again: minimum gain now 10%",
+   "g",
+   "снова: минимальный выигрыш теперь 10%"
+  ],
+  [
+   "Whisper running on the GPU",
+   "g",
+   "Whisper работает на GPU"
+  ],
+  [
+   "no titles found on the DVD",
+   "g",
+   "на DVD не найдено ни одного заголовка"
+  ],
+  [
+   "suspicious path in archive",
+   "g",
+   "подозрительный путь в архиве"
+  ],
+  [
+   "waiting: Plex unreachable",
+   "g",
+   "ожидание: Plex недоступен"
+  ],
+  [
+   "working on (\\S+) of (\\d+)",
+   "g",
+   "работа над $1 из $2"
+  ],
+  [
+   "OpenSubtitles unreachable",
+   "g",
+   "OpenSubtitles недоступен"
+  ],
+  [
+   "Whisper \\(transcription\\)",
+   "g",
+   "Whisper (транскрипция)"
+  ],
+  [
+   "checking VMAF whole film",
+   "g",
+   "проверка VMAF всего фильма"
+  ],
+  [
+   "done, waiting to replace",
+   "g",
+   "готово, ожидание замены"
+  ],
+  [
+   "old folder to quarantine",
+   "g",
+   "старая папка в карантин"
+  ],
+  [
+   "check VMAF (\\S+) too low",
+   "g",
+   "проверка VMAF $1 слишком низко"
+  ],
+  [
+   "reading the disc \\(DV\\)",
+   "g",
+   "чтение диска (DV)"
+  ],
+  [
+   "translated from English",
+   "g",
+   "переведено с английского"
+  ],
+  [
+   "done \\((\\d+) of (\\d+)\\)",
+   "g",
+   "готово ($1 из $2)"
+  ],
+  [
+   "audio extraction failed",
+   "g",
+   "извлечение аудио не удалось"
+  ],
+  [
+   "falling back to the CPU",
+   "g",
+   "переключение на CPU"
+  ],
+  [
+   "OpenSubtitles signed in",
+   "g",
+   "выполнен вход в OpenSubtitles"
+  ],
+  [
+   "8\\.1 \\(from profile 7\\)",
+   "g",
+   "8.1 (из профиля 7)"
+  ],
+  [
+   "waiting for the worker",
+   "g",
+   "ожидание воркера"
+  ],
+  [
+   "suspicious path in zip",
+   "g",
+   "подозрительный путь в zip"
+  ],
+  [
+   "embedded EN unreadable",
+   "g",
+   "встроенные EN не читаются"
+  ],
+  [
+   "longest so far: title",
+   "g",
+   "самый длинный пока: титул"
+  ],
+  [
+   "timing does not match",
+   "g",
+   "синхронизация не совпадает"
+  ],
+  [
+   "only (-?\\d+)% smaller",
+   "g",
+   "лишь на $1% меньше"
+  ],
+  [
+   "segment (\\d+)\\/(\\d+)",
+   "g",
+   "фрагмент $1/$2"
+  ],
+  [
+   "keeping the original",
+   "g",
+   "оригинал сохраняется"
+  ],
+  [
+   "downloads left today",
+   "g",
+   "осталось загрузок на сегодня"
+  ],
+  [
+   "title (\\d+) checked",
+   "g",
+   "титул $1 проверен"
+  ],
+  [
+   "waiting to replace",
+   "g",
+   "ожидание замены"
+  ],
+  [
+   "copying to the NAS",
+   "g",
+   "копирование на NAS"
+  ],
+  [
+   "keeps the original",
+   "g",
+   "оригинал сохраняется"
+  ],
+  [
+   "translation failed",
+   "g",
+   "перевод не удался"
+  ],
+  [
+   "server unreachable",
+   "g",
+   "сервер недоступен"
+  ],
+  [
+   "searching quality",
+   "g",
+   "поиск качества"
+  ],
+  [
+   "making references",
+   "g",
+   "создание эталонов"
+  ],
+  [
+   "converting to mkv",
+   "g",
+   "преобразование в mkv"
+  ],
+  [
+   "subtitles stopped",
+   "g",
+   "субтитры остановлены"
+  ],
+  [
+   "copying NAS → PC",
+   "g",
+   "копирование NAS → ПК"
+  ],
+  [
+   "copying PC → NAS",
+   "g",
+   "копирование ПК → NAS"
+  ],
+  [
+   "finding the film",
+   "g",
+   "поиск фильма"
+  ],
+  [
+   "merging into mkv",
+   "g",
+   "объединение в mkv"
+  ],
+  [
+   "longest playlist",
+   "g",
+   "самый длинный плейлист"
+  ],
+  [
+   "timing reference",
+   "g",
+   "эталон синхронизации"
+  ],
+  [
+   "speech segments",
+   "g",
+   "фрагменты речи"
+  ],
+  [
+   "too little gain",
+   "g",
+   "слишком малый выигрыш"
+  ],
+  [
+   " not applicable",
+   "g",
+   " неприменимо"
+  ],
+  [
+   "download failed",
+   "g",
+   "загрузка не удалась"
+  ],
+  [
+   "after ffsubsync",
+   "g",
+   "после ffsubsync"
+  ],
+  [
+   "translating to",
+   "g",
+   "перевод на"
+  ],
+  [
+   "next candidate",
+   "g",
+   "следующий кандидат"
+  ],
+  [
+   "after shifting",
+   "g",
+   "после сдвига"
+  ],
+  [
+   "reading audio",
+   "g",
+   "чтение аудио"
+  ],
+  [
+   "^Selection · ",
+   "",
+   "Подборка · "
+  ],
+  [
+   "(\\d+) waiting",
+   "g",
+   "$1 в ожидании"
+  ],
+  [
+   "search failed",
+   "g",
+   "поиск не удался"
+  ],
+  [
+   "re-encoding",
+   "g",
+   "перекодирование"
+  ],
+  [
+   "title (\\d+)",
+   "g",
+   "титул $1"
+  ],
+  [
+   " error\\(s\\)",
+   "g",
+   " ошибок"
+  ],
+  [
+   " (\\d+) done",
+   "g",
+   " $1 готово"
+  ],
+  [
+   "subtitles:",
+   "g",
+   "субтитры:"
+  ],
+  [
+   "replacing",
+   "g",
+   "замена"
+  ],
+  [
+   "subtitles",
+   "g",
+   "субтитры"
+  ],
+  [
+   "candidate",
+   "g",
+   "кандидат"
+  ],
+  [
+   "encoding:",
+   "g",
+   "кодирование:"
+  ],
+  [
+   "\\bstart\\b",
+   "g",
+   "старт"
+  ],
+  [
+   "encoding",
+   "g",
+   "кодирование"
+  ],
+  [
+   "checking",
+   "g",
+   "проверка"
+  ],
+  [
+   ", up to ",
+   "g",
+   ", до "
+  ],
+  [
+   "present",
+   "g",
+   "есть"
+  ],
+  [
+   "missing",
+   "g",
+   "нет"
+  ],
+  [
+   "speed",
+   "g",
+   "скорость"
+  ],
+  [
+   "saved",
+   "g",
+   "сохранено"
+  ],
+  [
+   "GPU could not keep the quality - queued for the CPU encoder \\(x265\\)",
+   "g",
+   "GPU не смог сохранить качество - в очереди на CPU-кодировщик (x265)"
+  ],
+  [
+   "Staging cleanup: removed leftover",
+   "g",
+   "Очистка staging: удалён остаток"
+  ],
+  [
+   "media folder is empty or not mounted - nothing changed",
+   "g",
+   "папка с медиа пуста или не смонтирована - ничего не изменено"
+  ],
+  [
+   "keeping the quality would need more bitrate than the source has",
+   "g",
+   "для сохранения качества нужен битрейт выше, чем у исходника"
+  ],
+  [
+   "needs more bitrate than the source",
+   "g",
+   "требует битрейт выше, чем у исходника"
+  ],
+  [
+   "worker restarting for an update",
+   "g",
+   "воркер перезапускается для обновления"
+  ],
+  [
+   "no video stream \\(only cover art\\?\\)",
+   "g",
+   "нет видеопотока (только обложка?)"
+  ],
+  [
+   "no audio stream to transcribe",
+   "g",
+   "нет аудиопотока для расшифровки"
+  ],
+  [
+   "not enough free space on the PC for this film",
+   "g",
+   "на ПК недостаточно свободного места для этого фильма"
+  ],
+  [
+   "retrying on the CPU \\(x265\\)",
+   "g",
+   "повторная попытка на CPU (x265)"
+  ],
+  [
+   "walking folders",
+   "g",
+   "обход папок"
+  ],
+  [
+   "analysing files",
+   "g",
+   "анализ файлов"
+  ],
+  [
+   "planning jobs",
+   "g",
+   "планирование задач"
+  ],
+  [
+   "CPU encodes on",
+   "g",
+   "Кодирование на CPU вкл."
+  ],
+  [
+   "CPU encodes off",
+   "g",
+   "Кодирование на CPU выкл."
+  ]
+ ]
+}
