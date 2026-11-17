@@ -81,7 +81,13 @@
 **Workers**
 - Windows: a new MediaScan app (local, in the dashboard's style) shows what the worker is doing,
   its log, and start/stop/restart controls. It replaces the old PowerShell service and status
-  window.
+  window. Its Settings form edits `worker.ini` (connection test, share finder and drive mapping,
+  subtitle settings with the installed Ollama models listed) and the app opens in your default
+  browser as its own window.
+- Simpler install: a package downloaded from the dashboard carries the address and the worker key,
+  the Windows installer finds the media share by itself (and can map a `\\NAS\Media` path to a
+  drive letter), keeps existing settings, and asks at most one question (subtitles yes/no). It opens
+  the MediaScan app when done.
 - Workers report their status locally, and the Windows manager is updated together with the worker.
 - A finished job is reported until the server answers, so hours of encoding are never lost while the
   server is away; cancelling a subtitle job from the dashboard stops it at the next step.

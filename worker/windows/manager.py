@@ -12,7 +12,7 @@ cookies, so other services on 127.0.0.1 never see it), and a JSON body on every 
 Usage:  pythonw manager.py            run (normally started by the scheduled task)
         pythonw manager.py --open     open the app (starts the manager first if it is not running)
 """
-import base64, ctypes, ctypes.wintypes as wt, hashlib, hmac, http.server, json, os, secrets, socket, subprocess, sys, threading, time, urllib.parse
+import base64, configparser, ctypes, ctypes.wintypes as wt, hashlib, hmac, http.server, json, os, re, secrets, socket, subprocess, sys, threading, time, urllib.error, urllib.parse, urllib.request
 
 VERSION = '1.0.0'
 BASE = os.environ.get('MEDIASCAN_HOME') or os.path.join(os.environ.get('LOCALAPPDATA', os.path.expanduser('~')), 'MediaScan')
@@ -401,12 +401,139 @@ def write_icons():
         mlog(f'icons: {e!r}')
 
 
-def open_app(port, key):
-    url = f'http://127.0.0.1:{port}/#k={urllib.parse.quote(key)}'
+# ------------------------------------------------------------------ settings (worker.ini)
+INI = os.path.join(BASE, 'worker.ini')
+CFG_FILES = [os.path.join(BASE, f) for f in ('config.ini', 'worker.ini', 'overrides.ini')]     # same order as the worker
+URL_RE = re.compile(r'^https?://[A-Za-z0-9.\-\[\]:]+$')
+
+
+def _cfg():
+    c = configparser.ConfigParser(interpolation=None); c.read(CFG_FILES, encoding='utf-8'); return c
+
+
+def configured():
+    c = _cfg(); return bool(c.get('server', 'url', fallback='') and c.get('server', 'worker_token', fallback=''))
+
+
+def ollama_models(url):
+    try:
+        with urllib.request.urlopen(url.rstrip('/') + '/api/tags', timeout=2) as r:
+            return sorted(m.get('name', '') for m in json.load(r).get('models', []) if m.get('name'))
+    except Exception:
+        return []
+
+
+def read_settings():
+    c = _cfg(); g = lambda sec, key, d='': c.get(sec, key, fallback=d)
+    media = g('worker', 'media_root') or 'M:\\'
+    ourl = g('translation', 'ollama_url') or 'http://localhost:11434'
+    return {'url': g('server', 'url'), 'token': g('server', 'worker_token'), 'name': g('worker', 'name') or socket.gethostname(),
+            'media': media, 'media_ok': os.path.isdir(media), 'max_height': g('worker', 'max_height') or '0',
+            'subs': g('worker', 'subs', 'true').strip().lower() == 'true',
+            'os_key': g('opensubtitles', 'api_key'), 'os_user': g('opensubtitles', 'username'), 'os_pw_set': bool(g('opensubtitles', 'password')),
+            'whisper': g('whisper', 'model') or 'large-v3', 'ollama_url': ourl,
+            'ollama_model': g('translation', 'ollama_model') or g('vertaling', 'ollama_model') or 'gemma3:4b',   # [vertaling] = old section name
+            'ollama_models': ollama_models(ourl), 'configured': bool(g('server', 'url') and g('server', 'worker_token'))}
+
+
+def save_settings(d):
+    """Write the fields of the app's Settings form to worker.ini (other keys in the file are kept)."""
+    url = str(d.get('url', '')).strip().rstrip('/')
+    if url and not URL_RE.match(url): return 'invalid dashboard address'
+    media = str(d.get('media', '')).strip()
+    if re.fullmatch(r'[A-Za-z]:', media): media += '\\'
+    name = re.sub(r'[^A-Za-z0-9._ -]', '-', str(d.get('name', ''))).strip(' ._-')[:64]
+    try: maxh = max(0, int(d.get('max_height') or 0))
+    except (TypeError, ValueError): return 'invalid resolution'
+    c = configparser.ConfigParser(interpolation=None); c.read(INI, encoding='utf-8')
+    def put(sec, key, val):
+        if not c.has_section(sec): c.add_section(sec)
+        val = '' if val is None else str(val).strip()
+        if val: c.set(sec, key, val)
+        elif c.has_option(sec, key): c.remove_option(sec, key)
+    put('server', 'url', url); put('server', 'worker_token', str(d.get('token', '')).strip())
+    put('worker', 'name', name); put('worker', 'media_root', media); put('worker', 'max_height', maxh)
+    put('worker', 'subs', 'true' if d.get('subs') else 'false')
+    put('opensubtitles', 'api_key', d.get('os_key')); put('opensubtitles', 'username', d.get('os_user'))
+    if str(d.get('os_pw', '')).strip(): put('opensubtitles', 'password', d.get('os_pw'))      # empty = keep the current password
+    put('whisper', 'model', d.get('whisper') or 'large-v3')
+    put('translation', 'ollama_url', d.get('ollama_url') or 'http://localhost:11434'); put('translation', 'ollama_model', d.get('ollama_model') or 'gemma3:4b')
+    if c.has_section('vertaling'): c.remove_section('vertaling')
+    new = not os.path.exists(INI)
+    with open(INI, 'w', encoding='utf-8') as f: c.write(f)
+    if new:     # only this user may read the file (keys and password)
+        subprocess.run(['icacls', INI, '/inheritance:r', '/grant:r', f"{os.environ.get('USERNAME', '')}:(R,W)"], capture_output=True, creationflags=NO_WINDOW)
+    return 'ok'
+
+
+def _server_call(url, token, path, data=None):
+    req = urllib.request.Request(url.rstrip('/') + path, data=data, method='POST' if data is not None else 'GET',
+                                 headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'})
+    with urllib.request.urlopen(req, timeout=10) as r: return json.load(r)
+
+
+def test_server(url, token):
+    url = str(url).strip().rstrip('/'); token = str(token).strip()
+    if not URL_RE.match(url): return {'ok': False, 'error': 'invalid address'}
+    try:
+        r = _server_call(url, token, '/api/worker/update', b'{}')
+        return {'ok': True, 'version': r.get('version')}
+    except urllib.error.HTTPError as e:
+        return {'ok': False, 'error': 'key not accepted' if e.code == 401 else f'HTTP {e.code}'}
+    except Exception as e:
+        return {'ok': False, 'error': str(getattr(e, 'reason', e))[:120]}
+
+
+def find_media(url, token):
+    """The drive that holds the library's top folders (the dashboard says which), e.g. 'M:\\'."""
+    try: roots = [r for r in _server_call(str(url).strip(), str(token).strip(), '/api/worker/roots').get('roots', []) if r][:50]
+    except Exception: roots = []
+    if not roots: return {'path': '', 'roots': roots}
+    mask = ctypes.windll.kernel32.GetLogicalDrives(); best, best_n = '', 0
+    for i in range(26):
+        if not mask & (1 << i): continue
+        root = f'{chr(65 + i)}:\\'
+        try: n = sum(os.path.isdir(os.path.join(root, r)) for r in roots)
+        except OSError: n = 0
+        if n > best_n: best, best_n = root, n
+    return {'path': best if best_n >= max(1, -(-len(roots) // 2)) else '', 'roots': roots}
+
+
+def map_share(path, letter):
+    path = str(path).strip(); letter = str(letter).strip().rstrip(':').upper()
+    if not re.fullmatch(r'\\\\[^\\/:*?"<>|]+\\[^\\/:*?"<>|]+(\\[^\\/:*?"<>|]+)*', path): return {'ok': False, 'error': 'not a \\\\server\\share path'}
+    if not re.fullmatch(r'[D-Z]', letter): return {'ok': False, 'error': 'drive letter must be D to Z'}
+    if os.path.exists(f'{letter}:\\'): return {'ok': False, 'error': f'{letter}: is already in use'}
+    try:
+        r = subprocess.run(['net', 'use', f'{letter}:', path, '/persistent:yes'], capture_output=True, text=True, errors='replace', timeout=60, creationflags=NO_WINDOW)
+    except Exception as e:
+        return {'ok': False, 'error': str(e)[:120]}
+    out = ' '.join((r.stdout + ' ' + r.stderr).split())[:200]
+    return {'ok': r.returncode == 0, 'path': f'{letter}:\\', 'error': '' if r.returncode == 0 else (out or f'net use failed ({r.returncode})')}
+
+
+def _browser():
+    """The default browser when it can show a page as its own window (Chromium family: Brave, Chrome, Edge, ...), else Edge."""
+    try:
+        import winreg
+        with winreg.OpenKey(winreg.HKEY_CURRENT_USER, r'Software\Microsoft\Windows\Shell\Associations\UrlAssociations\http\UserChoice') as k:
+            prog = winreg.QueryValueEx(k, 'ProgId')[0]
+        with winreg.OpenKey(winreg.HKEY_CLASSES_ROOT, prog + r'\shell\open\command') as k:
+            cmd = winreg.QueryValueEx(k, None)[0]
+        m = re.match(r'^"([^"]+)"|^(\S+)', cmd); exe = (m.group(1) or m.group(2)) if m else ''
+        if exe and os.path.exists(exe) and re.search(r'(chrome|brave|msedge|vivaldi|opera|chromium)\.exe$', exe, re.I): return exe
+    except Exception:
+        pass
     for exe in (os.path.expandvars(r'%ProgramFiles(x86)%\Microsoft\Edge\Application\msedge.exe'),
                 os.path.expandvars(r'%ProgramFiles%\Microsoft\Edge\Application\msedge.exe')):
-        if os.path.exists(exe):
-            subprocess.Popen([exe, f'--app={url}', '--window-size=880,760'], creationflags=NO_WINDOW); return
+        if os.path.exists(exe): return exe
+    return None
+
+
+def open_app(port, key):
+    url = f'http://127.0.0.1:{port}/#k={urllib.parse.quote(key)}'
+    exe = _browser()
+    if exe: subprocess.Popen([exe, f'--app={url}', '--window-size=880,820'], creationflags=NO_WINDOW); return
     os.startfile(url)
 
 
@@ -456,6 +583,7 @@ def make_handler(mgr):
             if u.path in ('/icon-256.png', '/logo-256.png'): return self.send(200, ICON_PNG, 'image/png')
             if not self.authed(): return self.send(401, 'login required')
             if u.path == '/api/state': return self.send(200, json.dumps(mgr.snapshot()), 'application/json')
+            if u.path == '/api/settings': return self.send(200, json.dumps(read_settings()), 'application/json')
             if u.path == '/api/log':
                 which = 'manager' if q.get('which', [''])[0] == 'manager' else 'worker'
                 n = max(20, min(1000, int(q.get('n', ['300'])[0]) if q.get('n', [''])[0].isdigit() else 300))
@@ -472,7 +600,7 @@ def make_handler(mgr):
                 return self.send(403, 'forbidden')
             try:
                 n = int(self.headers.get('Content-Length') or 0)
-                body = json.loads(self.rfile.read(min(n, 4096)) or b'{}')
+                body = json.loads(self.rfile.read(min(n, 16384)) or b'{}')
             except Exception:
                 return self.send(400, 'bad request')
             if self.path != '/api/action' or not isinstance(body, dict): return self.send(404, 'not found')
@@ -483,6 +611,15 @@ def make_handler(mgr):
                 os.startfile(BASE); res = 'ok'
             elif a == 'open_log':
                 os.startfile(os.path.join(LOGS, 'manager.log' if body.get('which') == 'manager' else 'worker.log')); res = 'ok'
+            elif a == 'save_settings':
+                res = save_settings(body)
+                if res == 'ok' and body.get('restart') and mgr.jobs['worker'].running(): mgr.act('restart', 'worker')
+            elif a == 'test_server':
+                res = test_server(body.get('url', ''), body.get('token', ''))
+            elif a == 'find_media':
+                res = find_media(body.get('url', ''), body.get('token', ''))
+            elif a == 'map_share':
+                res = map_share(body.get('path', ''), body.get('letter', 'M'))
             else:
                 return self.send(400, 'unknown action')
             self.send(200, json.dumps({'result': res}), 'application/json')
@@ -535,7 +672,7 @@ def main():
     finally: os.umask(old)
     threading.Thread(target=srv.serve_forever, daemon=True).start()
     start_tray()
-    if want_open: open_app(mgr.port, mgr.key)
+    if want_open or not configured(): open_app(mgr.port, mgr.key)      # unfinished setup: show the Settings form right away
     mgr.loop()
     mgr.write_status()
     srv.shutdown(); srv.server_close()
@@ -2107,9 +2244,39 @@ PAGE = '''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MediaScan</title><link rel="icon" href="/logo.svg?v=__ICON_V__" type="image/svg+xml"><link rel="icon" href="/logo-256.png?v=__ICON_V__" type="image/png" sizes="256x256"><link rel="stylesheet" href="/app.css"><script src="/app.js" defer></script></head>
 <body><div id="app"><header><div class="brand"><img src="/logo.svg?v=__ICON_V__" alt=""><div><b>MediaScan</b><span id="host" class="muted"></span></div></div>
-<div class="hdr-r"><span id="pill" class="pill">…</span><a id="dash" class="btn" target="_blank" rel="noopener" hidden></a></div></header>
+<div class="hdr-r"><span id="pill" class="pill">…</span><a id="dash" class="btn" target="_blank" rel="noopener" hidden></a><button id="b-settings" class="ghost"></button></div></header>
 <div id="banner" class="banner" hidden></div>
 <main>
+<section class="card" id="c-settings" hidden><form id="settings" autocomplete="off">
+<div class="row"><h2 data-t="s_title"></h2><button id="b-close" type="button" class="ghost" data-t="close"></button></div>
+<p class="muted" data-t="s_intro"></p>
+<div class="sgrid">
+<fieldset><legend data-t="s_dash"></legend>
+<label><span data-t="s_url"></span><input id="f-url" placeholder="http://192.168.1.10:8780" spellcheck="false"></label>
+<label><span data-t="s_key"></span><div class="inl"><input id="f-token" type="password" spellcheck="false"><button id="b-show" type="button" class="ghost sm" data-t="show"></button></div></label>
+<div class="inl"><button id="b-test" type="button" class="sm" data-t="test"></button><span id="t-res" class="small"></span></div>
+</fieldset>
+<fieldset><legend data-t="s_this"></legend>
+<label><span data-t="s_name"></span><input id="f-name" maxlength="64"></label>
+<label><span data-t="s_media"></span><div class="inl"><input id="f-media" placeholder="M:\\ or \\\\NAS\\Media" spellcheck="false"><button id="b-find" type="button" class="sm" data-t="find"></button><button id="b-map" type="button" class="sm" data-t="map" hidden></button></div><span id="m-res" class="small"></span></label>
+<label><span data-t="s_maxh"></span><select id="f-maxh"><option value="0">4K</option><option value="1440">1440p</option><option value="1080">1080p</option><option value="720">720p</option></select></label>
+</fieldset>
+<fieldset><legend data-t="s_subs"></legend>
+<label class="chk"><input id="f-subs" type="checkbox"><span data-t="s_subs_on"></span></label>
+<p class="muted small" data-t="s_subs_hint"></p>
+<div id="subs-more">
+<label><span data-t="s_os_key"></span><input id="f-oskey" spellcheck="false"></label>
+<label><span data-t="s_os_user"></span><input id="f-osuser" spellcheck="false"></label>
+<label><span data-t="s_os_pw"></span><input id="f-ospw" type="password" autocomplete="new-password"></label>
+<p class="muted small" data-t="s_os_hint"></p>
+<label><span data-t="s_whisper"></span><select id="f-whisper"></select></label>
+<label><span data-t="s_ourl"></span><input id="f-ourl" spellcheck="false"></label>
+<label><span data-t="s_omodel"></span><input id="f-omodel" list="omodels" spellcheck="false"><datalist id="omodels"></datalist><span id="o-res" class="muted small"></span></label>
+</div>
+</fieldset>
+</div>
+<div class="btns end"><button id="b-save" type="submit" class="primary" data-t="save"></button></div>
+</form></section>
 <section class="card" id="c-worker"><div class="row"><div><h2 id="w-title">…</h2><p id="w-sub" class="muted"></p></div>
 <div class="btns"><button id="b-start" class="primary"></button><button id="b-restart"></button><button id="b-stop" class="danger"></button></div></div>
 <dl id="w-facts" class="facts"></dl></section>
@@ -2160,6 +2327,15 @@ pre .e{color:var(--bad)}pre .s{color:var(--text)}
 .foot{margin-top:10px;align-items:center}
 .banner{border:1px solid var(--bad);background:var(--bad-s);color:var(--bad);padding:10px 14px;border-radius:var(--r-sm);margin-bottom:12px}
 footer{font-size:12px;text-align:center;margin-top:8px}
+.sgrid{display:grid;gap:14px;margin-top:10px}fieldset{border:1px solid var(--line);border-radius:var(--r-sm);padding:12px 14px 4px;margin:0;min-width:0}
+legend{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);padding:0 6px}
+label{display:grid;gap:4px;margin-bottom:10px;font-size:13px;color:var(--muted)}label.chk{grid-template-columns:auto 1fr;align-items:center;gap:8px;color:var(--text)}
+input,select{font:inherit;color:var(--text);background:var(--bg);border:1px solid var(--line2);border-radius:var(--r-sm);padding:7px 10px;width:100%;min-width:0}
+input:focus,select:focus{outline:none;border-color:var(--accent-line)}input[type=checkbox]{width:16px;height:16px;padding:0;accent-color:var(--accent)}
+.inl{display:flex;gap:8px;align-items:center}.inl input{flex:1}.small{font-size:12.5px}.small.ok{color:var(--ok)}.small.bad{color:var(--bad)}
+button.sm{padding:4px 10px;font-size:12.5px}
+.banner.info{border-color:var(--accent-line);background:var(--accent-s);color:var(--text)}
+#subs-more.off{opacity:.45;pointer-events:none}
 .gone{margin-top:20vh;text-align:center}
 #modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:grid;place-items:center;padding:16px;z-index:10}#modal[hidden]{display:none}
 .dlg{background:var(--panel);border:1px solid var(--line2);border-radius:var(--r);padding:20px;max-width:440px;width:100%}.dlg h3{font-size:16px;text-transform:none;letter-spacing:0;color:var(--text)}.dlg p{color:var(--muted);margin:0 0 16px}
@@ -2178,7 +2354,16 @@ const T = NL ? {
   s_server_bad:'Kan de server niet bereiken: ', ver:'Versie', up:'Actief sinds', restarts:'Crashes', lastr:'Laatste herstart', why:{crash:'crash', update:'update', manual:'handmatig'}, server:'Server', noj:'Geen job op dit moment.',
   encode:'Encoden', cpu:'CPU-encoden', subs:'Ondertitels', since:'bezig sinds ', q_title:'MediaScan afsluiten?', q_text:'De worker en het beheer stoppen. Een lopende job gaat terug in de wachtrij. Bij de volgende keer inloggen start alles weer.',
   q_stop:'Worker stoppen?', q_stop_t:'Een lopende job gaat terug in de wachtrij. De worker blijft uit, ook na een herstart van de pc, tot je hem weer start.', yes_quit:'Afsluiten', yes_stop:'Stoppen', cancel:'Annuleren',
-  locked:'Open MediaScan via het MediaScan-icoon in het systeemvak of via Start > MediaScan.', lost:'Het beheer reageert niet. Herstart via het M-icoon of het Startmenu.', gone:'MediaScan is afgesloten. Je kunt dit venster sluiten.', done:'Klaar', failed:'Mislukt', enc_off:'encoden uit', subs_off:'ondertitels uit'
+  locked:'Open MediaScan via het MediaScan-icoon in het systeemvak of via Start > MediaScan.', lost:'Het beheer reageert niet. Herstart via het M-icoon of het Startmenu.', gone:'MediaScan is afgesloten. Je kunt dit venster sluiten.', done:'Klaar', failed:'Mislukt', enc_off:'encoden uit', subs_off:'ondertitels uit',
+  settings:'Instellingen', close:'Sluiten', s_title:'Instellingen', s_intro:'Dit staat in worker.ini. Na opslaan start de worker opnieuw, zodat de nieuwe instellingen gelden.',
+  s_dash:'Dashboard', s_url:'Adres van het dashboard', s_key:'Worker-key (dashboard > Workers > Add worker)', show:'Tonen', hide:'Verbergen', test:'Verbinding testen', t_ok:'Verbonden · dashboard levert worker ', t_bad:'Mislukt: ',
+  s_this:'Deze worker', s_name:'Naam', s_media:'Media-share', find:'Zoeken', map:'Koppelen aan letter', m_found:'Gevonden: de bibliotheek staat op ', m_none:'Niet gevonden. Koppel de share eerst (bijv. net use M: \\\\NAS\\Media) of vul het pad in.', m_ok:'Bereikbaar', m_bad:'Niet bereikbaar op dit moment',
+  map_letter:'Welke stationsletter?', map_ok:'Gekoppeld aan ', map_bad:'Koppelen mislukt: ', s_maxh:'Maximale resolutie om te encoden',
+  s_subs:'Ondertitels', s_subs_on:'Ondertitels maken op deze pc', s_subs_hint:'Zet je dit later aan, draai dan Install-Worker.bat nog een keer: die installeert Whisper en Ollama.',
+  s_os_key:'OpenSubtitles API-key (optioneel)', s_os_user:'OpenSubtitles gebruikersnaam', s_os_pw:'OpenSubtitles wachtwoord', unchanged:'(ongewijzigd)', s_os_hint:'Gratis account op opensubtitles.com; API-key onder Profile > API consumers. Leeg = alleen Whisper en vertalen.',
+  s_whisper:'Whisper-model', s_ourl:'Ollama-adres', s_omodel:'Vertaalmodel (Ollama)', o_list:'Geïnstalleerd: ', o_none:'Ollama niet bereikbaar of nog geen model gedownload.',
+  save:'Opslaan', saved:'Opgeslagen', q_apply:'Worker nu herstarten?', q_apply_t:'De nieuwe instellingen gelden pas na een herstart van de worker. Een lopende job gaat terug in de wachtrij.', yes_apply:'Herstarten', later:'Later',
+  setup:'Maak de installatie af: vul het adres van het dashboard en de worker-key in en klik op Opslaan.'
 } : {
   start:'Start', stop:'Stop', restart:'Restart', now:'Working on', log:'Log', wlog:'Worker', mlog:'Manager', folder:'Open folder', openlog:'Open in Notepad',
   quit:'Quit (stop everything)', dash:'Open dashboard', running:'Running', stopped:'Stopped', starting:'Starting…', crashed:'Stopped after errors', manager:'Manager',
@@ -2188,7 +2373,16 @@ const T = NL ? {
   s_server_bad:'Cannot reach the server: ', ver:'Version', up:'Running since', restarts:'Crashes', lastr:'Last restart', why:{crash:'crash', update:'update', manual:'manual'}, server:'Server', noj:'No job right now.',
   encode:'Encoding', cpu:'CPU encoding', subs:'Subtitles', since:'running for ', q_title:'Quit MediaScan?', q_text:'This stops the worker and the manager. A running job goes back to the queue. Everything starts again at your next sign-in.',
   q_stop:'Stop the worker?', q_stop_t:'A running job goes back to the queue. The worker stays off, also after a reboot, until you start it again.', yes_quit:'Quit', yes_stop:'Stop', cancel:'Cancel',
-  locked:'Open MediaScan with the MediaScan icon in the system tray, or Start > MediaScan.', lost:'The manager is not responding. Restart it via the M icon or the Start menu.', gone:'MediaScan has been closed. You can close this window.', done:'Done', failed:'Failed', enc_off:'encoding off', subs_off:'subtitles off'
+  locked:'Open MediaScan with the MediaScan icon in the system tray, or Start > MediaScan.', lost:'The manager is not responding. Restart it via the M icon or the Start menu.', gone:'MediaScan has been closed. You can close this window.', done:'Done', failed:'Failed', enc_off:'encoding off', subs_off:'subtitles off',
+  settings:'Settings', close:'Close', s_title:'Settings', s_intro:'These live in worker.ini. After saving, the worker restarts so the new settings take effect.',
+  s_dash:'Dashboard', s_url:'Dashboard address', s_key:'Worker key (dashboard > Workers > Add worker)', show:'Show', hide:'Hide', test:'Test connection', t_ok:'Connected · the dashboard serves worker ', t_bad:'Failed: ',
+  s_this:'This worker', s_name:'Name', s_media:'Media share', find:'Find', map:'Map to drive letter', m_found:'Found: the library is on ', m_none:'Not found. Map the share first (e.g. net use M: \\\\NAS\\Media) or enter the path.', m_ok:'Reachable', m_bad:'Not reachable right now',
+  map_letter:'Which drive letter?', map_ok:'Mapped to ', map_bad:'Mapping failed: ', s_maxh:'Maximum resolution to encode',
+  s_subs:'Subtitles', s_subs_on:'Make subtitles on this PC', s_subs_hint:'If you turn this on later, run Install-Worker.bat once more: it installs Whisper and Ollama.',
+  s_os_key:'OpenSubtitles API key (optional)', s_os_user:'OpenSubtitles username', s_os_pw:'OpenSubtitles password', unchanged:'(unchanged)', s_os_hint:'Free account at opensubtitles.com; the API key is under Profile > API consumers. Empty = Whisper and translation only.',
+  s_whisper:'Whisper model', s_ourl:'Ollama address', s_omodel:'Translation model (Ollama)', o_list:'Installed: ', o_none:'Ollama not reachable, or no model downloaded yet.',
+  save:'Save', saved:'Saved', q_apply:'Restart the worker now?', q_apply_t:'The new settings only apply after the worker restarts. A running job goes back to the queue.', yes_apply:'Restart', later:'Later',
+  setup:'Finish the setup: enter the dashboard address and the worker key, then click Save.'
 };
 document.documentElement.lang = NL ? 'nl' : 'en';
 const $ = s => document.querySelector(s);
@@ -2196,7 +2390,7 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 const dur = s => { s = Math.max(0, Math.floor(s)); const d = Math.floor(s/86400), h = Math.floor(s%86400/3600), m = Math.floor(s%3600/60);
   return d ? `${d}d ${h}h` : h ? `${h}h ${m}m` : `${m}m`; };
 const base = p => String(p||'').split(/[\\/]/).pop();
-let ST = null, which = 'worker', busy = false, fails = 0, quitting = false;
+let ST = null, which = 'worker', busy = false, fails = 0, quitting = false, setupBanner = false;
 // The key arrives in the URL fragment (never sent to a server), is kept for this window only and sent as a header.
 let KEY = ''; try { const m = location.hash.match(/k=([\w-]+)/); if (m) { sessionStorage.setItem('k', m[1]); history.replaceState(null, '', '/'); } KEY = sessionStorage.getItem('k') || ''; } catch {}
 const api = (url, opt) => fetch(url, Object.assign({cache:'no-store'}, opt, {headers: Object.assign({'X-Key': KEY}, (opt||{}).headers)}));
@@ -2249,13 +2443,63 @@ function render(){
   $('#ver').textContent = 'MediaScan Manager ' + s.version;
 }
 
+async function post(action, extra){
+  const r = await api('/api/action', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(Object.assign({action}, extra||{}))});
+  if (!r.ok) throw new Error(r.status);
+  return (await r.json()).result;
+}
+const F = id => $('#f-' + id);
+let SET = null;
+function showSettings(on){ $('#c-settings').hidden = !on; $('#c-worker').hidden = on; $('#c-jobs').hidden = on; if (on) { loadSettings(); setTimeout(() => F('url').focus(), 50); } }
+function note(el, text, cls){ el.textContent = text; el.className = 'small' + (cls ? ' ' + cls : ''); }
+async function loadSettings(){
+  try { const r = await api('/api/settings'); if (!r.ok) throw 0; SET = await r.json(); } catch { return; }
+  F('url').value = SET.url; F('token').value = SET.token; F('name').value = SET.name; F('media').value = SET.media;
+  F('maxh').value = String(SET.max_height); if (F('maxh').value !== String(SET.max_height)) F('maxh').value = '0';
+  F('subs').checked = SET.subs; $('#subs-more').classList.toggle('off', !SET.subs);
+  F('oskey').value = SET.os_key; F('osuser').value = SET.os_user; F('ospw').value = ''; F('ospw').placeholder = SET.os_pw_set ? T.unchanged : '';
+  const wm = F('whisper'); wm.innerHTML = [...new Set([SET.whisper, 'large-v3', 'large-v3-turbo', 'medium', 'small', 'base'])].map(m => `<option value="${esc(m)}">${esc(m)}</option>`).join(''); wm.value = SET.whisper;
+  F('ourl').value = SET.ollama_url; F('omodel').value = SET.ollama_model;
+  $('#omodels').innerHTML = SET.ollama_models.map(m => `<option value="${esc(m)}">`).join('');
+  note($('#o-res'), SET.ollama_models.length ? T.o_list + SET.ollama_models.join(', ') : T.o_none, SET.ollama_models.length ? '' : 'bad');
+  note($('#m-res'), SET.media ? (SET.media_ok ? T.m_ok : T.m_bad) : '', SET.media_ok ? 'ok' : 'bad'); note($('#t-res'), '');
+  $('#b-map').hidden = !/^\\\\/.test(F('media').value);
+}
+function collect(){
+  return {url: F('url').value, token: F('token').value, name: F('name').value, media: F('media').value, max_height: F('maxh').value, subs: F('subs').checked,
+    os_key: F('oskey').value, os_user: F('osuser').value, os_pw: F('ospw').value, whisper: F('whisper').value, ollama_url: F('ourl').value, ollama_model: F('omodel').value};
+}
+function wireSettings(){
+  document.querySelectorAll('[data-t]').forEach(el => el.textContent = T[el.dataset.t] || '');
+  $('#b-settings').textContent = T.settings;
+  $('#b-settings').onclick = () => showSettings($('#c-settings').hidden);
+  $('#b-close').onclick = () => showSettings(false);
+  $('#b-show').onclick = () => { const t = F('token'); t.type = t.type === 'password' ? 'text' : 'password'; $('#b-show').textContent = t.type === 'password' ? T.show : T.hide; };
+  F('subs').onchange = () => $('#subs-more').classList.toggle('off', !F('subs').checked);
+  F('media').oninput = () => { $('#b-map').hidden = !/^\\\\/.test(F('media').value); };
+  F('url').oninput = F('token').oninput = () => note($('#t-res'), '');
+  const run = async (btn, fn) => { btn.classList.add('busy'); btn.disabled = true; try { await fn(); } catch (e) { toast(T.failed + ' (' + e.message + ')'); } finally { btn.classList.remove('busy'); btn.disabled = false; } };
+  $('#b-test').onclick = e => run(e.currentTarget, async () => { const r = await post('test_server', {url: F('url').value, token: F('token').value});
+    note($('#t-res'), r.ok ? T.t_ok + (r.version || '?') : T.t_bad + r.error, r.ok ? 'ok' : 'bad'); });
+  $('#b-find').onclick = e => run(e.currentTarget, async () => { const r = await post('find_media', {url: F('url').value, token: F('token').value});
+    if (r.path) { F('media').value = r.path; note($('#m-res'), T.m_found + r.path, 'ok'); } else note($('#m-res'), T.m_none, 'bad'); });
+  $('#b-map').onclick = e => { const letter = prompt(T.map_letter, 'M'); if (!letter) return; run(e.currentTarget, async () => { const r = await post('map_share', {path: F('media').value, letter});
+    if (r.ok) { F('media').value = r.path; $('#b-map').hidden = true; note($('#m-res'), T.map_ok + r.path, 'ok'); } else note($('#m-res'), T.map_bad + r.error, 'bad'); }); };
+  $('#settings').onsubmit = e => { e.preventDefault(); run($('#b-save'), async () => {
+    const r = await post('save_settings', collect()); if (r !== 'ok') { toast(T.failed + ': ' + r); return; }
+    toast(T.saved); $('#banner').hidden = true; setupBanner = false;
+    const j = ST && ST.jobs.worker || {};
+    if (j.running && await ask(T.q_apply, T.q_apply_t, T.yes_apply)) await post('restart'); else if (!j.running && j.wanted !== 'running') await post('start');
+    showSettings(false); refresh(); }); };
+}
+
 function locked(){ quitting = true; document.body.innerHTML = `<div id="app"><div class="card gone">${esc(T.locked)}</div></div>`; }
 async function refresh(){
   if (quitting) return;
   try {
     const r = await api('/api/state'); if (r.status === 401) return locked(); if (!r.ok) throw 0;
-    ST = await r.json(); fails = 0; $('#banner').hidden = true; render();
-  } catch { if (++fails >= 3) { const b = $('#banner'); b.textContent = T.lost; b.hidden = false; } }
+    ST = await r.json(); fails = 0; if (!setupBanner) $('#banner').hidden = true; render();
+  } catch { if (++fails >= 3) { const b = $('#banner'); b.textContent = T.lost; b.className = 'banner'; b.hidden = false; setupBanner = false; } }
 }
 async function loadLog(){
   if (quitting) return;
@@ -2278,6 +2522,8 @@ document.addEventListener('DOMContentLoaded', () => {
   $('#b-folder').onclick = e => act('open_folder', e.currentTarget);
   $('#b-openlog').onclick = e => act('open_log', e.currentTarget, {which});
   document.addEventListener('keydown', e => { if (e.key === 'Escape') $('#m-no').click(); });
+  wireSettings();
+  api('/api/settings').then(r => r.ok ? r.json() : null).then(d => { if (d && !d.configured) { setupBanner = true; const b = $('#banner'); b.textContent = T.setup; b.className = 'banner info'; b.hidden = false; showSettings(true); } }).catch(() => {});
   refresh(); loadLog(); setInterval(refresh, 1500); setInterval(loadLog, 3000);
 });
 '''

@@ -133,8 +133,8 @@ More detail, including Unraid, reverse proxies and backups, is in
 
 ### 2. Worker (Windows, macOS or Linux)
 
-In the dashboard, go to **Workers › Add worker**. Download the package for your system and run the
-installer:
+In the dashboard, go to **Workers › Add worker**. Download the package for your system (it already
+contains the dashboard address and the worker key) and run the installer:
 
 | System | Run | What it sets up |
 |---|---|---|
@@ -142,9 +142,10 @@ installer:
 | macOS 13+ (Apple Silicon) | `bash install.sh` | Homebrew packages, the worker as a launchd service |
 | Linux (x86-64) | `bash install.sh` | ffmpeg with VMAF, the worker as a systemd user service |
 
-The installer asks for the dashboard address and the worker key (both shown on the Workers page). It
-tests the connection and can also set up subtitles (Whisper + Ollama). The worker appears in the
-dashboard within a minute. Details: [docs/install-worker.md](docs/install-worker.md).
+The installer tests the connection, finds the media share by itself and asks at most one question:
+whether to set up subtitles (Whisper + Ollama). The worker appears in the dashboard within a minute.
+On Windows, everything else can be changed later in the MediaScan app (Settings). Details:
+[docs/install-worker.md](docs/install-worker.md).
 
 ### 3. Go
 

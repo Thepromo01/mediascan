@@ -81,42 +81,69 @@ if ((Resolve-Path $Src).Path.TrimEnd('\') -ieq (Resolve-Path $Base).Path.TrimEnd
 Step '4/6 Settings'
 Stop-Transcript | Out-Null          # keep keys and passwords out of the install log
 $ini = Join-Path $Base 'worker.ini'
-$ask = (-not (Test-Path $ini)) -or (Yes 'Settings already exist. Enter them again?' $false)
-if ($ask) {
-  $url = ''; $token = ''
-  while ($true) {
-    $url   = (Ask 'Dashboard address, e.g. http://192.168.1.10:8780' (Ini-Get $ini 'server' 'url')).TrimEnd('/')
-    $token = Ask 'Worker key (dashboard > Workers > Add worker)' (Ini-Get $ini 'server' 'worker_token')
-    try {
-      $r = Invoke-RestMethod -Method Post -Uri "$url/api/worker/update" -Headers @{ Authorization = "Bearer $token" } `
-           -ContentType 'application/json' -Body '{}' -TimeoutSec 10
-      Write-Host ("  Connection OK (dashboard serves worker {0})" -f $r.version) -ForegroundColor Green; break
-    } catch {
-      Warn "dashboard unreachable or key incorrect: $($_.Exception.Message)"
-      if (-not (Yes 'Try again?' $true)) { break }
+$pre = Join-Path $Src 'worker.ini'  # a package downloaded from the dashboard ships the address and key already filled in
+function Test-Dashboard([string]$u, [string]$t) {
+  try {
+    $r = Invoke-RestMethod -Method Post -Uri "$u/api/worker/update" -Headers @{ Authorization = "Bearer $t" } -ContentType 'application/json' -Body '{}' -TimeoutSec 10
+    Write-Host ("  Connection OK (dashboard serves worker {0})" -f $r.version) -ForegroundColor Green; return $true
+  } catch { Warn "dashboard unreachable or key incorrect: $($_.Exception.Message)"; return $false }
+}
+function Find-Media([string]$u, [string]$t) {
+  # The dashboard tells which folders the library starts with; the drive that has them is the media share.
+  try { $roots = @((Invoke-RestMethod -Uri "$u/api/worker/roots" -Headers @{ Authorization = "Bearer $t" } -TimeoutSec 10).roots) } catch { return '' }
+  if (-not $roots.Count) { return '' }
+  $best = ''; $bestN = 0
+  foreach ($d in Get-PSDrive -PSProvider FileSystem | Where-Object { $_.Root -match '^[A-Z]:\\$' }) {
+    $n = @($roots | Where-Object { Test-Path -LiteralPath (Join-Path $d.Root $_) -PathType Container }).Count
+    if ($n -gt $bestN) { $bestN = $n; $best = $d.Root }
+  }
+  if ($bestN -ge [math]::Max(1, [math]::Ceiling($roots.Count / 2))) { return $best }
+  return ''
+}
+# connection: existing settings, else the values shipped in the package, else ask
+$url = Ini-Get $ini 'server' 'url'; $token = Ini-Get $ini 'server' 'worker_token'
+if (-not ($url -and $token) -and (Test-Path $pre)) { $url = Ini-Get $pre 'server' 'url'; $token = Ini-Get $pre 'server' 'worker_token' }
+$url = $url.TrimEnd('/')
+$ok = ($url -and $token) -and (Test-Dashboard $url $token)
+while (-not $ok) {
+  $url   = (Ask 'Dashboard address, e.g. http://192.168.1.10:8780' $url).TrimEnd('/')
+  $token = Ask 'Worker key (dashboard > Workers > Add worker)' $token
+  $ok = Test-Dashboard $url $token
+  if (-not $ok -and -not (Yes 'Try again?' $true)) { break }
+}
+# media share: keep a working setting, else look for the library on the drives, else ask
+$media = Ini-Get $ini 'worker' 'media_root'
+if (-not ($media -and (Test-Path -LiteralPath $media))) {
+  $found = if ($ok) { Find-Media $url $token } else { '' }
+  if ($found) { $media = $found; Write-Host "  Media share found: $media" -ForegroundColor Green }
+  else {
+    $media = Ask 'Drive letter or path of the media share (e.g. M:\ or \\NAS\Media)' $(if ($media) { $media } else { 'M:\' })
+    if ($media -match '^\\\\' -and (Yes "Map $media to a drive letter? (recommended)" $true)) {
+      $free = @('M','N','P','Q','R','S','T','V','W','X','Y','Z') | Where-Object { -not (Test-Path "$($_):\") } | Select-Object -First 1
+      $letter = Ask '  Drive letter' $free
+      & net use "$($letter):" $media /persistent:yes | Out-Host
+      if ($LASTEXITCODE -eq 0) { $media = "$($letter):\" } else { Warn "mapping failed (a username may be needed: net use $($letter): $media /user:NAME /persistent:yes)" }
     }
+    if (-not (Test-Path -LiteralPath $media)) { Warn "$media is not reachable right now; the worker waits until it is available" }
   }
-  $media = Ask 'Drive letter or path of the media share (e.g. M:\ or \\NAS\Media)' $(if (Ini-Get $ini 'worker' 'media_root') { Ini-Get $ini 'worker' 'media_root' } else { 'M:\' })
-  if (-not (Test-Path $media)) { Warn "$media is not reachable right now. Map the share, e.g.:  net use M: \\NAS\Media /persistent:yes  (the worker waits until it is available)" }
-  $name  = Ask 'Name of this worker' $(if (Ini-Get $ini 'worker' 'name') { Ini-Get $ini 'worker' 'name' } else { $env:COMPUTERNAME })
-  $maxh  = Ask 'Maximum resolution (0 = everything, 1080 = up to Full HD)' $(if (Ini-Get $ini 'worker' 'max_height') { Ini-Get $ini 'worker' 'max_height' } else { '0' })
-  $subs  = Yes 'Also create subtitles? (recommended: NVIDIA GPU with 8+ GB, ~20 GB extra disk space)' ([bool]$nvidia)
-  $os_key = ''; $os_user = ''; $os_pw = ''; $model = 'gemma4:12b'
-  if ($subs) {
-    Write-Host '  OpenSubtitles account (free at opensubtitles.com; API key under Profile > API consumers). Leave empty = Whisper/translation only.'
-    $os_key  = Ask '  API key' (Ini-Get $ini 'opensubtitles' 'api_key')
-    $os_user = Ask '  Username' (Ini-Get $ini 'opensubtitles' 'username')
-    $sec = Read-Host '  Password (empty = keep current)' -AsSecureString
-    $os_pw = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($sec))
-    if (-not $os_pw) { $os_pw = Ini-Get $ini 'opensubtitles' 'password' }
-    $vram = 0
-    try { $vram = [int](& nvidia-smi --query-gpu=memory.total --format=csv,noheader,nounits | Select-Object -First 1) } catch {}
-    $def = if ($vram -ge 12000) { 'gemma4:12b' } elseif ($vram -ge 7000) { 'gemma3:4b' } else { 'gemma3:1b' }
-    $cur = Ini-Get $ini 'translation' 'ollama_model'; if (-not $cur) { $cur = Ini-Get $ini 'vertaling' 'ollama_model' }   # [vertaling] = old section name
-    $model = Ask '  Translation model (Ollama)' $(if ($cur) { $cur } else { $def })
-  }
-  $osl = (@(@('api_key', $os_key), @('username', $os_user), @('password', $os_pw)) | Where-Object { $_[1] } | ForEach-Object { "$($_[0]) = $($_[1])" }) -join "`r`n"
-  $txt = @"
+}
+# the rest keeps its current value or a sensible default; change it later in the MediaScan app (Settings)
+$name = Ini-Get $ini 'worker' 'name'; if (-not $name) { $name = $env:COMPUTERNAME }
+$maxh = Ini-Get $ini 'worker' 'max_height'; if (-not $maxh) { $maxh = '0' }
+$cur = Ini-Get $ini 'worker' 'subs'
+if ($cur) { $subs = ($cur -eq 'true') }
+else { $subs = Yes 'Also create subtitles on this machine? (recommended with an NVIDIA GPU of 8+ GB; ~20 GB extra disk space)' ([bool]$nvidia) }
+$os_key = Ini-Get $ini 'opensubtitles' 'api_key'; $os_user = Ini-Get $ini 'opensubtitles' 'username'; $os_pw = Ini-Get $ini 'opensubtitles' 'password'
+$whisper = Ini-Get $ini 'whisper' 'model'; if (-not $whisper) { $whisper = 'large-v3' }
+$ourl = Ini-Get $ini 'translation' 'ollama_url'; if (-not $ourl) { $ourl = 'http://localhost:11434' }
+$model = Ini-Get $ini 'translation' 'ollama_model'; if (-not $model) { $model = Ini-Get $ini 'vertaling' 'ollama_model' }   # [vertaling] = old section name
+if (-not $model) {
+  $vram = 0
+  try { $vram = [int](& nvidia-smi --query-gpu=memory.total --format=csv,noheader,nounits | Select-Object -First 1) } catch {}
+  $model = if ($vram -ge 12000) { 'gemma4:12b' } elseif ($vram -ge 7000) { 'gemma3:4b' } else { 'gemma3:1b' }
+}
+$osl = (@(@('api_key', $os_key), @('username', $os_user), @('password', $os_pw)) | Where-Object { $_[1] } | ForEach-Object { "$($_[0]) = $($_[1])" }) -join "`r`n"
+$txt = @"
 [server]
 url = $url
 worker_token = $token
@@ -133,16 +160,16 @@ auto_update = true
 $osl
 
 [whisper]
-model = large-v3
+model = $whisper
 
 [translation]
-ollama_url = http://localhost:11434
+ollama_url = $ourl
 ollama_model = $model
 "@
-  [IO.File]::WriteAllText($ini, $txt, $Utf8)
-  # only this user may read the file (keys and password)
-  & icacls $ini /inheritance:r /grant:r "$($env:USERNAME):(R,W)" | Out-Null
-}
+[IO.File]::WriteAllText($ini, $txt, $Utf8)
+# only this user may read the file (keys and password)
+& icacls $ini /inheritance:r /grant:r "$($env:USERNAME):(R,W)" | Out-Null
+Write-Host '  Settings saved. Change them any time in the MediaScan app (tray icon > Settings).'
 $subsOn = (Ini-Get $ini 'worker' 'subs') -eq 'true'
 Start-Transcript -Path (Join-Path $Base 'install-log.txt') -Append | Out-Null
 

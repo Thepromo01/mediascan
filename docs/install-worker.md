@@ -4,14 +4,17 @@ A worker does the heavy lifting: encoding, VMAF measurements and subtitles. It r
 that can reach the dashboard and has the media share mounted. You can run several workers. Each
 one picks the next job as soon as it's free.
 
-Packages for every system are on the dashboard under **Workers › Add worker**. The same page shows
-the **dashboard address** and the **worker key** the installer asks for.
+Packages for every system are on the dashboard under **Workers › Add worker**. A package you download
+there already contains the **dashboard address** and the **worker key**, so the installer has nothing
+to ask about the connection. (The same page shows both values, in case you ever need them by hand.)
 
 ## What the installers do
 
-Each installer checks the machine, installs what is missing, asks a few questions, tests the
-connection to the dashboard, and starts the worker as a background service. You can run it again
-at any time to update or change settings.
+Each installer checks the machine, installs what is missing, tests the connection to the dashboard,
+and starts the worker as a background service. On Windows it also finds the media share by itself:
+the dashboard tells it which folders the library starts with, and the drive that has them is the
+share. In the normal case the only question is whether to set up subtitles. You can run the installer
+again at any time to update; existing settings are kept.
 
 | | Windows 10/11 | macOS 13+ (Apple Silicon) | Linux (x86-64) |
 |---|---|---|---|
@@ -30,8 +33,9 @@ that).
 The worker reads originals from the share and writes new files back to it, so it needs read and
 write access.
 
-- **Windows:** map a drive letter, for example `net use M: \\NAS\Media /persistent:yes`, or enter
-  the UNC path `\\NAS\Media` when the installer asks.
+- **Windows:** a mapped drive letter is found automatically. If the installer cannot find the share,
+  it asks for the path; enter `\\NAS\Media` and it offers to map it to a drive letter for you.
+  By hand: `net use M: \\NAS\Media /persistent:yes`.
 - **macOS:** Finder › Go › Connect to Server › `smb://nas/Media`. To mount it at login, add it under
   System Settings › General › Login Items.
 - **Linux:** add the share to `/etc/fstab` (CIFS or NFS). See `README-linux.md` in the package
@@ -49,6 +53,14 @@ MediaScan**, to open the MediaScan app:
 - **Start**, **Stop** and **Restart** for the worker
 - the live worker log and the manager log
 - **Open dashboard** and **Quit (stop everything)**
+- **Settings**: the dashboard address and key (with *Test connection*), the worker's name, the media
+  share (*Find* looks for the library on your drives, *Map to drive letter* maps a `\\NAS\Media`
+  path), the maximum resolution, and the subtitle settings (OpenSubtitles account, Whisper model,
+  Ollama address and translation model, with the models Ollama has installed listed). Saving
+  restarts the worker so the new settings apply.
+
+The app opens in your default browser as its own window (Brave, Chrome, Edge and other Chromium
+browsers; otherwise Edge). When the setup is not finished yet, the app opens on the Settings form.
 
 The icon color shows the state at a glance: **orange** means working, **green** means waiting for
 work, **grey** means stopped, and **red** means a problem (crashing, or the server can't be reached).
@@ -62,9 +74,9 @@ after a reboot, until you start it again. **Quit** stops everything until your n
 
 ## Worker settings
 
-The installer writes `worker.ini`. You can change it by running the installer again, or edit it
-and restart the worker. To add settings without touching secrets, put them in `overrides.ini` in
-the same folder; it wins over `worker.ini`.
+The installer writes `worker.ini`. On Windows, change it in the MediaScan app (Settings); on macOS
+and Linux, run the installer again or edit the file and restart the worker. To add settings without
+touching secrets, put them in `overrides.ini` in the same folder; it wins over `worker.ini`.
 
 ```ini
 [server]

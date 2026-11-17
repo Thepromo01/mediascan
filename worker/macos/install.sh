@@ -52,10 +52,13 @@ ask() { local a; read -rp "$1${2:+ [$2]}: " a; echo "${a:-$2}"; }
 yes() { local a; read -rp "$1 ($([ "$2" = 1 ] && echo Y/n || echo y/N)): " a; [ -z "$a" ] && [ "$2" = 1 ] && return 0; [[ "$a" =~ ^[yYjJ] ]]; }
 ini() { { cat config.ini worker.ini 2>/dev/null || true; } | awk -F' *= *' -v s="[$1]" -v k="$2" '$0==s{f=1;next} /^\[/{f=0} f&&$1==k{v=$2} END{print v}'; }
 ini_tr() { local v; v="$(ini translation "$1")"; [ -n "$v" ] || v="$(ini vertaling "$1")"; echo "$v"; }   # [vertaling] = old name of [translation]
+# a package downloaded from the dashboard ships a worker.ini with the address and key already filled in
+pre() { [ -f "$SRC/worker.ini" ] && awk -F' *= *' -v s="[server]" -v k="$1" '$0==s{f=1;next} /^\[/{f=0} f&&$1==k{print $2;exit}' "$SRC/worker.ini" || true; }
 if [ ! -f worker.ini ] || yes "Settings already exist. Enter them again?" 0; then
   while :; do
-    URL="$(ask 'Dashboard address, e.g. http://192.168.1.10:8780' "$(ini server url)")"; URL="${URL%/}"
-    TOKEN="$(ask "Worker key (dashboard > Workers > Add worker)" "$(ini server worker_token)")"
+    DU="$(ini server url)"; [ -n "$DU" ] || DU="$(pre url)"; DT="$(ini server worker_token)"; [ -n "$DT" ] || DT="$(pre worker_token)"
+    URL="$(ask 'Dashboard address, e.g. http://192.168.1.10:8780' "$DU")"; URL="${URL%/}"
+    TOKEN="$(ask "Worker key (dashboard > Workers > Add worker)" "$DT")"
     if V="$(curl -fsS -m 10 -X POST -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{}' "$URL/api/worker/update")"; then
       echo "   Connection OK ($V)"; break
     fi

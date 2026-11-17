@@ -400,11 +400,51 @@ def _worker_version():
 
 
 @app.get('/api/download/{name}', dependencies=[Depends(require_user)])
-def download(name: str):
+def download(name: str, url: str = ''):
+    """A worker package. With ?url=<dashboard address> it ships a worker.ini with that address and the worker key,
+    so the installer has nothing to ask about the connection."""
     if name not in DOWNLOADS.values(): raise HTTPException(404)
     p = os.path.join(DIST, 'downloads', name)
     if not os.path.exists(p): raise HTTPException(404, 'package missing from this installation')
-    return FileResponse(p, filename=name)
+    url = url.strip().rstrip('/')
+    if not url: return FileResponse(p, filename=name)
+    if not re.match(r'^https?://[A-Za-z0-9.\-\[\]:]+$', url): raise HTTPException(400, 'invalid address')
+    ini = f'[server]\nurl = {url}\nworker_token = {worker_token()}\n'
+    data = _package_with_ini(p, ini)
+    ctype = 'application/zip' if name.endswith('.zip') else 'application/gzip'
+    return Response(data, media_type=ctype, headers={'Content-Disposition': f'attachment; filename="{name}"', 'Cache-Control': 'no-store'})
+
+
+def _package_with_ini(path, ini):
+    """The package bytes with a worker.ini added next to the installer (same top folder as the other files)."""
+    import io, tarfile, zipfile
+    raw = open(path, 'rb').read()
+    if path.endswith('.zip'):
+        with zipfile.ZipFile(io.BytesIO(raw)) as z:
+            top = z.namelist()[0].split('/')[0]
+        buf = io.BytesIO(raw)
+        with zipfile.ZipFile(buf, 'a', zipfile.ZIP_DEFLATED) as z:
+            z.writestr(zipfile.ZipInfo(f'{top}/worker.ini', (2026, 1, 1, 0, 0, 0)), ini.replace('\n', '\r\n'), zipfile.ZIP_DEFLATED)
+        return buf.getvalue()
+    out = io.BytesIO()
+    with tarfile.open(fileobj=io.BytesIO(raw), mode='r:gz') as src, tarfile.open(fileobj=out, mode='w:gz') as dst:
+        top = None
+        for m in src.getmembers():
+            top = top or m.name.split('/')[0]
+            dst.addfile(m, src.extractfile(m) if m.isfile() else None)
+        ti = tarfile.TarInfo(f'{top}/worker.ini'); body = ini.encode(); ti.size = len(body); ti.mtime = 1767225600; ti.mode = 0o600
+        dst.addfile(ti, io.BytesIO(body))
+    return out.getvalue()
+
+
+@app.get('/api/worker/roots', dependencies=[Depends(require_worker)])
+def worker_roots():
+    """Top-level folders of the library: an installer uses them to recognise the media share on the worker."""
+    try:
+        names = sorted(n for n in os.listdir(MEDIA) if not n.startswith(('.', '_')) and os.path.isdir(os.path.join(MEDIA, n)))
+    except OSError:
+        names = []
+    return {'roots': names[:50]}
 
 
 @app.post('/api/worker/update', dependencies=[Depends(require_worker)])

@@ -45,5 +45,8 @@ Start-ScheduledTask -TaskName 'MediaScan Manager'
 Write-Host 'Waiting for the manager...'
 $ok = $false
 for ($i = 0; $i -lt 20 -and -not $ok; $i++) { Start-Sleep -Seconds 2; $ok = Test-Path (Join-Path $Base 'status\manager.json') }
-if ($ok) { Write-Host 'MediaScan is running. The MediaScan icon is in the system tray (maybe under the ^ arrow); click it to open the app.' -ForegroundColor Green }
+if ($ok) {
+  Write-Host 'MediaScan is running. The MediaScan icon is in the system tray (maybe under the ^ arrow); click it to open the app.' -ForegroundColor Green
+  Start-Process $pyw -ArgumentList "`"$mgr`" --open" -WorkingDirectory $Base      # show the app now
+}
 else { Write-Host 'Task created, but the manager did not start yet. See %LOCALAPPDATA%\MediaScan\logs\manager.log.' -ForegroundColor Yellow }

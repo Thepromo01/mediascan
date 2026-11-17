@@ -705,9 +705,8 @@ let showAdd = false;
 function workerAddHtml(){
   return `<div class="card"><h3>Add worker</h3>
     <ol class="steps">
-      <li><b>Connect the media share on the new machine.</b><span class="hint">Windows: drive letter or \\\\NAS\\Media · Mac: Finder › Connect to Server · Linux: see the instructions in the package.</span></li>
-      <li><b>Download the package for that system and unpack it.</b><span class="btns">${(WS?.downloads||[]).map(d=>`<a href="${esc(d.file)}" download><button class="sm">${esc(d.name)}</button></a>`).join(' ')}</span></li>
-      <li><b>Run the installer.</b><span class="hint">Windows: Install-Worker.bat · Mac/Linux: bash install.sh</span><span class="hint">The installer asks for the details below and tests the connection.</span></li>
+      <li><b>Download the package for that system.</b><span class="hint">It already contains the dashboard address and the worker key.</span><span class="btns">${(WS?.downloads||[]).map(d=>`<a href="${esc(d.file)}?url=${encodeURIComponent(location.origin)}" download><button class="sm">${esc(d.name)}</button></a>`).join(' ')}</span></li>
+      <li><b>Unpack it and run the installer.</b><span class="hint">Windows: Install-Worker.bat · Mac/Linux: bash install.sh</span><span class="hint">The installer finds the media share by itself and asks at most one question (subtitles yes/no). Mac: connect the share in Finder first.</span></li>
     </ol>
     <div class="srow"><div><div class="lbl">Dashboard address</div><div class="hint">Use the IP address of the NAS, not localhost.</div></div><code>${esc(location.origin)}</code></div>
     <div class="srow"><div><div class="lbl">Worker key</div><div class="hint">Keep secret: with this key a worker can fetch jobs.</div></div>
