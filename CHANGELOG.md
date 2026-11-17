@@ -1,5 +1,33 @@
 # Changelog
 
+## 1.0.1
+
+**Simpler worker setup**
+- A package downloaded from the dashboard (Workers › Add worker) already contains the dashboard
+  address and the worker key, so the installer has nothing to ask about the connection.
+- Windows installer: finds the media share by itself (the dashboard tells it which folders the
+  library starts with), can map a `\\NAS\Media` path to a drive letter, keeps existing settings,
+  asks at most one question (subtitles yes/no), works when started from the MediaScan folder itself,
+  and opens the MediaScan app when done. Linux and macOS installers use the shipped address and key
+  as defaults.
+- MediaScan app (Windows): a **Settings** form for `worker.ini` with a connection test, a share
+  finder and drive mapping, the maximum resolution, and the subtitle settings (OpenSubtitles account,
+  Whisper model, Ollama address and translation model, with the installed Ollama models listed).
+  Saving restarts the worker. The app opens in your default browser as its own window (Brave,
+  Chrome, Edge and other Chromium browsers), and opens on the Settings form while the setup is not
+  finished.
+- The app removes files of older versions from the MediaScan folder, and the worker clears temp
+  folders a crash left behind.
+
+**Dashboard**
+- The queue pages (In progress, Encoding › Queue) load in milliseconds on large libraries; the queue
+  position was computed with a window function that SQLite re-evaluated per row.
+- Compare detail: previous/next as one compact control in the page header.
+- README: screenshots side by side.
+
+**Build**
+- GitHub Actions on Node 24 (checkout v7, setup-python v7, setup-node v7, Docker actions v4/v6/v7).
+
 ## 1.0.0 — first public release
 
 **Upgrading from a pre-1.0 install**
@@ -81,13 +109,7 @@
 **Workers**
 - Windows: a new MediaScan app (local, in the dashboard's style) shows what the worker is doing,
   its log, and start/stop/restart controls. It replaces the old PowerShell service and status
-  window. Its Settings form edits `worker.ini` (connection test, share finder and drive mapping,
-  subtitle settings with the installed Ollama models listed) and the app opens in your default
-  browser as its own window.
-- Simpler install: a package downloaded from the dashboard carries the address and the worker key,
-  the Windows installer finds the media share by itself (and can map a `\\NAS\Media` path to a
-  drive letter), keeps existing settings, and asks at most one question (subtitles yes/no). It opens
-  the MediaScan app when done.
+  window.
 - Workers report their status locally, and the Windows manager is updated together with the worker.
 - A finished job is reported until the server answers, so hours of encoding are never lost while the
   server is away; cancelling a subtitle job from the dashboard stops it at the next step.
@@ -98,8 +120,7 @@
 - English installers for Windows, macOS and Linux.
 - `worker.ini` section `[translation]` (the old name `[vertaling]` still works); the Windows scheduled task is
   called 'MediaScan Manager', its log is `manager.log` (an old `beheer.log` is carried over) and the installer
-  script is `install-manager.ps1`; the app removes the files of the old PowerShell service and the worker clears
-  temp folders a crash left behind; macOS log rotation.
+  script is `install-manager.ps1`; macOS log rotation.
 - Comparison frames are chosen by content: the busiest and the quietest moment of the film (measured from the
   video packet sizes) plus the quarter and three-quarter marks, each shot labelled with its reason.
 - Workers report the checksums of their files, so the dashboard can tell when one is out of date.

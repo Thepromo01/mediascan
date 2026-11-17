@@ -4,7 +4,7 @@ FROM python:3.12.16-slim-trixie
 LABEL org.opencontainers.image.title="MediaScan" \
       org.opencontainers.image.description="Shrink a movie/TV library to HEVC with VMAF-verified quality, and fill in missing subtitles" \
       org.opencontainers.image.licenses="PolyForm-Noncommercial-1.0.0" \
-      org.opencontainers.image.version="1.0.0"
+      org.opencontainers.image.version="1.0.1"
 
 # ffmpeg/ffprobe: scanning the library and the final check before a file is replaced
 RUN apt-get update \

@@ -14,7 +14,7 @@ Usage:  pythonw manager.py            run (normally started by the scheduled tas
 """
 import base64, configparser, ctypes, ctypes.wintypes as wt, hashlib, hmac, http.server, json, os, re, secrets, socket, subprocess, sys, threading, time, urllib.error, urllib.parse, urllib.request
 
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 BASE = os.environ.get('MEDIASCAN_HOME') or os.path.join(os.environ.get('LOCALAPPDATA', os.path.expanduser('~')), 'MediaScan')
 LOGS, STATUS, CTL = (os.path.join(BASE, d) for d in ('logs', 'status', 'control'))
 CTL_DONE = os.path.join(CTL, 'done')

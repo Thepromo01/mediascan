@@ -8,7 +8,7 @@ import os, re, sys, json, time, glob, shutil, socket, hashlib, threading, subpro
 import urllib.request, urllib.error
 from fractions import Fraction
 
-WORKER_VERSION = '1.0.0'
+WORKER_VERSION = '1.0.1'
 
 IS_MAC = sys.platform == 'darwin'
 OS_NAME = 'Windows' if os.name == 'nt' else ('macOS' if IS_MAC else 'Linux')

@@ -27,7 +27,7 @@ async def lifespan(_app):
     startup(); yield
 
 
-APP_VERSION = '1.0.0'
+APP_VERSION = '1.0.1'
 app = FastAPI(title='MediaScan', version=APP_VERSION, docs_url=None, redoc_url=None, openapi_url=None, lifespan=lifespan)
 app.add_middleware(GZipMiddleware, minimum_size=1000)
 
