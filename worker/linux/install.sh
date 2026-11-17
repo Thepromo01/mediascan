@@ -43,7 +43,7 @@ NVIDIA=0; command -v nvidia-smi >/dev/null && nvidia-smi -L >/dev/null 2>&1 && N
 if [ ! -f worker.ini ] || yes "Settings already exist. Enter them again?" 0; then
   while :; do
     DU="$(ini server url)"; [ -n "$DU" ] || DU="$(pre url)"; DT="$(ini server worker_token)"; [ -n "$DT" ] || DT="$(pre worker_token)"
-    URL="$(ask 'Dashboard address, e.g. http://192.168.1.10:8780' "$DU")"; URL="${URL%/}"
+    URL="$(ask 'Dashboard address, e.g. http://192.168.1.10:8780' "$DU")"; URL="${URL%/}"; [[ "$URL" =~ ^https?:// ]] || URL="http://$URL"
     TOKEN="$(ask "Worker key (dashboard > Workers > Add worker)" "$DT")"
     if V="$(curl -fsS -m 10 -X POST -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{}' "$URL/api/worker/update")"; then
       echo "   Connection OK ($V)"; break

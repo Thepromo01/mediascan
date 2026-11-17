@@ -407,6 +407,12 @@ CFG_FILES = [os.path.join(BASE, f) for f in ('config.ini', 'worker.ini', 'overri
 URL_RE = re.compile(r'^https?://[A-Za-z0-9.\-\[\]:]+$')
 
 
+def _url(u):
+    """'10.0.0.5:8780' or 'http://10.0.0.5:8780/' -> 'http://10.0.0.5:8780'."""
+    u = str(u).strip().rstrip('/')
+    return u if not u or re.match(r'^https?://', u) else 'http://' + u
+
+
 def _cfg():
     c = configparser.ConfigParser(interpolation=None); c.read(CFG_FILES, encoding='utf-8'); return c
 
@@ -438,7 +444,7 @@ def read_settings():
 
 def save_settings(d):
     """Write the fields of the app's Settings form to worker.ini (other keys in the file are kept)."""
-    url = str(d.get('url', '')).strip().rstrip('/')
+    url = _url(d.get('url', ''))
     if url and not URL_RE.match(url): return 'invalid dashboard address'
     media = str(d.get('media', '')).strip()
     if re.fullmatch(r'[A-Za-z]:', media): media += '\\'
@@ -473,7 +479,7 @@ def _server_call(url, token, path, data=None):
 
 
 def test_server(url, token):
-    url = str(url).strip().rstrip('/'); token = str(token).strip()
+    url = _url(url); token = str(token).strip()
     if not URL_RE.match(url): return {'ok': False, 'error': 'invalid address'}
     try:
         r = _server_call(url, token, '/api/worker/update', b'{}')
@@ -486,7 +492,7 @@ def test_server(url, token):
 
 def find_media(url, token):
     """The drive that holds the library's top folders (the dashboard says which), e.g. 'M:\\'."""
-    try: roots = [r for r in _server_call(str(url).strip(), str(token).strip(), '/api/worker/roots').get('roots', []) if r][:50]
+    try: roots = [r for r in _server_call(_url(url), str(token).strip(), '/api/worker/roots').get('roots', []) if r][:50]
     except Exception: roots = []
     if not roots: return {'path': '', 'roots': roots}
     mask = ctypes.windll.kernel32.GetLogicalDrives(); best, best_n = '', 0

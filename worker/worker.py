@@ -24,7 +24,8 @@ else:
 # overrides.ini (individual tweaks without secrets) are read too; later files take precedence.
 CFG_FILES = [os.path.join(LOCAL, f) for f in ('config.ini', 'worker.ini', 'overrides.ini')]
 CFG = configparser.ConfigParser(interpolation=None); CFG.read(CFG_FILES, encoding='utf-8')
-SERVER = CFG.get('server', 'url', fallback='').rstrip('/')
+SERVER = CFG.get('server', 'url', fallback='').strip().rstrip('/')
+if SERVER and not re.match(r'^https?://', SERVER): SERVER = 'http://' + SERVER      # '10.0.0.5:8780' without a scheme
 TOKEN = CFG.get('server', 'worker_token', fallback='')
 NAME = re.sub(r'[^A-Za-z0-9._ -]', '-', CFG.get('worker', 'name', fallback=socket.gethostname())).strip(' ._-')[:64] or 'worker'
 MEDIA = CFG.get('worker', 'media_root', fallback={'Windows': 'M:\\', 'macOS': '/Volumes/Media'}.get(OS_NAME, '/mnt/media'))

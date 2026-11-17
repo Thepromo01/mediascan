@@ -103,10 +103,10 @@ function Find-Media([string]$u, [string]$t) {
 # connection: existing settings, else the values shipped in the package, else ask
 $url = Ini-Get $ini 'server' 'url'; $token = Ini-Get $ini 'server' 'worker_token'
 if (-not ($url -and $token) -and (Test-Path $pre)) { $url = Ini-Get $pre 'server' 'url'; $token = Ini-Get $pre 'server' 'worker_token' }
-$url = $url.TrimEnd('/')
+$url = $url.TrimEnd('/'); if ($url -and $url -notmatch '^https?://') { $url = "http://$url" }
 $ok = ($url -and $token) -and (Test-Dashboard $url $token)
 while (-not $ok) {
-  $url   = (Ask 'Dashboard address, e.g. http://192.168.1.10:8780' $url).TrimEnd('/')
+  $url   = (Ask 'Dashboard address, e.g. http://192.168.1.10:8780' $url).TrimEnd('/'); if ($url -and $url -notmatch '^https?://') { $url = "http://$url" }
   $token = Ask 'Worker key (dashboard > Workers > Add worker)' $token
   $ok = Test-Dashboard $url $token
   if (-not $ok -and -not (Yes 'Try again?' $true)) { break }
